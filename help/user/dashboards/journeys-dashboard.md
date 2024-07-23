@@ -3,16 +3,16 @@ title: Kontrollpanel för reseöversikt
 description: Lär dig mer om informationen som tillhandahålls av kontrollpanelen för översikt över resan och hur den kan hjälpa dig att övervaka och hantera din strategi för kundresan.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
 
 # Kontrollpanel för reseöversikt
 
-Den här instrumentpanelen ger en heltäckande bild av engagemanget och visar realtidsstatistik över konton och individuella interaktioner via snapshot-donsdiagram och trendavslöjande linjediagram över tiden. Det hjälper er att övervaka och strategiska era engagemangsinsatser effektivt.
+Den här instrumentpanelen ger en omfattande översikt över en vald kontoresa, med detaljerad information om kontots förlopp med hjälp av donut- och linjediagram som kategoriserar och kvantifierar slutföranden, pågående aktiviteter och avbrutna över tid. Det hjälper marknadsförarna att utvärdera hur effektiva e-post- och SMS-kanalerna är med hjälp av nyckeltal för leverans och engagemang.
 
 ## Resestatus
 
@@ -85,7 +85,3 @@ Klicka på knappen i det övre högra hörnet om du vill dölja eller visa någo
 * [!UICONTROL Entry Date]
 * [!UICONTROL Exit Date]
 * [!UICONTROL Number of Days in Journey]
-
-Global filter:
-
-Datumfilter

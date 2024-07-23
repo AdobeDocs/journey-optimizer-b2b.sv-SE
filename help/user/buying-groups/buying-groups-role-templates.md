@@ -3,9 +3,9 @@ title: Köpa grupprollsmallar
 description: Lär dig hur du definierar en rollmall som ska användas som en köpgruppskomponent.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -55,13 +55,23 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 1. Lägg till en regel för varje roll som du vill definiera för mallen.
 
-   För den aktuella versionen finns det sex roller: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` och `Other`.
+* Välj **[!UICONTROL Buying group role]** i listan.
 
-   ![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+  För den aktuella versionen finns det sex roller: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` och `Other`.
 
-   * Välj en roll i listan.
+![Buying group roles list](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-   * Klicka på **[!UICONTROL Add Condition]**.
+* Ange **[!UICONTROL Weighting]** för rollen, som används för att beräkna engagemangspoängen.
+
+  Värdet för varje alternativ översätts till en procentandel för poängberäkningen: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80 och [!UICONTROL Vital] = 100.
+
+  En rollmall med roller som använder Vital, Viktigt och Normal konverteras sedan till 100/240, 80/240, 60/240.
+
+* **[!UICONTROL Add conditions for auto-assignment]** - Markera den här kryssrutan om du vill lägga till villkor för automatisk tilldelning av medlemmar till inköpsgruppen som matchar villkoret. Om kryssrutan inte är markerad är det INTE nödvändigt att lägga till villkor.
+
+* **[!UICONTROL Required for completeness score]** - Markera den här kryssrutan för rollen om du vill att den ska vara ett krav för att beräkna ett slutresultat. —>
+
+* Klicka på **[!UICONTROL Add Condition]**.
 
    * Expandera listan med **[!UICONTROL Person attributes]** i villkorsdialogrutan och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
 
@@ -77,19 +87,15 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
    * Klicka på **[!UICONTROL Done]**.
 
-   För varje ytterligare roll som du vill ta med för mallen klickar du på **[!UICONTROL Add another role]** och definierar ett eller flera villkor som matchar rollen.
+För varje ytterligare roll som du vill ta med för mallen klickar du på **[!UICONTROL Add another role]** och definierar ett eller flera villkor som matchar rollen.
 
-   ![Rollmall med flera definierade roller](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+![Rollmall med flera definierade roller](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Om mallen är klar att användas klickar du på **[!UICONTROL Publish]** längst upp till höger.
 
    När du publicerar mallen anges den som _Live_ -status och den blir tillgänglig för att associeras med ett lösningsintresse. Det måste finnas minst en definierad roll för att kunna publicera rollmallen.
 
    Dina ändringar sparas automatiskt i statusen _Utkast_. Om du inte är redo att publicera rollmallen klickar du på den vänstra (bakåtpilen) längst upp på sidan och återgår till listan Rollmallar.
-<!-- 
-< PM -- the Required for completion checkbox is not available to clear. Is this functional for Beta? >
-
-Required for completion checkbox - select this for a role if it is required to calculate the completeness score. -->
 
 ## Redigera en mall för utkastroller
 

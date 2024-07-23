@@ -3,7 +3,7 @@ title: Skapa inköpsgrupper
 description: Lär dig skapa inköpsgrupper.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Skapa inköpsgrupper
 
-När inköpsgruppen skapas är den tillgänglig för användning på en kontoresa via [lösningsintresse](./solution-interests.md).
+När inköpsgruppen har skapats är den tillgänglig för användning i en kontoresa via [lösningsintresset](./solution-interests.md).
 
 1. Klicka på Adobe Journey Optimizer B2B Edition på startsidan för Adobe Experience Platform.
 

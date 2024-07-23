@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B Edition - dokumentation
 description: Lär dig använda funktionerna i Adobe Journey Optimizer B2B Edition.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -88,24 +88,25 @@ Bygg skräddarsydda kundresor för att köpa grupper med målkonton som automati
       <strong> Köpa grupper</strong><br/><a href="./buying-groups/buying-groups-overview.md">Översikt över inköpsgrupper</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Rollmallar</a><br/><a href="./buying-groups/solution-interests.md">Lösningsintressen</a><br/><a href="./buying-groups/buying-groups-create.md">Skapa inköpsgrupper</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong> </strong><br/><a href="./content/email-authoring.md">Skapa e-post</a><br/><a href="./content/ai-assistant-emails.md">AI-assistenten för e-postmeddelanden</a><br/><a href="./content/sms-authoring.md">Skapa SMS</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <strong>Kontoresor</strong><br/><a href="./journeys/journey-overview.md">Reseöversikt</a><br/><a href="./journeys/journey-nodes.md">Resenoder</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Skapa en kontoresa</a>
     </td>
   </tr>
   <tr style="border: 0;">
+    <td>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong> </strong><br/><a href="./content/email-authoring.md">Skapa e-post</a><br/><a href="./content/ai-assistant-emails.md">AI-assistenten för e-postmeddelanden</a><br/><a href="./content/sms-authoring.md">Skapa SMS</a>
+    </td>
         <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
-      <strong>Kontoresor</strong><br/><a href="./journeys/journey-overview.md">Reseöversikt</a><br/><a href="./journeys/journey-nodes.md">Resenoder</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Skapa en kontoresa</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <strong> Assets</strong><br/><a href="./content/assets-overview.md">Översikt</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
       <strong> Insikter </strong><br/><a href="./dashboards/buying-groups-dashboard.md">Instrumentpanel för att köpa grupper</a><br/><a href="./dashboards/journeys-dashboard.md">Kontrollpanel för kundresor</a><br/><a href="./dashboards/engagement-dashboard.md">Instrumentpanel för kundengagemang</a>
     </td>
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong> Integreringar </strong><br/><a href="./integrations/experience-manager-assets-integration.md">Adobe Experience Manager Assets</a>
-    </td>
-  </tr>
+
+</tr>
 </table>
 
 <!-- 

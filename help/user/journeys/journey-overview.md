@@ -3,9 +3,9 @@ title: Kontoresor
 description: Lär dig mer om kontoresor och hur du kan skapa och hantera dem.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1068'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Definiera säljdriven interaktion som inkluderar e-post, SMS och andra kundresor
 
 Tabellen innehåller möjligheten att söka efter namn och skapad av. Sortering är inte tillgängligt just nu.
 
-Du kan anpassa den visade tabellen genom att klicka på kolumnikonen i det övre högra hörnet och markera eller avmarkera kryssrutorna.
+Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumner_ i det övre högra hörnet och markera eller avmarkera kryssrutorna.
 
 ![Välj de kolumner som ska visas i listan för kontoresor](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Klicka på namnet (visas som en länk) i listan _[!UICONTROL Account journeys]_o
 
 ![Arbetsyta för kontoresa](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-Redigeringsrubriken för varje resa omfattar:
+Redigeringsrubriken för varje kontoresa omfattar:
 
 * Resensnamn
 * Möjlighet att redigera namnet (_ikonen Redigera_)

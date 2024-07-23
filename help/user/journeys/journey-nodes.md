@@ -3,52 +3,22 @@ title: Kontoresa noder
 description: Lär dig mer om de nodtyper som du kan använda för att skapa kontoresor.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
 
 # Kontoresa noder
 
-När du har [skapat en kontoresa](journey-overview.md#create-an-account-journey) och [lagt till målgruppen](journey-overview.md#add-the-account-audience-for-your-journey) kan du skapa resan med hjälp av noder.
+När du har [skapat en kontoresa](journey-overview.md#create-an-account-journey) och [lagt till målgruppen](journey-overview.md#add-the-account-audience-for-your-journey) kan du skapa resan med hjälp av noder. Färdkartan är en arbetsyta där du kan skapa flerstegs-B2B-användningsfall för marknadsföring.
 
-## Nodtyper
+Bygg upp din kontoresa genom att kombinera de olika actionnoderna, eventen och orkestreringsnoderna som ett flerstegsscenario för flera kanaler. Varje nod i ett jouney representerar ett steg längs en logisk sökväg.
 
-| Nodtyp | Funktion |
-| --------- | ------- |
-| [Målgrupp för konto](journey-overview.md#add-the-account-audience-for-your-journey) | Ange målgrupp för kundens resa. Noden är alltid den första noden och skapas automatiskt som standard |
-| [Åtgärd på personer](#add-a-people-action) | Skicka e-post |
-| | Ändra poäng |
-| | Tilldela person till inköpsgrupp |
-| | Ta bort person från inköpsgrupp |
-| | Lägg till i Marketo Campaign |
-| | Skapa intressant ledögonblick |
-| [Åtgärd på konton](#add-an-account-action) | Ändra datavärde |
-| | Ta bort konto från (aktuell) resa |
-| | Lägg till konto på (annan) resa |
-| | Skapa kontointressant ögonblick |
-| | Lägg till i Marketo-kontolista (implicit) |
-| [Händelser för personer](#add-a-people-event) | Ändringar av datavärde |
-| | Poängändring |
-| | Öppnar e-post |
-| | Klicka på länken i e-postmeddelandet |
-| | Klicka på länken på webbsidan |
-| | Tilldelad till inköpsgrupp |
-| | Borttagen från inköpsgrupp |
-| [Händelser för konton](#add-an-account-event) | Ändra värde för kontodata |
-| | Har intressant ögonblick |
-| [Delas av personer](#add-a-split-path-by-people-node) | Leadattribut |
-| | Datavärdet har ändrats (t.ex. filter på aktivitetshistorik) |
-| | Öppen e-post |
-| | Klicka på länken i e-postmeddelandet |
-| | Klicka på länken på webbsidan |
-| | Intressant ögonblick |
-| | Medlem i inköpsgrupp |
-| [Dela efter konton](#add-a-split-path-by-account-node) | Ändring i kontodatavärde (t.ex. filter på aktivitetshistorik) |
-| [Vänta](#wait) | Finns på kontonivå |
-| [Sammanfoga banor](#merge-paths) | |
+## Nod för målgrupp för konto
+
+Noden [Account Audience](journey-overview.md#add-the-account-audience-for-your-journey) definierar målgruppen för indatakontot (som skapas och hanteras i Adobe Experience Platform) för resan. Den här noden är alltid den första noden och skapas automatiskt som standard.
 
 ## Agera
 
@@ -57,6 +27,23 @@ Kör en åtgärd som att skicka ett e-postmeddelande, ändra poängen osv.
 **Åtgärd för konton**: Åtgärden tillämpas på alla personer som är en del av konton på den här sökvägen.
 
 **Åtgärd på personer**: Åtgärden tillämpas på alla personer på den här sökvägen. En åtgärd för personer kan användas inom den delade sökvägen av personer eller dela upp sökväg efter konton.
+
+| Nodkontext | Funktion | Begränsningar |
+| ------------ | -------- | ----------- |
+| [Personer](#add-a-people-action) | Tilldela till inköpsgrupp | Välj lösningsintresse<br/>Välj roll |
+| | Ta bort från inköpsgrupp | Välj lösningsintresse |
+| | Skicka SMS | Skapa SMS |
+| | Lägg till i kampanj för begäran om Marketo Engage | Välj arbetsytan Marketo Engage<br/>Välj kampanj för begäran |
+| | Ändra personpartition i Marketo Engage | Ny partition |
+| | Personens intressanta stund | Typ<br/>Beskrivning |
+| | Ändra poäng | Efternamn<br/>Ändra |
+| | Skicka e-post | Skapa nytt e-postmeddelande<br/>Välj e-post från Marketo Engage |
+| [Konton](#add-an-account-action) | Skicka försäljningsvarning | Välj lösningsintresse<br/>Skicka e-post till |
+| | Lägg till konto på (annan) resa | Välj Live Account Journey |
+| | Uppdatera inköpsgruppsstatus | Solution Interest<br/>Status (obligatoriskt, max 50 tecken) |
+| | Ta bort konto från (aktuell) resa | Välj Live Account Journey |
+| | Intressant stund för konto | Typ (e-post, milstolpe eller webb)<br/>Beskrivning (valfritt) |
+| | Datavärde för kontoändring | Välj attribut<br/>Nytt värde |
 
 ### Lägg till en kontoåtgärd
 
@@ -94,6 +81,20 @@ Flytta er målgrupp framåt till nästa steg i kundresan när en händelse intr�
 **Lyssna på händelser på konton**: Om minst en person från ett konto utlöser en händelse, går kontot vidare till nästa steg på resan.
 
 **Lyssna på händelser på personer**: Händelser på personer kan bara tillämpas på en kontosökväg. Den är inte tillgänglig för delning via personnod.
+
+| Nodkontext | Funktion | Begränsningar |
+| ------------ | -------- | ----------- |
+| [Personer](#add-a-people-event) | Ändringar av datavärde | Attribut<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Klicka på länken i e-postmeddelandet | E-post<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Tilldelad till inköpsgrupp | Intresserad av lösning<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Öppnar e-post | E-post<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Poängen har ändrats | Bakgrundsnamn<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Borttagen från inköpsgrupp | Lösning, intresse<br/>Aktivitetsdatum (valfritt)<br/>Tidsgräns (valfritt) |
+| [Konton](#add-an-account-event) | Ändring i inköpsgruppsstatus | Intresserad av lösning<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Ändrad slutförandepoäng | Intresserad av lösning<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Kontot hade en intressant stund | Typ<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Ändrad engagemangspoäng | Intresserad av lösning<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Ändra värde för kontodata | Attribut<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
 
 ### Lägg till en kontohändelse
 
@@ -141,6 +142,10 @@ Ange vid behov hur lång tid resan väntar på händelsen. Resan upphör efter t
 
 Dela målgruppen baserat på filtervillkor.
 
+>[!NOTE]
+>
+>Högst 25 banor stöds.
+
 **Dela sökvägar efter konton**: Sökvägar som delas efter konton kan innehålla både konto- och personåtgärder samt händelser, och dessa sökvägar kan delas ytterligare.
 
 _Hur fungerar en delad sökväg efter kontonod?_
@@ -162,9 +167,16 @@ _Hur fungerar en delad sökväg efter personnod?_
 
 ![Resensnod - dela sökvägar efter personer](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
->[!NOTE]
->
->Högst 25 banor stöds.
+| Nodkontext | Sökvillkor | Beskrivning |
+| ------------ | -------- | ----------- |
+| [Personer](#add-a-split-path-by-people-node) | Personattribut | |
+| | Datavärdet har ändrats (t.ex. filter på aktivitetshistorik) | |
+| | Öppen e-post | |
+| | Klicka på länken i e-postmeddelandet | |
+| | Klicka på länken på webbsidan | |
+| | Intressant ögonblick | |
+| | Medlem i inköpsgrupp | |
+| [Konton](#add-a-split-path-by-account-node) | Ändring i kontodatavärde (t.ex. filter på aktivitetshistorik) | |
 
 ### Lägg till en delad sökväg efter kontonod
 
@@ -267,4 +279,3 @@ Olika sökvägar i din resa kan sammanfogas och göras osammanfogade med den hä
    Nu bör du se att sökvägarna sammanfogas så att konton från de valda sökvägarna kombineras till en enda bana och kan fortsätta att gå igenom resan.
 
 1. Om det behövs kan du dela upp sökvägarna genom att gå tillbaka till egenskaperna för sammanfogningsnoden och avmarkera kryssrutan för de sökvägar som du vill ta bort.
-

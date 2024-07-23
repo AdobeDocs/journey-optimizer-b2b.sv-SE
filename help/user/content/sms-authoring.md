@@ -3,9 +3,9 @@ title: SMS-redigering
 description: Lär dig hur du skickar textmeddelanden (SMS) till dina kunder på deras mobila enheter och hur du anpassar och förhandsgranskar meddelanden i textformat från SMS-redigeraren.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: e0d9359560f31b3e66f593426c66e64d31044d54
+source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Använd Adobe Journey Optimizer B2B Edition för att skicka SMS-meddelanden till
 
 ## SMS-konfiguration
 
-Adobe Journey Optimizer B2B Edition skickar textmeddelanden via SMS-tjänstleverantörer (eller SMS-gatewayleverantörer). Konfigurera tjänsteleverantören från administratörsinställningarna innan du skapar SMS-meddelandet.
+Adobe Journey Optimizer B2B Edition skickar textmeddelanden via SMS-tjänstleverantörer (eller SMS-gatewayleverantörer). Innan du skapar SMS-meddelandet måste du konfigurera tjänsteleverantören från inställningarna för _Administratör_.
 
 ### SMS-gatewaytjänstleverantörer
 
@@ -162,26 +162,26 @@ Du kan ställa in textmeddelandeleveranser på en kontoresa när du lägger till
 
    När du placerar dina personaliseringstoken klickar du på **[!UICONTROL Save]** för att spara ändringarna och återgå till SMS-huvudarbetsytan. Du kan fortsätta att redigera meddelandet med token efter behov.
 
-<!-- 1. **Add URLs to text message**.
+1. **Lägg till URL:er i textmeddelandet**.
 
-   After defining your content, you can add URLs to your message by clicking the _Link_ icon.
-   
-   You can add two types of URLs: 
+   När du har definierat innehållet kan du lägga till URL:er i meddelandet genom att klicka på ikonen _Länk_ .
 
-   External URLs - This is ANY external URL that can be directly typed into/ pasted into the input text box
-   Adobe Marketo Engage Design Studio Landing Pages - Selecting this option, you will see a 'Landing Page picker' from which you can select any of the listed approved Landing Pages from Marketo Engage
+   Den här åtgärden öppnar en dialogruta där du kan välja en av två typer av URL-adresser att länka:
 
-   You can choose to 'shorten' either of these URLs by selecting the checkbox
-   Note that the URL shortening function, uses the Marketo subdomain for shortening
-   The shortened URL appears as a read-only field within the modal
-   You can optionally track clicks on the URL
-   You can also choose to include 'mkt_tok' for tracking activity against a user
-   Click on Add to save changes & add the chosen URL to the SMS message
--->
+   * **[!UICONTROL External URL]** - Den här typen är en extern URL som du anger i textrutan.
+   * **[!UICONTROL Landing Page]** - Välj det här alternativet om du vill välja någon av de godkända Adobe Marketo Engage Design Studio-landningssidorna från Marketo Engage-instansen.
+
+   Dialogrutan innehåller även alternativ för URL-länkarna:
+
+   * **[!UICONTROL Shorten URL]** - Markera den här kryssrutan om du vill _förkorta_ URL-adressen, som krävs för spårning. För en landningssida används underdomänen Marketo Engage för den förkortade URL:en. Ett exempel på det förkortade URL-formatet visas. Den faktiska URL:en skapas när SMS:et skickas till mottagaren.
+
+   * **[!UICONTROL Include mkt_tok]** - Markera den här kryssrutan om du vill spåra aktiviteter mot en användare.
+
+   När länkalternativen är klara klickar du på **[!UICONTROL Add]** för att spara ändringarna och lägga till URL-länken i SMS-meddelandet.
 
 ## Ange SMS-egenskaper
 
-1. I avsnittet _[!UICONTROL SMS properties]_anger du **[!UICONTROL Name]**(obligatoriskt, maximalt 100 cha\racter) och **[!UICONTROL Description]**(valfritt, maximalt 300 tecken) för meddelandet.
+1. I avsnittet _[!UICONTROL SMS properties]_anger du **[!UICONTROL Name]**(obligatoriskt, högst 100 tecken) och **[!UICONTROL Description]**(valfritt, högst 300 tecken) för meddelandet.
 
    Alpha, numeriska specialtecken är tillåtna för dessa fält. Följande reserverade tecken är **inte tillåtna**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` och `|`.
 
@@ -198,32 +198,48 @@ Du kan ställa in textmeddelandeleveranser på en kontoresa när du lägger till
 
    ![Vidta en åtgärd - skicka sms](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   Mottagarnumret är alltid mappat till fältet `Lead.MainPhone` i Marketo Engage.
+   Mottagarnumret är alltid mappat till fältet `Lead.mobilePhone` i Marketo Engage.
 
-<!-- ## Preview the text message content
+## Simulera textmeddelandets innehåll
 
-When your message content is defined, you can use test profiles to preview its content. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+När meddelandeinnehållet har definierats kan du använda testprofiler för att simulera (förhandsgranska) innehållet. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
 
-1. Click **[!UICONTROL Simulate Content]** at the top of the SMS authoring workspace.
+>[!IMPORTANT]
+>
+>Spara SMS-meddelandet innan du fortsätter att simulera textmeddelandet.
 
-1. From the _[!UICONTROL Simulate Content]_ page, click **[!UICONTROL Add People]**.
+1. Klicka på **[!UICONTROL Simulate Content]** högst upp på SMS-redigeringsarbetsytan.
 
-1. Use the # page to manage the leads used for your test profile.
+1. Klicka på **[!UICONTROL Add People]** på sidan _[!UICONTROL Simulate Content]_.
 
-   In the displayed list, you can search for and add any of the leads (up to 10 leads at a time) from the Marketo Engage lead database.
+1. Använd sidan _Simulera innehåll_ för att hantera leads som används för din testprofil.
 
-   To search, enter the whole email address and click enter. The corresponding lead profile shows up for selection.
+   I listan som visas kan du söka efter och lägga till alla leads (upp till 10 leads i taget) från databasen för lead i Marketo Engage.
 
-   The preview updated to the personalization fields for the selected profile.
+   Om du vill söka anger du hela e-postadressen och trycker på _Retur_. Motsvarande lead-profil visas för val.
 
-   All the added leads appear on the left rail of the 'Simulate Content' page
+   Förhandsgranskningen uppdaterar personaliseringsfälten för den valda profilen.
 
-   You can manage this list by adding more people and deleting individual leads from the profile listing (it does not remove them from the database).
+   Alla tillagda leads visas till vänster.
 
-1. Simulate content for a lead.
+   Du kan hantera den här listan genom att lägga till fler personer och ta bort enskilda leads från profillistan (de tas inte bort från databasen).
 
-   Select any of the leads listed on the left rail of the Simulate Content page and the SMS preview on the page updates for the corresponding lead.
+1. Simulera innehåll för en vald lead.
 
-   You can also select a lead from the 'drop-down' box above the preview space and the SMS preview on the page updates for the corresponding lead
+   Välj något av de leads som visas till vänster och SMS-förhandsgranskningen på sidan uppdateras för motsvarande lead.
 
-1. To exit the _[!UICONTROL Simulate Content]_ page and return back to the SMS authoring workspace, click Close. -->
+   Du kan också välja en lead i väljaren ovanför förhandsvisningsområdet för att uppdatera SMS-förhandsgranskningen på sidan för motsvarande lead.
+
+1. Om du vill avsluta sidan _[!UICONTROL Simulate Content]_och gå tillbaka till SMS-redigeringsarbetsytan klickar du på&#x200B;**[!UICONTROL Close]**överst till höger.
+
+## Hantering av SMS-medgivande
+
+Ett juridiskt krav är att mottagarna kan säga upp prenumerationen på kommunikation från ett varumärke och följa detta val. Om ni inte följer dessa regler medför detta juridiska risker för ert varumärke. Den här funktionen hjälper dig också att undvika att skicka oombedd kommunikation till dina mottagare, vilket kan göra att de markerar dina meddelanden som skräppost och skadar ditt rykte.
+
+När du anger det här alternativet kan SMS-mottagare svara med nyckelord för anmälan och avanmälan. Alla standardnyckelord för deltagande och avanmälan stöds och respekteras, och alla anpassade nyckelord som konfigureras hos SMS-tjänstleverantören. När du säger upp prenumerationen tas profilerna automatiskt bort från målgruppen för framtida marknadsföringsmeddelanden.
+
+Journey Optimizer B2B Edition ger möjlighet att hantera avanmälan i SMS-meddelanden med följande logik:
+
+* Som standard, om en lead har avanmält sig från att ta emot meddelanden från dig, kommer motsvarande profil att uteslutas från efterföljande SMS-leveranser
+
+* Detta medgivande kommer från olika källor (t.ex. AEP eller SMS-tjänstleverantören) och synkroniseras med Journey Optimizer B2B Edition. För närvarande stöder den endast ett enda medgivandetillstånd per lead på instansnivå (en lead &#39;John Doe&#39; är antingen prenumererad på eller avbeställd från all SMS i instansen). Det stöder för närvarande inte dubbelanmälan på varumärkesnivå/nivå av godkännande av enskilda prenumerationer.

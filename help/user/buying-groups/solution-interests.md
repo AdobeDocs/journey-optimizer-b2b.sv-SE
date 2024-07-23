@@ -3,9 +3,9 @@ title: Lösningsintressen
 description: Lär dig mer om lösningsintressen och hur du kan definiera dem för användning inom dina inköpsgrupper.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: b0efd6591763af342d18831770f7e328826019c9
+source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,19 @@ Innan du skapar Buying Groups bör du veta vad du säljer och vem du vill ha som
 
    Listan sorteras som standard efter kolumnen _[!UICONTROL Last updated on]_. Klicka på kolumnrubriken i rubriken för att växla sortering mellan fallande och stigande.
 
-## Skapa ett intresse för en lösning
+## Visa och ta bort inköpsgruppjobb
 
-Innan du skapar en Solution Interest måste du ha en aktiv (publicerad) rollmall som definierar de roller du vill ha som mål. Mer information om hur du skapar en rollmall och publicerar en rollmall finns i [Köpa grupprollsmallar](./buying-groups-role-templates.md).
+På fliken _[!UICONTROL Solution interest]_visar kolumnen **[!UICONTROL Buying group creation jobs]**antalet jobb som skapats för varje lösningsintresse. Numret är en länk och om du klickar på den öppnas en dialogruta med en lista över jobb som har skapats för lösningsintresset.
 
-1. Klicka på **[!UICONTROL Create solution interest]** i det övre högra hörnet på fliken _[!UICONTROL Solution Interest]_.
+![Köper gruppjobb för lösningsintresse](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
+
+Du kan ta bort ett köpgruppsjobb genom att klicka på ellipsen (...) bredvid jobbnamnet och välja **[!UICONTROL Delete]**.
+
+## Skapa ett lösningsintresse
+
+Innan du kan skapa ett intresse för en lösning måste du ha en aktiv (publicerad) rollmall som definierar de roller som du vill ha som mål. Mer information om hur du skapar en rollmall och publicerar en rollmall finns i [Köpa grupprollsmallar](./buying-groups-role-templates.md).
+
+1. Klicka på **[!UICONTROL Create solution interest]** överst till höger på fliken _[!UICONTROL Solution Interest]_.
 
 1. Ange en unik **[!UICONTROL Name]** (obligatoriskt) och en **[!UICONTROL Description]** (valfritt).
 
@@ -46,6 +54,33 @@ Innan du skapar en Solution Interest måste du ha en aktiv (publicerad) rollmall
 
    Intresset för din nya lösning visas i lösningsintresse
 
->[!NOTE]
->
->Redigerings- och borttagningsåtgärder för lösningsintresse är INTE tillgängliga för Beta.
+## Redigera ett lösningsintresse
+
+Du kan när som helst ändra namn och beskrivning för att höja lösningsintresset. Rollmallen kan inte ändras på grund av beroendet av inköpsgrupper baserat på lösningsintresse och rollmallskoppling. I det här fallet måste du skapa ett nytt lösningsintresse med hjälp av en annan rollmall.
+
+1. Använd någon av följande metoder på fliken _[!UICONTROL Solution interest]_för att öppna egenskaperna för det lösningsintresse som du vill redigera:
+
+   * Klicka på lösningsintressenamnet.
+   * Klicka på ellipsen (**..**) bredvid den och välj **[!UICONTROL Edit]**.
+
+   ![Lösning intresserar mer meny](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
+
+1. Uppdatera vid behov namnet (obligatoriskt och unikt) och beskrivningen (valfritt).
+
+1. Ändra inställningen för **[!UICONTROL Update existing buying groups]** om det behövs.
+
+   När det här alternativet är aktiverat uppdateras alla befintliga inköpsgrupper i kombination med lösningsräntan via 24-timmars synkroniseringscykeln.
+
+1. Klicka på **[!UICONTROL Save]**.
+
+## Ta bort en lösningsintresse
+
+Eventuella lösningsintressen som för närvarande används av ett inköpsgruppsjobb eller en kontoresa kan inte tas bort. Det går inte heller att hämta en borttagen lösningsränta.
+
+1. Klicka på ellipsen (**..**) bredvid lösningsintresset på fliken _[!UICONTROL Solution interest]_och välj **[!UICONTROL Delete]**.
+
+   Åtgärden öppnar en bekräftelsedialogruta.
+
+   Om lösningsintresset för närvarande används av en kontoresa eller ett inköpsgruppsjobb öppnas en informationsdialogruta som meddelar dig om att det inte kan tas bort. Klicka på [!UICONTROL OK] som avbryter borttagningen.
+
+1. Klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen eller så kan du avbryta processen genom att klicka på _[!UICONTROL Cancel]_.
