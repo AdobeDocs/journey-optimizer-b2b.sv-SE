@@ -2,7 +2,8 @@
 title: Arbeta med Experience Manager Assets
 description: Lär dig hur du kan använda bildresurser från en ansluten AEM Assets-databas när du redigerar innehåll i Adobe Journey Optimizer B2B Edition.
 feature: Assets, Content
-source-git-commit: 0bdf0da4db0cbfc781d16f1c50716b1fc8ea4db9
+exl-id: c6864981-209c-4123-8d3f-24deb07026a0
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Om din miljö har en eller flera [Assets-databasanslutningar](../admin/configure
 
 * När du skapar ett nytt innehåll väljer du `AEM Assets` som **[!UICONTROL Image Source]**-objekt i dialogrutan.
 
-  ![Välj AEM Assets som bildkälla i dialogrutan Skapa](./assets/create-dialog-aem-assets.png){width="500"}
+  ![Välj AEM Assets som bildkälla i dialogrutan Skapa](./assets/create-dialog-aem-assets.png){width="400"}
 
 * När du öppnar en befintlig innehållsresurs väljer du `AEM Assets` på panelen _[!UICONTROL Body]_till höger.
 

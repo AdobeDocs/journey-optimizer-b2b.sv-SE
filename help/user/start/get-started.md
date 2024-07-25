@@ -1,10 +1,11 @@
 ---
 title: Kom igång med Journey Optimizer B2B Edition
 description: Som ny användare av Journey Optimizer B2B Edition får du lära dig mer om de viktigaste områdena att komma igång med.
-source-git-commit: f38dc43681d7c12f6ae5e69978e5950fd9526f4c
+exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 0%
+source-wordcount: '623'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +17,7 @@ Beroende på din organisation kan administratörer definiera flera typer av anv�
 
 >[!BEGINTABS]
 
->[!TAB Snabbstart för en administratör]
+>[!TAB Snabbstart för administratör]
 
 Innan ditt team kan börja använda funktionerna i Adobe Journey Optimizer B2B Edition krävs flera steg för att förbereda din miljö. Utför dessa steg så att datateknikern och marknadsföraren kan börja arbeta med Adobe Journey Optimizer B2B Edition.
 
@@ -36,7 +37,7 @@ Lär dig mer om åtkomsthantering på följande sidor:
 
 1. **Konfigurera och aktivera användning av Adobe Experience Manager Assets** för team som använder Assets som en Cloud Service för centraliserad hantering av digitala resurser. [Läs mer](../admin/configure-aem-repositories.md)
 
->[!TAB Snabbstart för en markör]
+>[!TAB Komma igång med marknadsföringssnabbtangenten]
 
 Som marknadsförare, eller en _kontoansvarig_, ansvarar du för att utforma resor och skapa innehåll. Du kan börja arbeta med Adobe Journey Optimizer B2B Edition när systemadministratören och datateknikern har förberett miljön och gett dig åtkomst.
 

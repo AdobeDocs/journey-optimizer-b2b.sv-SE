@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B Edition - dokumentation
-description: Lär dig använda funktionerna i Adobe Journey Optimizer B2B Edition.
+description: Lär dig hur du använder funktionerna i Adobe Journey Optimizer B2B Edition för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -19,23 +19,27 @@ Här följer ett exempel på de senaste förbättringarna i Journey Optimizer B2
 
 >[!BEGINTABS]
 
->[!TAB Beta finns tillgänglig]
+>[!TAB AI-assistenten]
 
-Gå med i Beta och upptäck alla funktioner som finns i Adobe Journey Optimizer B2B Edition Beta.
+Kom snabbt igång med kontobaserade marknadsföringskoncept och lär dig mer om Journey Optimizer B2B Edition-funktionerna som är utformade för att maximera teamets strategier.
 
-[!BADGE Läs mer]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Läs om AI Assistant"}
 
->[!TAB AI-assistenten för e-postinnehåll]
-
-Lyft materialet till en högre nivå med AI Assistant i Adobe Journey Optimizer B2B Edition, som bygger på generativ AI. AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att generera hela e-postmeddelanden, riktat textinnehåll och till och med bilder som är skräddarsydda för att passa er målgrupp.
+Lyft innehållet till en högre nivå med AI Assistant för e-postinnehåll i Adobe Journey Optimizer B2B Edition som bygger på generativ AI. AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att generera hela e-postmeddelanden, riktat textinnehåll och till och med bilder som är skräddarsydda för att passa er målgrupp.
 
 [!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Läs om AI Assistant för e-post"}
 
+>[!TAB Visuella fragment]
+
+Skapa återanvändbara komponenter som anpassade innehållsblock som era marknadsföringsteam kan använda för att sammanställa e-postinnehåll i en förbättrad designprocess.
+
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Lär dig mer om visuella fragment"}
+
 >[!TAB Köper grupper]
 
-Skapa inköpsgrupper utifrån enhetliga B2B-data från hela företaget, anpassa dem efter företagets erbjudanden och automatisera hur ni definierar, identifierar och målar rätt medlemmar för varje roll för att skala den mest exakta målsättningen för era kundresor.
+Skapa inköpsgrupper utifrån enhetliga B2B-data från hela företaget. Anpassa dem efter företagets erbjudanden och automatisera hur ni definierar, identifierar och målar rätt medlemmar för varje roll för att skala den mest exakta målsättningen för era kundresor.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Läs mer om Buying Groups"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Läs mer om inköpsgrupper"}
 
 >[!TAB Kontoresor]
 
@@ -76,7 +80,7 @@ Bygg skräddarsydda kundresor för att köpa grupper med målkonton som automati
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong> Inloggning och startsida </strong><br/><a href="home-page.md#marketer---new-user">Marketer - ny användare</a><br/><a href="home-page.md#marketer---advanced-user">Marketer - avancerad</a> <br/><a href="home-page.md#administrator---new-user">Administratör - ny användare</a> <br/><a href="home-page.md#administrator---advanced-user">Administratör - avancerad</a>
+      <strong>Kom igång</strong><br/><a href="home-page.md">Inloggning och startsida</a><br/><a href="./start/get-started.md">Snabbstartsvägledning</a> <br/><a href="./start/ai-assistant.md">AI Assistant</a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ Bygg skräddarsydda kundresor för att köpa grupper med målkonton som automati
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong> Assets</strong><br/><a href="./content/assets-overview.md">Översikt</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong>Innehållshantering</strong><br/><a href="./content/assets-overview.md">Assets - översikt</a><br/><a href="./content/email-templates.md">E-postmallar</a><br/><a href="./content/fragments.md">Visuella fragment</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>

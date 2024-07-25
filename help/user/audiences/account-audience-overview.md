@@ -1,13 +1,13 @@
 ---
 title: Målgrupper
 description: Läs mer om kontomålgrupper och hur de möjliggör kontobaserade resor.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
 
 ---
-
 
 # Målgrupper
 
