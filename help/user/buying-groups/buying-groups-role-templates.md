@@ -3,7 +3,7 @@ title: Köpa grupprollsmallar
 description: Lär dig hur du definierar en rollmall som ska användas som en köpgruppskomponent.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
@@ -69,7 +69,7 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
    * **[!UICONTROL Add conditions for auto-assignment]** - Markera den här kryssrutan om du vill lägga till villkor för automatisk tilldelning av medlemmar till inköpsgruppen som matchar villkoret. Om kryssrutan inte är markerad är det INTE nödvändigt att lägga till villkor.
 
-   * **[!UICONTROL Required for completeness score]** - Markera den här kryssrutan för rollen om du vill att den ska vara ett krav för att beräkna ett slutresultat. —>
+   * **[!UICONTROL Required for completeness score]** - Markera den här kryssrutan för rollen om du vill att den ska vara ett krav för att beräkna ett slutresultat.
 
    * Klicka på **[!UICONTROL Add Condition]**.
 

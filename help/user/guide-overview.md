@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B Edition - dokumentation
 description: Lär dig hur du använder funktionerna i Adobe Journey Optimizer B2B Edition för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
+source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '422'
 ht-degree: 2%
 
 ---
@@ -73,6 +73,12 @@ Bygg skräddarsydda kundresor för att köpa grupper med målkonton som automati
     <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
     </tr>
 </table>
+
+## Översikt - demo
+
+Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skapa en kontoresa.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
 ## Utforska dokumentationen
 

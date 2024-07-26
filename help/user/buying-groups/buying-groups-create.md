@@ -3,7 +3,7 @@ title: Skapa inköpsgrupper
 description: Lär dig skapa inköpsgrupper.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Den första sidan ger vägledning om de förutsättningar/komponenter som krävs
 
 Bekräftelsedialogrutan innehåller en sammanfattning av inköpsgruppsprocessen och en beräknad sluttid. Klicka på **[!UICONTROL Create]** om du vill bekräfta och starta processen.
 
-![Skapa bekräftelsedialogruta för inköpsgrupper](./assets/buying-groups-create-confirm.png){width="400" zoomable="no"}
+![Skapa bekräftelsedialogruta för inköpsgrupper](./assets/buying-groups-create-confirm.png){width="425" zoomable="no"}
 
 Du kan navigera användaren till fliken Lösningens intresse och visa antalet jobb som skapats för lösningsintresset.
 
