@@ -2,7 +2,8 @@
 title: Arbeta med resurser i Marketo Engage
 description: Läs om hur du använder Marketo Engage Design Studio-mediehanteringsintegrering i Journey Optimizer B2B Edition.
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -95,7 +96,7 @@ Du kan ersätta en resurs på något av följande sätt:
 
 I dialogrutan _[!UICONTROL Replace asset]_drar och släpper du ersättningsfilen från systemet till filrutan. Du kan också klicka på länken_[!UICONTROL Select a file from your computer]_ om du vill använda det lokala filsystemet för att välja en fil. (Om du markerar flera filer i det lokala systemet används den första filen som är markerad för att ersätta dem.)
 
-![Dialogrutan Ersätt resurs](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![Dialogrutan Ersätt resurs](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 Klicka på **[!UICONTROL Replace]** om du vill fortsätta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]**.
 

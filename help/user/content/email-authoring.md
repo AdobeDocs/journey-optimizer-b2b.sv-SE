@@ -3,7 +3,7 @@ title: Framtagning av e-post
 description: Lär dig hur du skapar anpassat e-postinnehåll som används i kontoresor.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Du kan konfigurera e-postleveranser på en kontoresa när du lägger till en _[!
 1. Välj **[!UICONTROL Send email]** för _[!UICONTROL Action on people]_.
 1. Välj **[!UICONTROL Create new email]** för _[!UICONTROL Email source]_.
 
-   Du kan också välja alternativet `Select email from Adobe Marketo Engage` om du vill använda ett av de redan skapade e-postmeddelandena i Marketo Engage och skicka det som en del av kontoresan.
+   Du kan också välja alternativet _[!UICONTROL Select email from Adobe Marketo Engage]_om du vill använda ett av de redan skapade e-postmeddelandena i Marketo Engage och skicka det som en del av kontoresan.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 
 1. Välj fliken **[!UICONTROL Links]** i den vänstra rutan för att visa alla URL:er för ditt innehåll som spåras.
 
-   Du kan ändra spårningstypen eller etiketten och lägga till taggar om det behövs.
+   Du kan ändra _spårningstypen_ eller _etiketten_ och lägga till taggar om det behövs.
 
 Om det behövs kan du anpassa din e-post ytterligare genom att klicka på **[!UICONTROL Switch to code editor]** på den avancerade menyn. Med kodredigeraren kan du redigera e-postkällkoden, till exempel lägga till spårning eller egna HTML-taggar.
 

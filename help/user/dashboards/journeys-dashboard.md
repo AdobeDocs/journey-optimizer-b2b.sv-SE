@@ -1,11 +1,11 @@
 ---
 title: Kontrollpanel för reseöversikt
-description: Lär dig mer om informationen som tillhandahålls av kontrollpanelen för översikt över resan och hur den kan hjälpa dig att övervaka och hantera din strategi för kundresan.
+description: Lär dig mer om informationen som tillhandahålls av kontrollpanelen för översikt över resan och hur den kan hjälpa dig att övervaka och hantera strategin för kundresan.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
+source-git-commit: 18e22383c9f9294d209f4c8a6f9f04f074881186
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,15 @@ ht-degree: 0%
 
 Den här instrumentpanelen ger en omfattande översikt över en vald kontoresa, med detaljerad information om kontots förlopp med hjälp av donut- och linjediagram som kategoriserar och kvantifierar slutföranden, pågående aktiviteter och avbrutna över tid. Det hjälper marknadsförarna att utvärdera hur effektiva e-post- och SMS-kanalerna är med hjälp av nyckeltal för leverans och engagemang.
 
+Den här översikten är tillgänglig för publicerade kontoresor och det tar ungefär fyra timmar för data att börja fylla i diagram och tabeller.
+
+![Reseöversikt](./assets/journey-overview.png){width="700" zoomable="yes"}
+
 ## Resestatus
 
 Det här donationsdiagrammet innehåller en beskrivning av resestatus, som kategoriserar konton i `Completed`, `In Progress` och `Aborted`. Varje segment är tydligt märkt med motsvarande procenttal och kontonummer på diagrammets ytterkant.
 
-## Slutförande av resa över tid
+## Färdigställande av resan över tid
 
 Det här linjediagrammet håller reda på antalet konton som har slutfört sin resa över tid. Den vågräta axeln mappar tidslinjen medan den lodräta axeln kvantifierar kontona, vilket ger en enkel bild av utvecklingstrender.
 
@@ -26,62 +30,46 @@ Det här linjediagrammet håller reda på antalet konton som har slutfört sin r
 
 I det här avsnittet presenteras två viktiga mätvärden:
 
-* **[!UICONTROL Journey Completion Rate]** - Procentandel konton som har slutfört sin resa.
-* **[!UICONTROL Journey Duration]** - Genomsnittlig tid för konton att slutföra deras resa.
+* **[!UICONTROL Journey completion rate]** - Procentandel konton som har slutfört sin resa.
+* **[!UICONTROL Journey duration]** - Genomsnittlig tid för konton att slutföra deras resa.
 
 ## Prestandatabeller för e-post och SMS
 
-Tabellerna ger en detaljerad bild av hur effektiva e-post- och SMS-kanalerna är. I varje tabell visas mätvärden, som leveransfrekvenser och klickfrekvens, för att utvärdera effekten av varje kontaktpunkt.
+Prestandatabellerna ger en detaljerad bild av hur effektiva e-post- och SMS-kanalerna är. I varje tabell visas mätvärden, som leveransfrekvenser och klickfrekvens, för att utvärdera effekten av varje kontaktpunkt.
 
-**[!UICONTROL Email Performance]** tabellkolumner:
+**[!UICONTROL Email performance]** tabellkolumner:
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of emails sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Open Rate`
-* `# opened / # delivered`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL Asset name]_- resursens namn
+* _[!UICONTROL Sent]_- antal skickade e-postmeddelanden
+* _[!UICONTROL Delivery rate]_- antal levererade e-postmeddelanden dividerat med antalet skickade
+* _[!UICONTROL Open Rate]_- antal öppnade e-postmeddelanden delat med antalet levererade
+* _[!UICONTROL Click-through rate]_- antal klickade e-postmeddelanden dividerat med antalet levererade
 
-**[!UICONTROL SMS Performance]** tabellkolumner:
+**[!UICONTROL SMS performance]** tabellkolumner:
 
-* `Asset Name`
-* `Name of the Asset`
-* `Sent`
-* `# of messages sent`
-* `Delivery Rate`
-* `# delivered / # sent`
-* `Click-Through Rate`
-* `# clicked / # delivered`
+* _[!UICONTROL Asset name]_- resursens namn
+* _[!UICONTROL Sent]_- antal skickade SMS-meddelanden
+* _[!UICONTROL Delivery rate]_- antalet levererade SMS-meddelanden delat med det skickade numret
+* _[!UICONTROL Click-through rate]_- antalet klickade SMS-meddelanden dividerat med antalet levererade
+<!-- 
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
 
-Om du vill skapa en delbar PDF i den aktuella vyn klickar du på **[!UICONTROL Export]** längst upp till höger på sidan. Använd åtgärdsmenyn i det övre högra hörnet när du vill interagera med data.
+## Förbättrad interaktion
 
-Förbättrad interaktion:
+Engagera dig ytterligare med data genom att använda åtgärdsikonen (**...**) i det övre högra hörnet i varje diagram eller tabell.
 
-Engagera ytterligare med data genom att använda åtgärdsknappen i det övre högra hörnet. Välj Detaljerad om du vill ha en djupgående analys av enskilda gruppstatusar eller Visa mer om du vill ha utökade data och insikter.
+### Detaljgranskning
 
-Visa mer:
-Popup-fönstret visas med diagrammet och en datatabell för varje widget.
-Hämta CSV-knappen i tabellens övre högra hörn. 
+För diagrammet _[!UICONTROL Journey status]_väljer du **[!UICONTROL Drill through]**för en ingående analys av enskilda kontostatusar.
 
-Detaljinfo:
+![Detaljnivån för diagramdata](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
+<!--
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
 
-De använda globala filtren överförs till kontrollpanelen och kan inte ändras på den här sidan.
-De använda filtren visas.
-Det enda tillgängliga filtret som är aktiverat är _kontonamn_.
+### Visa mer
 
-Klicka på **[!UICONTROL View more]** för att öppna hämtningsdialogrutan.
+Välj **[!UICONTROL View more]** om du vill komma åt utökade data och insikter. Det visade popup-fönstret innehåller en beskrivning av data.
 
-Klicka på knappen i det övre högra hörnet om du vill dölja eller visa någon av de tillgängliga kolumnerna:
+Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** överst till höger.
 
-* [!UICONTROL Account Name]
-* [!UICONTROL Account ID]
-* [!UICONTROL Status]
-* [!UICONTROL Region]
-* [!UICONTROL Industry]
-* [!UICONTROL Entry Date]
-* [!UICONTROL Exit Date]
-* [!UICONTROL Number of Days in Journey]
+![Visa utökade data](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}

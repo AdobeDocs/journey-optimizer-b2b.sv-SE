@@ -3,9 +3,9 @@ title: Instrumentpanel för översikt över inköpsgrupper
 description: Lär dig mer om kontrollpanelen för inköpsgruppsöversikt och hur den aktiverar försäljningsleveransen från marknadsföringsteamet.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Få insikter om hur inköpsgrupperna utvecklas i vyn Köpgruppsstatus. Den här 
 
 Använd åtgärdsmenyn i det övre högra hörnet när du vill interagera med data.
 
-![Klicka på ikonen för att komma åt åtgärdsmenyn](./assets/buying-group-more-menu.png){width="400"}
+![Klicka på ikonen för att komma åt åtgärdsmenyn](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL Drill through]
 
@@ -58,7 +58,7 @@ Välj **[!UICONTROL Drill through]** om du vill ha en ingående analys av enskil
 
 ![Detaljnivån för diagramdata](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-De globala filter som används på kontrollpanelen överförs och kan inte ändras från den här sidan.
+De globala filter som används på kontrollpanelen överförs.
 
 Klicka på ikonen för åtgärdsmenyn längst upp till höger och välj **[!UICONTROL View more]** för att [visa utökade data och insikter](#view-more).
 
@@ -86,4 +86,4 @@ Välj **[!UICONTROL View more]** om du vill ha utökade data och insikter. Popup
 
 ![Visa utökade data](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** i det övre högra hörnet.
+Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** överst till höger.
