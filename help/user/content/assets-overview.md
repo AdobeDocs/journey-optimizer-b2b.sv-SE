@@ -3,9 +3,9 @@ title: Assets
 description: Läs om resurshantering i Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Använd resurser när du skapar e-postmeddelanden, e-postmallar och visuella fra
 
 ### Välj en resurskälla
 
-Om du har en prenumeration på Experience Manager Assets as a Cloud Service tillsammans med standardversionen av Adobe Marketo Engage Design Studio kan du välja bildresurser från båda källorna. Om du vill göra det måste du välja bildkällan när du skapar ett nytt e-postmeddelande, en ny e-postmall eller ett visuellt fragment. Du kan också välja bildkällan när du redigerar innehållet. Markeringen gäller bara för redigeringsupplevelsen, och du kan ändra bildkällan för att komma åt resurser från ett annat bibliotek när det behövs.
+Om du har en prenumeration på Experience Manager Assets as a Cloud Service tillsammans med Adobe Marketo Engage Design Studio som standard kan du välja bildresurser från båda källorna. Om du vill göra det måste du välja bildkällan när du skapar ett nytt e-postmeddelande, en ny e-postmall eller ett visuellt fragment. Du kan också välja bildkällan när du redigerar innehållet. Markeringen gäller bara för redigeringsupplevelsen, och du kan ändra bildkällan för att komma åt resurser från ett annat bibliotek när det behövs.
 
-Skapa ett e-postmeddelande
+_**Skapa en innehållsresurs**_ - Om du vill välja en bildkälla när du skapar ett e-postmeddelande, en e-postmall eller ett fragment anger du **[!UICONTROL Image source]** i dialogrutan när du skapar den.
 
-Redigera ett e-postmeddelande - Om du vill välja en bildresurskälla i den visuella redigeraren använder du **[!UICONTROL Select image source]**-väljaren högst upp på arbetsytan.
+_**Redigera en innehållsresurs**_ - Om du vill välja en bildresurskälla i den visuella redigeraren använder du väljaren **[!UICONTROL Select image source]** längst upp på arbetsytan.
 
 ### Lägg till resurser i ditt innehåll
 
