@@ -3,9 +3,9 @@ title: Framtagning av e-post
 description: Lär dig hur du skapar anpassat e-postinnehåll som används i kontoresor.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -88,8 +88,8 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 
 1. Infoga anpassningsfält för att anpassa innehållet utifrån profilattribut, målgruppsmedlemskap, sammanhangsbaserade attribut med mera.
 
-1. Klicka på **[!UICONTROL Enable condition content]** om du vill lägga till dynamiskt innehåll och anpassa innehållet till målprofilerna baserat på villkorliga regler.
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. Välj fliken **[!UICONTROL Links]** i den vänstra rutan för att visa alla URL:er för ditt innehåll som spåras.
 
    Du kan ändra _spårningstypen_ eller _etiketten_ och lägga till taggar om det behövs.
