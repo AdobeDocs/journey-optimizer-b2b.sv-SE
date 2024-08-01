@@ -1,9 +1,9 @@
 ---
-title: AI-assistenten för att skapa e-post
+title: AI-assistenten för e-postredigering
 description: Lär dig hur du använder AI Assistant för att optimera e-postinnehållet som används i kontoresor.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: f4f52919b9455277325a511a67c99daef42699f0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '2943'
 ht-degree: 0%

@@ -1,8 +1,8 @@
 ---
-title: Logga in och startsida
+title: Logga in och hemsida
 description: Lär dig hur du får tillgång till appen Journey Optimizer B2B Edition och använder hemsidesinformationen.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 13c25bf654c4cbc35589866d817de224065ab861
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

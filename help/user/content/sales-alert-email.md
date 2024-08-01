@@ -2,7 +2,8 @@
 title: E-postmeddelande om försäljning
 description: Lär dig hur du tar med ett automatiskt försäljningsmeddelande i dina kontoresor.
 feature: Email Authoring, Content
-source-git-commit: 5361bad204136e4b7e4267c43b2c1a605c14cdd9
+exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%

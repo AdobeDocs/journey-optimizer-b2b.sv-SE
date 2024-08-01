@@ -3,7 +3,7 @@ title: SMS-redigering
 description: Lär dig hur du skickar textmeddelanden (SMS) till dina kunder på deras mobila enheter och hur du anpassar och förhandsgranskar meddelanden i textformat från SMS-redigeraren.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 0%

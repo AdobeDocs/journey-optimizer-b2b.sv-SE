@@ -3,7 +3,7 @@ title: Köpgrupper
 description: Läs om hur du köper grupper och deras komponenter.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 4%
@@ -97,7 +97,7 @@ I följande exempel visas beräkningen av poängen för engagemang:
 
 | Användare | Roll | Rollvikt | Åtgärd | Idag | Igår | Åtgärdsbredd | Poäng |
 | ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Beslutsfattare | 80 % | Besökt webbplats | 1000 | 2 | 1 | 22 |
+| Adam | Beslutsfattare | 80% | Besökt webbplats | 1000 | 2 | 1 | 22 |
 | | | | E-post som klickades | 1 | 0 | 1 | 1 |
 | | | | Nedladdad pub | 1 | 3 | 1 | 4 |
 | Bob | Påverkande | 15 % | Besökt webbplats | 1 | 2 | 1 | 3 |
@@ -107,7 +107,7 @@ I följande exempel visas beräkningen av poängen för engagemang:
 
 | Användare | Roll | Rollvikt | Åtgärd | Idag | Igår | Åtgärdsbredd | Poäng |
 | ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Beslutsfattare | 80 % | Besökt webbplats | 3 | 2 | 1 | 5 |
+| Alvin | Beslutsfattare | 80% | Besökt webbplats | 3 | 2 | 1 | 5 |
 | | | | E-post som klickades | 1 | 0 | 1 | 1 |
 | | | | Nedladdad pub | 1 | 3 | 1 | 4 |
 | Bret | Påverkande | 15 % | Besökt webbplats | 1 | 2 | 1 | 3 |

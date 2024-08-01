@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B Edition - dokumentation
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 2%
+source-wordcount: '128'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
    + [Journey Optimizer B2B Edition - översikt](about-journey-optimizer-b2b-edition.md)
    + [Inloggning och hemsida](home-page.md)
    + [Komma igång-guide](./start/get-started.md)
-   + [Använda AI-assistenten](./start/ai-assistant.md)
+   + [Använd AI-assistenten](./start/ai-assistant.md)
 + Kontomålgrupper {#account-audiences}
    + [Översikt](./audiences/account-audience-overview.md)
    + [XDM-fältmappning](./data/field-mapping.md)
@@ -26,12 +26,12 @@ ht-degree: 2%
    + [Rollmallar](./buying-groups/buying-groups-role-templates.md)
    + [Skapa inköpsgrupper](./buying-groups/buying-groups-create.md)
 + Kontoresor {#account-journeys}
-   + [Reseöversikt](./journeys/journey-overview.md)
+   + [Översikt](./journeys/journey-overview.md)
    + [Nod för kontoresa](./journeys/journey-nodes.md)
 + Reseinnehåll {#journey-content}
    + [Framtagning av e-post](./content/email-authoring.md)
-   + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
    + [AI-assistenten för att skapa e-post](./content/ai-assistant-emails.md)
+   + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
    + [SMS-redigering](./content/sms-authoring.md)
 + Innehållshantering {#content-management}
    + Assets {#assets}

@@ -2,7 +2,7 @@
 title: Kom igång med Journey Optimizer B2B Edition
 description: Som ny användare av Journey Optimizer B2B Edition får du lära dig mer om de viktigaste områdena att komma igång med.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 3%

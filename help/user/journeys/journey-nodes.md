@@ -1,9 +1,9 @@
 ---
-title: Kontoresa noder
+title: Noder för kontoresa
 description: Lär dig mer om de nodtyper som du kan använda för att skapa kontoresor.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 0%
