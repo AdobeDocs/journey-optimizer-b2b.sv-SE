@@ -3,9 +3,9 @@ title: Köpgrupper
 description: Läs om hur du köper grupper och deras komponenter.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1165'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ För B2B-försäljnings- och marknadsföringsaktiviteter är konton avgörande f
 
 ![Diagram över kontoroller](assets/account-roles-diagram.png){width="800"}
 
-I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Dessa personer är de som i slutändan fattar inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan t.ex. kräva en Chief Information Officer eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp, men en buggspårningsprodukt kan vanligtvis ha en VP of Engineering och en IT Director som medlemmar i inköpsgruppen.
+I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Detta är de personer som i slutändan fattar inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan t.ex. kräva en Chief Information Officer eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp, men en buggspårningsprodukt kan vanligtvis ha en VP of Engineering och en IT Director som medlemmar i inköpsgruppen.
 
 ## Viktiga komponenter
 
@@ -52,7 +52,7 @@ Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i 
 
 1. Använd för en kontoresa via de kopplade lösningsintressena.
 
-## Få tillgång till inköpsgrupper och komponenter
+## Visa inköpsgrupper och komponenter
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
@@ -87,28 +87,68 @@ Slutresultatet för inköpsgruppen beräknas om varje gång en inköpsgrupp skap
 
 ### Köpa poäng för gruppengagemang
 
-Poängen för engagemang används för att utvärdera effekten av era marknadsföringsprogram baserat på att köpa gruppbeteenden som spåras över resorna. Denna poäng härleds från aktivitet under de senaste 30 dagarna. Alla rolländringar i en mall kräver omberäkning av engagemangspoängen för alla inköpsgrupper som skapats med den mallen. Endast inkommande aktiviteter utvärderas vid beräkning av en engagemangspoäng.
+Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos medlemmarna i en inköpsgrupp, baserat på de aktiviteter de utför. Alla inkommande aktiviteter som utförts av medlemmarna i inköpsgruppen under de senaste 30 dagarna används för att beräkna poängen.
 
-Den visade poängen avrundas nedåt (till exempel visas poängen 75,89999 som 76), det finns ingen övre gräns för poängen för GA och det finns en daglig frekvensgräns på 20.
+Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en inköpsgrupp utför samma aktivitet mer än 20 gånger per dag, begränsas antalet aktiviteter till 20 och inte ett högre antal.
 
-I följande exempel visas beräkningen av poängen för engagemang:
+Den poäng som visas är avrundad. Ett resultat på till exempel 75,89999 visas som 76.
 
-**Buying group 1** - engagement score = 22.15
+#### Viktning
 
-| Användare | Roll | Rollvikt | Åtgärd | Idag | Igår | Åtgärdsbredd | Poäng |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Beslutsfattare | 80% | Besökt webbplats | 1000 | 2 | 1 | 22 |
-| | | | E-post som klickades | 1 | 0 | 1 | 1 |
-| | | | Nedladdad pub | 1 | 3 | 1 | 4 |
-| Bob | Påverkande | 15 % | Besökt webbplats | 1 | 2 | 1 | 3 |
-| Calvin | Yrkesverksamma | 5 % | Besökt webbplats | 1 | 1 | 1 | 2 |
+Användare kan tilldela _viktning_ till varje roll i rollmallen för att tilldela olika vikter för en roll för att beräkna förlovningspoängen.
 
-**Buying group 2** - engagement score = 8.55
+![Ange viktning för varje roll i rollmallen](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-| Användare | Roll | Rollvikt | Åtgärd | Idag | Igår | Åtgärdsbredd | Poäng |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Beslutsfattare | 80% | Besökt webbplats | 3 | 2 | 1 | 5 |
-| | | | E-post som klickades | 1 | 0 | 1 | 1 |
-| | | | Nedladdad pub | 1 | 3 | 1 | 4 |
-| Bret | Påverkande | 15 % | Besökt webbplats | 1 | 2 | 1 | 3 |
-| Cam | Yrkesverksamma | 5 % | Besökt webbplats | 1 | 1 | 1 | 2 |
+Varje viktningsnivå motsvarar ett värde som används för att beräkna engagemangspoängen:
+
+* [!UICONTROL Trivial] = 20
+* [!UICONTROL Minor] = 40
+* [!UICONTROL Normal] = 60
+* [!UICONTROL Important] = 80
+* [!UICONTROL Vital] = 100
+
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
+
+| Roll | Viktning | Backend-värde | Värdeberäkning | Procent |
+|-------------- |--------- |------------- |------------------ |---------- |
+|               |          |              |                   |           |
+| Beslutsfattare | Vital | 100 | 100/240 | 41,67 % |
+| Påverkande | Viktigt | 80 | 80/240 | 33,33 % |
+| Yrkesverksamma | Normal | 60 | 60/240 | 25 % |
+|               | Totalt | 240 |                   |           |
+
+#### Exempel på beräkning
+
+I följande exempel visas beräkningen av engagemangspoängen med den angivna rollviktsprocenten, antalet inkommande aktiviteter för varje medlem i köpgruppen och ett dagligt tak på 20 antal för varje händelse (om det har inträffat flera gånger).
+
+| Roll | medlem | Typ av aktivitet | Gårdagens antal | Antal i dag | Beräkning | Totalt antal poäng |
+|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
+|               |          |             |                 |             |      |           |
+| Beslutsfattare | Adam | Besökt webbplats | 37 | 15 | 20 + 15 | 35 |
+|               |          | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Märk | Besökt webbplats | 5 | 3 | 5 + 3 | 8 |
+|               |          | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
+|               |          | Nedladdad pub | 3 | 2 | 3 + 2 | 5 |
+| **Totalpoäng för beslutsfattare** |         |             |                 |             |      | **52** |
+|               |          |             |                 |             |      |           |
+| Påverkande | John | Besökt webbplats | 19 | 9 | 19 + 9 | 28 |
+| **Påverkar totalpoäng** |         |             |                 |             |      | **28** |
+|               |          |             |                 |             |      |           |
+| Yrkesverksamma | Bob | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Paul | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Calvin | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
+|               |          | Besökt webbplats | 1 | 7 | 1 + 7 | 8 |
+|               |          | Nedladdad pub | 1 | 2 | 1 + 2 | 3 |
+| **Totalt antal praktikanter** |         |             |                 |             |      | **17** |
+
+Det slutliga poängtalet för engagemang beräknas genom att viktningen tillämpas för varje rollpoäng:
+
+| Roll | Rolltotalpoäng | Rollvikt i % | Poäng X vikt % |
+|-------------- |---------------- |------------- |---------------- |
+| Beslutsfattare | 52 | 41,67 % | 21,67 |
+| Påverkande | 28 | 33,33 % | 9,33 |
+| Yrkesverksamma | 17 | 25 % | 4,25 |
+| **Slutgiltigt engagemangsmoment** |                |             | **35.25** |
