@@ -3,9 +3,9 @@ title: E-postredigering
 description: Lär dig hur du skapar anpassat e-postinnehåll som används i kontoresor.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,12 @@ Det finns två typer av varningar:
 
    * `The email version of the message is empty`: Det här felet visas när e-postinnehållet inte har konfigurerats.
 
-## Kontrollera och testa e-postmeddelandet
+## Kontrollera och testa e-postmeddelandet {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_simulate"
+>title="Kontrollera hur innehållet renderar"
+>abstract="När innehållet är definierat kan du förhandsgranska det och kontrollera om återgivningen är korrekt för den kanal som du använder."
 
 När meddelandeinnehållet är definierat kan du använda testprofiler för att förhandsgranska det, skicka korrektur och styra återgivningen i populära dator-, mobil- och webbaserade klienter. Om du infogade anpassat innehåll kan du förhandsgranska hur innehållet visas i meddelandet med hjälp av testprofilsdata.
 
