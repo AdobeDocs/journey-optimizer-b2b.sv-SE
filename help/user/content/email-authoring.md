@@ -3,9 +3,9 @@ title: E-postredigering
 description: Lär dig hur du skapar anpassat e-postinnehåll som används i kontoresor.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
+source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,37 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 >
 >Använd AI Assistant i Adobe Journey Optimizer B2B Edition med generativ AI för att lyfta materialet till nästa nivå. AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att generera hela e-postmeddelanden, riktat textinnehåll och få AI Assistant-rekommendationer för bilder som får genklang hos er målgrupp. [Läs mer](./ai-assistant-emails.md)
 
-### Designa din e-post från grunden
+### Designa din e-post från grunden {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Lägg till strukturkomponenter"
+>abstract="Strukturkomponenter definierar layouten för e-postmeddelandet. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa ditt e-postinnehåll."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="Lägg till strukturkomponenter"
+>abstract="Strukturkomponenter definierar landningssidans layout. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa innehållet på landningssidan."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="Lägg till strukturkomponenter"
+>abstract="Strukturkomponenter definierar fragmentets layout. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa innehållet i fragmentet."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Om innehållskomponenter"
+>abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett e-postmeddelande."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="Om innehållskomponenter"
+>abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för en landningssida."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="Om innehållskomponenter"
+>abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett fragment."
 
 1. På Designer hemsida väljer du alternativet **[!UICONTROL Design from scratch]**.
 
@@ -182,7 +212,7 @@ Det finns två typer av varningar:
 ## Kontrollera och testa e-postmeddelandet {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="Kontrollera hur innehållet renderar"
 >abstract="När innehållet är definierat kan du förhandsgranska det och kontrollera om återgivningen är korrekt för den kanal som du använder."
 

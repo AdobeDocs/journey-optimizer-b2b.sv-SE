@@ -3,9 +3,9 @@ title: E-postmallar
 description: Lär dig hur du skapar och redigerar e-postmallar som kan användas för att enkelt och effektivt skapa e-postmeddelanden om kontoresan.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,17 @@ Sidan _[!UICONTROL Design your template]_öppnas och innehåller flera alternati
 
 ![Välj hur du vill börja med din e-postmallsdesign](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Designa från grunden
+### Designa från grunden {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Lägg till strukturkomponenter"
+>abstract="Strukturkomponenter definierar mallens layout. Dra och släpp en **Struktur**-komponent på arbetsytan för att börja designa innehållet i mallen."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Om innehållskomponenter"
+>abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för en mall."
 
 Använd e-postdesignern för att definiera strukturen för ditt e-postinnehåll. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
 

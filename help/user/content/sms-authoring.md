@@ -3,9 +3,9 @@ title: SMS-redigering
 description: Lär dig hur du skickar textmeddelanden (SMS) till dina kunder på deras mobila enheter och hur du anpassar och förhandsgranskar meddelanden i textformat från SMS-redigeraren.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -200,7 +200,12 @@ Du kan ställa in textmeddelandeleveranser på en kontoresa när du lägger till
 
    Mottagarnumret är alltid mappat till fältet `Lead.mobilePhone` i Marketo Engage.
 
-## Simulera textmeddelandets innehåll
+## Simulera textmeddelandets innehåll {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_sms_preview_simulate"
+>title="Kontrollera hur innehållet renderar"
+>abstract="När innehållet är definierat kan du förhandsgranska det och kontrollera om återgivningen är korrekt för den kanal som du använder."
 
 När meddelandeinnehållet har definierats kan du använda testprofiler för att simulera (förhandsgranska) innehållet. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
 
