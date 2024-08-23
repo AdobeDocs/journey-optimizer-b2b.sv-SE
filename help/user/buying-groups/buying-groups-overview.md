@@ -3,7 +3,7 @@ title: Köpgrupper
 description: Läs om hur du köper grupper och deras komponenter.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 4%
@@ -109,7 +109,7 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 
 En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
 
-| Roll | Viktning | Backend-värde | Värdeberäkning | Procent |
+| Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | Beslutsfattare | Vital | 100 | 100/240 | 41,67 % |

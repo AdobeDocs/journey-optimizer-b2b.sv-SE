@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B Edition - dokumentation
 description: Lär dig hur du använder funktionerna i Adobe Journey Optimizer B2B Edition för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,12 @@ Här följer ett exempel på de senaste förbättringarna i Journey Optimizer B2
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
+
+>[!TAB LinkedIn-konto matchar målgrupper]
+
+Generera LinkedIn Ad-målgrupper via Account Matched Audiences som hjälper er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppsfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar era köpgruppsparametrar. Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen.
+
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Läs om LinkedIn Account Matched Auditions"}
 
 >[!TAB AI-assistenten]
 

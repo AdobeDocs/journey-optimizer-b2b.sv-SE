@@ -1,11 +1,9 @@
 ---
 title: LinkedIn Account Matched Auditions
 description: Lär dig hur du ansluter ett LinkedIn-konto och aktiverar ett dataflöde för inköpsgrupper.
-hidefromtoc: true
-hide: true
-source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -25,15 +23,29 @@ Innan du initierar ett dataflöde från Journey Optimizer B2B Edition måste du 
 
 1. I Experience Platform går du till **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** i den vänstra navigeringen och väljer fliken **[!UICONTROL Catalog]**.
 
-1. Leta reda på **[!UICONTROL (Companies) LinkedIn Matched Audience]**-kopplingen i katalogen och klicka på **[!UICONTROL Set Up]**.
+1. Leta reda på **[!UICONTROL (Companies) LinkedIn Matched Audience]**-kopplingen i katalogen.
+
+   >[!TIP]
+   >
+   >Du kan snabbt hitta kopplingen genom att ange `LinkedIn` i sökrutan.
+
+1. Klicka på ikonen _Mer_ (**..**) på kopplingskortet och välj **[!UICONTROL Configure new destination]**.
 
    ![Åtkomst till (företag) LinkedIn Matched Audience Connector](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
-1. Välj **[!UICONTROL New Account]** > **[!UICONTROL Connect to LinkedIn]**.
+1. Markera **[!UICONTROL New Account]** och klicka på **[!UICONTROL Connect to destination]**.
+
+   ![Anslut ett nytt LinkedIn-konto](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. Ange dina LinkedIn-uppgifter och logga in.
 
-   LinkedIn-kontot är anslutet som mål.
+   Efter autentiseringen är LinkedIn-kontot anslutet som ett mål i Experience Platform.
+
+   ![Bekräftelse av kontoanslutning visas](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
+
+   >[!IMPORTANT]
+   >
+   >**skriv inte** _[!UICONTROL Destination details]_. Endast anslutningen behövs.
 
 ## Uppdatera kontoinformationen
 
