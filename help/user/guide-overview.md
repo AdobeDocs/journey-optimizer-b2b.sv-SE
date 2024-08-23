@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B Edition - dokumentation
 description: Lär dig hur du använder funktionerna i Adobe Journey Optimizer B2B Edition för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
+source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '422'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,12 @@ Här följer ett exempel på de senaste förbättringarna i Journey Optimizer B2
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
+<!-- 
+>[!TAB LinkedIn Account Matched Audiences]
 
->[!TAB LinkedIn-konto matchar målgrupper]
+Generate LinkedIn Ad audiences through Account Matched Audiences to help you fill empty roles in your buying groups. By defining a set of buying group filters, you can maintain a LinkedIn Matched Audience to target prospects who match your buying group parameters. This feature leverages Experience Platform Destinations to manage some aspects of the integration.
 
-Generera LinkedIn Ad-målgrupper via Account Matched Audiences som hjälper er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppsfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar era köpgruppsparametrar. Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen.
-
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Läs om LinkedIn Account Matched Auditions"}
-
+[!BADGE Learn more]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Learn about LinkedIn Account Matched Audiences"} -->
 >[!TAB AI-assistenten]
 
 Kom snabbt igång med kontobaserade marknadsföringskoncept och lär dig mer om Journey Optimizer B2B Edition-funktionerna som är utformade för att maximera teamets strategier.
