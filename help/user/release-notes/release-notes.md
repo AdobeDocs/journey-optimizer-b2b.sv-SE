@@ -1,11 +1,10 @@
 ---
 title: Versionsinformation
 description: Senaste versionsinformation för Adobe Journey Optimizer B2B Edition
-hidefromtoc: true
-hide: true
-source-git-commit: fdaf71355aa77d73f5e30d468b05d48046fb6ae2
+exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
+source-git-commit: b034c96da0b00f4976a832a6b01858180e189c8d
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '152'
 ht-degree: 1%
 
 ---
@@ -16,9 +15,11 @@ Adobe Journey Optimizer B2B Edition innehåller kontinuerligt nya funktioner, f�
 
 Journey Optimizer B2B Edition är inbyggd i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
+Granska [produktbeskrivningen](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om du vill ha information om berättiganden, prestandaskydd och begränsningar.
+
 ## Versionsinformation augusti 2024 {#Aug-2024}
 
-**Releasedatum**: 22 augusti 2024
+**Releasedatum**: 29 augusti 2024
 
 Den här versionen innehåller följande nya funktioner och förbättringar:
 
