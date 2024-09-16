@@ -1,11 +1,11 @@
 ---
 title: E-postredigering
-description: Lär dig hur du skapar anpassat e-postinnehåll som används i kontoresor.
+description: Lär dig hur du skapar anpassat e-postinnehåll som används i en kontoresa.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -65,121 +65,116 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 ### Designa din e-post från grunden {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Lägg till strukturkomponenter"
->abstract="Strukturkomponenter definierar layouten för e-postmeddelandet. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa ditt e-postinnehåll."
-
->[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="Lägg till strukturkomponenter"
 >abstract="Strukturkomponenter definierar landningssidans layout. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa innehållet på landningssidan."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Lägg till strukturkomponenter"
->abstract="Strukturkomponenter definierar fragmentets layout. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa innehållet i fragmentet."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Om innehållskomponenter"
->abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett e-postmeddelande."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="Om innehållskomponenter"
 >abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för en landningssida."
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Om innehållskomponenter"
->abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett fragment."
+Använd den visuella innehållsredigeraren för att definiera strukturen för e-postinnehållet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
 
-1. På Designer hemsida väljer du alternativet **[!UICONTROL Design from scratch]**.
+1. Välj alternativet **[!UICONTROL Design from scratch]** på startsidan för _[!UICONTROL Design your template]_.
 
-1. Om du vill starta innehållsdesignen drar du ett objekt från **[!UICONTROL Structures]** och släpper det på arbetsytan.
+1. [Lägg till struktur och innehåll](#add-structure-and-content) i e-postmeddelandet.
+1. [Lägg till bildresurser](#add-assets) i e-postmeddelandet.
+1. [Anpassa e-postinnehållet](#personalize-content).
+1. [Granska och uppdatera länkar](#preview-and-edit-linked-urls).
 
-   Upprepa det här steget för varje strukturkomponent för att skapa layouten för ditt e-postmeddelande.
-
-1. Lägg till så många objekt från _Strukturer_ som du behöver och redigera inställningarna för varje objekt i rutan till höger.
-
-   Markera n:n-kolumnkomponenten för att definiera hur många kolumner du vill ha (mellan tre och 10). Du kan också definiera bredden på varje kolumn genom att flytta pilarna under kolumnen.
-
-   Varje kolumnstorlek får inte vara mindre än 10 % av strukturkomponentens totala bredd. Endast tomma kolumner kan tas bort.
-
-1. Expandera avsnittet **[!UICONTROL Contents]** och lägg till så många element du behöver i en eller flera strukturkomponenter.
-
-1. Om det behövs kan du göra ytterligare anpassningar för varje komponent på flikarna _[!UICONTROL Settings]_eller_[!UICONTROL Style]_.
-
-   Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent.
-
-1. I resursväljaren kan du välja resurser som lagras direkt i Assets-biblioteket.
-
-   Dubbelklicka på mappen som innehåller dina resurser. Dra och släpp objekten i en strukturkomponent.
-
-1. Infoga anpassningsfält för att anpassa innehållet utifrån profilattribut, målgruppsmedlemskap, sammanhangsbaserade attribut med mera.
-
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
-1. Välj fliken **[!UICONTROL Links]** i den vänstra rutan för att visa alla URL:er för ditt innehåll som spåras.
-
-   Du kan ändra _spårningstypen_ eller _etiketten_ och lägga till taggar om det behövs.
-
-Om det behövs kan du anpassa din e-post ytterligare genom att klicka på **[!UICONTROL Switch to code editor]** på den avancerade menyn. Med kodredigeraren kan du redigera e-postkällkoden, till exempel lägga till spårning eller egna HTML-taggar.
+<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->Du kan inte återgå till den visuella designern för det här e-postmeddelandet efter att du har växlat till kodredigeraren.
+>You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
 När innehållet är klart klickar du **[!UICONTROL Simulate content]** längst upp för att kontrollera återgivningen. Du kan välja skrivbordsvy eller mobilvy.
 
-När du är klar klickar du på Spara.
+När du är nöjd med innehållet klickar du på **[!UICONTROL Save]**.
 
 ### Importera befintligt HTML-innehåll
 
-Importerat innehåll kan vara:
+{{$include /help/_includes/content-design-import.md}}
 
-* En HTML-fil med en infogad formatmall
-* En ZIP-mapp som innehåller en HTML-fil, formatmallen (.css) och bildfiler
+![importera html-innehåll i en ZIP-fil](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
->ZIP-filstrukturen har inga begränsningar. Referenserna måste dock vara relativa och passa in i trädstrukturen i ZIP-mappen.
+>Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora stilar, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
 
-_Så här importerar du en fil som innehåller HTML-innehåll:_
-
-1. Välj **[!UICONTROL Import HTML]** på startsidan för e-post till Designer.
-
-1. Dra och släpp HTML- eller ZIP-filen med ditt HTML-innehåll och klicka på [!UICONTROL Import].
-
-   När innehållsöverföringen för HTML är klar är ditt innehåll i _kompatibilitetsläge_. I det här läget kan du bara anpassa texten, lägga till länkar eller inkludera resurser i innehållet.
+Du kan anpassa det importerade innehållet efter behov med de visuella redigeringsverktygen för e-post.
 
 ### Välj en mall
 
-Du kan välja mellan:
+{{$include /help/_includes/content-design-select-template.md}}
 
-* Exempelmallar. Journey Optimizer-gränssnittet innehåller 20 färdiga e-postmallar som du kan välja bland.
+## Lägga till struktur och innehåll {#structure-content}
 
-* Sparade mallar.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Lägg till strukturkomponenter"
+>abstract="Strukturkomponenter definierar layouten för e-postmeddelandet. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa ditt e-postinnehåll."
 
-* En anpassad mall som du antingen skapade från grunden med menyn _Mallar_ eller sparade från ett e-postmeddelande på en resa med alternativet _[!UICONTROL Save as content template]_.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Om innehållskomponenter"
+>abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett e-postmeddelande."
 
-_Så här börjar du skapa innehåll med någon av exempelmallarna eller sparade mallar:_
+{{$include /help/_includes/content-design-components.md}}
 
-1. Få åtkomst till _e-post-Designer_ från arbetsytan för redigering av e-postinnehåll.
+### Lägg till fragment
 
-   Fliken **[!UICONTROL Sample templates]** är markerad som standard på sidan _[!UICONTROL Create your email]_.
+Ikonen _Fragments_ visas till vänster i den visuella innehållsredigeraren. I följande exempel beskrivs stegen för att lägga till fragment i mallinnehållet.
 
-1. Om du vill använda en anpassad mall väljer du fliken **[!UICONTROL Saved templates]**.
+1. Om du vill öppna fragmentlistan klickar du på ikonen _Fragment_ .
 
-   Listan över alla innehållsmallar som skapats i den aktuella sandlådan visas. Du kan sortera dem efter namn, senast ändrade eller senast skapade.
+   Du kan:
 
-1. Välj önskad mall i listan.
+   * Sortera listan.
+   * Bläddra, sök eller filtrera listan.
+   * Växla mellan miniatyr- och listvy.
+   * Uppdatera listan så att den återspeglar något av de nyligen skapade fragmenten.
 
-1. När du har valt en kategori kan du navigera mellan alla mallar i den kategorin (exempel eller spara beroende på vad du har valt) med höger- och vänsterpilarna.
+   ![Välj ett fragment i listan](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Use this template]** överst till höger på sidan.
+1. Dra och släpp något av fragmenten i platshållaren för strukturelement.
 
-1. Redigera innehållet efter behov i _e-postmeddelandet för Designer_.
+   Redigeraren återger fragmentet i avsnittet/elementet i e-poststrukturen.
+
+Fragmentets innehåll uppdateras dynamiskt i strukturen för att visa hur innehållet visas i e-postmeddelandet.
+
+>[!TIP]
+>
+>Om du vill lägga till fragmentet så att det upptar hela den vågräta layouten i e-postmeddelandet lägger du till en 1:1-kolumnstruktur och drar och släpper fragmentet i den.
+
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen. Fragment som läggs till i en e-postmall kan inte redigeras i mallen. Innehållet definieras av källfragmentet.
+
+### Lägga till resurser
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### Navigera mellan lager, inställningar och format
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### Anpassa innehåll
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### Redigera länkad URL-spårning
+
+{{$include /help/_includes/content-design-links.md}}
+
+### Visningsalternativ
+
+Utnyttja de alternativ för visning och innehållsvalidering som finns i den visuella e-postredigeraren.
+
+* Zooma in/ut i innehållet genom förinställda zoomalternativ.
+
+* Växla mellan att visa innehållet på datorer, mobiler eller endast text/normal text.
+   * Klicka på ikonen _Ögon_ om du vill förhandsgranska innehåll på olika enheter.
+   * Välj en av de färdiga enheterna eller ange anpassade dimensioner för att förhandsgranska innehållet.
 
 ## Kontrollera aviseringar
 

@@ -3,9 +3,9 @@ title: E-postmallar
 description: Lär dig hur du skapar och redigerar e-postmallar som kan användas för att enkelt och effektivt skapa e-postmeddelanden om kontoresan.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -48,46 +48,25 @@ Sidan _[!UICONTROL Design your template]_öppnas och innehåller flera alternati
 
 ![Välj hur du vill börja med din e-postmallsdesign](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Designa från grunden {#design-from-scratch}
+### Designa från grunden
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Lägg till strukturkomponenter"
->abstract="Strukturkomponenter definierar mallens layout. Dra och släpp en **Struktur**-komponent på arbetsytan för att börja designa innehållet i mallen."
+Använd den visuella innehållsredigeraren för att definiera strukturen för e-postinnehållet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Om innehållskomponenter"
->abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för en mall."
-
-Använd e-postdesignern för att definiera strukturen för ditt e-postinnehåll. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
+>[!NOTE]
+>
+>De tillgängliga designverktygen motsvarar verktygen som används för att skapa [e-post](./email-authoring.md). Skillnaden är att det här innehållet sedan sparas som en mall som kan återanvändas i flera e-postnoder som skickas via kontoresor.
 
 1. Välj alternativet **[!UICONTROL Design from scratch]** på startsidan för _[!UICONTROL Design your template]_.
 
-1. Börja designa ditt innehåll genom att dra och släppa komponenter på arbetsytan för att definiera den strukturella layouten för e-postmeddelandet.
-
-   De tillgängliga designverktygen motsvarar verktygen som används för att skapa [e-post](./email-authoring.md). Skillnaden är att det här innehållet sedan sparas som en mall som kan återanvändas i flera e-postnoder som skickas via kontoresor.
+1. [Lägg till struktur och innehåll](#add-structure-and-content) i mallen.
 
 ### Importera HTML
 
-Med Adobe Journey Optimizer B2B Edition kan du importera befintligt HTML-innehåll för att utforma e-postmallar. Innehållet kan vara:
+Med Adobe Journey Optimizer B2B Edition kan du importera befintligt HTML-innehåll för att utforma e-postmallar.
 
-* En HTML-fil med en infogad formatmall.
-* En ZIP-fil som innehåller en HTML-fil, formatmallen (.css) och bilder
+{{$include /help/_includes/content-design-import.md}}
 
-  >[!NOTE]
-  >
-  >ZIP-filstrukturen har inga begränsningar. Referenserna måste dock vara relativa och passa in i trädstrukturen i ZIP-mappen.
-
-_Så här importerar du en fil som innehåller HTML-innehåll:_
-
-1. Välj alternativet **[!UICONTROL Import HTML]** på startsidan för _[!UICONTROL Design your template]_.
-
-1. Dra och släpp HTML- eller ZIP-filen med ditt HTML-innehåll och klicka på **[!UICONTROL Import]**.
-
-   När HTML-innehållet har överförts är ditt innehåll i _kompatibilitetsläge_. I det här läget kan du bara anpassa texten, lägga till länkar eller inkludera resurser i innehållet.
-
-1. Om du vill använda e-postdesignerns innehållskomponenter klickar du på fliken **[!UICONTROL HTML converter]** och sedan på **[!UICONTROL Convert]**.
+![importera html-innehåll i en ZIP-fil](./assets/templates-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -97,91 +76,21 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 ### Välj en designmall
 
-Använd avsnittet Välj designmall på hemsidan _[!UICONTROL Design your template]_för att börja skapa ditt innehåll från en mall. Du kan använda en exempelmall eller en sparad e-postmall från din Journey Optimizer B2B Edition-instans.
+{{$include /help/_includes/content-design-select-template.md}}
 
->[!BEGINTABS]
+## Lägga till struktur och innehåll {#structure-content}
 
->[!TAB Sparade mallar]
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Lägg till strukturkomponenter"
+>abstract="Strukturkomponenter definierar mallens layout. Dra och släpp en **Struktur**-komponent på arbetsytan för att börja designa innehållet för mallen."
 
-Fliken _Exempelmallar_ är markerad som standard på hemsidan _Utforma mallen_ . Om du vill använda en anpassad mall väljer du fliken **[!UICONTROL Saved templates]**.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Om innehållskomponenter"
+>abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för en mall."
 
-Listan över alla e-postmallar som skapats i den aktuella sandlådan visas. Du kan sortera dem efter _[!UICONTROL Name]_,_[!UICONTROL Last modified]_ och _[!UICONTROL Last created]_.
-
-![Välj en sparad mall](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
-
-Välj den mall du vill använda i listan.
-
-När du har valt mallen visas en förhandsvisning av den. I förhandsgranskningsläget kan du navigera mellan alla mallar i en kategori (exempel eller sparat, beroende på vad du har valt) med höger- och vänsterpilarna.
-
-![Förhandsgranska den sparade mallen](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
-
-När visningen matchar det du vill använda klickar du på **[!UICONTROL Use this template]** längst upp till höger i förhandsvisningsfönstret.
-
-Den här åtgärden kopierar innehållet till designern för visuellt innehåll, där du kan redigera innehållet efter behov.
-
->[!TAB Exempelmall]
-
-Adobe Journey Optimizer B2B Edition erbjuder _färdiga mallar_ som kan användas för att skapa e-postmallar och e-postmallar.
-
-![Välj en mall från Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"}
-
->[!ENDTABS]
-
-## Lägga till struktur och innehåll
-
-Börja designa ditt innehåll genom att dra och släppa strukturer från menyn **[!UICONTROL Components]** till arbetsytan för att definiera layouten för e-postmeddelandet.
-
-Lägg till så många strukturer som behövs och redigera deras inställningar i elementegenskaperna till höger.
-
-Välj komponenten _[!UICONTROL n:n column]_för att definiera antalet kolumner som du vill använda (mellan tre och 10). Definiera bredden på varje kolumn genom att flytta pilarna längst ned.
-
->[!NOTE]
->
->Varje kolumnstorlek får inte vara mindre än 10 % av strukturkomponentens totala bredd. Du kan bara ta bort tomma kolumner.
-
-Expandera avsnittet **[!UICONTROL Contents]** och lägg till så många element du behöver i en eller flera strukturkomponenter.
-
-
-
-Varje komponent kan anpassas ytterligare med flikarna _[!UICONTROL Settings]_eller_[!UICONTROL Style]_ på den högra panelen. Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent.
-
-### Navigera mellan lager, inställningar och format
-
-I följande exempel visas stegen för att justera utfyllnad och lodrät justering inuti en strukturelement som består av tre kolumner.
-
-1. Markera strukturkomponenten direkt i e-postmeddelandet eller använd navigeringsträdet som finns på den vänstra menyn.
-
-1. Klicka på **[!UICONTROL Select a column]** i verktygsfältet och välj den som du vill redigera.
-
-   ![n:n-kolumnkomponent som visas på arbetsytan](./assets/visual-designer-n-n-column.png){width="800" zoomable="yes"}
-
-   Du kan också välja det i strukturträdet. De redigerbara parametrarna för den kolumnen visas på fliken _[!UICONTROL Styles]_.
-
-1. Under **[!UICONTROL Alignment]** väljer du ikonen _Överkant_, _Mitten_ eller _Nederkant_ .
-
-1. Ange utfyllnaden för alla sidor under **[!UICONTROL Padding]**.
-
-   Välj **[!UICONTROL Different padding for each side]** om du vill finjustera utfyllnaden. Klicka på låsikonen för att bryta synkroniseringen.
-
-1. Justera justeringen och utfyllnaden för de andra kolumnerna om det behövs.
-
-1. Spara ändringarna.
-
-### Anpassa innehåll
-
-I följande exempel beskrivs stegen för att anpassa mallinnehåll med hjälp av lead-/kontoattribut och systemtokens.
-
-1. Markera textkomponenten och klicka på ikonen _Lägg till anpassning_ i verktygsfältet.
-
-   ![Klicka på ikonen Anpassa ](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   Den här åtgärden öppnar dialogrutan _Redigera Personalization_.
-
-1. Klicka på **+** eller **..** för att lägga till en token i det tomma utrymmet.
-
-   ![Skapa personlig text med hjälp av variabler](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. Klicka på **[!UICONTROL Save]**.
+{{$include /help/_includes/content-design-components.md}}
 
 ### Lägg till fragment
 
@@ -198,43 +107,33 @@ Ikonen _Fragments_ visas till vänster i den visuella innehållsredigeraren. I f
 
    ![Välj ett fragment i listan](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Dra och släpp något av fragmenten till platshållaren för strukturkomponenten.
+1. Dra och släpp något av fragmenten i platshållaren för strukturelement.
 
    Redigeraren återger fragmentet i avsnittet/elementet i e-poststrukturen.
 
-Fragmentets innehåll uppdateras dynamiskt i strukturen för att återge hur innehållet visas i e-postmeddelandet.
+Fragmentets innehåll uppdateras dynamiskt i strukturen för att visa hur innehållet visas i e-postmeddelandet.
 
-Om du vill lägga till fragmentet så att det upptar hela den vågräta layouten i e-postmeddelandet lägger du till en 1:1-kolumnstruktur och drar och släpper fragmentet i den.
+>[!TIP]
+>
+>Om du vill lägga till fragmentet så att det upptar hela den vågräta layouten i e-postmeddelandet lägger du till en 1:1-kolumnstruktur och drar och släpper fragmentet i den.
 
 När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen. Fragment som läggs till i en e-postmall kan inte redigeras i mallen. Innehållet definieras av källfragmentet.
 
 ### Lägga till resurser
 
-I den visuella innehållsredigeraren väljer du ikonen _Assets_ som visas till vänster.
+{{$include /help/_includes/content-design-assets.md}}
 
->[!NOTE]
->
->Om du har en prenumeration på Experience Manager Assets as a Cloud Service tillsammans med Adobe Marketo Engage Design Studio som standard kan du välja bildresurser från den källa som är vald på mallinformationssidan.
+### Navigera mellan lager, inställningar och format
 
-I följande exempel beskrivs stegen för att lägga till resurser i mallinnehållet:
+{{$include /help/_includes/content-design-navigation.md}}
 
-1. Klicka på ikonen _Assets_ för att öppna resursbiblioteket.
+### Anpassa innehåll
 
-   Från resursväljaren kan du välja resurser som lagras direkt i källbiblioteket.
+{{$include /help/_includes/content-design-personalization.md}}
 
-1. Lägg till en ny resurs genom att dra och släppa bildresursen i en strukturkomponent.
+### Redigera länkad URL-spårning
 
-1. Ersätt en bildresurs genom att markera den på arbetsytan och klicka på **[!UICONTROL Select an asset]** i verktygen för bildkällan.
-
-   ![Välj en resurs från källbiblioteket](./assets/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
-
-### Förhandsgranska och redigera URL:er
-
-1. Klicka på ikonen _[!UICONTROL Links]_till vänster för att visa alla URL:er för ditt innehåll som ska spåras.
-
-1. Om det behövs klickar du på ikonen _Redigera_ (penna) och ändrar _spårningstypen_ eller _etiketten_ och lägger till _taggar_ för en länk.
-
-![Klicka på Mer för att komma åt mallåtgärder](./assets/visual-designer-links.png){width="500"}
+{{$include /help/_includes/content-design-links.md}}
 
 ### Visningsalternativ
 
