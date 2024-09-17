@@ -3,9 +3,9 @@ title: Lösningsintressen
 description: Lär dig mer om lösningsintressen och hur du kan definiera dem för användning inom dina inköpsgrupper.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Lösningsintressen
 
 Innan du skapar Buying Groups bör du veta vad du säljer och vem du vill ha som målgrupp. Er marknadsförings- och försäljningsstrategi bör anpassas så att ni kan lägga till lösningsintresset för inköpsgrupperna.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
 ## Få tillgång till och bläddra bland lösningsintressen
 
@@ -84,3 +86,7 @@ Eventuella lösningsintressen som för närvarande används av ett inköpsgrupps
    Om lösningsintresset för närvarande används av en kontoresa eller ett inköpsgruppsjobb öppnas en informationsdialogruta som meddelar dig om att det inte kan tas bort. Klicka på [!UICONTROL OK] som avbryter borttagningen.
 
 1. Klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen eller så kan du avbryta processen genom att klicka på _[!UICONTROL Cancel]_.
+
+## Videoöversikt
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

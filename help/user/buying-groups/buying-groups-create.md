@@ -3,9 +3,9 @@ title: Skapa inköpsgrupper
 description: Lär dig skapa inköpsgrupper.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ När inköpsgruppen har skapats är den tillgänglig för användning i en konto
    ![Klicka på Skapa inköpsgrupper](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
 1. Följ instruktionerna på varje sida och klicka på **[!UICONTROL Next]** för att fortsätta.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videon ](#how-to-video)
 
 ## Vägledningssida
 
@@ -58,3 +60,7 @@ Du kan navigera användaren till fliken Lösningens intresse och visa antalet jo
 Member of buying group.
 Assign a member of the buying group.
 Remove a member of the buying group. -->
+
+## Instruktionsvideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

@@ -3,9 +3,9 @@ title: Mallar för inköpsgrupproll
 description: Lär dig hur du definierar en rollmall som ska användas som en köpgruppskomponent.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Köpa grupprollsmallar
 
 På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dessa personer deltar i beslutsprocessen i enlighet med deras roll i organisationen. Skapa mallar för inköpsgruppsroller som innehåller dessa rolldefinitioner beroende på varje produkterbjudandetyp eller användningsfall för konto.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
 ## Få åtkomst till och bläddra bland rollmallar
 
@@ -130,3 +132,7 @@ Du kan ta bort en rollmall om den har statusen _Utkast_.
    ![Ändra rollprioritet](./assets/roles-template-delete.png){width="700"}
 
 1. Bekräfta genom att klicka på **[!UICONTROL Delete]** i dialogrutan.
+
+## Videoöversikt
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

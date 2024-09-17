@@ -3,9 +3,9 @@ title: Köpgrupper
 description: Läs om hur du köper grupper och deras komponenter.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,8 @@ För B2B-försäljnings- och marknadsföringsaktiviteter är konton avgörande f
 ![Diagram över kontoroller](assets/account-roles-diagram.png){width="800"}
 
 I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Detta är de personer som i slutändan fattar inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan t.ex. kräva en Chief Information Officer eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp, men en buggspårningsprodukt kan vanligtvis ha en VP of Engineering och en IT Director som medlemmar i inköpsgruppen.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
 
 ## Viktiga komponenter
 
@@ -152,3 +154,7 @@ Det slutliga poängtalet för engagemang beräknas genom att viktningen tillämp
 | Påverkande | 28 | 33,33 % | 9,33 |
 | Yrkesverksamma | 17 | 25 % | 4,25 |
 | **Slutgiltigt engagemangsmoment** |                |             | **35.25** |
+
+## Videoöversikt
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
