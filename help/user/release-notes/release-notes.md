@@ -2,7 +2,7 @@
 title: Versionsinformation
 description: Senaste versionsinformationen för Adobe Journey Optimizer B2B-version
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
+source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 7%
@@ -47,7 +47,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 <tbody>
 <tr>
 <td>
-<p>Visuella fragment hanteras med en statuslivscykel, där fragmentstatusen avgör dess tillgänglighet för användning i en e-post- eller e-postmall och vilka ändringar du kan göra i den. Det gör det enkelt att hantera återanvänt innehåll enligt din kampanj- och kommunikationskalender. <a href="../content/fragments#fragment-status-and-lifecycle">Läs mer</a>
+<p>Visuella fragment hanteras med en statuslivscykel, där fragmentstatusen avgör dess tillgänglighet för användning i en e-post- eller e-postmall och vilka ändringar du kan göra i den. Det gör det enkelt att hantera återanvänt innehåll enligt din kampanj- och kommunikationskalender. <a href="../content/fragments.md#fragment-status-and-lifecycle">Läs mer</a>
 </td>
 </tr>
 </tbody>
