@@ -3,9 +3,9 @@ title: Fragment
 description: Lär dig hur du skapar och använder visuella innehållsfragment som återanvändbara komponenter för e-post och e-postmallar i Adobe Journey Optimizer B2B Edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '2594'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,35 @@ Om du vill komma åt visuella fragment i Adobe Journey Optimizer B2B Edition gå
 
 Tabellen sorteras efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade fragmenten överst som standard. Klicka på kolumnrubriken om du vill ändra mellan stigande och fallande.
 
-Om du vill söka efter ett fragment efter namn anger du en textsträng i sökfältet för en matchning. Klicka på ikonen _Filter_ om du vill filtrera de visade objekten enligt dina angivna villkor.
+### Fragmentstatus och livscykel
+
+Fragmentstatusen avgör om den är tillgänglig för användning i en e-post- eller e-postmall och vilka ändringar du kan göra i den.
+
+| Status | Beskrivning |
+| -------------------- | ----------- |
+| Utkast | När du skapar ett fragment är det i utkaststatus. Den behåller den här statusen när du definierar eller redigerar det visuella innehållet tills du publicerar det för användning i en e-postmall eller e-postmall. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Redigera i visuell designer<li>Publish<li>Duplicera<li>Ta bort |
+| Publicerad | När du publicerar ett fragment blir det tillgängligt för användning i en e-postmall eller e-postmall. Ett publicerat fragmentinnehåll kan inte ändras i den visuella designern. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Skapa utkastversion<li>Duplicera<li>Radera (om den inte används) |
+| Publicerat med utkast | När du skapar ett utkast från ett publicerat fragment förblir den publicerade versionen tillgänglig för användning i en e-postmall eller e-postmall, och utkastinnehållet kan ändras i den visuella designern. Om du publicerar utkastet ersätter det den aktuella publicerade versionen och innehållet uppdateras i e-postmallarna och i e-postmallarna där det används. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Redigera utkast i visuell designer<li>Publish draft version<li>Duplicera<li>Radera (om den inte används) |
+
+![Livscykel för fragmentstatus](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>Fragmentstatus introducerades i augusti-utgåvan av Journey Optimizer B2B Edition. Alla fragment som skapats före den här versionen har statusen _Utkast_, även om de används i ett e-postmeddelande eller en mall. Om du ändrar något i dessa fragment måste du publicera fragmentet för att sprida ändringarna.
+
+### Filtrera fragmentlistan
+
+Om du vill söka efter ett fragment efter namn anger du en textsträng i sökfältet för en matchning. Klicka på ikonen _Filter_ ( ![Visa eller dölj filterikon](../assets/do-not-localize/icon-filter.svg) ) för att visa tillgängliga filteralternativ och ändra inställningarna för att filtrera de visade objekten enligt de angivna villkoren.
 
 ![Filtrera de visade fragmenten](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
-Anpassa de kolumner som du vill visa i tabellen genom att klicka på ikonen _Anpassa tabell_ längst upp till höger. Markera de kolumner som ska visas och klicka på **[!UICONTROL Apply]**.
+### Anpassa kolumnvisningen
+
+Anpassa de kolumner som du vill visa i tabellen genom att klicka på ikonen _Anpassa tabell_ ( ![Anpassa tabell-ikon](../assets/do-not-localize/icon-column-settings.svg) ) längst upp till höger.
+
+I dialogrutan markerar du de kolumner som ska visas och klickar på **[!UICONTROL Apply]**.
+
+![Markera de kolumner som du vill visa](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## Skapa fragment
 
@@ -57,16 +81,19 @@ Du kan skapa nya visuella fragment i Journey Optimizer B2B Edition genom att kli
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   Redigeraren för visuellt innehåll öppnas med en tom arbetsyta.
+   Den visuella designern öppnas med en tom arbetsyta.
 
-<!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
+1. Använd verktygen för innehållsdesign för att skapa det visuella fragmentinnehållet:
 
-Adding structure and content
-Adding assets
-Navigating the layers
-Previewing & editing URLs
-View options
-More options -->
+   * [Lägga till struktur och innehåll](#add-structure-and-content)
+   * [Lägg till Assets](#add-assets)
+   * [Navigera mellan lager, inställningar och format](#navigate-the-layers-settings-and-styles)
+   * [Anpassa innehåll](#personalize-content)
+   * [Redigera länkad URL-spårning](#edit-linked-url-tracking)
+
+1. Klicka på **[!UICONTROL Save]** när du vill spara utkastet.
+
+1. När du är redo att göra fragmentet tillgängligt för användning i en e-post- eller e-postmall klickar du på **[!UICONTROL Publish]**.
 
 ### Lägga till struktur och innehåll {#design-fragment}
 
@@ -145,12 +172,97 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
 ## Redigera fragment
 
-Du kan redigera ett fragment på något av följande sätt:
+Ändringar i ett fragment beror på dess aktuella status:
 
-* Klicka på **[!UICONTROL Edit]** från fragmentinformationen till höger.
-* Klicka på ellipsen bredvid fragmentet på listsidan _[!UICONTROL Fragments]_och välj **[!UICONTROL Edit]**.
+* När ett fragment har statusen _Utkast_ kan du redigera alla dess detaljer och det visuella innehållet.
+* När ett fragment har statusen _Publicerad_ kan du redigera fragmentbeskrivningen, men inte namnet. Du kan inte redigera det visuella innehållet.
+* När ett fragment har statusen _Publicerat med utkast_ begränsas redigeringen till beskrivningen. Du kan också redigera det visuella innehållet för utkastversionen.
 
-Den här åtgärden öppnar fragmentet i en redigerare för visuellt innehåll, där du kan redigera fragmentet med någon av funktionerna för att [skapa ett fragment](#create-fragments).
+>[!BEGINTABS]
+
+>[!TAB Utkast]
+
+1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_för att öppna det.
+
+   En förhandsgranskning av det visuella innehållet visas, med fragmentinformationen till höger.
+
+1. Ändra alla detaljer, till exempel namn och beskrivning.
+
+   ![Information om rament med utkaststatus](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+
+1. Om du vill ändra innehållet i den visuella designern klickar du på **[!UICONTROL Edit fragment]**.
+
+   Använd de visuella designverktygen efter behov:
+
+   * [Lägga till struktur och innehåll](#add-structure-and-content)
+   * [Lägg till Assets](#add-assets)
+   * [Navigera mellan lager, inställningar och format](#navigate-the-layers-settings-and-styles)
+   * [Anpassa innehåll](#personalize-content)
+   * [Redigera länkad URL-spårning](#edit-linked-url-tracking)
+
+   Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save & close]** för att återgå till fragmentinformationen.
+
+1. När fragmentet uppfyller dina villkor och du vill göra det tillgängligt för användning i en e-postmall eller e-postmall klickar du på **[!UICONTROL Publish]**.
+
+>[!TAB Publicerad]
+
+1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_för att öppna det.
+
+   En förhandsgranskning av det visuella innehållet visas, med fragmentinformationen till höger.
+
+1. Ändra beskrivningen om det behövs.
+
+   För ett publicerat fragment går det inte att ändra all annan information.
+
+1. Om du vill uppdatera innehållet klickar du på **[!UICONTROL Create draft version]** längst upp till höger.
+
+   Klicka på **[!UICONTROL OK]** i dialogrutan för att öppna utkastet i den visuella designern. Du kan ändra [bildkällan](./assets-overview.md#choose-an-asset-source) om det behövs.
+
+   ![Skapa dialogruta för utkastversion](./assets/fragments-create-draft-version.png){width="300"}
+
+   Använd de visuella designverktygen efter behov:
+
+   * [Lägga till struktur och innehåll](#add-structure-and-content)
+   * [Lägg till Assets](#add-assets)
+   * [Navigera mellan lager, inställningar och format](#navigate-the-layers-settings-and-styles)
+   * [Anpassa innehåll](#personalize-content)
+   * [Redigera länkad URL-spårning](#edit-linked-url-tracking)
+
+   Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save & close]** för att återgå till fragmentinformationen.
+
+1. När utkastet uppfyller dina villkor och du vill göra ändringarna tillgängliga för användning i en e-postmall eller e-postmall klickar du på **[!UICONTROL Publish]**.
+
+   När du publicerar utkastet ersätts den aktuella publicerade versionen och innehållet uppdateras i e-postmallarna och i e-postmallarna där det redan används.
+
+>[!TAB Publicerat med utkast]
+
+Det finns två sätt att öppna utkastet för redigering från listsidan _[!UICONTROL Fragments]_:
+
+* Klicka på ikonen _Mer_ (**..**) bredvid fragmentnamnet och välj **[!UICONTROL Open draft version]**.
+
+  ![Öppna utkastversion](./assets/fragments-create-draft-version.png){width="300"}
+
+* Klicka på fragmentnamnet för att öppna det. Klicka sedan på **[!UICONTROL Open draft version]** överst till höger.
+
+  En förhandsgranskning av det visuella innehållet för utkastversionen visas, med fragmentinformationen till höger.
+
+Så här uppdaterar du innehållet:
+
+1. Klicka på **[!UICONTROL Edit fragment]** överst till höger. Använd de visuella designverktygen efter behov:
+
+   * [Lägga till struktur och innehåll](#add-structure-and-content)
+   * [Lägg till Assets](#add-assets)
+   * [Navigera mellan lager, inställningar och format](#navigate-the-layers-settings-and-styles)
+   * [Anpassa innehåll](#personalize-content)
+   * [Redigera länkad URL-spårning](#edit-linked-url-tracking)
+
+   Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save & close]** för att återgå till fragmentinformationen.
+
+1. När utkastet uppfyller dina villkor och du vill göra ändringarna tillgängliga för användning i en e-postmall eller e-postmall klickar du på **[!UICONTROL Publish]**.
+
+   När du publicerar utkastet ersätts den aktuella publicerade versionen och innehållet uppdateras i e-postmallarna och i e-postmallarna där det redan används.
+
+>[!ENDTABS]
 
 ## Duplicera fragment
 
@@ -167,7 +279,7 @@ Ange ett användbart namn (unikt) och en beskrivning i dialogrutan. Klicka på *
 
 Det duplicerade (nya) fragmentet visas sedan i listan _Fragments_.
 
-## Spara ett fragment från e-post eller mallinnehåll
+## Spara ett nytt fragment från e-post eller mallinnehåll
 
 När du skapar/redigerar en e-post- eller e-postmall i den visuella innehållredigeraren kan du välja att spara hela eller delar av innehållet som ett fragment så att det är tillgängligt för återanvändning.
 
