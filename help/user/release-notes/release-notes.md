@@ -2,10 +2,10 @@
 title: Versionsinformation
 description: Senaste versionsinformationen för Adobe Journey Optimizer B2B-version
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 192080e0cea6eb3deaea24ac89ec17113bc75af5
+source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 4%
+source-wordcount: '205'
+ht-degree: 7%
 
 ---
 
@@ -32,7 +32,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 <tbody>
 <tr>
 <td>
-<p>Generera LinkedIn Ad-målgrupper via Account Matched Audiences som hjälper er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppsfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar era köpgruppsparametrar. Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen. [Läs mer](../data/linkedin-account-matched-audiences.md)</p>
+<p>Generera LinkedIn Ad-målgrupper via Account Matched Audiences som hjälper er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppsfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar era köpgruppsparametrar. Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen. <a href="../data/linkedin-account-matched-audiences.md">Läs mer</a>
 </td>
 </tr>
 </tbody>
@@ -47,22 +47,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 <tbody>
 <tr>
 <td>
-<p>Visuella fragment hanteras med en statuslivscykel, där fragmentstatusen avgör dess tillgänglighet för användning i en e-post- eller e-postmall och vilka ändringar du kan göra i den. Det gör det enkelt att hantera återanvänt innehåll enligt din kampanj- och kommunikationskalender. [Läs mer](../content/fragments.md#fragment-status-and-lifecycle)</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Statuslivscykel för visuella fragment</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Visuella fragment hanteras med en statuslivscykel, där fragmentstatusen avgör dess tillgänglighet för användning i en e-post- eller e-postmall och vilka ändringar du kan göra i den. Det gör det enkelt att hantera återanvänt innehåll enligt din kampanj- och kommunikationskalender. [Läs mer](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments#fragment-status-and-lifecycle)</p>
+<p>Visuella fragment hanteras med en statuslivscykel, där fragmentstatusen avgör dess tillgänglighet för användning i en e-post- eller e-postmall och vilka ändringar du kan göra i den. Det gör det enkelt att hantera återanvänt innehåll enligt din kampanj- och kommunikationskalender. <a href="../content/fragments#fragment-status-and-lifecycle">Läs mer</a>
 </td>
 </tr>
 </tbody>
