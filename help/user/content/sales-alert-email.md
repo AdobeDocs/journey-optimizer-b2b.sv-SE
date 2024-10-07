@@ -3,9 +3,9 @@ title: E-postmeddelande om försäljning
 description: Lär dig hur du tar med ett automatiskt försäljningsmeddelande i dina kontoresor.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 0%
 Ett _försäljningsvarningsmeddelande_ signalerar att inköpsgrupper har skickats till försäljning. E-postmeddelandet innehåller en sammanfattning av inköpsgruppen och information om medlemmarna i inköpsgruppen och deras aktiviteter.
 
 Som marknadsförare kan du konfigurera en e-postnod för försäljningsavisering på dina kontoresor för att informera säljteamet om att resan för vissa inköpsgrupper har slutförts. I noden kan du ange e-postadresserna till säljteamet eller ett distributionsalias som når en uppsättning konton.
-
->[!NOTE]
->
->E-postmeddelandet om försäljning skickas om inköpsgruppen har minst fyra medlemmar med den tilldelade inköpsgrupprollen och gruppen innehåller en person med rollen _beslutsfattare_ eller _påverkare_.
 
 ## E-postinnehåll
 
