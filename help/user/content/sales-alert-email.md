@@ -3,7 +3,7 @@ title: E-postmeddelande om försäljning
 description: Lär dig hur du tar med ett automatiskt försäljningsmeddelande i dina kontoresor.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
+source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -60,4 +60,4 @@ Du kan konfigurera e-postleveranser för försäljningsaviseringar under en kont
 
    ![Skapa ny e-postdialogruta](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   När kontoresan har publicerats levereras försäljningsmeddelandet enligt dessa parametrar.
+   När kontoresan har publicerats levereras försäljningsvarningen enligt dessa parametrar.
