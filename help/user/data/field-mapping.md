@@ -1,19 +1,23 @@
 ---
 title: XDM-fält
-description: Granska standardattributfälten som är synkroniserade mellan Adobe Experience Platform och Journey Optimizer B2B Edition.
+description: Granska standardattributfälten som är synkroniserade mellan Adobe Experience Platform och Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: b38878ca063967e6c1ae56617674af52c10913df
+source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 8%
+source-wordcount: '965'
+ht-degree: 7%
 
 ---
 
 # XDM-fält
 
-Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Business Person-klasserna. Data synkroniseras regelbundet mellan Adobe Experience Platform och Journey Optimizer B2B Edition. I följande avsnitt visas standarduppsättningarna med attribut.
+Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Business Person-klasserna. Data synkroniseras regelbundet mellan Adobe Experience Platform och Journey Optimizer B2B edition. I följande avsnitt visas standarduppsättningarna med attribut.
 
 ## XDM Business Person-attribut
+
+>[!IMPORTANT]
+>
+>Attributet `workEmail.Address` krävs. Om det är tomt för en medlem i en kontomålgrupp är den personen inte införtärd och utelämnas från kontoresor och inköpsgrupper som refererar till målgruppen.
 
 | [Egenskap](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Visningsnamn | Journey Optimizer B2B-visningsnamn | Datatyp | Beskrivning |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -37,11 +41,15 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 | `workAddress.postalCode` | Postnummer | Postnummer | Sträng | Postnumret för platsen. Postnummer är inte tillgängliga för alla länder. I vissa länder innehåller den endast en del av postnumret. |
 | `workAddress.state` | Stat | Stat | Sträng | Namnet på tillståndet för adressen. Det är ett frihandsfält. |
 | `workAddress.street1` | Gatuadress 1 | Adress | Sträng | Primär information om gatuminivå, lägenhetsnummer, gatunummer och gatunamn. |
-| `workEmail.address` | Adress | E-postadress | Sträng | Den tekniska adressen, till exempel `<name@domain.com>`, som den är vanlig definierad i RFC2822 och efterföljande standarder. |
+| `workEmail.address` | Adress | E-postadress | Sträng | **Obligatoriskt fält** <br/>Den tekniska adressen, till exempel `<name@domain.com>`, som vanligen definieras i RFC2822 och efterföljande standarder. |
 | `workEmail.status` | Status | E-post pausad | Sträng | En indikation på möjligheten att använda e-postadressen. |
 | `workPhone.number` | Nummer | Telefonnummer | Sträng | Telefonnummer till arbetet. |
 
 ## XDM Business Account-attribut
+
+>[!IMPORTANT]
+>
+>Attributet `accountName` krävs. Om det är tomt för ett konto hos en målgrupp, är det kontot inte inmatat och utelämnas från kontoresor och inköpsgrupper som refererar till målgruppen.
 
 | [Egenskap](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | Visningsnamn | Journey Optimizer B2B-visningsnamn | Datatyp | Beskrivning |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -51,10 +59,10 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 | `accountBillingAddress.region` | Län | Adressregion | Sträng | Faktureringsadressens region, län eller distrikt. |
 | `accountBillingAddress.state` | Stat | Stat | Sträng | Namnet på delstat för faktureringsadressen. Det är ett frihandsfält. |
 | `accountBillingAddress.street1` | Gatuadress 1 | Gatuadress 1 | Sträng | Primär gatuminivåinformation för faktureringsadressen, som vanligtvis ska innehålla lägenhetsnummer, gatunummer och gatunamn. |
-| `accountName` | Namn | Namn | Sträng | Företagets namn. I det här fältet tillåts upp till 255 tecken. |
+| `accountName` | Namn | Namn | **Obligatoriskt fält** <br/>Sträng | Företagets namn. I det här fältet tillåts upp till 255 tecken. |
 | `accountOrganization.annualRevenue.amount` | Årlig intäkt | Årlig intäkt | Nummer | Organisationens beräknade årsomsättning. |
 | `accountOrganization.industry` | Bransch | Bransch | Sträng | Branschen tillskrivs organisationen. Det är ett frihandsfält och du bör använda ett strukturerat värde för frågor eller egenskapen `xdm:classifier`. |
-| `accountOrganization.logoUrl` | URL för logotyp | URL för logotyp | Sträng | Sökväg som ska kombineras med URL:en för en Salesforce-instans (till exempel `https://yourInstance.salesforce.com/`) för att generera en URL för att begära den profil för sociala nätverk som är associerad med kontot. Den genererade URL:en returnerar en HTTP-omdirigering (kod 302) till profilbilden för det sociala nätverket för kontot. |
+| `accountOrganization.logoUrl` | URL för logotyp | URL för logotyp | Sträng | Sökväg som ska kombineras med URL:en för en Salesforce-instans (till exempel `https://yourInstance.salesforce.com/`) för att generera en URL för att begära den profilbild för sociala nätverk som är associerad med kontot. Den genererade URL:en returnerar en HTTP-omdirigering (kod 302) till profilbilden för det sociala nätverket för kontot. |
 | `accountOrganization.numberOfEmployees` | Antal anställda | Antal anställda | Heltal | Antalet anställda i organisationen. |
 | `accountOrganization.SICCode` | SNI-kod | SNI-kod | Sträng | The Standard Industrial Classification (SIC) code, som är en fyrsiffrig kod som kategoriserar de branscher som företagen tillhör baserat på deras affärsverksamhet. |
 | `accountOrganization.website` | Webbplatsens URL | Domännamn | Sträng | URL till organisationens webbplats. |
