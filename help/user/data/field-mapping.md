@@ -2,7 +2,7 @@
 title: XDM-fält
 description: Granska standardattributfälten som är synkroniserade mellan Adobe Experience Platform och Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 7%
@@ -59,7 +59,7 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 | `accountBillingAddress.region` | Län | Adressregion | Sträng | Faktureringsadressens region, län eller distrikt. |
 | `accountBillingAddress.state` | Stat | Stat | Sträng | Namnet på delstat för faktureringsadressen. Det är ett frihandsfält. |
 | `accountBillingAddress.street1` | Gatuadress 1 | Gatuadress 1 | Sträng | Primär gatuminivåinformation för faktureringsadressen, som vanligtvis ska innehålla lägenhetsnummer, gatunummer och gatunamn. |
-| `accountName` | Namn | Namn | **Obligatoriskt fält** <br/>Sträng | Företagets namn. I det här fältet tillåts upp till 255 tecken. |
+| `accountName` | Namn | Namn | Sträng | **Obligatoriskt fält** <br/>Företagets namn. I det här fältet tillåts upp till 255 tecken. |
 | `accountOrganization.annualRevenue.amount` | Årlig intäkt | Årlig intäkt | Nummer | Organisationens beräknade årsomsättning. |
 | `accountOrganization.industry` | Bransch | Bransch | Sträng | Branschen tillskrivs organisationen. Det är ett frihandsfält och du bör använda ett strukturerat värde för frågor eller egenskapen `xdm:classifier`. |
 | `accountOrganization.logoUrl` | URL för logotyp | URL för logotyp | Sträng | Sökväg som ska kombineras med URL:en för en Salesforce-instans (till exempel `https://yourInstance.salesforce.com/`) för att generera en URL för att begära den profilbild för sociala nätverk som är associerad med kontot. Den genererade URL:en returnerar en HTTP-omdirigering (kod 302) till profilbilden för det sociala nätverket för kontot. |
