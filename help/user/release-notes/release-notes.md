@@ -2,9 +2,9 @@
 title: Versionsinformation
 description: Senaste versionsinformationen för Adobe Journey Optimizer B2B-version
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
+source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '417'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,8 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 <tbody>
 <tr>
 <td>
-<p>Med det förbättrade biblioteket _central assets_ kan du använda alla bildresurser i din Marketo Engage-instans i alla Design Studio-arbetsytor. Det finns inbyggda skyddsräcken som förhindrar redigering av Marketo Engage-resurser från Journey Optimizer B2B edition samt borttagnings- och flyttåtgärder. Dessa skydd säkerställer att källmaterialet (Marketo Engage Design Studio) bevaras samtidigt som det går att läsa och återanvända i Journey Optimizer B2B edition. <a href="../content/marketo-engage-design-studio.md">Läs mer</a>
+<p>Med det förbättrade biblioteket för <i>centrala resurser</i> kan du använda alla bildresurser i din Marketo Engage-instans på Design Studio-arbetsytorna. Det finns inbyggda skyddsräcken som förhindrar redigering av Marketo Engage-resurser från Journey Optimizer B2B edition samt borttagnings- och flyttåtgärder. Dessa skydd säkerställer att källmaterialet (Marketo Engage Design Studio) bevaras samtidigt som det går att läsa och återanvända i Journey Optimizer B2B edition. </p>
+<p>För resurser som endast är avsedda att användas i Journey Optimizer B2B edition har en specifik arbetsyta fullständiga funktioner för resurshantering. <a href="../content/marketo-engage-design-studio.md">Läs mer</a></p>
 </td>
 </tr>
 </tbody>
@@ -47,7 +48,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 <tbody>
 <tr>
 <td>
-<p>Hemsidan i Journey Optimizer B2B edition-appen innehåller nu avsnittet _[!UICONTROL Recently accessed]_, som innehåller en lista över de senast använda resurserna för marknadsföraren eller administratören. Du kan använda den här listan för att gå direkt till resursen som du nyligen arbetade med utan att navigera genom en serie resurssidor och söka. Där finns ytterligare information om ändringen så att du kan avgöra vilken av resurserna som behöver ändras ytterligare från förra sessionen. För e-postresurser visas den kontoresa där e-postresursen används. <a href="../home-page.md">Läs mer</a>
+<p>Hemsidan i Journey Optimizer B2B edition-appen innehåller nu avsnittet <i>[!UICONTROL Recently accessed]</i>, som innehåller en lista över de senast använda resurserna för marknadsföraren eller administratören. Du kan använda den här listan för att gå direkt till resursen som du nyligen arbetade med utan att navigera genom en serie resurssidor och söka. Där finns ytterligare information om ändringen så att du kan avgöra vilken av resurserna som behöver ändras ytterligare från förra sessionen. För e-postresurser visas den kontoresa där e-postresursen används. <a href="../home-page.md">Läs mer</a>
 </td>
 </tr>
 </tbody>
