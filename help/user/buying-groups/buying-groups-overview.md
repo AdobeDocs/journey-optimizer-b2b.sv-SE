@@ -1,12 +1,12 @@
 ---
 title: Köpgrupper
-description: Läs om hur du köper grupper och deras komponenter.
+description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka marknadsföringens effektivitet genom att identifiera och inrikta sig på medlemmar i era kontolistor.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 4%
+source-wordcount: '1187'
+ht-degree: 3%
 
 ---
 

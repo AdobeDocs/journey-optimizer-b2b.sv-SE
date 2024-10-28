@@ -2,10 +2,10 @@
 title: Kom igång med Journey Optimizer B2B Edition
 description: Som ny användare av Journey Optimizer B2B-version får du lära dig mer om de viktigaste områdena att komma igång med.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: ed736c7366ad3fa5c4023947b1c3c4cef7097e2e
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 6%
+source-wordcount: '640'
+ht-degree: 5%
 
 ---
 
@@ -14,6 +14,10 @@ ht-degree: 6%
 Vilka funktioner och verktyg du vill använda i Adobe Journey Optimizer B2B Edition beror på din roll i teamet.
 
 Beroende på din organisation kan administratörer definiera flera typer av användare och ge dem åtkomst till vissa funktioner beroende på deras behörigheter.
+
+>[!TIP]
+>
+>Kontrollera även dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaskydd och statiska begränsningar.
 
 >[!BEGINTABS]
 
