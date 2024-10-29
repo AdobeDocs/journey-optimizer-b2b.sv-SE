@@ -1,20 +1,20 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
+source-git-commit: 93b21240182843543dc439ba2844ab8c3c3b6013
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 27%
 
 ---
 
 
-# Användarhandbok för Journey Optimizer B2B Edition {#user}
+# Användarhandbok för Journey Optimizer B2B edition {#user}
 
-+ [Adobe Journey Optimizer B2B Edition - dokumentation](guide-overview.md)
++ [Adobe Journey Optimizer B2B edition Documentation](guide-overview.md)
 + [Versionsinformation](./release-notes/release-notes.md)
 + Kom igång {#get-started}
-   + [Journey Optimizer B2B Edition - översikt](about-journey-optimizer-b2b-edition.md)
+   + [Journey Optimizer B2B edition - översikt](about-journey-optimizer-b2b-edition.md)
    + [Inloggning och hemsida](home-page.md)
    + [Komma igång-guide](./start/get-started.md)
    + [Använd AI-assistenten](./start/ai-assistant.md)
@@ -43,6 +43,7 @@ ht-degree: 27%
    + [Mallar](./content/email-templates.md)
    + [Fragment](./content/fragments.md)
 + Insiktspaneler {#dashboards}
+   + [Intelligent kontrollpanel](./dashboards/intelligent-dashboard.md)
    + [Köpgrupper](./dashboards/buying-groups-dashboard.md)
    + [Översikt över engagemang](./dashboards/engagement-dashboard.md)
    + [Resursöversikt](./dashboards/journeys-dashboard.md)
