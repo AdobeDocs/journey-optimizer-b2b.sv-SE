@@ -1,22 +1,22 @@
 ---
 title: E-postmallar
-description: Lär dig hur du skapar och redigerar e-postmallar som kan användas för att enkelt och effektivt skapa e-postmeddelanden om kontoresan.
+description: Lär dig hur du hanterar och skapar e-postmallar som kan användas för att skapa e-postmeddelanden om kontoresa enkelt och effektivt.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
 
 # E-postmallar
 
-För en snabbare och förbättrad designprocess kan du skapa fristående e-postmallar för att återanvända anpassat innehåll på kontoresor för Adobe Journey Optimizer B2B Edition. Med hjälp av mallar kan era innehållsorienterade teammedlemmar arbeta med e-postinnehåll utanför resor. Marknadsföringsstrateger kan sedan återanvända och anpassa de här fristående mallarna i sina kontoresor. En teammedlem ansvarar till exempel bara för innehåll, utan tillgång till kontoresor. De kan dock skapa en e-postmall som marknadsförarna kan välja som utgångspunkt för e-postkommunikation och anpassa den efter kundresan.
+För en snabbare och förbättrad designprocess kan du skapa fristående e-postmallar för att återanvända anpassat innehåll på kontoresor för Adobe Journey Optimizer B2B edition. Med hjälp av mallar kan era innehållsorienterade teammedlemmar arbeta med e-postinnehåll utanför resor. Marknadsföringsstrateger kan sedan återanvända och anpassa de här fristående mallarna i sina kontoresor. En teammedlem ansvarar till exempel bara för innehåll, utan tillgång till kontoresor. De kan dock skapa en e-postmall som marknadsförarna kan välja som utgångspunkt för e-postkommunikation och anpassa den efter kundresan.
 
 ## Få åtkomst till och hantera e-postmallar
 
-Om du vill komma åt e-postmallar i Adobe Journey Optimizer B2B-utgåvan går du till vänster och klickar på **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**. Den här åtgärden öppnar en listsida med alla e-postmallar som har skapats i instansen i en tabell.
+Om du vill komma åt e-postmallar i Adobe Journey Optimizer B2B edition går du till vänster och klickar på **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**. Den här åtgärden öppnar en listsida med alla e-postmallar som har skapats i instansen i en tabell.
 
 Tabellen sorteras efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade mallarna överst i listan som standard. Klicka på kolumnrubriken om du vill ändra mellan stigande och fallande.
 
@@ -28,9 +28,9 @@ Anpassa de kolumner som du vill visa i tabellen genom att klicka på ikonen _Anp
 
 På listsidan kan du utföra de åtgärder som beskrivs i följande avsnitt.
 
-## Skapa e-postmallar
+## Skapa en e-postmall
 
-Du kan skapa en ny e-postmall från e-postmallens listsida genom att klicka på **[!UICONTROL Create template]** överst till höger.
+Du kan skapa en e-postmall från e-postmallens listsida genom att klicka på **[!UICONTROL Create template]** överst till höger.
 
 1. Ange ett användbart **[!UICONTROL Name]** och **[!UICONTROL Description]** (valfritt) i dialogrutan.
 
@@ -48,21 +48,23 @@ Sidan _[!UICONTROL Design your template]_öppnas och innehåller flera alternati
 
 ![Välj hur du vill börja med din e-postmallsdesign](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
+När du har valt den metod som du vill använda för att starta designen för e-postmallen använder du den visuella designern för att [redigera innehållet i e-postmallen](./email-template-authoring.md).
+
 ### Designa från grunden
 
 Använd den visuella innehållsredigeraren för att definiera strukturen för e-postinnehållet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
 
 >[!NOTE]
 >
->De tillgängliga designverktygen motsvarar verktygen som används för att skapa [e-post](./email-authoring.md). Skillnaden är att det här innehållet sedan sparas som en mall som kan återanvändas i flera e-postnoder som skickas via kontoresor.
+>De tillgängliga designverktygen motsvarar verktygen som används för att skapa [e-post](./email-authoring.md). Skillnaden är att det här innehållet sedan sparas som en mall som kan återanvändas i flera _skicka e-post_ -noder på kontoresor.
 
 1. Välj alternativet **[!UICONTROL Design from scratch]** på startsidan för _[!UICONTROL Design your template]_.
 
-1. [Lägg till struktur och innehåll](#add-structure-and-content) i mallen.
+1. [Lägg till struktur och innehåll](./email-authoring.md#add-structure-and-content) i mallen.
 
 ### Importera HTML
 
-Med Adobe Journey Optimizer B2B Edition kan du importera befintligt HTML-innehåll för att utforma e-postmallar.
+Med Adobe Journey Optimizer B2B edition kan du importera befintligt HTML-innehåll för att utforma e-postmallar.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -72,89 +74,11 @@ Med Adobe Journey Optimizer B2B Edition kan du importera befintligt HTML-innehå
 >
 >Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora stilar, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
 
-Du kan anpassa det importerade innehållet efter behov med de visuella redigeringsverktygen för e-post.
+Du kan anpassa det importerade innehållet efter behov med den visuella designern.
 
 ### Välj en designmall
 
 {{$include /help/_includes/content-design-select-template.md}}
-
-## Lägga till struktur och innehåll {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Lägg till strukturkomponenter"
->abstract="Strukturkomponenter definierar mallens layout. Dra och släpp en **Struktur**-komponent på arbetsytan för att börja designa innehållet för mallen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Om innehållskomponenter"
->abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för en mall."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Lägg till fragment
-
-Ikonen _Fragments_ visas till vänster i den visuella innehållsredigeraren. I följande exempel beskrivs stegen för att lägga till fragment i mallinnehållet.
-
-1. Om du vill öppna fragmentlistan klickar du på ikonen _Fragment_ .
-
-   Du kan:
-
-   * Sortera listan.
-   * Bläddra, sök eller filtrera listan.
-   * Växla mellan miniatyr- och listvy.
-   * Uppdatera listan så att den återspeglar något av de nyligen skapade fragmenten.
-
-   ![Välj ett fragment i listan](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Dra och släpp något av fragmenten i platshållaren för strukturelement.
-
-   Redigeraren återger fragmentet i avsnittet/elementet i e-poststrukturen.
-
-Fragmentets innehåll uppdateras dynamiskt i strukturen för att visa hur innehållet visas i e-postmeddelandet.
-
->[!TIP]
->
->Om du vill lägga till fragmentet så att det upptar hela den vågräta layouten i e-postmeddelandet lägger du till en 1:1-kolumnstruktur och drar och släpper fragmentet i den.
-
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen. Fragment som läggs till i en e-postmall kan inte redigeras i mallen. Innehållet definieras av källfragmentet.
-
-### Lägga till resurser
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Navigera mellan lager, inställningar och format
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Anpassa innehåll
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Redigera länkad URL-spårning
-
-{{$include /help/_includes/content-design-links.md}}
-
-### Visningsalternativ
-
-Utnyttja de alternativ för visning och innehållsvalidering som finns i den visuella e-postredigeraren.
-
-* Zooma in/ut i innehållet genom förinställda zoomalternativ.
-
-* Växla mellan att visa innehållet på datorer, mobiler eller endast text/normal text.
-   * Klicka på ikonen _Ögon_ om du vill förhandsgranska innehåll på olika enheter.
-   * Välj en av de färdiga enheterna eller ange anpassade dimensioner för att förhandsgranska innehållet.
-
-### Fler alternativ
-
-Från väljaren _Fler alternativ_ i redigeraren för visuellt innehåll kan du utföra följande åtgärder:
-
-![Klicka på Mer för att komma åt mallåtgärder](./assets/visual-designer-more-menu.png){width="500"}
-
-* **Återställ mall** - Klicka på det här alternativet om du vill rensa den visuella e-postdesignerns arbetsyta till en tom plats och starta om skapandet av innehåll.
-* **Spara som fragment** - Spara hela eller delar av den som ett fragment som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för fragmenten och den till listan med tillgängliga fragment.
-* **Ändra din design** - Återgå till sidan _Designa din mall_. Härifrån kan du vidta vilken åtgärd som helst enligt anvisningarna i avsnittet Skapa e-postmallar.
-* **Exportera HTML** - Hämta innehåll på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.
 
 ## Visa information om e-postmallar
 
@@ -178,7 +102,7 @@ På informationssidan för e-postmallar klickar du på fliken **[!UICONTROL Used
 
 ![Klicka på fliken Används av för att kontrollera mallanvändning](./assets/template-details-used-by.png){width="400"}
 
-E-postmeddelanden i Journey Optimizer B2B Edition är inbäddade och redigerade inom resorna, så den överordnade resan för det e-postmeddelande som använder mallen visas i referenser.
+E-postmeddelanden i Journey Optimizer B2B edition är inbäddade och redigerade inom resor, så den överordnade resan för det e-postmeddelande som använder mallen visas i referenser.
 
 * När du klickar på länken skickas du till motsvarande e-postmeddelande för resan där e-postmallen används.
 

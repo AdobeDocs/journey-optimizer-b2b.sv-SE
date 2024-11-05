@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 93b21240182843543dc439ba2844ab8c3c3b6013
+source-git-commit: 2fad420eb5d0511acff5509a424b9ed100cdb151
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 27%
+source-wordcount: '154'
+ht-degree: 24%
 
 ---
 
@@ -31,17 +31,23 @@ ht-degree: 27%
    + [Översikt](./journeys/journey-overview.md)
    + [Nod för kontoresa](./journeys/journey-nodes.md)
 + Reseinnehåll {#journey-content}
-   + [Framtagning av e-post](./content/email-authoring.md)
-   + [AI-assistenten för att skapa e-post](./content/ai-assistant-emails.md)
-   + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
+   + E-postkanal {#email-channel}
+      + [Framtagning av e-post](./content/email-authoring.md)
+      + [AI-assistenten för att skapa e-post](./content/ai-assistant-emails.md)
+      + [Styrda mallar](./content/email-authoring-governance.md)
+      + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
    + [SMS-redigering](./content/sms-authoring.md)
 + Innehållshantering {#content-management}
    + Assets {#assets}
       + [Översikt](./content/assets-overview.md)
       + [Arbeta med resurser i Marketo Engage](./content/marketo-engage-design-studio.md)
       + [Arbeta med AEM Assets-bilder](./content/aem-assets.md)
-   + [Mallar](./content/email-templates.md)
+   + Mallar{#templates}
+      + [Hantera e-postmallar](./content/email-templates.md)
+      + [Framtagning av e-postmallar](./content/email-template-authoring.md)
+      + [Innehållsstyrning](./content/template-content-governance.md)
    + [Fragment](./content/fragments.md)
+   + [Villkorligt innehåll](./content/conditional-content.md)
 + Insiktspaneler {#dashboards}
    + [Intelligent kontrollpanel](./dashboards/intelligent-dashboard.md)
    + [Köpgrupper](./dashboards/buying-groups-dashboard.md)
@@ -49,5 +55,8 @@ ht-degree: 27%
    + [Resursöversikt](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
    + [Användarhantering](./admin/user-management.md)
+   + Kanaler {#channels}
+      + [E-postkonfigurationer](./admin/configure-channels-emails.md)
+      + [SMS-konfiguration](./admin/configure-channels-sms.md)
    + [Konfigurera AEM Assets-databaser](./admin/configure-aem-repositories.md)
    + [Styrning](./admin/governance.md)

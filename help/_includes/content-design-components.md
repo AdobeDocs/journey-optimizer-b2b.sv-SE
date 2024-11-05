@@ -1,9 +1,9 @@
 ---
 title: Skapa innehåll - komponenter
 description: Återanvänt avsnitt om att använda komponenter och innehållselement för innehållsutveckling
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,12 @@ ht-degree: 0%
 
    ![Dra ett innehållselement till arbetsytan och justera inställningarna](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
-   reference to the contents elements--->
+   reference to the contents elements when we have a completed reference for each.--->
 
 1. Om det behövs kan du göra ytterligare anpassningar för varje komponent på flikarna _[!UICONTROL Settings]_eller_[!UICONTROL Style]_.
 
    Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent.
 
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
+1. Om du vill lägga till villkorligt innehåll och anpassa innehållet till målprofilerna baserat på villkorliga regler, markerar du en innehållskomponent och klickar på ikonen **[!UICONTROL Enable conditional content]** i komponentens verktygsfält.
+
+   Mer information finns i [_Villkorligt innehåll_](../user/content/conditional-content.md).

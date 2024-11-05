@@ -1,11 +1,11 @@
 ---
 title: Noder för kontoresa
-description: Lär dig mer om de nodtyper som du kan använda för att skapa kontoresor.
+description: Lär dig mer om de nodtyper som du kan använda för att skapa kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '2056'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,14 @@ ht-degree: 0%
 
 När du har [skapat en kontoresa](journey-overview.md#create-an-account-journey) och [lagt till målgruppen](journey-overview.md#add-the-account-audience-for-your-journey) kan du skapa resan med hjälp av noder. Färdkartan är en arbetsyta där du kan skapa flerstegs-B2B-användningsfall för marknadsföring.
 
-Bygg upp din kontoresa genom att kombinera de olika actionnoderna, eventen och orkestreringsnoderna som ett flerstegsscenario för flera kanaler. Varje nod i ett jouney representerar ett steg längs en logisk sökväg.
+Bygg upp din kontoresa genom att kombinera de olika actionnoderna, eventen och orkestreringsnoderna som ett flerstegsscenario för flera kanaler. Varje nod i en resa representerar ett steg längs en logisk väg. Använd följande nodtyper för att skapa en kontoresa:
+
+* [Målgrupp](#account-audience-node)
+* [Agera](#take-an-action)
+* [Lyssna efter en händelse](#listen-for-an-event)
+* [Dela banor](#split-paths)
+* [Vänta](#wait)
+* [Sammanfoga banor](#merge-paths)
 
 ## Nod för målgrupp för konto
 
@@ -22,28 +29,32 @@ Noden [Account Audience](journey-overview.md#add-the-account-audience-for-your-j
 
 ## Agera
 
-Kör en åtgärd som att skicka ett e-postmeddelande, ändra poängen osv.
+Utför en åtgärd som att skicka ett e-postmeddelande, ändra poängen, tilldela till en köpgrupp och så vidare.
 
 **Åtgärd för konton**: Åtgärden tillämpas på alla personer som är en del av konton på den här sökvägen.
 
 **Åtgärd på personer**: Åtgärden tillämpas på alla personer på den här sökvägen. En åtgärd för personer kan användas inom den delade sökvägen av personer eller dela upp sökväg efter konton.
 
-| Nodkontext | Funktion | Begränsningar |
-| ------------ | -------- | ----------- |
-| [Personer](#add-a-people-action) | Tilldela till inköpsgrupp | Välj lösningsintresse<br/>Välj roll |
-| | Ta bort från inköpsgrupp | Välj lösningsintresse |
-| | Skicka SMS | Skapa SMS |
+### Åtgärder och begränsningar {#action-nodes}
+
+| Nodkontext | Åtgärd | Begränsningar |
+| ------------ | ------ | ----------- |
+| [Personer](#add-a-people-action) | Lägg till i listan | Välj Marketo Engage-arbetsyta<br/>Listnamn |
 | | Lägg till i kampanj för begäran om Marketo Engage | Välj arbetsytan Marketo Engage<br/>Välj kampanj för begäran |
+| | Tilldela till inköpsgrupp | Välj lösningsintresse<br/>Välj roll |
 | | Ändra personpartition i Marketo Engage | Ny partition |
-| | Personens intressanta stund | Typ<br/>Beskrivning |
 | | Ändra poäng | Efternamn<br/>Ändra |
+| | Personens intressanta stund | Typ<br/>Beskrivning |
+| | Ta bort från inköpsgrupp | Välj lösningsintresse |
+| | Ta bort från lista | Välj Marketo Engage-arbetsyta<br/>Listnamn |
 | | Skicka e-post | Skapa nytt e-postmeddelande<br/>Välj e-post från Marketo Engage |
-| [Konton](#add-an-account-action) | Skicka försäljningsvarning | Välj lösningsintresse<br/>Skicka e-post till |
-| | Lägg till konto på (annan) resa | Välj Live Account Journey |
-| | Uppdatera inköpsgruppsstatus | Solution Interest<br/>Status (obligatoriskt, max 50 tecken) |
-| | Ta bort konto från (aktuell) resa | Välj Live Account Journey |
+| | Skicka SMS | Skapa SMS |
+| [Konton](#add-an-account-action) | Datavärde för kontoändring | Välj attribut<br/>Nytt värde |
 | | Intressant stund för konto | Typ (e-post, milstolpe eller webb)<br/>Beskrivning (valfritt) |
-| | Datavärde för kontoändring | Välj attribut<br/>Nytt värde |
+| | Lägg till konto på (annan) resa | Välj Live Account Journey |
+| | Ta bort konto från resa | Välj Live Account Journey |
+| | Skicka försäljningsvarning | Välj lösningsintresse<br/>Skicka e-post till |
+| | Uppdatera inköpsgruppsstatus | Välj lösningsintresse<br/>Status (krävs, max 50 tecken) |
 
 ### Lägg till en kontoåtgärd
 
@@ -82,19 +93,23 @@ Flytta er målgrupp framåt till nästa steg i kundresan när en händelse intr�
 
 **Lyssna på händelser på personer**: Händelser på personer kan bara tillämpas på en kontosökväg. Den är inte tillgänglig för delning via personnod.
 
-| Nodkontext | Funktion | Begränsningar |
-| ------------ | -------- | ----------- |
-| [Personer](#add-a-people-event) | Ändringar av datavärde | Attribut<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
-| | Klicka på länken i e-postmeddelandet | E-post<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
-| | Tilldelad till inköpsgrupp | Intresserad av lösning<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
-| | Öppnar e-post | E-post<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
-| | Poängen har ändrats | Bakgrundsnamn<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+### Händelser och begränsningar {#event-nodes}
+
+| Nodkontext | Händelse | Begränsningar |
+| ------------ | ----- | ----------- |
+| [Personer](#add-a-people-event) | Tilldelad till inköpsgrupp | Intresse av lösning<br/>Ytterligare begränsningar (valfritt): <ul><li>Roll</li><li>Aktivitetsdatum</li></ul><br/>Timeout (valfritt) |
+| | Klicka på länken i e-postmeddelandet | E-post<br/>Ytterligare begränsningar (valfritt): <ul><li>Länk</li><li>Länk-ID</li><li>Är mobil enhet</li><li>Enhet</li><li>Plattform</li><li>Webbläsare</li><li>Är prediktivt innehåll</li><li>Är robotaktivitet</li><li>Punktaktivitetsmönster</li><li>Webbläsare</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
+| | Klicka på länken i SMS | E-post<br/>Ytterligare begränsningar (valfritt):<ul><li>Länk</li><li>Enhet</li><li>Plattform</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
+| | Ändringar av datavärde | Personattribut<br/>Ytterligare begränsningar (valfritt):<ul><li>Nytt värde</li><li>Föregående värde</li><li>Orsak</li><li>Källa</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
+| | Öppnar e-post | E-post<br/>Ytterligare begränsningar (valfritt): <ul><li>Länk</li><li>Länk-ID</li><li>Är mobil enhet</li><li>Enhet</li><li>Plattform</li><li>Webbläsare</li><li>Är prediktivt innehåll</li><li>Är robotaktivitet</li><li>Punktaktivitetsmönster</li><li>Webbläsare</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
 | | Borttagen från inköpsgrupp | Lösning, intresse<br/>Aktivitetsdatum (valfritt)<br/>Tidsgräns (valfritt) |
-| [Konton](#add-an-account-event) | Ändring i inköpsgruppsstatus | Intresserad av lösning<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
-| | Ändrad slutförandepoäng | Intresserad av lösning<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
-| | Kontot hade en intressant stund | Typ<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
-| | Ändrad engagemangspoäng | Intresserad av lösning<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
-| | Ändra värde för kontodata | Attribut<br/>Ytterligare begränsningar (valfritt)<br/>Timeout (valfritt) |
+| | Poängen har ändrats | Efternamn<br/>Ytterligare begränsningar (valfritt):<ul><li>Ändra</li><li>Nytt musikspår</li><li>Akut</li><li>Prioritet</li><li>Relativ poäng</li><li>Relativ brådska</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
+| | SMS-studsar | SMS<br/>Ytterligare begränsningar (valfritt):<ul><li>Aktivitetsdatum</li><li>Minsta antal gånger</li></ul><br/>Timeout (valfritt) |
+| [Konton](#add-an-account-event) | Kontot hade en intressant stund | Typ (e-post, milstolpe eller webb)<br/>Ytterligare begränsningar (valfritt):<ul><li>Beskrivning</li><li>Källa</li><li>Aktivitetsdatum</li></ul> <br/>Timeout (valfritt) |
+| | Ändra värde för kontodata | Attribut<br/>Ytterligare begränsningar (valfritt):<ul><li>Nytt värde</li><li>Föregående värde</li><li>Aktivitetsdatum</li></ul> <br/>Timeout (valfritt) |
+| | Ändring i inköpsgruppsstatus | Intresse av lösning<br/>Ytterligare begränsningar (valfritt):<ul><li>Ny status</li><li>Föregående status</li><li>Aktivitetsdatum</li></ul><br/> Timeout (valfritt) |
+| | Ändrad slutförandepoäng | Intresse av lösning<br/>Ytterligare begränsningar (valfritt):<ul><li>Nytt musikspår</li><li>Föregående poäng</li><li>Aktivitetsdatum</li></ul><br/> Timeout (valfritt) |
+| | Ändrad engagemangspoäng | Intresse av lösning<br/>Ytterligare begränsningar (valfritt):<ul><li>Nytt musikspår</li><li>Föregående poäng</li><li>Aktivitetsdatum</li></ul><br/> Timeout (valfritt) |
 
 ### Lägg till en kontohändelse
 
@@ -126,7 +141,7 @@ Flytta er målgrupp framåt till nästa steg i kundresan när en händelse intr�
 
 ### Lägga till en timeout i en händelsnod
 
-Ange vid behov hur lång tid resan väntar på händelsen. Resan upphör efter timeout.
+Ange vid behov hur lång tid resan väntar på händelsen. Resan avslutas efter en timeout.
 
 1. Aktivera timeout-växlingen.
 
@@ -146,18 +161,18 @@ Dela målgruppen baserat på filtervillkor.
 >
 >Högst 25 banor stöds.
 
-**Dela sökvägar efter konton**: Sökvägar som delas efter konton kan innehålla både konto- och personåtgärder samt händelser, och dessa sökvägar kan delas ytterligare.
+**Dela sökvägar efter konton**: Sökvägar som delas efter konton kan innehålla både konto- och personåtgärder samt händelser. Dessa banor kan delas upp ytterligare.
 
 _Hur fungerar en delad sökväg efter kontonod?_
 
 * När du lägger till en delad sökvägsnod och väljer _Konto_ innehåller varje sökväg som läggs till en slutnod med möjlighet att lägga till noder i varje kant.
 * Det går att dela upp sökvägen med konton upprepade gånger, t.ex. på ett kapslat sätt. En delad bana innehåller ett alternativ för att inte lägga till standardbanan.
-* Konton/personer som inte är kvalificerade för en av de delade banorna flyttas inte framåt under resan.
+* Om ett konto/en person inte är berättigad till en av de delade vägarna flyttas den inte framåt under resan.
 * Dessa sökvägar kan kombineras med en sammanfogningsnod.
 
 ![Resensnod - dela sökvägar efter konto](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-**Dela banor efter personer**: Banor som delas av personer och kan endast innehålla personåtgärder. Dessa banor kan inte delas igen. Banor återförenas automatiskt.
+**Dela banor efter personer**: Banor som delas av personer och kan endast innehålla personåtgärder. Dessa banor kan inte delas igen och kopplas automatiskt tillbaka.
 
 _Hur fungerar en delad sökväg efter personnod?_
 
@@ -167,16 +182,17 @@ _Hur fungerar en delad sökväg efter personnod?_
 
 ![Resensnod - dela sökvägar efter personer](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
+### Sökvillkor {#path-conditions}
+
 | Nodkontext | Sökvillkor | Beskrivning |
-| ------------ | -------- | ----------- |
-| [Personer](#add-a-split-path-by-people-node) | Personattribut | |
-| | Datavärdet har ändrats (t.ex. filter på aktivitetshistorik) | |
-| | Öppen e-post | |
-| | Klicka på länken i e-postmeddelandet | |
-| | Klicka på länken på webbsidan | |
-| | Intressant ögonblick | |
-| | Medlem i inköpsgrupp | |
-| [Konton](#add-a-split-path-by-account-node) | Ändring i kontodatavärde (t.ex. filter på aktivitetshistorik) | |
+| ------------ | --------------- | ----------- |
+| [Personer](#add-a-split-path-by-people-node) | [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <ul><li>Ort</li><li>Land</li><li>Födelsedatum</li><li>E-postadress</li><li>Ogiltig e-postadress</li><li>E-postmeddelandet har pausats</li><li>Förnamn</li><li>Ingångsregion</li><li>Befattning</li><li>Efternamn</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postnummer</li><li>Stat</li><li>Avprenumererad</li><li>Orsak till avbeställning</li></ul> |
+| | [!UICONTROL Activity history] > [!UICONTROL Email] | E-postaktiviteter som är kopplade till resan: <ul><li>[!UICONTROL Clicked link in email]</li><li>Öppen e-post</li><li>Levererades via e-post</li><li>Har skickats e-post</li></ul> Dessa villkor utvärderas med hjälp av ett markerat e-postmeddelande från tidigare under resan. |
+| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | En värdeändring har gjorts för ett markerat personattribut. De här ändringstyperna är: <ul><li>Nytt värde</li><li>Föregående värde</li><li>Orsak</li><li>Källa</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul> |
+| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Intressanta händelser som definieras i den associerade Marketo Engage-instansen. Begränsningarna är: ul><li>Milstolpe</li><li>E-post</li><li>Webb</li></ul> |
+| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <ul><li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Roll</li></ul> |
+| [Konton](#add-a-split-path-by-account-node) | Kontoattribut | Attribut från kontoprofilen, inklusive: <ul><li>Årliga intäkter</li><li>Ort</li><li>Land</li><li>Medarbetarstorlek</li><li>Bransch</li><li>Namn</li><li>SIC-kod</li><li>Stat</li></ul> |
+| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Kontot har eller saknar medlemmar i inköpsgrupper utvärderade utifrån ett eller flera av följande kriterier: <ul><li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li></ul> |
 
 ### Lägg till en delad sökväg efter kontonod
 
@@ -236,7 +252,7 @@ _Hur fungerar en delad sökväg efter personnod?_
 
 1. Slutligen kan du lägga till en standardsökväg för personer som inte är kvalificerade för ovanstående sökvägar. Annars slutar resan för dessa människor
 
-När du har definierat villkor för varje bana som du delar upp din publik på personnivå kan du lägga till åtgärder som du vill ta på personer.
+När du har definierat villkor för varje bana för att dela din publik på personnivå, kan du lägga till åtgärder som du vill ska utföras på personer.
 
 >[!NOTE]
 >
@@ -276,6 +292,6 @@ Olika sökvägar i din resa kan sammanfogas och göras osammanfogade med den hä
 
    ![Resensnod - sammanfoga banor](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   Nu bör du se att sökvägarna sammanfogas så att konton från de valda sökvägarna kombineras till en enda bana och kan fortsätta att gå igenom resan.
+   Nu sammanfogas banorna så att konton från de markerade banorna kombineras till en enda bana som kan fortsätta genom resan.
 
 1. Om det behövs kan du dela upp sökvägarna genom att gå tillbaka till egenskaperna för sammanfogningsnoden och avmarkera kryssrutan för de sökvägar som du vill ta bort.

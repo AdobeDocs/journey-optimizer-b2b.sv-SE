@@ -3,16 +3,16 @@ title: E-postredigering
 description: Lär dig hur du skapar anpassat e-postinnehåll som används i en kontoresa.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
 
 # Framtagning av e-post
 
-Använd Adobe Journey Optimizer B2B Edition för att skicka e-postmeddelanden till dina kunder. Du kan skapa, anpassa och förhandsgranska meddelanden i e-post-Designer.
+Använd Adobe Journey Optimizer B2B edition för att skicka e-postmeddelanden till dina kunder. Du kan skapa, anpassa och förhandsgranska meddelanden i den visuella designern.
 
 ## Lägg till en e-poståtgärd i en kontoresa
 
@@ -60,7 +60,7 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 
 >[!TIP]
 >
->Använd AI Assistant i Adobe Journey Optimizer B2B Edition med generativ AI för att lyfta materialet till nästa nivå. AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att generera hela e-postmeddelanden, riktat textinnehåll och få AI Assistant-rekommendationer för bilder som får genklang hos er målgrupp. [Läs mer](./ai-assistant-emails.md)
+>Använd AI Assistant i Adobe Journey Optimizer B2B edition med generativ AI som lyfter materialet till nästa nivå. AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att generera hela e-postmeddelanden, riktat textinnehåll och få AI Assistant-rekommendationer för bilder som får genklang hos er målgrupp. [Läs mer](./ai-assistant-emails.md)
 
 ### Designa din e-post från grunden {#design-from-scratch}
 
@@ -109,6 +109,10 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 {{$include /help/_includes/content-design-select-template.md}}
 
+>[!NOTE]
+>
+> Sparade mallar kan ha styrningsinställningar (innehållslås) för en eller flera komponenter. Den visuella designern ger riktlinjer om låsta komponenter när du [redigerar ett e-postmeddelande från en styrd mall](./email-authoring-governance.md).
+
 ## Lägga till struktur och innehåll {#structure-content}
 
 >[!CONTEXTUALHELP]
@@ -148,7 +152,7 @@ Fragmentets innehåll uppdateras dynamiskt i strukturen för att visa hur inneh�
 >
 >Om du vill lägga till fragmentet så att det upptar hela den vågräta layouten i e-postmeddelandet lägger du till en 1:1-kolumnstruktur och drar och släpper fragmentet i den.
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen. Fragment som läggs till i en e-postmall kan inte redigeras i mallen. Innehållet definieras av källfragmentet.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen. Fragment som läggs till i en e-postmall kan inte redigeras i mallen. Källfragmentet definierar innehållet.
 
 ### Lägga till resurser
 
@@ -173,8 +177,20 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i den vis
 * Zooma in/ut i innehållet genom förinställda zoomalternativ.
 
 * Växla mellan att visa innehållet på datorer, mobiler eller endast text/normal text.
-   * Klicka på ikonen _Ögon_ om du vill förhandsgranska innehåll på olika enheter.
+   * Klicka på ikonen _Visa_ om du vill förhandsgranska innehåll på olika enheter.
    * Välj en av de färdiga enheterna eller ange anpassade dimensioner för att förhandsgranska innehållet.
+
+### Fler alternativ
+
+På menyn _[!UICONTROL More ...]_högst upp i e-postdesignern kan du utföra följande åtgärder:
+
+![Klicka på Mer för att komma åt mallåtgärder](./assets/email-designer-more-menu.png){width="500"}
+
+* **[!UICONTROL Reset email]** - Klicka på det här alternativet om du vill rensa arbetsytan för den visuella e-postdesignern till ett tomt läge och börja bygga om innehållet.
+* **[!UICONTROL Save as fragment]** - Spara hela eller delar av e-postmeddelandet som ett fragment som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för fragmentet och sparar det i listan över tillgängliga fragment.
+* **[!UICONTROL Change your design]** - Återgå till sidan _Designa din e-post_. Därifrån kan du välja en annan mall för att starta om designprocessen eller välja att designa innehållet från början på en svart arbetsyta.\
+* **[!UICONTROL Save as content template]** - Spara e-postbrödtexten som en e-postmall som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för mallen och sparar den i listan över sparade e-postmallar.
+* **[!UICONTROL Export HTML]** - Hämta innehåll på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.
 
 ## Kontrollera aviseringar
 

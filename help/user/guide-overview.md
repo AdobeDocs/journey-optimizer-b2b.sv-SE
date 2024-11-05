@@ -1,15 +1,15 @@
 ---
-title: Adobe Journey Optimizer B2B Edition - dokumentation
+title: Adobe Journey Optimizer B2B edition Documentation
 description: Lär dig hur du använder Adobe Journey Optimizer B2B edition-funktionerna för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: a1cbb0270f5174b8a16b783aaef7a890abb81a32
+source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '683'
 ht-degree: 2%
 
 ---
 
-# Adobe Journey Optimizer B2B Edition - dokumentation
+# Adobe Journey Optimizer B2B edition Documentation
 
 ## Vad är nytt?
 
@@ -17,11 +17,23 @@ Här följer ett exempel på de senaste förbättringarna i Journey Optimizer B2
 
 >[!BEGINTABS]
 
+>[!TAB Villkorligt innehåll]
+
+Använd villkorsstyrt innehåll för att anpassa e-postinnehållet baserat på villkorliga regler. Definiera reglerna med hjälp av profilattribut eller sammanhangsbaserade händelser. Du kan skapa villkorliga regler i regelbyggaren, och du kan lagra dem för återanvändning på alla dina kontoresor.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Läs om villkorat innehåll"}
+
+>[!TAB Personåtgärd - Lägg till/ta bort från listan]
+
+Använd åtgärdsnoden _Lägg till i lista_ för att lägga till personer i en statisk Marketo Engage-lista under en kontoresa. Dessa listor ger er full flexibilitet för att återanvända och inrikta er på specifika målgrupper. Du kan skapa en lista och sedan skapa en kampanj runt den eller lägga till en person direkt till en befintlig kampanj. Använd dessutom åtgärden _Ta bort från listan_ personer för att förfina och ändra din målgruppsanpassning i Marketo Engage baserat på kundresan.
+
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Läs om hur du lägger till i listan och tar bort från listan"}
+
 >[!TAB Bibliotek för centrala resurser]
 
-Använd alla bildresurser i din Marketo Engage-instans på arbetsytorna i Design Studio. Inbyggda skyddsräcken förhindrar redigering av Marketo Engage-resurser från Journey Optimizer B2B edition. Dessa skydd säkerställer att källmaterialet i Marketo Engage bevaras samtidigt som det går att läsa och återanvända smidigt i Journey Optimizer B2B edition. För resurser som endast är avsedda att användas i Journey Optimizer B2B edition har en specifik arbetsyta fullständiga funktioner för resurshantering.
+Använd bildobjekten i Marketo Engage-instansen i alla designstudiearbetsytor. Inbyggda skyddsräcken förhindrar redigering av Marketo Engage-resurser från Journey Optimizer B2B edition. Dessa skydd säkerställer att källmaterialet i Marketo Engage bevaras samtidigt som det går att läsa och återanvända smidigt i Journey Optimizer B2B edition. För resurser som endast är avsedda att användas i Journey Optimizer B2B edition har en specifik arbetsyta fullständiga funktioner för resurshantering.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Läs mer om central resurshantering"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Läs om central resurshantering"}
 
 >[!TAB LinkedIn-konto matchar målgrupper]
 
@@ -38,12 +50,6 @@ Kom snabbt igång med kontobaserade marknadsföringskoncept och lär dig om Jour
 Lyft innehållet till en högre nivå med AI Assistant för e-postinnehåll i Adobe Journey Optimizer B2B edition, som bygger på generativ AI. AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att generera hela e-postmeddelanden, riktat textinnehåll och till och med bilder som är skräddarsydda för att passa er målgrupp.
 
 [!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Läs om AI Assistant för e-post"}
-
->[!TAB Visuella fragment]
-
-Skapa återanvändbara komponenter som anpassade innehållsblock som era marknadsföringsteam kan använda för att sammanställa e-postinnehåll i en förbättrad designprocess.
-
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Lär dig mer om visuella fragment"}
 
 >[!ENDTABS]
 
@@ -104,12 +110,12 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Skapa innehåll"><br/>
-      <strong> </strong><br/><a href="./content/email-authoring.md">Skapa e-post</a><br/><a href="./content/ai-assistant-emails.md">AI-assistenten för e-postmeddelanden</a><br/><a href="./content/sms-authoring.md">Skapa SMS</a>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Reseinnehåll"><br/>
+      <strong> </strong><br/><a href="./content/email-authoring.md">Skapa e-post</a><br/><a href="./content/ai-assistant-emails.md">AI Assistant för e-post</a><br/><a href="./content/sales-alert-email.md">E-postavisering om försäljning</a><br/><a href="./content/sms-authoring.md">SMS-redigering</a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Innehållsresurser"><br/>
-      <strong>Innehållshantering</strong><br/><a href="./content/assets-overview.md">Assets - översikt</a><br/><a href="./content/email-templates.md">E-postmallar</a><br/><a href="./content/fragments.md">Visuella fragment</a>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Innehållshantering"><br/>
+      <strong>Innehållshantering</strong><br/><a href="./content/assets-overview.md">Assets - översikt</a><br/><a href="./content/email-templates.md">E-postmallar</a><br/><a href="./content/fragments.md">Visuella fragment</a><br/><a href="./content/conditional-content.md">Villkorligt innehåll</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insikter och kontrollpaneler"><br/>
@@ -126,7 +132,7 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
 <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Videofilmer och självstudiekurser </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeskrivning</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Dokumentation</a> - <a href="https://www.adobe.com/se/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
 </td></tr>
 <tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
