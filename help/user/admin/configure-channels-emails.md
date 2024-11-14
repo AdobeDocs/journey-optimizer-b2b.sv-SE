@@ -2,16 +2,17 @@
 title: E-postkonfigurationer
 description: Lär dig hur du får åtkomst till och granskar e-postinställningarna som är konfigurerade i Marketo Engage.
 feature: Setup
-source-git-commit: f097f535237fe6b27322e2c325e59daa8a54ee2f
+exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
 
 # E-postkonfigurationer
 
-Adobe Journey Optimizer B2B edition utnyttjar kanalfunktionerna och händelsespårningen i Market Engage. Administratörer bör se till att konfigurationerna för leverans och spårning finns på plats för att möjliggöra kanalleverans för marknadsförare.
+Adobe Journey Optimizer B2B edition utnyttjar kanalfunktionerna och händelsespårningen i Market Engage. Administratörer bör se till att konfigurationerna för leverans och spårning finns på plats för att möjliggöra kanalleverans för marknadsförare. Information om de protokoll som behövs för e-postleverans och spårning via Marketo Engage finns i [Protokoll för spårning och e-postleverans](../start/email-protocols.md).
 
 ## Leveransinställningar
 
@@ -54,7 +55,6 @@ Den här inställningen definierar din primära domän för en eller flera Marke
 >[!NOTE]
 >
 >Om du marknadsför flera varumärken från Journey Optimizer B2B edition och den anslutna Marketo Engage-instansen och vill att var och en ska ha sina egna varumärkesspårningslänkar kan du lägga till ytterligare en varumärkesdomän. Mer information finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
-
 
 ### [!UICONTROL Custom header options] {#custom-header-options}
 
@@ -146,4 +146,3 @@ Inställningarna är skrivskyddade i Journey Optimizer B2B edition. Klicka på *
 >Om du vill komma åt och redigera de här inställningarna i Adobe Marketo Engage måste du ha behörighet som produktadministratör.
 
 Mer information om hur du konfigurerar alternativen för robotaktivitet finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
-
