@@ -1,19 +1,19 @@
 ---
 title: Användarhantering
-description: Lär dig hur du tilldelar teammedlemmar till produktprofiler för Journey Optimizer B2B Edition.
+description: Lär dig hur du tilldelar teammedlemmar till produktprofiler för Journey Optimizer B2B edition.
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8335e47021df16d0e423c9cc270bf8a6e23834fc
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
 
 # Användarhantering
 
-När etableringen är klar och sandlådorna är bundna utför du följande steg för att ge ditt team och dina användare tillgång till Adobe Journey Optimizer B2B Edition.
+När etableringen är klar och sandlådorna är bundna utför du följande steg för att ge ditt team och dina användare tillgång till Adobe Journey Optimizer B2B edition.
 
 1. [Skapa en produktprofil ](#marketo-engage-profile) för Marketo Engage i Admin Console (endast för den nya instansen Marketo Engage).
 1. [Skapa en användargrupp](#create-user-group) i Admin Console.
@@ -56,7 +56,15 @@ Innan du kan använda Admin Console för att administrera användare i ditt team
 
 När du ger användare åtkomst till en Adobe-lösning behöver du inte nödvändigtvis ge dem full åtkomst. Med produktprofiler kan varje lösning ha en egen uppsättning användarbehörigheter. Använd Admin Console för att tilldela produktprofiler.
 
-Mer information om hur du använder produktprofiler för användarrättigheter finns i [Hantera produktprofiler för företagsanvändare](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) i dokumentationen för Admin Console.
+Mer information om hur du använder produktprofiler för användarberättiganden finns i [Hantera produktprofiler för företagsanvändare](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"} i Admin Console-dokumentationen.
+
+>[!BEGINSHADEBOX]
+
+När du lägger till en användare i produktprofilen för Marketo Engage läggs de sedan till i rollen _Standardanvändare_ i standardarbetsytan för prenumerationen på Marketo Engage. Den här rollen ger dem alla _standardbehörigheter för användare_ för Marketo Engage på den arbetsytan. För närvarande måste alla användare av Journey Optimizer B2B edition vara Marketo Engage. En Marketo Engage-administratör kan begränsa åtkomsten genom att uppdatera behörigheterna för rollen _Standardanvändare_ eller genom att flytta användaren till en annan användarroll för Marketo Engage med mer restriktiva behörigheter.
+
+Mer information om hur du hanterar de här behörigheterna i Marketo Engage finns i [Hantera användarroller och behörigheter](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} i dokumentationen för Marketo Engage.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -78,7 +86,7 @@ Mer information om hur du använder produktprofiler för användarrättigheter f
 
 En användargrupp är en samling användare som tilldelas en delad uppsättning behörigheter. Du kan lägga till eller ta bort användare i din användargrupp. Gruppbehörigheterna förblir desamma medan användarna i gruppen ändras.
 
-Mer information om hur användargrupper används för att hantera behörigheter finns i [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html) i Admin Console-dokumentationen.
+Mer information om hur användargrupper används för att hantera behörigheter finns i [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} i Admin Console-dokumentationen.
 
 >[!NOTE]
 >
@@ -111,11 +119,11 @@ Mer information om hur användargrupper används för att hantera behörigheter 
 
 ## Skapa en roll i AEP-behörigheter {#create-role}
 
-Behörigheter är enhetsbehörigheter som gör att du kan definiera de behörigheter som tilldelats en produktprofil. Varje tillstånd samlas in med en funktion, till exempel resor eller köpgrupper, som representerar de olika funktionerna eller objekten i Journey Optimizer B2B Edition.
+Behörigheter är enhetsbehörigheter som gör att du kan definiera de behörigheter som tilldelats en produktprofil. Varje tillstånd samlas in med en funktion, till exempel resor eller köpgrupper, som representerar olika funktioner eller objekt i Journey Optimizer B2B edition.
 
 Under _Behörigheter_ i Adobe Experience Platform kan administratörer definiera användarroller och åtkomstprinciper för att hantera åtkomstbehörigheter för funktioner och objekt i ett produktprogram. I det här programmet kan du skapa och hantera roller samt tilldela önskade resursbehörigheter för rollerna. Med behörigheter kan du också hantera etiketter, sandlådor och användare som är kopplade till en viss roll.
 
-Mer information finns i [Hantera behörigheter för en roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) i Experience Platform-dokumentationen.
+Mer information finns i [Hantera behörigheter för en roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} i Experience Platform-dokumentationen.
 
 >[!NOTE]
 >
