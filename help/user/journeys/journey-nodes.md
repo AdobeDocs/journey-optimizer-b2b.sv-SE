@@ -3,9 +3,9 @@ title: Noder för kontoresa
 description: Lär dig mer om de nodtyper som du kan använda för att skapa kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: af72f5183cb1de56804340cbc9148de82faeca35
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2337'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,7 @@ Utför en åtgärd som att skicka ett e-postmeddelande, ändra poängen, tilldel
 | | Lägg till konto på (annan) resa | Välj Live Account Journey |
 | | Ta bort konto från resa | Välj Live Account Journey |
 | | Skicka försäljningsvarning | Välj lösningsintresse<br/>Skicka e-post till |
+| | Uppdatera inköpsgruppsfas | Välj lösningsintresse<br/>Välj inköpsgruppfas |
 | | Uppdatera inköpsgruppsstatus | Välj lösningsintresse<br/>Status (krävs, max 50 tecken) |
 
 ### Lägg till en kontoåtgärd
@@ -62,7 +63,7 @@ Utför en åtgärd som att skicka ett e-postmeddelande, ändra poängen, tilldel
 
 1. Klicka på plusikonen ( **+** ) på en bana och välj **[!UICONTROL Take an action]**.
 
-   ![Lägg till kundtjänstnod - delade sökvägar](./assets/add-node-action.png){width="400"}
+   ![Lägg till kundtjänstnod - utför en åtgärd](./assets/add-node-action.png){width="400"}
 
 1. Välj **[!UICONTROL Accounts]** för åtgärden i nodegenskaperna till höger.
 
@@ -97,19 +98,20 @@ Flytta er målgrupp framåt till nästa steg i kundresan när en händelse intr�
 
 | Nodkontext | Händelse | Begränsningar |
 | ------------ | ----- | ----------- |
-| [Personer](#add-a-people-event) | Tilldelad till inköpsgrupp | Intresse av lösning<br/>Ytterligare begränsningar (valfritt): <ul><li>Roll</li><li>Aktivitetsdatum</li></ul><br/>Timeout (valfritt) |
-| | Klicka på länken i e-postmeddelandet | E-post<br/>Ytterligare begränsningar (valfritt): <ul><li>Länk</li><li>Länk-ID</li><li>Är mobil enhet</li><li>Enhet</li><li>Plattform</li><li>Webbläsare</li><li>Är prediktivt innehåll</li><li>Är robotaktivitet</li><li>Punktaktivitetsmönster</li><li>Webbläsare</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
-| | Klicka på länken i SMS | E-post<br/>Ytterligare begränsningar (valfritt):<ul><li>Länk</li><li>Enhet</li><li>Plattform</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
-| | Ändringar av datavärde | Personattribut<br/>Ytterligare begränsningar (valfritt):<ul><li>Nytt värde</li><li>Föregående värde</li><li>Orsak</li><li>Källa</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
-| | Öppnar e-post | E-post<br/>Ytterligare begränsningar (valfritt): <ul><li>Länk</li><li>Länk-ID</li><li>Är mobil enhet</li><li>Enhet</li><li>Plattform</li><li>Webbläsare</li><li>Är prediktivt innehåll</li><li>Är robotaktivitet</li><li>Punktaktivitetsmönster</li><li>Webbläsare</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
+| [Personer](#add-a-people-event) | Tilldelad till inköpsgrupp | Intresse av lösning<br/>Ytterligare begränsningar (valfritt): <li>Roll</li><li>Aktivitetsdatum</li><br/>Timeout (valfritt) |
+| | Klicka på länken i e-postmeddelandet | E-post<br/>Ytterligare begränsningar (valfritt): <li>Länk</li><li>Länk-ID</li><li>Är mobil enhet</li><li>Enhet</li><li>Plattform</li><li>Webbläsare</li><li>Är prediktivt innehåll</li><li>Är robotaktivitet</li><li>Punktaktivitetsmönster</li><li>Webbläsare</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li><br/>Timeout (valfritt) |
+| | Klicka på länken i SMS | E-post<br/>Ytterligare begränsningar (valfritt): <li>Länk</li><li>Enhet</li><li>Plattform</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li><br/>Timeout (valfritt) |
+| | Ändringar av datavärde | Personattribut<br/>Ytterligare begränsningar (valfritt): <li>Nytt värde</li><li>Föregående värde</li><li>Orsak</li><li>Källa</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li><br/>Timeout (valfritt) |
+| | Öppnar e-post | E-post<br/>Ytterligare begränsningar (valfritt): <li>Länk</li><li>Länk-ID</li><li>Är mobil enhet</li><li>Enhet</li><li>Plattform</li><li>Webbläsare</li><li>Är prediktivt innehåll</li><li>Är robotaktivitet</li><li>Punktaktivitetsmönster</li><li>Webbläsare</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li><br/>Timeout (valfritt) |
 | | Borttagen från inköpsgrupp | Lösning, intresse<br/>Aktivitetsdatum (valfritt)<br/>Tidsgräns (valfritt) |
-| | Poängen har ändrats | Efternamn<br/>Ytterligare begränsningar (valfritt):<ul><li>Ändra</li><li>Nytt musikspår</li><li>Akut</li><li>Prioritet</li><li>Relativ poäng</li><li>Relativ brådska</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul><br/>Timeout (valfritt) |
-| | SMS-studsar | SMS<br/>Ytterligare begränsningar (valfritt):<ul><li>Aktivitetsdatum</li><li>Minsta antal gånger</li></ul><br/>Timeout (valfritt) |
-| [Konton](#add-an-account-event) | Kontot hade en intressant stund | Typ (e-post, milstolpe eller webb)<br/>Ytterligare begränsningar (valfritt):<ul><li>Beskrivning</li><li>Källa</li><li>Aktivitetsdatum</li></ul> <br/>Timeout (valfritt) |
-| | Ändra värde för kontodata | Attribut<br/>Ytterligare begränsningar (valfritt):<ul><li>Nytt värde</li><li>Föregående värde</li><li>Aktivitetsdatum</li></ul> <br/>Timeout (valfritt) |
-| | Ändring i inköpsgruppsstatus | Intresse av lösning<br/>Ytterligare begränsningar (valfritt):<ul><li>Ny status</li><li>Föregående status</li><li>Aktivitetsdatum</li></ul><br/> Timeout (valfritt) |
-| | Ändrad slutförandepoäng | Intresse av lösning<br/>Ytterligare begränsningar (valfritt):<ul><li>Nytt musikspår</li><li>Föregående poäng</li><li>Aktivitetsdatum</li></ul><br/> Timeout (valfritt) |
-| | Ändrad engagemangspoäng | Intresse av lösning<br/>Ytterligare begränsningar (valfritt):<ul><li>Nytt musikspår</li><li>Föregående poäng</li><li>Aktivitetsdatum</li></ul><br/> Timeout (valfritt) |
+| | Poängen har ändrats | Efternamn<br/>Ytterligare begränsningar (valfritt):<li>Ändra</li><li>Nytt musikspår</li><li>Akut</li><li>Prioritet</li><li>Relativ poäng</li><li>Relativ brådska</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li><br/>Timeout (valfritt) |
+| | SMS-studsar | SMS<br/>Ytterligare begränsningar (valfritt): <li>Aktivitetsdatum</li><li>Minsta antal gånger</li><br/>Timeout (valfritt) |
+| [Konton](#add-an-account-event) | Kontot hade en intressant stund | Typ (e-post, milstolpe eller webb)<br/>Ytterligare begränsningar (valfritt): <li>Beskrivning</li><li>Källa</li><li>Aktivitetsdatum</li> <br/>Timeout (valfritt) |
+| | Ändra värde för kontodata | Attribut<br/>Ytterligare begränsningar (valfritt): <li>Nytt värde</li><li>Föregående värde</li><li>Aktivitetsdatum</li> <br/>Timeout (valfritt) |
+| | Ändringar i köpgruppsfasen | Intresse av lösning<br/>Ytterligare begränsningar (valfritt): <li>Ny fas</li><li>Föregående fas</li><li>Aktivitetsdatum</li><br/> Timeout (valfritt) |
+| | Ändring i inköpsgruppsstatus | Intresse av lösning<br/>Ytterligare begränsningar (valfritt): <li>Ny status</li><li>Föregående status</li><li>Aktivitetsdatum</li><br/> Timeout (valfritt) |
+| | Ändrad slutförandepoäng | Intresse av lösning<br/>Ytterligare begränsningar (valfritt): <li>Nytt musikspår</li><li>Föregående poäng</li><li>Aktivitetsdatum</li><br/> Timeout (valfritt) |
+| | Ändrad engagemangspoäng | Intresse av lösning<br/>Ytterligare begränsningar (valfritt): <li>Nytt musikspår</li><li>Föregående poäng</li><li>Aktivitetsdatum</li><br/> Timeout (valfritt) |
 
 ### Lägg till en kontohändelse
 
@@ -176,9 +178,10 @@ _Hur fungerar en delad sökväg efter kontonod?_
 
 _Hur fungerar en delad sökväg efter personnod?_
 
-* Delad bana efter personnoder är grupperade noder. De sammanfogas automatiskt så att alla personer i publiken kan gå vidare till nästa steg utan att tappa kontexten för de konton de tillhör.
+* Delad bana efter personnoder är grupperade noder. Banorna sammanfogas automatiskt så att alla personer i publiken kan gå vidare till nästa steg utan att tappa kontexten.
 * Delad sökväg för personer kan inte kapslas. Du kan inte lägga till delad sökväg för personer på en sökväg som finns i den här grupperade noden.
-* Delad bana innehåller ett alternativ för att inte lägga till en standardbana. Konton/personer som inte är kvalificerade flyttar inte framåt på resan.
+* Delad bana innehåller ett alternativ för att utesluta en standardbana. Konton/personer som saknar matchning för en definierad bana flyttas inte framåt i resan.
+* Delad sökväg för personer har stöd för användning av _konto-person-relationer_, vilket gör att du kan filtrera personer baserat på deras roll (som leverantör eller heltidsanställd) enligt vad som definierats i rollmallarna.
 
 ![Resensnod - dela sökvägar efter personer](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -186,13 +189,14 @@ _Hur fungerar en delad sökväg efter personnod?_
 
 | Nodkontext | Sökvillkor | Beskrivning |
 | ------------ | --------------- | ----------- |
-| [Personer](#add-a-split-path-by-people-node) | [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <ul><li>Ort</li><li>Land</li><li>Födelsedatum</li><li>E-postadress</li><li>Ogiltig e-postadress</li><li>E-postmeddelandet har pausats</li><li>Förnamn</li><li>Ingångsregion</li><li>Befattning</li><li>Efternamn</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postnummer</li><li>Stat</li><li>Avprenumererad</li><li>Orsak till avbeställning</li></ul> |
-| | [!UICONTROL Activity history] > [!UICONTROL Email] | E-postaktiviteter som är kopplade till resan: <ul><li>[!UICONTROL Clicked link in email]</li><li>Öppen e-post</li><li>Levererades via e-post</li><li>Har skickats e-post</li></ul> Dessa villkor utvärderas med hjälp av ett markerat e-postmeddelande från tidigare under resan. |
-| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | En värdeändring har gjorts för ett markerat personattribut. De här ändringstyperna är: <ul><li>Nytt värde</li><li>Föregående värde</li><li>Orsak</li><li>Källa</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li></ul> |
-| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Intressanta händelser som definieras i den associerade Marketo Engage-instansen. Begränsningarna är: ul><li>Milstolpe</li><li>E-post</li><li>Webb</li></ul> |
-| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <ul><li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Roll</li></ul> |
-| [Konton](#add-a-split-path-by-account-node) | Kontoattribut | Attribut från kontoprofilen, inklusive: <ul><li>Årliga intäkter</li><li>Ort</li><li>Land</li><li>Medarbetarstorlek</li><li>Bransch</li><li>Namn</li><li>SIC-kod</li><li>Stat</li></ul> |
-| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Kontot har eller saknar medlemmar i inköpsgrupper utvärderade utifrån ett eller flera av följande kriterier: <ul><li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li></ul> |
+| [Konton](#add-a-split-path-by-account-node) | Kontoattribut | Attribut från kontoprofilen, inklusive: <li>Årliga intäkter</li><li>Ort</li><li>Land</li><li>Medarbetarstorlek</li><li>Bransch</li><li>Namn</li><li>SIC-kod</li><li>Stat</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Kontot har eller saknar medlemmar i inköpsgrupper utvärderade utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li> |
+| [Personer](#add-a-split-path-by-people-node) > [!UICONTROL People attributes only] | [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <li>Ort</li><li>Land</li><li>Födelsedatum</li><li>E-postadress</li><li>Ogiltig e-postadress</li><li>E-postmeddelandet har pausats</li><li>Förnamn</li><li>Ingångsregion</li><li>Befattning</li><li>Efternamn</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postnummer</li><li>Stat</li><li>Avprenumererad</li><li>Orsak till avbeställning</li> |
+| | [!UICONTROL Activity history] > [!UICONTROL Email] | E-postaktiviteter som är kopplade till resan: <li>[!UICONTROL Clicked link in email]</li><li>Öppen e-post</li><li>Levererades via e-post</li><li>Har skickats e-post</li> Dessa villkor utvärderas med hjälp av ett markerat e-postmeddelande från tidigare under resan. |
+| | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | En värdeändring har gjorts för ett markerat personattribut. De här ändringstyperna är: <li>Nytt värde</li><li>Föregående värde</li><li>Orsak</li><li>Källa</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li> |
+| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Intressanta händelser som definieras i den associerade Marketo Engage-instansen. Begränsningarna är: <li>Milstolpe</li><li>E-post</li><li>Webb</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Roll</li> |
+| [Personer](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Roll i kontoattribut | Personen har eller har inte tilldelats en roll i kontot. Valfria begränsningar: <li>Ange ett rollnamn</li> |
 
 ### Lägg till en delad sökväg efter kontonod
 
@@ -214,7 +218,7 @@ _Hur fungerar en delad sökväg efter personnod?_
 
    * Finjustera dina villkor genom att använda **[!UICONTROL Filter logic]** överst. Du väljer att matcha alla attributvillkor eller alla villkor.
 
-     ![Delad sökvägsnod - logik för villkorsfilter](./assets/node-split-conditions.png){width="700" zoomable="yes"}
+     ![Delad sökvägsnod - logik för villkorskonton](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
    * Klicka på **[!UICONTROL Done]**.
 
@@ -222,9 +226,15 @@ _Hur fungerar en delad sökväg efter personnod?_
 
    Du kan också etikettera varje bana baserat på dessa villkor eller använda standardetiketterna.
 
-1. (Valfritt) Lägg till en standardsökväg för konton som inte är kvalificerade för de andra sökvägarna. Annars avslutas resan för dessa konton.
+1. Om det behövs ändrar du ordningen på banorna enligt den prioritet du vill dela upp.
 
-   ![Egenskaper för delad sökvägsnod - andra konton](./assets/node-split-properties-other-accounts.png){width="700" zoomable="yes"}
+   Banfiltrering utvärderas i den nedrullningsbara ordningen. Varje konto fortsätter längs den första matchande sökvägen.
+
+   Klicka på upp- och nedpilarna längst upp till höger på varje bankort för att flytta det högre eller lägre i listan med banor.
+
+   ![Delad sökvägsnod - ändra ordning på sökvägar](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
+
+1. Aktivera alternativet **[!UICONTROL Other accounts]** om du vill lägga till en standardsökväg för konton som inte matchar de definierade sökvägarna. Annars tar resan slut för dessa människor.
 
 ### Lägga till en delad sökväg efter personnod
 
@@ -236,13 +246,24 @@ _Hur fungerar en delad sökväg efter personnod?_
 
 1. I nodegenskaperna till höger väljer du **[!UICONTROL People]** för delningen.
 
+1. Ange **[!UICONTROL Attributes used for conditions]**.
+
+   * Välj **[!UICONTROL People attributes only]** om du vill använda villkor som är relaterade till personprofilen och händelserna.
+   * Välj **[!UICONTROL Account-person attributes only]** om du vill använda villkor som är relaterade till personens rollmedlemskap i ett konto.
+
 1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
 1. I villkorsredigeraren lägger du till ett eller flera filter för att definiera den delade banan.
 
-   * Dra och släpp filterattribut från den vänstra navigeringen och slutför matchningsdefinitionen.
+   * Dra och släpp någon av personattributen från den vänstra navigeringen och fyll i matchningsdefinitionen.
+
+     >[!NOTE]
+     >
+     >Om du har definierat anpassade personfält i kontots målgruppsschema i Experience Platform är dessa fält även tillgängliga som personattribut under villkor.
 
    * Finjustera dina villkor genom att använda **[!UICONTROL Filter logic]** överst. Du väljer att matcha alla attributvillkor eller alla villkor.
+
+     ![Delad sökvägsnod - logik för villkorspersonfilter](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
    * Klicka på **[!UICONTROL Done]**.
 
@@ -250,13 +271,21 @@ _Hur fungerar en delad sökväg efter personnod?_
 
    Du kan också etikettera varje bana baserat på dessa villkor eller använda standardetiketterna.
 
-1. Slutligen kan du lägga till en standardsökväg för personer som inte är kvalificerade för ovanstående sökvägar. Annars slutar resan för dessa människor
+1. Om det behövs ändrar du ordningen på banorna enligt den prioritet du vill dela upp.
+
+   Banfiltrering utvärderas i den nedrullningsbara ordningen. Varje person fortsätter längs den första matchande banan.
+
+   Klicka på upp- och nedpilarna längst upp till höger på varje bankort för att flytta det högre eller lägre i listan med banor.
+
+   ![Delad sökvägsnod - ändra ordning på sökvägar](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
+
+1. Aktivera alternativet **[!UICONTROL Other people]** om du vill lägga till en standardsökväg för personer som inte matchar de definierade sökvägarna. Annars tar resan slut för dessa människor.
 
 När du har definierat villkor för varje bana för att dela din publik på personnivå, kan du lägga till åtgärder som du vill ska utföras på personer.
 
 >[!NOTE]
 >
->När du delar målgruppen efter personer kan du bara lägga till åtgärder för personer.
+>När du delar målgruppen efter personer kan du bara lägga till åtgärder för personer tills banorna är stängda eller sammanslagna.
 
 ## Vänta
 
@@ -288,10 +317,10 @@ Olika sökvägar i din resa kan sammanfogas och göras osammanfogade med den hä
 
    ![Resensnod - sammanfoga banor](./assets/node-plus-icon-merge-paths.png){width="400"}
 
-1. Markera de banor som du vill sammanfoga i egenskaperna för sammanfogningsnoden.
+1. Markera de banor som du vill sammanfoga i nodegenskaperna för sammanfogningssökvägar.
 
    ![Resensnod - sammanfoga banor](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
    Nu sammanfogas banorna så att konton från de markerade banorna kombineras till en enda bana som kan fortsätta genom resan.
 
-1. Om det behövs kan du dela upp sökvägarna genom att gå tillbaka till egenskaperna för sammanfogningsnoden och avmarkera kryssrutan för de sökvägar som du vill ta bort.
+1. Om det behövs kan du dela upp sökvägarna genom att gå tillbaka till egenskaperna för sammanfogningssökvägarna och avmarkera kryssrutan för de sökvägar som du vill ta bort.

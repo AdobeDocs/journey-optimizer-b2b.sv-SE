@@ -3,9 +3,9 @@ title: Lösningsintressen
 description: Lär dig mer om lösningsintressen och hur du kan definiera dem för användning inom dina inköpsgrupper.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Innan du skapar Buying Groups bör du veta vad du säljer och vem du vill ha som
 
 ## Få tillgång till och bläddra bland lösningsintressen
 
-1. Klicka på Adobe Journey Optimizer B2B Edition på startsidan för Adobe Experience Platform.
+1. Klicka på Adobe Journey Optimizer B2B edition på startsidan för Adobe Experience Platform.
 
 1. Klicka på **[!UICONTROL Buying Groups]** i den vänstra navigeringen.
 
@@ -48,13 +48,21 @@ Innan du kan skapa ett intresse för en lösning måste du ha en aktiv (publicer
 
 1. Välj en **[!UICONTROL Roles Template]** (obligatoriskt).
 
-   Klicka på väljaren och välj en aktiv rollmall i listan som visas. Du kan bara associera en aktiv rollmall med ett lösningsintresse.
+   Klicka på **[!UICONTROL Select roles template]** och välj en aktiv rollmall i listan i dialogrutan. Du kan bara associera en aktiv rollmall med ett lösningsintresse. Klicka på **[!UICONTROL Save]** om du vill återgå till sidan _[!UICONTROL Create solution interest]_där den valda rollmallen visas.
 
-   ![Fliken Lösningsintresse](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![Lägg till en rollmall i lösningsintresset](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. Välj **[!UICONTROL Buying group stage model]** om du vill använda förloppet för inköpsgruppfasen (valfritt).
+
+   Mer information om hur du använder inköpsgruppfaser för att spåra kontoförloppet finns i [Köpa gruppstadier](./buying-group-stages.md).
+
+1. Aktivera inställningen **[!UICONTROL Update existing buying groups]** (valfritt).
+
+   När det här alternativet är aktiverat uppdateras alla befintliga inköpsgrupper i kombination med lösningsräntan via 24-timmars synkroniseringscykeln.
 
 1. Klicka på **[!UICONTROL Create]** längst upp till höger.
 
-   Intresset för din nya lösning visas i lösningsintresse
+   Intresset för den nya lösningen visas i listan _[!UICONTROL Solution Interests]_.
 
 ## Redigera ett lösningsintresse
 
@@ -68,6 +76,10 @@ Du kan när som helst ändra namn och beskrivning för att höja lösningsintres
    ![Lösning intresserar mer meny](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. Uppdatera vid behov namnet (obligatoriskt och unikt) och beskrivningen (valfritt).
+
+1. Om det behövs väljer du **[!UICONTROL Buying group stage model]** för att spåra förloppet för inköpsgruppsfasen.
+
+   Mer information om hur du använder inköpsgruppfaser för att spåra resans förlopp mot försäljning finns i [Buying group steps](./buying-group-stages.md).
 
 1. Ändra inställningen för **[!UICONTROL Update existing buying groups]** om det behövs.
 
