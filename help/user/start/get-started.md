@@ -2,10 +2,10 @@
 title: Kom igång med Journey Optimizer B2B edition
 description: Som ny användare av Journey Optimizer B2B-version får du lära dig mer om de viktigaste områdena att komma igång med.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 5%
+source-wordcount: '664'
+ht-degree: 6%
 
 ---
 
@@ -41,6 +41,8 @@ Lär dig mer om åtkomsthantering på följande sidor:
 
 1. **Konfigurera och aktivera användning av Adobe Experience Manager Assets** för team som använder Assets as a Cloud Service för centraliserad hantering av digitala resurser. [Läs mer](../admin/configure-aem-repositories.md)
 
+1. **Konfigurera Adobe Experience Platform (AEP) Experience Event-definitioner** för team som ansvarar för att skapa kontoresor som lyssnar på AEP Experience Events. [Läs mer](../admin/configure-aep-events.md)
+
 >[!TAB Komma igång med marknadsföringssnabbtangenten]
 
 Som marknadsförare, eller en _kontoansvarig_, ansvarar du för att utforma resor och skapa innehåll. Du kan börja arbeta med Adobe Journey Optimizer B2B edition när systemadministratören och datateknikern har förberett din miljö och gett dig åtkomst.
@@ -49,7 +51,7 @@ Se följande avsnitt för att konfigurera din första resa, lägga till resurser
 
 1. **Lägg till kontomålgrupper**. Med Journey Optimizer B2B edition kan ni skapa kontomålgrupper genom segmentdefinitioner direkt från programmet och utnyttja dem i era kontoresor. [Läs mer](../audiences/account-audience-overview.md)
 
-1. **Skapa inköpsgrupper**. Definiera nyckelkomponenterna för att uppfylla era affärsmål och -mål och skapa inköpsgrupper som identifierar medlemmarna i era målkonton. [Läs mer](../buying-groups/buying-groups-overview.md)
+1. **Skapa inköpsgrupper**. Definiera nyckelkomponenterna för att uppfylla dina affärsmål och -mål och skapa inköpsgrupper som identifierar medlemmarna i dina målkontolistor. [Läs mer](../buying-groups/buying-groups-overview.md)
 
 1. **Skapa och hantera resurser**. Adobe Experience Manager Assets erbjuder en enda central lagringsplats med resurser som du kan använda för att fylla i dina meddelanden. [Läs mer](../content/assets-overview.md)
 

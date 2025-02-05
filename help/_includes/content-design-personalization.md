@@ -1,16 +1,16 @@
 ---
 title: Skapa innehåll - personalisering
 description: Återanvänt avsnitt om att använda personalisering för innehållsutveckling
-source-git-commit: 0a9c05ac2ddd95e1fa5321f44f5cbe8cfa595007
+source-git-commit: 3791beb98068a56882bb0a96fbc6b192e85130bb
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 1%
 
 ---
 
 # Skapa innehåll - personalisering
 
-Journey Optimizer B2B Edition använder en infogad enkel syntax som gör att du kan skapa uttryck med anpassat innehåll omgivet av dubbla klammerparenteser `{}`. Du kan lägga till flera uttryck i samma innehåll eller fält utan begränsningar.
+Journey Optimizer B2B edition använder en infogad enkel syntax som gör att du kan skapa uttryck med anpassat innehåll omgivet av dubbla klammerparenteser `{}`. Du kan lägga till flera uttryck i samma innehåll eller fält utan begränsningar.
 
 Exempel:
 
@@ -18,7 +18,7 @@ Exempel:
 
 * `Hello {{profile.person.name.fullName}}`
 
-När du bearbetar meddelandet (e-post och SMS) ersätter Journey Optimizer B2B Edition uttrycket med data som finns i Experience Platform-databasen. Det första exemplet blir _Hello John Doe_.
+När du bearbetar innehållet ersätter Journey Optimizer B2B edition uttrycket med data som finns i Experience Platform-databasen. Det första exemplet blir _Hello John Doe_.
 
 I följande exempel beskrivs stegen för att anpassa innehåll med hjälp av lead-/kontoattribut och systemtokens.
 

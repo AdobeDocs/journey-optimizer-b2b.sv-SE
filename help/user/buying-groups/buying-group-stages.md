@@ -2,9 +2,10 @@
 title: Buying Group Stages
 description: Lär dig mer om hur du köper gruppfaser och hur du kan definiera dem för att spåra resans status i förhållande till försäljningsmålen.
 feature: Buying Groups, Account Journeys
-source-git-commit: 42d73cd2c1ead771205e5fdf188088fce7ca6f21
+exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
+source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
 workflow-type: tm+mt
-source-wordcount: '2048'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 De olika inköpsgruppfaserna är utformade för att följa hur köpgrupperna utvecklas genom att konvertera möjligheter till kunder. Använd den här funktionen för att spåra köpgruppsutvecklingen och identifiera nästa bästa åtgärd för medlemmar i inköpsgrupper.
 
-Definiera faserna i en enda mellanlagringsmodell, definiera flera steg och övergångsflödet mellan dem. En eller flera stadier är avsedda att ingå i livscykeln. Modellen tillåter även icke-linjär progression, där du kan ange övergångar från en scen till en annan, till exempel från fas A till fas B, C eller D. Det krävs att en fas utses till lyckad fas, t.ex. ett inköp eller ett signerat kontrakt. Det är valfritt att ange en annan fas som en felfas, till exempel ett avvisat kontrakt eller köp av en konkurrerande lösning från en annan leverantör.<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+Definiera faserna i en enda mellanlagringsmodell, definiera flera steg och övergångsflödet mellan dem. En eller flera stadier är avsedda att ingå i livscykeln. Modellen tillåter även icke-linjär progression, där du kan ange övergångar från en scen till en annan, till exempel från fas A till fas B, C eller D. Det krävs att en fas utses till lyckad fas, t.ex. ett inköp eller ett signerat kontrakt. Det är valfritt att ange en annan fas som en misslyckad fas, t.ex. ett avvisat kontrakt eller köp av en konkurrerande lösning från en annan leverantör. Detta uppnås med [intelligenta instrumentpaneler](../dashboards/intelligent-dashboard.md) som visar hur köpgrupper utvecklas när det gäller att slutföra en försäljningsmöjlighet eller konvertera en affärsmöjlighet till en kund.
 
 ![Exempel på inköpsgruppstadier](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 

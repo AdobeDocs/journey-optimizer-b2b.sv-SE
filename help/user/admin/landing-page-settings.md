@@ -4,9 +4,11 @@ description: Lär dig hur du får tillgång till och konfigurerar inställningar
 feature: Setup, Content
 hide: true
 hidefromtoc: true
-source-git-commit: f599ae239b6979f766f97330b825503e70a13e50
+badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
+exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
+source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---

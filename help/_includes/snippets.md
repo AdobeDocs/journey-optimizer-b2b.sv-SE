@@ -1,9 +1,9 @@
 ---
 title: Fragment
 description: Återanvända anteckningar och visuella element för att anteckna en funktion eller sida som gäller en viss utgåva
-source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
+source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,19 @@ ht-degree: 0%
 # Fragment
 
 <!-- Content authoring steps for reuse -->
+
+## Konfiguration av återgivningsdata {#intent-data-note}
+
+>[!NOTE]
+>Återgivningsdata kan också inkluderas på sidan när den konfigureras för din Journey Optimizer B2B edition-instans. Mer information om återgivningsidentifieringsmodellen och hur du skickar nyckelord finns i [Återgivningsdata](../user/admin/intent-data.md).
+>
+
+## Licensanteckning för AEM {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>Licenser för AEM Assets as a Cloud Service och Dynamic Media är en förutsättning för integreringen. Du bör kontrollera att [Dynamic Media medOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} är aktiverat.<br/>
+>Beroende på ditt kontrakt och din konfiguration kan du komma åt Adobe Experience Manager Assets as a Cloud Service direkt från Adobe Journey Optimizer B2B edition när du utformar visuellt innehåll.
 
 ## Skapa innehåll - komponenter - struktursteg {#structures-step}
 
@@ -46,11 +59,7 @@ ht-degree: 0%
 
    Dubbelklicka på mappen som innehåller dina resurser. Dra och släpp objekten i en strukturkomponent.
 
-   >[!NOTE]
-   >
-   >Om du har en prenumeration på Experience Manager Assets as a Cloud Service tillsammans med standardversionen av Adobe Marketo Engage Design Studio måste du välja [bildkällan](../user/content/assets-overview.md#choose-an-asset-source) när du skapar ett e-postmeddelande, en e-postmall eller ett visuellt fragment. Du kan också välja bildkällan innan du öppnar innehållsdesignern för redigering.
-
-   Mer information om hur du använder resurser från din källtyp finns i [Lägg till resurser i ditt innehåll](../user/content/assets-overview.md#add-assets-to-your-content).
+   Mer information om hur du använder resurser från din källtyp finns i [Lägg till resurser i ditt innehåll](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
    ![Dra en Marketo Engage-resurs till arbetsytan och justera inställningarna](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 
@@ -64,6 +73,6 @@ ht-degree: 0%
 
 ## Framtagning av innehåll - steg för spårning av länkar {#links-tracking-step}
 
-1. Välj fliken **[!UICONTROL Links]** i den vänstra rutan för att visa alla URL:er för ditt innehåll som spåras.
+1. Välj fliken **[!UICONTROL Links]** i den vänstra rutan om du vill visa alla URL:er för ditt innehåll som spåras.
 
    Du kan ändra _spårningstypen_ eller _etiketten_ och lägga till taggar om det behövs.

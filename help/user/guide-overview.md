@@ -1,15 +1,15 @@
 ---
-title: Adobe Journey Optimizer B2B edition Documentation
+title: Dokumentation om Adobe Journey Optimizer B2B Edition
 description: Lär dig hur du använder Adobe Journey Optimizer B2B edition-funktionerna för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Adobe Journey Optimizer B2B edition Documentation
+# Dokumentation om Adobe Journey Optimizer B2B Edition
 
 ## Vad är nytt?
 
@@ -27,7 +27,7 @@ Använd villkorsstyrt innehåll för att anpassa e-postinnehållet baserat på v
 
 Använd åtgärdsnoden _Lägg till i lista_ för att lägga till personer i en statisk Marketo Engage-lista under en kontoresa. Dessa listor ger er full flexibilitet för att återanvända och inrikta er på specifika målgrupper. Du kan skapa en lista och sedan skapa en kampanj runt den eller lägga till en person direkt till en befintlig kampanj. Använd dessutom åtgärden _Ta bort från listan_ personer för att förfina och ändra din målgruppsanpassning i Marketo Engage baserat på kundresan.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Läs om hur du lägger till i listan och tar bort från listan"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Läs om hur du lägger till i listan och tar bort från listan"}
 
 >[!TAB Bibliotek för centrala resurser]
 

@@ -3,9 +3,9 @@ title: Köpgrupper
 description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka marknadsföringens effektivitet genom att identifiera och inrikta sig på medlemmar i era kontolistor.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1237'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Detta
 
 ## Viktiga komponenter
 
-Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i Journey Optimizer B2B edition som identifierar saknade medlemmar i era målkonton baserat på de lösningar som era säljteam ansvarar för. Innan du och ditt marknadsföringsteam börjar skapa inköpsgrupper måste du se till att du har definierat nyckelkomponenterna. De här komponenterna är viktiga för att ni ska kunna uppnå era affärsmål.
+Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i Journey Optimizer B2B edition som identifierar saknade medlemmar i era målkontolistor baserat på de lösningar som era säljteam ansvarar för. Innan du och ditt marknadsföringsteam börjar skapa inköpsgrupper måste du se till att du har definierat nyckelkomponenterna. De här komponenterna är viktiga för att ni ska kunna uppnå era affärsmål.
 
 | Komponent | Syfte |
 | --------- | ------- |
@@ -77,7 +77,7 @@ Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. D
 
 ## Information om inköpsgrupp
 
-Om du vill få tillgång till information om en inköpsgrupp klickar du på namnet på inköpsgruppen på fliken _[!UICONTROL Browse]_.
+Om du vill få tillgång till information om en inköpsgrupp klickar du på namnet på inköpsgruppen på fliken _[!UICONTROL Browse]_. [Läs mer](./buying-group-details.md)
 
 ![Information om inköpsgrupp](assets/buying-group-details.png){width="600" zoomable="yes"}
 

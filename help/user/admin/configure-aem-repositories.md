@@ -1,9 +1,9 @@
 ---
 title: Konfigurera Experience Manager-resursdatabaser
-description: Lär dig hur du konfigurerar en anslutning till Experience Manager Assets-databaser för användning vid redigering av innehåll i Journey Optimizer B2B Edition.
+description: Lär dig hur du konfigurerar en anslutning till Experience Manager Assets-databaser för användning i Journey Optimizer B2B edition innehållsredigering.
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -12,15 +12,17 @@ ht-degree: 0%
 
 # Konfigurera Experience Manager-resurskataloger
 
-Adobe Journey Optimizer B2B Edition kan integreras med Adobe Experience Manager Assets as a Cloud Service och ger mer än att bara använda resurser som e-post på en kontoresa. Det säkerställer transparens genom informationsutbyte med Experience Manager Assets. Konfigurera anslutningen till Adobe Experience Assets för att aktivera den här funktionen.
+Adobe Journey Optimizer B2B edition kan integreras med Adobe Experience Manager Assets as a Cloud Service och ger mer än att bara använda resurser som e-post på en kontoresa. Det säkerställer transparens genom informationsutbyte med Experience Manager Assets. Konfigurera anslutningen till Adobe Experience Assets för att aktivera den här funktionen.
 
-Adobe Experience Manager Cloud Manager är indelat i program och varje program har flera miljöer och databaser ([Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). När du konfigurerar Adobe Experience Manager Assets i Adobe Journey Optimizer B2B Edition skapar du anslutningar till varje databas som du vill använda för att komma åt digitala resurser.
+Adobe Experience Manager Cloud Manager är indelat i program och varje program har flera miljöer och databaser ([Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). När du konfigurerar Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition skapar du anslutningar till alla databaser som du vill använda för att komma åt digitala resurser.
+
+{{aem-assets-licensing-note}}
 
 ## Förutsättningar
 
 * Generera autentiseringsuppgifter för tjänsten för den önskade miljön på AEM Headless Developer Console ([Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
 * Köp de certifikat som krävs för anslutningen. Som en god praxis bör du se till att certifikaten har minst sex månader kvar innan de upphör att gälla. Certifikaten upphör att gälla var 365:e dag.
-* Adobe Journey Optimizer B2B Edition har stöd för åtkomst till en digital resurshanteringskälla åt gången. Kontrollera att de nödvändiga resurserna är tillgängliga i Adobe Experience Manager innan du byter.
+* Adobe Journey Optimizer B2B edition ger åtkomst till en digital resurshanteringskälla åt gången. Kontrollera att de nödvändiga resurserna är tillgängliga i Adobe Experience Manager innan du byter.
 
 >[!IMPORTANT]
 >
@@ -66,7 +68,7 @@ När du är klar med konfigurationen av databaserna kan teammedlemmarna välja A
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition har stöd för åtkomst till en digital resurshanteringskälla i taget när du redigerar innehåll. 
+>Adobe Journey Optimizer B2B edition har stöd för åtkomst till en digital resurshanteringskälla i taget när du redigerar innehåll. 
 
 ## Ersätta ett certifikat
 
@@ -74,7 +76,7 @@ Certifikat upphör att gälla var 365:e dag från det att de skapades. Ersätt d
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B Edition kommunicerar med Experience Manager för användningsinformation. Anslutningen måste vara aktiv för tillförlitlig synkronisering av användningsdata och för att undvika diskrepanser. Administratörsanvändare meddelas om att certifikat upphör att gälla via meddelanden i appen. De kan även ange förfallodatum i Assets underavsnitt - Digital Asset Management i administratörsområdet.
+>Adobe Journey Optimizer B2B edition kommunicerar med Experience Manager för användningsinformation. Anslutningen måste vara aktiv för tillförlitlig synkronisering av användningsdata och för att undvika diskrepanser. Administratörsanvändare meddelas om att certifikat upphör att gälla via meddelanden i appen. De kan även ange förfallodatum i Assets underavsnitt - Digital Asset Management i administratörsområdet.
 
 1. På sidan för hantering av digitala resurser letar du reda på listan över konfigurerade databaser.
 
@@ -110,7 +112,7 @@ Du kan visa JSON-certifikatfilen som är kopplad till databasanslutningen.
 
 ## Ta bort en databasanslutning
 
-När du tar bort en databas tas användaråtkomst till Experience Manager Assets-miljön bort i Journey Optimizer B2B Edition.
+När du tar bort en databas tas användaråtkomst till Experience Manager Assets-miljön bort i Journey Optimizer B2B edition.
 
 1. På sidan _[!UICONTROL Digital asset management]_letar du reda på listan med konfigurerade resursdatabaser.
 

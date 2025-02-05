@@ -3,9 +3,9 @@ title: Mallar för inköpsgrupproll
 description: Lär dig hur du definierar en rollmall som ska användas som en köpgruppskomponent.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
+source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,14 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 När du har skapat mallen öppnas den på arbetsytan och du uppmanas att definiera rollerna. Det första rollkortet visas som standard.
 
+Varje roll som du definierar för mallen använder en uppsättning filter, eller _villkor_, för att avgöra vilka medlemmar som tilldelats rollen. Använd följande filtertyper för att definiera villkoren för en roll:
+
+| Typ | Villkor |
+| ---- | --------- |
+| Personattribut | <li>E-postadress <li>Ogiltig e-postadress <li>E-postmeddelandet har pausats <li>Faxnummer <li>Förnamn <li>Ingångsregion <li>Befattning <li>Efternamn <li>Mellannamn <li>Mobiltelefonnummer <li>Telefonnummer <li>Postnummer <li>Stat <li>Avprenumererad <li>Orsak till avbeställning |
+| Specialfilter | <li>Listmedlem |
+| Återgivningsdata | Kategoriåtergivning <li>Produktåtergivning <li>Nyckelordsmetod<br/>[Lär dig mer om återgivningsdata](../admin/intent-data.md). |
+
 1. Ange rollegenskaperna för det första rollkortet.
 
    * Välj **[!UICONTROL Buying group role]** i listan.
@@ -102,6 +110,16 @@ När du har skapat mallen öppnas den på arbetsytan och du uppmanas att definie
 1. För varje ytterligare roll som du vill ta med för mallen klickar du på **[!UICONTROL Add another role]** och upprepar steg 1 och 2 för att definiera rollen.
 
    ![Rollmall med flera definierade roller](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX &quot;Marketo Engage listmedlemskap&quot;]
+
+I Marketo Engage kontrollerar _smarta kampanjer_ medlemskap i program för att se till att leads inte får dubbla e-postmeddelanden och inte är medlemmar i flera e-postströmmar samtidigt. I Journey Optimizer B2B kan du kontrollera om du har ett medlemskap i Marketo Engage-listan som ett villkor för din rollmall för att undvika dubbelarbete när du köper gruppmedlemskap och reseaktiviteter.
+
+Om du vill använda listmedlemskap som rollvillkor expanderar du **[!UICONTROL Special Filters]** och drar villkoret **[!UICONTROL Member of List]** till filterområdet. Slutför sedan filterdefinitionen för att utvärdera medlemskapet i en eller flera Marketo Engage-listor.
+
+![Rollmallvillkor för medlemskap i Marketo Engage-lista](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
 
 Dina ändringar sparas automatiskt i statusen _Utkast_. Om du inte är redo att publicera rollmallen klickar du på den vänstra (bakåtriktade) pilen längst upp på sidan och återgår till listan _[!UICONTROL Roles templates]_.
 

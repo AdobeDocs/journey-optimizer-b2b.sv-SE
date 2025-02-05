@@ -1,11 +1,11 @@
 ---
 title: E-postmallar
-description: Lär dig hur du hanterar och skapar e-postmallar som kan användas för att skapa e-postmeddelanden om kontoresa enkelt och effektivt.
+description: Lär dig hur du hanterar och skapar e-postmallar som används för att skapa e-postmeddelanden om kontoresa enkelt och effektivt.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
+source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ För en snabbare och förbättrad designprocess kan du skapa fristående e-postm
 
 Om du vill komma åt e-postmallar i Adobe Journey Optimizer B2B edition går du till vänster och klickar på **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**. Den här åtgärden öppnar en listsida med alla e-postmallar som har skapats i instansen i en tabell.
 
-Tabellen sorteras efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade mallarna överst i listan som standard. Klicka på kolumnrubriken om du vill ändra mellan stigande och fallande.
+Tabellen sorteras som standard efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade mallarna överst. Klicka på kolumnrubriken om du vill ändra mellan stigande och fallande.
 
 Om du vill söka efter en mall efter namn anger du en textsträng i sökfältet. Klicka på ikonen _Filter_ längst upp till vänster om du vill filtrera listan efter datum för skapande eller ändring samt mallar som du har skapat eller ändrat.
 
@@ -26,7 +26,7 @@ Om du vill söka efter en mall efter namn anger du en textsträng i sökfältet.
 
 Anpassa de kolumner som du vill visa i tabellen genom att klicka på ikonen _Anpassa tabell_ längst upp till höger. Markera de kolumner som ska visas och klicka på **[!UICONTROL Apply]**.
 
-På listsidan kan du utföra de åtgärder som beskrivs i följande avsnitt.
+I malllistan kan du utföra de åtgärder som beskrivs i följande avsnitt.
 
 ## Skapa en e-postmall
 
@@ -35,12 +35,6 @@ Du kan skapa en e-postmall från e-postmallens listsida genom att klicka på **[
 1. Ange ett användbart **[!UICONTROL Name]** och **[!UICONTROL Description]** (valfritt) i dialogrutan.
 
    ![Ange initiala egenskaper för den nya e-postmallen](./assets/templates-create-dialog.png){width="400"}
-
-1. Ange startvärdet **[!UICONTROL Image source]**.
-
-   Om du har en prenumeration på Experience Manager Assets as a Cloud Service tillsammans med Adobe Marketo Engage Design Studio som standard kan du välja bildresurser från båda källorna. Om du vill göra det måste du välja bildkällan när du skapar en e-postmall eller ett visuellt fragment. Du kan också välja bildkällan när du redigerar innehållet.
-
-   Mer information om bildkällor finns i [Assets](./assets-overview.md).
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -94,7 +88,7 @@ På malllistsidan klickar du på namnet på en e-postmall för att öppna inform
 
 * Om det finns aktiva aviseringar (fel och varningar för e-postmallen) klickar du på **[!UICONTROL Alerts]** längst upp till höger för att visa informationen.
 
-  Dessa aviseringar förhindrar inte att e-postmallen används för att skapa e-post, men den här informationen ger marknadsförarna i teamet insyn i vad som kanske inte fungerar och i de nödvändiga uppdateringarna innan den kan användas för leverans.
+  Dessa varningar förhindrar inte att e-postmallen används för att skapa e-postmeddelanden. Informationen ger marknadsförarna i teamet insyn i vad som kanske inte fungerar och i de uppdateringar som krävs innan den kan användas för leverans.
 
 ## Visa e-postmall som används av referenser
 
@@ -115,7 +109,7 @@ Den här åtgärden kan utföras från:
 * Informationssidan - Klicka på **[!UICONTROL Edit email template]**.
 * Listsidan - Klicka på ellipsen (**..**) bredvid en e-postmall och välj **[!UICONTROL Edit]**.
 
-Den här åtgärden tar dig till sidan _Designa din mall_ eller den visuella innehållets redigeringssida baserat på den senast sparade statusen för e-postmallen. Härifrån kan du redigera e-postmallens innehåll efter behov. Mer information om redigeringsalternativen finns i [Skapa e-postmallar](#create-email-templates).
+Den här åtgärden tar dig till sidan _Designa din mall_ eller den visuella innehållets redigeringssida (baserat på den senast sparade statusen för e-postmallen). Härifrån kan du redigera e-postmallens innehåll efter behov. Mer information om redigeringsalternativen finns i [Skapa e-postmallar](#create-email-templates).
 
 ## Duplicera e-postmallar
 

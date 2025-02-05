@@ -1,17 +1,17 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: f599ae239b6979f766f97330b825503e70a13e50
+source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 21%
+source-wordcount: '218'
+ht-degree: 20%
 
 ---
 
 
 # Användarhandbok för Journey Optimizer B2B edition {#user}
 
-+ [Adobe Journey Optimizer B2B edition Documentation](guide-overview.md)
++ [Dokumentation om Adobe Journey Optimizer B2B Edition](guide-overview.md)
 + [Versionsinformation](./release-notes/release-notes.md)
 + Kom igång {#get-started}
    + [Journey Optimizer B2B edition - översikt](about-journey-optimizer-b2b-edition.md)
@@ -19,19 +19,15 @@ ht-degree: 21%
    + [Komma igång-guide](./start/get-started.md)
    + [Spårnings- och e-postprotokoll](./start/email-protocols.md)
    + [Använd AI-assistenten](./start/ai-assistant.md)
-+ Kontomålgrupper {#account-audiences}
-   + [Översikt](./audiences/account-audience-overview.md)
-   + [LinkedIn Account Matched Auditions](./data/linkedin-account-matched-audiences.md)
-   + [XDM-fält](./data/field-mapping.md)
-+ Köper grupper {#buying-groups}
-   + [Översikt](./buying-groups/buying-groups-overview.md)
-   + [Lösningsintressen](./buying-groups/solution-interests.md)
-   + [Rollmallar](./buying-groups/buying-groups-role-templates.md)
-   + [Köpgruppsfaser](./buying-groups/buying-group-stages.md)
-   + [Skapa inköpsgrupper](./buying-groups/buying-groups-create.md)
 + Kontoresor {#account-journeys}
    + [Översikt](./journeys/journey-overview.md)
-   + [Nod för kontoresa](./journeys/journey-nodes.md)
+   + [Resensnod](./journeys/journey-nodes.md)
+   + Resensnoder {#journey-nodes}
+      + [Målgrupp](./journeys/account-audience-nodes.md)
+      + [Agera](./journeys/action-nodes.md)
+      + [Lyssna efter en händelse](./journeys/listen-for-event-nodes.md)
+      + [Dela och sammanfoga banor](./journeys/split-merge-paths-nodes.md)
+      + [Vänta](./journeys/wait-nodes.md)
 + Reseinnehåll {#journey-content}
    + E-postkanal {#email-channel}
       + [Framtagning av e-post](./content/email-authoring.md)
@@ -39,28 +35,52 @@ ht-degree: 21%
       + [Styrda mallar](./content/email-authoring-governance.md)
       + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
    + [SMS-redigering](./content/sms-authoring.md)
++ Konton {#accounts}
+   + [Målgrupper](./audiences/account-audience-overview.md)
+   + Köper grupper {#buying-groups}
+      + [Översikt](./buying-groups/buying-groups-overview.md)
+      + [Lösningsintressen](./buying-groups/solution-interests.md)
+      + [Rollmallar](./buying-groups/buying-groups-role-templates.md)
+      + [Köpgruppsfaser](./buying-groups/buying-group-stages.md)
+      + [Information om inköpsgrupp](./buying-groups/buying-group-details.md)
+      + [Skapa inköpsgrupper](./buying-groups/buying-groups-create.md)
+      + [Exportera kontolista](./audiences/account-list-export.md)
+      + [LinkedIn Account Matched Auditions](./data/linkedin-account-matched-audiences.md)
+      + [Köpa gruppfilter i Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+   + [Kontolistor](./accounts/account-lists.md)
+   + [XDM-fält](./data/field-mapping.md)
 + Innehållshantering {#content-management}
    + Assets {#assets}
       + [Översikt](./content/assets-overview.md)
-      + [Arbeta med resurser i Marketo Engage](./content/marketo-engage-design-studio.md)
-      + [Arbeta med AEM Assets-bilder](./content/aem-assets.md)
-      + [Redigera bilder med Adobe Express](./content/image-edit-adobe-express.md)
-   + Mallar{#templates}
-      + [Hantera e-postmallar](./content/email-templates.md)
-      + [Framtagning av e-postmallar](./content/email-template-authoring.md)
+      + Marketo Engage-resurser {#marketo-engage-dam}
+         + [Arbeta med resurser i Marketo Engage](./content/marketo-engage-design-studio.md)
+         + [Redigera bilder med Adobe Express](./content/image-edit-adobe-express.md)
+      + [Experience Manager bildresurser](./content/aem-assets.md)
+   + Mallar {#templates}
       + [Innehållsstyrning](./content/template-content-governance.md)
+      + E-postmallar {#email-templates}
+         + [Översikt](./content/email-templates.md)
+         + [Framtagning av e-postmallar](./content/email-template-authoring.md)
+      + [Mallar för landningssidor](./content/landing-page-templates.md)
    + [Fragment](./content/fragments.md)
+   + [Forms](./content/forms.md)
+   + Landningssidor {#landing-pages}
+      + [Översikt](./content/landing-pages.md)
+      + [Landningssiddesign](./content/landing-page-design.md)
    + [Villkorligt innehåll](./content/conditional-content.md)
 + Insiktspaneler {#dashboards}
-   + [Intelligent kontrollpanel](./dashboards/intelligent-dashboard.md)
-   + [Köpgrupper](./dashboards/buying-groups-dashboard.md)
+   + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
+   + [Kontoinformation](./accounts/account-details.md)
+   + [Översikt över inköpsgrupper](./dashboards/buying-groups-dashboard.md)
    + [Översikt över engagemang](./dashboards/engagement-dashboard.md)
    + [Resursöversikt](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
    + [Användarhantering](./admin/user-management.md)
+   + [Återgivningsdata](./admin/intent-data.md)
    + Kanaler {#channels}
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
    + [Konfigurera AEM Assets-databaser](./admin/configure-aem-repositories.md)
+   + [Konfigurera AEP-händelsedefinitioner](./admin/configure-aep-events.md)
    + [Inställningar för landningssida](./admin/landing-page-settings.md)
    + [Styrning](./admin/governance.md)

@@ -3,16 +3,16 @@ title: Arbeta med Marketo Engage Assets
 description: Läs om hur du använder resursintegrering i Marketo Engage Design Studio i Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
+source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
 
 # Arbeta med resurser i Marketo Engage
 
-Marketo Engage Design Studio är standardresurskälla för Journey Optimizer B2B edition och du kan enkelt hantera och använda de tillgängliga resurserna i innehåll för dina kontoresor.
+Marketo Engage Design Studio är standardresurskällan för Journey Optimizer B2B edition, och du kan enkelt hantera och använda de tillgängliga resurserna för att utforma innehåll som stöder dina kontoresor.
 
 I Marketo Engage använder marknadsföringsorganisationer arbetsytor för att ordna sitt innehållsmaterial och hjälpa team att komma åt rätt material. Väldefinierade arbetsytor är särskilt användbara för stora företag som har en stor produktportfölj eller arbetar globalt med olika krav för marknadsföring i olika regioner.
 
@@ -20,15 +20,16 @@ I Marketo Engage använder marknadsföringsorganisationer arbetsytor för att or
 
 Som standard finns det en **_[!UICONTROL Journey Optimizer B2B Edition]_**-arbetsyta som du kan använda specifikt för ditt innehåll på din kontoresa. Resurserna som du lägger till på den här arbetsytan är inte synliga eller tillgängliga för användning i Marketo Engage. För resurser på den här arbetsytan har du alla funktioner för resurshantering i Journey Optimizer B2B edition. Bland dessa funktioner finns:
 
-* Ersätt
-* Ta bort
-* Flytta
+* [Ersätt](#replace-assets)
+* [Ta bort](#delete-assets)
+* [Flytta](#create-a-folder)
+* [Redigera med Adobe Express](./image-edit-adobe-express.md)
 
 Assets på arbetsytorna i Marketo Engage är begränsade till skrivskyddad åtkomst för användning i e-postmeddelanden, e-postmallar och fragment. Du kan lägga till nya resurser på dessa arbetsytor och hämta en kopia av en resurs.
 
 ## Bläddra bland och få tillgång till resurser
 
-Om du vill komma åt Adobe Marketo Engage-resurser inifrån Journey Optimizer B2B edition går du till vänster och klickar på **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. Den här åtgärden öppnar en listsida med alla resurser listade.
+Om du vill komma åt Adobe Marketo Engage-resurser från Journey Optimizer B2B edition går du till vänster och klickar på **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. Den här åtgärden öppnar en listsida med alla resurser listade.
 
 ![Bläddra bland Marketo Engage-resurser](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -66,7 +67,7 @@ När du klickar på länken dirigeras du till motsvarande e-post, e-postmall ell
 
 ## Lägga till resurser
 
-På listsidan för Assets kan du lägga till bildresurser på arbetsytan i Journey Optimizer B2B edition eller på arbetsytan i Marketo Engage.
+På listsidan _Assets_ kan du lägga till bildresurser på arbetsytan i Journey Optimizer B2B edition eller på arbetsytan i Marketo Engage.
 
 1. Klicka på **[!UICONTROL Add Assets]** överst till höger.
 
@@ -126,7 +127,7 @@ I dialogrutan _[!UICONTROL Replace asset]_drar och släpper du ersättningsfilen
 
 Klicka på **[!UICONTROL Replace]** om du vill fortsätta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]**.
 
-Om filen som ska ersättas används för närvarande visas en informationsdialogruta som informerar dig om att den nya bildfilen ersätter bilden på alla platser där den används (e-post, e-postmallar och fragment).
+Om filen som ska ersättas används visas en informationsdialogruta som informerar dig om att den nya bildfilen ersätter bilden på alla platser där den används (e-post, e-postmallar och fragment).
 
 ## Hämta resurser
 
@@ -154,7 +155,7 @@ Du kan utföra följande gruppåtgärder för markerade resurser på arbetsytan 
 
 1. Välj en mapp.
 
-   Sökvägen uppdateras intill _[!UICONTROL Selected assets will move to:]_.
+   Sökvägen bredvid _[!UICONTROL Selected assets will move to:]_reflekterar ändringen.
 
 1. Klicka på **[!UICONTROL Move]**.
 
@@ -268,7 +269,7 @@ Om du arkiverar en mapp blir filerna i den inte sökbara. Använd arkivfunktione
 
 Assets kan användas i teamets e-post, e-postmall eller visuella fragmentredigering från den visuella innehållsredigeraren.
 
-I det visuella designergränssnittet väljer du ikonen _Resursväljare_ ( ![Assets-markering](../assets/do-not-localize/icon-assets-design.svg) ) på den vänstra sidopanelen.
+I det visuella designergränssnittet väljer du ikonen _Marketo Engage Assets_ ( ![Marketo Engage Assets-ikon](../../assets/do-not-localize/icon-assets-me.svg) ) på det vänstra sidofältet.
 
 Den här åtgärden ändrar verktygspanelen som visar en strukturerad lista över tillgängliga resurser på den valda arbetsytan. Välj den arbetsyta som du vill visa för att välja en resurs.
 

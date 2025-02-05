@@ -1,18 +1,18 @@
 ---
 title: Fragment
-description: Lär dig hur du skapar och använder visuella innehållsfragment som återanvändbara komponenter för e-post och e-postmallar i Adobe Journey Optimizer B2B Edition.
+description: Lär dig hur du skapar och använder visuella innehållsfragment som återanvändbara komponenter för e-post och e-postmallar i Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
+source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2586'
 ht-degree: 0%
 
 ---
 
 # Fragment
 
-Ett fragment är en återanvändbar komponent som kan refereras i ett eller flera e-postmallar i Adobe Journey Optimizer B2B Edition. Det är vanligtvis ett innehållsblock (text, bild eller båda) som kan skapas i förväg och snabbt infogas i en e-postmall eller en e-postmall. Med den här funktionen kan ni skapa flera anpassade innehållsblock som kan användas av era marknadsföringsteam för att sammanställa e-postinnehåll i en förbättrad designprocess. Vanliga användningsområden är innehållsblock för sidhuvud/sidfot för e-post, banners för inbjudningar till evenemang och säsongsvarningar.
+Ett fragment är en återanvändbar komponent som kan refereras i ett eller flera e-postmallar i Adobe Journey Optimizer B2B edition. Det är vanligtvis ett innehållsblock (text, bild eller båda) som kan skapas i förväg och snabbt infogas i en e-postmall eller en e-postmall. Med den här funktionen kan ni skapa flera anpassade innehållsblock som kan användas av era marknadsföringsteam för att sammanställa e-postinnehåll i en förbättrad designprocess. Vanliga användningsområden är innehållsblock för sidhuvud/sidfot för e-post, banners för inbjudningar till evenemang och säsongsvarningar.
 
 Så här använder du fragment på bästa sätt i dina arbetsflöden:
 
@@ -21,11 +21,11 @@ Så här använder du fragment på bästa sätt i dina arbetsflöden:
 
 ## Visuella fragment
 
-Visuella fragment är fördefinierade visuella block som byggts med den visuella innehållsredigeraren och som du kan återanvända i flera e-postmallar eller e-postmallar. Den aktuella omfattningen av Journey Optimizer B2B Edition och den här dokumentationen gäller endast för visuella fragment. Uttrycksbaserade fragment stöds ännu inte i Journey Optimizer B2B Edition.
+Visuella fragment är fördefinierade visuella block som byggts med den visuella innehållsredigeraren och som du kan återanvända i flera e-postmallar eller e-postmallar. Den aktuella omfattningen av Journey Optimizer B2B edition och den här dokumentationen gäller endast för visuella fragment. Uttrycksbaserade fragment stöds ännu inte i Journey Optimizer B2B edition.
 
 ## Få åtkomst till och hantera fragment
 
-Om du vill komma åt visuella fragment i Adobe Journey Optimizer B2B Edition går du till vänster och klickar på **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**. Den här åtgärden öppnar en listsida med alla fragment som har skapats i instansen i en tabell.
+Om du vill komma åt visuella fragment i Adobe Journey Optimizer B2B edition går du till vänster navigering och klickar på **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**. Den här åtgärden öppnar en listsida med alla fragment som har skapats i instansen i en tabell.
 
 ![Öppna fragmentbiblioteket](./assets/fragments-list.png){width="700" zoomable="yes"}
 
@@ -45,7 +45,7 @@ Fragmentstatusen avgör om den är tillgänglig för användning i en e-post- el
 
 >[!IMPORTANT]
 >
->Fragmentstatus introducerades i augusti-utgåvan av Journey Optimizer B2B Edition. Alla fragment som skapats före den här versionen har statusen _Utkast_, även om de används i ett e-postmeddelande eller en mall. Om du ändrar något i dessa fragment måste du publicera fragmentet för att sprida ändringarna.
+>Fragmentstatus introducerades i Journey Optimizer B2B edition August-versionen. Alla fragment som skapats före den här versionen har statusen _Utkast_, även om de används i ett e-postmeddelande eller en mall. Om du ändrar något i dessa fragment måste du publicera fragmentet för att sprida ändringarna.
 
 ### Filtrera fragmentlistan
 
@@ -63,7 +63,7 @@ I dialogrutan markerar du de kolumner som ska visas och klickar på **[!UICONTRO
 
 ## Skapa fragment
 
-Du kan skapa nya visuella fragment i Journey Optimizer B2B Edition genom att klicka på **[!UICONTROL Create fragment]** överst till höger.
+Du kan skapa nya visuella fragment i Journey Optimizer B2B edition genom att klicka på **[!UICONTROL Create fragment]** överst till höger.
 
 1. Ange ett användbart **[!UICONTROL Name]** och **[!UICONTROL Description]** (valfritt) i dialogrutan _[!UICONTROL Create fragment]_.
 
@@ -141,13 +141,13 @@ Avsluta vyn när som helst genom att klicka på pilen _Bakåt_ längst upp till 
 
 ## Visa fragment som används av referenser
 
-Klicka på fliken **[!UICONTROL Used By]** på sidan med fragmentinformation för att visa information om var fragmentet för närvarande används i Journey Optimizer B2B Edition, för e-postmeddelanden, e-postmallar och fragment.
+Klicka på fliken **[!UICONTROL Used By]** på sidan med fragmentinformation för att visa information om var fragmentet för närvarande används i Journey Optimizer B2B edition, för e-postmeddelanden, e-postmallar och fragment.
 
 >[!IMPORTANT]
 >
 >Det går inte att ta bort fragment som används av e-post eller e-postmallar.
 
-Referenser visas enligt kategori: _E-post_ eller _E-postmall_. E-postmeddelanden i Journey Optimizer B2B Edition bäddas in och skapas inom kontoresor, så den överordnade resan för e-postmeddelandet som använder fragmentet visas i referenser.
+Referenser visas enligt kategori: _E-post_ eller _E-postmall_. E-postmeddelanden i Journey Optimizer B2B edition är inbäddade och redigerade inom kontoresor, så den överordnade resan för det e-postmeddelande som använder fragmentet visas i referenser.
 
 ![Används av referenser för fragmentet](./assets/fragment-used-by-published.png){width="600" zoomable="yes"}
 
@@ -216,7 +216,7 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
 1. Om du vill uppdatera innehållet klickar du på **[!UICONTROL Create draft version]** längst upp till höger.
 
-   Klicka på **[!UICONTROL OK]** i dialogrutan för att öppna utkastet i den visuella designern. Du kan ändra [bildkällan](./assets-overview.md#choose-an-asset-source) om det behövs.
+   Klicka på **[!UICONTROL OK]** i dialogrutan för att öppna utkastet i den visuella designern.
 
    ![Skapa dialogruta för utkastversion](./assets/fragments-create-draft-version.png){width="300"}
 

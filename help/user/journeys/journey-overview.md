@@ -3,9 +3,9 @@ title: Kontoresor
 description: Lär dig mer om kontoresor och hur du kan skapa och hantera dem.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,13 @@ ht-degree: 0%
 
 # Kontoresor
 
+Bygg och genomför kundresor som är skräddarsydda för varje inköpsgrupp och köpgruppsmedlem med hjälp av automatiserat engagemang via e-post, SMS, event med mera. Med kontoresor kan ni effektivisera efterfrågefunktionen och köpa upp gruppbehörigheter och öka efterfrågan på ert förvärv, merförsäljning/korsförsäljning och lojalitetsprogram.
+
 Definiera säljdriven interaktion som inkluderar e-post, SMS och andra kundresor för att koordinera inkommande marknadsföring med utgående försäljningsaktiviteter för varje medlem i köpgruppen.
 
 ## Få åtkomst till och bläddra bland kontoresor
 
-1. Klicka på Adobe Journey Optimizer B2B Edition på startsidan för Adobe Experience Platform.
+1. Klicka på Adobe Journey Optimizer B2B edition på startsidan för Adobe Experience Platform.
 
 1. Klicka på **[!UICONTROL Account journeys]** i den vänstra navigeringen.
 
@@ -54,7 +56,7 @@ Redigeringsrubriken för varje kontoresa omfattar:
 
 Följande åtgärder är tillgängliga i sidhuvudet:
 
-* **Publish** - Du kan publicera en resa om det inte finns några blockeringsfel. När en resa publiceras ändras den till _Live_. Om resan innehåller fel tonas knappen ned med innehållsinformation: `Resolve errors before publishing`.
+* **Publish** - Du kan publicera en resa om det inte finns några blockeringsfel. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen ned med innehållsinformation: `Resolve errors before publishing`.
 * **Duplicera** - Den här åtgärden liknar en klonfunktion, men den duplicerade resan innehåller inga resurser.
 * **Nära nya poster** - Om du stänger en resa fortsätter konton som för närvarande befinner sig på resan att vara på vägen och ingen ytterligare reseentré kan ske. Det går inte att starta om en stängd resa. Du kan duplicera en stängd resa.
 * **Avbryt** - Om du avbryter en resa avbryts kundens framsteg omedelbart om du gör en ny resa. Det går inte att starta om en stoppad resa. Om du blockerar nya ingångar utan att stoppa folks framsteg, överväg att stänga resan istället.
@@ -86,35 +88,19 @@ Om du vill komma igång med en kontoresa skapar du resan och skapar sedan nodern
 
 1. Klicka på **[!UICONTROL Create]**.
 
-### Lägg till kontomålgruppen för din resa
-
-En kontoresa börjar alltid med en kontomålgrupp där du kan lägga till information till din resa.
-
-1. Klicka på noden **[!UICONTROL Account audience]** för att visa nodegenskaperna till höger.
-
-   ![Nod för kontomålgrupp](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
-
-1. Klicka på **[!UICONTROL Add account audience]**.
-
-   Du kan markera ett målgruppssegment som tidigare har valts genom att klicka på _[!UICONTROL Add audiences]_.
-
-1. Om du vill skapa ett nytt målgruppssegment väljer du **[!UICONTROL Account audiences]** i den vänstra navigeringen.
-
-1. Klicka på **[!UICONTROL Create audience]** och följ stegen som beskrivs i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
-
 ### Byggstenar i en resa
 
-_Resans arbetsyta_ är den centrala zonen i resedesignern. Det är i den här zonen som du kan lägga till och konfigurera resenoder. Klicka på en nod för att öppna dess egenskapspanel till höger om arbetsytan och ange dem i enlighet med din design.
+_resekartan_ är den centrala zonen i resedesignern. Det är i den här zonen som du kan lägga till och konfigurera resenoder. Klicka på en nod för att öppna dess egenskapspanel till höger om arbetsytan och ange dem i enlighet med din design. En kontoresa börjar alltid med en [målgruppsnod](./account-audience-nodes.md) där du kan lägga till indata till din resa.
 
-Du kan skapa din resa med någon av följande nodtyper:
+När du har skapat en kontoresa och lagt till målgruppen kan du bygga ut resan med hjälp av noder. Färdkartan innehåller en arbetsyta där du kan skapa flerstegs-B2B-användningsfall för marknadsföring med följande nodtyper för att skapa en kontoresa:
 
-* [Lyssna efter en händelse](journey-nodes.md#listen-for-an-event)
-* [Agera](journey-nodes.md#take-an-action)
-* [Dela banor](journey-nodes.md#split-paths)
-* [Vänta](journey-nodes.md#wait)
-* [Sammanfoga banor](journey-nodes.md#merge-paths)
+* [Agera](./action-nodes.md)
+* [Lyssna efter en händelse](./listen-for-event-nodes.md)
+* [Dela banor](./split-merge-paths-nodes.md)
+* [Vänta](./wait-nodes.md)
+* [Sammanfoga banor](./split-merge-paths-nodes.md)
 
-### Vaktspår
+### Guardrails
 
 För att hjälpa dig att bygga en resa utan att stöta på fel finns följande vaktskenor:
 
@@ -134,7 +120,7 @@ För att hjälpa dig att bygga en resa utan att stöta på fel finns följande v
 
 1. Navigera till reseeditorn.
 
-1. Klicka på ikonen _Ta bort_ (kontrollkanna) i nodegenskaperna till höger.
+1. Klicka på ikonen _Ta bort_ ( ![Ta bort ikon](../assets/do-not-localize/icon-delete.svg) ) i nodegenskaperna till höger.
 
 1. Klicka på **[!UICONTROL Delete]** i konformationsdialogrutan.
 
@@ -142,7 +128,7 @@ För att hjälpa dig att bygga en resa utan att stöta på fel finns följande v
 
 1. Navigera till reseeditorn.
 
-1. Klicka på plusikonen ( **+** ) på sökvägen och lägg till noden för delad sökväg.
+1. Klicka på plusikonen ( **+** ) på sökvägen och lägg till den [delade sökvägsnoden](./split-merge-paths-nodes.md#split-paths).
 
 1. Välj **[!UICONTROL Account]** i nodegenskaperna till höger.
 
@@ -150,11 +136,11 @@ För att hjälpa dig att bygga en resa utan att stöta på fel finns följande v
 
    För varje bana som skapas under resan visas ett nytt bankort i egenskaperna.
 
-1. Navigera till en av sökvägarna i resan och lägg till en åtgärd- eller händelsenod i den här sökvägen med plusikonen .
+1. Navigera till en av sökvägarna i resan och lägg till noderna [action](./action-nodes.md) eller [event](./listen-for-event-nodes.md) i den här sökvägen med hjälp av plusikonen.
 
-1. Markera den delade sökvägsnoden för att öppna egenskaperna till höger.
+1. Markera noden [delad sökväg](./split-merge-paths-nodes.md) för att öppna egenskaperna till höger.
 
-   Observera att sökvägarna som innehåller noder inte kan tas bort.
+   Sökvägarna som innehåller noder kan inte tas bort.
 
 1. Om du vill ta bort de här banorna måste du först ta bort alla noder på den banan.
 
@@ -181,3 +167,7 @@ När du publicerar en resa kan den påbörjas omedelbart eller på ett schemalag
 1. Klicka på **[!UICONTROL Save]**.
 
    När du är redo att publicera din resa kan du granska de här inställningarna när du klickar på _[!UICONTROL Publish]_.
+
+### Publish en kontoresa
+
+
