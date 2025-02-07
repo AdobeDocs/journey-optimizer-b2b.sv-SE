@@ -1,7 +1,10 @@
 ---
 title: Kontolistor
 description: Lär dig mer om kontolistor och hur marknadsförare kan använda dem för att rikta konton via kontoresor.
-source-git-commit: c44721af93275297a90c6f7c0c3683ade6847658
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+hidefromtoc: true
+hide: true
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 0%
@@ -232,4 +235,3 @@ Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa ko
 1. För **[!UICONTROL Select live static account list]** väljer du den kontolista där du vill ta bort konton.
 
    ![Välj Lägg till i kontolistan](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
