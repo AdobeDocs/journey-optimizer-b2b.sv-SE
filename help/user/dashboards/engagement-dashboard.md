@@ -3,9 +3,9 @@ title: Instrumentpanel för översikt över engagemang
 description: Lär dig mer om hur du kan använda kontrollpanelen för avtalsöversikt för att övervaka dina engagemangsinsatser.
 feature: Dashboards, Engagement
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8de3fea2ffd5de54ec7c8dd94307f1de09101b98
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -14,66 +14,82 @@ ht-degree: 0%
 
 Den här instrumentpanelen ger en heltäckande bild av engagemanget och visar realtidsstatistik över konton och individuella interaktioner via snapshot-donsdiagram och trendavslöjande linjediagram över tiden. Det hjälper er att övervaka och strategiska era engagemangsinsatser effektivt.
 
+Om du vill komma åt _Åhörandekontrollpanelen_ markerar du **[!UICONTROL Dashboard]**-objektet i den vänstra navigeringen. Välj sedan fliken **[!UICONTROL Engagement]** överst på sidan.
+
 <!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. To engage with the data, use the action menu in the top-right corner. -->
 
-## Engagemang per konto/engagemang av människor
+![Instrumentpanel för engagemang](./assets/engagement-dashboard.png){width="800" zoomable="yes"}
 
-Nedbrytningskartorna delar upp konton eller människor i kategorier som är både engagerade och icke-engagerade. Den centrala siffran anger det totala antalet inom varje kategori, vilket ger en överblick över det övergripande engagemanget.
+## Engagemang per konto/inköpsgrupp/personer
 
-![Engagemang med konton och personer](assets/engagement-accounts-people.png){width="700" zoomable="yes"}
+Cirkeldiagrammen delar upp konton, inköpsgrupper eller personer i både engagerade och icke-engagerade kategorier. Den centrala siffran visar det totala antalet inom varje kategori, vilket ger en överblick över det övergripande engagemanget.
 
-## Konton som har engagerats över tid / Personer som har engagerats över tid
+![Engagemang med konton och personer](assets/engagement-accounts.png){width="500"}
+
+## Konton/inköpsgrupper/personer som varit engagerade över tid
 
 Dessa linjediagram visar hur många konton eller personer som är engagerade över tid. Med tydliga linjer för&quot;Engaged&quot; och&quot;Not Engaged&quot;, som visualiseras tillsammans med en tidsstämplad horisontell axel, kan du identifiera trender och mönster. Du kan hovra över en rad för att visa exakta mått för ett visst datum.
 
-![Engagemang med konton och personer över tid](assets/engagement-accounts-people-over-time.png){width="700" zoomable="yes"}
+![Engagemang med konton och personer över tid](assets/engagement-accounts-over-time.png){width="500"}
 
-## Förbättrade interaktioner
+## Filtrera data
 
-Engagera dig ytterligare med data genom att använda åtgärdsikonen ( **...** ) i det övre högra hörnet av varje diagram.
+Du kan filtrera de data som visas efter datumintervall och attribut.
+
+### Datumintervallfilter
+
+Använd _[!UICONTROL Date range filter]_längst upp till höger för att filtrera data efter datumintervallet.
+
+![Filtrera visade data efter datumintervall](./assets/engagement-date-filter.png){width="380"}
+
+För intervallet **[!UICONTROL Custom]** kan du använda kalenderverktyget för att ange start- och slutdatum. Slutdatumet är som standard den aktuella dagen.
+
+![Filtrera visade data efter attribut](./assets/engagement-date-filter-custom.png){width="380"}
+
+### Attributfilter
+
+Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter.svg) ) längst upp till vänster om du vill filtrera de data som visas med något av dessa attribut:
+
+* Intresse av lösningar
+* Typ av åtagande
+* Län
+* Bransch
+* Köper gruppmedlemsroll
+
+![Filtrera visade data efter attribut](./assets/engagement-dashboard-filters.png){width="500"}
+
+Välj så många värden för varje attribut som du vill använda för att filtrera data och klicka på **[!UICONTROL Apply]**.
+
+## Engagera med data
+
+Använd menyn **..** längst upp till höger i varje diagram för att interagera med data.
 
 ![Instrumentpanelsdata för engagemang - åtgärdsmeny](assets/engagement-action-menu.png){width="300"}
 
-### Visa mer
-
-**[!UICONTROL View More]**: För alla instrumentpanelsvyer visas ett popup-fönster med diagrammet och en tabell som visar hur engagemanget är fördelat på konto/personer.
-
-Om du vill kopiera utökade data klickar du på **[!UICONTROL Download CSV]** överst till höger.
-
 ### Detaljgranska
 
-Välj **[!UICONTROL Drill through]** om du vill ha en ingående analys av enskilda gruppstatusar.
+För ett cirkeldiagram väljer du **[!UICONTROL Drill through]** för en ingående analys av enskilda gruppinteraktionsdata.
 
-De globala filter som används på kontrollpanelen överförs till den här sidan.
+De globala filtren (dataområde och attribut) tillämpas på kontrollpanelen. Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter.svg) ) längst upp till vänster för att [ändra attributfiltren](#filter-the-data) för den detaljerade vyn. Använd datumintervallväljaren längst upp till höger för att [ändra datumintervallet](#date-range-filter) för detaljvyn.
 
-Välj **[!UICONTROL View more]** om du vill ha utökade data och insikter. Beroende på diagrammet finns det utökade data för följande:
+![Gå igenom för att komma åt diagramdata](./assets/engagement-buying-groups-drill-through.png){width="700" zoomable="yes"}
 
-* [!UICONTROL Accounts]
-* [!UICONTROL People]
-* [!UICONTROL Date]
-* [!UICONTROL Status]
-* [!UICONTROL Engaged]
-* [!UICONTROL Not Engaged]
-<!-- 
-* [!UICONTROL Engagement activities]
-* [!UICONTROL Last engagement date]
-* [!UICONTROL Region]
-* [!UICONTROL Industry]
-* [!UICONTROL People]
-* [!UICONTROL Name]
-* [!UICONTROL Person ID]
-* [!UICONTROL Status]
-* [!UICONTROL Email]
---->
+| Engagemang per konto | Engagemang genom inköpsgrupper | Engagemang av människor |
+| ---------------------- | --------------------------- | -------------------- |
+| <li>Kontonamn <li>Status <li>Personer engagerade (tal)<li>Förlovningsaktiviteter (antal) <li>Senaste åtagande (datum) | <li>Köpgrupp <li>Konto <li>Intresse av lösningar <li>Status <li>Förlovningsaktiviteter (antal) | <li>Namn <li>Status <li>E-post (adress) <li>Förlovningsaktiviteter (antal) <li>Senaste engagemang (datum) |
 
-### Datafiltrering
+Du kan klicka på menyikonen **..** längst upp till höger och välja **[!UICONTROL View more]** för att [visa utökade data och insikter](#view-more).
 
-* **Datafilter** - Använd _[!UICONTROL Date filter]_, som återspeglar det senaste engagemangsdatumet. Startdatumet kan justeras. Slutdatumet är som standard den aktuella dagen.
+### Visa mer
 
-* **Attributfilter** - Klicka på ikonen _Filter_ längst upp till vänster om du vill filtrera datavisningen med något av dessa attribut:
+Välj **[!UICONTROL View more]** om du vill ha utökade data och insikter.
 
-   * Intresse av lösningar
-   * Typ av åtagande
-   * Län
-   * Bransch
-  <!-- * Account's Industry -->
+![Engagemang med konton och personer](./assets/engagement-buying-groups-time-view-more.png){width="700" zoomable="yes"}
+
+Beroende på diagrammet finns det utökade data för följande:
+
+| Engagemang per konto/inköpsgrupper/personer | Konton/inköpsgrupper/personer som har varit engagerade över tid |
+| ----------------------------------------------- | -------------------------------------------------- | 
+| <li>Engagerad <li>Inte engagerad | <li>Datum <li>Konton / Köpgrupper / Personer (tal) <li>Engagerad/ej engagerad |
+
+Om du vill kopiera utökade data klickar du på **[!UICONTROL Download CSV]** överst till höger.

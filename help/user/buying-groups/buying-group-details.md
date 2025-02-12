@@ -2,7 +2,8 @@
 title: Information om inköpsgrupp
 description: Läs om hur du får tillgång till detaljerad information och generativa AI-sammanfattningar för att köpa grupper i Journey Optimizer B2B edition.
 feature: Buying Groups
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: f14301dc-d605-4ed2-8867-6a49675019de
+source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -11,7 +12,7 @@ ht-degree: 1%
 
 # Information om inköpsgrupp
 
-När du klickar på ett köpgruppsnamn var som helst i Journey Optimizer B2B edition visas information om inköpsgruppen. Denna information ger användbar information om inköpsgruppen, inklusive generativa AI-sammanfattningar.
+När du klickar på ett köpgruppsnamn var som helst i Journey Optimizer B2B edition visas information om inköpsgruppen. Den här översikten innehåller användbar information om inköpsgruppen, inklusive generativa AI-sammanfattningar.
 
 ![Åtkomst till information om inköpsgrupp](./assets/buying-group-details.png){width="800" zoomable="yes"}
 

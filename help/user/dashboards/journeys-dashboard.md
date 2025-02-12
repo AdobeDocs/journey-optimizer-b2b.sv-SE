@@ -1,75 +1,57 @@
 ---
-title: Kontrollpanel för reseöversikt
+title: Kontrollpanel för översikt över kontoresor
 description: Lär dig mer om informationen som tillhandahålls av kontrollpanelen för översikt över resan och hur den kan hjälpa dig att övervaka och hantera strategin för kundresan.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8df1e44d5d978249ffc6e95b3a383644358d1d66
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
-# Kontrollpanel för reseöversikt
+# Kontrollpanel för översikt över kontoresor
 
-Den här instrumentpanelen ger en omfattande översikt över en vald kontoresa, med detaljerad information om kontots förlopp med hjälp av donut- och linjediagram som kategoriserar och kvantifierar slutföranden, pågående aktiviteter och avbrutna över tid. Det hjälper marknadsförarna att utvärdera hur effektiva e-post- och SMS-kanalerna är med hjälp av nyckeltal för leverans och engagemang.
+Den här instrumentpanelen ger en omfattande översikt över era aktiva kontoresor, med detaljerad information om kontoförloppet med hjälp av cirkel- och stapeldiagram som kategoriserar och kvantifierar slutföranden samt engagemangsaktiviteter. Det hjälper marknadsförarna att utvärdera hur effektiva e-post- och SMS-kanalerna är med hjälp av nyckeltal för leverans och engagemang.
 
 Den här översikten är tillgänglig för publicerade kontoresor och det tar ungefär fyra timmar för data att börja fylla i diagram och tabeller.
 
 ![Reseöversikt](./assets/journey-overview.png){width="700" zoomable="yes"}
 
-## Resestatus
+## Distribution av slutförandegrad för resa
 
-Det här donationsdiagrammet innehåller en beskrivning av resestatus, som kategoriserar konton i `Completed`, `In Progress` och `Aborted`. Varje segment är tydligt märkt med motsvarande procenttal och kontonummer på diagrammets ytterkant.
+Detta diagram visar fördelningen av resorna baserat på deras slutförandegrad och är indelat i fyra olika poängband. Den centrala siffran representerar det totala antalet resor och ger en snabb bild av den totala utvecklingen. De segmenterade färgerna anger hur stor andel av resorna som finns inom varje poängintervall, vilket gör att du snabbt kan bedöma slutförandetrender.
 
-## Färdigställande av resan över tid
+Om du vill visa mer detaljerad information klickar du på menyikonen **..** längst upp till höger.
 
-Det här linjediagrammet håller reda på antalet konton som har slutfört sin resa över tid. Den vågräta axeln mappar tidslinjen medan den lodräta axeln kvantifierar kontona, vilket ger en enkel bild av utvecklingstrender.
+![Hastighetsfördelning för slutförd resa](./assets/journey-completion-rate-distribution.png){width="500"}
 
-## Prestandavidgetar för resor
+## Resor efter typ av engagemang
 
-I det här avsnittet presenteras två viktiga mätvärden:
+I det här stapeldiagrammet visas hur resorna är fördelade baserat på typ av engagemang, och du kan identifiera vilka engagemang som användes mest på resorna. Varje bar representerar en specifik typ av engagemang, med dess längd som anger antalet resor med aktiviteter av den typen. Den här visualiseringen ger en tydlig och omedelbar förståelse för engagemangstrender inom era kontoresor.
 
-* **[!UICONTROL Journey completion rate]** - Procentandel konton som har slutfört sin resa.
-* **[!UICONTROL Journey duration]** - Genomsnittlig tid för konton att slutföra deras resa.
+Om du vill visa mer detaljerad information klickar du på menyikonen **..** längst upp till höger.
 
-## Prestandatabeller för e-post och SMS
+![Hastighetsfördelning för slutförd resa](./assets/journeys-by-engagement-type.png){width="500"}
 
-Prestandatabellerna ger en detaljerad bild av hur effektiva e-post- och SMS-kanalerna är. I varje tabell visas mätvärden, som leveransfrekvenser och klickfrekvens, för att utvärdera effekten av varje kontaktpunkt.
+## Engagera med data
 
-**[!UICONTROL Email performance]** tabellkolumner:
+Använd menyn **..** längst upp till höger i varje diagram för att interagera med data.
 
-* _[!UICONTROL Asset name]_- resursens namn
-* _[!UICONTROL Sent]_- antal skickade e-postmeddelanden
-* _[!UICONTROL Delivery rate]_- antal levererade e-postmeddelanden dividerat med antalet skickade
-* _[!UICONTROL Open Rate]_- antal öppnade e-postmeddelanden delat med antalet levererade
-* _[!UICONTROL Click-through rate]_- antal klickade e-postmeddelanden dividerat med antalet levererade
+### [!UICONTROL Drill through]
 
-**[!UICONTROL SMS performance]** tabellkolumner:
+För cirkeldiagrammet väljer du **[!UICONTROL Drill through]** för en ingående analys av data.
 
-* _[!UICONTROL Asset name]_- resursens namn
-* _[!UICONTROL Sent]_- antal skickade SMS-meddelanden
-* _[!UICONTROL Delivery rate]_- antalet levererade SMS-meddelanden delat med det skickade numret
-* _[!UICONTROL Click-through rate]_- antalet klickade SMS-meddelanden dividerat med antalet levererade
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+![Gå igenom för att komma åt diagramdata](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-## Förbättrad interaktion
+Du kan klicka på menyn _Mer_ (**..**) längst upp till höger och välja **[!UICONTROL View more]** för att [visa utökade data](#view-more).
 
-Engagera dig ytterligare med data genom att använda åtgärdsikonen (**...**) i det övre högra hörnet i varje diagram eller tabell.
+### [!UICONTROL View more]
 
-### Detaljgranskning
+Välj **[!UICONTROL View more]** om du vill visa utökade data och insikter.
 
-För diagrammet _[!UICONTROL Journey status]_väljer du **[!UICONTROL Drill through]**för en ingående analys av enskilda kontostatusar.
+![Visa utökade data](./assets/journeys-by-engagement-view-more.png){width="700" zoomable="yes"}
 
-![Detaljnivån för diagramdata](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
-<!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+Det visade popup-fönstret innehåller ett diagram och en tabell som visar hur reseinformationen har delats upp.
 
-### Visa mer
-
-Välj **[!UICONTROL View more]** om du vill komma åt utökade data och insikter. Det visade popup-fönstret innehåller en beskrivning av data.
-
-Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** överst till höger.
-
-![Visa utökade data](./assets/journey-email-performance-view-more.png){width="600" zoomable="yes"}
+Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** längst upp till höger i datatabellen. Klicka på **[!UICONTROL Close]** om du vill återgå till kontrollpanelen _Översikt_.

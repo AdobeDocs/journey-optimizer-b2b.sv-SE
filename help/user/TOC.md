@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
+source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 20%
+source-wordcount: '221'
+ht-degree: 19%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 20%
    + [Använd AI-assistenten](./start/ai-assistant.md)
 + Kontoresor {#account-journeys}
    + [Översikt](./journeys/journey-overview.md)
+   + [Resedetaljer](./journeys/journey-details.md)
    + [Resensnod](./journeys/journey-nodes.md)
    + Resensnoder {#journey-nodes}
       + [Målgrupp](./journeys/account-audience-nodes.md)
@@ -45,15 +46,16 @@ ht-degree: 20%
       + [Information om inköpsgrupp](./buying-groups/buying-group-details.md)
       + [Skapa inköpsgrupper](./buying-groups/buying-groups-create.md)
       + [Exportera kontolista](./audiences/account-list-export.md)
-      + [LinkedIn Account Matched Auditions](./data/linkedin-account-matched-audiences.md)
+      + [LinkedIn-konto matchar målgrupper](./data/linkedin-account-matched-audiences.md)
       + [Köpa gruppfilter i Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + [Kontolistor](./accounts/account-lists.md)
+   + [Kontoinformation](./accounts/account-details.md)
    + [XDM-fält](./data/field-mapping.md)
 + Innehållshantering {#content-management}
    + Assets {#assets}
       + [Översikt](./content/assets-overview.md)
       + Marketo Engage-resurser {#marketo-engage-dam}
-         + [Arbeta med resurser i Marketo Engage](./content/marketo-engage-design-studio.md)
+         + [Arbeta med Marketo Engage resurser](./content/marketo-engage-design-studio.md)
          + [Redigera bilder med Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager bildresurser](./content/aem-assets.md)
    + Mallar {#templates}
@@ -70,10 +72,9 @@ ht-degree: 20%
    + [Villkorligt innehåll](./content/conditional-content.md)
 + Insiktspaneler {#dashboards}
    + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
-   + [Kontoinformation](./accounts/account-details.md)
-   + [Översikt över inköpsgrupper](./dashboards/buying-groups-dashboard.md)
    + [Översikt över engagemang](./dashboards/engagement-dashboard.md)
-   + [Resursöversikt](./dashboards/journeys-dashboard.md)
+   + [Översikt över inköpsgrupper](./dashboards/buying-groups-dashboard.md)
+   + [Översikt över kontoresor](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
    + [Användarhantering](./admin/user-management.md)
    + [Återgivningsdata](./admin/intent-data.md)
