@@ -2,9 +2,10 @@
 title: Dela och sammanfoga banor
 description: Lär dig mer om delade sökvägar och nodtyper för sammanslagningssökvägar som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: af6e89b25ca20e14ec9a4c2ed4c8d632ad7c12dc
+exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1430'
 ht-degree: 1%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 1%
 # Dela och sammanfoga banor
 
 Använd delade och sammanfogade sökvägsnoder i din kontoresa för att samordna dina kontoresor. Du kan segmentera målgruppen enligt villkor som du definierar och kombinerar segmenten för att fortsätta.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
 ## Dela banor
 
@@ -52,7 +55,7 @@ _Hur fungerar en delad sökväg efter personnod?_
 | [Personer](#add-a-split-path-by-people-node) > [!UICONTROL People attributes only] | [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <li>Ort</li><li>Land</li><li>Födelsedatum</li><li>E-postadress</li><li>Ogiltig e-postadress</li><li>E-postmeddelandet har pausats</li><li>Förnamn</li><li>Ingångsregion</li><li>Befattning</li><li>Efternamn</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postnummer</li><li>Stat</li><li>Avprenumererad</li><li>Orsak till avbeställning</li> |
 | | [!UICONTROL Activity history] > [!UICONTROL Email] | E-postaktiviteter som är kopplade till resan: <li>[!UICONTROL Clicked link in email]</li><li>Öppen e-post</li><li>Levererades via e-post</li><li>Har skickats e-post</li> Dessa villkor utvärderas med hjälp av ett markerat e-postmeddelande från tidigare under resan. |
 | | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | En värdeändring har gjorts för ett markerat personattribut. De här ändringstyperna är: <li>Nytt värde</li><li>Föregående värde</li><li>Orsak</li><li>Källa</li><li>Aktivitetsdatum</li><li>Min. antal gånger</li> |
-| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Intressanta händelser som definieras i den associerade Marketo Engage-instansen. Begränsningarna är: <li>Milstolpe</li><li>E-post</li><li>Webb</li> |
+| | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Intressanta ögonblick som definieras i den associerade Marketo Engage-instansen. Begränsningarna är: <li>Milstolpe</li><li>E-post</li><li>Webb</li> |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Roll</li> |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of List] | Personen är eller är inte medlem i en eller flera Marketo Engage-listor. |
 | [Personer](#add-a-split-path-by-people-node) > [!UICONTROL Account-person attributes only] | Roll i kontoattribut | Personen har eller har inte tilldelats en roll i kontot. Valfria begränsningar: <li>Ange ett rollnamn</li> |
@@ -146,11 +149,11 @@ _Hur fungerar en delad sökväg efter personnod?_
 
 >[!BEGINSHADEBOX &quot;Marketo Engage listmedlemskap&quot;]
 
-I Marketo Engage kontrollerar _smarta kampanjer_ medlemskap i program för att se till att leads inte får dubbla e-postmeddelanden och inte är medlemmar i flera e-postströmmar samtidigt. I Journey Optimizer B2B kan du kontrollera om det finns medlemskap i Marketo Engage-listan som ett villkor för att dela upp kundresan så att du slipper dubbelarbete.
+I Marketo Engage kontrollerar _smarta kampanjer_ medlemskap i program för att se till att leads inte får dubbla e-postmeddelanden och inte är medlemmar i flera e-postströmmar samtidigt. I Journey Optimizer B2B kan du kontrollera om det finns ett listmedlemskap i Marketo Engage som ett villkor för att få en delad kundresa. På så sätt slipper du dubbelarbete under resan.
 
 Om du vill göra det expanderar du **[!UICONTROL Special Filters]** och drar villkoret **[!UICONTROL Member of List]** till filterområdet och slutför filterdefinitionen för att utvärdera medlemskapet i en eller flera Marketo Engage-listor.
 
-![Delad sökväg efter personer - villkor för medlemskap i listan Marketo Engage](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Delad sökväg efter personer - villkor för Marketo Engage listmedlemskap](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -185,3 +188,7 @@ Lägg till en _sammanfoga sökvägar_-nod för att kombinera olika delade sökv�
    Nu sammanfogas banorna så att konton från de markerade banorna kombineras till en enda bana som kan fortsätta genom resan.
 
 1. Om det behövs kan du dela upp sökvägarna genom att gå tillbaka till egenskaperna för sammanfogningssökvägarna och avmarkera kryssrutan för de sökvägar som du vill ta bort.
+
+## Videoöversikt
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

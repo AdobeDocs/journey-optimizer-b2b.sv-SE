@@ -2,9 +2,10 @@
 title: Gör något
 description: Läs mer om nodtypen Ta en åtgärd som du kan använda för att samordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: ac7d498de05a492751bc40682467c3a76d74d912
+exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 0%
 # Agera
 
 Under din kontoresa kan du lägga till en _[!UICONTROL Take an action]_-nod för att utföra en åtgärd, som att skicka ett e-postmeddelande, ändra poängen, tilldela till en inköpsgrupp och så vidare. Åtgärder är vanligtvis vad du vill ska hända som ett resultat av någon typ av utlösare, till exempel en händelse eller en tidigare åtgärd.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
 ## Kontoåtgärder
 
@@ -62,7 +65,7 @@ Använd en åtgärd för personer när du vill använda en ändring för alla pe
 | | [!UICONTROL Send email] | Skapa nytt e-postmeddelande<br/>Välj e-post från Marketo Engage |
 | | [!UICONTROL Send SMS] | Skapa SMS |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to List] | Välj Marketo Engage-arbetsyta<br/>Listnamn |
-| | [!UICONTROL Add to Marketo Engage Request campaign] | Välj arbetsytan Marketo Engage<br/>Välj kampanj för begäran |
+| | [!UICONTROL Add to Marketo Engage Request campaign] | Välj Marketo Engage-arbetsyta<br/>Välj kampanj för begäran |
 | | [!UICONTROL Change People Partition in Marketo Engage] | Ny partition |
 | | [!UICONTROL Remove from List] | Välj Marketo Engage-arbetsyta<br/>Listnamn |
 
@@ -162,7 +165,7 @@ Använd den här åtgärden om du vill ta bort personprofiler från en [inköpsg
 
 +++[!UICONTROL Send email]
 
-Använd den här åtgärden om du vill skicka ett e-postmeddelande. Du kan skapa, anpassa och förhandsgranska e-postmeddelanden i den visuella designern (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan Marketo Engage och markera sedan det e-postmeddelande som du vill skicka.
+Använd den här åtgärden om du vill skicka ett e-postmeddelande. Du kan skapa, anpassa och förhandsgranska e-postmeddelanden i den visuella designern (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan i Marketo Engage och välj sedan det e-postmeddelande som du vill skicka.
 
 ![Vidta en åtgärd - Skicka e-post](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -176,9 +179,9 @@ Använd den här åtgärden om du vill skicka ett SMS-meddelande. Du kan skapa, 
 
 +++
 
-### Marketo Engage åtgärder
+### Marketo Engage-åtgärder
 
-Personalen i Marketo Engage är utformade för att samordna er kontobaserade marknadsföringssamordning i Journey Optimizer B2B edition med era ledande marknadsföringssatsningar i Marketo Engage. Använd dessa åtgärder för att samordna listmedlemskap, personpartitioner och begära kampanjer.
+Marketo Engage personbaserade marknadsföringsverktyg är utformade för att samordna er kontobaserade marknadsföring i Journey Optimizer B2B edition med era ledande marknadsföringssatsningar i Marketo Engage. Använd dessa åtgärder för att samordna listmedlemskap, personpartitioner och begära kampanjer.
 
 +++[!UICONTROL Add to list]
 
@@ -217,3 +220,7 @@ Använd den här åtgärden om du vill ta bort personer från en [smart lista](h
 Om personprofilen inte var medlem i den smarta listan ignoreras åtgärden.
 
 +++
+
+## Videoöversikt
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

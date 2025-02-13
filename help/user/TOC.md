@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '226'
 ht-degree: 19%
 
 ---
@@ -21,14 +21,15 @@ ht-degree: 19%
    + [Använd AI-assistenten](./start/ai-assistant.md)
 + Kontoresor {#account-journeys}
    + [Översikt](./journeys/journey-overview.md)
-   + [Resedetaljer](./journeys/journey-details.md)
-   + [Resensnod](./journeys/journey-nodes.md)
+   + [Skapa och publicera en resa](./journeys/create-publish-journey.md)
+   + [Resensnoder](./journeys/journey-nodes.md)
    + Resensnoder {#journey-nodes}
       + [Målgrupp](./journeys/account-audience-nodes.md)
       + [Agera](./journeys/action-nodes.md)
       + [Lyssna efter en händelse](./journeys/listen-for-event-nodes.md)
       + [Dela och sammanfoga banor](./journeys/split-merge-paths-nodes.md)
       + [Vänta](./journeys/wait-nodes.md)
+   + [Resedetaljer](./journeys/journey-details.md)
 + Reseinnehåll {#journey-content}
    + E-postkanal {#email-channel}
       + [Framtagning av e-post](./content/email-authoring.md)

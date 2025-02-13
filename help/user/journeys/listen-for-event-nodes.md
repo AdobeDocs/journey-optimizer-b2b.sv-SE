@@ -2,9 +2,10 @@
 title: Lyssna efter en händelse
 description: Läs mer om avlyssningen av en händelsnodtyp som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: a1247b0cdab586f2bca1c0e495d5db2069d2645b
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1297'
 ht-degree: 1%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 1%
 # Lyssna efter en händelse
 
 Lägg till noden _Lyssna efter en händelse_ om du vill flytta målgruppen framåt till nästa steg i kontoresan när en händelse inträffar.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
 >[!NOTE]
 >
@@ -80,9 +83,9 @@ Lyssna efter en händelse som baseras på personer när du vill flytta kontot fr
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera information för händelsen.
 
-### Lyssna efter händelsen Marketo Engage
+### Lyssna efter Marketo Engage event
 
-Om du har webbsidor som skapats i den anslutna Marketo Engage-instansen kan du utlösa en händelse baserat på ett besök eller inget besök på Marketo Engage webbsidor, samt på Marketo Engage-formulär som var/inte var ifyllda.
+Om du har webbsidor som skapats i den anslutna Marketo Engage-instansen kan du utlösa en händelse som baseras på ett besök eller inget besök på Marketo Engage webbsidor, samt på Marketo Engage-formulär som fyllts i eller inte fyllts i.
 
 1. Välj en **[!UICONTROL Listen for an event]**-nod i reseredigeraren.
 
@@ -99,7 +102,7 @@ Om du har webbsidor som skapats i den anslutna Marketo Engage-instansen kan du u
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera en eller flera webbsidor som ska matcha och eventuella ytterligare begränsningar för händelsen.
 
-   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_definierar du formulärbegränsningen **[!UICONTROL Web page]**eller Fyller i. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda **[!UICONTROL is any]**för att matcha på webbsidor på Marketo Engage eller i ifyllda formulär.
+   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_definierar du formulärbegränsningen **[!UICONTROL Web page]**eller Fyller i. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda **[!UICONTROL is any]**för att matcha vid besök på Marketo Engage webbsidor eller i ifyllda formulär.
 
    * (Valfritt) Klicka på **[!UICONTROL Add constraint]** och välj det fält som du vill använda som begränsning. Ange operatorn och fältets värde.
 
@@ -119,7 +122,7 @@ Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade hände
 
 1. [Skapa och publicera en AEP-händelsedefinition](../admin/configure-aep-events.md).
 
-2. Lägg till en _Lyssna efter en händelse_-nod i en kontoresa och välj en Experience Platform-händelsedefinition för en personbaserad händelse.
+2. Lägg till en _Lyssna efter en händelse_-nod i en kontoresa och välj en Experience Platform-händelsdefinition för en personbaserad händelse.
 
 _Så här tar du med en upplevelsehändelse i din resa:_
 
@@ -175,5 +178,6 @@ Ange vid behov hur lång tid resan väntar på händelsen. Resan avslutas efter 
 
    ![Resans händelsnod - ange tidsgräns](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
+## Videoöversikt
 
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
