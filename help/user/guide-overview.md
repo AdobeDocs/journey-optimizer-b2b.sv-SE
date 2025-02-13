@@ -2,9 +2,9 @@
 title: Dokumentation om Adobe Journey Optimizer B2B Edition
 description: Lär dig hur du använder Adobe Journey Optimizer B2B edition-funktionerna för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '616'
 ht-degree: 4%
 
 ---
@@ -17,39 +17,37 @@ Här följer ett exempel på de senaste förbättringarna i Journey Optimizer B2
 
 >[!BEGINTABS]
 
+>[!TAB Kontrollpanel för intelligenta insikter]
+
+Med nya Intelligent Dashboard ser du hur det går för er att köpa upp gruppkvalifikationer i olika faser. Ta reda på vilka köpgrupper som rör sig snabbt och vilka som är stagnerade så att ni kan boka resor för att vårda dem efter behov. Ni har också information på inköpsgrupp- och kontonivå, som ger mer kontext och historiska data för kundengagemang.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="Läs om Intelligent Dashboard"}
+
+>[!TAB Adobe Express bildredigering]
+
+Använd Adobe Express Snabbåtgärder för att redigera innehållet med beskärning, storleksändring, borttagning av bakgrund och formatkonvertering. Det intuitiva användargränssnittet i Adobe Express är inbyggt så att du snabbt kan finjustera bildresurserna.
+
+Med Adobe Express Enterprise licensing kan ni utnyttja alla funktioner i Adobe Express. Använd dessa funktioner för att finputsa och förbättra bilder, samtidigt som ni följer varumärkesriktlinjerna och tar bort hinder i innehållsförsörjningskedjan.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Läs om bildredigering med Adobe Express"}
+
+>[!TAB Vidarebefordran av AEP-händelser]
+
+Administratörer kan nu konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner. Med dessa konfigurationer kan marknadsförare skapa kontoresor som reagerar på AEP Experience Events.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Lär dig mer om AEP-händelsedefinitioner som används för resesamordning"}
+
+>[!TAB Buying group filters for smart lists]
+
+Nu kan du visa och skapa smarta listor med inköpsgruppsfilter i Marketo Engage. Med dessa filter kan ni inaktivera och inkludera köp av gruppmedlemmar för Marketo Engage-kampanjer och program från kontoresor inom Journey Optimizer B2B edition.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Läs om hur du köper gruppfilter som används i Marketo Engage smarta listor"}
+
 >[!TAB Villkorligt innehåll]
 
 Använd villkorsstyrt innehåll för att anpassa e-postinnehållet baserat på villkorliga regler. Definiera reglerna med hjälp av profilattribut eller sammanhangsbaserade händelser. Du kan skapa villkorliga regler i regelbyggaren, och du kan lagra dem för återanvändning på alla dina kontoresor.
 
 [!BADGE Läs mer]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Läs om villkorat innehåll"}
-
->[!TAB Personåtgärd - Lägg till/ta bort från listan]
-
-Använd åtgärdsnoden _Lägg till i lista_ för att lägga till personer i en statisk Marketo Engage-lista under en kontoresa. Dessa listor ger er full flexibilitet för att återanvända och inrikta er på specifika målgrupper. Du kan skapa en lista och sedan skapa en kampanj runt den eller lägga till en person direkt till en befintlig kampanj. Använd dessutom åtgärden _Ta bort från listan_ personer för att förfina och ändra din målgruppsanpassning i Marketo Engage baserat på kundresan.
-
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Läs om hur du lägger till i listan och tar bort från listan"}
-
->[!TAB Bibliotek för centrala resurser]
-
-Använd bildobjekten i Marketo Engage-instansen i alla designstudiearbetsytor. Inbyggda skyddsräcken förhindrar redigering av Marketo Engage-resurser från Journey Optimizer B2B edition. Dessa skydd säkerställer att källmaterialet i Marketo Engage bevaras samtidigt som det går att läsa och återanvända smidigt i Journey Optimizer B2B edition. För resurser som endast är avsedda att användas i Journey Optimizer B2B edition har en specifik arbetsyta fullständiga funktioner för resurshantering.
-
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Läs om central resurshantering"}
-
->[!TAB LinkedIn-konto matchar målgrupper]
-
-Generera LinkedIn Ad-målgrupper via Account Matched Audiences som hjälper er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppsfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar era köpgruppsparametrar. Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen.
-
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Läs om LinkedIn Account Matched Auditions"}
-
->[!TAB AI-assistenten]
-
-Kom snabbt igång med kontobaserade marknadsföringskoncept och lär dig om Journey Optimizer B2B edition-funktioner som är utformade för att maximera teamets strategier.
-
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Läs om AI Assistant"}
-
-Lyft innehållet till en högre nivå med AI Assistant för e-postinnehåll i Adobe Journey Optimizer B2B edition, som bygger på generativ AI. AI Assistant kan hjälpa er att optimera effekten av era leveranser genom att generera hela e-postmeddelanden, riktat textinnehåll och till och med bilder som är skräddarsydda för att passa er målgrupp.
-
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Läs om AI Assistant för e-post"}
 
 >[!ENDTABS]
 
@@ -119,7 +117,7 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insikter och kontrollpaneler"><br/>
-      <strong> Insikter </strong><br/><a href="./dashboards/buying-groups-dashboard.md">Instrumentpanel för att köpa grupper</a><br/><a href="./dashboards/journeys-dashboard.md">Kontrollpanel för kundresor</a><br/><a href="./dashboards/engagement-dashboard.md">Instrumentpanel för kundengagemang</a>
+      <strong> Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Instrumentpanel för engagemang</a><br/><a href="./dashboards/buying-groups-dashboard.md">Inköpskonsol för grupper</a><br/><a href="./dashboards/journeys-dashboard.md">Kontrollpanel för kundresor</a>
     </td>
 
 </tr>
@@ -134,7 +132,7 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
 </td></tr>
-<tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
+<tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
