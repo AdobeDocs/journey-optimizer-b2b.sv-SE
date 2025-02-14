@@ -1,5 +1,5 @@
 ---
-title: LinkedIn Account Matched Auditions
+title: LinkedIn-konto matchar målgrupper
 description: Lär dig hur du ansluter ett LinkedIn-konto och aktiverar ett dataflöde för inköpsgrupper.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
@@ -9,17 +9,17 @@ ht-degree: 0%
 
 ---
 
-# LinkedIn Account Matched Auditions
+# LinkedIn-konto matchar målgrupper
 
-Journey Optimizer B2B Edition ger möjlighet att generera LinkedIn Ad-målgrupper via kontomatchade målgrupper och är utformat för att hjälpa er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppsfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar era köpgruppsparametrar. Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen. Det finns en gräns på tio dataflöden.
+Journey Optimizer B2B edition kan generera LinkedIn Ad-målgrupper via Account Matched Audiences och är utformat för att hjälpa er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar köpgruppsparametrarna. Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen. Det finns en gräns på tio dataflöden.
 
-Innan du initierar ett dataflöde från Journey Optimizer B2B Edition måste du ha minst en instans av [(Companies) LinkedIn Matched Audience-målkopplingen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) med ett LinkedIn Campaign Manager-konto konfigurerat i ditt Experience Platform-program.
+Innan du initierar ett dataflöde från Journey Optimizer B2B edition måste du ha minst en instans av [(Companies) LinkedIn Matched Audience-målkopplingen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) med ett LinkedIn Campaign Manager-konto konfigurerat i ditt Experience Platform-program.
 
 ## Konfigurera en ny LinkedIn-kontoanslutning {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
->title="LinkedIn destinationsinställning krävs"
+>title="Inställning av LinkedIn-mål krävs"
 >abstract="Skicka konton som filtrerats genom inköpsgrupper till en länkad destination för att kunna interagera med potentiella köpgruppsmedlemmar. Du kan skapa upp till 10 dataflöden för 10 olika grupper med filtrerade konton. Om du vill komma igång med den här funktionen lägger du till ett länkat mål först."
 
 1. I Experience Platform går du till **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** i den vänstra navigeringen och väljer fliken **[!UICONTROL Catalog]**.
@@ -32,13 +32,13 @@ Innan du initierar ett dataflöde från Journey Optimizer B2B Edition måste du 
 
 1. Klicka på ikonen _Mer_ (**..**) på kopplingskortet och välj **[!UICONTROL Configure new destination]**.
 
-   ![Åtkomst till (företag) LinkedIn Matched Audience Connector](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![Öppna (Companies) LinkedIn Matched Audience-kopplingen](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. Markera **[!UICONTROL New Account]** och klicka på **[!UICONTROL Connect to destination]**.
 
    ![Anslut ett nytt LinkedIn-konto](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
-1. Ange dina LinkedIn-uppgifter och logga in.
+1. Ange dina inloggningsuppgifter för LinkedIn och logga in.
 
    Efter autentiseringen är LinkedIn-kontot anslutet som ett mål i Experience Platform.
 
@@ -50,7 +50,7 @@ Innan du initierar ett dataflöde från Journey Optimizer B2B Edition måste du 
 
 ## Uppdatera kontoinformationen
 
-Namnet och beskrivningen för LinkedIn-kontot visas för inköpsgrupper i Journey Optimizer B2B Edition. Det är en god vana att uppdatera denna information så att den är lätt att identifiera för de marknadsförare som arbetar med inköpsgrupper. Du kan ändra kontoinformationen i användargränssnittet för Experience Platform eller Journey Optimizer B2B Edition.
+Namnet och beskrivningen för LinkedIn-kontot visas för inköpsgrupper i Journey Optimizer B2B edition. Det är en god vana att uppdatera denna information så att den är lätt att identifiera för de marknadsförare som arbetar med inköpsgrupper. Du kan ändra kontoinformationen i användargränssnittet för Experience Platform eller Journey Optimizer B2B edition.
 
 1. Gå till **[!UICONTROL Connections]** > **[!UICONTROL Destinations]** i den vänstra navigeringen och välj fliken **[!UICONTROL Accounts]**.
 
@@ -68,9 +68,9 @@ Namnet och beskrivningen för LinkedIn-kontot visas för inköpsgrupper i Journe
 
 >[!NOTE]
 >
->Om du redan har tio dataflöden kan du inte skapa ytterligare. Om du har nått maxgränsen tar du bort en i Experience Platform innan du skapar en ny i Journey Optimizer B2B Edition.
+>Om du redan har tio dataflöden kan du inte skapa ytterligare. Om du har nått maxgränsen tar du bort en i Experience Platform innan du skapar en ny i Journey Optimizer B2B edition.
 
-1. I Journey Optimizer B2B Edition går du till **[!UICONTROL Accounts]** > **[!UICONTROL Buying groups]** till vänster.
+1. I Journey Optimizer B2B edition går du till **[!UICONTROL Accounts]** > **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 
 1. Välj fliken **[!UICONTROL Browse]**.
 
@@ -102,7 +102,7 @@ Namnet och beskrivningen för LinkedIn-kontot visas för inköpsgrupper i Journe
 
    Klicka på **[!UICONTROL Save]** om du vill lägga till de angivna filtren.
 
-1. Klicka på **[!UICONTROL Select LinkedIn destination]** och välj det konfigurerade LinkedIn-mål som du vill använda.
+1. Klicka på **[!UICONTROL Select LinkedIn destination]** och välj det konfigurerade LinkedIn-målet som du vill använda.
 
    Vid aktivering skapar den här inställningen dataflödet med målkonfigurationen och ett motsvarande virtuellt segment.
 

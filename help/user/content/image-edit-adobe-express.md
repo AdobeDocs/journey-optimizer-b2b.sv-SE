@@ -15,9 +15,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_assets_edit_adobe_express"
 >title="Redigera bilder i Adobe Express"
->abstract="De enkla och intuitiva bildredigeringsverktygen, som bygger på Adobe Express, finns tillgängliga direkt i Adobe Journey Optimizer B2B edition för att öka innehållets hastighet."
+>abstract="De enkla och intuitiva bildredigeringsverktygen från Adobe Express finns tillgängliga direkt i Adobe Journey Optimizer B2B edition för att öka innehållets hastighet."
 
-Adobe Journey Optimizer B2B edition kan integreras med Adobe Express och ger tillgång till en uppsättning bildredigeringsverktyg för Adobe Express. Du kan använda de här verktygen för att ändra de bilder som lagras på arbetsytan i Journey Optimizer B2B edition för den anslutna resurskatalogen för Marketo Engage. Integreringen ger följande viktiga fördelar:
+Adobe Journey Optimizer B2B edition kan integreras med Adobe Express och ger tillgång till en uppsättning bildredigeringsverktyg från Adobe Express. Du kan använda de här verktygen för att ändra de bilder som lagras på arbetsytan i Journey Optimizer B2B edition för den anslutna Marketo Engage-resurskatalogen. Integreringen ger följande viktiga fördelar:
 
 * Större återanvändning av innehåll genom att redigera och spara nya bildresurser i Journey Optimizer B2B edition.
 
@@ -25,9 +25,9 @@ Adobe Journey Optimizer B2B edition kan integreras med Adobe Express och ger til
 
 >[!NOTE]
 >
->Tillstånd för redigering av Adobe Expresser ingår i alla prenumerationer på Journey Optimizer B2B edition.
+>Tillstånd till Adobe Express redigeringsfunktioner ingår i alla prenumerationer på Journey Optimizer B2B edition.
 
-Adobe Expressen har stöd för bildfilformaten PNG och JPEG.
+Adobe Express-funktionerna stöder bildfilformaten PNG och JPEG.
 
 _Så här ändrar du en bild:_
 
@@ -53,9 +53,9 @@ Den här åtgärden öppnar en listsida med alla resurser listade. Arbetsytan _[
 
 1. Klicka på **[!UICONTROL Edit with Adobe Express]** i bilden _[!UICONTROL Details]_till höger.
 
-   ![Öppna Adobe Expressen i bildredigeraren](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
+   ![Öppna bilden i Adobe Express Editor](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
-   Om bilden används visas en varningsdialogruta som informerar dig om att eventuella ändringar som du gör påverkar innehållet. Klicka på **[!UICONTROL Continue]** för att fortsätta till Adobe Expressen.
+   Om bilden används visas en varningsdialogruta som informerar dig om att eventuella ändringar som du gör påverkar innehållet. Klicka på **[!UICONTROL Continue]** för att fortsätta till Adobe Express Editor.
 
    ![En varning innehåller information om bildanvändning](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
@@ -65,17 +65,17 @@ Om du har en Enterprise-licens för Adobe Express kan du komma åt och använda 
 
 >[!NOTE]
 >
->Din Adobe Express Enterprise-licens måste köpas inom samma IMS-organisation för att du ska få tillgång till dessa redigeringsfunktioner i Journey Optimizer B2B edition. Som enskild medlem i IMS-organisationen behöver du en tilldelad licens i instansen Adobe Express. Annars är din Adobe Express begränsad till [snabbåtgärderna på Adobe Express](#quick-actions-in-adobe-express) från Journey Optimizer B2B edition.
+>Din Adobe Express Enterprise-licens måste köpas under samma IMS-organisation för att du ska få tillgång till dessa fullständiga redigeringsfunktioner för Journey Optimizer B2B edition. Som enskild medlem i IMS-organisationen behöver du en tilldelad licens i Adobe Express-instansen. I annat fall är din Adobe Express-åtkomst begränsad till [snabbåtgärderna på Adobe Express](#quick-actions-in-adobe-express) från Journey Optimizer B2B edition.
 
 ![Öppna bilden i Adobe Express Enterprise Editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-Användarhandboken för [Adobe Expressen](https://helpx.adobe.com/express/user-guide.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
+[Adobe Express användarhandbok](https://helpx.adobe.com/express/user-guide.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
 
-## Snabbåtgärder i Adobe Expressen
+## Snabbåtgärder i Adobe Express
 
-Om du inte har någon Adobe Express Enterprise-licens har du tillgång till Adobe Expressens snabbredigerare.
+Om du inte har någon Adobe Express Enterprise-licens har du tillgång till Adobe Express snabbredigerare.
 
-1. Markera någon av bildändringsfunktionerna som du vill ändra Adobe Expressen med i bildredigeraren.
+1. I snabbredigeraren för Adobe Express väljer du någon av bildändringsfunktionerna för att ändra bilden.
 
    * [**[!UICONTROL Resize image]**](#resize-image)
    * [**[!UICONTROL Remove background]**](#remove-background)
@@ -85,7 +85,7 @@ Om du inte har någon Adobe Express Enterprise-licens har du tillgång till Adob
 
    ![Välj en redigeringstyp för att ändra bilden](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. När du återgår till redigeraren för snabbåtgärder för Adobe Express klickar du på **[!UICONTROL Save]** för att spara den ändrade bildfilen i Journey Optimizer B2B edition-resursytan med samma filnamn.
+1. När du återgår till huvudredigeraren för snabbåtgärder i Adobe Express klickar du på **[!UICONTROL Save]** för att spara den ändrade bildfilen i Journey Optimizer B2B edition-resursytan med samma filnamn.
 
 ## Ändra bildstorlek
 
@@ -103,9 +103,9 @@ Om du inte har någon Adobe Express Enterprise-licens har du tillgång till Adob
 
 ## Ta bort bakgrund
 
-![Redigera med Adobe Express- ta bort bakgrund](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
+![Redigera med Adobe Express - ta bort bakgrund](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
-Adobe Express utför en automatisk borttagning av bakgrund för att isolera det primära objektet i bilden. Om du är nöjd med resultatet klickar du på **[!UICONTROL Apply]**.
+Adobe Express utför en automatisk borttagning av bakgrunden för att isolera det primära objektet i bilden. Om du är nöjd med resultatet klickar du på **[!UICONTROL Apply]**.
 
 ## Beskär bild
 
