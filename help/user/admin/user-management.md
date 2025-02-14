@@ -4,9 +4,9 @@ description: Lär dig hur du tilldelar teammedlemmar till produktprofiler för J
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+source-git-commit: d5197e740a17de507bf72b4d7b64deb5af672346
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 
 När etableringen är klar och sandlådorna är bundna utför du följande steg för att ge ditt team och dina användare tillgång till Adobe Journey Optimizer B2B edition.
 
-1. [Skapa en produktprofil ](#marketo-engage-profile) för Marketo Engage i Admin Console (endast för den nya instansen Marketo Engage).
+1. [Skapa en Marketo Engage-produktprofil](#marketo-engage-profile) i Admin Console (endast ny Marketo Engage-instans).
 1. [Skapa en användargrupp](#create-user-group) i Admin Console.
 1. [Redigera inbyggda roller](#edit-roles) eller [skapa en anpassad roll](#create-a-custom-role) med Journey Optimizer B2B edition-behörigheter.
 1. [Lägg till användare](#add-users) eller [grupper](#add-user-groups-to-a-role) i roller.
 
-Som administratör kan du utföra dessa uppgifter i Adobe Admin Console, som är en central plats för att administrera och hantera produktlicenser och användare för Adobe. På Admin Console kan du skapa och hantera användare på en och samma plats i stället för i de olika individuella lösningarna. Mer information om funktioner och funktioner finns på [Admin Console-översiktssidan](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
+Som administratör kan du utföra dessa uppgifter i Adobe Admin Console, som är en central plats för att administrera och hantera dina Adobe produktlicenser och användare. I Admin Console kan du skapa och hantera användare på en och samma plats i stället för i de olika individuella lösningarna. På sidan [Admin Console - översikt](https://helpx.adobe.com/se/enterprise/using/admin-console.html) finns mer information om funktioner och funktioner.
 
-## Gå till Admin Console
+## Öppna Admin Console
 
 Innan du kan använda Admin Console för att administrera användare i ditt team måste du se till att du har tillgång till Admin Console och rätt behörigheter.
 
@@ -32,7 +32,7 @@ Innan du kan använda Admin Console för att administrera användare i ditt team
 
 1. Klicka på länken **[!UICONTROL Get started]** i ditt välkomstmeddelande för att navigera till Admin Console.
 
-   Om du inte kan hitta e-postmeddelandet öppnar du en webbläsare direkt till Admin Console på [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
+   Om du inte hittar e-postmeddelandet kan du öppna en webbläsare direkt till Admin Console på [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Logga in med din Adobe ID.
 
@@ -52,9 +52,9 @@ Innan du kan använda Admin Console för att administrera användare i ditt team
 
    * Om värdet i kolumnen **[!UICONTROL ADMIN ROLE]** visar `System` vet du att du (eller den användare som visas) är systemadministratör.
 
-## Skapa produktprofilen för Marketo Engage {#marketo-engage-profile}
+## Skapa Marketo Engage produktprofil {#marketo-engage-profile}
 
-När du ger användare åtkomst till en Adobe-lösning behöver du inte nödvändigtvis ge dem full åtkomst. Med produktprofiler kan varje lösning ha en egen uppsättning användarbehörigheter. Använd Admin Console för att tilldela produktprofiler.
+När du ger användare tillgång till en Adobe-lösning behöver du inte nödvändigtvis ge dem fullständig åtkomst. Med produktprofiler kan varje lösning ha en egen uppsättning användarbehörigheter. Använd Admin Console för att tilldela produktprofiler.
 
 Mer information om hur du använder produktprofiler för användarberättiganden finns i [Hantera produktprofiler för företagsanvändare](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"} i Admin Console-dokumentationen.
 <!--
@@ -66,17 +66,15 @@ For more information about managing these permissions within Marketo Engage, see
 
 >[!ENDSHADEBOX]-->
 
->[!NOTE]
->
->En systemadministratör för Admin Console eller en produktadministratör för Marketo Engage kan utföra dessa steg.
+![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller Marketo Engage produktadministratör kan utföra följande steg.
 
 1. Logga in på [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Välj fliken **[!UICONTROL Products]**.
 
-1. Öppna den Marketo Engage-instans där du vill lägga till profilen och klicka på **[!UICONTROL New profile]**.
+1. Öppna Marketo Engage-instansen där du vill lägga till profilen och klicka på **[!UICONTROL New profile]**.
 
-   ![Admin Console - Marketo Engage - instans - ny profil](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
+   ![Admin Console - Marketo Engage-instans - ny profil](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
 1. Ange ett produktprofilnamn, till exempel _Standardanvändare_.
 
@@ -88,9 +86,7 @@ En användargrupp är en samling användare som tilldelas en delad uppsättning 
 
 Mer information om hur användargrupper används för att hantera behörigheter finns i [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} i Admin Console-dokumentationen.
 
->[!NOTE]
->
->En Admin Console-systemadministratör kan utföra dessa steg.
+![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör kan utföra följande steg.
 
 1. Logga in på [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -119,11 +115,9 @@ Mer information om hur användargrupper används för att hantera behörigheter 
 
 ## Lägga till användare i en grupp
 
->[!NOTE]
->
->En Admin Console-systemadministratör kan utföra dessa steg.
+Mer information om användarhantering finns i [Admin Console-användare](https://helpx.adobe.com/enterprise/using/user-groups.html) i Admin Console-dokumentationen.
 
-Mer information om användarhantering finns i [Admin Console-användare](https://helpx.adobe.com/enterprise/using/user-groups.html) i dokumentationen för Admin Console.
+![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller produktadministratör kan utföra följande steg. En produktadministratör kan bara lägga till användare som redan finns i organisationen.
 
 1. Gå till [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
@@ -149,7 +143,7 @@ Behörigheter är enhetsbehörigheter som gör att du kan definiera de behörigh
 
 Under _Behörigheter_ i Adobe Experience Platform kan administratörer definiera användarroller och åtkomstprinciper för att hantera åtkomstbehörigheter för funktioner och objekt i ett produktprogram. I det här programmet kan du skapa och hantera roller samt tilldela önskade resursbehörigheter för rollerna. Med behörigheter kan du också hantera sandlådor och användare som är associerade med en viss roll.
 
-Mer information om rollbehörigheter i Experience Platform finns i [Hantera behörigheter för en roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} i dokumentationen för Experience Platform.
+Mer information om rollbehörigheter i Experience Platform finns i [Hantera behörigheter för en roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} i Experience Platform-dokumentationen.
 <!-- 
 ### B2B product permissions
 
@@ -224,9 +218,7 @@ _To change the permissions for a role:_
 
 ### Lägga till användare i en roll
 
->[!NOTE]
->
->En Admin Console-systemadministratör kan utföra dessa steg.
+![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP-produktadministratör kan utföra följande steg.
 
 1. Öppna rollinformationen och välj fliken **[!UICONTROL Users]**.
 
@@ -248,11 +240,9 @@ _To change the permissions for a role:_
 
 ### Lägga till användargrupper i en roll
 
->[!NOTE]
->
->En Admin Console-systemadministratör kan utföra dessa steg.
+Mer information om användarhantering finns i [Admin Console-användare](https://helpx.adobe.com/enterprise/using/user-groups.html) i Admin Console-dokumentationen.
 
-Mer information om användarhantering finns i [Admin Console-användare](https://helpx.adobe.com/enterprise/using/user-groups.html) i dokumentationen för Admin Console.
+![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP-produktadministratör kan utföra följande steg.
 
 1. Öppna rollinformationen och välj fliken **[!UICONTROL User groups]**.
 
@@ -274,9 +264,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
 ## Skapa en anpassad roll
 
->[!NOTE]
->
->En Admin Console-systemadministratör kan utföra dessa steg.
+![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP-produktadministratör kan utföra följande steg.
 
 1. Välj **[!UICONTROL Roles]** i den vänstra navigeringen och välj **[!UICONTROL Create role]**.
 
