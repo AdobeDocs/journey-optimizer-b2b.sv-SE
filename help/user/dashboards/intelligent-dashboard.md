@@ -3,9 +3,9 @@ title: Intelligent Dashboard
 description: Läs mer om Intelligent Dashboard som ger en heltäckande bild av mätvärden för inköpsgrupper och konton
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,17 @@ Den intelligenta kontrollpanelen ger även åtkomst till konto- och köpgruppsin
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Köpgruppsfaser"
->abstract="I det här diagrammet visas en översikt över hur inköpsgrupper fortskrider i olika faser baserat på de konfigurerade övergångsreglerna. I det första fältet visas antalet inköpsgrupper i ett specifikt skede på det första datumet i den valda tidsramen jämfört med antalet inköpsgrupper på det sista datumet i den valda tidsramen."
+>abstract="I det här diagrammet visas en översikt över hur inköpsgrupper fortskrider i olika faser baserat på de konfigurerade övergångsreglerna. Den första raden visar antalet inköpsgrupper i ett visst steg på det första datumet i den valda tidsramen jämfört med det sista datumet i den valda tidsramen."
 
 Diagrammet _[!UICONTROL Buying Group Stages]_ger en översikt över hur inköpsgrupper fortskrider i olika faser ([baserat på övergångsregler som har konfigurerats av en administratör](../buying-groups/buying-group-stages.md)).
 
+>[!NOTE]
+>
+>Tillgängligheten för inköpsgruppfaser kräver att inköpsgruppfaserna konfigureras. Se [Köpa gruppfaser](../buying-groups/buying-group-stages.md) för detaljerad information om faser och hur du definierar och aktiverar faser för inköpsgrupper.
+
 ![Köper datavisualisering för gruppfaser](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
-I diagrammet används inköpsgruppfaserna från den senast publicerade versionen av inköpsgruppens fasmodell. Varje steg reflekteras av två staplar. Den första raden visar antalet inköpsgrupper på det första datumet i den valda tidsramen. Och det andra (i jämförelse) är antalet inköpsgrupper på det sista datumet i tidsramen. Du kan hålla muspekaren över varje fält för att se antalet inköpsgrupper i varje fas.
+I diagrammet används inköpsgruppfaserna från den senast publicerade versionen av inköpsgruppens fasmodell. Det finns två staplar för varje scen. Den första raden visar antalet inköpsgrupper på det första datumet i den valda tidsramen. Och det andra (i jämförelse) är antalet inköpsgrupper på det sista datumet i tidsramen. Du kan hålla muspekaren över varje fält för att se antalet inköpsgrupper i varje fas.
 
 ![Håll pekaren över fältet om du vill visa detaljerade siffror](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
 
@@ -104,6 +108,8 @@ Varje kort innehåller följande data:
    * Data för varje rad är ordnade i kolumner: produktnamn, produktintent-styrka och nyckelord högst upp efter intent-strength.
    * Sorteringsordningen är hög till låg för kategori, produkt och nyckelord. Om en eller flera av typerna har samma återgivningsstyrka används alfabetisk ordning i sorteringen.
 
+  {{intent-data-note}}
+
 Klicka på **[!UICONTROL View All]** längst upp till höger på panelen _Om du vill köpa en grupp markeras_ klickar du på  för att navigera till listsidan för köpgrupper.
 
 ### Attributfilter {#attribute-filter-bg-highlights}
@@ -130,6 +136,10 @@ Använd datumfiltret längst upp till höger för att ändra datumintervallet f�
 >abstract="Konton med stor förändring i engagemanget inom den valda tidsramen."
 
 Avsnittet _[!UICONTROL Surging accounts]_visar en visualisering av kontona med en betydande förändring i engagemanget inom den valda tidsramen.
+
+>[!NOTE]
+>
+>Data för kontoökning är begränsade till konton som har importerats av Journey Optimizer B2B edition till en kontompubliken via kontoresor eller inköpsgrupper.
 
 ![Datavisualisering för kontoökning](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -171,6 +181,10 @@ Använd datumfiltret längst upp till höger för att ändra datumintervallet f�
 
 Avsnittet _[!UICONTROL Buying group highlights]_är indelat i två rader för att visa information om konton av intresse för din organisation.
 
+>[!NOTE]
+>
+>Data som framhäver kontona är begränsade till konton som har importerats av Journey Optimizer B2B edition till en kontompubliken via kontoresor eller inköpsgrupper.
+
 ![Kontohögdagrar](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **Övergående konton** - Den här raden visar kontona med en betydande ökning av engagemanget under den valda tidsramen.
@@ -187,6 +201,8 @@ Varje kort innehåller följande data:
    * I informationsfönstret visas kategorinamnet med återgivningsnivån högst upp.
    * Data för varje rad är ordnade i kolumner: produktnamn, produktintent-styrka och nyckelord högst upp efter intent-strength.
    * Sorteringsordningen är hög till låg för kategori, produkt och nyckelord. Om en eller flera av typerna har samma återgivningsstyrka används alfabetisk ordning i sorteringen.
+
+  {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
@@ -213,6 +229,10 @@ Använd datumfiltret längst upp till höger för att ändra datumintervallet f�
 >abstract="Visar antalet kontakter med en specifik roll som är associerad med ett lösningsintresse. Tilldelningen av roll- och lösningsintressen baseras på köpgruppsmallen."
 
 Avsnittet _[!UICONTROL Contact coverage]_visar en visualisering av antalet kontakter med en specifik roll som är associerad med ett lösningsintresse. Tilldelningen av roll- och lösningsintressen baseras på köpgruppsmallen.
+
+>[!NOTE]
+>
+>Kontaktuppgifter baseras på de inköpsgrupper som har skapats i Journey Optimizer B2B edition-instansen.
 
 ![Datavisualisering för kontoökning](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -241,6 +261,10 @@ Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter
 >abstract="Lista över kontakter som ingår i mer än en inköpsgrupp som ett resultat av att de är kopplade till flera lösningsintressen."
 
 Avsnittet _[!UICONTROL Contact overlap]_visar en lista med kontakter som är en del av mer än en inköpsgrupp som ett resultat av att de är kopplade till flera lösningsintressen.
+
+>[!NOTE]
+>
+>Kontaktöverlappningsdata baseras på de inköpsgrupper som skapas i Journey Optimizer B2B edition-instansen.
 
 ![Kontaktöverlappningstabell](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 

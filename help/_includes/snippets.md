@@ -1,9 +1,9 @@
 ---
 title: Fragment
 description: Återanvända anteckningar och visuella element för att anteckna en funktion eller sida som gäller en viss utgåva
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 ## Konfiguration av återgivningsdata {#intent-data-note}
 
 >[!NOTE]
->Återgivningsdata kan också inkluderas på sidan när den konfigureras för din Journey Optimizer B2B edition-instans. Mer information om återgivningsidentifieringsmodellen och hur du skickar nyckelord finns i [Återgivningsdata](../user/admin/intent-data.md).
 >
+>Återgivningsdata inkluderas på sidan när de konfigureras för din Journey Optimizer B2B edition-instans. Mer information om återgivningsidentifieringsmodellen och hur du skickar nyckelord, produkter och kategorier finns i [Återgivningsdata](../user/admin/intent-data.md).
 
-## Licensanteckning för AEM {#aem-assets-licensing-note}
+## Licensanteckning för AEM-mediefiler {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->Licenser för AEM Assets as a Cloud Service och Dynamic Media är en förutsättning för integreringen. Du bör kontrollera att [Dynamic Media medOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} är aktiverat.<br/>
+>Licenser för AEM Assets as a Cloud Service och Dynamic Media är en förutsättning för integreringen. Du bör kontrollera att [Dynamiska media med Open API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} är aktiverat.<br/>
 >Beroende på ditt kontrakt och din konfiguration kan du komma åt Adobe Experience Manager Assets as a Cloud Service direkt från Adobe Journey Optimizer B2B edition när du utformar visuellt innehåll.
 
 ## Skapa innehåll - komponenter - struktursteg {#structures-step}
