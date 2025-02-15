@@ -2,9 +2,10 @@
 title: Resedetaljer
 description: Lär dig mer om informationen på sidan med kundinformation och hur den kan hjälpa dig att övervaka och hantera din publicerade kontoresa.
 feature: Dashboards, Account Journeys
-source-git-commit: cbacc678d01850e3eb3901c44994ddf849a63d7c
+exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
+source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -25,6 +26,13 @@ I det här avsnittet visas två kompletteringsmått:
 
 * **[!UICONTROL Journey status]** - Det här cirkeldiagrammet innehåller en beskrivning av resestatus genom att kategorisera konton i _Slutfört_, _Pågår_ och _Avbrutet_. Varje segment är märkt med motsvarande procenttal och kontonummer på diagrammets ytterkant.
 * **[!UICONTROL Journey completion over time]** - Det här linjediagrammet spårar antalet konton som har slutfört sin resa över tid. Den vågräta axeln mappar tidslinjen medan den lodräta axeln kvantifierar kontona, vilket ger en enkel bild av utvecklingstrender.
+
+## Reseengagemang
+
+I det här avsnittet visas två kompletteringsmått:
+
+* **[!UICONTROL Engagement by accounts]** - Det här cirkeldiagrammet segmenterar kontona i en resa till kategorierna _Aktiverat_ och _Inte engagerat_. Den centrala siffran visar det totala antalet. Denna visualisering ger en överblick över kontointeraktionen.
+* **Engagemang av personer** - Den här visualiseringen visar det totala antalet personer som är kvalificerade som _engagerade_ i en resa.
 
 ## Reseprestanda
 
