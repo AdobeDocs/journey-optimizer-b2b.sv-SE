@@ -3,7 +3,7 @@ title: Lösningsintressen
 description: Lär dig mer om lösningsintressen och hur du kan definiera dem för användning inom dina inköpsgrupper.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Du kan när som helst ändra namn och beskrivning för att höja lösningsintres
 
 1. Ändra inställningen för **[!UICONTROL Update existing buying groups]** om det behövs.
 
-   När det här alternativet är aktiverat uppdateras alla befintliga inköpsgrupper i kombination med lösningsräntan via 24-timmars synkroniseringscykeln.
+   När det här alternativet är aktiverat uppdateras alla befintliga inköpsgrupper i kombination med lösningsräntan genom 7-dagars synkroniseringscykeln.
 
 1. Klicka på **[!UICONTROL Save]**.
 
