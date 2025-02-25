@@ -3,16 +3,16 @@ title: Lösningsintressen
 description: Lär dig mer om lösningsintressen och hur du kan definiera dem för användning inom dina inköpsgrupper.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
+source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Lösningsintressen
 
-Innan du skapar Buying Groups bör du veta vad du säljer och vem du vill ha som målgrupp. Er marknadsförings- och försäljningsstrategi bör anpassas så att ni kan lägga till lösningsintresset för inköpsgrupperna.
+Innan du skapar inköpsgrupper bör du veta vad du säljer och vilka du vill ha som målgrupp. Er marknadsförings- och försäljningsstrategi bör anpassas så att ni kan lägga till lösningsintresset för inköpsgrupperna.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
@@ -22,17 +22,17 @@ Innan du skapar Buying Groups bör du veta vad du säljer och vem du vill ha som
 
 1. Klicka på **[!UICONTROL Buying Groups]** i den vänstra navigeringen.
 
-1. Välj fliken **[!UICONTROL Solution interest]** på sidan Köpgrupper.
+1. Välj fliken **[!UICONTROL Solution interest]** på sidan _[!UICONTROL Buying Groups]_.
 
    ![Fliken Lösningsintresse](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   Fliken innehåller en inventeringslista över alla befintliga lösningsintressen. Den ger information som _[!UICONTROL Name]_,_[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_,_[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_,_[!UICONTROL Created on]_ och _[!UICONTROL Created by]_i kolumnformat.
+   Fliken innehåller en inventeringslista över alla befintliga lösningsintressen. Den ger följande information i kolumnformat: _[!UICONTROL Name]_,_[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_,_[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_,_[!UICONTROL Created on]_ och _[!UICONTROL Created by]_
 
    Listan sorteras som standard efter kolumnen _[!UICONTROL Last updated on]_. Klicka på kolumnrubriken i rubriken för att växla sortering mellan fallande och stigande.
 
 ## Visa och ta bort inköpsgruppjobb
 
-På fliken _[!UICONTROL Solution interest]_visar kolumnen **[!UICONTROL Buying group creation jobs]**antalet jobb som skapats för varje lösningsintresse. Numret är en länk och om du klickar på den öppnas en dialogruta med en lista över jobb som har skapats för lösningsintresset.
+På fliken _[!UICONTROL Solution interest]_visar kolumnen **[!UICONTROL Buying group creation jobs]**antalet jobb som skapats för varje lösningsintresse. Klicka på numret för att öppna en dialogruta som visar listan över jobb som skapats för lösningsintresset.
 
 ![Köper gruppjobb för lösningsintresse](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -48,7 +48,7 @@ Innan du kan skapa ett intresse för en lösning måste du ha en aktiv (publicer
 
 1. Välj en **[!UICONTROL Roles Template]** (obligatoriskt).
 
-   Klicka på **[!UICONTROL Select roles template]** och välj en aktiv rollmall i listan i dialogrutan. Du kan bara associera en aktiv rollmall med ett lösningsintresse. Klicka på **[!UICONTROL Save]** om du vill återgå till sidan _[!UICONTROL Create solution interest]_där den valda rollmallen visas.
+   Klicka på **[!UICONTROL Select roles template]** och välj en aktiv rollmall i listan i dialogrutan. Du kan bara associera en live-rollmall med en lösningsintresse. Klicka på **[!UICONTROL Save]** om du vill återgå till sidan _[!UICONTROL Create solution interest]_där den valda rollmallen visas.
 
    ![Lägg till en rollmall i lösningsintresset](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
@@ -75,15 +75,17 @@ Du kan när som helst ändra namn och beskrivning för att höja lösningsintres
 
    ![Lösning intresserar mer meny](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
-1. Uppdatera vid behov namnet (obligatoriskt och unikt) och beskrivningen (valfritt).
+1. Gör eventuella uppdateringar av inställningarna för lösningsintresse:
 
-1. Om det behövs väljer du **[!UICONTROL Buying group stage model]** för att spåra förloppet för inköpsgruppsfasen.
+   * Uppdatera **[!UICONTROL Name]** och **[!UICONTROL Description]**.
 
-   Mer information om hur du använder inköpsgruppfaser för att spåra resans förlopp mot försäljning finns i [Buying group steps](./buying-group-stages.md).
+   * Välj den **[!UICONTROL Buying group stage model]** som används för att spåra förloppet för inköpsgruppsfasen.
 
-1. Ändra inställningen för **[!UICONTROL Update existing buying groups]** om det behövs.
+     Mer information om hur du använder inköpsgruppfaser för att spåra resans förlopp mot försäljning finns i [Buying group steps](./buying-group-stages.md).
 
-   När det här alternativet är aktiverat uppdateras alla befintliga inköpsgrupper i kombination med lösningsräntan genom 7-dagars synkroniseringscykeln.
+   * Ändra inställningen för **[!UICONTROL Update existing buying groups]**.
+
+     När det här alternativet är aktiverat uppdateras alla befintliga inköpsgrupper i kombination med lösningsräntan genom 7-dagars synkroniseringscykeln.
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -95,7 +97,7 @@ Eventuella lösningsintressen som för närvarande används av ett inköpsgrupps
 
    Åtgärden öppnar en bekräftelsedialogruta.
 
-   Om lösningsintresset för närvarande används av en kontoresa eller ett inköpsgruppsjobb öppnas en informationsdialogruta som meddelar dig om att det inte kan tas bort. Klicka på [!UICONTROL OK] som avbryter borttagningen.
+   Om lösningsintresset för närvarande används av en kontoresa eller ett inköpsgruppsjobb resulterar åtgärden i en varning om att den inte kan tas bort. Klicka på **[!UICONTROL OK]** som avbryter borttagningen.
 
 1. Klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen eller så kan du avbryta processen genom att klicka på _[!UICONTROL Cancel]_.
 
