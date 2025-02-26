@@ -3,7 +3,7 @@ title: Lösningsintressen
 description: Lär dig mer om lösningsintressen och hur du kan definiera dem för användning inom dina inköpsgrupper.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Innan du skapar inköpsgrupper bör du veta vad du säljer och vilka du vill ha 
 
    ![Fliken Lösningsintresse](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   Fliken innehåller en inventeringslista över alla befintliga lösningsintressen. Den ger följande information i kolumnformat: _[!UICONTROL Name]_,_[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_,_[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_,_[!UICONTROL Created on]_ och _[!UICONTROL Created by]_
+   Fliken innehåller en inventeringslista över alla befintliga lösningsintressen. Följande information visas i kolumnformat: _[!UICONTROL Name]_,_[!UICONTROL Roles template]_, _[!UICONTROL Buying group creation jobs]_,_[!UICONTROL Last updated on]_, _[!UICONTROL Updated by]_,_[!UICONTROL Created on]_ och _[!UICONTROL Created by]_
 
    Listan sorteras som standard efter kolumnen _[!UICONTROL Last updated on]_. Klicka på kolumnrubriken i rubriken för att växla sortering mellan fallande och stigande.
 
@@ -58,7 +58,7 @@ Innan du kan skapa ett intresse för en lösning måste du ha en aktiv (publicer
 
 1. Aktivera inställningen **[!UICONTROL Update existing buying groups]** (valfritt).
 
-   När det här alternativet är aktiverat uppdateras alla befintliga inköpsgrupper i kombination med lösningsräntan via 24-timmars synkroniseringscykeln.
+   När det här alternativet är aktiverat uppdateras alla befintliga inköpsgrupper i kombination med lösningsräntan genom 7-dagars synkroniseringscykeln.
 
 1. Klicka på **[!UICONTROL Create]** längst upp till höger.
 
