@@ -1,9 +1,9 @@
 ---
 title: Fragment
 description: Återanvända anteckningar och visuella element för att anteckna en funktion eller sida som gäller en viss utgåva
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Återgivningsdata inkluderas på sidan när de konfigureras för din Journey Optimizer B2B edition-instans. Mer information om återgivningsidentifieringsmodellen och hur du skickar nyckelord, produkter och kategorier finns i [Återgivningsdata](../user/admin/intent-data.md).
+>Återgivningsdata inkluderas när de konfigureras för din Journey Optimizer B2B edition-instans. Det kräver också en eller flera publicerade resor som **eller** skapade inköpsgrupper. Mer information om återgivningsidentifieringsmodellen och hur du skickar nyckelord, produkter och kategorier finns i [Återgivningsdata](../user/admin/intent-data.md).
 
 ## Licensanteckning för AEM-mediefiler {#aem-assets-licensing-note}
 

@@ -3,9 +3,9 @@ title: Intelligent Dashboard
 description: Läs mer om Intelligent Dashboard som ger en heltäckande bild av mätvärden för inköpsgrupper och konton
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,19 @@ Den intelligenta kontrollpanelen ger även åtkomst till konto- och köpgruppsin
 * Avsiktsidentifiering för person, inköpsgrupp och konto
 
 {{intent-data-note}}
+
+För att kunna använda den information och de insikter som finns i den intelligenta kontrollpanelen måste Journey Optimizer B2B edition-instansen ha de nödvändiga objekten på plats:
+
+| Typ | Krav |
+| ---- | ----------- |
+| [Köper gruppfaser](#buying-group-stages) | Ställ in inköpsgruppfaserna **och** lägga till i skapade inköpsgrupper. |
+| [Köp av grupphögdagrar](#buying-group-highlights) | Ställ in inköpsgruppfaserna **och** lägga till i skapade inköpsgrupper. |
+| [Kontoökning](#surging-accounts) | En eller flera publicerade resor **eller** skapade inköpsgrupper. |
+| [Kontohögdagrar](#account-highlights) | En eller flera publicerade resor **eller** skapade inköpsgrupper. |
+| [Kontakttäckning](#contact-coverage) | En eller flera skapade inköpsgrupper (faser behövs inte). |
+| [Kontaktöverlappning](#contact-overlap) | En eller flera skapade inköpsgrupper (faser behövs inte). |
+| [Sidan med kontoinformation](../accounts/account-details.md) | En eller flera publicerade resor. |
+| [Buying group detail page](../buying-groups/buying-group-details.md) | En eller flera skapade inköpsgrupper (faser behövs inte). |
 
 ## Köpgruppsfaser {#buying-group-stages}
 
@@ -139,7 +152,7 @@ Avsnittet _[!UICONTROL Surging accounts]_visar en visualisering av kontona med e
 
 >[!NOTE]
 >
->Data för kontoökning är begränsade till konton som har importerats av Journey Optimizer B2B edition till en kontompubliken via kontoresor eller inköpsgrupper.
+>Data för kontoökning är begränsade till konton som Journey Optimizer B2B edition har tagit in på en kontomrets resa eller via inköpsgrupper.
 
 ![Datavisualisering för kontoökning](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -179,11 +192,11 @@ Använd datumfiltret längst upp till höger för att ändra datumintervallet f�
 >title="Riskkonton"
 >abstract="Konton med en avsevärd minskning av engagemangets drivkraft under den valda tidsramen."
 
-Avsnittet _[!UICONTROL Buying group highlights]_är indelat i två rader för att visa information om konton av intresse för din organisation.
+Avsnittet _[!UICONTROL Account highlights]_är indelat i två rader för att visa information om konton av intresse för din organisation.
 
 >[!NOTE]
 >
->Data som framhäver kontona är begränsade till konton som har importerats av Journey Optimizer B2B edition till en kontompubliken via kontoresor eller inköpsgrupper.
+>Data som framhäver kontona är begränsade till konton som är inmatade av Journey Optimizer B2B edition hos en viss kontompubliken via kontoresor eller inköpsgrupper.
 
 ![Kontohögdagrar](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
