@@ -3,10 +3,10 @@ title: Köpgrupper
 description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka marknadsföringens effektivitet genom att identifiera och inrikta sig på medlemmar i era kontolistor.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
+source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 3%
+source-wordcount: '1766'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ För B2B-försäljnings- och marknadsföringsaktiviteter är konton avgörande f
 
 ![Diagram över kontoroller](assets/account-roles-diagram.png){width="800"}
 
-I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Detta är de personer som i slutändan fattar inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan t.ex. kräva en Chief Information Officer eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp, men en buggspårningsprodukt kan vanligtvis ha en VP of Engineering och en IT Director som medlemmar i inköpsgruppen.
+I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Detta är de personer som i slutändan fattar inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan t.ex. kräva en Chief Information Officer eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp, men en buggspårningsprodukt kan vanligtvis ha en VP som Engineering och en IT-chef som medlemmar i inköpsgruppen.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
 
@@ -91,11 +91,58 @@ Slutresultatet för inköpsgruppen beräknas om varje gång en inköpsgrupp skap
 
 ### Köpa poäng för gruppengagemang
 
-Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos medlemmarna i en inköpsgrupp, baserat på de aktiviteter de utför. Alla inkommande aktiviteter som utförts av medlemmarna i inköpsgruppen under de senaste 30 dagarna används för att beräkna poängen.
+Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos medlemmarna i en inköpsgrupp, baserat på de aktiviteter de utför.
 
-Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en inköpsgrupp utför samma aktivitet mer än 20 gånger per dag, begränsas antalet aktiviteter till 20 och inte ett högre antal.
+* Beräkningen av poäng för engagemang börjar så snart inköpsgruppen genereras.
+* Alla inkommande aktiviteter som utförts av medlemmarna i inköpsgruppen under de senaste 30 dagarna används för att beräkna poängen.
+* Med 30-dagarsfönstret och när aktiviteter förfaller kan poängen sänkas.
+* Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en inköpsgrupp utför samma aktivitet mer än 20 gånger per dag, begränsas antalet aktiviteter till 20 och inte ett högre antal.
+* Den poäng som visas är avrundad. Ett resultat på till exempel 75,89999 visas som 76.
 
-Den poäng som visas är avrundad. Ett resultat på till exempel 75,89999 visas som 76.
++++aktiviteter som används för poängsättning
+
+| Aktivitetsnamn | Beskrivning | Typ av åtagande | Maximalt antal dagliga frekvenser | Aktivitetsvikt |
+| --- | --- | --- | --- | --- |
+| Registrera dig för event | Registrerar för en händelse som är associerad med en kampanj | Händelse | 20 | 60 |
+| Delta händelse | Deltar i en kampanjhändelse | Händelse | 20 | 90 |
+| Öppna e-post | Öppnar ett e-postmeddelande | E-post | 20 | 30 |
+| Klicka på E-post | Klicka på en länk i ett e-postmeddelande | E-post | 20 | 30 |
+| Open Sales Email | Öppnar ett säljmeddelande | E-post | 20 | 30 |
+| Klicka på E-postadress | Klicka på en länk i ett e-postmeddelande | E-post | 20 | 30 |
+| Intressant stund | Har ett intressant ögonblick | Kuraterad | 20 | 60 |
+| Tryck på push-meddelande | Tar emot ett push-meddelande | Mobil | 20 | 30 |
+| Mobilappsaktivitet | Utför en aktivitet i en mobilapp | Mobil | 20 | 30 |
+| Mobilappssession | Är aktiv i mobilappssession | Mobil | 20 | 30 |
+| Fyll i formulär för leadannonser på Facebook | Fyller i och skickar in ett leadannonsformulär på en Facebook-sida | Social | 20 | 30 |
+| Klicka på RTP-anrop för åtgärd | Klicka på en personlig uppmaning | Webb | 20 | 60 |
+| Visa meddelande i appen | Visar ett meddelande i appen | Mobil | 20 | 30 |
+| Tryck på meddelande i appen | Tryck på ett meddelande i appen | Mobil | 20 | 30 |
+| Prenumerera på SMS | Prenumererar på SMS-kommunikation | SMS | 20 | 90 |
+| Svara på e-postadress | Svar på ett e-postmeddelande | E-post | 20 | 30 |
+| Engagerad med en dialogruta | Deltar i en Dynamic Chat-dialog | Chatt | 20 | 90 |
+| Interagera med dokument i dialogrutan | Interagera med ett dokument i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
+| Schemalagt möte i dialogrutan | Schemalägger ett möte i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
+| Dialogrutemål som nåtts | Uppnå ett mål i en Dynamic Chat-dialogruta |  | 20 | 90 |
+| Svar på en omröstning i webbinariet | Svar på en omröstning i ett webbinarium | Chatt | 20 | 90 |
+| Call to action clicked in webbinar | Klicka på en länk för att ringa till åtgärd i ett webbinarium | Utlysning | 20 | 30 |
+| Resurshämtningar i webbinarium | Hämtar en fil/resurs i ett webbinarium | Händelse | 20 | 60 |
+| Frågor och svar i webbinarium | Frågar frågor i ett webbinarium | Händelse | 20 | 60 |
+| Har övervakad händelse | Har deltagit i en händelse | Händelse | 20 | 60 |
+| Aktiverat med en agent i dialogrutan | Aktiverar en agent i en Dynamic Chat-dialog | Chatt | 20 | 90 |
+| Klicka på Länk i chatt i dialogrutan | Klicka på en länk i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
+| Engagerad med ett konversationsflöde | Engagerar med ett Dynamic Chat-konverteringsflöde | Chatt | 20 | 90 |
+| Schemalagt möte i konversationsflöde | Schemalägger en avtalad tid i ett samtal med Dynamic Chat | Chatt | 20 | 90 |
+| Målet för konversationsflöde har uppnåtts | Uppfyller ett mål i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
+| Interagera med dokument i konversationsflöde | Interagera med ett dokument i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
+| Engagerad med en agent i konversationsflöde | Engagerar med en agent i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
+| Klicka på Länk i chatt i konversationsflöde | Klicka på en länk i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
+| Klicka på Länk i SMS V2 | Klicka på en länk i ett SMS-meddelande | SMS | 20 | 90 |
+
+>[!NOTE]
+>
+>Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+
++++
 
 #### Viktning
 
