@@ -1,23 +1,24 @@
 ---
-title: Konfigurera Experience Platform-händelser
+title: Konfigurera Experience Platform Events
 description: Lär dig mer om den typ av Wait-nod som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
 
-# Konfigurera Experience Platform-händelsedefinitioner
+# Konfigurera händelsedefinitioner för Experience Platform
 
 Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). Att använda AEP-upplevelsehändelser i kontoresor är en tvåstegsprocess:
 
-1. Skapa och publicera en AEP-händelsedefinition.
+1. Skapa och publicera en händelsdefinition för AEP.
 
 2. Lägg till en _Lyssna efter en händelse_-nod i en kontoresa och [välj en AEP-händelsedefinition som en personhändelse](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Varje händelsedefinition kräver följande indata från Experience Platform:
+Varje händelsdefinition kräver följande indata från Experience Platform:
 
 * **_Schema_** - XDM-schema som definierar Experience Event-datastrukturen. Den måste baseras på en Experience Event och måste vara profilaktiverad.
 
@@ -39,11 +40,13 @@ Tänk på följande när du skapar och hanterar händelsedefinitioner för att u
 
 * Journey Optimizer B2B edition stöder maximalt 50 händelsedefinitioner.
 
+* Kontoresor kan lyssna efter AEP Experience Events som importerats med hjälp av AEP direktuppspelningsfunktioner, som Web SDK eller HTTP API.
+
 * Endast en AEP-händelsedefinition kan använda ett kombinerat schema och en uppsättning händelsetyper. När du skapar en händelsedefinition med ett schema (till exempel `My Schema`) och en händelsetyp (till exempel `Web Webpagedetails Page Views`) kan ingen annan händelsedefinition använda kombinationen `My Schema` och `Web Webpagedetails Page Views`.
 
 * En händelsedefinition kan användas i mer än en kontoresa.
 
-* AEP Experience Events kan användas för att fatta beslut inom en kontoresa, men bevaras inte. Därför kan man inte utnyttja något historiskt register över AEP Experience Events inom Journey Optimizer B2B edition.
+* AEP Experience Events kan användas för att fatta beslut inom en kontoresa, men bevaras inte. Därför går det inte att utnyttja tidigare erfarenheter av AEP Experience Events inom Journey Optimizer B2B edition.
 
 * Begränsningarna för _aktivitetsdatum_ och _minsta antal gånger_ stöds inte.
 
@@ -71,9 +74,9 @@ I listan _[!UICONTROL Event definitions]_anger kolumnen **[!UICONTROL Status]**a
 
 | Status | Beskrivning |
 | -------------------- | ----------- |
-| Utkast | När du skapar en händelsedefinition är den i utkaststatus. Den behåller denna status tills du publicerar den för användning på kontoresor. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Publish<li>Ta bort |
+| Utkast | När du skapar en händelsedefinition är den i utkaststatus. Den behåller denna status tills du publicerar den för användning på kontoresor. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Publicera<li>Ta bort |
 | Publicerad | När du publicerar en händelsedefinition blir den tillgänglig för användning på kontoresor. Det går inte att ändra informationen. Tillgängliga åtgärder:<br/><ul><li>Tillgänglig för _Lyssna efter en händelse_-kundens nod<li>Skapa utkastversion<li>Radera (om den inte används) |
-| Publicerat (med utkast) | När du skapar ett utkast från en publicerad händelsedefinition är den publicerade versionen fortfarande tillgänglig för användning på kontoresor, och utkastversionen kan ändras. Om du publicerar utkastet ersätts den aktuella publicerade versionen och händelsedefinitionen uppdateras för kontoresor där den ännu inte har körts. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Publish draft version<li>Ignorera utkastversion<li>Radera (om den inte används) |
+| Publicerat (med utkast) | När du skapar ett utkast från en publicerad händelsedefinition är den publicerade versionen fortfarande tillgänglig för användning på kontoresor, och utkastversionen kan ändras. Om du publicerar utkastet ersätts den aktuella publicerade versionen och händelsedefinitionen uppdateras för kontoresor där den ännu inte har körts. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Publicera utkast<li>Ignorera utkastversion<li>Radera (om den inte används) |
 
 ![Livscykel för fragmentstatus](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ Om du vill söka efter en händelsedefinition utifrån namn anger du en textstr�
 
    ![Den nya definitionen av utkasthändelsen finns på sidan](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-## Publish en händelsdefinition
+## Publicera en händelsedefinition
 
 När du är säker på att definitionen av en utkasthändelse är fullständig och korrekt efter dina behov, kan du publicera den så att den blir tillgänglig för användning på kontoresor. När händelsedefinitionen har publicerats kan du skapa ett utkast om du behöver göra ändringar i den. Du kan dock inte ändra schemat, och du kan bara lägga till händelsetyper och fält (du kan inte ta bort dem).
 
@@ -153,7 +156,7 @@ När du är säker på att definitionen av en utkasthändelse är fullständig o
 
 1. Klicka på **[!UICONTROL Publish]** i bekräftelsedialogrutan.
 
-   ![Dialogrutan Publish event](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![Dialogrutan Publicera händelse](./assets/configuration-events-publish-dialog.png){width="300"}
 
    Statusen för händelsedefinitionen ändras till _Publicerad_ och är nu [tillgänglig för användning i kontoresor](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -225,7 +228,7 @@ Följ stegen enligt status:
 
 1. Klicka på **[!UICONTROL Publish]** i bekräftelsedialogrutan.
 
-   ![Utkastdialogruta för Publish](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Publicera utkastsdialogruta](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    När du publicerar utkastet ersätts den aktuella publicerade versionen och händelsedefinitionen uppdateras för kontoresor där den redan används men ännu inte körs.
 
@@ -247,7 +250,7 @@ När du öppnar en _publicerad (med utkast)_ -händelsedefinition är _[!UICONTR
 
 1. Klicka på **[!UICONTROL Publish]** i bekräftelsedialogrutan.
 
-   ![Utkastdialogruta för Publish](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Publicera utkastsdialogruta](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    När du publicerar utkastet ersätts den aktuella publicerade versionen och händelsedefinitionen uppdateras för kontoresor där den redan används men ännu inte körs.
 
