@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '229'
 ht-degree: 19%
 
 ---
@@ -65,7 +65,9 @@ ht-degree: 19%
          + [Översikt](./content/email-templates.md)
          + [Framtagning av e-postmallar](./content/email-template-authoring.md)
       + [Mallar för landningssidor](./content/landing-page-templates.md)
-   + [Fragment](./content/fragments.md)
+   + Fragment {#visual-fragments}
+      + [Översikt](./content/fragments.md)
+      + [Skapa fragment](./content/fragment-authoring.md)
    + [Forms](./content/forms.md)
    + Landningssidor {#landing-pages}
       + [Översikt](./content/landing-pages.md)
@@ -83,6 +85,6 @@ ht-degree: 19%
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
    + [Konfigurera AEM Assets-databaser](./admin/configure-aem-repositories.md)
-   + [Konfigurera AEP-händelsedefinitioner](./admin/configure-aep-events.md)
+   + [Konfigurera händelsedefinitioner för AEP](./admin/configure-aep-events.md)
    + [Inställningar för landningssida](./admin/landing-page-settings.md)
    + [Styrning](./admin/governance.md)

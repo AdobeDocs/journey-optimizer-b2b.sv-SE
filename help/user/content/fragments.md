@@ -3,9 +3,9 @@ title: Fragment
 description: Lär dig hur du skapar och använder visuella innehållsfragment som återanvändbara komponenter för e-post och e-postmallar i Adobe Journey Optimizer B2B edition.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
+source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2531'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,18 @@ ht-degree: 0%
 
 Ett fragment är en återanvändbar komponent som kan refereras i ett eller flera e-postmallar i Adobe Journey Optimizer B2B edition. Det är vanligtvis ett innehållsblock (text, bild eller båda) som kan skapas i förväg och snabbt infogas i en e-postmall eller en e-postmall. Med den här funktionen kan ni skapa flera anpassade innehållsblock som kan användas av era marknadsföringsteam för att sammanställa e-postinnehåll i en förbättrad designprocess. Vanliga användningsområden är innehållsblock för sidhuvud/sidfot för e-post, banners för inbjudningar till evenemang och säsongsvarningar.
 
+>[!BEGINSHADEBOX]
+
+**Visuella fragment**
+
+Visuella fragment är fördefinierade visuella block som byggts med hjälp av designern för visuellt innehåll och som du kan återanvända i flera e-postmallar eller e-postmallar. Den aktuella omfattningen av Journey Optimizer B2B edition och den här dokumentationen gäller endast för visuella fragment. Uttrycksbaserade fragment stöds ännu inte i Journey Optimizer B2B edition.
+
+>[!ENDSHADEBOX]
+
 Så här använder du fragment på bästa sätt i dina arbetsflöden:
 
 * _Skapa egna fragment_ - Skapa visuella fragment, antingen från grunden eller genom att spara innehåll som ett fragment från den visuella innehållsredigeraren.
 * _Återanvänd fragment_ - Använd dem så många gånger som behövs i ditt innehåll.
-
-## Visuella fragment
-
-Visuella fragment är fördefinierade visuella block som byggts med den visuella innehållsredigeraren och som du kan återanvända i flera e-postmallar eller e-postmallar. Den aktuella omfattningen av Journey Optimizer B2B edition och den här dokumentationen gäller endast för visuella fragment. Uttrycksbaserade fragment stöds ännu inte i Journey Optimizer B2B edition.
 
 ## Få åtkomst till och hantera fragment
 
@@ -37,11 +41,11 @@ Fragmentstatusen avgör om den är tillgänglig för användning i en e-post- el
 
 | Status | Beskrivning |
 | -------------------- | ----------- |
-| Utkast | När du skapar ett fragment är det i utkaststatus. Den behåller den här statusen när du definierar eller redigerar det visuella innehållet tills du publicerar det för användning i en e-postmall eller e-postmall. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Redigera i visuell designer<li>Publish<li>Duplicera<li>Ta bort |
-| Publicerad | När du publicerar ett fragment blir det tillgängligt för användning i en e-postmall eller e-postmall. Ett publicerat fragmentinnehåll kan inte ändras i den visuella designern. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Skapa utkastversion<li>Duplicera<li>Radera (om den inte används) |
-| Publicerat med utkast | När du skapar ett utkast från ett publicerat fragment förblir den publicerade versionen tillgänglig för användning i en e-postmall eller e-postmall, och utkastinnehållet kan ändras i den visuella designern. Om du publicerar utkastet ersätter det den aktuella publicerade versionen och innehållet uppdateras i e-postmallarna och i e-postmallarna där det används. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Redigera utkast i visuell designer<li>Publish draft version<li>Duplicera<li>Radera (om den inte används) |
+| Utkast | När du skapar ett fragment är det i utkaststatus. Den behåller den här statusen när du definierar eller redigerar det visuella innehållet tills du publicerar det för användning i en e-postmall eller e-postmall. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Redigera i visuell designer<li>Publicera<li>Duplicera<li>Ta bort |
+| Publicerad | När du publicerar ett fragment blir det tillgängligt för användning i en e-postmall eller e-postmall. Publicerat fragmentinnehåll kan inte ändras i den visuella designern. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Skapa utkastversion<li>Duplicera<li>Radera (om den inte används) |
+| Publicerat med utkast | När du skapar ett utkast från ett publicerat fragment förblir den publicerade versionen tillgänglig för användning i en e-postmall eller e-postmall, och utkastinnehållet kan ändras i den visuella designern. Om du publicerar utkastet ersätter det den aktuella publicerade versionen och innehållet uppdateras i e-postmallarna och i e-postmallarna där det används. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Redigera utkast i visuell designer<li>Publicera utkast<li>Duplicera<li>Radera (om den inte används) |
 
-![Livscykel för fragmentstatus](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![Livscykel för fragmentstatus](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -85,45 +89,16 @@ Du kan skapa nya visuella fragment i Journey Optimizer B2B edition genom att kli
 
 1. Använd verktygen för innehållsdesign för att skapa det visuella fragmentinnehållet:
 
-   * [Lägga till struktur och innehåll](#add-structure-and-content)
-   * [Lägg till Assets](#add-assets)
-   * [Navigera mellan lager, inställningar och format](#navigate-the-layers-settings-and-styles)
-   * [Anpassa innehåll](#personalize-content)
-   * [Redigera länkad URL-spårning](#edit-linked-url-tracking)
+   * [Lägga till struktur och innehåll](./fragment-authoring.md#add-structure-and-content)
+   * [Lägg till Assets](./fragment-authoring.md#add-assets)
+   * [Navigera mellan lager, inställningar och format](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Anpassa innehåll](./fragment-authoring.md#personalize-content)
+   * [Aktivera anpassade fält](./fragment-authoring.md#enable-custom-fields)
+   * [Redigera länkad URL-spårning](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Klicka på **[!UICONTROL Save]** när du vill spara utkastet.
 
 1. När du är redo att göra fragmentet tillgängligt för användning i en e-post- eller e-postmall klickar du på **[!UICONTROL Publish]**.
-
-### Lägga till struktur och innehåll {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Lägg till strukturkomponenter"
->abstract="Strukturkomponenter definierar fragmentets layout. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa innehållet i fragmentet."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Om innehållskomponenter"
->abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett fragment."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Lägga till resurser
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Navigera mellan lager, inställningar och format
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Anpassa innehåll
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Redigera länkad URL-spårning
-
-{{$include /help/_includes/content-design-links.md}}
 
 ## Visa fragmentinformation
 
@@ -194,11 +169,12 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
    Använd de visuella designverktygen efter behov:
 
-   * [Lägga till struktur och innehåll](#add-structure-and-content)
-   * [Lägg till Assets](#add-assets)
-   * [Navigera mellan lager, inställningar och format](#navigate-the-layers-settings-and-styles)
-   * [Anpassa innehåll](#personalize-content)
-   * [Redigera länkad URL-spårning](#edit-linked-url-tracking)
+   * [Lägga till struktur och innehåll](./fragment-authoring.md#add-structure-and-content)
+   * [Lägg till Assets](./fragment-authoring.md#add-assets)
+   * [Navigera mellan lager, inställningar och format](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Anpassa innehåll](./fragment-authoring.md#personalize-content)
+   * [Aktivera anpassade fält](./fragment-authoring.md#enable-custom-fields)
+   * [Redigera länkad URL-spårning](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save & close]** för att återgå till fragmentinformationen.
 
@@ -222,11 +198,12 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
    Använd de visuella designverktygen efter behov:
 
-   * [Lägga till struktur och innehåll](#add-structure-and-content)
-   * [Lägg till Assets](#add-assets)
-   * [Navigera mellan lager, inställningar och format](#navigate-the-layers-settings-and-styles)
-   * [Anpassa innehåll](#personalize-content)
-   * [Redigera länkad URL-spårning](#edit-linked-url-tracking)
+   * [Lägga till struktur och innehåll](./fragment-authoring.md#add-structure-and-content)
+   * [Lägg till Assets](./fragment-authoring.md#add-assets)
+   * [Navigera mellan lager, inställningar och format](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Anpassa innehåll](./fragment-authoring.md#personalize-content)
+   * [Aktivera anpassade fält](./fragment-authoring.md#enable-custom-fields)
+   * [Redigera länkad URL-spårning](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save & close]** för att återgå till fragmentinformationen.
 
@@ -250,11 +227,12 @@ Så här uppdaterar du innehållet:
 
 1. Klicka på **[!UICONTROL Edit fragment]** överst till höger. Använd de visuella designverktygen efter behov:
 
-   * [Lägga till struktur och innehåll](#add-structure-and-content)
-   * [Lägg till Assets](#add-assets)
-   * [Navigera mellan lager, inställningar och format](#navigate-the-layers-settings-and-styles)
-   * [Anpassa innehåll](#personalize-content)
-   * [Redigera länkad URL-spårning](#edit-linked-url-tracking)
+   * [Lägga till struktur och innehåll](./fragment-authoring.md#add-structure-and-content)
+   * [Lägg till Assets](./fragment-authoring.md#add-assets)
+   * [Navigera mellan lager, inställningar och format](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Anpassa innehåll](./fragment-authoring.md#personalize-content)
+   * [Aktivera anpassade fält](./fragment-authoring.md#enable-custom-fields)
+   * [Redigera länkad URL-spårning](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save & close]** för att återgå till fragmentinformationen.
 

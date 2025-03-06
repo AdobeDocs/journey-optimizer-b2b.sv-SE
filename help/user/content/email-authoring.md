@@ -3,9 +3,9 @@ title: E-postredigering
 description: Lär dig hur du skapar anpassat e-postinnehåll som används i en kontoresa.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,9 @@ Den här åtgärden startar e-post-Designer, där du kan välja hur du vill utfo
 
 * [Välj en befintlig mall](#select-a-template) i en lista med inbyggda eller anpassade e-postmallar.
 
-Om du vill konfigurera och anpassa ämnesraden med uttrycksredigeraren klickar du på ikonen _Personalization_ och lägger till någon av Marketo Engage-tokenerna.
+Om du vill konfigurera och anpassa ämnesraden med uttrycksredigeraren klickar du på ikonen _Personalization_ och lägger till någon av Marketo Engage-tokens.
 
-När du har skapat och anpassat e-postinnehållet kan du exportera innehållet för validering eller för senare bruk. Klicka på **[!UICONTROL Export HTML]** om du vill spara innehållet som en ZIP-fil som innehåller HTML och resurser.
+När du har skapat och anpassat e-postinnehållet kan du exportera innehållet för validering eller för senare bruk. Klicka på **[!UICONTROL Export HTML]** om du vill spara innehållet som en ZIP-fil som innehåller ditt HTML och dina resurser.
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ När du är nöjd med innehållet klickar du på **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora stilar, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
+>Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora format, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
 
 Du kan anpassa det importerade innehållet efter behov med de visuella redigeringsverktygen för e-post.
 
@@ -129,30 +129,9 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 ### Lägg till fragment
 
-Ikonen _Fragments_ visas till vänster i den visuella innehållsredigeraren. I följande exempel beskrivs stegen för att lägga till fragment i mallinnehållet.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Om du vill öppna fragmentlistan klickar du på ikonen _Fragment_ .
-
-   Du kan:
-
-   * Sortera listan.
-   * Bläddra, sök eller filtrera listan.
-   * Växla mellan miniatyr- och listvy.
-   * Uppdatera listan så att den återspeglar något av de nyligen skapade fragmenten.
-
-   ![Välj ett fragment i listan](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Dra och släpp något av fragmenten i platshållaren för strukturelement.
-
-   Redigeraren återger fragmentet i avsnittet/elementet i e-poststrukturen.
-
-Fragmentets innehåll uppdateras dynamiskt i strukturen för att visa hur innehållet visas i e-postmeddelandet.
-
->[!TIP]
->
->Om du vill lägga till fragmentet så att det upptar hela den vågräta layouten i e-postmeddelandet lägger du till en 1:1-kolumnstruktur och drar och släpper fragmentet i den.
-
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen. Fragment som läggs till i en e-postmall kan inte redigeras i mallen. Källfragmentet definierar innehållet.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -190,7 +169,7 @@ På menyn _[!UICONTROL More ...]_högst upp i e-postdesignern kan du utföra fö
 * **[!UICONTROL Save as fragment]** - Spara hela eller delar av e-postmeddelandet som ett fragment som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för fragmentet och sparar det i listan över tillgängliga fragment.
 * **[!UICONTROL Change your design]** - Återgå till sidan _Designa din e-post_. Därifrån kan du välja en annan mall för att starta om designprocessen eller välja att designa innehållet från början på en svart arbetsyta.\
 * **[!UICONTROL Save as content template]** - Spara e-postbrödtexten som en e-postmall som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för mallen och sparar den i listan över sparade e-postmallar.
-* **[!UICONTROL Export HTML]** - Hämta innehåll på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.
+* **[!UICONTROL Export HTML]** - Hämta innehållet på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.
 
 ## Kontrollera aviseringar
 
@@ -208,7 +187,7 @@ Det finns två typer av varningar:
      >
      >E-postmeddelanden i marknadsföringsstil måste innehålla en länk för avanmälan, vilket inte krävs för transaktionsmeddelanden.
 
-   * `Text version of HTML is empty`: glöm inte att definiera en textversion av din e-postbrödtext, som används när HTML-innehåll inte kan visas.
+   * `Text version of HTML is empty`: glöm inte att definiera en textversion av e-postbrödtexten, som används när HTML-innehåll inte kan visas.
 
    * `Empty link is present in email body`: Kontrollera att alla länkar i e-postmeddelandet är korrekta.
 

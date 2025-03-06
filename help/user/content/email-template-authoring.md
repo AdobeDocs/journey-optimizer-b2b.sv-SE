@@ -2,9 +2,10 @@
 title: Redigering av e-postmallar
 description: Lär dig hur du skapar e-postmallar för innehåll som kan användas för e-postmeddelanden om kontoresa för att återanvända dina designer enkelt och effektivt.
 feature: Email Authoring, Content
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -29,30 +30,9 @@ När du har [skapat en e-postmall](./email-templates.md#create-an-email-template
 
 ### Lägg till fragment
 
-Ikonen _Fragments_ visas till vänster i den visuella innehållsredigeraren. I följande exempel beskrivs stegen för att lägga till fragment i mallinnehållet.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Om du vill öppna fragmentlistan väljer du ikonen _Fragment_ ( ![Fragment-ikon](../assets/do-not-localize/icon-fragments.svg) ).
-
-   Du kan:
-
-   * Sortera listan.
-   * Bläddra, sök eller filtrera listan.
-   * Växla mellan miniatyr- och listvy.
-   * Uppdatera listan så att den återspeglar något av de nyligen skapade fragmenten.
-
-   ![Välj ett fragment i listan](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Dra och släpp något av fragmenten i platshållaren för strukturelement.
-
-   Redigeraren återger fragmentet i avsnittet/elementet i e-poststrukturen.
-
-Fragmentets innehåll uppdateras dynamiskt i strukturen för att visa hur innehållet visas i e-postmeddelandet.
-
->[!TIP]
->
->Om du vill att fragmentet ska uppta hela den vågräta layouten i e-postmeddelandet lägger du till en 1:1-kolumnstruktur och drar och släpper fragmentet i den.
-
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen. Fragment som läggs till i en e-postmall kan inte redigeras i mallen - källfragmentet definierar innehållet.
+När mallen har sparats visas den på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -89,4 +69,4 @@ På menyn _[!UICONTROL More ...]_högst upp i e-postdesignern kan du utföra fö
 * **[!UICONTROL Reset template]** - Klicka på det här alternativet om du vill rensa arbetsytan för den visuella designern till ett tomt läge och starta om skapandet av innehåll.
 * **[!UICONTROL Save as fragment]** - Spara alla eller delar av mallen som ett fragment som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för fragmentet och sparar det i listan över tillgängliga fragment.
 * **[!UICONTROL Change your design]** - Återgå till sidan _Designa mallen_. Därifrån kan du välja att designa mallen från grunden eller använda en befintlig mall för att starta om designprocessen.
-* **[!UICONTROL Export HTML]** - Hämta innehåll på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.
+* **[!UICONTROL Export HTML]** - Hämta innehållet på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.
