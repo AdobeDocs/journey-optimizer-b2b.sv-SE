@@ -3,9 +3,9 @@ title: Dela och sammanfoga banor
 description: Lär dig mer om delade sökvägar och nodtyper för sammanslagningssökvägar som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: e0fc061b55af4fd79248c2255db94280ee41e2c8
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1491'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,11 @@ Lägg till en _delad banor_-nod för att definiera en eller flera segmenterade b
 
 _Hur fungerar en delad sökväg efter kontonod?_
 
-* När du lägger till en delad sökvägsnod och väljer _Konto_ innehåller varje sökväg som läggs till en slutnod med möjlighet att lägga till noder i varje kant.
-* Det går att dela upp sökvägen med konton upprepade gånger, t.ex. på ett kapslat sätt. En delad bana innehåller ett alternativ för att inte lägga till standardbanan.
-* Om ett konto/en person inte är berättigad till en av de delade vägarna flyttas den inte framåt under resan.
-* Dessa sökvägar kan kombineras med en sammanfogningsnod.
+* Varje sökväg som du lägger till innehåller en slutnod med möjlighet att lägga till noder i varje kant.
+* Dela efter kontonoder kan kapslas - du kan dela upp sökvägen efter konton flera gånger.
+* Utvärderar banor uppifrån och ned. Om ett konto matchar den första och den andra sökvägen fortsätter det bara längs den första.
+* Två eller flera sökvägar kan kombineras med en sammanfogningsnod.
+* Stöder definitionen av en _[!UICONTROL Other accounts]_-sökväg, där du kan lägga till åtgärder eller händelser för konton som inte matchar något av de definierade segmenten/sökvägarna.
 
 ![Resensnod - dela sökvägar efter konto](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -39,10 +40,11 @@ _Hur fungerar en delad sökväg efter kontonod?_
 
 _Hur fungerar en delad sökväg efter personnod?_
 
-* _Dela bana efter personer_ noder är grupperade noder. Banorna sammanfogas automatiskt så att alla personer i publiken kan gå vidare till nästa steg utan att tappa kontexten.
-* _Delad sökväg för personer_-noder kan inte kapslas. Du kan inte lägga till delad sökväg för personer på en sökväg som finns i den här grupperade noden.
-* Delade bannoder innehåller ett alternativ för att utesluta en standardsökväg så att konton/personer utan matchande sökväg inte flyttas framåt i resan.
-* _Delad sökväg av personer_-noder stöder användningen av _relationer mellan konton och personer_, vilket gör att du kan filtrera personer baserat på deras roll (till exempel leverantör eller heltidsanställd) enligt definitionen i rollmallarna.
+* Funktioner i en _grupperad nod_-kombination med delad sammanslagning. De delade banorna sammanfogas automatiskt så att alla personer i publiken kan gå vidare till nästa steg utan att kontexten för deras konton försvinner.
+* Delning efter personnoder kan inte kapslas. Du kan inte lägga till en delad sökväg för personer på en sökväg som finns i den här grupperade noden.
+* Utvärderar banor uppifrån och ned. Om en person matchar den första och den andra banan fortsätter de bara längs den första banan.
+* Stöder användningen av _konto-person-relationer_, som gör att du kan filtrera personer baserat på deras roll (till exempel leverantör eller heltidsanställd) enligt vad som definierats i rollmallarna.
+* Stöder definitionen av en _[!UICONTROL Other people]_-sökväg, där du kan lägga till åtgärder eller händelser för personer som inte matchar något av de definierade segmenten/sökvägarna.
 
 ![Resensnod - dela sökvägar efter personer](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -96,7 +98,9 @@ _Hur fungerar en delad sökväg efter personnod?_
 
    ![Delad sökvägsnod - ändra ordning på sökvägar](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Other accounts]** om du vill lägga till en standardsökväg för konton som inte matchar de definierade sökvägarna. Annars tar resan slut för dessa människor.
+1. Aktivera alternativet **[!UICONTROL Other accounts]** för att definiera standardsökvägen för konton som inte matchar de definierade segmenten/sökvägarna.
+
+   När det här alternativet inte är aktiverat avslutas resan för konton som inte matchar ett definierat segment/en definierad bana i delningen.
 
 ### Lägga till en delad sökväg efter personnod
 
@@ -145,13 +149,15 @@ _Hur fungerar en delad sökväg efter personnod?_
 
    ![Delad sökvägsnod - ändra ordning på sökvägar](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
 
-1. Aktivera alternativet **[!UICONTROL Other people]** om du vill lägga till en standardsökväg för personer som inte matchar de definierade sökvägarna. Annars tar resan slut för dessa människor.
+1. Aktivera alternativet **[!UICONTROL Other people]** om du vill lägga till en standardsökväg för personer som inte matchar de definierade sökvägarna.
+
+   När det här alternativet inte är aktiverat flyttas personer som inte matchar ett definierat segment/en definierad bana förbi delningen och fortsätter till nästa steg i resan.
 
 >[!BEGINSHADEBOX &quot;Marketo Engage listmedlemskap&quot;]
 
 I Marketo Engage kontrollerar _smarta kampanjer_ medlemskap i program för att se till att leads inte får dubbla e-postmeddelanden och inte är medlemmar i flera e-postströmmar samtidigt. I Journey Optimizer B2B kan du kontrollera om det finns ett listmedlemskap i Marketo Engage som ett villkor för att få en delad kundresa. På så sätt slipper du dubbelarbete under resan.
 
-Om du vill göra det expanderar du **[!UICONTROL Special Filters]** och drar villkoret **[!UICONTROL Member of List]** till filterområdet och slutför filterdefinitionen för att utvärdera medlemskapet i en eller flera Marketo Engage-listor.
+Om du vill använda listmedlemskap i ett delat villkor expanderar du **[!UICONTROL Special Filters]** och drar villkoret **[!UICONTROL Member of List]** till filterområdet. Slutför filterdefinitionen för att utvärdera medlemskap i en eller flera Marketo Engage-listor.
 
 ![Delad sökväg efter personer - villkor för Marketo Engage listmedlemskap](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
