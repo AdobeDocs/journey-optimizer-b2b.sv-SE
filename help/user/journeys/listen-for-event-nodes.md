@@ -3,10 +3,10 @@ title: Lyssna efter en händelse
 description: Läs mer om avlyssningen av en händelsnodtyp som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 1%
+source-wordcount: '1302'
+ht-degree: 0%
 
 ---
 
@@ -123,6 +123,8 @@ Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade hände
 1. [Skapa och publicera en AEP-händelsedefinition](../admin/configure-aep-events.md).
 
 2. Lägg till en _Lyssna efter en händelse_-nod i en kontoresa och välj en Experience Platform-händelsdefinition för en personbaserad händelse.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](../admin/configure-aep-events.md#overview-video)
 
 _Så här tar du med en upplevelsehändelse i din resa:_
 

@@ -3,9 +3,9 @@ title: Gör något
 description: Läs mer om nodtypen Ta en åtgärd som du kan använda för att samordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,9 @@ Använd den här åtgärden för att skicka människor till en extern publik som
 
 ![Vidta en åtgärd - Lägg till för extern kundpublik](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-När du väljer den här personbaserade åtgärden kan du skapa en ny extern målgrupp eller välja från en befintlig extern målgrupp. För befintliga målgrupper kan ni välja bland externa kundmålgrupper som bara har skapats i Journey Optimizer B2B edition. När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i Experience Platform-dokumentationen).
+När du väljer den här personbaserade åtgärden kan du skapa en ny extern målgrupp eller välja från en befintlig extern målgrupp. För befintliga målgrupper kan ni välja bland externa kundmålgrupper som bara har skapats i Journey Optimizer B2B edition. När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i Experience Platform-dokumentationen.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Titta på en videoöversikt för betald mediasamordning](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
 _Så här skapar du en extern målgrupp:_
 

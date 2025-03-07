@@ -3,9 +3,9 @@ title: Buying Group Stages
 description: Lär dig mer om hur du köper gruppfaser och hur du kan definiera dem för att spåra resans status i förhållande till försäljningsmålen.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ De olika inköpsgruppfaserna är utformade för att följa hur köpgrupperna utv
 Definiera faserna i en enda mellanlagringsmodell, definiera flera steg och övergångsflödet mellan dem. En eller flera stadier är avsedda att ingå i livscykeln. Modellen tillåter även icke-linjär progression, där du kan ange övergångar från en scen till en annan, till exempel från fas A till fas B, C eller D. Det krävs att en fas utses till lyckad fas, t.ex. ett inköp eller ett signerat kontrakt. Det är valfritt att ange en annan fas som en misslyckad fas, t.ex. ett avvisat kontrakt eller köp av en konkurrerande lösning från en annan leverantör. Detta uppnås med [intelligenta instrumentpaneler](../dashboards/intelligent-dashboard.md) som visar hur köpgrupper utvecklas när det gäller att slutföra en försäljningsmöjlighet eller konvertera en affärsmöjlighet till en kund.
 
 ![Exempel på inköpsgruppstadier](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
 
 ## Definiera din inköpsgruppsmodell
 
@@ -159,7 +161,7 @@ Så här visar du utkastmodellen:
 
    Du kan också klicka på _[!UICONTROL Cancel]_för att stänga dialogrutan och återgå till sidan med modellinformation utan ändringar.
 
-## Publish - inköpsgruppens fasmodell
+## Publicera inköpsgruppens fasmodell
 
 Om det inte finns några valideringsfel kan modellen publiceras. När den publiceras ändras den till ett _Live_ -tillstånd och kan användas för att fördriva inköpsgruppfaser på kontoresor.
 
@@ -345,3 +347,7 @@ Använd förekomsten av en ändring av inköpsgruppfas för att flytta kontot fr
    ![Resensnod - lyssna på händelser på konto](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. Fortsätt att göra andra ändringar och spara resan.
+
+## Videoöversikt
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

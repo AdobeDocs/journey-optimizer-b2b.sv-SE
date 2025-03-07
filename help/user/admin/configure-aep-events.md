@@ -2,17 +2,22 @@
 title: Konfigurera Experience Platform Events
 description: Lär dig mer om den typ av Wait-nod som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
 
 # Konfigurera händelsedefinitioner för Experience Platform
 
-Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). Att använda AEP-upplevelsehändelser i kontoresor är en tvåstegsprocess:
+Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent).
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
+
+Att använda AEP-upplevelsehändelser i kontoresor är en tvåstegsprocess:
 
 1. Skapa och publicera en händelsdefinition för AEP.
 
@@ -273,3 +278,7 @@ Du kan ta bort en händelsedefinition om den inte används av en publicerad kont
 1. Klicka på **[!UICONTROL Delete]** i bekräftelsedialogrutan.
 
    ![Bekräfta borttagning av händelsedefinitionen](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## Videoöversikt
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

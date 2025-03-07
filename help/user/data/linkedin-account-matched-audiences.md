@@ -2,9 +2,9 @@
 title: LinkedIn-konto matchar målgrupper
 description: Lär dig hur du ansluter ett LinkedIn-konto och aktiverar ett dataflöde för inköpsgrupper.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -111,3 +111,9 @@ Namnet och beskrivningen för LinkedIn-kontot visas för inköpsgrupper i Journe
    Klicka på **[!UICONTROL Activate]** igen i bekräftelsedialogrutan.
 
    En banderoll visas med en länk till dataflödesmenyn i Experience Platform så att du kan kontrollera dataflödesposten.
+
+## Orchestrera-engagemang i betalda medier
+
+Du kan interagera med kontomedlemmar via en betald mediekanal, som LinkedIn Ad-målgrupper, för att värva, vårda och kvalificera dem för försäljning. Använd en _Ta en åtgärd_-nod i en kontoresa för att automatisera interaktionen med nyckelmedlemmar i ett konto via en extern kanal som passar olika kontomedlemmar bäst.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
