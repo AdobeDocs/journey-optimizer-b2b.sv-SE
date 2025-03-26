@@ -1,12 +1,13 @@
 ---
 title: Kontolistor
 description: Lär dig mer om kontolistor och hur marknadsförare kan använda dem för att rikta konton via kontoresor.
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 En kontolista är en samling namngivna konton som marknadsförare kan använda för riktad resesamordning. En kontolista kan ha namngivna konton som mål enligt dina definierade kriterier, t.ex. bransch, plats eller företagets storlek. Det finns två typer av kontolistor:
 
 * **Statisk** - Med en statisk kontolista ändras listan bara när du lägger till kontona. Du kan lägga till konton manuellt genom att använda en filteruppsättning för att fylla i listan baserat på aktuella kontodata eller lägga till och ta bort konton under en kontoresa.
-* **Dynamisk** - Med en dynamisk kontolista definierar du en filteruppsättning som automatiskt väljer listan. Systemet använder den här filteruppsättningen för att lägga till och ta bort konton efter ändringar i kontoinformationen. Den här listhanteringen liknar [målgruppssegmentering i Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
+* **Dynamisk** - Med en dynamisk kontolista definierar du en filteruppsättning som automatiskt väljer listan. Systemet använder den här filteruppsättningen för att lägga till och ta bort konton efter ändringar i kontoinformationen. Den här listhanteringen liknar [målgruppssegmentering i kunddataplattformen ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b) i realtid.
 
 När en kontolista är i läget _Live_ (publicerad) är den tillgänglig för användning i kontoresor.
 
@@ -140,7 +141,7 @@ När du har skapat en dynamisk kontolista definierar du den filteruppsättning s
 
 >[!ENDTABS]
 
-## Publish och kontolista
+## Publicera en kontolista
 
 Du kan publicera en kontolista så snart filteruppsättningen är klar.
 
@@ -150,7 +151,7 @@ Du kan publicera en kontolista så snart filteruppsättningen är klar.
 
 1. Klicka på **[!UICONTROL Publish]** överst till höger.
 
-   ![Klicka på Publish överst till höger](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![Klicka på Publicera överst till höger](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
 1. Bekräfta genom att klicka på **[!UICONTROL Publish]** i dialogrutan _[!UICONTROL Publish static account list]_.
 
@@ -164,7 +165,7 @@ Du kan publicera en dynamisk kontolista så snart filteruppsättningen är klar.
 
 1. Klicka på **[!UICONTROL Publish]** överst till höger.
 
-   ![Klicka på Publish överst till höger](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![Klicka på Publicera överst till höger](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
 1. Bekräfta genom att klicka på **[!UICONTROL Publish]** i dialogrutan _[!UICONTROL Publish dynamic account list]_.
 

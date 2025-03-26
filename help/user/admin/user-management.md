@@ -4,9 +4,9 @@ description: Lär dig hur du tilldelar teammedlemmar till produktprofiler för J
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: d5197e740a17de507bf72b4d7b64deb5af672346
+source-git-commit: 49df3035b3bafc608a5fb16be77d39c5055bf92e
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -144,81 +144,81 @@ Behörigheter är enhetsbehörigheter som gör att du kan definiera de behörigh
 Under _Behörigheter_ i Adobe Experience Platform kan administratörer definiera användarroller och åtkomstprinciper för att hantera åtkomstbehörigheter för funktioner och objekt i ett produktprogram. I det här programmet kan du skapa och hantera roller samt tilldela önskade resursbehörigheter för rollerna. Med behörigheter kan du också hantera sandlådor och användare som är associerade med en viss roll.
 
 Mer information om rollbehörigheter i Experience Platform finns i [Hantera behörigheter för en roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} i Experience Platform-dokumentationen.
-<!-- 
-### B2B product permissions
 
-The following permissions govern access to Journey Optimizer B2B Edition capabilities:
+### B2B-produktbehörigheter
 
-| Category | Description | Permissions |
+Följande behörigheter styr åtkomsten till funktionerna i Journey Optimizer B2B edition:
+
+| Kategori | Beskrivning | Behörigheter |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments|
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards |Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>Manage B2B Dashboards |
-| B2B Journeys | Configure manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths | <li>Manage B2B Journeys |
+| B2B-kontolistor | Konfigurera, hantera, visa och publicera behörigheter för B2B-kontolistor. Dessa behörigheter omfattar åtgärder som att lägga till, ta bort, importera och ta bort konton från kontolistor. | <li>Hantera B2B-kontolistor |
+| Administratörskonfigurationer för B2B | Konfigurera, hantera och visa behörigheter för B2B-administrativa konfigurationer. Dessa behörigheter omfattar anslutningar för hantering av digitala resurser, tillgångsarkiv och händelser. | <li>Hantera B2B-administratörskonfigurationer |
+| B2B Assets | Konfigurera, hantera och visa behörigheter för B2B-resurser. Dessa behörigheter omfattar e-post, SMS, landningssidor, fragment, mallar och bilder. | <li>Hantera B2B Assets <li>Hantera B2B-mallar <li>Hantera B2B-fragment |
+| B2B Buying Groups | Konfigurera, hantera och visa behörigheter för B2B-inköpsgrupper. Dessa behörigheter omfattar lösningsintressen, rollmallar och status för inköpsgrupper. | <li>Hantera B2B-inköpsgrupper |
+| B2B-kanalkonfigurationer | Konfigurera, hantera och visa behörigheter för B2B-kanalskonfigurationer. Dessa behörigheter omfattar inställningar för kommunikationsbegränsningar, API-autentiseringsuppgifter och säkerhetsinställningar. | <li>Hantera B2B-kanalskonfigurationer |
+| B2B-instrumentpaneler | Konfigurera och visa behörigheter för B2B-instrumentpaneler. Dessa behörigheter omfattar kontointeraktion, inköpsgruppfaser, surging-konton och kontakttäckning. | <li>Hantera B2B-instrumentpaneler |
+| B2B-resor | Konfigurera hanterings-, vy- och publiceringsbehörigheter för B2B-resor. Dessa behörigheter omfattar konto- och personåtgärder, händelseavlyssnare och delade sökvägar | <li>Hantera B2B-resor |
 
-### B2B built-in roles
+### Inbyggda B2B-roller
 
-When your organization has the Journey Optimizer B2B Edition product provisioned, Experience Platform includes a set of built-in (default) roles that you can use to manage access to the product capabilities:
+När din organisation har etablerat Journey Optimizer B2B edition innehåller Experience Platform en uppsättning inbyggda (standard) roller som du kan använda för att hantera åtkomst till produktfunktionerna:
 
-| Role | Permissions |
+| Roll | Behörigheter |
 | ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Intelligent Dashboard <li>View B2B Insights Dashboard |
-| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
-| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-| B2B Sales User | <li>View Intelligent Dashboard |
+| B2B-resechef | <li>Hantera B2B-resor <li>Hantera B2B-inköpsgrupper <li>Hantera B2B-kontolistor <li>Visa den intelligenta kontrollpanelen för B2B <li>Visa kontrollpanelen för B2B-insikter |
+| Kanalhanteraren B2B | <li>Hantera B2B Assets <li>Hantera B2B-mallar <li>Hantera B2B-fragment |
+| Systemadministratör för B2B | <li>Hantera B2B-kanalskonfigurationer <li>Hantera B2B-administratörskonfigurationer |
+| B2B-säljare | <li>Visa Intelligent Dashboard |
 
-### Edit role permissions
+### Redigera rollbehörigheter
 
-For built-in or custom roles, you can decide at any time to add or delete permissions. If you modify a default or custom role, it impacts every user assigned to the role.
+För inbyggda eller anpassade roller kan du när som helst bestämma om du vill lägga till eller ta bort behörigheter. Om du ändrar en standardroll eller anpassad roll påverkas alla användare som tilldelats rollen.
 
-In the following example, you want to add permissions related to the B2B Journeys resource for users assigned to the B2B Channel Manager role. This change enables users for that role to manage account journeys also.
+I följande exempel vill du lägga till behörigheter som är relaterade till B2B-resursen för användare som har tilldelats rollen B2B-kanalhanterare. Den här ändringen gör att användare med den rollen även kan hantera kontoresor.
 
 >[!NOTE]
 >
->An Admin Console system administrator can perform these steps.
+>En Admin Console-systemadministratör kan utföra dessa steg.
 
-_To change the permissions for a role:_
+_Så här ändrar du behörigheter för en roll:_
 
-1. Go to [experience.adobe.com](https://experience.adobe.com/).
+1. Gå till [experience.adobe.com](https://experience.adobe.com/).
 
-1. In the _[!UICONTROL Quick access]_ panel, select **[!UICONTROL Permissions]**.
+1. Välj **[!UICONTROL Permissions]** på panelen _[!UICONTROL Quick access]_.
 
    >[!NOTE]
    >
-   >If you don't see _[!UICONTROL Permissions]_, you may need to click **[!UICONTROL View all]** and select it from the available applications.
+   >Om du inte ser _[!UICONTROL Permissions]_kan du behöva klicka på&#x200B;**[!UICONTROL View all]**och välja det bland de tillgängliga programmen.
 
-   ![Experience Platform - access Permissions](./assets/aep-permissions.png){width="700" zoomable="yes"}
+   ![Experience Platform - åtkomstbehörigheter](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-1. Select **[!UICONTROL Roles]** in the left navigation.
+1. Välj **[!UICONTROL Roles]** i den vänstra navigeringen.
 
-1. Click the **_B2B Channel Manager_** role name.
+1. Klicka på rollnamnet för **_B2B-kanalhanteraren_**.
 
-1. In the details page, click **[!UICONTROL Edit]** at the top right.
+1. Klicka på **[!UICONTROL Edit]** överst till höger på informationssidan.
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
+   ![Experience Platform - redigera rollen](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   In the role editor, the _[!UICONTROL Resources]_ menu displays the list of resources that apply to the Experience Cloud - Platform powered applications products.
+   I rollredigeraren visar menyn _[!UICONTROL Resources]_en lista över de resurser som gäller för Experience Cloud - plattformsbaserade programprodukter.
 
-   You can enter _B2B_ in the search tool to filter the list for the B2B product permissions. 
-   
-1. Click the _Add_ icon (**+**) for the B2B Journeys resource.
+   Du kan ange _B2B_ i sökverktyget för att filtrera listan över B2B-produktbehörigheter.
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
+1. Klicka på ikonen _Lägg till_ (**+**) för B2B-resursen.
 
-1. In the _[!UICONTROL B2B Journeys]_ permissions card, select **[!UICONTROL Manage B2B Account Journeys]**.
+   ![Experience Platform - redigera rollen](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
-1. Click **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Manage B2B Account Journeys]** på behörighetskortet _[!UICONTROL B2B Journeys]_.
 
-   ![Experience Platform - edit the role](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+1. Klicka på **[!UICONTROL Save]**.
 
-1. Click **[!UICONTROL Close]** to return to the details page. -->
+   ![Experience Platform - redigera rollen](./assets/aep-permissions-role-edit-b2b-journeys-done.png){width="700" zoomable="yes"}
+
+1. Klicka på **[!UICONTROL Close]** för att återgå till informationssidan.
 
 ### Lägga till användare i en roll
 
-![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP-produktadministratör kan utföra följande steg.
+![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP produktadministratör kan utföra följande steg.
 
 1. Öppna rollinformationen och välj fliken **[!UICONTROL Users]**.
 
@@ -242,7 +242,7 @@ _To change the permissions for a role:_
 
 Mer information om användarhantering finns i [Admin Console-användare](https://helpx.adobe.com/enterprise/using/user-groups.html) i Admin Console-dokumentationen.
 
-![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP-produktadministratör kan utföra följande steg.
+![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP produktadministratör kan utföra följande steg.
 
 1. Öppna rollinformationen och välj fliken **[!UICONTROL User groups]**.
 
@@ -264,7 +264,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
 ## Skapa en anpassad roll
 
-![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP-produktadministratör kan utföra följande steg.
+![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP produktadministratör kan utföra följande steg.
 
 1. Välj **[!UICONTROL Roles]** i den vänstra navigeringen och välj **[!UICONTROL Create role]**.
 

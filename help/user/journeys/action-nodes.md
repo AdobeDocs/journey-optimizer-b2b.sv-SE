@@ -3,7 +3,7 @@ title: Gör något
 description: Läs mer om nodtypen Ta en åtgärd som du kan använda för att samordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -26,9 +26,9 @@ Använd en åtgärd för konton när du vill använda en ändring för alla pers
 | ------ | ----------- |
 | [!UICONTROL Account Change Data Value] | Välj attribut<br/>Nytt värde |
 | [!UICONTROL Account Interesting Moment] | Typ (e-post, milstolpe eller webb)<br/>Beskrivning (valfritt) |
-| [!UICONTROL Add Account to (other) Journey] | Välj Live Account Journey |
-| [!UICONTROL Add to account list] | Välj en lista med statiska Live-konton |
-| [!UICONTROL Remove Account from Journey] | Välj Live Account Journey |
+| [!UICONTROL Add Account to (other) Journey] | Välj Live-kontoresa |
+| [!UICONTROL Add to account list] | Välj lista med aktiva statiska konton |
+| [!UICONTROL Remove Account from Journey] | Välj Live-kontoresa |
 | [!UICONTROL Remove from account list] | Välj en lista med statiska Live-konton |
 | [!UICONTROL Send Sales Alert] | Välj lösningsintresse<br/>Skicka e-post till |
 | [!UICONTROL Update Buying Group Stage] | Välj lösningsintresse<br/>Välj inköpsgruppfas |
@@ -183,7 +183,7 @@ Använd den här åtgärden om du vill skicka ett SMS-meddelande. Du kan skapa, 
 
 ### Marketo Engage-åtgärder
 
-Marketo Engage personbaserade marknadsföringsverktyg är utformade för att samordna er kontobaserade marknadsföring i Journey Optimizer B2B edition med era ledande marknadsföringssatsningar i Marketo Engage. Använd dessa åtgärder för att samordna listmedlemskap, personpartitioner och begära kampanjer.
+Marketo Engage personbaserade åtgärder är utformade för att samordna er kontobaserade marknadsföringssamordning i Journey Optimizer B2B edition med era ledande marknadsföringssatsningar i Marketo Engage. Använd dessa åtgärder för att samordna listmedlemskap, personpartitioner och begära kampanjer.
 
 +++[!UICONTROL Add to list]
 
