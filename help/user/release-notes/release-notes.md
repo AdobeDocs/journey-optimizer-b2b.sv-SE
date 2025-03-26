@@ -2,9 +2,9 @@
 title: Versionsinformation
 description: Senaste versionsinformationen för Adobe Journey Optimizer B2B-version
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1597'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,21 @@ Journey Optimizer B2B edition är inbyggt i [!DNL Adobe Experience Platform] och
 
 Granska [produktbeskrivningen](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om du vill ha information om berättiganden, säkerhetsutkast och begränsningar.
 
-## Versionsinformation januari 2025 {#Jan-2025}
+## Versionsinformation 2025.2
+
+**Releasedatum**: 11 mars 2025
+
+Den här versionen innehåller följande nya funktioner och förbättringar:
+
+| Typ | Objekt | Beskrivning |
+| ---- | ---- | ----------- |
+| Ny funktion | Anpassningsbara fält - innehållsfragment | Som designer för innehållsfragment kan du ange en parameter för en komponent i fragmentet som redigerbar. Detta gör att e-postförfattaren eller mallskaparen kan ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar. <a href="../content/fragment-authoring.md#enable-custom-fields">Läs mer</a> |
+| Ny funktion | Inbyggda roller och produktbehörigheter för B2B | Experience Platform innehåller nu en uppsättning inbyggda (standardroller) roller som du kan använda för att hantera åtkomst till B2B-produktfunktionerna. <a href="../admin/user-management.md#b2b-built-in-roles">Läs mer</a> <br/>Administratörer kan nu definiera anpassade roller i Adobe Experience Platform så att Journey Optimizer B2B edition-produktbehörigheter ingår.  <a href="../admin/user-management.md#b2b-product-permissions">Läs mer</a> |
+| Förbättring | Fyra extra exempel på e-postmallar | Exempelbiblioteket med e-postmallar innehåller nu fyra SecurFinancial-mallar som exempel för återengagemang, information, näring och exempel på feedback |
+
+
+
+## Versionsinformation 2025.1 {#Jan-2025}
 
 **Releasedatum**: 6 februari 2025
 
@@ -46,7 +60,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 
 | Typ | Objekt | Beskrivning |
 | ---- | ---- | ----------- |
-| Ny funktion | Villkorligt innehåll i e-postmallar | Anpassa ert e-postinnehåll baserat på mottagarnas beteende och profilegenskaper - både på konto- och lead-nivå. <p>När du skapar ett e-postmeddelande för din kontoresa i e-postdesignern använder du villkorliga regler för att definiera flera varianter för valfri innehållskomponent. <a href="../content/conditional-content.md">Läs mer</a> |
+| Ny funktion | Villkorligt innehåll i e-postmallar | Anpassa ert e-postinnehåll baserat på mottagarnas beteende och profilegenskaper - både på konto- och lead-nivå. <p>När du skapar ett e-postmeddelande för din kontoresa i den visuella e-postdesignrymden kan du använda villkorsregler för att definiera flera varianter för valfri innehållskomponent. <a href="../content/conditional-content.md">Läs mer</a> |
 | Ny funktion | _Lägg till i listan_ och _Ta bort från listan_ personåtgärder i resor | Anpassa ert e-postinnehåll baserat på mottagarnas beteende och profilegenskaper - både på konto- och lead-nivå. <a href="../journeys/action-nodes.md">Läs mer</a> |
 | Ny funktion | Innehållsstyrning och låsning av komponenter | Om du vill vara säker på att du följer godkända innehållsdesigner kan du använda funktioner för innehållsstyrning för att låsa innehållskomponenter i e-postmallar. När innehållsstyrning är aktiverat i e-postmallen kan marknadsförarna bara ändra de tillåtna elementen för att se till att det är i linje med innehållsstrategin. <a href="../content/template-content-governance.md">Läs mer</a> |
 | Ny funktion | Köpgruppsfaser | När du definierar och publicerar en anpassad testmodell för inköpsgrupper kan du följa upp köpgruppsutvecklingen genom inköpsgruppens livscykelfaser. Använd de här faserna för att identifiera nästa bästa åtgärd för medlemmar i inköpsgrupper. Du konfigurerar övergångsreglerna och resenoderna som bestämmer scenens förlopp och utlöser åtgärder baserat på ändringar. <a href="../buying-groups/buying-group-stages.md">Läs mer</a> |

@@ -2,9 +2,9 @@
 title: Dokumentation om Adobe Journey Optimizer B2B Edition
 description: Lär dig hur du använder Adobe Journey Optimizer B2B edition-funktionerna för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 4%
 
 ---
@@ -31,11 +31,17 @@ Med Adobe Express Enterprise licensing kan ni utnyttja alla funktioner i Adobe E
 
 [!BADGE Läs mer]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Läs om bildredigering med Adobe Express"}
 
+>[!TAB Anpassningsbara fragmentfält]
+
+Som innehållsdesigner kan du ange en parameter för en komponent i fragmentet som redigerbar. Detta gör att e-postförfattaren eller mallskaparen kan ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/content/fragment-authoring.md#enable-custom-fields" tooltip="Lär dig mer om anpassade fält för innehållsfragment"}
+
 >[!TAB Vidarebefordran av AEP-händelser]
 
-Administratörer kan nu konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner. Med dessa konfigurationer kan marknadsförare skapa kontoresor som reagerar på AEP Experience Events.
+Administratörer kan nu konfigurera Adobe Experience Platform-baserade (AEP) händelsedefinitioner. Med dessa konfigurationer kan marknadsförare skapa kontoresor som reagerar på AEP Experience Events.
 
-[!BADGE Läs mer]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Lär dig mer om AEP-händelsedefinitioner som används för resesamordning"}
+[!BADGE Läs mer]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Läs mer om AEP händelsedefinitioner för resesamordning"}
 
 >[!TAB Buying group filters for smart lists]
 
