@@ -2,9 +2,9 @@
 title: Versionsinformation
 description: Senaste versionsinformationen för Adobe Journey Optimizer B2B-version
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
+source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1646'
 ht-degree: 4%
 
 ---
@@ -27,9 +27,8 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | ---- | ---- | ----------- |
 | Ny funktion | Anpassningsbara fält - innehållsfragment | Som designer för innehållsfragment kan du ange en parameter för en komponent i fragmentet som redigerbar. Detta gör att e-postförfattaren eller mallskaparen kan ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar. <a href="../content/fragment-authoring.md#enable-custom-fields">Läs mer</a> |
 | Ny funktion | Inbyggda roller och produktbehörigheter för B2B | Experience Platform innehåller nu en uppsättning inbyggda (standardroller) roller som du kan använda för att hantera åtkomst till B2B-produktfunktionerna. <a href="../admin/user-management.md#b2b-built-in-roles">Läs mer</a> <br/>Administratörer kan nu definiera anpassade roller i Adobe Experience Platform så att Journey Optimizer B2B edition-produktbehörigheter ingår.  <a href="../admin/user-management.md#b2b-product-permissions">Läs mer</a> |
+| Ny funktion | Typer av resedubbletter | När du duplicerar en kontoresa kan du inkludera nodinformation, exklusive e-post och SMS-meddelanden som skapats i Journey Optimizer B2B edition. Du kan också skapa en skelettkopia av struktur- och sökvägsflödena utan nodinformation och inställningar. <a href="../journeys/journey-overview.md#duplicate-journey">Läs mer</a> |
 | Förbättring | Fyra extra exempel på e-postmallar | Exempelbiblioteket med e-postmallar innehåller nu fyra SecurFinancial-mallar som exempel för återengagemang, information, näring och exempel på feedback |
-
-
 
 ## Versionsinformation 2025.1 {#Jan-2025}
 

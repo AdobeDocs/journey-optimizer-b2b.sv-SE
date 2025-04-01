@@ -1,9 +1,9 @@
 ---
 title: Skapa innehåll - länkspårning
 description: Återanvänt avsnitt om redigering av länkspårning för innehållsredigering
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 1. Klicka på ikonen _[!UICONTROL Links]_till vänster för att visa alla URL:er för ditt innehåll som ska spåras.
 
-1. Klicka vid behov på ikonen _Redigera_ (penna) och ändra **[!UICONTROL Tracking Type]** eller **[!UICONTROL Label]**.
+1. Om det behövs klickar du på ikonen _Redigera_ ( ![Redigera ](../user/assets/do-not-localize/icon-edit.svg) ) och ändrar **[!UICONTROL Tracking Type]** eller **[!UICONTROL Label]**.
 
    Du kan också lägga till _taggar_ för en länk.
 
-![Klicka på Mer för att komma åt mallåtgärder](../assets/content-design-shared/visual-designer-links.png){width="500"}
+![Klicka på ikonen Redigera för att komma åt länkspårning](../assets/content-design-shared/visual-designer-links.png){width="500"}

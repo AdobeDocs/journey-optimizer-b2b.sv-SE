@@ -2,9 +2,10 @@
 title: Skapa och publicera en kontoresa
 description: Lär dig hur du skapar och publicerar kontoresor.
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -109,7 +110,7 @@ När du publicerar en resa kan den påbörjas omedelbart eller på ett schemalag
 
 ## Publicera en kontoresa
 
-Om kontoresan är felfri kan du publicera den.
+Du kan publicera en resa om det inte finns några fel i blockeringen. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen _[!UICONTROL Publish]_ned med innehållsinformation: `Resolve errors before publishing`.
 
 1. Klicka på **[!UICONTROL Publish]** längst upp till höger på färdkartan.
 

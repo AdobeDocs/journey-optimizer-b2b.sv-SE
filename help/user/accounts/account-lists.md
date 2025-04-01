@@ -1,13 +1,10 @@
 ---
 title: Kontolistor
 description: Lär dig mer om kontolistor och hur marknadsförare kan använda dem för att rikta konton via kontoresor.
-hide: true
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1523'
 ht-degree: 0%
 
 ---
