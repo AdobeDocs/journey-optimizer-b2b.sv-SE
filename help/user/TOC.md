@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '240'
 ht-degree: 19%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 19%
       + [AI-assistenten för att skapa e-post](./content/ai-assistant-emails.md)
       + [Styrda mallar](./content/email-authoring-governance.md)
       + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
+   + [Anpassade personaliseringstoken](./content/personalization-my-tokens.md)
    + [SMS-redigering](./content/sms-authoring.md)
 + Konton {#accounts}
    + [Målgrupper](./audiences/account-audience-overview.md)
@@ -64,11 +65,15 @@ ht-degree: 19%
       + E-postmallar {#email-templates}
          + [Översikt](./content/email-templates.md)
          + [Framtagning av e-postmallar](./content/email-template-authoring.md)
-      + [Mallar för landningssidor](./content/landing-page-templates.md)
+      + Mallar för landningssidor {#landing-page-templates}
+         + [Översikt](./content/landing-page-templates.md)
+         + [Design av mall för landningssida](./content/landing-page-template-design.md)
    + Fragment {#visual-fragments}
       + [Översikt](./content/fragments.md)
       + [Skapa fragment](./content/fragment-authoring.md)
-   + [Forms](./content/forms.md)
+   + Forms {#forms}
+      + [Översikt](./content/forms.md)
+      + [Formulärdesign](./content/form-design.md)
    + Landningssidor {#landing-pages}
       + [Översikt](./content/landing-pages.md)
       + [Landningssiddesign](./content/landing-page-design.md)

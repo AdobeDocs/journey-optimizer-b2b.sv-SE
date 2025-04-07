@@ -3,9 +3,9 @@ title: SMS-redigering
 description: Lär dig hur du skickar textmeddelanden (SMS) till dina kunder på deras mobila enheter och hur du anpassar och förhandsgranskar meddelanden i textformat från SMS-redigeraren.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
@@ -78,19 +78,19 @@ Du kan skapa ett meddelande med upp till 1 600 tecken där var 160:e tecken betr
 
 1. I dialogrutan väljer du vilken typ av URL-adresser som ska länkas:
 
-   * **[!UICONTROL Landing Page]** - Välj det här alternativet om du vill välja någon av de godkända Adobe Marketo Engage Design Studio-landningssidorna från Marketo Engage-instansen. Markera arbetsytan och välj sedan landningssidan.
+   * **[!UICONTROL Landing Page]** - Välj det här alternativet om du vill välja någon av de godkända Adobe Marketo Engage-landningssidorna från din Marketo Engage-instans. Markera arbetsytan och välj sedan landningssidan.
 
    * **[!UICONTROL External URL]** - Den här typen är en extern URL som du anger i textrutan.
 
 1. Om du väljer att använda en landningssida anger du spårningsalternativen.
 
-   * **[!UICONTROL Enable tracking]** - Markera den här kryssrutan om du vill aktivera spårning, vilket kräver _förkortning_ av URL:en. För en landningssida används underdomänen Marketo Engage för den förkortade URL:en. Ett exempel på det förkortade URL-formatet visas. Den faktiska URL:en skapas när SMS:et skickas till mottagaren.
+   * **[!UICONTROL Enable tracking]** - Markera den här kryssrutan om du vill aktivera spårning, vilket kräver _förkortning_ av URL:en. För en landningssida används Marketo Engage-underdomänen som förkortad URL. Ett exempel på det förkortade URL-formatet visas. Den faktiska URL:en skapas när SMS:et skickas till mottagaren.
 
    * **[!UICONTROL Include mkt_tok]** - Markera den här kryssrutan om du vill spåra aktiviteter mot en användare.
 
      >[!NOTE]
      >
-     >När du tillåter spårning men inaktiverar _[!UICONTROL Include mkt_tok]_innehåller mål-URL:en inte frågesträngsparametern `mkt_tok` efter omdirigering. Den här parametern används av landningssidor på Marketo Engage och Munchkin för att säkerställa att spårning av personaktiviteter (t.ex. när en person säger upp prenumerationen på ett e-postmeddelande) sker. Inaktivera inte det här alternativet om inte parametern orsakar problem på webbplatsen.<br/>
+     >När du tillåter spårning men inaktiverar _[!UICONTROL Include mkt_tok]_innehåller mål-URL:en inte frågesträngsparametern `mkt_tok` efter omdirigering. Den här parametern används av Marketo Engage landningssidor och Munchkin för att säkerställa att spårning av personaktiviteter (t.ex. när en person säger upp prenumerationen på ett e-postmeddelande) sker. Inaktivera inte det här alternativet om inte parametern orsakar problem på webbplatsen.<br/>
      >Mer information om hur du använder Munchkin spårningskoder på din webbplats finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Dialogrutan Lägg till länk för SMS-meddelande](./assets/sms-add-link-dialog.png){width="470"}
@@ -137,7 +137,7 @@ När meddelandeinnehållet har definierats kan du använda testprofiler för att
 
 1. Använd sidan _Simulera innehåll_ för att hantera leads som används för din testprofil.
 
-   I listan som visas kan du söka efter och lägga till alla leads (upp till 10 leads i taget) från databasen för lead i Marketo Engage.
+   I listan som visas kan du söka efter och lägga till alla leads (upp till 10 leads i taget) från Marketo Engage lead-databas.
 
    Om du vill söka anger du hela e-postadressen och trycker på _Retur_. Motsvarande lead-profil visas för val.
 
@@ -165,4 +165,4 @@ Med Journey Optimizer B2B edition kan du hantera avanmälan i SMS-meddelanden p�
 
 * Som standard, om en lead har avanmält sig från att ta emot meddelanden från dig, kommer motsvarande profil att uteslutas från efterföljande SMS-leveranser
 
-* Detta lead-medgivande kommer från olika källor (som AEP eller SMS-tjänstleverantören) synkroniseras med Journey Optimizer B2B edition. För närvarande stöder den endast ett enda medgivandetillstånd per lead på instansnivå (en lead &#39;John Doe&#39; är antingen prenumererad på eller avbeställd från all SMS i instansen). Det stöder för närvarande inte dubbelanmälan på varumärkesnivå/nivå av godkännande av enskilda prenumerationer.
+* Detta medgivande kommer från olika källor (t.ex. AEP eller SMS) och synkroniseras med Journey Optimizer B2B edition. För närvarande stöder den endast ett enda medgivandetillstånd per lead på instansnivå (en lead &#39;John Doe&#39; är antingen prenumererad på eller avbeställd från all SMS i instansen). Det stöder för närvarande inte dubbelanmälan på varumärkesnivå/nivå av godkännande av enskilda prenumerationer.

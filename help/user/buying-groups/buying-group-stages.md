@@ -3,9 +3,9 @@ title: Buying Group Stages
 description: Lär dig mer om hur du köper gruppfaser och hur du kan definiera dem för att spåra resans status i förhållande till försäljningsmålen.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ När du har sparat faserna återgår de till modellarbetsytan. Kolumnen _[!UICON
 
 Så länge som inköpsgruppens fasmodell är i ett _utkastläge_ kan du redigera faserna och övergångsreglerna.
 
-Så här visar du utkastmodellen:
+_Så här visar du utkastmodellen:_
 
 1. Gå till **[!UICONTROL Accounts]** > **[!UICONTROL Buying Groups]** i den vänstra navigeringen.
 
@@ -186,6 +186,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## Ta bort inköpsgruppfasmodellen
+
+Du kan ta bort inköpsgruppens fasmodell när den är i ett utkast eller publicerat tillstånd. Om den publiceras (live) kan du bara ta bort den när den inte är kopplad till ett lösningsintresse.
+
+1. Gå till **[!UICONTROL Accounts]** > **[!UICONTROL Buying Groups]** i den vänstra navigeringen.
+
+1. Välj fliken **[!UICONTROL Stages]** på sidan _Köpgrupper_.
+
+1. Klicka på menyikonen _Mer_ (**..**) bredvid namnet på scenmodellen och välj **[!UICONTROL Delete]**.
+
+   ![Menyn Mer för att köpa gruppstadier ](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. Bekräfta genom att klicka på **[!UICONTROL Delete]** i dialogrutan.
 
 ## Använd modellen i kontoresor
 

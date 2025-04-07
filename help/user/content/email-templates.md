@@ -3,9 +3,9 @@ title: E-postmallar
 description: Lär dig hur du hanterar och skapar e-postmallar som används för att skapa e-postmeddelanden om kontoresa enkelt och effektivt.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Om du vill söka efter en mall efter namn anger du en textsträng i sökfältet.
 
 ![Öppna e-postmallsbiblioteket och filtrera efter namn och datum](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-Anpassa de kolumner som du vill visa i tabellen genom att klicka på ikonen _Anpassa tabell_ längst upp till höger. Markera de kolumner som ska visas och klicka på **[!UICONTROL Apply]**.
+Anpassa de kolumner som du vill visa i tabellen genom att klicka på ikonen _Anpassa tabell_ ( ![Anpassa tabell-ikon](../assets/do-not-localize/icon-column-settings.svg) ) längst upp till höger. Markera de kolumner som ska visas och klicka på **[!UICONTROL Apply]**.
 
 I malllistan kan du utföra de åtgärder som beskrivs i följande avsnitt.
 
@@ -66,7 +66,7 @@ Med Adobe Journey Optimizer B2B edition kan du importera befintligt HTML-innehå
 
 >[!NOTE]
 >
->Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora stilar, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
+>Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora format, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
 
 Du kan anpassa det importerade innehållet efter behov med den visuella designern.
 

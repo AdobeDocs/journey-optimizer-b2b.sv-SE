@@ -2,31 +2,30 @@
 title: Landningssidor
 description: Lär dig mer om landningssidor och hur du skapar och hanterar dem för att stödja kontoresor och kampanjer.
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
 
 # Landningssidor
 
-En landningssida är en fristående webbsida där du kan dirigera kontakter och kunder efter att de har klickat på ett länkat objekt i ett e-postmeddelande, SMS-meddelande eller någon annan digital plats. Du kan lägga in dessa sidor i dina kontoresor så att dina presumtiva kunder och kunder kan se dina meddelanden på webben och hur kontoresan fortskrider. Du kan skapa, anpassa och förhandsgranska landningssidor i Designer Landing Pages.
+En landningssida är en fristående webbsida där du kan dirigera kontakter och kunder efter att de har klickat på ett länkat objekt i ett e-postmeddelande, SMS-meddelande eller någon annan digital plats. Du kan lägga in dessa sidor i dina kontoresor så att dina presumtiva kunder och kunder kan se dina meddelanden på webben och hur kontoresan fortskrider. Du kan skapa, anpassa och förhandsgranska landningssidor i den visuella designrymden för landningssidan.
 
 Om du vill dirigera kunderna till en definierad webbsida när de klickar på en viss länk skapar du en landningssida i Journey Optimizer B2B edition.
 
 * Skapa sidan
 * Utforma landningssidan och författarinnehållet
 * Testa sidan
-* Publish på sidan
+* Publicera sidan
 * Länka till sidan från ditt reseinnehåll
 
 Du kan till exempel skapa och utforma landningssidor som dirigerar användarna till onlineinformation. Sidan kan innehålla ett formulär där de kan välja att inte ta emot dina meddelanden eller avanmäla sig. Eller så kan det vara en möjlighet att prenumerera på återkommande meddelanden, som nyhetsbrev.
 
-Du kan skapa, anpassa och förhandsgranska landningssidor i den visuella designern.
+Du kan skapa, anpassa och förhandsgranska landningssidor i den visuella designrymden.
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ Landningssidans status avgör om den är tillgänglig för länkning i e-post- o
 
 | Status | Beskrivning |
 | -------------------- | ----------- |
-| Utkast | När du skapar en landningssida är den i utkaststatus. Den behåller den här statusen när du definierar eller redigerar det visuella innehållet och tills du publicerar det som en värdsida. Tillgängliga åtgärder:<br/><ul><li>Redigera namn eller beskrivning<li>Redigera länk-URL<li>Redigera i visuell designer<li>Publish<li>Duplicera<li>Ta bort |
+| Utkast | När du skapar en landningssida är den i utkaststatus. Den behåller den här statusen när du definierar eller redigerar det visuella innehållet och tills du publicerar det som en värdsida. Tillgängliga åtgärder:<br/><ul><li>Redigera namn eller beskrivning<li>Redigera länk-URL<li>Redigera i visuell designrymd<li>Publicera<li>Duplicera<li>Ta bort |
 | Publicerad | När du publicerar en landningssida ligger den på Journey Optimizer B2B edition-instansen och blir tillgänglig för länkning i ett e-postmeddelande eller SMS-meddelandeinnehåll. Tillgängliga åtgärder:<br/><ul><li>Redigera namn eller beskrivning<li>Redigera länk-URL<li>Lägg till länk i e-post- eller SMS-meddelandeinnehåll<li>Skapa utkastversion<li>Duplicera<li>Ta bort |
-| Publicerat med utkast | När du skapar ett utkast från en publicerad landningssida behålls den publicerade versionen och utkastinnehållet kan ändras i den visuella designern. Om du publicerar utkastet ersätts den aktuella publicerade versionen och innehållet uppdateras på den värdbaserade sidan. Tillgängliga åtgärder:<br/><ul><li>Redigera namn eller beskrivning<li>Redigera länk-URL<li>Lägg till länk i e-post- eller SMS-meddelandeinnehåll<li>Redigera utkast i visuell designer<li>Publish draft version<li>Duplicera<li>Ta bort (tar bort båda versionerna)<li>Ignorera utkast (återgår till publicerat) |
+| Publicerat med utkast | När du skapar ett utkast från en publicerad landningssida behålls den publicerade versionen och utkastinnehållet kan ändras i den visuella designrymden. Om du publicerar utkastet ersätts den aktuella publicerade versionen och innehållet uppdateras på den värdbaserade sidan. Tillgängliga åtgärder:<br/><ul><li>Redigera namn eller beskrivning<li>Redigera länk-URL<li>Lägg till länk i e-post- eller SMS-meddelandeinnehåll<li>Redigera utkast i visuell designmodell<li>Publicera utkast<li>Duplicera<li>Ta bort (tar bort båda versionerna)<li>Ignorera utkast (återgår till publicerad status) |
 
 ![Landningssidans statuslivscykel](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -90,7 +89,7 @@ Du kan lägga till en ny landningssida i Journey Optimizer B2B edition genom att
 
    ![Välj hur du vill börja med landningssidans design](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   När du har valt den metod som du vill använda för att starta designen för landningssidan använder du den visuella designern för att [utforma sidan](./landing-page-design.md).
+   När du har valt den metod som du vill använda för att starta designen för en landningssida använder du det visuella designutrymmet för att [utforma sidan](./landing-page-design.md).
 
 ### Designa från grunden
 
@@ -102,7 +101,7 @@ Använd den visuella innehållsredigeraren för att definiera strukturen för in
 
 ### Importera HTML
 
-Med Adobe Journey Optimizer B2B edition kan du importera befintligt HTML-innehåll för att utforma dina landningssidor.
+Med Adobe Journey Optimizer B2B edition kan du importera befintligt HTML-innehåll för att utforma landningssidor.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -110,9 +109,9 @@ Med Adobe Journey Optimizer B2B edition kan du importera befintligt HTML-innehå
 
 >[!NOTE]
 >
->Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora stilar, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
+>Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora format, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
 
-Du kan anpassa det importerade innehållet efter behov med den visuella designern.
+Du kan anpassa det importerade innehållet efter behov med den visuella designrymden.
 
 ### Välj en sparad mall
 
@@ -142,7 +141,7 @@ När du har valt mallen visas en förhandsvisning av den. I förhandsgransknings
 
 När visningen matchar det du vill använda klickar du på **[!UICONTROL Use this template]** längst upp till höger i förhandsvisningsfönstret.
 
-Den här åtgärden kopierar innehållet till designern för visuellt innehåll, där du kan redigera innehållet efter behov.
+Den här åtgärden kopierar innehållet till den visuella designrymden, där du kan redigera innehållet efter behov.
 
 >[!TAB Exempelmallar]
 
@@ -177,7 +176,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
    ![Information om landningssida med utkaststatus](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. Om du vill ändra innehållet i den visuella designern klickar du på **[!UICONTROL Edit landing page]**.
+1. Om du vill ändra innehållet i den visuella designrymden klickar du på **[!UICONTROL Edit landing page]**.
 
    Använd de visuella designverktygen efter behov:
 
@@ -203,7 +202,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 1. Om du vill uppdatera innehållet klickar du på **[!UICONTROL Edit landing page]** till höger.
 
-   Klicka på **[!UICONTROL Create draft version]** i dialogrutan för att öppna utkastet i den visuella designern.
+   Klicka på **[!UICONTROL Create draft version]** i dialogrutan för att öppna utkastet i den visuella designrymden.
 
    ![Skapa dialogruta för utkastversion](./assets/landing-page-create-draft-version.png){width="300"}
 
@@ -292,3 +291,33 @@ Du kan ta bort en landningssida på något av följande sätt:
 Åtgärden öppnar en bekräftelsedialogruta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]** eller klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
 ![Ta bort dialogrutan för landningssidan](./assets/landing-page-delete-dialog.png){width="400"}
+
+## Länka till en landningssida
+
+Som marknadsförare eller Designer som skapar e-post-, fragment- och sidinnehåll kan du bädda in länkar till publicerade (live) landningssidor som skapas i din Journey Optimizer B2B edition-instans.
+
+1. När du arbetar i den visuella designrymden för ett fragment, e-post, en landningssida eller en mall markerar du ett utdrag av text, en knappkomponent eller en bildkomponent för länken.
+
+   Alternativen för **[!UICONTROL Link]** visas på den högra panelen.
+
+1. Välj **[!UICONTROL Landing page]** för alternativet **[!UICONTROL Type]**.
+
+   ![Länkalternativ för en landningssida](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. För alternativet **[!UICONTROL Landing page]** klickar du på ikonen _Markera sida_ ( ![Visa länkikon](/help/assets/do-not-localize/icon-landing-page-select.svg) ).
+
+1. I dialogrutan Välj landningssida anger du **[!UICONTROL Landing page source]** som **[!UICONTROL Journey Optimizer B2B Edition]**, markerar kryssrutan för landningssidan i listan över publicerade sidor och klickar på **[!UICONTROL Select]**.
+
+   ![Länkalternativ för en landningssida](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. Välj länkmålsbeteendet för alternativet **[!UICONTROL Target]**:
+
+   * **[!UICONTROL None]** - öppnar länken med webbläsarens standardbeteende.
+   * **[!UICONTROL Blank]** - öppnar länken i ett nytt fönster eller på en ny flik.
+   * **[!UICONTROL Self]** - öppnar länken i samma ram.
+   * **[!UICONTROL Parent]** - öppnar länken i den överordnade ramen.
+   * **[!UICONTROL Top]** - öppnar länken i hela fönstret.
+
+1. (Endast textlänk) Markera kryssrutan **[!UICONTROL Underline link]** om du vill stryka under den länkade texten.
+
+   Du kan ange ytterligare format för länktexten, inklusive länkfärgen, genom att välja fliken **[!UICONTROL Styles]** i den högra panelen.
