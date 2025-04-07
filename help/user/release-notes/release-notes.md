@@ -2,9 +2,9 @@
 title: Versionsinformation
 description: Senaste versionsinformationen för Adobe Journey Optimizer B2B-version
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
+source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1814'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Typ | Objekt | Beskrivning |
 | ---- | ---- | ----------- |
 | Ny funktion | Kontolistor | Nu kan du skapa en statisk eller dynamisk kontolista för att rikta in namngivna konton efter dina definierade kriterier, till exempel bransch, plats eller företagets storlek. <a href="../accounts/account-lists.md">Läs mer</a> |
-| Ny funktion | Mina token för kontoresor | Nu kan du definiera en uppsättning anpassade tokens med värden som är specifika för kontoresan. Den här uppsättningen anpassade tokens kallas _Mina token_ och någon av dessa anpassade tokens är till för personalisering när du redigerar e-postmeddelanden om resan. |
+| Ny funktion | Mina token för kontoresor | Nu kan du definiera en uppsättning anpassade tokens med värden som är specifika för kontoresan. Den här uppsättningen anpassade tokens kallas _Mina token_ och någon av dessa anpassade tokens är till för personalisering när du redigerar e-postmeddelanden om resan. <a href="../content/personalization-my-tokens.md">Läs mer</a> |
 | Ny funktion | Ta bort inköpsgruppsfaser | Du kan ta bort inköpsgruppens fasmodell när den är i ett utkast eller publicerat tillstånd. Om den publiceras (live) kan du bara ta bort den när den inte är kopplad till ett lösningsintresse. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Läs mer</a> |
 | Förbättring | Antal resantnoder | Ökad synlighet i antalet medlemskap på resan på nodnivå. Använd den här informationen för att validera kontostatus under en resa. |
 
