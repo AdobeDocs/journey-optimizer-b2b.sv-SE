@@ -3,9 +3,9 @@ title: Köpgrupper
 description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka marknadsföringens effektivitet genom att identifiera och inrikta sig på medlemmar i era kontolistor.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
+source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1762'
 ht-degree: 6%
 
 ---
@@ -64,7 +64,7 @@ Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 | Tabb | Beskrivning |
 | --- | ----------- |
 | [!UICONTROL Overview] | Den här fliken är standard och visar kontrollpanelen [Köpgrupper](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Browse] | Fliken har stöd för följande aktiviteter: <ul><li>Visa listan över befintliga inköpsgrupper. </li><li>Sök genom att köpa gruppnamn. </li><li>Filtrera efter lösningsintresse. </li><li>Granska om du vill köpa gruppinformation. </li><li>Skapa en inköpsgrupp. Ta bort en inköpsgrupp.</li></ul> |
+| [!UICONTROL Browse] | Fliken har stöd för följande aktiviteter: <ul><li>Visa listan över befintliga inköpsgrupper. </li><li>Sök genom att köpa gruppnamn. </li><li>Filtrera efter lösningsintresse. </li><li>Granska om du vill köpa gruppinformation. </li><li>Skapa en inköpsgrupp. </li></ul> |
 | [!UICONTROL Solution interests] | Fliken har stöd för följande aktiviteter: <ul><li>Visa listan över befintliga inköpsgrupper. </li><li>Sök genom att köpa gruppnamn. </li><li>Få tillgång till och redigera egenskaper för lösningsintresse. </li><li>Skapa ett intresse för en lösning. </li><li>Ta bort ett lösningsintresse. </li><li>Visa och ta bort inköpsgruppjobb. </li></ul> |
 | [!UICONTROL Roles Templates] | Fliken har stöd för följande aktiviteter: <ul><li>Visa listan över befintliga rollmallar. </li><li>Sök efter rollmallens namn. </li><li>Få åtkomst till och redigera egenskaper och villkor för rollmallar. </li><li>Skapa en rollmall. </li><li>Ta bort en rollmall. </li></ul> |
 | [!UICONTROL Stages] | Fliken har stöd för följande aktiviteter: <ul><li>Visa den befintliga inköpsgruppsmodellen. </li><li>Få åtkomst till och redigera utkasten till inköpsgruppfasmodell. </li><li>Skapa inköpsgruppens fasmodell. </li></ul> |
