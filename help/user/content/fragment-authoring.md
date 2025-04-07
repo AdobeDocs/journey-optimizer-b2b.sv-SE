@@ -2,7 +2,8 @@
 title: Fragmentredigering
 description: Lär dig hur du skapar innehållsfragment som kan återanvändas för e-post och malldesigner för att vara effektiv och för att upprätthålla design- och varumärkesstandarder.
 feature: Content
-source-git-commit: 1f551b636ef347fd65aa39a809dedba8372c3ac4
+exl-id: d29754cf-6721-489c-bff8-cde034456db2
+source-git-commit: 63dc5c1ad42e159d4fdb191acc0b6efba47e0f3a
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -22,7 +23,7 @@ När du har [skapat ett fragment](./fragments.md#create-fragments) använder du 
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
->title="Om innehållskomponenter"
+>title="Om Innehållskomponenter"
 >abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett fragment."
 
 {{$include /help/_includes/content-design-components.md}}

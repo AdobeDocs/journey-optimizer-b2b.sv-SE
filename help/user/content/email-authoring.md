@@ -3,9 +3,9 @@ title: E-postredigering
 description: Lär dig hur du skapar anpassat e-postinnehåll som används i en kontoresa.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
->title="Om innehållskomponenter"
+>title="Om Innehållskomponenter"
 >abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för en landningssida."
 
 Använd den visuella innehållsredigeraren för att definiera strukturen för e-postinnehållet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
@@ -122,7 +122,7 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
->title="Om innehållskomponenter"
+>title="Om Innehållskomponenter"
 >abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett e-postmeddelande."
 
 {{$include /help/_includes/content-design-components.md}}
@@ -144,6 +144,10 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 ### Anpassa innehåll
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>Om _[!UICONTROL My Tokens]_har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
 
 ### Redigera länkad URL-spårning
 

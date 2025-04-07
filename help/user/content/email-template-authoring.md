@@ -23,7 +23,7 @@ När du har [skapat en e-postmall](./email-templates.md#create-an-email-template
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
->title="Om innehållskomponenter"
+>title="Om Innehållskomponenter"
 >abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för en mall."
 
 {{$include /help/_includes/content-design-components.md}}
