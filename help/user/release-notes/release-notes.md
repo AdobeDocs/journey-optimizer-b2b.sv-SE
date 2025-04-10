@@ -2,9 +2,9 @@
 title: Versionsinformation
 description: Senaste versionsinformationen för Adobe Journey Optimizer B2B-version
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
+source-git-commit: 775cecb2aa4e305ba9a80ba0655e5e854ddf69e2
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1847'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Ny funktion | Kontolistor | Nu kan du skapa en statisk eller dynamisk kontolista för att rikta in namngivna konton efter dina definierade kriterier, till exempel bransch, plats eller företagets storlek. <a href="../accounts/account-lists.md">Läs mer</a> |
 | Ny funktion | Mina token för kontoresor | Nu kan du definiera en uppsättning anpassade tokens med värden som är specifika för kontoresan. Den här uppsättningen anpassade tokens kallas _Mina token_ och någon av dessa anpassade tokens är till för personalisering när du redigerar e-postmeddelanden om resan. <a href="../content/personalization-my-tokens.md">Läs mer</a> |
 | Ny funktion | Ta bort inköpsgruppsfaser | Du kan ta bort inköpsgruppens fasmodell när den är i ett utkast eller publicerat tillstånd. Om den publiceras (live) kan du bara ta bort den när den inte är kopplad till ett lösningsintresse. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Läs mer</a> |
-| Förbättring | Antal resantnoder | Ökad synlighet i antalet medlemskap på resan på nodnivå. Använd den här informationen för att validera kontostatus under en resa. |
+| Förbättring | Antal resantnoder | Ökad synlighet i antalet publicerade resemedlemskap på nodnivå. I _resekartan_ visas _[!UICONTROL Total accounts entered]_noder. När du väljer en åtgärdsnod innehåller informationen till höger även_[!UICONTROL Accounts not yet actioned on]_. Och information om _Lyssna efter en händelse_-nod innehåller _[!UICONTROL Accounts at this step]_. Använd den här informationen för att validera kontoutvecklingen på dina resor, som är färdiga och avbrutna. |
 
 ## Versionsinformation 2025.2
 
@@ -38,7 +38,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 
 | Typ | Objekt | Beskrivning |
 | ---- | ---- | ----------- |
-| Ny funktion | Anpassningsbara fält - innehållsfragment | Som designer för innehållsfragment kan du ange en parameter för en komponent i fragmentet som redigerbar. Detta gör att e-postförfattaren eller mallskaparen kan ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar. <a href="../content/fragment-authoring.md#enable-custom-fields">Läs mer</a> |
+| Ny funktion | Anpassningsbara fält - innehållsfragment | Som designer för innehållsfragment kan du ange en parameter för en komponent i fragmentet som redigerbar. Detta gör att e-postförfattaren eller mallskaparen kan ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar. <a href="../content/fragment-authoring.md#enable-fragment-customization">Läs mer</a> |
 | Ny funktion | Inbyggda roller och produktbehörigheter för B2B | Experience Platform innehåller nu en uppsättning inbyggda (standardroller) roller som du kan använda för att hantera åtkomst till B2B-produktfunktionerna. <a href="../admin/user-management.md#b2b-built-in-roles">Läs mer</a> <br/>Administratörer kan nu definiera anpassade roller i Adobe Experience Platform så att Journey Optimizer B2B edition-produktbehörigheter ingår.  <a href="../admin/user-management.md#b2b-product-permissions">Läs mer</a> |
 | Ny funktion | Typer av resedubbletter | När du duplicerar en kontoresa kan du inkludera nodinformation, exklusive e-post och SMS-meddelanden som skapats i Journey Optimizer B2B edition. Du kan också skapa en skelettkopia av struktur- och sökvägsflödena utan nodinformation och inställningar. <a href="../journeys/journey-overview.md#duplicate-journey">Läs mer</a> |
 | Förbättring | Fyra extra exempel på e-postmallar | Exempelbiblioteket med e-postmallar innehåller nu fyra SecurFinancial-mallar som exempel för återengagemang, information, näring och exempel på feedback |
