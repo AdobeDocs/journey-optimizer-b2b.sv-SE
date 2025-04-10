@@ -3,9 +3,9 @@ title: Fragmentredigering
 description: Lär dig hur du skapar innehållsfragment som kan återanvändas för e-post och malldesigner för att vara effektiv och för att upprätthålla design- och varumärkesstandarder.
 feature: Content
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 63dc5c1ad42e159d4fdb191acc0b6efba47e0f3a
+source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ När du har [skapat ett fragment](./fragments.md#create-fragments) använder du 
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-## Aktivera anpassade fält
+## Aktivera fragmentanpassning
 
-När en e-postmallskapare eller e-postmallskapare lägger till fragmentet, låses fragmentinnehållet som standard. Alla ändringar i det publicerade fragmentet sprids automatiskt till alla innehållsresurser där fragmentet används. När du anger en parameter för en komponent i fragmentet som redigerbar kan e-postförfattaren eller mallskaparen ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar.
+När en författare lägger till ett fragment i en [e-postmall](./email-authoring.md#content-authoring---use-visual-fragments) eller [e-postmall](./email-template-authoring.md#content-authoring---use-visual-fragments) låses fragmentinnehållet som standard. Alla ändringar i det publicerade fragmentet sprids automatiskt till alla innehållsresurser där fragmentet används. När du anger en parameter för en komponent i fragmentet som redigerbar kan e-postförfattaren eller mallskaparen ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar.
 
-Om du till exempel utformar en återanvändbar banderoll som innehåller en klickbar knapp, kan du ange att URL-parametern för knappen är redigerbar. E-postförfattare kan sedan använda en URL som är mer specifik för deras e-postkampanj. Med dessa anpassningsbara fält kan marknadsförarna hantera och personalisera innehåll utan att behöva skapa helt nya innehållsblock eller störa de ärvda uppdateringarna från det ursprungliga fragmentet.
+Om du till exempel utformar en återanvändbar banderoll som innehåller en klickbar knapp, kan du ange att URL-parametern för knappen är redigerbar. E-postförfattare kan sedan använda en URL som är mer specifik för deras e-postkampanj. Med dessa anpassningsbara fält kan marknadsförarna hantera och personalisera återanvändbart innehåll utan att behöva skapa helt nya innehållsblock eller störa de ärvda uppdateringarna från det ursprungliga fragmentet.
 
 1. I den visuella innehållsredigeraren markerar du bilden, texten eller knappelementet där du vill aktivera anpassning.
 
@@ -52,7 +52,7 @@ Om du till exempel utformar en återanvändbar banderoll som innehåller en klic
 
 1. Klicka på alternativet **[!UICONTROL Enable edition]** för att växla och ange de redigerbara fälten.
 
-   ![Aktivera redigerbara fält för en fragmentbildkomponent](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
+   ![Aktivera redigerbara fält för en fragmentbildkomponent](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
 
    Du kan aktivera anpassning för de fält som visas, vilket beror på komponenttypen och de parametrar som definieras i fragmentet.
 
@@ -60,7 +60,7 @@ Om du till exempel utformar en återanvändbar banderoll som innehåller en klic
 
 1. Klicka på **[!UICONTROL Overview]** om du vill granska alla redigerbara fält och deras standardvärden.
 
-   ![Granska redigerbara fält och deras standardvärden](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
+   ![Granska de redigerbara fälten och deras standardvärden](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
 
 1. Spara ändringarna.
 
