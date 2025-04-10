@@ -2,10 +2,11 @@
 title: Forms
 description: Lär dig hur du skapar återanvändbara formulär som du kan inkludera på dina landningssidor.
 feature: Content
+badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
