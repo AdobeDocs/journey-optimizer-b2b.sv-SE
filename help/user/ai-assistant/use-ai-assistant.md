@@ -6,7 +6,7 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 source-git-commit: d19ed2bbe850a14cb0563f6e3563cd8f1c8d3226
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ I Journey Optimizer B2B edition är AI Assistant en funktion i användargränssn
 
 Du öppnar AI Assistant genom att klicka på ikonen i sidhuvudet. AI-assistenten öppnas i en panel till höger.
 
-![Klicka på ikonen för att komma åt AI Assistant](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}{width=&quot;420&quot; zoomable=&quot;yes&quot;}
+![Klicka på ikonen för att komma åt AI-assistenten](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}
 
 Gränssnittet för AI Assistant visas och du får information om hur du kommer igång direkt. Du kan använda alternativen under _Ideas för att komma igång_ för att svara på frågor och kommandon, som:
 
@@ -41,13 +41,13 @@ Produktkunskapsfrågor handlar om Journey Optimizer B2B edition koncept som gäl
 
 Om du vill ställa en produktfråga anger du den i fältet längst ned på panelen och trycker på Retur.
 
-![Ange en fråga i textrutan](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}{width=&quot;420&quot; zoomable=&quot;yes&quot;}
+![Ange en fråga i textrutan](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}
 
 Du kan verifiera svaren som skickats in av AI Assistant genom att granska de citat som finns i varje produktinformationssvar.
 
 Om du vill visa citat och validera AI Assistants svar väljer du **[!UICONTROL Show sources]**.
 
-![Resultat från AI Assistant-frågan](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}{width=&quot;420&quot; zoomable=&quot;yes&quot;}
+![Resultat från AI Assistant-frågan](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}
 
 AI Assistant uppdaterar gränssnittet och ger dig länkar till dokumentation som bekräftar det ursprungliga svaret. När citat är aktiverat uppdaterar AI Assistant svaret så att det innehåller fotnoter som anger vilka delar av svaret som refererar till den angivna dokumentationen.
 

@@ -23,7 +23,7 @@ I följande exempel beskrivs stegen för att lägga till fragment när du redige
    * Växla mellan miniatyr- och listvyer.
    * Uppdatera listan så att den återspeglar något av de nyligen skapade fragmenten.
 
-   ![Välj ett fragment i listan](../user/content/assets/visual-designer-fragments.png)
+   ![Välj ett fragment i listan](../user/content/assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
 1. Dra och släpp något av fragmenten i strukturekomponenten.
 
@@ -45,7 +45,7 @@ Ett visuellt fragment kan innehålla redigerbara fält som du kan anpassa. Med a
 
    Inställningarna som visas till höger innehåller redigerbara fält med standardvärdena.
 
-   ![Ändra parametrar för fragmentkomponent](../user/content/assets/fragment-editable-fields-displayed-design.png)
+   ![Ändra parametrar för fragmentkomponent](../user/content/assets/fragment-editable-fields-displayed-design.png){width="700" zoomable="yes"}
 
 1. Ändra eventuella redigerbara fält efter behov.
 

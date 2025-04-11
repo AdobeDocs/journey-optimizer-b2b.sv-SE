@@ -4,8 +4,8 @@ description: Lär dig hur du kommer åt appen Journey Optimizer B2B edition och 
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
 source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 6%
+source-wordcount: '442'
+ht-degree: 7%
 
 ---
 
@@ -17,11 +17,11 @@ Med Adobe Journey Optimizer B2B Edition kan du samordna konto- och inköpsgruppr
 -->
 Om du vill komma åt [!DNL Adobe Journey Optimizer B2B Edition] ansluter du till Adobe Experience Cloud med din Adobe ID och väljer [!DNL Journey Optimizer B2B Edition].
 
-![Adobe Experience Platform-appar](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Adobe Experience Platform apps](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
 Hemsidan visas när du loggar in på Adobe Experience Platform och väljer appen Adobe Journey Optimizer B2B edition. Den här sidan innehåller en översikt över det aktuella läget för Journey Optimizer B2B-initiativen i form av <!-- refined insights and--> snabb åtkomst till de relevanta modulerna. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![Journey Optimizer B2B edition hemsida](./assets/home-page.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
+![Journey Optimizer B2B Edition home page](./assets/home-page.png){width="800" zoomable="yes"}
 
 Journey Optimizer B2B edition har två primära användarprofiler: en _**marknadsförare**_ och en _**administratör**_. Varje person har en specifik startsida för olika mognadsstadier (ny eller avancerad). Sidinnehållet baseras på vad varje enskild person behöver i fråga om information och nästa åtgärd som ska vidtas.
 
