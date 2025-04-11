@@ -2,26 +2,26 @@
 title: Logga in och hemsida
 description: Lär dig hur du kommer åt appen Journey Optimizer B2B edition och använder hemsidesinformationen.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
+source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '450'
+ht-degree: 6%
 
 ---
 
 # Logga in och startsida
 
-Med Adobe Journey Optimizer B2B Edition kan ni samordna konto- och inköpsgruppresor med hjälp av inbyggd generativ AI och branschledande automatisering för att maximera efterfrågan på specifika erbjudanden med hjälp av marknadsföringskvalificerade inköpsgrupper.
+Med Adobe Journey Optimizer B2B Edition kan du samordna konto- och inköpsgruppresor med hjälp av inbyggd generativ AI och branschledande automatisering för att maximera efterfrågan på specifika erbjudanden med hjälp av marknadsföringskvalificerade inköpsgrupper.
 
 <!-- Requirements?
 -->
 Om du vill komma åt [!DNL Adobe Journey Optimizer B2B Edition] ansluter du till Adobe Experience Cloud med din Adobe ID och väljer [!DNL Journey Optimizer B2B Edition].
 
-![Adobe Experience Platform-appar](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![Adobe Experience Platform-appar](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
 
 Hemsidan visas när du loggar in på Adobe Experience Platform och väljer appen Adobe Journey Optimizer B2B edition. Den här sidan innehåller en översikt över det aktuella läget för Journey Optimizer B2B-initiativen i form av <!-- refined insights and--> snabb åtkomst till de relevanta modulerna. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![Journey Optimizer B2B edition - startsida](./assets/home-page.png){width="800" zoomable="yes"}
+![Journey Optimizer B2B edition hemsida](./assets/home-page.png){width="800" zoomable="yes"}{width=&quot;800&quot; zoomable=&quot;yes&quot;}
 
 Journey Optimizer B2B edition har två primära användarprofiler: en _**marknadsförare**_ och en _**administratör**_. Varje person har en specifik startsida för olika mognadsstadier (ny eller avancerad). Sidinnehållet baseras på vad varje enskild person behöver i fråga om information och nästa åtgärd som ska vidtas.
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B edition har två primära användarprofiler: en _**marknad
 
 Avsnittet _[!UICONTROL Recently accessed]_innehåller en lista med de senast använda resurserna för marknadsföraren eller administratören. Använd den här listan för att gå direkt till resursen som du nyligen arbetade med utan att navigera genom en serie resurssidor och söka.
 
-Sidan innehåller även åtkomst till [AI Assistant](./start/ai-assistant.md), som hjälper användare att få snabb information om specifika frågor och ämnen som de behöver.<!-- and to obtain specific recommendations for their challenges or objectives-->
+Sidan innehåller även åtkomst till [AI Assistant](./ai-assistant/ai-assistant-overview.md), som hjälper användare att få snabb information om specifika frågor och ämnen som de behöver.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 
