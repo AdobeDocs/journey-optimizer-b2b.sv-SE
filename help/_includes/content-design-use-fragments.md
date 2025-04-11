@@ -1,9 +1,9 @@
 ---
 title: Skapa innehåll - använd fragment
 description: Återanvänt avsnitt om att använda fragment för innehållsredigering
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ I följande exempel beskrivs stegen för att lägga till fragment när du redige
    * Växla mellan miniatyr- och listvyer.
    * Uppdatera listan så att den återspeglar något av de nyligen skapade fragmenten.
 
-   ![Välj ett fragment i listan](../user/content/assets/visual-designer-fragments.png){width="700" zoomable="yes"}
+   ![Välj ett fragment i listan](../user/content/assets/visual-designer-fragments.png)
 
 1. Dra och släpp något av fragmenten i strukturekomponenten.
 
@@ -37,15 +37,15 @@ I följande exempel beskrivs stegen för att lägga till fragment när du redige
 
 >[!BEGINSHADEBOX]
 
-**Redigerbara fält**
+**Redigerbara fält i anpassningsbara fragment**
 
-Ett visuellt fragment kan innehålla redigerbara fält som du kan anpassa. Med anpassade fält kan du ändra parametrar när du infogar fragmentet i innehållet och skapa en anpassad upplevelse utan att det ursprungliga fragmentet påverkas. Om ett inkluderat fragment innehåller komponenter med redigerbara fält kan du ändra standardvärdena.
+Ett visuellt fragment kan innehålla redigerbara fält som du kan anpassa. Med anpassade fält kan du ändra parametrar när du infogar fragmentet i innehållet och skapa en anpassad upplevelse utan att det ursprungliga fragmentet påverkas. Ramförfattaren kan [utforma fragmentet för anpassning](../user/content/fragment-authoring.md#enable-fragment-customization) av text-, bild- och knappkomponenter. Om ett inkluderat fragment innehåller komponenter med redigerbara fält kan du ändra standardvärdena och anpassa det för innehållet.
 
 1. Markera fragmentkomponenten.
 
    Inställningarna som visas till höger innehåller redigerbara fält med standardvärdena.
 
-   ![Ändra parametrar för fragmentkomponent](../user/content/assets/fragment-editable-fields-displayed-design.png){width="700" zoomable="yes"}
+   ![Ändra parametrar för fragmentkomponent](../user/content/assets/fragment-editable-fields-displayed-design.png)
 
 1. Ändra eventuella redigerbara fält efter behov.
 
