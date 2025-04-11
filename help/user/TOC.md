@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 19%
+source-wordcount: '269'
+ht-degree: 17%
 
 ---
 
@@ -18,19 +18,23 @@ ht-degree: 19%
    + [Inloggning och hemsida](home-page.md)
    + [Komma igång-guide](./start/get-started.md)
    + [Spårnings- och e-postprotokoll](./start/email-protocols.md)
-   + [Använd AI-assistenten](./start/ai-assistant.md)
-+ Kontoresor {#account-journeys}
++ AI Assistant {#ai-assistent}
+   + [Översikt](./ai-assistant/ai-assistant-overview.md)
+   + [Aktivera åtkomst till AI Assistant](./ai-assistant/enable-ai-assistant-access.md)
+   + [Frågevägledning](./ai-assistant/question-guidance.md)
+   + [Använd AI-assistenten](./ai-assistant/use-ai-assistant.md)
++ Kontoresor {#account-travel}
    + [Översikt](./journeys/journey-overview.md)
    + [Skapa och publicera en resa](./journeys/create-publish-journey.md)
    + [Resensnoder](./journeys/journey-nodes.md)
-   + Resensnoder {#journey-nodes}
+   + Resensnoder {#travel-nodes}
       + [Målgrupp](./journeys/account-audience-nodes.md)
       + [Agera](./journeys/action-nodes.md)
       + [Lyssna efter en händelse](./journeys/listen-for-event-nodes.md)
       + [Dela och sammanfoga banor](./journeys/split-merge-paths-nodes.md)
       + [Vänta](./journeys/wait-nodes.md)
    + [Resedetaljer](./journeys/journey-details.md)
-+ Reseinnehåll {#journey-content}
++ Reseinnehåll {#travel-content}
    + E-postkanal {#email-channel}
       + [Framtagning av e-post](./content/email-authoring.md)
       + [AI-assistenten för att skapa e-post](./content/ai-assistant-emails.md)
@@ -40,7 +44,7 @@ ht-degree: 19%
    + [SMS-redigering](./content/sms-authoring.md)
 + Konton {#accounts}
    + [Målgrupper](./audiences/account-audience-overview.md)
-   + Köper grupper {#buying-groups}
+   + Köpa grupper {#buying-groups}
       + [Översikt](./buying-groups/buying-groups-overview.md)
       + [Lösningsintressen](./buying-groups/solution-interests.md)
       + [Rollmallar](./buying-groups/buying-groups-role-templates.md)
@@ -56,7 +60,7 @@ ht-degree: 19%
 + Innehållshantering {#content-management}
    + Assets {#assets}
       + [Översikt](./content/assets-overview.md)
-      + Marketo Engage-resurser {#marketo-engage-dam}
+      + Marketo Engage assets {#marketo-engage-dam}
          + [Arbeta med Marketo Engage resurser](./content/marketo-engage-design-studio.md)
          + [Redigera bilder med Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager bildresurser](./content/aem-assets.md)
@@ -86,7 +90,7 @@ ht-degree: 19%
 + Administration {#admin}
    + [Användarhantering](./admin/user-management.md)
    + [Återgivningsdata](./admin/intent-data.md)
-   + Kanaler {#channels}
+   + Kanaler {#channel}
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
    + [Konfigurera AEM Assets-databaser](./admin/configure-aem-repositories.md)
