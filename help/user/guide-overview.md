@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ## Vad är nytt?
 
-Här är ett urval av de senaste förbättringarna i Journey Optimizer B2B Edition-produkten och dokumentationen.
+Här följer ett exempel på de senaste förbättringarna i Journey Optimizer B2B edition och dokumentation.
 
 >[!BEGINTABS]
 
@@ -29,17 +29,17 @@ Använd Adobe Express Snabbåtgärder för att redigera innehållet med beskärn
 
 Med Adobe Express Enterprise licensing kan ni utnyttja alla funktioner i Adobe Express. Använd dessa funktioner för att finputsa och förbättra bilder, samtidigt som ni följer varumärkesriktlinjerna och tar bort hinder i innehållsförsörjningskedjan.
 
-[!BADGE Läs mer]{type=Informative url="/help/användare/innehåll/bild-redigera-adobe-express.md" tooltip="Lär dig mer om bildredigering med Adobe Express"}
+[!BADGE Läs mer]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Läs om bildredigering med Adobe Express"}
 
->[!TAB Fragmentera anpassningsbara fält]
+>[!TAB Anpassningsbara fragmentfält]
 
-Som innehållsdesigner kan du ange en parameter för en komponent i fragmentet som redigerbar. På så sätt kan e-post- eller mallförfattaren ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar.
+Som innehållsdesigner kan du ange en parameter för en komponent i fragmentet som redigerbar. Detta gör att e-postförfattaren eller mallskaparen kan ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar.
 
 [!BADGE Läs mer]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Lär dig mer om anpassade fält för innehållsfragment"}
 
 >[!TAB Vidarebefordran av AEP-händelser]
 
-Administratörer kan nu konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner. Dessa konfigurationer gör det möjligt för marknadsförare att skapa kontoresor som reagerar på AEP Experience Events.
+Administratörer kan nu konfigurera Adobe Experience Platform-baserade (AEP) händelsedefinitioner. Med dessa konfigurationer kan marknadsförare skapa kontoresor som reagerar på AEP Experience Events.
 
 [!BADGE Läs mer]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Läs mer om AEP händelsedefinitioner för resesamordning"}
 
@@ -53,11 +53,11 @@ Nu kan du visa och skapa smarta listor med inköpsgruppsfilter i Marketo Engage.
 
 Använd villkorsstyrt innehåll för att anpassa e-postinnehållet baserat på villkorliga regler. Definiera reglerna med hjälp av profilattribut eller sammanhangsbaserade händelser. Du kan skapa villkorliga regler i regelbyggaren, och du kan lagra dem för återanvändning på alla dina kontoresor.
 
-[!BADGE Läs mer]{type=Informative url="/hjälp/användare/innehåll/villkorligt-innehåll.md" tooltip="Lär dig mer om villkorligt innehåll"}
+[!BADGE Läs mer]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Läs om villkorat innehåll"}
 
 >[!ENDTABS]
 
-En fullständig lista över nya funktioner och förbättringar finns i [viktig information](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
+En fullständig lista över nya funktioner och förbättringar finns i [versionsinformationen](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
 
 ## Börja med grunderna
 
@@ -69,16 +69,16 @@ En fullständig lista över nya funktioner och förbättringar finns i [viktig i
     </td>
       <td>
     <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Köpgrupper"></a>
-    <div><strong>Bygg din första inköpsgrupp</strong><br/>Skapa din första inköpsgrupp i Journey Optimizer B2B Edition för att automatisera processen med att engagera och kvalificera kontakter.</div>
+    <div><strong>Bygg din första inköpsgrupp</strong><br/>Skapa din första inköpsgrupp i Journey Optimizer B2B edition för att automatisera processen med engagerande och kvalificerade kontakter.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Resor med konton"></a>
-    <div><strong>Skapa din första kundresa</strong><br/>Designa och orkestrera personliga kundresor för att harmonisera marknadsföringsinsatser med målinriktat engagemang. 
+    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Kontoresor"></a>
+    <div><strong>Skapa din första kontoresa</strong><br/>Designa och samordna personaliserade kontoresor för att harmonisera marknadsföringsaktiviteter med målinriktat engagemang. 
     </div>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg" alt="Lära sig mer"></a></td>
+    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg" alt="Läs mer"></a></td>
     <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg" alt="Läs mer"></a></td>
     <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg" alt="Läs mer"></a></td>
     </tr>
@@ -96,7 +96,7 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Kom igång"><br/>
-      <strong>Kom igång Logga in</strong><br/><a href="home-page.md">och startsida</a><br/><a href="./start/get-started.md">Snabbstartsvägledning</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI Assistant</a>
+      <strong>Kom igång</strong><br/><a href="home-page.md">Inloggning och startsida</a><br/><a href="./start/get-started.md">Snabbstartsvägledning</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">AI Assistant</a>
     </td>
     <!--
     <td>
@@ -104,11 +104,11 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
       <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
     </td> -->
     <td>
-      <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Köpa grupper"><br/>
-      <strong>Inköpsgrupper Översikt över</a><br/><a href="./buying-groups/buying-groups-role-templates.md">inköpsgrupper Rollmallar</a><br/><a href="./buying-groups/solution-interests.md">Lösningsintressen</a><br/><a href="./buying-groups/buying-groups-create.md">Skapa inköpsgrupper</strong><br/><a href="./buying-groups/buying-groups-overview.md"></a>
+      <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Köpgrupper"><br/>
+      <strong> Köpa grupper</strong><br/><a href="./buying-groups/buying-groups-overview.md">Översikt över inköpsgrupper</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Rollmallar</a><br/><a href="./buying-groups/solution-interests.md">Lösningsintressen</a><br/><a href="./buying-groups/buying-groups-create.md">Skapa inköpsgrupper</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Resor med konton"><br/>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Kontoresor"><br/>
       <strong>Kontoresor</strong><br/><a href="./journeys/journey-overview.md">Reseöversikt</a><br/><a href="./journeys/journey-nodes.md">Resenoder</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Skapa en kontoresa</a>
     </td>
   </tr>
@@ -119,7 +119,7 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Innehållshantering"><br/>
-      <strong>Innehållshantering</strong><br/><a href="./content/assets-overview.md">Översikt över<a href="./content/email-templates.md"></a><br/>resurser E-postmallar</a><br/><a href="./content/fragments.md">Visuella fragment</a><br/><a href="./content/conditional-content.md">Villkorsstyrt innehåll</a>
+      <strong>Innehållshantering</strong><br/><a href="./content/assets-overview.md">Assets - översikt</a><br/><a href="./content/email-templates.md">E-postmallar</a><br/><a href="./content/fragments.md">Visuella fragment</a><br/><a href="./content/conditional-content.md">Villkorligt innehåll</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insikter och kontrollpaneler"><br/>
@@ -138,10 +138,10 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
 </td></tr>
-<tr><td><strong>Dokumentation om Adobe Real-Time Customer Data Platform</strong><br/><a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank"></a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare
-</a>
+<tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Dokumentation för utvecklare</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
 </td>
 </tr></table>
 
