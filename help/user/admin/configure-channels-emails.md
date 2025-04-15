@@ -1,9 +1,9 @@
 ---
 title: E-postkonfigurationer
-description: Lär dig hur du får åtkomst till och granskar e-postinställningarna som är konfigurerade i Marketo Engage.
+description: Lär dig hur du får åtkomst till och granskar e-postinställningarna som har konfigurerats i Marketo Engage.
 feature: Setup
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 796cb86f81aa18d8e616af527c22b3160df4f1b5
+source-git-commit: 3b4e4742a1913bed2b284f36be92f77b18383e0e
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # E-postkonfigurationer
 
-Adobe Journey Optimizer B2B edition utnyttjar kanalfunktionerna och händelsespårningen i Market Engage. Administratörer bör se till att konfigurationerna för leverans och spårning finns på plats för att möjliggöra kanalleverans för marknadsförare. Information om de protokoll som behövs för e-postleverans och spårning via Marketo Engage finns i [Protokoll för spårning och e-postleverans](../start/email-protocols.md).
+Adobe Journey Optimizer B2B edition utnyttjar kanalfunktionerna och händelsespårningen i Marketo Engage. Administratörer bör se till att konfigurationerna för leverans och spårning finns på plats för att möjliggöra kanalleverans för marknadsförare. Information om de protokoll som behövs för e-postleverans och -spårning via Marketo Engage finns i [Protokoll för spårning och e-postleverans](../start/email-protocols.md).
 
 ## Leveransinställningar
 
@@ -36,11 +36,11 @@ E-postrubrikens parametrar definierar standardvärdena för följande:
 
 * **[!UICONTROL From Label]** - Det namn som visas för e-postavsändaradressen.
 
-* **[!UICONTROL Unsubscribe HTML]** - HTML (för e-postklienter som stöds) som visas i icke-operativa e-postmeddelanden för att förklara avbrutna prenumerationer för mottagaren. Den här texten och länkarna läggs till längst ned.
+* **[!UICONTROL Unsubscribe HTML]** - Den HTML (för e-postklienter som stöds) som visas i icke-operativa e-postmeddelanden för att förklara avbrutna prenumerationer för mottagaren. Den här texten och länkarna läggs till längst ned.
 
 * **[!UICONTROL Unsubscribe Text]** - Den oformaterade text som visas i icke-operativa e-postmeddelanden för att förklara att mottagaren avbrutit prenumerationen. Den här texten och länkarna läggs till längst ned.
 
-* **[!UICONTROL View as web page HTML]** - HTML (för e-postklienter som stöds) som används för _Visa som webbsida_, som tillhandahåller en länk för att visa ett e-postmeddelande i en webbläsare.
+* **[!UICONTROL View as web page HTML]** - HTML (för e-postklienter som stöds) som används för _Visa som webbsida_, som innehåller en länk för att visa ett e-postmeddelande i en webbläsare.
 
 * **[!UICONTROL View as web page text]** - Den oformaterade text som används för _Visa som webbsida_, som innehåller en länk för att visa ett e-postmeddelande i en webbläsare.
 
@@ -82,11 +82,11 @@ Mer information om hur du konfigurerar kommunikationsgränserna finns i [Marketo
 
 ## SPF/DKIM
 
-Förbättra e-postleveransen genom att införliva SPF (Sender Policy Framework) och DKIM (Domain Keys Identified Mail) i DNS-inställningarna. Dessa tekniker säkerställer att dina e-postmeddelanden inte är skräppost. För att förhindra att mottagarnas skräppostfilter avvisar e-postmeddelanden måste du se till att SPF och DKIM har konfigurerats för dina domäner.
+Förbättra e-postleveransen genom att införliva SPF (Sender Policy Framework) och DKIM (Domain Keys Identified Mail) i dina DNS-inställningar. Dessa tekniker säkerställer att dina e-postmeddelanden inte är skräppost. För att förhindra att mottagarnas skräppostfilter avvisar e-postmeddelanden måste du se till att SPF och DKIM har konfigurerats för dina domäner.
 
 Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj **[!UICONTROL SPF/DKIM]** under _[!UICONTROL Email]_i navigeringspanelen.
 
-![Få åtkomst till SPF/DKIM-konfigurationen](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
+![Åtkomst till SPF/DKIM-konfigurationen](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
 Inställningarna är skrivskyddade i Journey Optimizer B2B edition. Klicka på **[!UICONTROL Edit settings]** överst till höger för att komma åt konfigurationsalternativen i den anslutna Marketo Engage-instansen.
 
@@ -106,7 +106,7 @@ Om du redan har en SPF-post i DNS-posten lägger du till följande i den:
 
 `include:mktomail.com`
 
-### DKIM-inställningar
+### DKIM
 
 DKIM är ett autentiseringsprotokoll som används av e-postmottagare för att validera e-postmeddelandets avsändare. Det förbättrar ofta leveransen av e-postmeddelanden till inkorgen eftersom mottagaren kan vara säker på att meddelandet inte är en förfalskning.
 
