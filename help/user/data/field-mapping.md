@@ -2,9 +2,9 @@
 title: XDM-fält
 description: Granska standardattributfälten som är synkroniserade mellan Adobe Experience Platform och Journey Optimizer B2B edition.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: e2a802750ee221caf83989c5731e0daee64aa63e
+source-git-commit: 34ef9681b75ef1cd43d34e3f2836a60affb95b33
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1342'
 ht-degree: 5%
 
 ---
@@ -31,15 +31,13 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 
 | [Egenskap](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Visningsnamn | Journey Optimizer B2B-visningsnamn | Datatyp | Beskrivning |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `b2b.companyName` | Företagets namn | Företagets namn | Sträng | Namnet på det företag som en affärsman är associerad med. |
-| `b2b.companyWebsite` | Företagets webbplats | Webbplats | Sträng | Webbplats för det företag som en affärsman är kopplad till. |
 | `b2b.isMarketingSuspended` | Indikator för pausad marknadsföring | Marknadsföring har pausats | Boolean | Värdet anger om marknadsföringen har avbrutits för personen. |
 | `b2b.marketingSuspendedCause` | Orsak till pausad marknadsföring | Orsak till pausad marknadsföring | Sträng | Om marknadsföringen avbryts för personen anger denna egenskap anledningen till detta. |
 | `b2b.personStatus` | Personstatus | Leadkälla | Sträng | Fältregistrering av den aktuella marknadsförings-/försäljningsstatusen för personen. |
 | `consents.marketing.email.reason` | Anledning till avanmälan | Orsak till avprenumeration | Sträng | Orsak som är associerad med e-postavanmälan. |
-| `consents.marketing.email.val` | Avprenumererad | Avprenumererad | Sträng | Om det är sant att prenumerera (till exempel värde = 1) anger du `consents.marketing.email.val` som (n). Om det är falskt att avsluta prenumerationen (till exempel värde = 0) anger du `consents.marketing.email.val` som null. |
+| `consents.marketing.email.val` | Avprenumererad | Avprenumererad | Sträng | Om det är sant att prenumerera (till exempel värde = 1) anger du `consents.marketing.email.val` som (n). Om avbruten prenumeration är falskt (till exempel värde = 0) anges `consents.marketing.email.val` det som null. |
 | `extendedWorkDetails.jobTitle` | Befattning | Befattning | Sträng | Personens befattning. |
-| `faxPhone.number` | Nummer | Faxnummer | Sträng | Faxnummer. |
+| `faxPhone.number` | Nummer | Faxnummer | Sträng | Fax telefonnummer. |
 | `mobilePhone.number` | Nummer | Mobiltelefon | Sträng | Det mobiltelefonnummer som är associerat med personen. |
 | `person.birthDate` | Födelsedatum (ÅÅÅ-MM-DD) | Födelsedatum | Sträng | Det fullständiga datumet då en person föddes. YYY-MM-DD |
 | `person.name.courtesyTitle` | Titel | Titel | Sträng | Vanligtvis en förkortning av en persons titel, ära eller hälsningsfras. Artikeltiteln används framför det fullständiga namnet eller efternamnet i öppningstexter. Till exempel herr, fröken eller doktor |
@@ -49,7 +47,7 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 | `workAddress.city ` | Ort | Ort | Sträng | Namnet på staden. |
 | `workAddress.country` | Land | Land | Sträng | Namnet på det statligt administrerade territoriet. Förutom `xdm:countryCode` är det ett friformsfält som kan ha landsnamnet på vilket språk som helst. |
 | `workAddress.postalCode` | Postnummer | Postnummer | Sträng | Postnumret för platsen. Postnummer är inte tillgängliga för alla länder. I vissa länder innehåller den endast en del av postnumret. |
-| `workAddress.state` | Stat | Stat | Sträng | Namnet på tillståndet för adressen. Det är ett frihandsfält. |
+| `workAddress.state` | Stat | Stat | Sträng | Namnet på delstaten för adressen. Det är ett fält med fri form. |
 | `workAddress.street1` | Gatuadress 1 | Adress | Sträng | Primär information om gatuminivå, lägenhetsnummer, gatunummer och gatunamn. |
 | `workEmail.address` | Adress | E-postadress | Sträng | **Obligatoriskt fält** <br/>Den tekniska adressen, till exempel `<name@domain.com>`, som vanligen definieras i RFC2822 och efterföljande standarder. |
 | `workEmail.status` | Status | E-post pausad | Sträng | En indikation på möjligheten att använda e-postadressen. |
@@ -68,14 +66,14 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 | `accountBillingAddress.postalCode` | Postnummer | Adress Postnummer | Sträng | Postnummer för platsen för faktureringsadressen. Postnummer är inte tillgängliga för alla länder. I vissa länder innehåller den endast en del av postnumret. |
 | `accountBillingAddress.region` | Län | Adressregion | Sträng | Faktureringsadressens region, län eller distrikt. |
 | `accountBillingAddress.state` | Stat | Stat | Sträng | Namnet på delstat för faktureringsadressen. Det är ett frihandsfält. |
-| `accountBillingAddress.street1` | Gatuadress 1 | Gatuadress 1 | Sträng | Primär gatuminivåinformation för faktureringsadressen, som vanligtvis ska innehålla lägenhetsnummer, gatunummer och gatunamn. |
+| `accountBillingAddress.street1` | Gatuadress 1 | Gatuadress 1 | Sträng | Primär information på gatunivå för faktureringsadressen, som vanligtvis innehåller lägenhetsnummer, gatunummer och gatunamn. |
 | `accountName` | Namn | Namn | Sträng | **Obligatoriskt fält** <br/>Företagets namn. I det här fältet tillåts upp till 255 tecken. |
 | `accountOrganization.annualRevenue.amount` | Årlig intäkt | Årlig intäkt | Nummer | Organisationens beräknade årsomsättning. |
 | `accountOrganization.industry` | Bransch | Bransch | Sträng | Branschen tillskrivs organisationen. Det är ett frihandsfält och du bör använda ett strukturerat värde för frågor eller egenskapen `xdm:classifier`. |
-| `accountOrganization.logoUrl` | URL för logotyp | URL för logotyp | Sträng | Sökväg som ska kombineras med URL:en för en Salesforce-instans (till exempel `https://yourInstance.salesforce.com/`) för att generera en URL för att begära den profilbild för sociala nätverk som är associerad med kontot. Den genererade URL:en returnerar en HTTP-omdirigering (kod 302) till profilbilden för det sociala nätverket för kontot. |
+| `accountOrganization.logoUrl` | URL för logotyp | URL för logotyp | Sträng | Sökväg som ska kombineras med URL:en för en Salesforce-instans (till exempel `https://yourInstance.salesforce.com/`) för att generera en URL för att begära profilbilden för det sociala nätverket som är kopplad till kontot. Den genererade URL:en returnerar en HTTP-omdirigering (kod 302) till profilbilden för det sociala nätverket för kontot. |
 | `accountOrganization.numberOfEmployees` | Antal anställda | Antal anställda | Heltal | Antalet anställda i organisationen. |
-| `accountOrganization.SICCode` | SNI-kod | SNI-kod | Sträng | Koden för standardnäringsgrensindelning (SIC) är en fyrsiffrig kod som kategoriserar de branscher som företagen tillhör baserat på deras affärsverksamhet. |
-| `accountOrganization.website` | Webbplatsens URL | Domännamn | Sträng | URL till organisationens webbplats. |
+| `accountOrganization.SICCode` | SNI-kod | SNI-kod | Sträng | SIC-koden (Standard Industrial Classification) är en fyrsiffrig kod som kategoriserar de branscher som företag tillhör baserat på deras affärsverksamhet. |
+| `accountOrganization.website` | Webbadress | Domännamn | Sträng | URL till organisationens webbplats. |
 | `accountPhone.number` | Ej tillämpligt | Telefonnummer till konto | Sträng | Telefonnumret som är associerat med kontot. |
 | `accountSourceType` | Ej tillämpligt | Source Type | Sträng | Source-typ för kontot. |
 
@@ -88,18 +86,18 @@ Dessutom lagras affärsmöjlighetsdata som attribut i klassen XDM Business Oppor
 | `expectedCloseDate` | Förväntat stängningsdatum | Förväntat stängningsdatum för affärsmöjlighet | Sträng | Förväntat slutdatum för affärsmöjligheten. |
 | `expectedRevenue.amount` | Förväntade intäkter | Förväntad intäkt för affärsmöjlighet | Sträng | Beräknad intäkt baserad på belopp och sannolikhet. |
 | `fiscalQuarter` | Räkenskapskvartal | Räkenskapskvartal för affärsmöjlighet | Sträng | Det avsedda räkenskapskvartalet för affärsmöjligheten. |
-| `fiscalYear` | Räkenskapsår | Räkenskapsår för affärsmöjlighet | Sträng | Det avsedda räkenskapsåret för affärsmöjligheten. |
+| `fiscalYear` | Räkenskapsår | Räkenskapsår för affärsmöjlighet | Sträng | Det räkenskapsår som är målet för affärsmöjligheten. |
 | `forecastCategory` | Prognoskategori | Prognoskategori för affärsmöjlighet | Sträng | Prognoskategori som bestäms av värdet för affärsmöjlighetsfasen. |
 | `forecastCategoryName` | Prognoskategorinamn | Kategorinamn för prognos för affärsmöjlighet | Sträng | Prognoskategorinamn som visas i rapporter för en viss prognoskategori. |
 | `isClosed` | Stängd flagga | Affärsmöjligheten har stängts | Sträng | Flagga som anger om affärsmöjligheten är stängd. |
 | `isWon` | Won-flagga | Vunnen affärsmöjlighet | Sträng | Flagga som anger om affärsmöjligheten vinner. |
-| `lastActivityDate` | Senaste aktivitetsdatum | Senaste aktivitetsdatum | Sträng | Senaste aktivitetsdatum för affärsmöjligheten. |
-| `leadSource` | Leadkälla | Leadkälla | Sträng | Source om affärsmöjligheten, som Advertisement, Partner eller Web. |
-| `nextStep` | Nästa steg | Nästa steg i affärsmöjligheten | Sträng | Beskrivning av nästa uppgift för att stänga affärsmöjligheten. |
+| `lastActivityDate` | Datum för senaste aktivitet | Datum för senaste aktivitet | Sträng | Senaste aktivitetsdatum för affärsmöjligheten. |
+| `leadSource` | Leadkälla | Ledande källa | Sträng | Källa till affärsmöjligheten, till exempel Annons, Partner eller Webb. |
+| `nextStep` | Nästa steg | Affärsmöjlighet nästa steg | Sträng | Beskrivning av nästa uppgift för att stänga affärsmöjligheten. |
 | `opportunityAmount.amount` | Affärsmöjlighet - belopp | Totalt belopp för affärsmöjlighet | Sträng | Uppskattat totalt försäljningsbelopp för affärsmöjligheten. |
 | `opportunityDescription` | Beskrivning av affärsmöjlighet | Beskrivning av affärsmöjlighet | Sträng | Ytterligare information som beskriver möjligheten, till exempel möjliga produkter att sälja eller tidigare inköp från kunden. |
 | `opportunityName` | Affärsmöjlighetens namn | Affärsmöjlighetens namn | Sträng | Ämne- eller beskrivande namn, t.ex. den förväntade ordern eller företagsnamnet, för affärsmöjligheten. |
 | `opportunityQuantity` | Kvantitet för affärsmöjlighet | Kvantitet för affärsmöjlighet | Sträng | Totalt av alla fältvärden för kvantitet för alla produkter i den relaterade produktlistan för affärsmöjligheten. |
 | `opportunityStage` | Affärsmöjlighet | Möjlighetsfas | Sträng | Försäljningsfasen där säljteamet kan hjälpa säljarna att vinna. |
-| `opportunityType` | Typ av affärsmöjlighet | Typ av affärsmöjlighet | Sträng | Typ som tilldelats affärsmöjligheten, till exempel _Befintlig verksamhet _ eller _Ny verksamhet_ |
+| `opportunityType` | Typ av affärsmöjlighet | Typ av affärsmöjlighet | Sträng | Typ som tilldelats affärsmöjligheten, till exempel _Befintlig verksamhet_ eller _Ny verksamhet_ |
 | `probabilityPercentage` | Sannolikhetsprocent | Sannolikhet för affärsmöjlighet i procent | Sträng | Sannolikheten för att stänga affärsmöjligheten anges i procent. |
