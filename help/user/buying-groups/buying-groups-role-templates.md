@@ -3,9 +3,9 @@ title: Mallar för inköpsgrupproll
 description: Lär dig hur du definierar en rollmall som ska användas som en köpgruppskomponent.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
 ## Få åtkomst till och bläddra bland rollmallar
-
-1. Klicka på Adobe Journey Optimizer B2B edition på startsidan för Adobe Experience Platform.
 
 1. Klicka på **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 

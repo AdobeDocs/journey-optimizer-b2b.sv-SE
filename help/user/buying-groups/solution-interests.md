@@ -3,9 +3,9 @@ title: Lösningsintressen
 description: Lär dig mer om lösningsintressen och hur du kan definiera dem för användning inom dina inköpsgrupper.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ Innan du skapar inköpsgrupper bör du veta vad du säljer och vilka du vill ha 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
 ## Få tillgång till och bläddra bland lösningsintressen
-
-1. Klicka på Adobe Journey Optimizer B2B edition på startsidan för Adobe Experience Platform.
 
 1. Klicka på **[!UICONTROL Buying Groups]** i den vänstra navigeringen.
 

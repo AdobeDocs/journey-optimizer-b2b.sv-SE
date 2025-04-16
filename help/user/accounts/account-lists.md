@@ -2,9 +2,9 @@
 title: Kontolistor
 description: Lär dig mer om kontolistor och hur marknadsförare kan använda dem för att rikta konton via kontoresor.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,19 @@ När en kontolista är i läget _Live_ (publicerad) är den tillgänglig för an
 
 ## Få åtkomst till och bläddra bland kontolistor
 
-1. Klicka på Adobe Journey Optimizer B2B edition på startsidan för Adobe Experience Platform.
+Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Account lists]**.
 
-1. Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Account lists]**.
+![Åtkomstkontoresor](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![Åtkomstkontoresor](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+Sidan _[!UICONTROL Account lists]_som visas innehåller följande kolumner:
 
-   Sidan _[!UICONTROL Account lists]_som visas innehåller följande kolumner:
-
-   * [!UICONTROL Name] (klicka på namnet på kontolistan för att visa information)
-   * [!UICONTROL Status]
-   * [!UICONTROL Type]
-   * [!UICONTROL Last updated on]
-   * [!UICONTROL Last updated by]
-   * [!UICONTROL Creation date]
-   * [!UICONTROL Created by]
+* [!UICONTROL Name] (klicka på namnet på kontolistan för att visa information)
+* [!UICONTROL Status]
+* [!UICONTROL Type]
+* [!UICONTROL Last updated on]
+* [!UICONTROL Last updated by]
+* [!UICONTROL Creation date]
+* [!UICONTROL Created by]
 
 Tabellen innehåller möjligheten att söka efter namn. Sorteringsfunktionen är inte tillgänglig just nu.
 
@@ -42,7 +40,7 @@ Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställni
 
 ![Välj de kolumner som ska visas i listan för kontoresor](./assets/account-lists-list-columns.png){width="300"}
 
-Om du vill visa beskrivningen för en kontolista klickar du på ikonen _Information_ bredvid namnet.
+Om du vill visa beskrivningen för en kontolista klickar du på ikonen _Information_ ( ![Informationsikon](../assets/do-not-localize/icon-info.svg) ) bredvid namnet.
 
 ## Skapa en kontolista
 

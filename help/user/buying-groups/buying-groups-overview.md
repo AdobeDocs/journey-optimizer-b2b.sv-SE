@@ -3,9 +3,9 @@ title: Köpgrupper
 description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka marknadsföringens effektivitet genom att identifiera och inrikta sig på medlemmar i era kontolistor.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1760'
 ht-degree: 6%
 
 ---
@@ -36,10 +36,8 @@ Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i 
 
 1. Skapa inköpsgrupper.
 
-   Alternativ:
-   * Använd [lösningsintresse](./solution-interests.md) och [rollmall](./buying-groups-role-templates.md)
-   * Använda import från tredje part
-   * Generera från AI/ML
+   * Definiera [lösningsintresse](./solution-interests.md) och [rollmall](./buying-groups-role-templates.md)
+   * [Skapa inköpsgruppen](./buying-groups-create.md#create-buying-groups) och tilldela [inköpsgruppfaser](./buying-group-stages.md).
 
 1. Identifiera saknade personer.
 
@@ -53,7 +51,7 @@ Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i 
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Använd för en kontoresa via de kopplade lösningsintressena.
+1. Använd inköpsgruppen på dina kontoresor.
 
 ## Visa inköpsgrupper och komponenter
 

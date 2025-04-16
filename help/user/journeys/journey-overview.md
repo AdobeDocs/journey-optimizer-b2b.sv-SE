@@ -3,9 +3,9 @@ title: Kontoresor
 description: Lär dig mer om kontoresor och hur du kan skapa och hantera dem.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -29,22 +29,20 @@ Så här kommer du igång med kontoresor:
 
 ## Få åtkomst till och bläddra bland kontoresor
 
-1. Klicka på Adobe Journey Optimizer B2B edition på startsidan för Adobe Experience Platform.
+Klicka på **[!UICONTROL Account journeys]** i den vänstra navigeringen.
 
-1. Klicka på **[!UICONTROL Account journeys]** i den vänstra navigeringen.
+![Åtkomstkontoresor](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![Åtkomstkontoresor](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+Den visade resesidan innehåller följande kolumner:
 
-   Den visade resesidan innehåller följande kolumner:
-
-   * [!UICONTROL Name] (klicka på namnet för att öppna resan för redigering)
-   * [!UICONTROL Status]
-   * [!UICONTROL Description]
-   * [!UICONTROL Created by]
-   * [!UICONTROL Last updated at]
-   * [!UICONTROL Last updated by]
-   * [!UICONTROL Published on]
-   * [!UICONTROL Published by]
+* [!UICONTROL Name] (klicka på namnet för att öppna resan för redigering)
+* [!UICONTROL Status]
+* [!UICONTROL Description]
+* [!UICONTROL Created by]
+* [!UICONTROL Last updated at]
+* [!UICONTROL Last updated by]
+* [!UICONTROL Published on]
+* [!UICONTROL Published by]
 
 Använd _sökverktyget_ längst upp för att hitta resan efter namn. Du kan sortera listan efter _[!UICONTROL Status]_genom att klicka på kolumnrubriken.
 
