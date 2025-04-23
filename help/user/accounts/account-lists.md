@@ -1,10 +1,11 @@
 ---
 title: Kontolistor
 description: Lär dig mer om kontolistor och hur marknadsförare kan använda dem för att rikta konton via kontoresor.
+badgeBeta: label="Begränsad tillgänglighet" type="informative" tooltip="Den här funktionen är för närvarande endast tillgänglig på begäran"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
