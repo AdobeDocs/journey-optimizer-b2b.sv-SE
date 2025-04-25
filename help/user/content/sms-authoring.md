@@ -3,9 +3,9 @@ title: SMS-redigering
 description: Lär dig hur du skickar textmeddelanden (SMS) till dina kunder på deras mobila enheter och hur du anpassar och förhandsgranskar meddelanden i textformat från SMS-redigeraren.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Använd Adobe Journey Optimizer B2B edition för att skicka textmeddelanden (SMS) till dina kunder på deras mobila enheter. Du kan skapa, anpassa och förhandsgranska meddelanden i textformat från SMS-redigeraren.
 
-Innan du skapar SMS-meddelanden för kontojournaler bör du kontrollera att SMS-tjänstprovidern [är konfigurerad](../admin/configure-channels-sms.md) från inställningarna för _[!UICONTROL Administrator]_.
+Innan du skapar SMS-meddelanden för kontoresor måste du kontrollera att [SMS-tjänstprovidern är konfigurerad](../admin/configure-channels-sms.md) från inställningarna för _[!UICONTROL Administrator]_.
 
 ## Lägg till en SMS-åtgärd i en kontoresa
 
-Du kan ställa in textmeddelandeleveranser på en kontoresa när du lägger till en _[!UICONTROL Take an action]_-nod och gör följande:
+Du kan ställa in textmeddelandeleveranser under en kontoresa när du lägger till en _[!UICONTROL Take an action]_-nod och gör följande:
 
 1. Välj **[!UICONTROL People]** för målet _[!UICONTROL Action on]_.
 
@@ -34,7 +34,7 @@ Du kan ställa in textmeddelandeleveranser på en kontoresa när du lägger till
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   _Researney-innehållsdesignern_ öppnas och du kan skapa meddelandet och ange SMS-egenskaperna för att skicka meddelandet.
+   _Resurskartan_ öppnas och du kan skapa meddelandet och ange SMS-egenskaper för att skicka meddelandet.
 
 ### Skapa SMS-meddelandet
 
