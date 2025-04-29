@@ -2,7 +2,8 @@
 title: Vänta noder
 description: Lär dig mer om den typ av Wait-nod som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Du kan definiera väntetiden på två sätt:
 
 _Så här definierar du en väntenod för din kontoresa:_
 
-1. Navigera till reseeditorn.
+1. Navigera till resekartan.
 
 1. Klicka på plusikonen ( **+** ) på en bana och välj **[!UICONTROL Wait]**.
 

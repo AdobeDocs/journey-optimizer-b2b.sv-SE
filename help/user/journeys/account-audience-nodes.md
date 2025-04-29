@@ -3,16 +3,16 @@ title: Målgruppsnoder för konto
 description: Lär dig mer om vilken typ av kontomålsnod du kan använda för att definiera indata för kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
 # Nod för kundresa
 
-Noden Account publice definierar målgruppen för indatakontot (som skapas och hanteras i Adobe Experience Platform) för resan. När du [skapar en kontoresa](./journey-overview.md#create-an-account-journey) börjar den alltid med en _målgruppsnod_ som definierar resans indata.
+Noden Account publice definierar indatakontona för resan. När du [skapar en kontoresa](./journey-overview.md#create-an-account-journey) börjar den alltid med en _målgruppsnod_ som definierar resans indata.
 
 Det finns två typer av indata som du kan använda för den här noden:
 

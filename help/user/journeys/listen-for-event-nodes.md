@@ -3,7 +3,7 @@ title: Lyssna efter en händelse
 description: Läs mer om avlyssningen av en händelsnodtyp som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Lyssna efter en händelse som baseras på kontot när du vill flytta kontot fram
 
 ### Lägg till en kontohändelse
 
-1. Navigera till reseeditorn.
+1. Navigera till resekartan.
 
 1. Klicka på plusikonen ( **+** ) på en bana och välj **[!UICONTROL Listen for an event]**.
 
@@ -71,7 +71,7 @@ Lyssna efter en händelse som baseras på personer när du vill flytta kontot fr
 
 ### Lägg till en personhändelse
 
-1. Navigera till reseeditorn.
+1. Navigera till resekartan.
 
 1. Klicka på plusikonen ( **+** ) på en bana och välj **[!UICONTROL Listen for an event]**.
 
@@ -87,7 +87,7 @@ Lyssna efter en händelse som baseras på personer när du vill flytta kontot fr
 
 Om du har webbsidor som skapats i den anslutna Marketo Engage-instansen kan du utlösa en händelse som baseras på ett besök eller inget besök på Marketo Engage webbsidor, samt på Marketo Engage-formulär som fyllts i eller inte fyllts i.
 
-1. Välj en **[!UICONTROL Listen for an event]**-nod i reseredigeraren.
+1. Välj en **[!UICONTROL Listen for an event]**-nod på färdkartan.
 
 1. Välj **[!UICONTROL People]** som händelsetyp i nodegenskaperna till höger.
 
@@ -114,11 +114,11 @@ Om du har webbsidor som skapats i den anslutna Marketo Engage-instansen kan du u
 
 1. Om det behövs anger du alternativet **[!UICONTROL Timeout]** för att begränsa hur lång tid det tar att lyssna efter händelsen (se [Lägg till en timeout i en händelsnod](#add-a-timeout-to-an-event-node)).
 
-1. Lägg till nästa nod som ska köras när händelsen inträffar i reseredigeraren.
+1. Lägg till nästa nod som ska köras när händelsen inträffar i färdkartan.
 
 ### Lyssna efter en upplevelsehändelse
 
-Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). Att använda AEP-upplevelsehändelser i kontoresor är en tvåstegsprocess:
+Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). Att använda AEP Experience Events i kundresor är en tvåstegsprocess:
 
 1. [Skapa och publicera en AEP-händelsedefinition](../admin/configure-aep-events.md).
 
@@ -128,7 +128,7 @@ Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade hände
 
 _Så här tar du med en upplevelsehändelse i din resa:_
 
-1. Välj en **[!UICONTROL Listen for an event]**-nod i reseredigeraren.
+1. Välj en **[!UICONTROL Listen for an event]**-nod på färdkartan.
 
 1. Välj **[!UICONTROL People]** som händelsetyp i nodegenskaperna till höger.
 
@@ -160,7 +160,7 @@ _Så här tar du med en upplevelsehändelse i din resa:_
 
 1. Om det behövs anger du alternativet **[!UICONTROL Timeout]** för att begränsa hur lång tid det tar att lyssna efter händelsen (se [Lägg till en timeout i en händelsnod](#add-a-timeout-to-an-event-node)).
 
-1. Lägg till nästa nod som ska köras när händelsen inträffar i reseredigeraren.
+1. Lägg till nästa nod som ska köras när händelsen inträffar i färdkartan.
 
 1. Slutför de återstående noderna för din resa och [publicera den](./journey-overview.md).
 

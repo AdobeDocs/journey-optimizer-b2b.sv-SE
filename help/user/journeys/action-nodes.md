@@ -3,9 +3,9 @@ title: Gör något
 description: Läs mer om nodtypen Ta en åtgärd som du kan använda för att samordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Använd en åtgärd för konton när du vill använda en ändring för alla pers
 
 ### Lägg till en kontobaserad åtgärd
 
-1. Navigera till reseeditorn.
+1. Navigera till resekartan.
 
 1. Klicka på plusikonen ( **+** ) på en bana och välj **[!UICONTROL Take an action]**.
 
@@ -71,7 +71,7 @@ Använd en åtgärd för personer när du vill använda en ändring för alla pe
 
 ### Lägga till en personbaserad åtgärd
 
-1. Navigera till reseeditorn.
+1. Navigera till resekartan.
 
 1. Klicka på plusikonen ( **+** ) på en bana och välj **[!UICONTROL Take an action]**.
 
@@ -112,6 +112,10 @@ _Så här skapar du en extern målgrupp:_
 1. Klicka på **[!UICONTROL Create]**.
 
    Systemet skapar den nya målgruppen och visar ett bekräftelsemeddelande. Sedan kan du fortsätta att använda den som en befintlig målgrupp för nodåtgärden.
+
+   >[!NOTE]
+   >
+   >När en ny extern kundpublik skapas från Journey Optimizer B2B edition dirigeras den med en dummy-post (`test@email.com`). Den här posten skrivs över så snart den första riktiga profilen läggs till den externa publiken från resan.
 
 _Så här använder du en befintlig målgrupp:_
 

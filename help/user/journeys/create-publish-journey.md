@@ -3,7 +3,7 @@ title: Skapa och publicera en kontoresa
 description: Lär dig hur du skapar och publicerar kontoresor.
 feature: Account Journeys
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Skapa och publicera en kontoresa
 
-Om du vill komma igång med en kontoresa skapar du resan och skapar sedan noderna och reseflödet i reseeditorn.
+Om du vill komma igång med en kontoresa skapar du resan och skapar sedan noderna och reseflödet i färdkartan.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
@@ -50,7 +50,7 @@ För att hjälpa dig att bygga en resa utan att stöta på fel finns följande v
 
 ## Lägg till en nod
 
-1. Navigera till reseeditorn.
+1. Navigera till resekartan.
 
 1. Klicka på plusikonen ( **+** ) på sökvägen och välj nodtyp.
 
@@ -58,7 +58,7 @@ För att hjälpa dig att bygga en resa utan att stöta på fel finns följande v
 
 ## Ta bort en nod
 
-1. Navigera till reseeditorn.
+1. Navigera till resekartan.
 
 1. Klicka på ikonen _Ta bort_ ( ![Ta bort ikon](../assets/do-not-localize/icon-delete.svg) ) i nodegenskaperna till höger.
 
@@ -66,7 +66,7 @@ För att hjälpa dig att bygga en resa utan att stöta på fel finns följande v
 
 ## Lägga till och ta bort en bana
 
-1. Navigera till reseeditorn.
+1. Navigera till resekartan.
 
 1. Klicka på plusikonen ( **+** ) på sökvägen och lägg till den [delade sökvägsnoden](./split-merge-paths-nodes.md#split-paths).
 

@@ -2,9 +2,9 @@
 title: Dokumentation om Adobe Journey Optimizer B2B Edition
 description: Lär dig hur du använder Adobe Journey Optimizer B2B edition-funktionerna för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '719'
 ht-degree: 4%
 
 ---
@@ -13,9 +13,33 @@ ht-degree: 4%
 
 ## Vad är nytt?
 
-Här följer ett exempel på de senaste förbättringarna i Journey Optimizer B2B edition och dokumentation.
+Här följer ett exempel på de senaste tilläggen och förbättringarna i Journey Optimizer B2B edition-programmet och -dokumentationen.
 
 >[!BEGINTABS]
+
+>[!TAB Kontolistor]
+
+Skapa en kontolista, som är en samling namngivna konton som marknadsförare kan använda för riktad resesamordning. En kontolista kan ha namngivna konton som mål enligt dina definierade kriterier, t.ex. bransch, plats eller företagets storlek.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Läs mer om kontolistor"}
+
+>[!TAB Kontolistfilter för smarta listor]
+
+Nu kan du filtrera smarta Marketo Engage-listor med kontolistefilter. Med dessa filter kan ni utelämna och inkludera kontolistmedlemmar i Marketo Engage-kampanjer och program från kontoresor inom Journey Optimizer B2B edition.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program—member-of-account-list" tooltip="Läs mer om kontolistfilter som används i Marketo Engage smarta listor"}
+
+>[!TAB Inaktivitetshistorikfilter]
+
+Förloppsresor som bygger på inaktivitet i Marketo Engage kampanjer och program, inklusive e-post, intressanta ögonblick, förändringar av datavärdet och besökta webbsidor.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Läs om filter för inaktivitetshistorik"}
+
+>[!TAB Reseduplicering]
+
+Duplicera strukturen för kontoresan för att minimera manuella fel och säkerställa konsekventa inställningar, flöden och sökvägar. Under den duplicerade resan kan ni justera innehåll eller åtgärder, vilket gör det enklare att hantera större och mer komplexa &#x200B;.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-travel" tooltip="Lär dig mer om duplicering av resor"}
 
 >[!TAB Kontrollpanel för intelligenta insikter]
 
@@ -27,33 +51,15 @@ Med nya Intelligent Dashboard ser du hur det går för er att köpa upp gruppkva
 
 Använd Adobe Express Snabbåtgärder för att redigera innehållet med beskärning, storleksändring, borttagning av bakgrund och formatkonvertering. Det intuitiva användargränssnittet i Adobe Express är inbyggt så att du snabbt kan finjustera bildresurserna.
 
-Med Adobe Express Enterprise licensing kan ni utnyttja alla funktioner i Adobe Express. Använd dessa funktioner för att finputsa och förbättra bilder, samtidigt som ni följer varumärkesriktlinjerna och tar bort hinder i innehållsförsörjningskedjan.
+Med Adobe Express Enterprise licensing kan ni utnyttja alla funktioner i Adobe Express. Använd de här funktionerna för att finputsa och förbättra bilder, samtidigt som du följer varumärkesriktlinjerna och tar bort hinder i innehållsleveranskedjan.
 
 [!BADGE Läs mer]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Läs om bildredigering med Adobe Express"}
 
 >[!TAB Anpassningsbara fragmentfält]
 
-Som innehållsdesigner kan du ange en parameter för en komponent i fragmentet som redigerbar. Detta gör att e-postförfattaren eller mallskaparen kan ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar.
+Som innehållsdesigner kan du ange en parameter för en komponent i fragmentet som redigerbar. Med den här konfigurationen kan e-postförfattaren eller mallskaparen ange ett anpassat fältvärde som är specifikt för deras behov. Den här anpassningsflaggan är begränsad till visuella komponenter för bild, text och knappar.
 
 [!BADGE Läs mer]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Lär dig mer om anpassade fält för innehållsfragment"}
-
->[!TAB Vidarebefordran av AEP-händelser]
-
-Administratörer kan nu konfigurera Adobe Experience Platform-baserade (AEP) händelsedefinitioner. Med dessa konfigurationer kan marknadsförare skapa kontoresor som reagerar på AEP Experience Events.
-
-[!BADGE Läs mer]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Läs mer om AEP händelsedefinitioner för resesamordning"}
-
->[!TAB Buying group filters for smart lists]
-
-Nu kan du visa och skapa smarta listor med inköpsgruppsfilter i Marketo Engage. Med dessa filter kan ni inaktivera och inkludera köp av gruppmedlemmar för Marketo Engage-kampanjer och program från kontoresor inom Journey Optimizer B2B edition.
-
-[!BADGE Läs mer]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Läs om hur du köper gruppfilter som används i Marketo Engage smarta listor"}
-
->[!TAB Villkorligt innehåll]
-
-Använd villkorsstyrt innehåll för att anpassa e-postinnehållet baserat på villkorliga regler. Definiera reglerna med hjälp av profilattribut eller sammanhangsbaserade händelser. Du kan skapa villkorliga regler i regelbyggaren, och du kan lagra dem för återanvändning på alla dina kontoresor.
-
-[!BADGE Läs mer]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Läs om villkorat innehåll"}
 
 >[!ENDTABS]
 
@@ -64,15 +70,15 @@ En fullständig lista över nya funktioner och förbättringar finns i [versions
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="Produktanvändningsstart"></a>
+    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="Produktanvändningsstart"></a>
     <div><strong>Starta från startsidan</strong><br/>Lär dig hur du uppnår dina mål snabbare i Journey Optimizer B2B edition med en anpassad hemsida baserad på din roll.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Köpgrupper"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="Köpgrupper"></a>
     <div><strong>Bygg din första inköpsgrupp</strong><br/>Skapa din första inköpsgrupp i Journey Optimizer B2B edition för att automatisera processen med engagerande och kvalificerade kontakter.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Kontoresor"></a>
+    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Kontoresor"></a>
     <div><strong>Skapa din första kontoresa</strong><br/>Designa och samordna personaliserade kontoresor för att harmonisera marknadsföringsaktiviteter med målinriktat engagemang. 
     </div>
     </td>

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 19%
+source-wordcount: '255'
+ht-degree: 21%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 19%
    + [SMS-redigering](./content/sms-authoring.md)
 + Konton {#accounts}
    + [Målgrupper](./audiences/account-audience-overview.md)
-   + Köper grupper {#buying-groups}
+   + Köpgrupper {#buying-groups}
       + [Översikt](./buying-groups/buying-groups-overview.md)
       + [Lösningsintressen](./buying-groups/solution-interests.md)
       + [Rollmallar](./buying-groups/buying-groups-role-templates.md)
@@ -54,7 +54,9 @@ ht-degree: 19%
       + [Exportera kontolista](./audiences/account-list-export.md)
       + [LinkedIn-konto matchar målgrupper](./data/linkedin-account-matched-audiences.md)
       + [Köpa gruppfilter i Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
-   + [Kontolistor](./accounts/account-lists.md)
+   + Kontolistor {#occount-lists}
+      + [Översikt](./accounts/account-lists.md)
+      + [Användning under resor och program](./accounts/account-lists-journeys.md)
    + [Kontoinformation](./accounts/account-details.md)
    + [XDM-fält](./data/field-mapping.md)
 + Innehållshantering {#content-management}
@@ -87,7 +89,7 @@ ht-degree: 19%
    + [Översikt över engagemang](./dashboards/engagement-dashboard.md)
    + [Översikt över inköpsgrupper](./dashboards/buying-groups-dashboard.md)
    + [Översikt över kontoresor](./dashboards/journeys-dashboard.md)
-+ Administration {#admin}
++ Administrering {#admin}
    + [Användarhantering](./admin/user-management.md)
    + [Återgivningsdata](./admin/intent-data.md)
    + Kanaler {#channels}

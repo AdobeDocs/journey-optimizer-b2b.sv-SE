@@ -1,23 +1,26 @@
 ---
 title: Kontolistor
 description: Lär dig mer om kontolistor och hur marknadsförare kan använda dem för att rikta konton via kontoresor.
-badgeBeta: label="Begränsad tillgänglighet" type="informative" tooltip="Den här funktionen är för närvarande endast tillgänglig på begäran"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
+source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
 
 # Kontolistor
 
-En kontolista är en samling namngivna konton som marknadsförare kan använda för riktad resesamordning. En kontolista kan ha namngivna konton som mål enligt dina definierade kriterier, t.ex. bransch, plats eller företagets storlek. Det finns två typer av kontolistor:
+I Journey Optimizer B2B edition är en kontolista en samling namngivna konton som marknadsförare kan använda för riktad resesamordning. En kontolista kan ha namngivna konton som mål enligt dina definierade kriterier, t.ex. bransch, plats eller företagets storlek. Det finns två typer av kontolistor:
 
 * **Statisk** - Med en statisk kontolista ändras listan bara när du lägger till kontona. Du kan lägga till konton manuellt genom att använda en filteruppsättning för att fylla i listan baserat på aktuella kontodata eller lägga till och ta bort konton under en kontoresa.
 * **Dynamisk** - Med en dynamisk kontolista definierar du en filteruppsättning som automatiskt väljer listan. Systemet använder den här filteruppsättningen för att lägga till och ta bort konton efter ändringar i kontoinformationen. Den här listhanteringen liknar [målgruppssegmentering i kunddataplattformen ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b) i realtid.
 
-När en kontolista är i läget _Live_ (publicerad) är den tillgänglig för användning i kontoresor.
+När en kontolista är i läget _Live_ (publicerad) är den tillgänglig för [användning i kontoresor och Marketo Engage-program](./account-lists-journeys.md).
+
+>[!NOTE]
+>
+>Kontolistor använder kontodata från Marketo Engage för att skapa kontosegment och listor. Det innebär att om ett kontosegment från Adobe Experience Platform inte är aktivt synkroniserat till Marketo Engage är konton i det Experience Platform-segmentet kanske inte tillgängliga i Journey Optimizer B2B edition-kontolistor. Därefter kan personer från konton i Experience Plafrom-segment som inte synkroniseras med Marketo Engage inte inkluderas i antalet personliga medlemskap eller räknas i utlösarhändelser.
 
 ## Få åtkomst till och bläddra bland kontolistor
 
@@ -170,65 +173,3 @@ Du kan publicera en dynamisk kontolista så snart filteruppsättningen är klar.
 Status för den dynamiska kontolistan ändras till _[!UICONTROL Live]_och är tillgänglig för [användning i en kontoresa](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
-
-## Kontolisteanvändning i kontoresor
-
-Det finns tre sätt att lägga in Live-kontolistor (publicerade) på dina kontoresor:
-
-### Målgruppsnod
-
-1. Välj **[!UICONTROL Account list]** för den inledande _målgruppsnoden_.
-
-   ![Välj kontolistealternativ för kontominnesnod](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. Klicka på **[!UICONTROL Add accounts list]**.
-
-1. Markera kryssrutan för kontolistan och klicka på **[!UICONTROL Save]**.
-
-   ![Välj kontolistealternativ för kontominnesnod](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-Kontona i listan rör sig genom resan när den blir aktiv (publicerad).
-
-### Vidta en åtgärdsnod - Lägg till i konto
-
-**_Statiska konton listar bara_**
-
-Lägg till konton i en statisk kontolista med [a _Ta en åtgärd_-nod](../journeys/action-nodes.md).
-
-Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa konton utför olika åtgärder som svar på en åtgärd. Du ser den här aktiviteten som en kvalifikationspunkt under resan och vill lägga till dem i en kontolista som används som målgrupp för en annan resa med ett annat flöde för kvalificerade konton.
-
->[!NOTE]
->
->Om ett konto redan finns i listan när noden körs, ignoreras åtgärden.
-
-1. Välj alternativet _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
-
-1. Välj **[!UICONTROL Add to account list]** för _[!UICONTROL Action on accounts]_.
-
-   ![Välj Lägg till i kontolistan](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. För **[!UICONTROL Select live static account list]** väljer du den kontolista där du vill lägga till konton.
-
-   ![Välj Lägg till i kontolistan](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### Vidta en åtgärdsnod - Ta bort från konto
-
-**_Statiska konton listar bara_**
-
-Ta bort konton från en statisk kontolista med [a _Ta en åtgärd_-nod](../journeys/action-nodes.md).
-
-Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa konton utför olika åtgärder som svar på en åtgärd. Du ser den här aktiviteten som en kvalifikationspunkt under resan och vill ta bort dem från en kontolista som används som målgrupp för en annan resa som skickar ytterligare e-postmeddelanden så att du inte duplicerar din kvalificeringskommunikation.
-
->[!NOTE]
->
->Om ett konto inte finns i listan där det är schemalagt för borttagning, ignoreras åtgärden.
-
-1. Välj alternativet _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
-
-1. Välj **[!UICONTROL Remove from account list]** för _[!UICONTROL Action on accounts]_.
-
-   ![Välj Lägg till i kontolistan](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. För **[!UICONTROL Select live static account list]** väljer du den kontolista där du vill ta bort konton.
-
-   ![Välj Lägg till i kontolistan](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
