@@ -2,9 +2,9 @@
 title: Versionsinformation
 description: Senaste versionsinformationen för Adobe Journey Optimizer B2B-version
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f4c0870e3cf8a8c1db3ed2f11f7ecfdf244f69fe
+source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1988'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | ---- | ---- | ----------- |
 | Funktion | Kontolistor | Nu kan du skapa en statisk eller dynamisk kontolista för att rikta in namngivna konton efter dina definierade kriterier, till exempel bransch, plats eller företagets storlek. <a href="../accounts/account-lists.md">Läs mer</a> |
 | Funktion | Resesamordning för kontolista | Använd noder för reseåtgärder för att lägga till och ta bort konton för statiska kontolistor. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Läs mer</a> |
-| Förbättring | Filtrera resemedlemskap i Marketo Engage | Använd Adobe Journey Optimizer B2B edition-kontolistor för kundresan och använd sedan filtret _Medlem i en kontolista_ i Marketo Engage smarta listor. &lt;a href=&quot;../accounts/account-lists-journeys.md#marketo-engage-program—member-of-account-list>Läs mer</a> |
+| Förbättring | Filtrera resemedlemskap i Marketo Engage | Använd Adobe Journey Optimizer B2B edition-kontolistor för kundresan och använd sedan filtret _Medlem i en kontolista_ i Marketo Engage smarta listor. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Läs mer</a> |
 | Funktion | Inaktivitetsfilter | Samordna resor baserat på inaktivitet inom Marketo Engage kampanjer och program, inklusive inaktivitet via e-post, intressanta ögonblick, förändringar av datavärde och besökta webbsidor. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Läs mer</a> |
 | Förbättring | Webbsidesfilter | Samordna resor baserat på aktiviteter för besökta webbsidor som är kopplade till Marketo Engage kampanjer och program. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Läs mer</a> |
 
