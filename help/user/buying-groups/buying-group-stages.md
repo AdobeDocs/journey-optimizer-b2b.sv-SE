@@ -364,4 +364,4 @@ Använd förekomsten av en ändring av inköpsgruppfas för att flytta kontot fr
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448698/?learn=on&captions=swe)

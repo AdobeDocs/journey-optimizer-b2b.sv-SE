@@ -101,4 +101,4 @@ Eventuella lösningsintressen som för närvarande används av ett inköpsgrupps
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3450117/?learn=on&captions=swe)
