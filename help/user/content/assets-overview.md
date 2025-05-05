@@ -34,7 +34,7 @@ Samla marknadsförings- och kreativa arbetsflöden med Adobe Experience Manager 
 
 Adobe Journey Optimizer B2B edition kan ansluta till Adobe Experience Manager Assets as a Cloud Service för centraliserad resurshantering som utökar ert kreativa system och sammanför digitala resurser för leverans av upplevelser. Adobe Experience Manager Assets as a Cloud Service är en lättanvänd molnlösning för effektiv hantering av digitala resurser och Dynamic Media-åtgärder. Programmet innehåller smidigt avancerade funktioner, bland annat artificiell intelligens och maskininlärning.
 
-Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview).
+Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/overview).
 
 {{aem-assets-licensing-note}}
 

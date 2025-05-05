@@ -118,7 +118,7 @@ Om du har webbsidor som skapats i den anslutna Marketo Engage-instansen kan du u
 
 ### Lyssna efter en upplevelsehändelse
 
-Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent). Att använda AEP Experience Events i kundresor är en tvåstegsprocess:
+Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent). Att använda AEP Experience Events i kundresor är en tvåstegsprocess:
 
 1. [Skapa och publicera en AEP-händelsedefinition](../admin/configure-aep-events.md).
 

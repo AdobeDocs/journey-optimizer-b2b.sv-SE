@@ -53,4 +53,4 @@ _Så här skapar du ett målgruppssegment:_
 
    ![Skapa ett målgruppssegment](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Följ stegen som beskrivs i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
+1. Följ stegen som beskrivs i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.

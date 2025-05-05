@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # AI Assistant i Journey Optimizer B2B edition
 
-AI Assistant i Journey Optimizer B2B edition skapas från samma tekniska grund som [AI Assistant i Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home). Det är en samtalsupplevelse som du kan använda för att snabba upp arbetsflödena i Adobe Journey Optimizer B2B edition. Du kan använda AI Assistant för att få mer förståelse för produktens funktioner, felsöka problem eller söka igenom information och hitta operativa insikter för Journey Optimizer B2B Edition.
+AI Assistant i Journey Optimizer B2B edition skapas från samma tekniska grund som [AI Assistant i Adobe Experience Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home). Det är en samtalsupplevelse som du kan använda för att snabba upp arbetsflödena i Adobe Journey Optimizer B2B edition. Du kan använda AI Assistant för att få mer förståelse för produktens funktioner, felsöka problem eller söka igenom information och hitta operativa insikter för Journey Optimizer B2B Edition.
 
 >[!IMPORTANT]
 >
@@ -77,9 +77,9 @@ För frågor om operativa insikter kanske svaren inte återspeglar det aktuella 
 
 För närvarande är omfattningen av AI Assistant följande:
 
-* [Produktkunskap](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge): AI Assistant kan svara på frågor om produktkunskap för Real-Time Customer Data Platform och Adobe Journey Optimizer B2B Edition.
+* [Produktkunskap](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home#product-knowledge): AI Assistant kan svara på frågor om produktkunskap för Real-Time Customer Data Platform och Adobe Journey Optimizer B2B Edition.
 
-* [Driftsinsikter](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights): Du kan ställa frågor till AI Assistant om operativa insikter för följande dataobjekt: attribut, kontomålgrupper, dataflöden, datauppsättningar, destinationer, kontoresor, scheman, källor, köp av gruppmallar och lösningsintressen.
+* [Driftsinsikter](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home#operational-insights): Du kan ställa frågor till AI Assistant om operativa insikter för följande dataobjekt: attribut, kontomålgrupper, dataflöden, datauppsättningar, destinationer, kontoresor, scheman, källor, köp av gruppmallar och lösningsintressen.
 
 ### Integritet, säkerhet och styrning
 
@@ -91,7 +91,7 @@ AI Assistant i Journey Optimizer B2B edition har tagits fram med sekretess, säk
 
 * Du måste ha uttrycklig behörighet att interagera med AI Assistant.
 
-   * En administratör kan ange behörigheter med [behörighetsgränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) och [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse).
+   * En administratör kan ange behörigheter med [behörighetsgränssnittet](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/permissions) och [Admin Console](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/ui/browse).
 
    * Behörigheterna är detaljerade och din sandlådeadministratör kan konfigurera vilka användare som kan ställa olika frågekategorier (produktkunskapsbaserade frågor med AI Assistant eller frågor om driftsinsikter).
 
