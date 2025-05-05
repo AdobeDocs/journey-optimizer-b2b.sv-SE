@@ -71,7 +71,7 @@ När du [lägger till en e-poståtgärd](./email-authoring.md#add-an-email-actio
 
 1. Skapa ett e-postmeddelande från en kontoresa eller öppna ett befintligt e-postmeddelande från en kundnod.
 
-   E-postförhandsgranskningssidan visas med _[!UICONTROL Email properties]_till höger.
+   E-postförhandsgranskningssidan visas med _[!UICONTROL Email properties]_&#x200B;till höger.
 
 1. Välj någon av följande flikar för att lära dig hur du använder AI Assistant när du skapar e-postegenskaper.
 
@@ -81,7 +81,7 @@ När du [lägger till en e-poståtgärd](./email-authoring.md#add-an-email-actio
 
 I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant för att generera en optimerad ämnesrad för e-postmeddelandet:
 
-1. I _[!UICONTROL Email Properties]_klickar du på AI Assistant-ikonen ( ![ AI Assistant-ikon ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger om fältet **[!UICONTROL Subject line]**.
+1. I _[!UICONTROL Email Properties]_&#x200B;klickar du på AI Assistant-ikonen ( ![ AI Assistant-ikon ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger om fältet **[!UICONTROL Subject line]**.
 
    ![AI Assistant-åtkomst till ämnesrad för e-post](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -260,7 +260,7 @@ I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant
 
 1. Klicka på **[!UICONTROL Select]** om du vill ersätta mallinnehållet med den valda varianten och återgå till e-postdesignern.
 
-   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
+   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
 
 >[!TAB Textgenerering]
 
@@ -316,7 +316,7 @@ I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant
 
 1. När du har önskat innehåll klickar du på **[!UICONTROL Select]** för att ersätta texten med den valda varianten och återgå till e-postdesignern.
 
-   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra texten, samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
+   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra texten, samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
 
 >[!TAB Bildrekommendationer]
 
@@ -358,12 +358,12 @@ Du kan använda AI Assistant för att optimera och förbättra dina resurser och
    >
    >Om det inte finns några bilder i varumärkesresursen för indata eller om det inte finns några bilder som är relevanta för indatarameddelandet, är utdata tomma.
 
-1. Bläddra igenom _[!UICONTROL Variations]_och välj den som passar bäst för e-postmeddelandet.
+1. Bläddra igenom _[!UICONTROL Variations]_&#x200B;och välj den som passar bäst för e-postmeddelandet.
 
    Om du vill visa en fullskärmsversion av den valda varianten klickar du på **[!UICONTROL Preview]**.
 
 1. Markera bilden som du vill använda och klicka på **[!UICONTROL Select]** för att ersätta bilden eller platshållaren med det valda objektet och återgå till e-postdesignern.
 
-   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
+   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
 
 >[!ENDTABS]

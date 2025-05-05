@@ -38,7 +38,7 @@ Du kan skapa en e-postmall från e-postmallens listsida genom att klicka på **[
 
 1. Klicka på **[!UICONTROL Create]**.
 
-Sidan _[!UICONTROL Design your template]_öppnas och innehåller flera alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_eller_[!UICONTROL Select design template]_.
+Sidan _[!UICONTROL Design your template]_&#x200B;öppnas och innehåller flera alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_&#x200B;eller&#x200B;_[!UICONTROL Select design template]_.
 
 ![Välj hur du vill börja med din e-postmallsdesign](./assets/templates-create-design.png){width="800" zoomable="yes"}
 

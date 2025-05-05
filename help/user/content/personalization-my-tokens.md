@@ -35,7 +35,7 @@ _Så här kommer du åt anpassade tokens för en kontoresa:_
 
 ### Skapa en token
 
-1. Klicka på **[!UICONTROL Create]** på sidan _[!UICONTROL My Tokens]_och välj den tokentyp som du vill definiera:
+1. Klicka på **[!UICONTROL Create]** på sidan _[!UICONTROL My Tokens]_&#x200B;och välj den tokentyp som du vill definiera:
 
    * **[!UICONTROL Text]** - Använd den här typen för att definiera en token med ett grundläggande textsträngsvärde.
 
@@ -57,7 +57,7 @@ _Så här kommer du åt anpassade tokens för en kontoresa:_
 
 Medan kontoresan är i utkaststatus kan du redigera alla definierade Mina token.
 
-1. På sidan _[!UICONTROL My Tokens]_klickar du på ikonen_ Fler åtgärder _(**...**) bredvid tokennamnet och väljer **[!UICONTROL Edit]**.
+1. På sidan _[!UICONTROL My Tokens]_&#x200B;klickar du på ikonen_ Fler åtgärder _(**...**) bredvid tokennamnet och väljer **[!UICONTROL Edit]**.
 
    ![Menyn Fler tokenåtgärder](./assets/my-tokens-more-actions.png){width="430"}
 
@@ -71,7 +71,7 @@ Medan kontoresan är i utkaststatus kan du redigera alla definierade Mina token.
 
 Du kan ta bort en anpassad token från listan _Mina token_, men du bör se till att den inte används för närvarande i ditt e-postinnehåll för resan.
 
-1. På sidan _[!UICONTROL My Tokens]_klickar du på ikonen_ Fler åtgärder _(**...**) bredvid tokennamnet och väljer **[!UICONTROL Delete]**.
+1. På sidan _[!UICONTROL My Tokens]_&#x200B;klickar du på ikonen_ Fler åtgärder _(**...**) bredvid tokennamnet och väljer **[!UICONTROL Delete]**.
 
 1. Klicka på **[!UICONTROL Delete]** i bekräftelsedialogrutan.
 
@@ -83,7 +83,7 @@ När du skapar e-postinnehåll för din kontoresa kan du använda någon av toke
 
    ![Klicka på ikonen Lägg till anpassning](./assets/email-personalize-text.png){width="600"}
 
-   Den här åtgärden öppnar dialogrutan _Redigera Personalization_. Dialogrutan innehåller en _[!UICONTROL My tokens]_-mapp i_[!UICONTROL Personalization Tokens]_-biblioteket om det finns anpassade tokens definierade för kontoresan.
+   Den här åtgärden öppnar dialogrutan _Redigera Personalization_. Dialogrutan innehåller en _[!UICONTROL My tokens]_-mapp i&#x200B;_[!UICONTROL Personalization Tokens]_-biblioteket om det finns anpassade tokens definierade för kontoresan.
 
 1. Expandera mappen **[!UICONTROL My tokens]** och klicka sedan på **+** eller **...** för att lägga till en av dina anpassade tokens i det tomma utrymmet.
 

@@ -22,7 +22,7 @@ Du kan konfigurera e-postleveranser på en kontoresa när du lägger till en _[!
 1. Välj **[!UICONTROL Send email]** för _[!UICONTROL Action on people]_.
 1. Välj **[!UICONTROL Create new email]** för _[!UICONTROL Email source]_.
 
-   Du kan också välja alternativet _[!UICONTROL Select email from Adobe Marketo Engage]_om du vill använda ett av de redan skapade e-postmeddelandena i Marketo Engage och skicka det som en del av kontoresan.
+   Du kan också välja alternativet _[!UICONTROL Select email from Adobe Marketo Engage]_&#x200B;om du vill använda ett av de redan skapade e-postmeddelandena i Marketo Engage och skicka det som en del av kontoresan.
 
    >[!NOTE]
    >
@@ -38,7 +38,7 @@ Du kan konfigurera e-postleveranser på en kontoresa när du lägger till en _[!
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   Fälten _[!UICONTROL From email]_och_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+   Fälten _[!UICONTROL From email]_&#x200B;och&#x200B;_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
 ## Skapa e-postinnehåll
 
@@ -131,7 +131,7 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -147,7 +147,7 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 
 >[!NOTE]
 >
->Om _[!UICONTROL My Tokens]_har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
+>Om _[!UICONTROL My Tokens]_&#x200B;har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
 
 ### Redigera länkad URL-spårning
 
@@ -165,7 +165,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i den vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_högst upp i e-postdesignern kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignern kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/email-designer-more-menu.png){width="500"}
 

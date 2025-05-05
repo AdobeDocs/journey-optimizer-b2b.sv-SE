@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Resedetaljer
 
-När du klickar på namnet för en aktiv kontoresa visas reseinformationen. Fliken _[!UICONTROL Overview]_innehåller användbar information om resan, inklusive generativa AI-sammanfattningar.
+När du klickar på namnet för en aktiv kontoresa visas reseinformationen. Fliken _[!UICONTROL Overview]_&#x200B;innehåller användbar information om resan, inklusive generativa AI-sammanfattningar.
 
 Den här instrumentpanelen ger en omfattande översikt över en vald kontoresa, med detaljerad information om kontostatus med hjälp av cirkel- och linjediagram som kategoriserar och kvantifierar slutföranden, pågående aktiviteter och avbryter över tid. Det hjälper marknadsförarna att utvärdera hur effektiva e-post- och SMS-kanalerna är med hjälp av nyckeltal för leverans och engagemang.
 
@@ -68,7 +68,7 @@ Engagera dig ytterligare med data genom att använda åtgärdsikonen (**...**) i
 
 ### Detaljgranskning
 
-För diagrammet _[!UICONTROL Journey status]_väljer du **[!UICONTROL Drill through]**för en ingående analys av enskilda kontostatusar.
+För diagrammet _[!UICONTROL Journey status]_&#x200B;väljer du **[!UICONTROL Drill through]**&#x200B;för en ingående analys av enskilda kontostatusar.
 
 ![Detaljnivån för diagramdata](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--

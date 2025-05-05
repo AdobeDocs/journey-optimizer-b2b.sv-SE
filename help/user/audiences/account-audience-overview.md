@@ -40,13 +40,13 @@ Definiera målgruppen genom att skapa en kontosegmentering. Du kan skapa kontose
 
 1. Skapa segmentdefinitionen.
 
-   Kontoattributen och målgrupperna visas i det vänstra navigeringsfältet. På fliken _[!UICONTROL Attributes]_kan du lägga till både plattformsskapade och anpassade attribut. Dra varje attribut för att skapa logiken för segmentet.
+   Kontoattributen och målgrupperna visas i det vänstra navigeringsfältet. På fliken _[!UICONTROL Attributes]_&#x200B;kan du lägga till både plattformsskapade och anpassade attribut. Dra varje attribut för att skapa logiken för segmentet.
 
    >[!TIP]
    >
-   >När du skapar en kontopublik ska du vara medveten om att händelser listas under _[!UICONTROL People]_eftersom dessa attribut är kopplade till personer.<br/>
+   >När du skapar en kontopublik ska du vara medveten om att händelser listas under _[!UICONTROL People]_&#x200B;eftersom dessa attribut är kopplade till personer.<br/>
    >
-   >Under fliken _[!UICONTROL Audiences]_kan du lägga till tidigare skapade personbaserade målgrupper som du kan bygga vidare på när du skapar en egen målgrupp.
+   >Under fliken _[!UICONTROL Audiences]_&#x200B;kan du lägga till tidigare skapade personbaserade målgrupper som du kan bygga vidare på när du skapar en egen målgrupp.
 
    I följande exempel definieras målgrupper som skapats med `Country Code`, `Revenue Amount` och `Market segment`. Frågan på engelska skulle vara:&quot;Jag vill ha alla konton i USA som finns i finanssegmentet vars intäkter överstiger 1 miljon dollar.&quot;
 
@@ -56,7 +56,7 @@ Definiera målgruppen genom att skapa en kontosegmentering. Du kan skapa kontose
    >[!IMPORTANT]
    >
    >Attributet `Account Name` för kontoposter måste innehålla ett värde som ska inkluderas i kontoresor. Om det här attributet är tomt (null) är kontoposten uteslutits.<br/>
-   >Om du vill vara säker på att endast konton med ett kontonamn som inte är tomt inkluderas lägger du till attributet **[!UICONTROL Account Name]** och väljer _[!UICONTROL exists]_som matchningsvillkor.<br/>
+   >Om du vill vara säker på att endast konton med ett kontonamn som inte är tomt inkluderas lägger du till attributet **[!UICONTROL Account Name]** och väljer _[!UICONTROL exists]_&#x200B;som matchningsvillkor.<br/>
    >![Attributet för kontonamn finns](./assets/audience-segment-builder-account-name-exists.png){width="600"}
    ><br/>Om du använder ett anpassat attribut för kontonamnet använder du ditt anpassade attributnamn i stället för _[!UICONTROL Account Name]_.
 

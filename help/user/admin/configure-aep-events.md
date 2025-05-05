@@ -75,7 +75,7 @@ Tänk på följande när du skapar och hanterar händelsedefinitioner för att u
 
 ### Händelsedefinitionsstatus och livscykel
 
-I listan _[!UICONTROL Event definitions]_anger kolumnen **[!UICONTROL Status]**aktuell status för varje definition. Statusen avgör om den är tillgänglig för användning på kontoresor och vilka ändringar du kan göra i den.
+I listan _[!UICONTROL Event definitions]_&#x200B;anger kolumnen **[!UICONTROL Status]**&#x200B;aktuell status för varje definition. Statusen avgör om den är tillgänglig för användning på kontoresor och vilka ändringar du kan göra i den.
 
 | Status | Beskrivning |
 | -------------------- | ----------- |
@@ -151,7 +151,7 @@ När du är säker på att definitionen av en utkasthändelse är fullständig o
 
 1. Klicka på **[!UICONTROL Events]** på den mellanliggande panelen för att visa listan över händelsedefinitioner.
 
-1. I listan _[!UICONTROL Event definitions]_klickar du på namnet på definitionen av utkasthändelsen för att öppna informationssidan.
+1. I listan _[!UICONTROL Event definitions]_&#x200B;klickar du på namnet på definitionen av utkasthändelsen för att öppna informationssidan.
 
    ![Öppna definitionen för utkastshändelsen](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
 
@@ -181,7 +181,7 @@ När du är säker på att definitionen av en utkasthändelse är fullständig o
 
    ![Den nya definitionen av utkasthändelsen finns på sidan](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-1. Öppna händelsedefinitionsnamnet från listsidan _[!UICONTROL Event definitions]_genom att klicka på det.
+1. Öppna händelsedefinitionsnamnet från listsidan _[!UICONTROL Event definitions]_&#x200B;genom att klicka på det.
 
 Följ stegen enligt status:
 

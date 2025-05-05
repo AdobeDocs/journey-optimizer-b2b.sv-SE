@@ -71,11 +71,11 @@ På listsidan _Assets_ kan du lägga till bildresurser på arbetsytan i Journey 
 
 1. Klicka på **[!UICONTROL Add Assets]** överst till höger.
 
-1. I dialogrutan _[!UICONTROL Add assets]_drar och släpper du en eller flera filer från systemet till filrutan.
+1. I dialogrutan _[!UICONTROL Add assets]_&#x200B;drar och släpper du en eller flera filer från systemet till filrutan.
 
    ![Lägg till resurser på en arbetsyta](./assets/assets-add-dialog.png){width="500"}
 
-   Du kan också klicka på länken _[!UICONTROL Select a file from your computer]_om du vill använda ditt lokala filsystem för att söka efter och välja filer.
+   Du kan också klicka på länken _[!UICONTROL Select a file from your computer]_&#x200B;om du vill använda ditt lokala filsystem för att söka efter och välja filer.
 
    Du kan överföra resurser från ditt lokala system på upp till 10 filer i taget. Den maximala filstorleken är 100 MB.
 
@@ -85,7 +85,7 @@ På listsidan _Assets_ kan du lägga till bildresurser på arbetsytan i Journey 
 
    >[!NOTE]
    >
-   >Om du väljer en plats på arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_kan du hantera resursen i appen. Om du lägger till resursen på en Marketo Engage-arbetsyta är resurshanteringsfunktionerna bara tillgängliga från Marketo Engage Design Studio.
+   >Om du väljer en plats på arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;kan du hantera resursen i appen. Om du lägger till resursen på en Marketo Engage-arbetsyta är resurshanteringsfunktionerna bara tillgängliga från Marketo Engage Design Studio.
 
 1. Om du vill skriva över (ersätta) filer när du överför en eller flera filer med ett befintligt filnamn markerar du kryssrutan **[!UICONTROL Overwrite existing files]**.
 
@@ -101,13 +101,13 @@ Använd någon av följande metoder för att ta bort en resurs som finns på arb
 
   ![Åtkomståtgärder för resursen](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
-* Klicka på ikonen _Mer_ (**[!UICONTROL ...]**) bredvid resursobjektet på listsidan _[!UICONTROL Assets]_och välj **[!UICONTROL Delete]**bland alternativen.
+* Klicka på ikonen _Mer_ (**[!UICONTROL ...]**) bredvid resursobjektet på listsidan _[!UICONTROL Assets]_&#x200B;och välj **[!UICONTROL Delete]**&#x200B;bland alternativen.
 
   ![Åtkomståtgärder för resursen](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
   >[!NOTE]
   >
-  >Endast resurser som finns på arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_har funktioner för resurshantering tillgängliga på menyn_ Mer _.
+  >Endast resurser som finns på arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;har funktioner för resurshantering tillgängliga på menyn_ Mer _.
 
 Åtgärden öppnar en bekräftelsedialogruta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]** eller klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
@@ -119,9 +119,9 @@ Använd någon av följande metoder för att ersätta en resurs som finns på ar
 
 * Gå till resursinformationen, klicka på **[!UICONTROL ... More]** längst upp till höger och välj **[!UICONTROL Replace]** bland alternativen.
 
-* Klicka på ikonen _Mer_ (**[!UICONTROL ...]**) bredvid resursobjektet på listsidan _[!UICONTROL Assets]_och välj **[!UICONTROL Replace]**bland alternativen.
+* Klicka på ikonen _Mer_ (**[!UICONTROL ...]**) bredvid resursobjektet på listsidan _[!UICONTROL Assets]_&#x200B;och välj **[!UICONTROL Replace]**&#x200B;bland alternativen.
 
-I dialogrutan _[!UICONTROL Replace asset]_drar och släpper du ersättningsfilen från systemet till filrutan. Du kan också klicka på länken_[!UICONTROL Select a file from your computer]_ om du vill använda det lokala filsystemet för att välja en fil. (Om du markerar flera filer i det lokala systemet används den första filen som är markerad för att ersätta dem.)
+I dialogrutan _[!UICONTROL Replace asset]_&#x200B;drar och släpper du ersättningsfilen från systemet till filrutan. Du kan också klicka på länken&#x200B;_[!UICONTROL Select a file from your computer]_ om du vill använda det lokala filsystemet för att välja en fil. (Om du markerar flera filer i det lokala systemet används den första filen som är markerad för att ersätta dem.)
 
 ![Dialogrutan Ersätt resurs](./assets/assets-replace-dialog.png){width="500"}
 
@@ -135,7 +135,7 @@ Du kan hämta en resurs på något av följande sätt:
 
 * Gå till resursinformationen och klicka på **[!UICONTROL Download]** längst upp till höger.
 
-* Klicka på _Ellipsen_ (**[!UICONTROL ...]**) bredvid resursobjektet på listsidan _[!UICONTROL Assets]_och välj **[!UICONTROL Download]**bland alternativen.
+* Klicka på _Ellipsen_ (**[!UICONTROL ...]**) bredvid resursobjektet på listsidan _[!UICONTROL Assets]_&#x200B;och välj **[!UICONTROL Download]**&#x200B;bland alternativen.
 
 I bekräftelsedialogrutan klickar du på **[!UICONTROL Download]** för att påbörja hämtningen av resursen till ditt lokala system. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]**.
 
@@ -155,7 +155,7 @@ Du kan utföra följande gruppåtgärder för markerade resurser på arbetsytan 
 
 1. Välj en mapp.
 
-   Sökvägen bredvid _[!UICONTROL Selected assets will move to:]_reflekterar ändringen.
+   Sökvägen bredvid _[!UICONTROL Selected assets will move to:]_&#x200B;reflekterar ändringen.
 
 1. Klicka på **[!UICONTROL Move]**.
 
@@ -189,7 +189,7 @@ Du kan utföra följande gruppåtgärder för markerade resurser på arbetsytan 
 
 ## Använda åtgärder på mappnivå
 
-I arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_kan du tillämpa åtgärder på en mapp eller resurser i mappen. Klicka på ikonen_ Mer _(**..**) bredvid mappen för att visa de åtgärder som du kan tillämpa på den.
+I arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;kan du tillämpa åtgärder på en mapp eller resurser i mappen. Klicka på ikonen_ Mer _(**..**) bredvid mappen för att visa de åtgärder som du kan tillämpa på den.
 
 ![Tillämpa åtgärder på en mapp eller resurser i mappen](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 

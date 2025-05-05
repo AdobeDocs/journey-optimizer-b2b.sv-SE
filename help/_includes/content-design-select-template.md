@@ -14,9 +14,9 @@ Du kan välja mellan:
 
 * **Exempelmallar**. Journey Optimizer-gränssnittet innehåller 20 färdiga e-postmallar som du kan välja bland.
 
-* **Sparade mallar**. Använd en sparad anpassad mall som du antingen har skapat från grunden via menyn _[!UICONTROL Templates]_eller sparat från ett e-postmeddelande under en resa med alternativet_[!UICONTROL Save as content template]_ .
+* **Sparade mallar**. Använd en sparad anpassad mall som du antingen har skapat från grunden via menyn _[!UICONTROL Templates]_&#x200B;eller sparat från ett e-postmeddelande under en resa med alternativet&#x200B;_[!UICONTROL Save as content template]_ .
 
-Använd avsnittet _[!UICONTROL Select design template]_för att börja skapa innehåll från en mall. Du kan använda en exempelmall eller en sparad anpassad e-postmall från din Journey Optimizer B2B Edition-instans.
+Använd avsnittet _[!UICONTROL Select design template]_&#x200B;för att börja skapa innehåll från en mall. Du kan använda en exempelmall eller en sparad anpassad e-postmall från din Journey Optimizer B2B Edition-instans.
 
 >[!BEGINTABS]
 
