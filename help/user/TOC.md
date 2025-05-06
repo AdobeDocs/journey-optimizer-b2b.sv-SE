@@ -1,7 +1,7 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
+source-git-commit: 9b043913b466723def975fdcb5bfdce54a333346
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 21%
@@ -54,7 +54,7 @@ ht-degree: 21%
       + [Exportera kontolista](./audiences/account-list-export.md)
       + [LinkedIn-konto matchar målgrupper](./data/linkedin-account-matched-audiences.md)
       + [Köpa gruppfilter i Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
-   + Kontolistor {#occount-lists}
+   + Kontolistor {#account-lists}
       + [Översikt](./accounts/account-lists.md)
       + [Användning under resor och program](./accounts/account-lists-journeys.md)
    + [Kontoinformation](./accounts/account-details.md)
