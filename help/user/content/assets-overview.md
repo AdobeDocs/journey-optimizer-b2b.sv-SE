@@ -3,7 +3,7 @@ title: Assets
 description: Läs om filhantering i Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
@@ -18,23 +18,23 @@ Adobe Journey Optimizer B2B edition ger marknadsförarna tillgång till två typ
 
 ## Resurshantering
 
-Om du har Adobe Experience Manager som Cloud Service har du tillgång till databaserna för både Marketo Engage Design Studio och Adobe Experience Manager Assets as a Cloud Service när ditt användarkonto har den behörighet som krävs. Dessa databaser är separata och inte synkroniserade. Du kan använda bilder från båda källorna.
+Om du har Adobe Experience Manager som molntjänster har du tillgång till databaserna för både Marketo Engage Design Studio och Adobe Experience Manager Assets as a Cloud Service när ditt användarkonto har de behörigheter som krävs. Dessa databaser är separata och inte synkroniserade. Du kan använda bilder från båda källorna.
 
 ### Adobe Marketo Engage-resurser
 
 Adobe Marketo Engage Design Studio-resurskatalogen ingår som standard i alla Journey Optimizer B2B edition-prenumerationer. Det innebär att du har tillgång till alla bildresurser som lagras i Adobe Marketo Engage ([!UICONTROL Design Studio] > [!UICONTROL Images & Files]). Du kan använda den här databasen som ditt lokala resursbibliotek, inklusive funktioner för överföring och hämtning av resurser. Du kan också använda dessa resurser i ditt reseinnehåll.
 
-Det finns inbyggda skyddsräcken som förhindrar redigering av Marketo Engage-resurser från Journey Optimizer B2B edition samt borttagning och flytt. Dessa skydd säkerställer att källmaterialet (Marketo Engage Design Studio) bevaras samtidigt som det går att läsa och återanvända i Journey Optimizer B2B edition.
+Det finns inbyggda skyddsmekanismer som förhindrar redigering av Marketo Engage-resurser från Journey Optimizer B2B edition samt borttagning och flytt av åtgärder. Dessa skydd säkerställer att källmaterialet (Marketo Engage Design Studio) bevaras samtidigt som det går att läsa och återanvända i Journey Optimizer B2B edition.
 
 Filformat som stöds: JPG, JPEG, GIF, PNG, EPS, SVG och RGB
 
 ### Adobe Experience Manager Assets as a Cloud Service
 
-Samla marknadsförings- och kreativa arbetsflöden med Adobe Experience Manager Assets. Programmet är integrerat med Adobe Journey Optimizer B2B edition så att du enkelt kan hitta och använda digitalt material i Assets as a Cloud Service. Den ger åtkomst till din Assets-databas för resurser som du kan använda för att fylla i dina meddelanden.
+Samla marknadsförings- och kreativa arbetsflöden med Adobe Experience Manager Assets. Programmet är integrerat med Adobe Journey Optimizer B2B edition så att du enkelt kan komma åt Assets as a Cloud Service för att upptäcka och använda digitalt material. Den ger åtkomst till din Assets-databas för resurser som du kan använda för att fylla i dina meddelanden.
 
-Adobe Journey Optimizer B2B edition kan ansluta till Adobe Experience Manager Assets as a Cloud Service för centraliserad resurshantering som utökar ert kreativa system och sammanför digitala resurser för leverans av upplevelser. Adobe Experience Manager Assets as a Cloud Service är en lättanvänd molnlösning för effektiv hantering av digitala resurser och Dynamic Media-åtgärder. Programmet innehåller smidigt avancerade funktioner, bland annat artificiell intelligens och maskininlärning.
+Adobe Journey Optimizer B2B edition kan ansluta till Adobe Experience Manager Assets as a Cloud Service för centraliserad resurshantering som utökar ert kreativa system och sammanför digitala resurser för leverans av upplevelser. Adobe Experience Manager Assets as a Cloud Service är en lättanvänd molnlösning för effektiv hantering av digitala resurser och dynamiska media. Programmet innehåller smidigt avancerade funktioner, bland annat artificiell intelligens och maskininlärning.
 
-Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/overview).
+Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 
@@ -44,7 +44,7 @@ För närvarande kan du bara använda bilder från Adobe Experience Manager Asse
 
 ## Använda resurser för att skapa innehåll
 
-Använd resurser när du skapar e-postmeddelanden, e-postmallar och visuella fragment. Den visuella innehållsredigeraren ger åtkomst till bilderna i dina anslutna resurskataloger. Om du har en prenumeration på Experience Manager Assets as a Cloud Service tillsammans med Adobe Marketo Engage Design Studio som standard kan du välja bildresurser från båda källorna. Du kan också överföra en bildresurs, som placerar den på arbetsytan i Journey Optimizer B2B edition i den anslutna Marketo Engage Design Studio-databasen.
+Använd resurser när du skapar e-postmeddelanden, e-postmallar och visuella fragment. Den visuella innehållsredigeraren ger åtkomst till bilderna i dina anslutna resurskataloger. Om du har en prenumeration på Experience Manager Assets as a Cloud Service tillsammans med standardversionen av Adobe Marketo Engage Design Studio kan du välja bildresurser från båda källorna. Du kan också överföra en bildresurs, som placerar den på arbetsytan i Journey Optimizer B2B edition i den anslutna Marketo Engage Design Studio-databasen.
 
 Du kan välja bildkälla när du redigerar inställningarna för en bildkomponent eller direkt på arbetsytan.
 
@@ -66,13 +66,13 @@ Du kan lägga till en bildresurs när du redigerar innehållet, beroende på bil
 
 >[!TAB Marketo Engage Assets]
 
-Klicka på **[!UICONTROL Marketo Engage Assets]** för att öppna resursväljaren, där du kan välja en bild från en Marketo Engage-arbetsyta eller arbetsytan i Journey Optimizer B2B edition.
+Klicka på **[!UICONTROL Marketo Engage Assets]** för att öppna resursväljaren, där du kan välja en bild från en Marketo Engage-arbetsyta eller Journey Optimizer B2B edition-arbetsytan.
 
 ![Välj en bildresurs på arbetsytan](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
 
 Du kan använda sök och filter för att hitta den önskade bildresursen. Markera resursen och klicka på **[!UICONTROL Select]** för att använda den för bildkomponenten.
 
-Mer detaljerad information om hur du använder bildresurser i Marketo Engage finns i [Använda resurser i ditt innehåll](./marketo-engage-design-studio.md#use-assets-in-your-content).
+Mer detaljerad information om hur du använder Marketo Engage bildresurser finns i [Använda resurser i ditt innehåll](./marketo-engage-design-studio.md#use-assets-in-your-content).
 
 >[!TAB Experience Manager Assets]
 

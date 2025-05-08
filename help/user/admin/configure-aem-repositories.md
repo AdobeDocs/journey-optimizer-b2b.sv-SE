@@ -1,26 +1,26 @@
 ---
-title: Konfigurera Experience Manager-resursdatabaser
+title: Konfigurera Experience Manager-resurskataloger
 description: Lär dig hur du konfigurerar en anslutning till Experience Manager Assets-databaser för användning i Journey Optimizer B2B edition innehållsredigering.
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
 
 ---
 
-# Konfigurera Experience Manager-resurskataloger
+# Konfigurera Experience Manager resurskataloger
 
 Adobe Journey Optimizer B2B edition kan integreras med Adobe Experience Manager Assets as a Cloud Service och ger mer än att bara använda resurser som e-post på en kontoresa. Det säkerställer transparens genom informationsutbyte med Experience Manager Assets. Konfigurera anslutningen till Adobe Experience Assets för att aktivera den här funktionen.
 
-Adobe Experience Manager Cloud Manager är indelat i program och varje program har flera miljöer och databaser ([Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). När du konfigurerar Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition skapar du anslutningar till alla databaser som du vill använda för att komma åt digitala resurser.
+Adobe Experience Manager Cloud Manager är indelat i program och varje program har flera miljöer och databaser ([Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). När du konfigurerar Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition skapar du anslutningar till alla databaser som du vill använda för att komma åt digitala resurser.
 
 {{aem-assets-licensing-note}}
 
 ## Förutsättningar
 
-* Generera autentiseringsuppgifter för tjänsten för den önskade miljön på AEM Headless Developer Console ([Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials)).
+* Generera autentiseringsuppgifter för tjänsten för den önskade miljön på AEM Headless Developer Console ([Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Köp de certifikat som krävs för anslutningen. Som en god praxis bör du se till att certifikaten har minst sex månader kvar innan de upphör att gälla. Certifikaten upphör att gälla var 365:e dag.
 * Adobe Journey Optimizer B2B edition ger åtkomst till en digital resurshanteringskälla åt gången. Kontrollera att de nödvändiga resurserna är tillgängliga i Adobe Experience Manager innan du byter.
 
@@ -38,9 +38,9 @@ Adobe Experience Manager Cloud Manager är indelat i program och varje program h
 
 <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
 -->
-Härifrån kan du konfigurera anslutningarna till varje databas i AEM en och en.
+Härifrån kan du konfigurera anslutningarna till varje AEM-miljödatabas en i taget.
 
-1. Klicka på pilen bredvid **[!UICONTROL Configure a repository]** i rutan _[!UICONTROL Adobe Experience Manager Assets]_&#x200B;och välj databasen.
+1. Klicka på pilen bredvid **[!UICONTROL Configure a repository]** i rutan _[!UICONTROL Adobe Experience Manager Assets]_och välj databasen.
 
    ![Välj en AEM Assets-databas](./assets/configure-assets-aem-choose-respository.png){width="500"}
 
@@ -62,7 +62,7 @@ Härifrån kan du konfigurera anslutningarna till varje databas i AEM en och en.
 
    Den konfigurerade databasen visas i tabellen under urvalspanelen. Du kan lägga till ytterligare en databas genom att upprepa steg 3-4.
 
-   ![Granska de konfigurerade AEM resursdatabaserna](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
+   ![Granska de konfigurerade AEM-resursdatabaserna](./assets/configuration-assets-aem-repositories.png){width="600" zoomable="yes"}
 
 När du är klar med konfigurationen av databaserna kan teammedlemmarna välja Adobe Experience Manager Assets när de redigerar innehåll.
 
@@ -76,7 +76,7 @@ Certifikat upphör att gälla var 365:e dag från det att de skapades. Ersätt d
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B edition kommunicerar med Experience Manager för användningsinformation. Anslutningen måste vara aktiv för tillförlitlig synkronisering av användningsdata och för att undvika diskrepanser. Administratörsanvändare meddelas om att certifikat upphör att gälla via meddelanden i appen. De kan även ange förfallodatum i Assets underavsnitt - Digital Asset Management i administratörsområdet.
+>Adobe Journey Optimizer B2B edition kommunicerar med Experience Manager material för att få användningsinformation. Anslutningen måste vara aktiv för tillförlitlig synkronisering av användningsdata och för att undvika diskrepanser. Administratörsanvändare meddelas om att certifikat upphör att gälla via meddelanden i appen. De kan även ange förfallodatum i Assets underavsnitt - Digital Asset Management i administratörsområdet.
 
 1. På sidan för hantering av digitala resurser letar du reda på listan över konfigurerade databaser.
 
@@ -84,13 +84,13 @@ Certifikat upphör att gälla var 365:e dag från det att de skapades. Ersätt d
 
 1. Klicka på ikonen för ovaler (**..**) för certifikatfilen för att visa alternativen för åtgärder på den.
 
-   ![Gå till alternativmenyn för AEM-tillgångsdatabascertifikatet](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
+   ![Öppna alternativmenyn för AEM-certifikatet för resurslagringsplatsen](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
 1. Välj **[!UICONTROL Replace]** för att öppna dialogrutan för filöverföring.
 
 1. Överför en fil antingen genom att dra den till dialogrutan eller genom att använda länken. Kontrollera att filen är av json-typ.
 
-   ![Ladda upp JSON-filen för AEM för ersättningsresurser i databasen ](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
+   ![Överför den nya JSON-filen för AEM-resurslagerdatabascertifikat](./assets/configuration-assets-aem-upload-replacement-cert.png){width="500"}
 
 1. Klicka på **[!UICONTROL Replace]** för att bekräfta överföringen.
 
@@ -106,7 +106,7 @@ Du kan visa JSON-certifikatfilen som är kopplad till databasanslutningen.
 
 1. Välj **[!UICONTROL View]**.
 
-   ![Visa certifikat-JSON-filen för en ansluten AEM resurslagringsplats](./assets/configuration-assets-aem-view-cert.png){width="600"}
+   ![Visa JSON-certifikatfilen för en ansluten AEM-resurskatalog](./assets/configuration-assets-aem-view-cert.png){width="600"}
 
 1. Klicka på **[!UICONTROL Close]** för att återgå till sidan Konfigurera databas.
 
@@ -114,7 +114,7 @@ Du kan visa JSON-certifikatfilen som är kopplad till databasanslutningen.
 
 När du tar bort en databas tas användaråtkomst till Experience Manager Assets-miljön bort i Journey Optimizer B2B edition.
 
-1. På sidan _[!UICONTROL Digital asset management]_&#x200B;letar du reda på listan med konfigurerade resursdatabaser.
+1. På sidan _[!UICONTROL Digital asset management]_letar du reda på listan med konfigurerade resursdatabaser.
 
 1. Klicka på det databasnamn du vill redigera anslutningen.
 

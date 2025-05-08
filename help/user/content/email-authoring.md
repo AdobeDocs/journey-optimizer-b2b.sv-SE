@@ -3,7 +3,7 @@ title: E-postredigering
 description: Lär dig hur du skapar anpassat e-postinnehåll som används i en kontoresa.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Du kan konfigurera e-postleveranser på en kontoresa när du lägger till en _[!
 1. Välj **[!UICONTROL Send email]** för _[!UICONTROL Action on people]_.
 1. Välj **[!UICONTROL Create new email]** för _[!UICONTROL Email source]_.
 
-   Du kan också välja alternativet _[!UICONTROL Select email from Adobe Marketo Engage]_&#x200B;om du vill använda ett av de redan skapade e-postmeddelandena i Marketo Engage och skicka det som en del av kontoresan.
+   Du kan också välja alternativet _[!UICONTROL Select email from Adobe Marketo Engage]_om du vill använda ett av de redan skapade e-postmeddelandena i Marketo Engage och skicka det som en del av kontoresan.
 
    >[!NOTE]
    >
-   >Om du skapar ett e-postmeddelande för första gången kontrollerar du att e-postkanalen har konfigurerats inifrån Adobe Marketo Engage. Mer information finns i [Säkerställ e-postleverans](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) i Marketo Engage-dokumentationen.
+   >Om du skapar ett e-postmeddelande för första gången kontrollerar du att e-postkanalen har konfigurerats inifrån Adobe Marketo Engage. Mer information finns i [Säkerställ e-postleverans](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} i Marketo Engage-dokumentationen.
 
    ![Vidta en åtgärd - skicka ett e-postmeddelande](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -38,7 +38,7 @@ Du kan konfigurera e-postleveranser på en kontoresa när du lägger till en _[!
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   Fälten _[!UICONTROL From email]_&#x200B;och&#x200B;_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+   Fälten _[!UICONTROL From email]_och_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
 ## Skapa e-postinnehåll
 
@@ -131,7 +131,7 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -147,7 +147,7 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 
 >[!NOTE]
 >
->Om _[!UICONTROL My Tokens]_&#x200B;har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
+>Om _[!UICONTROL My Tokens]_har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
 
 ### Redigera länkad URL-spårning
 
@@ -165,7 +165,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i den vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignern kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_högst upp i e-postdesignern kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/email-designer-more-menu.png){width="500"}
 

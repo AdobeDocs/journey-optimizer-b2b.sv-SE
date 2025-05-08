@@ -3,26 +3,26 @@ title: Arbeta med Experience Manager Assets
 description: Lär dig hur du kan använda bildresurser från en ansluten AEM Assets-databas när du redigerar innehåll i Adobe Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
-# Arbeta med resurser i Experience Manager
+# Arbeta med Experience Manager resurser
 
 När Adobe Experience Manager Assets as a Cloud Service är integrerat med Adobe Journey Optimizer B2B edition blir det enkelt att upptäcka och få tillgång till digitala resurser som kan användas i ert marknadsföringsmaterial. När du redigerar ditt innehåll är resurserna tillgängliga från _Experience Manager Assets_ -objektet i den vänstra navigeringen och när du redigerar e-postinnehåll för en kontoresa.
 
 {{aem-assets-licensing-note}}
 
-När du använder dessa digitala resurser sprids de senaste förändringarna i Assets as a Cloud Service automatiskt till aktiva e-postkampanjer via länkade referenser. Om bilder tas bort i Adobe Experience Manager Assets as a Cloud Service visas bilderna med en bruten referens i e-postmeddelandena. När resurser som för närvarande används på kontoresor ändras eller tas bort, meddelas författarna av resan om bildändringarna och listan över resor som använder bilden. Alla ändringar av materialet måste göras i Adobe Experience Manager Assets centrala arkiv.
+När du använder dessa digitala resurser sprids de senaste förändringarna i Assets as a Cloud Service automatiskt till e-postkampanjer via länkade referenser. Om bilder tas bort i Adobe Experience Manager Assets as a Cloud Service visas bilderna med en bruten referens i e-postmeddelandena. När resurser som för närvarande används på kontoresor ändras eller tas bort, meddelas författarna av resan om bildändringarna och listan över resor som använder bilden. Alla ändringar av materialet måste göras i Adobe Experience Manager Assets centrala arkiv.
 
 När din miljö har en eller flera [Assets-databasanslutningar](../admin/configure-aem-repositories.md) kan innehållsförfattare använda AEM Assets som källa för resurser när de skapar e-post, e-postmallar eller visuellt fragment.
 
 >[!IMPORTANT]
 >
->En administratör måste lägga till användare som behöver tillgång till Assets i produktprofilerna Assets Consumer Users eller/och Assets Users. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>En administratör måste lägga till användare som behöver tillgång till Assets i produktprofilerna Assets Consumer Users eller/och Assets Users. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Öppna AEM Assets-bilder
 
@@ -32,11 +32,11 @@ Klicka på ikonen _Experience Manager Assets_ ( ![Experience Manager Assets-ikon
 
 >[!NOTE]
 >
->För närvarande stöds endast bildresurser från Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition. Ändringar av mediefilerna måste göras från Adobe Experience Manager Assets centrala arkiv. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>För närvarande stöds endast bildresurser från Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition. Ändringar av mediefilerna måste göras från Adobe Experience Manager Assets centrala arkiv. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Ändra den databas som visas
 
-Om du har fler än en ansluten AEM databas klickar du på menypilen för **[!UICONTROL Repository]** för att välja den databas som du vill visa i den vänstra panelen.
+Om du har fler än en ansluten AEM-databas klickar du på menypilen för **[!UICONTROL Repository]** för att välja den databas som du vill visa i den vänstra panelen.
 
 ![Välj en AEM Assets-databas för att komma åt bildresurserna](./assets/content-assets-selector-aem-repo.png){width="700" zoomable="yes"}
 
