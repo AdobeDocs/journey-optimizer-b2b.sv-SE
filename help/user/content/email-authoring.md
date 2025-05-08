@@ -26,7 +26,7 @@ Du kan konfigurera e-postleveranser på en kontoresa när du lägger till en _[!
 
    >[!NOTE]
    >
-   >Om du skapar ett e-postmeddelande för första gången kontrollerar du att e-postkanalen har konfigurerats inifrån Adobe Marketo Engage. Mer information finns i [Säkerställ e-postleverans](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} i Marketo Engage-dokumentationen.
+   >Om du skapar ett e-postmeddelande för första gången kontrollerar du att e-postkanalen har konfigurerats inifrån Adobe Marketo Engage. Mer information finns i [Säkerställ e-postleverans](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} i Marketo Engage-dokumentationen.
 
    ![Vidta en åtgärd - skicka ett e-postmeddelande](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 

@@ -17,7 +17,7 @@ Beroende på din organisation kan administratörer definiera flera typer av anv�
 
 >[!TIP]
 >
->Kontrollera även dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaresäkerhetsskydd och statiska begränsningar.
+>Kontrollera även dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaresäkerhetsskydd och statiska begränsningar.
 
 >[!BEGINTABS]
 
@@ -29,13 +29,13 @@ Som systemadministratör måste du förstå produktprofiler och tilldela behöri
 
 Lär dig mer om åtkomsthantering på följande sidor:
 
-1. **Skapa sandlådor** för att partitionera dina instanser i separata, isolerade virtuella miljöer. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+1. **Skapa sandlådor** för att partitionera dina instanser i separata, isolerade virtuella miljöer. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
 1. **Konfigurera produktprofilen**. En produktprofil är en uppsättning enhetsrättigheter i Adobe Experience Platform som ger användarna tillgång till vissa funktioner eller objekt i gränssnittet. [Läs mer](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Konfigurera användarbehörigheter** för produktprofiler, inklusive sandlådor, och ge teammedlemmarna åtkomst genom att tilldela dem till olika produktprofiler. Den här uppgiften utförs i Admin Console. [Läs mer](../admin/user-management.md#create-a-user-group)
 
-1. **Konfigurera e-postleverans** i Marketo Engage, vilket gör att ditt team kan skicka e-postinnehåll från kontoresor. [Läs mer](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
+1. **Konfigurera e-postleverans** i Marketo Engage, vilket gör att ditt team kan skicka e-postinnehåll från kontoresor. [Läs mer](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **Konfigurera SMS-tjänster**. Konfigurera en av de tredjepartsleverantörer av SMS som stöds och som erbjuder SMS-tjänster oberoende av varandra, och konfigurera kontoinloggningsuppgifterna i Adobe Journey Optimizer B2B edition. [Läs mer](../admin/configure-channels-sms.md)
 

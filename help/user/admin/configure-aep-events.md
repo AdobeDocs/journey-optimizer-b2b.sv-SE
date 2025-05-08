@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Konfigurera händelsedefinitioner för Experience Platform
 
-Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
 
@@ -29,7 +29,7 @@ Varje händelsdefinition kräver följande indata från Experience Platform:
 
   >[!NOTE]
   >
-  >Samordna med konstruktörsteamet för att säkerställa att nödvändiga scheman är definierade. [Att skapa XDM-scheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} är en komplex process som utförs av datatekniker baserat på ärendekrav i hela organisationen.
+  >Samordna med konstruktörsteamet för att säkerställa att nödvändiga scheman är definierade. [Att skapa XDM-scheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/composition){target="_blank"} är en komplex process som utförs av datatekniker baserat på ärendekrav i hela organisationen.
 
 * **_Händelsetyper_** - XDM ExperienceEvent-händelsetyp (högst 20 per händelsetyp).
 
@@ -115,7 +115,7 @@ Om du vill söka efter en händelsedefinition utifrån namn anger du en textstr�
 
 1. Välj **[!UICONTROL Event types]** som ska användas för händelsedefinitionen.
 
-   De [händelsetyper](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} som du väljer avgör vilka händelser som är tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod i en kontoresa.
+   De [händelsetyper](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} som du väljer avgör vilka händelser som är tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod i en kontoresa.
 
    * Klicka på **[!UICONTROL Select event types]**.
    * I dialogrutan väljer du en eller flera händelsetyper i listan (högst 20).
