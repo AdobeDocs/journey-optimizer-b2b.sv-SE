@@ -3,9 +3,9 @@ title: Villkorligt innehåll
 description: Lär dig hur du skapar innehållsvarianter och använder villkorliga regler när du skapar e-postinnehåll för kontoresor.
 feature: Email Authoring, Content
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 1351880505fcf656f94dc5d9e383337d83faeff4
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1239'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Med villkorligt innehåll kan du anpassa e-postinnehåll baserat på villkorliga regler. Dessa regler definieras med hjälp av profilattribut eller sammanhangsbaserade händelser. Du kan skapa villkorliga regler i regelbyggaren, och du kan lagra dem för återanvändning på alla dina kontoresor.
 
-Om du vill lägga till villkorligt innehåll i e-postmeddelanden kan du använda villkorsregler som lagras i biblioteket _Villkor_ i Adobe Journey Optimizer. Använd villkorsregler i e-postdesignområdet när du [skapar ett e-postmeddelande inom en kontoresa](./email-authoring.md).
+Om du vill lägga till villkorligt innehåll i e-postmeddelanden kan du använda villkorsregler som lagras i biblioteket _Villkor_ i Adobe Journey Optimizer. Använd villkorliga regler i e-postdesignområdet när du [redigerar e-postinnehåll för en kontoresa](./email-authoring.md).
 
 ## Lägg till villkorligt innehåll i e-postmeddelanden {#email-content}
 
@@ -34,7 +34,7 @@ När du skapar ett e-postmeddelande för din kontoresa i e-postdesignområdet ka
 
    Komponenten kontureras med orange för att ange att den aktiveras som en villkorlig komponent. Fönstret **[!UICONTROL Conditional Content]** visas till vänster med _Standardvariant_ och _Variant - 1.
 
-   ![Aktivera villkorligt innehåll för textkomponenten](./assets/conditions-enable.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Aktivera villkorligt innehåll för textkomponenten](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
    Det ursprungliga innehållet som du markerade och aktiverade är standard och gäller när inga av de villkorliga reglerna uppfylls för någon av de varianter som du definierar.
 
@@ -42,13 +42,13 @@ När du skapar ett e-postmeddelande för din kontoresa i e-postdesignområdet ka
 
 1. Håll pekaren över den första varianten (_Variant - 1_) och klicka på ikonen _Markera villkor_ ( ![Villkorsikon](../assets/do-not-localize/icon-select-condition.svg) ).
 
-   ![Välj villkor för variant](./assets/conditions-variant-select.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Välj villkor för variant](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Dialogrutan _[!UICONTROL Select condition]_&#x200B;öppnas och villkorsbiblioteket visas.
+   Dialogrutan _[!UICONTROL Select condition]_öppnas och villkorsbiblioteket visas.
 
    Om du vill visa information om ett villkor för att se till att det är det du vill ha klickar du på ikonen _Mer meny_ (**..**) och väljer **[!UICONTROL View Info]**.
 
-   ![Villkor för biblioteksåtkomstvillkor ](assets/conditions-select-dialog.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Villkor för biblioteksåtkomstvillkor](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
    Om villkoret som du behöver inte finns [skapar du en villkorsregel](#create-condition) genom att klicka på **[!UICONTROL Create new]**.
 
@@ -56,23 +56,23 @@ När du skapar ett e-postmeddelande för din kontoresa i e-postdesignområdet ka
 
    Du kan granska det associerade villkoret genom att klicka på ikonen _Mer meny_ (**...**) för varianten och välja **[!UICONTROL View condition]**.
 
-   ![Visa villkoret som är associerat med varianten](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Visa villkoret som är associerat med varianten](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
    Klicka på X längst upp till höger för att stänga popup-fönstret.
 
-   ![Visa information om det associerade villkoret](./assets/conditions-info-popup.png){width="500"}{width=&quot;500&quot;}
+   ![Visa information om det associerade villkoret](./assets/conditions-info-popup.png){width="500"}
 
 1. För bättre läsbarhet byter du namn på varianten genom att klicka på ikonen _Mer meny_ (**..**) för varianten och sedan väljer du **[!UICONTROL Rename]**.
 
    Ange ett beskrivande namn för varianten som hjälper dig att identifiera varianten och dess avsikt.
 
-   ![Byt namn på varianten](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Byt namn på varianten](./assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. När varianten är markerad i den vänstra rutan ändrar du komponenten för att ändra hur den visas i e-postmeddelandet när villkoret är sant.
 
    I det här exemplet använder varianten för textkomponenten en annan beskrivning baserat på mottagarens region.
 
-   ![Ändra komponenten för varianten](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Ändra komponenten för varianten](./assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. Om det behövs kan du definiera en annan variant genom att klicka på **[!UICONTROL Add variant]**.
 
@@ -131,18 +131,18 @@ Villkorliga regler lagras i villkorsbiblioteket, där de är tillgängliga för 
 
 Du kan komma åt villkorsstyrd regelbyggaren från e-postdesignområdet när du väljer ett villkor för en komponentvariant.
 
-1. Klicka på **[!UICONTROL Create new]** i dialogrutan _[!UICONTROL Select condition]_&#x200B;och välj villkorstyp:
+1. Klicka på **[!UICONTROL Create new]** i dialogrutan _[!UICONTROL Select condition]_och välj villkorstyp:
 
    * **[!UICONTROL Person condition]** - Välj den här typen om du vill skapa den villkorliga regeln med personattribut och sammanhangsberoende händelser.
    * **[!UICONTROL Account condition]** - Välj den här typen om du vill skapa villkorsregeln med kontoattribut.
 
-   ![Välj villkorstyp för att skapa](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Välj villkorstyp att skapa](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
 1. Bygg den villkorliga regeln efter dina behov.
 
    För varje attribut eller händelse som du vill ta med i regeln drar och släpper du objektet på regelarbetsytan. Expandera filtret och slutför uttrycket.
 
-   ![Slutför uttrycket för att utvärdera](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Slutför uttrycket som ska utvärderas](./assets/conditions-rule-add-attribute.png){width="600" zoomable="yes"}
 
    Om du inkluderar fler än ett filter anger du **[!UICONTROL Filter logic]**:
 
@@ -153,7 +153,7 @@ Du kan komma åt villkorsstyrd regelbyggaren från e-postdesignområdet när du 
 
    Använd ett beskrivande namn och en användbar beskrivning för att hjälpa andra i organisationen så att de kan återanvända det i stället för att skapa ett annat dubblettvillkor.
 
-   ![Lägg till ett namn och en beskrivning för den villkorliga regeln](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Lägg till ett namn och en beskrivning för villkorsregeln](./assets/conditions-rule-name-description.png){width="600" zoomable="yes"}
 
 1. När den villkorliga regeln är klar klickar du på **[!UICONTROL Save]**.
 
@@ -167,7 +167,7 @@ Villkorliga regler som sparats i biblioteket kan inte ändras. Du kan dock dupli
 
    En dubblett av regeln öppnas i regelbyggaren. Använd dubbletten som startpunkt för regeln som du vill skapa.
 
-   ![Använd en dubblettregel för att skapa den som du behöver](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}{width=&quot;600&quot; zoomable=&quot;yes&quot;}
+   ![Använd en dubblettregel för att skapa den du behöver](./assets/conditions-rule-duplicate.png){width="600" zoomable="yes"}
 
 1. I regelbyggaren kan du ändra, lägga till eller ta bort villkor beroende på vad du behöver.
 

@@ -3,7 +3,7 @@ title: AI-assistenten för e-postredigering
 description: Lär dig hur du använder AI Assistant för att optimera e-postinnehållet som används i kontoresor.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '2943'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # AI-assistenten för att skapa e-post
 
-I takt med att marknadsföringsbranschen blir mer konkurrenskraftig söker varumärkena effektiva sätt att snabbt och effektivt generera slagkraftigt innehåll. AI Assistant för framtagning av e-post i Adobe Journey Optimizer B2B Edition är en Adobe AI-baserad funktion för innehållsgenerering som revolutionerar sättet som marknadsförare skapar professionellt och varumärkesenhetligt e-postinnehåll. Med avancerade GenAI-modeller och god förståelse för varumärkesriktlinjerna genererar AI Assistant automatiskt personaliserat, engagerande och effektivt innehåll baserat på marknadsföringsmålet med innehåll som är optimerat för varumärkeskonturerade format, layouter, färgtoner och mycket annat. AI Assistant gör det enkelt att skapa och genomföra e-postkampanjer intuitivt, utan krångel. Genom att lägga till den här funktionen i arbetsflödena kan du spara tid, förbättra effektiviteten och få bättre resultat.
+I takt med att marknadsföringsbranschen blir mer konkurrenskraftig söker varumärkena effektiva sätt att snabbt och effektivt generera slagkraftigt innehåll. AI Assistant för framtagning av e-post i Adobe Journey Optimizer B2B edition är Adobe AI-baserade funktioner för innehållsgenerering som revolutionerar det sätt på vilket marknadsförare skapar professionellt och varumärkesenhetligt e-postinnehåll. Med avancerade GenAI-modeller och god förståelse för varumärkesriktlinjerna genererar AI Assistant automatiskt personaliserat, engagerande och effektivt innehåll baserat på marknadsföringsmålet med innehåll som är optimerat för varumärkeskonturerade format, layouter, färgtoner och mycket annat. AI Assistant gör det enkelt att skapa och genomföra e-postkampanjer intuitivt, utan krångel. Genom att lägga till den här funktionen i arbetsflödena kan du spara tid, förbättra effektiviteten och få bättre resultat.
 
 Den nya funktionen ger snabb textgenerering, full e-postgenerering och innehållsgenerering inom e-poststrukturer. Bilder genereras inte, men rekommenderas i katalogen med bilder i resursen för indata-varumärket till modellen. Du kan också använda den här funktionen för att generera optimala ämnesrader och preheaders för att påverka öppningsfrekvensen.
 
@@ -22,21 +22,21 @@ Den nya funktionen ger snabb textgenerering, full e-postgenerering och innehåll
 
 ## Riktlinjer och begränsningar
 
-Läs följande riktlinjer innan du börjar använda AI Assistant i Adobe Journey Optimizer B2B Edition för att generera e-postinnehåll:
+Läs följande riktlinjer innan du börjar med AI Assistant i Adobe Journey Optimizer B2B edition för att generera e-postinnehåll:
 
 * Marknadsföringsmålet/uppmaningen som du definierar är en avgörande faktor för kvaliteten på det genererade innehållet. Använd en väldefinierad uppmaning för GenAI-modellen att tolka korrekt.
 * Överför varumärkesresurser för att få korrekt varumärkesinnehåll. Utan dessa resurser baseras innehållet på offentligt tillgänglig information.
-   * De överförda resurserna kan ha följande format: PDF, JPEG, PNG eller ZIP-filer (som innehåller filformat som stöds).
+   * De överförda resurserna kan ha följande format: PDF-, JPEG-, PNG- eller ZIP-filer (som innehåller filformat som stöds).
    * Den maximala storleken för en överförd varumärkesresurs är 50 MB. Större filer eller stora mängder bilder kan fungera, men bearbetningstiden ökar.
-* Använd e-postmallar skapade i Adobe Journey Optimizer B2B Edition, helst de inbyggda mallarna eller exempelmallarna, en varumärkesspecifik mall eller en anpassad mall för att skapa e-postinnehåll. E-postmallar med upp till åtta till tio bilder rekommenderas.
+* Använd e-postmallar skapade i Adobe Journey Optimizer B2B edition, helst de inbyggda mallarna eller exempelmallarna, en varumärkesspecifik mall eller en anpassad mall för att skapa e-postinnehåll. E-postmallar med upp till åtta till tio bilder rekommenderas.
 * Var noga med att rapportera problematiska utdata med ikonerna för reglage nedåt eller flagga mot en genererad variant.
 * Din användning av AI Assistant regleras av [Adobe Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
-Följande begränsningar gäller för AI Assistant i Adobe Journey Optimizer B2B Edition vid generering av e-postinnehåll:
+Följande begränsningar gäller för AI Assistant i Adobe Journey Optimizer B2B edition för generering av e-postinnehåll:
 
 * Engelska är det enda språk som stöds.
 * Det är bara tillgängligt för e-postkanalen.
-* GenAI-innehåll kanske inte är korrekt - dela med dig av din feedback så att Adobe-ingenjörer kan förfina modellerna.
+* GenAI-innehåll kanske inte är korrekt - dela med dig av dina synpunkter så att Adobe tekniker kan förfina modellerna.
 * Ni kan överföra flera varumärkesresurser, men ni kan bara utnyttja en för en viss generation.
 
 >[!BEGINSHADEBOX]
@@ -53,7 +53,7 @@ Välj den ledtext som bäst återspeglar era avsedda mål och lägg till de vär
 
 ## Köpa grupproller
 
-Adobe Journey Optimizer B2B Edition har fem standardroller för B2B-köpgrupper direkt. Varje inköpsgruppsroll har ett tydligt meddelandefokus:
+Adobe Journey Optimizer B2B edition har fem standardroller för B2B-köpgrupper direkt. Varje inköpsgruppsroll har ett tydligt meddelandefokus:
 
 | Roll | Meddelandefokus |
 | ---- | --------------- |
@@ -67,11 +67,11 @@ Om du väljer en av dessa inköpsgruppsroller anpassas automatiskt resultatet ba
 
 ## Generera e-postegenskaper med AI Assistant
 
-När du [lägger till en e-poståtgärd](./email-authoring.md#add-an-email-action-in-an-account-journey) till en kontoresa, definierar du en uppsättning e-postegenskaper som används för att skicka e-postmeddelandet. AI Assistant kan hjälpa till att få bättre e-postengagemang genom att generera rekommenderat innehåll för e-postens **ämnesrad** och **preheader**.
+När du [lägger till en e-poståtgärd](./add-email.md#add-an-email-action-node-in-a-journey) till en kontoresa, definierar du en uppsättning e-postegenskaper som används för att skicka e-postmeddelandet. AI Assistant kan hjälpa till att få bättre e-postengagemang genom att generera rekommenderat innehåll för e-postens **ämnesrad** och **preheader**.
 
 1. Skapa ett e-postmeddelande från en kontoresa eller öppna ett befintligt e-postmeddelande från en kundnod.
 
-   E-postförhandsgranskningssidan visas med _[!UICONTROL Email properties]_&#x200B;till höger.
+   E-postförhandsgranskningssidan visas med _[!UICONTROL Email properties]_till höger.
 
 1. Välj någon av följande flikar för att lära dig hur du använder AI Assistant när du skapar e-postegenskaper.
 
@@ -81,7 +81,7 @@ När du [lägger till en e-poståtgärd](./email-authoring.md#add-an-email-actio
 
 I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant för att generera en optimerad ämnesrad för e-postmeddelandet:
 
-1. I _[!UICONTROL Email Properties]_&#x200B;klickar du på AI Assistant-ikonen ( ![ AI Assistant-ikon ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger om fältet **[!UICONTROL Subject line]**.
+1. I _[!UICONTROL Email Properties]_klickar du på AI Assistant-ikonen ( ![ AI Assistant-ikon ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger om fältet **[!UICONTROL Subject line]**.
 
    ![AI Assistant-åtkomst till ämnesrad för e-post](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -201,7 +201,7 @@ En e-postförrubrik är den korta sammanfattningstexten som följer efter ämnes
 
 ## Generera e-postinnehåll med AI Assistant
 
-När du har [skapat och anpassat din e-post](./email-authoring.md#create-the-email-content) använder du AI Assistant i Adobe Journey Optimizer B2B Edition, som drivs av generativ AI för att lyfta ditt e-postinnehåll till nästa nivå.
+När du har [skapat och anpassat din e-post](./email-authoring.md) använder du AI Assistant i Adobe Journey Optimizer B2B edition, som drivs av generativ AI för att lyfta ditt innehåll i e-postbrödtexten till nästa nivå.
 
 I e-postdesignern kan AI Assistant hjälpa dig att optimera effekten av dina leveranser genom att generera hela e-postbrödtexten, riktat textinnehåll och rekommendationer för bilder som får genklang hos din målgrupp. Den här optimeringen av era e-postkampanjer är utformad för att ge ett bättre engagemang.
 
@@ -260,7 +260,7 @@ I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant
 
 1. Klicka på **[!UICONTROL Select]** om du vill ersätta mallinnehållet med den valda varianten och återgå till e-postdesignern.
 
-   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
+   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
 
 >[!TAB Textgenerering]
 
@@ -316,7 +316,7 @@ I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant
 
 1. När du har önskat innehåll klickar du på **[!UICONTROL Select]** för att ersätta texten med den valda varianten och återgå till e-postdesignern.
 
-   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra texten, samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
+   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra texten, samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
 
 >[!TAB Bildrekommendationer]
 
@@ -358,12 +358,12 @@ Du kan använda AI Assistant för att optimera och förbättra dina resurser och
    >
    >Om det inte finns några bilder i varumärkesresursen för indata eller om det inte finns några bilder som är relevanta för indatarameddelandet, är utdata tomma.
 
-1. Bläddra igenom _[!UICONTROL Variations]_&#x200B;och välj den som passar bäst för e-postmeddelandet.
+1. Bläddra igenom _[!UICONTROL Variations]_och välj den som passar bäst för e-postmeddelandet.
 
    Om du vill visa en fullskärmsversion av den valda varianten klickar du på **[!UICONTROL Preview]**.
 
 1. Markera bilden som du vill använda och klicka på **[!UICONTROL Select]** för att ersätta bilden eller platshållaren med det valda objektet och återgå till e-postdesignern.
 
-   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
+   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
 
 >[!ENDTABS]
