@@ -22,7 +22,7 @@ Om dessa villkor är uppfyllda kan du välja att poängsätta det högre. Annars
 
 I din Marketo Engage-instans som är ansluten till Journey Optimizer B2B edition kan du använda filtret _[!UICONTROL Member of Buying Group]_&#x200B;i dina smarta listor för att identifiera dessa leads enligt din kampanjstrategi.
 
-1. När du har [skapat en smart lista i Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} öppnar du filterredigeraren på fliken **[!UICONTROL Smart List]** .
+1. När du har [skapat en smart lista i Marketo Engage](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} öppnar du filterredigeraren på fliken **[!UICONTROL Smart List]** .
 
 1. I filterlistan till höger rullar du nedåt i listan och expanderar mappen **[!UICONTROL Special Filters]**.
 
