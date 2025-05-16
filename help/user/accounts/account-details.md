@@ -38,7 +38,7 @@ Avsnittet för kontoöversikt innehåller följande kontoinformation:
 
 ![Kontokontaktens täckning](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-Avsnittet _[!UICONTROL Contact coverage]_&#x200B;visar antalet kontakter från kontot med en specifik roll som är associerad med ett lösningsintresse. Tilldelningen av roll och lösningsintresse baseras på mallen för inköpsgruppsroller. Klicka på en cell för att visa detaljerad information:
+Avsnittet _[!UICONTROL Contact coverage]_visar antalet kontakter från kontot med en specifik roll som är associerad med ett lösningsintresse. Tilldelningen av roll och lösningsintresse baseras på mallen för inköpsgruppsroller. Klicka på en cell för att visa detaljerad information:
 
 * Beskrivning, i följande format: _x personer har min roll för z-lösningens intresse_
 * Kolumner
@@ -59,7 +59,7 @@ Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter
 
 ![Kontokontaktöverlappning](./assets/details-page-contact-overlap.png){width="800" zoomable="yes"}
 
-Avsnittet _[!UICONTROL Contact overlap]_&#x200B;visar kontakter från kontot som är en del av mer än en inköpsgrupp som ett resultat av att de är kopplade till flera lösningsintressen. Den här informationen är i form av en tabell med följande kolumner:
+Avsnittet _[!UICONTROL Contact overlap]_visar kontakter från kontot som är en del av mer än en inköpsgrupp som ett resultat av att de är kopplade till flera lösningsintressen. Den här informationen är i form av en tabell med följande kolumner:
 
 * Namn
 * Befattning

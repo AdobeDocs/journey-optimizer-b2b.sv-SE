@@ -4,21 +4,21 @@ description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka ma
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 6%
+source-wordcount: '1756'
+ht-degree: 7%
 
 ---
 
 
 # Köpgrupper
 
-För B2B-försäljnings- och marknadsföringsaktiviteter är konton avgörande för alla strategier. Varje konto har en grupp som är kopplad till det, och dessa personer kan vara anställda på kontot eller entreprenörer som arbetar med kontot. Konton är hierarkiska och olika produkter kan säljas på olika nivåer i hierarkin. Adobe Experience Platform kan till exempel säljas på företagsnivå till ett toppnivåkonto, medan Adobe Photoshop kan säljas till ett konto som representerar en avdelning eller avdelning inom en organisation, till exempel en designavdelning inom ett större företag.
+För B2B-försäljnings- och marknadsföringsaktiviteter är konton avgörande för alla strategier. Varje konto har en grupp som är kopplad till det, och dessa personer kan vara anställda på kontot eller entreprenörer som arbetar med kontot. Konton är hierarkiska och olika produkter kan säljas på olika nivåer i hierarkin. Adobe Experience Platform kan till exempel säljas på företagsnivå till ett konto på den högsta nivån. Och Adobe Photoshop kan säljas till ett konto som representerar en avdelning eller avdelning inom en organisation, t.ex. en designavdelning inom ett större företag.
 
 ![Diagram över kontoroller](assets/account-roles-diagram.png){width="800"}
 
-I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Detta är de personer som i slutändan fattar inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan t.ex. kräva en Chief Information Officer eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp, men en buggspårningsprodukt kan vanligtvis ha en VP som Engineering och en IT-chef som medlemmar i inköpsgruppen.
+I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Dessa personer fattar i slutändan inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan t.ex. kräva en Chief Information Officer eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp, men en buggspårningsprodukt kan vanligtvis ha en VP som Engineering och en IT-chef som medlemmar i inköpsgruppen.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
 
@@ -58,7 +58,7 @@ Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i 
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
@@ -70,7 +70,7 @@ Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -106,7 +106,7 @@ Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos 
 | Delta händelse | Deltar i en kampanjhändelse | Händelse | 20 | 90 |
 | Öppna e-post | Öppnar ett e-postmeddelande | E-post | 20 | 30 |
 | Klicka på E-post | Klicka på en länk i ett e-postmeddelande | E-post | 20 | 30 |
-| Open Sales Email | Öppnar ett säljmeddelande | E-post | 20 | 30 |
+| Open Sales Email | Öppnar ett e-postmeddelande | E-post | 20 | 30 |
 | Klicka på E-postadress | Klicka på en länk i ett e-postmeddelande | E-post | 20 | 30 |
 | Intressant stund | Har ett intressant ögonblick | Kuraterad | 20 | 60 |
 | Tryck på push-meddelande | Tar emot ett push-meddelande | Mobil | 20 | 30 |
@@ -126,7 +126,7 @@ Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos 
 | Call to action clicked in webbinar | Klicka på en länk för att ringa till åtgärd i ett webbinarium | Utlysning | 20 | 30 |
 | Resurshämtningar i webbinarium | Hämtar en fil/resurs i ett webbinarium | Händelse | 20 | 60 |
 | Frågor och svar i webbinarium | Frågar frågor i ett webbinarium | Händelse | 20 | 60 |
-| Har övervakad händelse | Har deltagit i en händelse | Händelse | 20 | 60 |
+| Har övervakad händelse | Deltog i en händelse | Händelse | 20 | 60 |
 | Aktiverat med en agent i dialogrutan | Aktiverar en agent i en Dynamic Chat-dialog | Chatt | 20 | 90 |
 | Klicka på Länk i chatt i dialogrutan | Klicka på en länk i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
 | Engagerad med ett konversationsflöde | Engagerar med ett Dynamic Chat-konverteringsflöde | Chatt | 20 | 90 |
@@ -139,7 +139,7 @@ Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos 
 
 >[!NOTE]
 >
->Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 
@@ -157,7 +157,7 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
 
 | Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |
@@ -205,4 +205,4 @@ Det slutliga poängtalet för engagemang beräknas genom att viktningen tillämp
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3452933/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

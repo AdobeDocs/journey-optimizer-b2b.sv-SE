@@ -54,7 +54,7 @@ Avsnittet för kontoöversikt innehåller följande kontoinformation:
 
 ![Köper gruppmedlemmar](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
-Avsnittet _[!UICONTROL Buying group members]_&#x200B;visar två rader som markerar medlemmar i inköpsgruppen:
+Avsnittet _[!UICONTROL Buying group members]_visar två rader som markerar medlemmar i inköpsgruppen:
 
 * **[!UICONTROL Decision maker]** - De tre viktigaste beslutsfattarna baserat på personengagemangspoäng
 * **[!UICONTROL Top engaged members]** - Andra toppengagerade medlemmar baserat på personengagemangspoäng
