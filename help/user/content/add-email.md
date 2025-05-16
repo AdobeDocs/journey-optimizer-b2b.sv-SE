@@ -21,13 +21,13 @@ Använd Adobe Journey Optimizer B2B edition för att skicka e-postmeddelanden ti
 
 ## Lägg till en e-poståtgärdsnod i en resa
 
-Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_nod](../journeys/action-nodes.md) och gör följande:
+Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod](../journeys/action-nodes.md) och gör följande:
 
 1. Välj **[!UICONTROL People]** för målet _[!UICONTROL Action on]_.
 
 1. Välj **[!UICONTROL Send email]** för _[!UICONTROL Action on people]_.
 
-1. För _[!UICONTROL Email source]_väljer du hur du vill hämta e-postmeddelandet som ska skickas.
+1. För _[!UICONTROL Email source]_&#x200B;väljer du hur du vill hämta e-postmeddelandet som ska skickas.
 
    ![Vidta en åtgärd - skicka ett e-postmeddelande](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
      ![Skapa ny e-postdialogruta - ny e-post](assets/create-new-email-no-duplicate.png){width="400"}
 
-     Fälten _[!UICONTROL From email]_och_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+     Fälten _[!UICONTROL From email]_&#x200B;och&#x200B;_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
      Definiera e-postinställningarna för [och klicka på ](#define-the-email-settings) för att [utforma innehållet](./email-authoring.md).**[!UICONTROL Edit email content]**
 

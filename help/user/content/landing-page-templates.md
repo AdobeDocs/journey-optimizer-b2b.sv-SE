@@ -20,7 +20,7 @@ För en snabbare och förbättrad designprocess kan du skapa fristående mallar 
 
 ## Få åtkomst till och hantera mallar för landningssidor
 
-Gå till **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om du vill komma åt landningssidmallar i Adobe Journey Optimizer B2B edition. Välj **[!UICONTROL Landing page templates]** under _[!UICONTROL WEB]_i navigeringspanelen.
+Gå till **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om du vill komma åt landningssidmallar i Adobe Journey Optimizer B2B edition. Välj **[!UICONTROL Landing page templates]** under _[!UICONTROL WEB]_&#x200B;i navigeringspanelen.
 
 Den listsida som visas innehåller alla landningssidmallar som skapats i den instans som anges i tabellformat. Tabellen sorteras som standard efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade mallarna överst. Klicka på kolumnrubriken om du vill ändra mellan stigande och fallande.
 
@@ -44,7 +44,7 @@ Du kan skapa en landningssidmall från landningssidans mallsida genom att klicka
 
 1. Klicka på **[!UICONTROL Create]**.
 
-Sidan _[!UICONTROL Create your primary landing page]_öppnas och innehåller alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_eller välj något av_[!UICONTROL Saved templates]_.
+Sidan _[!UICONTROL Create your primary landing page]_&#x200B;öppnas och innehåller alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_&#x200B;eller välj något av&#x200B;_[!UICONTROL Saved templates]_.
 
 ![Välj hur du vill börja med layouten för landningssidans mall](./assets/landing-page-templates-create-design.png){width="800" zoomable="yes"}
 
@@ -123,7 +123,7 @@ Du kan duplicera en landningssidmall på något av följande sätt:
 
   ![Klicka på Mer för att komma åt åtgärderna Ta bort och Duplicera](./assets/template-details-more-menu.png){width="400"}
 
-* Klicka på ellipsen (..) bredvid mallen på listsidan för _[!UICONTROL Landing page templates]_och välj **[!UICONTROL Duplicate]**.
+* Klicka på ellipsen (..) bredvid mallen på listsidan för _[!UICONTROL Landing page templates]_&#x200B;och välj **[!UICONTROL Duplicate]**.
 
 Ange ett användbart namn (unikt) och en beskrivning i dialogrutan. Klicka på **[!UICONTROL Duplicate]** för att slutföra åtgärden.
 

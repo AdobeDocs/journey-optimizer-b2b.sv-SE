@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # E-post
 
-När du [skapar e-postmeddelanden](./add-email.md) lägger du till dem i kontexten för en kundnod. Om du vill arbeta med e-post utanför färdplanen använder du listan _[!UICONTROL Emails]_för att leta reda på och uppdatera e-postmeddelandet. Du kan granska e-postmeddelanden eller uppdatera inställningarna och innehållet.
+När du [skapar e-postmeddelanden](./add-email.md) lägger du till dem i kontexten för en kundnod. Om du vill arbeta med e-post utanför färdplanen använder du listan _[!UICONTROL Emails]_&#x200B;för att leta reda på och uppdatera e-postmeddelandet. Du kan granska e-postmeddelanden eller uppdatera inställningarna och innehållet.
 
 ## Få åtkomst till och hantera e-post
 

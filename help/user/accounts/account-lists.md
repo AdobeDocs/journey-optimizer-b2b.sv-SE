@@ -30,7 +30,7 @@ Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL A
 
 ![Åtkomstkontoresor](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-Sidan _[!UICONTROL Account lists]_som visas innehåller följande kolumner:
+Sidan _[!UICONTROL Account lists]_&#x200B;som visas innehåller följande kolumner:
 
 * [!UICONTROL Name] (klicka på namnet på kontolistan för att visa information)
 * [!UICONTROL Status]
@@ -56,15 +56,15 @@ När du skapar en kontolista definierar du en uppsättning filter för att gener
 
    ![Klicka på Skapa kontolista](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Create account list]_anger du en unik **[!UICONTROL Name]**(obligatoriskt) och en **[!UICONTROL Description]**(valfritt).
+1. I dialogrutan _[!UICONTROL Create account list]_&#x200B;anger du en unik **[!UICONTROL Name]**(obligatoriskt) och en **[!UICONTROL Description]**(valfritt).
 
-1. Välj _[!UICONTROL Type]_för kontolistan,**[!UICONTROL Static]**eller **[!UICONTROL Dynamic]**.
+1. Välj _[!UICONTROL Type]_&#x200B;för kontolistan,**[!UICONTROL Static]**&#x200B;eller **[!UICONTROL Dynamic]**.
 
    ![Välj Statisk eller Dynamisk för kontolistan](./assets/account-list-create-dialog.png){width="380"}
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   En ny statisk kontolista öppnas med en tom lista över konton. En ny dynamisk kontolista öppnas med panelen _[!UICONTROL Add accounts by filter]_på sidan.
+   En ny statisk kontolista öppnas med en tom lista över konton. En ny dynamisk kontolista öppnas med panelen _[!UICONTROL Add accounts by filter]_&#x200B;på sidan.
 
 ## Lägg till konton i kontolistan
 
@@ -88,7 +88,7 @@ När du har skapat den statiska kontolistan kan du fylla i listan genom att anv�
 
    Du kan öppna den här funktionen på den tomma listsidan eller i det övre högra hörnet.
 
-1. I dialogrutan _[!UICONTROL Add accounts by filter]_använder du menyn **[!UICONTROL Account Filters]**för att lägga till de attribut och aktiviteter som du vill använda för att skapa filteruppsättningen:
+1. I dialogrutan _[!UICONTROL Add accounts by filter]_&#x200B;använder du menyn **[!UICONTROL Account Filters]**&#x200B;för att lägga till de attribut och aktiviteter som du vill använda för att skapa filteruppsättningen:
 
    Filtren kapslas in i kategorimappar. Du kan expandera varje mapp och bläddra igenom listan med tillgängliga filter. Du kan också använda _sökverktyget_ längst upp för att hitta det filter du behöver.
 
@@ -116,7 +116,7 @@ När du har skapat en dynamisk kontolista definierar du den filteruppsättning s
 
    ![Välj filter som används för att fylla i listan dynamiskt ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Add accounts by filter]_använder du menyn **[!UICONTROL Account Filters]**för att lägga till de attribut och specialfilter som du vill använda för att skapa filteruppsättningen:
+1. I dialogrutan _[!UICONTROL Add accounts by filter]_&#x200B;använder du menyn **[!UICONTROL Account Filters]**&#x200B;för att lägga till de attribut och specialfilter som du vill använda för att skapa filteruppsättningen:
 
    Filtren kapslas in i kategorimappar. Du kan expandera varje mapp och bläddra igenom listan med tillgängliga filter. Du kan också använda _sökverktyget_ längst upp för att hitta det filter du behöver.
 
@@ -158,7 +158,7 @@ Du kan publicera en kontolista så snart filteruppsättningen är klar.
 
    ![Bekräfta publicering för en statisk kontolista](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-Statusen för den statiska kontolistan ändras till _[!UICONTROL Live]_och är tillgänglig för [användning i en kontoresa](#account-list-usage-in-account-journeys).
+Statusen för den statiska kontolistan ändras till _[!UICONTROL Live]_&#x200B;och är tillgänglig för [användning i en kontoresa](#account-list-usage-in-account-journeys).
 
 >[!TAB Dynamisk kontolista]
 
@@ -172,6 +172,6 @@ Du kan publicera en dynamisk kontolista så snart filteruppsättningen är klar.
 
    ![Bekräfta publicering för en dynamisk kontolista](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-Status för den dynamiska kontolistan ändras till _[!UICONTROL Live]_och är tillgänglig för [användning i en kontoresa](#account-list-usage-in-account-journeys).
+Status för den dynamiska kontolistan ändras till _[!UICONTROL Live]_&#x200B;och är tillgänglig för [användning i en kontoresa](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]

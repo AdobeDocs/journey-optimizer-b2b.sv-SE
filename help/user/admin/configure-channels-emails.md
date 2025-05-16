@@ -17,7 +17,7 @@ Adobe Journey Optimizer B2B edition utnyttjar kanalfunktionerna och händelsesp�
 
 ## Leveransinställningar
 
-Standardinställningarna för e-post används när marknadsförare skapar ett e-postmeddelande i en kontoresa. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska inställningarna för e-postleverans. Välj **[!UICONTROL Delivery Settings]** under _[!UICONTROL Email]_i navigeringspanelen.
+Standardinställningarna för e-post används när marknadsförare skapar ett e-postmeddelande i en kontoresa. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska inställningarna för e-postleverans. Välj **[!UICONTROL Delivery Settings]** under _[!UICONTROL Email]_&#x200B;i navigeringspanelen.
 
 ![Få åtkomst till inställningarna för e-postleverans](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
 
@@ -63,13 +63,13 @@ Klicka på fliken **[!UICONTROL Custom header options]** om du vill granska de a
 
 ![Få åtkomst till anpassade rubrikalternativ](./assets/config-email-delivery-custom-header.png){width="700" zoomable="yes"}
 
-När _[!UICONTROL Strict Transport Security]_är aktiverat garanterar det att spårningslänkar överförs via HTTPS (endast för prenumerationer med spårningslänkar som skyddas av SSL).
+När _[!UICONTROL Strict Transport Security]_&#x200B;är aktiverat garanterar det att spårningslänkar överförs via HTTPS (endast för prenumerationer med spårningslänkar som skyddas av SSL).
 
 ## Kommunikationsbegränsningar
 
 Kommunikationsbegränsningar styr hur mycket e-post organisationen skickar. Det är bäst att sätta gränser så att ni inte överbelastar mottagarna med för många e-postmeddelanden från organisationen.
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj **[!UICONTROL Communication limits]** under _[!UICONTROL Email]_i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj **[!UICONTROL Communication limits]** under _[!UICONTROL Email]_&#x200B;i navigeringspanelen.
 
 ![Åtkomst till inställningarna för kommunikationsbegränsningar](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
@@ -85,7 +85,7 @@ Mer information om hur du konfigurerar kommunikationsgränserna finns i [Marketo
 
 Förbättra e-postleveransen genom att införliva SPF (Sender Policy Framework) och DKIM (Domain Keys Identified Mail) i dina DNS-inställningar. Dessa tekniker säkerställer att dina e-postmeddelanden inte är skräppost. För att förhindra att mottagarnas skräppostfilter avvisar e-postmeddelanden måste du se till att SPF och DKIM har konfigurerats för dina domäner.
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj **[!UICONTROL SPF/DKIM]** under _[!UICONTROL Email]_i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj **[!UICONTROL SPF/DKIM]** under _[!UICONTROL Email]_&#x200B;i navigeringspanelen.
 
 ![Åtkomst till SPF/DKIM-konfigurationen](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
@@ -136,7 +136,7 @@ För e-postlänkens klicknings- och e-postöppningsaktiviteter fylls nya attribu
 * Aktiviteter som inte identifieras som bots har _Bot Activity_ som `False` och _Bot Activity Pattern_ som `N/A`.
 * Aktiviteter som inträffar innan attributen introducerades har _punktaktivitet_ som tom (null) och _punktaktivitetsmönster_ som tom (null)
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj **[!UICONTROL Bot activity]** under _[!UICONTROL Email]_i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj **[!UICONTROL Bot activity]** under _[!UICONTROL Email]_&#x200B;i navigeringspanelen.
 
 ![Åtkomst till robotaktivitetskonfigurationen för e-postleverans](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 
