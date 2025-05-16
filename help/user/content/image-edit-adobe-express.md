@@ -1,9 +1,10 @@
 ---
 title: Redigera bilder med Adobe Express
 description: Läs om hur du använder Adobe Express för att redigera bilder på arbetsytan i Journey Optimizer B2B edition.
-feature: Assets, Content
+feature: Assets, Content, Integrations
+role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: cb8196a8bb33c326476ddc9d99103d5fea6d10bd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -33,7 +34,7 @@ _Så här ändrar du en bild:_
 
 1. Gå till den vänstra navigeringen och klicka på **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**.
 
-Den här åtgärden öppnar en listsida med alla resurser listade. Arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;är markerad som standard.
+Den här åtgärden öppnar en listsida med alla resurser listade. Arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_är markerad som standard.
 
 1. Leta reda på bilden som du vill ändra eller använda som ett original för att skapa en ny resurs.
 
@@ -51,7 +52,7 @@ Den här åtgärden öppnar en listsida med alla resurser listade. Arbetsytan _[
    >
    >Det är en god vana att välja [fliken _[!UICONTROL Used By]_](./marketo-engage-design-studio.md#view-asset-used-by-references) i bildinformationen och granska innehållet där bilden används innan du fortsätter att redigera bildfilen.
 
-1. Klicka på **[!UICONTROL Edit with Adobe Express]** i bilden _[!UICONTROL Details]_&#x200B;till höger.
+1. Klicka på **[!UICONTROL Edit with Adobe Express]** i bilden _[!UICONTROL Details]_till höger.
 
    ![Öppna bilden i Adobe Express Editor](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
@@ -69,7 +70,7 @@ Om du har en Enterprise-licens för Adobe Express kan du komma åt och använda 
 
 ![Öppna bilden i Adobe Express Enterprise Editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express användarhandbok](https://helpx.adobe.com/se/express/user-guide.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
+[Adobe Express användarhandbok](https://helpx.adobe.com/express/user-guide.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
 
 ## Snabbåtgärder i Adobe Express
 
@@ -93,7 +94,7 @@ Om du inte har någon Adobe Express Enterprise-licens har du tillgång till Adob
 
    * Välj ett **[!UICONTROL Aspect ratio]**-alternativ. Använd en standardstorlek för digitalt innehåll eller välj **[!UICONTROL Custom]** om du vill ange värden för **[!UICONTROL Width]** och **[!UICONTROL Height]** efter dina behov.
 
-   * Visade _[!UICONTROL Original size]_&#x200B;och&#x200B;_[!UICONTROL Compressed size]_ visar de storleksändringar som blir resultatet om du tillämpar ändringarna. Med verktyget **[!UICONTROL Zoom and Crop]** kan du inspektera delar av den visade bilden närmare.
+   * Visade _[!UICONTROL Original size]_och_[!UICONTROL Compressed size]_ visar de storleksändringar som blir resultatet om du tillämpar ändringarna. Med verktyget **[!UICONTROL Zoom and Crop]** kan du inspektera delar av den visade bilden närmare.
 
    * Om du vill återställa bilden till det ursprungliga läget klickar du på **[!UICONTROL Reset]**.
 

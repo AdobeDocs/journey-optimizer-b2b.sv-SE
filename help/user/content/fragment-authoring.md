@@ -1,11 +1,12 @@
 ---
 title: Fragmentredigering
 description: Lär dig hur du skapar innehållsfragment som kan återanvändas för e-post och malldesigner för att vara effektiv och för att upprätthålla design- och varumärkesstandarder.
-feature: Content
+feature: Fragments, Content Design Tools
+role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ Om du till exempel utformar en återanvändbar banderoll som innehåller en klic
 
 1. Klicka på alternativet **[!UICONTROL Enable edition]** för att växla och ange de redigerbara fälten.
 
-   ![Aktivera redigerbara fält för en fragmentbildkomponent](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Aktivera redigerbara fält för en fragmentbildkomponent](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
 
    Du kan aktivera anpassning för de fält som visas, vilket beror på komponenttypen och de parametrar som definieras i fragmentet.
 
@@ -60,7 +61,7 @@ Om du till exempel utformar en återanvändbar banderoll som innehåller en klic
 
 1. Klicka på **[!UICONTROL Overview]** om du vill granska alla redigerbara fält och deras standardvärden.
 
-   ![Granska de redigerbara fälten och deras standardvärden](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=&quot;700&quot; zoomable=&quot;yes&quot;}
+   ![Granska redigerbara fält och deras standardvärden](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
 
 1. Spara ändringarna.
 

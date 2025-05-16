@@ -1,8 +1,10 @@
 ---
 title: Styrningsfunktioner
 description: Läs mer om de styrningsfunktioner som finns i Journey Optimizer B2B edition.
+feature: Setup
+role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -15,7 +17,7 @@ Journey Optimizer B2B edition är en integrerad Adobe Experience Platform-app. D
 
 ## Integritet - GDPR
 
-Journey Optimizer B2B edition använder de befintliga funktionerna för styrning av GDPR för Marketo Engage som tillhandahålls av Privacy Servicen och Marketo tjänst för integritetsutjämning.
+Journey Optimizer B2B edition använder de befintliga funktionerna för styrning av Marketo Engage GDPR som tillhandahålls av Privacy Service och Marketo Privacy Broker Service.
 
 ## Rollbaserad åtkomstkontroll (RBAC)
 

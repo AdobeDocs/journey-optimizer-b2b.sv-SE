@@ -2,7 +2,9 @@
 title: E-post
 description: Använd e-postlistan för att hantera ditt e-postinnehåll i Adobe Journey Optimizer B2B edition. Ni kan enkelt utvärdera och uppdatera e-postmeddelanden under alla era resor.
 feature: Email Authoring, Content
-source-git-commit: 6517a953692a56bd31c5b0f2fa5f15f40c6743b5
+role: User
+exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -11,7 +13,7 @@ ht-degree: 0%
 
 # E-post
 
-När du [skapar e-postmeddelanden](./add-email.md) lägger du till dem i kontexten för en kundnod. Om du vill arbeta med e-post utanför färdplanen använder du listan _[!UICONTROL Emails]_&#x200B;för att leta reda på och uppdatera e-postmeddelandet. Du kan granska e-postmeddelanden eller uppdatera inställningarna och innehållet.
+När du [skapar e-postmeddelanden](./add-email.md) lägger du till dem i kontexten för en kundnod. Om du vill arbeta med e-post utanför färdplanen använder du listan _[!UICONTROL Emails]_för att leta reda på och uppdatera e-postmeddelandet. Du kan granska e-postmeddelanden eller uppdatera inställningarna och innehållet.
 
 ## Få åtkomst till och hantera e-post
 

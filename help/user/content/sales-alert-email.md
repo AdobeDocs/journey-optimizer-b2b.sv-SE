@@ -1,9 +1,10 @@
 ---
 title: E-postmeddelande om försäljning
 description: Lär dig hur du tar med ett automatiskt försäljningsmeddelande i dina kontoresor.
-feature: Email Authoring, Content
+feature: Email Authoring, Account Journeys
+role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%
@@ -36,7 +37,7 @@ Som marknadsförare kan du konfigurera en e-postnod för försäljningsavisering
 |   | Intresse av lösningar | Intressen av lösningar kopplade till inköpsgruppen |
 |   | Status | Status för inköpsgruppen. |
 | Köpgrupper i korthet | Ledande medlemmar | De mest engagerade medlemmarna i inköpsgruppen genom att köpa gruppmedlemmens engagemangspoäng och roll. |
-|   | Intresseämne | De vanligaste nyckelorden i innehållsengagemanget, baserat på e-post, nedladdningar, chatt, PDF-granskning, aktivitetssammanfattning och webbinarifrågor. |
+|   | Intresseämne | De vanligaste nyckelorden i innehållsengagemanget, baserat på e-post, nedladdningar, chatt, PDF granskning, aktivitetssammanfattning och webbinarifrågor. |
 |   | Saknade roller | Obligatoriska roller i mallen men saknas i inköpsgruppen. |
 | Sammanfattning av inköpsgrupper | Sammanfattning av aktivitet (drivs av generativ AI) | AI-genererad sammanfattning av inköpsgruppen baserad på medlemmarnas aktiviteter. De senaste 30 dagarnas verksamhet beaktas. |
 |   | Viktiga ögonblick | Nyligen intressanta stunder relaterade till medlemmarna i inköpsgruppen. |

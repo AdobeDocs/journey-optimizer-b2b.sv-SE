@@ -1,9 +1,10 @@
 ---
 title: SMS-redigering
 description: Lär dig hur du skickar textmeddelanden (SMS) till dina kunder på deras mobila enheter och hur du anpassar och förhandsgranskar meddelanden i textformat från SMS-redigeraren.
-feature: SMS Authoring, Content
+feature: SMS Authoring, Content, Channels
+role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -64,7 +65,7 @@ Du kan skapa ett meddelande med upp till 1 600 tecken där var 160:e tecken betr
 
    ![Klicka på ellipserna om du vill använda ett reserv för token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Enter fallback value]_&#x200B;anger du den text som visas som reserv och klickar sedan på&#x200B;**[!UICONTROL Add]**.
+1. I dialogrutan _[!UICONTROL Enter fallback value]_anger du den text som visas som reserv och klickar sedan på&#x200B;**[!UICONTROL Add]**.
 
    ![Ange grundtexten för token](./assets/sms-message-personalize-fallback-text.png){width="400"}
 
@@ -90,8 +91,8 @@ Du kan skapa ett meddelande med upp till 1 600 tecken där var 160:e tecken betr
 
      >[!NOTE]
      >
-     >När du tillåter spårning men inaktiverar _[!UICONTROL Include mkt_tok]_&#x200B;innehåller mål-URL:en inte frågesträngsparametern `mkt_tok` efter omdirigering. Den här parametern används av Marketo Engage landningssidor och Munchkin för att säkerställa att spårning av personaktiviteter (t.ex. när en person säger upp prenumerationen på ett e-postmeddelande) sker. Inaktivera inte det här alternativet om inte parametern orsakar problem på webbplatsen.<br/>
-     >Mer information om hur du använder Munchkin spårningskoder på din webbplats finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >När du tillåter spårning men inaktiverar _[!UICONTROL Include mkt_tok]_innehåller mål-URL:en inte frågesträngsparametern `mkt_tok` efter omdirigering. Den här parametern används av Marketo Engage landningssidor och Munchkin för att säkerställa att spårning av personaktiviteter (t.ex. när en person säger upp prenumerationen på ett e-postmeddelande) sker. Inaktivera inte det här alternativet om inte parametern orsakar problem på webbplatsen.<br/>
+     >Mer information om hur du använder Munchkin spårningskoder på din webbplats finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Dialogrutan Lägg till länk för SMS-meddelande](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -99,7 +100,7 @@ Du kan skapa ett meddelande med upp till 1 600 tecken där var 160:e tecken betr
 
 ### Ange SMS-egenskaper
 
-1. I avsnittet _[!UICONTROL SMS properties]_&#x200B;anger du **[!UICONTROL Name]**(obligatoriskt, högst 100 tecken) och **[!UICONTROL Description]**(valfritt, högst 300 tecken) för meddelandet.
+1. I avsnittet _[!UICONTROL SMS properties]_anger du **[!UICONTROL Name]**(obligatoriskt, högst 100 tecken) och **[!UICONTROL Description]**(valfritt, högst 300 tecken) för meddelandet.
 
    Alpha, numeriska specialtecken är tillåtna för dessa fält. Följande reserverade tecken är **inte tillåtna**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` och `|`.
 
@@ -153,7 +154,7 @@ När meddelandeinnehållet har definierats kan du använda testprofiler för att
 
    Du kan också välja en lead i väljaren ovanför förhandsvisningsområdet för att uppdatera SMS-förhandsgranskningen på sidan för motsvarande lead.
 
-1. Om du vill avsluta sidan _[!UICONTROL Simulate Content]_&#x200B;och gå tillbaka till SMS-redigeringsarbetsytan klickar du på&#x200B;**[!UICONTROL Close]**&#x200B;överst till höger.
+1. Om du vill avsluta sidan _[!UICONTROL Simulate Content]_och gå tillbaka till SMS-redigeringsarbetsytan klickar du på&#x200B;**[!UICONTROL Close]**överst till höger.
 
 ## Hantering av SMS-medgivande
 

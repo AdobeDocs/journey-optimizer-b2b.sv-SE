@@ -2,8 +2,9 @@
 title: Instrumentpanel för översikt över inköpsgrupper
 description: Lär dig mer om kontrollpanelen för inköpsgruppsöversikt och hur den aktiverar försäljningsleveransen från marknadsföringsteamet.
 feature: Dashboards, Buying Groups
+role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%

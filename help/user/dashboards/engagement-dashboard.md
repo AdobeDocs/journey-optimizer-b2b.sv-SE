@@ -2,8 +2,9 @@
 title: Instrumentpanel för översikt över engagemang
 description: Lär dig mer om hur du kan använda kontrollpanelen för avtalsöversikt för att övervaka dina engagemangsinsatser.
 feature: Dashboards, Engagement
+role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 8de3fea2ffd5de54ec7c8dd94307f1de09101b98
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Du kan filtrera de data som visas efter datumintervall och attribut.
 
 ### Datumintervallfilter
 
-Använd _[!UICONTROL Date range filter]_&#x200B;längst upp till höger för att filtrera data efter datumintervallet.
+Använd _[!UICONTROL Date range filter]_längst upp till höger för att filtrera data efter datumintervallet.
 
 ![Filtrera visade data efter datumintervall](./assets/engagement-date-filter.png){width="380"}
 

@@ -1,9 +1,10 @@
 ---
 title: Målgruppsnoder för konto
 description: Lär dig mer om vilken typ av kontomålsnod du kan använda för att definiera indata för kontoresor i Journey Optimizer B2B edition.
-feature: Account Journeys
+feature: Account Journeys, Audiences, Account Lists
+role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -31,7 +32,7 @@ _Så här anger du målgrupp för noden:_
 
      Välj den här typen och klicka sedan på **[!UICONTROL Add account audience]**.
 
-     I dialogrutan _[!UICONTROL Add audience]_&#x200B;väljer du ett målgruppssegment som tidigare skapats och klickar på&#x200B;**[!UICONTROL Add audience]**.
+     I dialogrutan _[!UICONTROL Add audience]_väljer du ett målgruppssegment som tidigare skapats och klickar på&#x200B;**[!UICONTROL Add audience]**.
 
      ![Välj ett målgruppssegment för noden](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
@@ -39,7 +40,7 @@ _Så här anger du målgrupp för noden:_
 
      Välj den här typen och klicka sedan på **[!UICONTROL Add account list]**.
 
-     I dialogrutan _[!UICONTROL Select live account list]_&#x200B;väljer du en kontolista som tidigare har publicerats och klickar på&#x200B;**[!UICONTROL Save]**.
+     I dialogrutan _[!UICONTROL Select live account list]_väljer du en kontolista som tidigare har publicerats och klickar på&#x200B;**[!UICONTROL Save]**.
 
      ![Välj en Live-kontolista för noden](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
 
@@ -53,4 +54,4 @@ _Så här skapar du ett målgruppssegment:_
 
    ![Skapa ett målgruppssegment](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Följ stegen som beskrivs i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.
+1. Följ stegen som beskrivs i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"}.

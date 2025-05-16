@@ -1,8 +1,10 @@
 ---
 title: SMS-konfiguration
 description: Lär dig hur du konfigurerar anslutningar till SMS-leverantörer som stöds för användning av SMS-meddelanden i Journey Optimizer B2B edition.
-feature: Setup
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+feature: Setup, Channels
+role: Admin
+exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
@@ -21,7 +23,7 @@ Innan du konfigurerar en SMS-kanal i Adobe Journey Optimizer B2B edition måste 
 
 >[!IMPORTANT]
 >
->Din användning av SMS-tjänster regleras av ytterligare villkor från tillämplig leverantör. Som tredjepartslösningar finns Sinch, Twilio och Infobip tillgängliga för användare av Adobe Journey Optimizer B2B edition via en integrering. Adobe kontrollerar inte, och ansvarar inte för, tredjepartsprodukter. Kontakta din leverantör om du har problem eller vill ha hjälp med SMS.
+>Din användning av SMS-tjänster regleras av ytterligare villkor från tillämplig leverantör. Som tredjepartslösningar finns Sinch, Twilio och Infobip tillgängliga för användare av Adobe Journey Optimizer B2B edition via en integrering. Adobe kontrollerar inte och ansvarar inte för tredjepartsprodukter. Kontakta din leverantör om du har problem eller vill ha hjälp med SMS.
 
 ## Verifiera en befintlig SMS API-konfiguration
 
@@ -113,4 +115,4 @@ _Så här konfigurerar du Infobip som SMS-leverantör med Adobe Journey Optimize
 
 >[!ENDTABS]
 
-När du klickar på _[!UICONTROL Submit]_&#x200B;valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för&#x200B;_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.
+När du klickar på _[!UICONTROL Submit]_valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.

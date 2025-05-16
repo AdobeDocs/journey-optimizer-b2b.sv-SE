@@ -1,9 +1,10 @@
 ---
 title: Information om inköpsgrupp
 description: Läs om hur du får tillgång till detaljerad information och generativa AI-sammanfattningar för att köpa grupper i Journey Optimizer B2B edition.
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -53,7 +54,7 @@ Avsnittet för kontoöversikt innehåller följande kontoinformation:
 
 ![Köper gruppmedlemmar](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
-Avsnittet _[!UICONTROL Buying group members]_&#x200B;visar två rader som markerar medlemmar i inköpsgruppen:
+Avsnittet _[!UICONTROL Buying group members]_visar två rader som markerar medlemmar i inköpsgruppen:
 
 * **[!UICONTROL Decision maker]** - De tre viktigaste beslutsfattarna baserat på personengagemangspoäng
 * **[!UICONTROL Top engaged members]** - Andra toppengagerade medlemmar baserat på personengagemangspoäng

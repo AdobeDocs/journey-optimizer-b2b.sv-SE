@@ -2,8 +2,9 @@
 title: Skapa inköpsgrupper
 description: Lär dig hur du skapar inköpsgrupper med de nödvändiga komponenterna.
 feature: Buying Groups
+role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Den första sidan ger vägledning om de förutsättningar/komponenter som krävs
 
    * **[!UICONTROL Account audience]** - Klicka på # och välj en målgrupp i listan.
 
-   Under _[!UICONTROL Properties]_&#x200B;genereras namnet på inköpsgrupperna automatiskt (skrivskyddat) som &lt; Solution Interest name > för &lt; account name >.
+   Under _[!UICONTROL Properties]_genereras namnet på inköpsgrupperna automatiskt (skrivskyddat) som &lt; Solution Interest name > för &lt; account name >.
 
    ![Klicka på Skapa inköpsgrupper](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
@@ -61,4 +62,4 @@ Remove a member of the buying group. -->
 
 ## Instruktionsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3451765/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

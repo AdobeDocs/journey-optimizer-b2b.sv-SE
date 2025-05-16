@@ -1,9 +1,10 @@
 ---
 title: Intelligent Dashboard
 description: Läs mer om Intelligent Dashboard som ger en heltäckande bild av mätvärden för inköpsgrupper och konton
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 0%
@@ -45,7 +46,7 @@ För att kunna använda den information och de insikter som finns i den intellig
 >title="Köpgruppsfaser"
 >abstract="I det här diagrammet visas en översikt över hur inköpsgrupper fortskrider i olika faser baserat på de konfigurerade övergångsreglerna. Den första raden visar antalet inköpsgrupper i ett visst steg på det första datumet i den valda tidsramen jämfört med det sista datumet i den valda tidsramen."
 
-Diagrammet _[!UICONTROL Buying Group Stages]_&#x200B;ger en översikt över hur inköpsgrupper fortskrider i olika faser ([baserat på övergångsregler som har konfigurerats av en administratör](../buying-groups/buying-group-stages.md)).
+Diagrammet _[!UICONTROL Buying Group Stages]_ger en översikt över hur inköpsgrupper fortskrider i olika faser ([baserat på övergångsregler som har konfigurerats av en administratör](../buying-groups/buying-group-stages.md)).
 
 >[!NOTE]
 >
@@ -98,7 +99,7 @@ Klicka på ikonen _Filter_ ( ![ikonen Redigera](../assets/do-not-localize/icon-f
 >title="De fem viktigaste köpgrupperna"
 >abstract="Fantastiska inköpsgrupper som inte går igenom alla faser trots höga slutresultat."
 
-Avsnittet _[!UICONTROL Buying group highlights]_&#x200B;är organiserat i tre rader för att visa information om inköpsgrupper av intresse för din organisation.
+Avsnittet _[!UICONTROL Buying group highlights]_är organiserat i tre rader för att visa information om inköpsgrupper av intresse för din organisation.
 
 ![Köp av grupphögdagrar](./assets/intelligent-dashboard-buying-group-highlights.png){width="800" zoomable="yes"}
 
@@ -113,7 +114,7 @@ Varje kort innehåller följande data:
 * **_Aktuell fas_** för inköpsgruppen.
 * **_Aktivitetspoäng_** (normaliserat för alla inköpsgrupper). Om alla inköpsgrupper har samma högsta poäng visas den senaste uppdaterade poängen.
 * **_Slutförandepoäng_** (från 1-100). Om alla inköpsgrupper har samma högsta poäng visas den senaste uppdaterade poängen.
-* **_Kategoriåtergivning_**. Klicka på _[!UICONTROL View details]_&#x200B;för att visa återgivningsdata:
+* **_Kategoriåtergivning_**. Klicka på _[!UICONTROL View details]_för att visa återgivningsdata:
 
   ![Köper gruppåtergivningsdata](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
@@ -148,7 +149,7 @@ Använd datumfiltret längst upp till höger för att ändra datumintervallet f�
 >title="Kontoökning"
 >abstract="Konton med stor förändring i engagemanget inom den valda tidsramen."
 
-Avsnittet _[!UICONTROL Surging accounts]_&#x200B;visar en visualisering av kontona med en betydande förändring i engagemanget inom den valda tidsramen.
+Avsnittet _[!UICONTROL Surging accounts]_visar en visualisering av kontona med en betydande förändring i engagemanget inom den valda tidsramen.
 
 >[!NOTE]
 >
@@ -192,7 +193,7 @@ Använd datumfiltret längst upp till höger för att ändra datumintervallet f�
 >title="Riskkonton"
 >abstract="Konton med en avsevärd minskning av engagemangets drivkraft under den valda tidsramen."
 
-Avsnittet _[!UICONTROL Account highlights]_&#x200B;är indelat i två rader för att visa information om konton av intresse för din organisation.
+Avsnittet _[!UICONTROL Account highlights]_är indelat i två rader för att visa information om konton av intresse för din organisation.
 
 >[!NOTE]
 >
@@ -207,7 +208,7 @@ Varje kort innehåller följande data:
 
 * **_Kontonamn_**. Klicka på namnet för att öppna sidan med kontoinformation.
 * **_Generativ AI-sammanfattning_** av kontot.
-* **_Nyckelordsmetod_**. Klicka på _[!UICONTROL View details]_&#x200B;för att visa återgivningsdata:
+* **_Nyckelordsmetod_**. Klicka på _[!UICONTROL View details]_för att visa återgivningsdata:
 
   ![Data för kontoåtergivning](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
@@ -241,7 +242,7 @@ Använd datumfiltret längst upp till höger för att ändra datumintervallet f�
 >title="Kontakttäckning"
 >abstract="Visar antalet kontakter med en specifik roll som är associerad med ett lösningsintresse. Tilldelningen av roll- och lösningsintressen baseras på köpgruppsmallen."
 
-Avsnittet _[!UICONTROL Contact coverage]_&#x200B;visar en visualisering av antalet kontakter med en specifik roll som är associerad med ett lösningsintresse. Tilldelningen av roll- och lösningsintressen baseras på köpgruppsmallen.
+Avsnittet _[!UICONTROL Contact coverage]_visar en visualisering av antalet kontakter med en specifik roll som är associerad med ett lösningsintresse. Tilldelningen av roll- och lösningsintressen baseras på köpgruppsmallen.
 
 >[!NOTE]
 >
@@ -273,7 +274,7 @@ Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter
 >title="Kontaktöverlappning"
 >abstract="Lista över kontakter som ingår i mer än en inköpsgrupp som ett resultat av att de är kopplade till flera lösningsintressen."
 
-Avsnittet _[!UICONTROL Contact overlap]_&#x200B;visar en lista med kontakter som är en del av mer än en inköpsgrupp som ett resultat av att de är kopplade till flera lösningsintressen.
+Avsnittet _[!UICONTROL Contact overlap]_visar en lista med kontakter som är en del av mer än en inköpsgrupp som ett resultat av att de är kopplade till flera lösningsintressen.
 
 >[!NOTE]
 >

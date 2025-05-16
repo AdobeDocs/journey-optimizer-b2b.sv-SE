@@ -1,8 +1,10 @@
 ---
 title: Styrning av mallinnehåll
 description: Lär dig hur du låser innehållselement i e-postmallar så att du kan styra hur de kan ändras för användning på kontoresor.
-feature: Email Authoring, Content
-source-git-commit: 44413c763ca57d04b83ba78df0ae846142180ec3
+feature: Templates, Email Authoring, Content
+role: User
+exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -25,13 +27,13 @@ När du har använt den visuella designern för att [redigera struktur- och inne
 
 1. Markera rotkomponenten **[!UICONTROL Body]** i trädet.
 
-   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_&#x200B;som standard.
+   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_som standard.
 
 1. Aktivera alternativet **[!UICONTROL Governance]**.
 
    ![Aktivera styrning för en e-postmall](./assets/governance-template-enable.png){width="800" zoomable="yes"}
 
-   När det här alternativet är aktiverat är standardvärdet _[!UICONTROL Mode]_&#x200B;**[!UICONTROL Read only]**. När det här läget är inställt på rotnivån är alla element i mallen låsta. Trädstrukturen till vänster visar ikonen_ Skrivskyddad _( ![Skrivskyddad ikon](../assets/do-not-localize/icon-tree-lock.svg) ) bredvid roten och alla underordnade element.
+   När det här alternativet är aktiverat är standardvärdet _[!UICONTROL Mode]_**[!UICONTROL Read only]**. När det här läget är inställt på rotnivån är alla element i mallen låsta. Trädstrukturen till vänster visar ikonen_ Skrivskyddad _( ![Skrivskyddad ikon](../assets/do-not-localize/icon-tree-lock.svg) ) bredvid roten och alla underordnade element.
 
 1. Om du vill aktivera specifikt innehåll som låses i mallen ändrar du **[!UICONTROL Mode]** till **[!UICONTROL Content locking]**.
 
@@ -65,7 +67,7 @@ Om du använder en låstyp på strukturnivån får du en standardinställning f�
 
 1. Markera strukturen i trädet.
 
-   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_&#x200B;som standard.
+   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_som standard.
 
 1. Ange **[!UICONTROL Lock type]**:
 
@@ -79,7 +81,7 @@ Om du använder en låstyp på strukturnivån får du en standardinställning f�
 
 1. Markera komponenten i trädet.
 
-   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_&#x200B;som standard.
+   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_som standard.
 
 1. Aktivera alternativet **[!UICONTROL Use specific locking]**.
 
@@ -92,4 +94,3 @@ Om du använder en låstyp på strukturnivån får du en standardinställning f�
      För en låst komponent kan du tillåta att komponenten tas bort under e-postredigering genom att aktivera alternativet **[!UICONTROL Allow delete]**.
 
    ![Tillämpa innehållslåsning på en underordnad komponent](./assets/governance-template-component-locking.png){width="800" zoomable="yes"}
-

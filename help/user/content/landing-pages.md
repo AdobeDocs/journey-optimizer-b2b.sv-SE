@@ -1,10 +1,11 @@
 ---
 title: Landningssidor
 description: Lär dig mer om landningssidor och hur du skapar och hanterar dem för att stödja kontoresor och kampanjer.
-feature: Content
+feature: Landing Pages, Content
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2076'
 ht-degree: 0%
@@ -85,7 +86,7 @@ Du kan lägga till en ny landningssida i Journey Optimizer B2B edition genom att
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   Hemsidan _[!UICONTROL Create your primary landing page]_&#x200B;öppnas och innehåller flera alternativ för att skapa sidan:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_&#x200B;eller använda en sparad mall.
+   Hemsidan _[!UICONTROL Create your primary landing page]_öppnas och innehåller flera alternativ för att skapa sidan:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_eller använda en sparad mall.
 
    ![Välj hur du vill börja med landningssidans design](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
@@ -121,7 +122,7 @@ Du kan välja mellan:
 
 * **Sparade mallar**. Använd en sparad anpassad mall som har skapats av en medlem i organisationen med hjälp av _[!UICONTROL Templates]_-menyn <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
 
-Använd avsnittet _[!UICONTROL Select design template]_&#x200B;för att börja skapa innehåll från en mall. Du kan använda en exempelmall eller en sparad anpassad landningssidmall från din Journey Optimizer B2B edition-instans.
+Använd avsnittet _[!UICONTROL Select design template]_för att börja skapa innehåll från en mall. Du kan använda en exempelmall eller en sparad anpassad landningssidmall från din Journey Optimizer B2B edition-instans.
 
 >[!BEGINTABS]
 
@@ -168,7 +169,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 >[!TAB Utkast]
 
-1. Klicka på landningssidans namn på listsidan _[!UICONTROL Landing pages]_&#x200B;för att öppna den.
+1. Klicka på landningssidans namn på listsidan _[!UICONTROL Landing pages]_för att öppna den.
 
    En förhandsgranskning av det visuella innehållet visas, med information om landningssidan till höger.
 
@@ -192,7 +193,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 >[!TAB Publicerad]
 
-1. Klicka på sidnamnet på listsidan _[!UICONTROL Landing page]_&#x200B;för att öppna den.
+1. Klicka på sidnamnet på listsidan _[!UICONTROL Landing page]_för att öppna den.
 
    En förhandsgranskning av det visuella innehållet visas, med information om landningssidan till höger.
 
@@ -270,7 +271,7 @@ Det finns två typer av varningar:
 
 Du kan duplicera en landningssida på något av följande sätt:
 
-* Klicka på ikonen _Mer_ (**..**) bredvid landningssidans namn på listsidan _[!UICONTROL Landing page]_&#x200B;och välj **[!UICONTROL Duplicate]**.
+* Klicka på ikonen _Mer_ (**..**) bredvid landningssidans namn på listsidan _[!UICONTROL Landing page]_och välj **[!UICONTROL Duplicate]**.
 * Klicka på **[!UICONTROL ... More]** längst upp till höger på informationssidan för landningssidan och välj **[!UICONTROL Duplicate]**.
 
 ![Duplicera landningssidan](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
@@ -285,7 +286,7 @@ Den duplicerade (nya) sidan visas sedan i listan _Landningssidor_.
 
 Du kan ta bort en landningssida på något av följande sätt:
 
-* Klicka på ikonen _Mer_ (**..**) bredvid landningssidans namn på listsidan _[!UICONTROL Landing page]_&#x200B;och välj **[!UICONTROL Delete]**.
+* Klicka på ikonen _Mer_ (**..**) bredvid landningssidans namn på listsidan _[!UICONTROL Landing page]_och välj **[!UICONTROL Delete]**.
 * Klicka på **[!UICONTROL ... More]** längst upp till höger på informationssidan för landningssidan och välj **[!UICONTROL Delete]**.
 
 Åtgärden öppnar en bekräftelsedialogruta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]** eller klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.

@@ -1,7 +1,10 @@
 ---
 title: Exportera kontolista
 description: Lär dig exportera kontolistan baserat på inköpsgruppsfilter.
-source-git-commit: c51ee8c8b58e8154c81f6a2ffada3f58a08eb6b4
+feature: Account Lists
+role: User
+exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -36,6 +39,6 @@ Använd funktionen _Exportera kontolista_ om du vill exportera alla konton eller
 
    >[!NOTE]
    >
-   >Om du har en meddelandeprenumeration för e-postmeddelanden som har konfigurerats i inställningarna för användarkontot i Adobe kan det vara ett e-postmeddelande.
+   >Om du har en meddelandeprenumeration för e-postmeddelanden som har konfigurerats i inställningarna för ditt Adobe-användarkonto kan det vara ett e-postmeddelande.
 
    Programsidan dirigeras om till fliken _Buying Group_ och dialogrutan Spara fil uppmanar dig att spara filen på datorn. Om du behöver dela data kan du använda teamets fildelningssystem.

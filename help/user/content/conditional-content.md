@@ -2,8 +2,9 @@
 title: Villkorligt innehåll
 description: Lär dig hur du skapar innehållsvarianter och använder villkorliga regler när du skapar e-postinnehåll för kontoresor.
 feature: Email Authoring, Content
+role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 1%
@@ -44,7 +45,7 @@ När du skapar ett e-postmeddelande för din kontoresa i e-postdesignområdet ka
 
    ![Välj villkor för variant](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Dialogrutan _[!UICONTROL Select condition]_&#x200B;öppnas och villkorsbiblioteket visas.
+   Dialogrutan _[!UICONTROL Select condition]_öppnas och villkorsbiblioteket visas.
 
    Om du vill visa information om ett villkor för att se till att det är det du vill ha klickar du på ikonen _Mer meny_ (**..**) och väljer **[!UICONTROL View Info]**.
 
@@ -131,7 +132,7 @@ Villkorliga regler lagras i villkorsbiblioteket, där de är tillgängliga för 
 
 Du kan komma åt villkorsstyrd regelbyggaren från e-postdesignområdet när du väljer ett villkor för en komponentvariant.
 
-1. Klicka på **[!UICONTROL Create new]** i dialogrutan _[!UICONTROL Select condition]_&#x200B;och välj villkorstyp:
+1. Klicka på **[!UICONTROL Create new]** i dialogrutan _[!UICONTROL Select condition]_och välj villkorstyp:
 
    * **[!UICONTROL Person condition]** - Välj den här typen om du vill skapa den villkorliga regeln med personattribut och sammanhangsberoende händelser.
    * **[!UICONTROL Account condition]** - Välj den här typen om du vill skapa villkorsregeln med kontoattribut.

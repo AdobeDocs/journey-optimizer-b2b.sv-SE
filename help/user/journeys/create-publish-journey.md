@@ -2,8 +2,9 @@
 title: Skapa och publicera en kontoresa
 description: Lär dig hur du skapar och publicerar kontoresor.
 feature: Account Journeys
+role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -110,11 +111,11 @@ När du publicerar en resa kan den påbörjas omedelbart eller på ett schemalag
 
 ## Publicera en kontoresa
 
-Du kan publicera en resa om det inte finns några fel i blockeringen. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen _[!UICONTROL Publish]_&#x200B;ned med innehållsinformation: `Resolve errors before publishing`.
+Du kan publicera en resa om det inte finns några fel i blockeringen. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen _[!UICONTROL Publish]_ned med innehållsinformation: `Resolve errors before publishing`.
 
 1. Klicka på **[!UICONTROL Publish]** längst upp till höger på färdkartan.
 
-1. I dialogrutan _[!UICONTROL Review journey settings]_&#x200B;anger du alternativ för start av resan.
+1. I dialogrutan _[!UICONTROL Review journey settings]_anger du alternativ för start av resan.
 
    Om du redan har angett inställningar för resan för att definiera ett schema ska du granska inställningarna.
 
@@ -136,4 +137,4 @@ Du kan publicera en resa om det inte finns några fel i blockeringen. När den p
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443223/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
