@@ -45,7 +45,7 @@ När du skapar ett e-postmeddelande för din kontoresa i e-postdesignområdet ka
 
    ![Välj villkor för variant](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Dialogrutan _[!UICONTROL Select condition]_öppnas och villkorsbiblioteket visas.
+   Dialogrutan _[!UICONTROL Select condition]_&#x200B;öppnas och villkorsbiblioteket visas.
 
    Om du vill visa information om ett villkor för att se till att det är det du vill ha klickar du på ikonen _Mer meny_ (**..**) och väljer **[!UICONTROL View Info]**.
 
@@ -132,7 +132,7 @@ Villkorliga regler lagras i villkorsbiblioteket, där de är tillgängliga för 
 
 Du kan komma åt villkorsstyrd regelbyggaren från e-postdesignområdet när du väljer ett villkor för en komponentvariant.
 
-1. Klicka på **[!UICONTROL Create new]** i dialogrutan _[!UICONTROL Select condition]_och välj villkorstyp:
+1. Klicka på **[!UICONTROL Create new]** i dialogrutan _[!UICONTROL Select condition]_&#x200B;och välj villkorstyp:
 
    * **[!UICONTROL Person condition]** - Välj den här typen om du vill skapa den villkorliga regeln med personattribut och sammanhangsberoende händelser.
    * **[!UICONTROL Account condition]** - Välj den här typen om du vill skapa villkorsregeln med kontoattribut.

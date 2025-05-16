@@ -38,7 +38,7 @@ Den första sidan ger vägledning om de förutsättningar/komponenter som krävs
 
    * **[!UICONTROL Account audience]** - Klicka på # och välj en målgrupp i listan.
 
-   Under _[!UICONTROL Properties]_genereras namnet på inköpsgrupperna automatiskt (skrivskyddat) som &lt; Solution Interest name > för &lt; account name >.
+   Under _[!UICONTROL Properties]_&#x200B;genereras namnet på inköpsgrupperna automatiskt (skrivskyddat) som &lt; Solution Interest name > för &lt; account name >.
 
    ![Klicka på Skapa inköpsgrupper](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
