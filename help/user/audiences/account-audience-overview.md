@@ -15,7 +15,7 @@ ht-degree: 0%
 
 En målgrupp är en uppsättning personer som har liknande beteenden och/eller egenskaper. Journey Optimizer B2B edition använder de kontosegmenteringsfunktioner som finns i Adobe Real-Time Customer Data Platform B2B- och B2P-utgåvor. Med kontosegmentering kan användarna generera kontomgrupper genom att utnyttja data från alla B2B-enheter i systemet. Dessa målgrupper fungerar som indata för kontoresor med Journey Optimizer B2B edition, vilket underlättar smidig aktivering och personalisering.
 
-Läs mer om kontomålgrupper och hur du definierar dem i [Adobe Experience Platform Segmentation Service-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
+Läs mer om kontomålgrupper och hur du definierar dem i [Adobe Experience Platform Segmentation Service-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
 
 ## Arbetsflöde för målgrupp
 
@@ -34,7 +34,7 @@ Med Journey Optimizer B2B edition kan ni skapa Adobe Experience Platform (AEP)-k
 
 ## Skapa en kontopublik
 
-Definiera målgruppen genom att skapa en kontosegmentering. Du kan skapa kontosegmenteringen direkt i Journey Optimizer B2B edition-programmet eller så kan du använda [segmenteringsgränssnittet för segmentbyggaren](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Här nedan beskrivs de steg du kan använda för att skapa en kontosegmentering i Journey Optimizer B2B edition.
+Definiera målgruppen genom att skapa en kontosegmentering. Du kan skapa kontosegmenteringen direkt i Journey Optimizer B2B edition-programmet eller så kan du använda [segmenteringsgränssnittet för segmentbyggaren](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}. Här nedan beskrivs de steg du kan använda för att skapa en kontosegmentering i Journey Optimizer B2B edition.
 
 1. Välj **[!UICONTROL Accounts]** > **[!UICONTROL Audiences]** i den vänstra navigeringen.
 

@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Adobe Journey Optimizer B2B edition kan integreras med Adobe Experience Manager Assets as a Cloud Service och ger mer än att bara använda resurser som e-post på en kontoresa. Det säkerställer transparens genom informationsutbyte med Experience Manager Assets. Konfigurera anslutningen till Adobe Experience Assets för att aktivera den här funktionen.
 
-Adobe Experience Manager Cloud Manager är indelat i program och varje program har flera miljöer och databaser ([Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). När du konfigurerar Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition skapar du anslutningar till alla databaser som du vill använda för att komma åt digitala resurser.
+Adobe Experience Manager Cloud Manager är indelat i program och varje program har flera miljöer och databaser ([Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). När du konfigurerar Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition skapar du anslutningar till alla databaser som du vill använda för att komma åt digitala resurser.
 
 {{aem-assets-licensing-note}}
 
 ## Förutsättningar
 
-* Generera autentiseringsuppgifter för tjänsten för den önskade miljön på AEM Headless Developer Console ([Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Generera autentiseringsuppgifter för tjänsten för den önskade miljön på AEM Headless Developer Console ([Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Köp de certifikat som krävs för anslutningen. Som en god praxis bör du se till att certifikaten har minst sex månader kvar innan de upphör att gälla. Certifikaten upphör att gälla var 365:e dag.
 * Adobe Journey Optimizer B2B edition ger åtkomst till en digital resurshanteringskälla åt gången. Kontrollera att de nödvändiga resurserna är tillgängliga i Adobe Experience Manager innan du byter.
 

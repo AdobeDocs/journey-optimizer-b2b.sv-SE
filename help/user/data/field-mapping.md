@@ -17,7 +17,7 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 
 >[!TIP]
 >
->Du kan modellera XDM Business Person- och XDM Business Account-klasser i en många-till-många-relation genom att använda klassen XDM Business Account Person Relation enligt beskrivningen i [Experience Platform XDM-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Du kan modellera XDM Business Person- och XDM Business Account-klasser i en många-till-många-relation genom att använda klassen XDM Business Account Person Relation enligt beskrivningen i [Experience Platform XDM-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## XDM Business Account Person Relation-attribut
 
@@ -81,7 +81,7 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 
 ## XDM Affärsmöjlighetsattribut
 
-Dessutom lagras affärsmöjlighetsdata som attribut i klassen XDM Business Opportunity, som kan kopplas till klassen XDM Business Account via en många-till-en-relation, vilket beskrivs i [dokumentationen för Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Dessutom lagras affärsmöjlighetsdata som attribut i klassen XDM Business Opportunity, som kan kopplas till klassen XDM Business Account via en många-till-en-relation, vilket beskrivs i [dokumentationen för Experience Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 | [Egenskap](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Visningsnamn | Journey Optimizer B2B-visningsnamn | Datatyp | Beskrivning |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
