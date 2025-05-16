@@ -118,4 +118,4 @@ Namnet och beskrivningen för LinkedIn-kontot visas för inköpsgrupper i Journe
 
 Du kan interagera med kontomedlemmar via en betald mediekanal, som LinkedIn Ad-målgrupper, för att värva, vårda och kvalificera dem för försäljning. Använd en _Ta en åtgärd_-nod i en kontoresa för att automatisera interaktionen med nyckelmedlemmar i ett konto via en extern kanal som passar olika kontomedlemmar bäst.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448676/?learn=on&captions=swe)
