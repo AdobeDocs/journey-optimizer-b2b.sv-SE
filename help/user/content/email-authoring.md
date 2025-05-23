@@ -4,20 +4,20 @@ description: Lär dig skapa e-postinnehåll i Adobe Journey Optimizer B2B. Anvä
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
 
 # Redigering av e-postmeddelanden
 
-När du har &lbrack;lagt till en ny<!-- or duplicated -->-e-postresurs till en åtgärdsnod för resan&rbrack;(./add-email.md) kan du definiera innehållet för e-postmeddelandet.
+När du har [lagt till en ny<!-- or duplicated -->-e-postresurs till en åtgärdsnod för resan](./add-email.md) kan du definiera innehållet för e-postmeddelandet.
 
-Klicka på **[!UICONTROL Add email content]** högst upp på förhandsvisningspanelen i _[!UICONTROL Email]_.
+Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_på den högra panelen.
 
-![Klicka på Lägg till e-postinnehåll ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Klicka på Redigera e-postinnehåll ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Den här åtgärden startar e-postdesignverktygen, där du kan välja hur du vill utforma e-postmeddelandet bland följande alternativ:
 
@@ -26,8 +26,6 @@ Den här åtgärden startar e-postdesignverktygen, där du kan välja hur du vil
 * [Importera befintligt HTML-innehåll](#import-existing-html-content) från en fil eller en ZIP-mapp.
 
 * [Välj en befintlig mall](#select-a-template) i en lista med inbyggda eller anpassade e-postmallar.
-
-Om du vill konfigurera och anpassa ämnesraden med uttrycksredigeraren klickar du på ikonen _Personalization_ och lägger till någon av Marketo Engage-tokens.
 
 När du har skapat och anpassat e-postinnehållet kan du exportera innehållet för validering eller för senare bruk. Klicka på **[!UICONTROL Export HTML]** om du vill spara innehållet som en ZIP-fil som innehåller ditt HTML och dina resurser.
 
@@ -47,10 +45,9 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 >title="Om Innehållskomponenter"
 >abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för en landningssida."
 
-Använd den visuella innehållsredigeraren för att definiera strukturen för e-postinnehållet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
+Använd det visuella designområdet för att definiera strukturen och innehållet i e-postmeddelandet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
 
 1. Välj alternativet **[!UICONTROL Design from scratch]** på startsidan för _[!UICONTROL Design your template]_.
-
 1. [Lägg till struktur och innehåll](#add-structure-and-content) i e-postmeddelandet.
 1. [Lägg till bildresurser](#add-assets) i e-postmeddelandet.
 1. [Anpassa e-postinnehållet](#personalize-content).
@@ -104,7 +101,7 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -120,7 +117,7 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 
 >[!NOTE]
 >
->Om _[!UICONTROL My Tokens]_&#x200B;har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
+>Om _[!UICONTROL My Tokens]_har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
 
 ### Redigera länkad URL-spårning
 
@@ -138,7 +135,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i den vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_högst upp i e-postdesignområdet kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/email-designer-more-menu.png){width="500"}
 
