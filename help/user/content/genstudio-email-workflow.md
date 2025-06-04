@@ -36,9 +36,9 @@ En teknisk marknadsförare som använder Journey Optimizer B2B edition för att 
 
 [Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} är en generativ AI-tillämpning som ger marknadsföringsteamen möjlighet att skapa slagkraftiga, personaliserade annonser och e-postmeddelanden som följer varumärkesstandarder och följer deras företagspolicyer. Genom att utnyttja Adobe AI-teknik får du en omfattande verktygslåda som förenklar komplexa funktioner för att skapa och hantera innehåll så att kreatörerna kan fokusera på innovation.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Skapa e-postmeddelanden för marknadsföring på varumärke](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Skapa e-postmeddelanden för marknadsföring på varumärke](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
-Läs mer om GenStudio for Performance Marketing-funktionerna i [dokumentationen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}
+Läs mer om GenStudio for Performance Marketing-funktionerna i [dokumentationen](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -72,7 +72,7 @@ GenStudio for Performance Marketing känner igen vissa element i det importerade
 
 Använd HTML-filen för att skapa en mall i GenStudio for Performance Marketing.
 
-Mer information om hur du överför en HTML-mall till GenStudio i Adobe GenStudio for Performance Marketing finns i [Lägga till en mall](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) i GenStudio for Performance Marketing-dokumentationen.
+Mer information om hur du överför en HTML-mall till GenStudio i Adobe GenStudio for Performance Marketing finns i [Lägga till en mall](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) i GenStudio for Performance Marketing-dokumentationen.
 
 När du överför den exporterade HTML-filen som en mall söker GenStudio for Performance Marketing igenom HTML-filen efter identifierade fält. Använd förhandsgranskningen för att granska mallelementen och bekräfta att du har identifierat dem korrekt med de identifierade fältnamnen.
 
@@ -80,7 +80,7 @@ När du överför den exporterade HTML-filen som en mall söker GenStudio for Pe
 
 I GenStudio for Performance Marketing använder du mallen för att skapa flera varianter av e-postupplevelser och spara dem.
 
-Mer information om hur du genererar varumärkesanpassade e-postupplevelser finns i [Skapa en e-postupplevelse](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) i GenStudio for Performance Marketing-dokumentationen.
+Mer information om hur du genererar varumärkesanpassade e-postupplevelser finns i [Skapa en e-postupplevelse](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) i GenStudio for Performance Marketing-dokumentationen.
 
 ## Lägg till genererade e-postupplevelser i Journey Optimizer B2B edition
 
