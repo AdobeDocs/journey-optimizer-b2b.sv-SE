@@ -4,16 +4,16 @@ description: Lär dig hur du skapar e-postmallar för innehåll som kan använda
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
 # Framtagning av e-postmallar
 
-När du har [skapat en e-postmall](./email-templates.md#create-an-email-template) använder du den visuella designern för att skapa struktur- och innehållskomponenterna i din e-postmall.
+När du har [skapat en e-postmall](./email-templates.md#create-an-email-template) använder du den visuella designrymden för att skapa struktur- och innehållskomponenterna i din e-postmall.
 
 ## Lägga till struktur och innehåll {#structure-content}
 
@@ -33,7 +33,7 @@ När du har [skapat en e-postmall](./email-templates.md#create-an-email-template
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När mallen har sparats visas den på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
+När mallen har sparats visas den på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -45,7 +45,7 @@ När mallen har sparats visas den på fragmentinformationssidan när du väljer 
 
 ### Anpassa innehåll
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### Redigera länkad URL-spårning
 
@@ -53,7 +53,7 @@ När mallen har sparats visas den på fragmentinformationssidan när du väljer 
 
 ## Visningsalternativ
 
-Utnyttja de alternativ för visning och innehållsvalidering som är tillgängliga i den visuella designern.
+Utnyttja de alternativ för visning och innehållsvalidering som finns i det visuella designutrymmet.
 
 * Zooma in/ut i innehållet genom förinställda zoomalternativ.
 
@@ -63,11 +63,11 @@ Utnyttja de alternativ för visning och innehållsvalidering som är tillgängli
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignern kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_högst upp i e-postdesignområdet kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Reset template]** - Klicka på det här alternativet om du vill rensa arbetsytan för den visuella designern till ett tomt läge och starta om skapandet av innehåll.
+* **[!UICONTROL Reset template]** - Klicka på det här alternativet om du vill rensa arbetsytan till en tom platta och starta om skapandet av innehåll.
 * **[!UICONTROL Save as fragment]** - Spara alla eller delar av mallen som ett fragment som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för fragmentet och sparar det i listan över tillgängliga fragment.
 * **[!UICONTROL Change your design]** - Återgå till sidan _Designa mallen_. Därifrån kan du välja att designa mallen från grunden eller använda en befintlig mall för att starta om designprocessen.
 * **[!UICONTROL Export HTML]** - Hämta innehållet på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.

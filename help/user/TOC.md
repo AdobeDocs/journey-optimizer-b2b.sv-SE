@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: e16a6ad931683a975fa0373f4dc24a0c0b6e2a2a
+source-git-commit: 20ad0dfdf33f83467da511b85930018a6a13e7a5
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 21%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 21%
       + [Lägg till ett e-postmeddelande](./content/add-email.md)
       + [Framtagning av e-post](./content/email-authoring.md)
       + [AI-assistenten för att skapa e-post](./content/ai-assistant-emails.md)
+      + [GenStudio arbetsflöden](./content/genstudio-email-workflow.md)
       + [Styrda mallar](./content/email-authoring-governance.md)
       + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
    + [Anpassade personaliseringstoken](./content/personalization-my-tokens.md)

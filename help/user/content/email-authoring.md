@@ -4,7 +4,7 @@ description: Lär dig skapa e-postinnehåll i Adobe Journey Optimizer B2B. Anvä
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
+source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Redigering av e-postmeddelanden
 
-När du har &lbrack;lagt till en ny<!-- or duplicated -->-e-postresurs till en åtgärdsnod för resan&rbrack;(./add-email.md) kan du definiera innehållet för e-postmeddelandet.
+När du har [lagt till en ny<!-- or duplicated -->-e-postresurs till en åtgärdsnod för resan](./add-email.md) kan du definiera innehållet för e-postmeddelandet.
 
-Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_&#x200B;på den högra panelen.
+Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_på den högra panelen.
 
 ![Klicka på Redigera e-postinnehåll ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -101,7 +101,7 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -113,11 +113,11 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 
 ### Anpassa innehåll
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 >[!NOTE]
 >
->Om _[!UICONTROL My Tokens]_&#x200B;har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
+>Om _[!UICONTROL My Tokens]_har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
 
 ### Redigera länkad URL-spårning
 
@@ -135,7 +135,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i den vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_högst upp i e-postdesignområdet kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/email-designer-more-menu.png){width="500"}
 
