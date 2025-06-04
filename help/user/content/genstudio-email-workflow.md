@@ -48,7 +48,7 @@ I Journey Optimizer B2B edition exporterar du HTML från ett e-postmeddelande so
 
 1. I Journey Optimizer B2B edition får du tillgång till innehållet i e-postmeddelandet i den visuella designrymden.
 
-1. Välj **[!UICONTROL Export HTML]** på menyn _[!UICONTROL More ...]_överst i e-postdesignområdet.
+1. Välj **[!UICONTROL Export HTML]** på menyn _[!UICONTROL More ...]_&#x200B;överst i e-postdesignområdet.
 
    ![Klicka på Mer och välj Exportera HTML](./assets/email-export-html.png){width="600"}
 
@@ -98,7 +98,7 @@ Så här använder du e-postvarianter från GenStudio som skapats från den expo
 
      ![Vidta en åtgärd - skicka ett e-postmeddelande](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
-   * För _[!UICONTROL Email source]_väljer du **[!UICONTROL Create new email]**om du vill skapa e-postmeddelandet i Journey Optimizer B2B edition.
+   * För _[!UICONTROL Email source]_&#x200B;väljer du **[!UICONTROL Create new email]**&#x200B;om du vill skapa e-postmeddelandet i Journey Optimizer B2B edition.
 
 1. Välj **[!UICONTROL Import HTML]** på sidan _Skapa din e-post_.
 
