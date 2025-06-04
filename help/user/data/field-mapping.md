@@ -4,10 +4,10 @@ description: Granska standardattributfälten som är synkroniserade mellan Adobe
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 5%
+source-wordcount: '1004'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 
 >[!TIP]
 >
->Du kan modellera XDM Business Person- och XDM Business Account-klasser i en många-till-många-relation genom att använda klassen XDM Business Account Person Relation enligt beskrivningen i [Experience Platform XDM-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Du kan modellera XDM Business Person- och XDM Business Account-klasser i en många-till-många-relation genom att använda klassen XDM Business Account Person Relation enligt beskrivningen i [Experience Platform XDM-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## XDM Business Account Person Relation-attribut
 
@@ -79,27 +79,28 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 | `accountPhone.number` | Ej tillämpligt | Telefonnummer till konto | Sträng | Telefonnumret som är associerat med kontot. |
 | `accountSourceType` | Ej tillämpligt | Source Type | Sträng | Source-typ för kontot. |
 
-## XDM Affärsmöjlighetsattribut
+<!-- ## XDM Business Opportunity attributes
 
-Dessutom lagras affärsmöjlighetsdata som attribut i klassen XDM Business Opportunity, som kan kopplas till klassen XDM Business Account via en många-till-en-relation, vilket beskrivs i [dokumentationen för Experience Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
-| [Egenskap](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Visningsnamn | Journey Optimizer B2B-visningsnamn | Datatyp | Beskrivning |
+|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-| `expectedCloseDate` | Förväntat stängningsdatum | Förväntat stängningsdatum för affärsmöjlighet | Sträng | Förväntat slutdatum för affärsmöjligheten. |
-| `expectedRevenue.amount` | Förväntade intäkter | Förväntad intäkt för affärsmöjlighet | Sträng | Beräknad intäkt baserad på belopp och sannolikhet. |
-| `fiscalQuarter` | Räkenskapskvartal | Räkenskapskvartal för affärsmöjlighet | Sträng | Det avsedda räkenskapskvartalet för affärsmöjligheten. |
-| `fiscalYear` | Räkenskapsår | Räkenskapsår för affärsmöjlighet | Sträng | Det avsedda räkenskapsåret för affärsmöjligheten. |
-| `forecastCategory` | Prognoskategori | Prognoskategori för affärsmöjlighet | Sträng | Prognoskategori som bestäms av värdet för affärsmöjlighetsfasen. |
-| `forecastCategoryName` | Prognoskategorinamn | Kategorinamn för prognos för affärsmöjlighet | Sträng | Prognoskategorinamn som visas i rapporter för en viss prognoskategori. |
-| `isClosed` | Stängd flagga | Affärsmöjligheten har stängts | Sträng | Flagga som anger om affärsmöjligheten är stängd. |
-| `isWon` | Won-flagga | Vunnen affärsmöjlighet | Sträng | Flagga som anger om affärsmöjligheten vinner. |
-| `lastActivityDate` | Senaste aktivitetsdatum | Senaste aktivitetsdatum | Sträng | Senaste aktivitetsdatum för affärsmöjligheten. |
-| `leadSource` | Leadkälla | Leadkälla | Sträng | Source om affärsmöjligheten, som Advertisement, Partner eller Web. |
-| `nextStep` | Nästa steg | Nästa steg i affärsmöjligheten | Sträng | Beskrivning av nästa uppgift för att stänga affärsmöjligheten. |
-| `opportunityAmount.amount` | Affärsmöjlighet - belopp | Totalt belopp för affärsmöjlighet | Sträng | Uppskattat totalt försäljningsbelopp för affärsmöjligheten. |
-| `opportunityDescription` | Beskrivning av affärsmöjlighet | Beskrivning av affärsmöjlighet | Sträng | Ytterligare information som beskriver möjligheten, till exempel möjliga produkter att sälja eller tidigare inköp från kunden. |
-| `opportunityName` | Affärsmöjlighetens namn | Affärsmöjlighetens namn | Sträng | Ämne- eller beskrivande namn, t.ex. den förväntade ordern eller företagsnamnet, för affärsmöjligheten. |
-| `opportunityQuantity` | Kvantitet för affärsmöjlighet | Kvantitet för affärsmöjlighet | Sträng | Totalt av alla fältvärden för kvantitet för alla produkter i den relaterade produktlistan för affärsmöjligheten. |
-| `opportunityStage` | Affärsmöjlighet | Möjlighetsfas | Sträng | Försäljningsfasen där säljteamet kan hjälpa säljarna att vinna. |
-| `opportunityType` | Typ av affärsmöjlighet | Typ av affärsmöjlighet | Sträng | Typ som tilldelats affärsmöjligheten, till exempel _Befintlig verksamhet_ eller _Ny verksamhet_ |
-| `probabilityPercentage` | Sannolikhetsprocent | Sannolikhet för affärsmöjlighet i procent | Sträng | Sannolikheten för att stänga affärsmöjligheten anges i procent. |
+|`expectedCloseDate` | Expected Close Date  | Expected opportunity close date   | String | Expected date of closure for the opportunity.   |
+|`expectedRevenue.amount` | Expected Revenue  | Total opportunity expected revenue   | String | Calculated revenue based on the Amount and Probability.   |
+|`fiscalQuarter` | Fiscal Quarter   | Opportunity fiscal quarter  | String | The targeted fiscal quarter for the opportunity.   |
+|`fiscalYear` | Fiscal Year   | Opportunity fiscal year   | String | The targeted fiscal year for the opportunity.   |
+|`forecastCategory`|Forecast Category | Opportunity Forecast category | String | Forecast Category determined by the opportunity Stage value. |
+|`forecastCategoryName`|Forecast Category Name | Opportunity forecast category name | String | Forecast category name that is displayed in reports for a particular forecast category. |
+|`isClosed` | Closed Flag  | Opportunity closed   | String | Flag that indicates if the opportunity is closed.   |
+|`isWon` | Won Flag  | Opportunity won   | String | Flag that indicates if the opportunity is won.  |
+|`lastActivityDate` | Last Activity Date  | Last activity date   | String | Last activity date for the opportunity.  |
+|`leadSource` | Lead Source  | Lead source   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
+|`nextStep` | Next Step  | Opportunity next step   | String | Description of the next task for closing the opportunity.   |
+|`opportunityAmount.amount` | Opportunity Amount  | Total Opportunity Amount | String | Estimated total sale amount for the opportunity.   |
+|`opportunityDescription` | Opportunity Description   | Opportunity description  |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
+|`opportunityName` | Opportunity Name   | Opportunity name |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
+|`opportunityQuantity` | Opportunity Quantity  | Opportunity quantity   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
+|`opportunityStage` | Opportunity Stage   | Opportunity stage   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
+|`opportunityType` | Opportunity Type   | Opportunity type   | String | Type assigned to the opportunity, such as _Existing Business_ or _New Business_  |
+|`probabilityPercentage` | Probability Percentage  | Opportunity probability percentage  | String | Likelihood of closing the opportunity, stated as a percentage.  |
+ -->
