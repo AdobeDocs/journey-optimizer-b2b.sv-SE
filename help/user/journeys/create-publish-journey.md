@@ -4,9 +4,9 @@ description: Lär dig hur du skapar och publicerar kontoresor.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Om du vill komma igång med en kontoresa skapar du resan och skapar sedan nodern
 
 ## Byggstenar i en resa
 
-_resekartan_ är den centrala zonen i resedesignern. Det är i den här zonen som du kan lägga till och konfigurera resenoder. Klicka på en nod för att öppna dess egenskapspanel till höger om arbetsytan och ange dem i enlighet med din design. En kontoresa börjar alltid med en [målgruppsnod](./account-audience-nodes.md) där du kan lägga till indata till din resa.
+_resekartan_ är den centrala zonen på arbetsytan för resan. Det är i den här zonen som du kan lägga till och konfigurera resenoder. Klicka på en nod för att öppna dess egenskapspanel till höger om arbetsytan och ange dem i enlighet med din design. En kontoresa börjar alltid med en [målgruppsnod](./account-audience-nodes.md) där du kan lägga till indata till din resa.
 
 När du har skapat en kontoresa och lagt till målgruppen kan du bygga ut resan med hjälp av noder. Färdkartan innehåller en arbetsyta där du kan skapa flerstegs-B2B-användningsfall för marknadsföring med följande nodtyper för att skapa en kontoresa:
 
@@ -47,7 +47,7 @@ För att hjälpa dig att bygga en resa utan att stöta på fel finns följande v
 
 * _Om du vill ta bort en delad sökvägsnod_: Om du vill ta bort en nod måste du ta bort alla efterföljande noder i varje sökväg.
 * _Tar bort en sammanfogningsnod_: En sammanfogningsnod kan bara tas bort när det finns en ansluten sökväg. Om du vill ta bort en sammanfogningsnod låter du bara en sökväg vara markerad.
-* _Växlar mellan konto och personer_: Du kan inte ändra urvalet från konton till personer utan att ta bort alla efterföljande noder i varje sökväg.
+* _Växling mellan konto och personer_: Om du ändrar urvalet från konton till personer tas alla efterföljande noder i varje sökväg bort.
 
 ## Lägg till en nod
 
@@ -111,11 +111,15 @@ När du publicerar en resa kan den påbörjas omedelbart eller på ett schemalag
 
 ## Publicera en kontoresa
 
-Du kan publicera en resa om det inte finns några fel i blockeringen. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen _[!UICONTROL Publish]_&#x200B;ned med innehållsinformation: `Resolve errors before publishing`.
+Du kan publicera en resa om det inte finns några fel i blockeringen. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen _[!UICONTROL Publish]_ned med innehållsinformation: `Resolve errors before publishing`.
+
+>[!NOTE]
+>
+>Efter publicering av en kontoresa är det upp till 24 timmar kvar innan kvalificerade konton kan komma in på resan.
 
 1. Klicka på **[!UICONTROL Publish]** längst upp till höger på färdkartan.
 
-1. I dialogrutan _[!UICONTROL Review journey settings]_&#x200B;anger du alternativ för start av resan.
+1. I dialogrutan _[!UICONTROL Review journey settings]_anger du alternativ för start av resan.
 
    Om du redan har angett inställningar för resan för att definiera ett schema ska du granska inställningarna.
 
@@ -137,4 +141,4 @@ Du kan publicera en resa om det inte finns några fel i blockeringen. När den p
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443223/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

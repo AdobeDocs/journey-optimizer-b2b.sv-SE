@@ -4,9 +4,10 @@ description: Lär dig hur du använder ditt Litmus-konto för att testa återgiv
 feature: Email Authoring, Integrations
 level: Intermediate
 role: User
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
+source-git-commit: 9a8e7e2f36195acad0160456525c00f88cbfcc73
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -19,29 +20,32 @@ Om du vill testa dina e-postmeddelanden kan du använda ett [Litmus-konto](https
 
 1. Klicka på **[!UICONTROL Render email]** överst till höger.
 
-   ![Återge e-postknapp](./assets/email-simulate-render-button.png)
+   ![Återge e-postknapp](./assets/email-simulate-render-button.png){width="700" zoomable="yes"}
 
    Om du ännu inte har anslutit till ditt Litmus-konto från Journey Optimizer B2B edition kan du välja mellan att starta ett provkonto eller ansluta till ditt befintliga konto.
 
 1. Klicka på **[!UICONTROL Connect your Litmus account]** överst till höger eller använd länken inuti sidan.
 
-   ![Anslut ditt Litmus-konto](./assets/email-simulate-render-litmus-connect.png)
+   ![Anslut ditt Litmus-konto](./assets/email-simulate-render-litmus-connect.png){width="700" zoomable="yes"}
 
-1. Ange dina autentiseringsuppgifter och klicka på **[!UICONTROL Sign in]**.
+1. Ange dina inloggningsuppgifter för Litmus-kontot och klicka på **[!UICONTROL Sign in]**.
+
+1. Klicka på **[!UICONTROL Connect]** för att bekräfta anslutningen mellan Litmus och Journey Optimizer B2B edition och skicka e-postinnehållet för återgivning.
 
    >[!IMPORTANT]
    >
-   >När du ansluter ditt Litmus-konto till Journey Optimizer B2B edition godkänner du att testmeddelanden skickas till Litmus. Efter att de skickats hanteras dessa e-postmeddelanden inte längre av Adobe. Som en följd av detta gäller regeln för lagring av Litmus-data för dessa e-postmeddelanden, inklusive personaliseringsdata som kan inkluderas i testmeddelandena.
+   >När du ansluter ditt Litmus-konto till Journey Optimizer B2B edition godkänner du att testmeddelanden skickas till Litmus. Innehållet hanteras sedan i Litmus och inte i Adobe. Som en följd av detta gäller regeln för lagring av Litmus-data för dessa e-postmeddelanden, inklusive personaliseringsdata som kan inkluderas i testmeddelandena.
 
 1. Klicka på **[!UICONTROL Run test]** längst upp till höger för att generera förhandsgranskningar via e-post.
 
+   ![Kör ett Litmus-återgivningstest](./assets/email-simulate-render-litmus-run-test.png){width="700" zoomable="yes"}
+
 1. Kontrollera e-postinnehållet i vanliga dator-, mobil- och webbaserade klienter.
 
-   ![Förhandsgranskningar i Litmus-e-post](./assets/email-simulate-render-litmus-previews.png)
-
    Klicka på miniatyrbilden som visas om du vill visa information om något av de återgivna klienttesterna.
+
+   ![Förhandsgranskningar i Litmus-e-post](./assets/email-simulate-render-litmus-previews.png){width="700" zoomable="yes"}
 
 1. När du är klar med granskningen klickar du på bakåtpilen ( ![Visa eller dölj filterikonen](../../assets/do-not-localize/icon_back-arrow.svg) ) längst upp till vänster för att återgå till sidan Simulera innehåll.
 
    Du kan välja en annan profil och göra ett annat återgivningstest, eller gå tillbaka till e-postdesignområdet och göra nödvändiga justeringar baserat på granskningen.
-
