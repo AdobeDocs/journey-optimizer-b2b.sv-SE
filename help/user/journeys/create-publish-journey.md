@@ -141,4 +141,4 @@ Du kan publicera en resa om det inte finns några fel i blockeringen. När den p
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443223/?learn=on&captions=swe)
