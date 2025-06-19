@@ -111,7 +111,7 @@ När du publicerar en resa kan den påbörjas omedelbart eller på ett schemalag
 
 ## Publicera en kontoresa
 
-Du kan publicera en resa om det inte finns några fel i blockeringen. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen _[!UICONTROL Publish]_ned med innehållsinformation: `Resolve errors before publishing`.
+Du kan publicera en resa om det inte finns några fel i blockeringen. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen _[!UICONTROL Publish]_&#x200B;ned med innehållsinformation: `Resolve errors before publishing`.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Du kan publicera en resa om det inte finns några fel i blockeringen. När den p
 
 1. Klicka på **[!UICONTROL Publish]** längst upp till höger på färdkartan.
 
-1. I dialogrutan _[!UICONTROL Review journey settings]_anger du alternativ för start av resan.
+1. I dialogrutan _[!UICONTROL Review journey settings]_&#x200B;anger du alternativ för start av resan.
 
    Om du redan har angett inställningar för resan för att definiera ett schema ska du granska inställningarna.
 
