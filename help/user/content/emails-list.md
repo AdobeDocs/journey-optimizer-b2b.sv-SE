@@ -4,16 +4,16 @@ description: Använd e-postlistan för att hantera ditt e-postinnehåll i Adobe 
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # E-post
 
-När du [skapar e-postmeddelanden](./add-email.md) lägger du till dem i kontexten för en kundnod. Om du vill arbeta med e-post utanför färdplanen använder du listan _[!UICONTROL Emails]_&#x200B;för att leta reda på och uppdatera e-postmeddelandet. Du kan granska e-postmeddelanden eller uppdatera inställningarna och innehållet.
+När du [skapar e-postmeddelanden](./add-email.md) lägger du till dem i kontexten för en kundnod. När du vill arbeta med e-postinnehåll utanför färdplanen använder du listan _[!UICONTROL Emails]_för att leta reda på och uppdatera e-postmeddelandet. Du kan granska e-postmeddelanden eller uppdatera inställningarna och innehållet.
 
 ## Få åtkomst till och hantera e-post
 
