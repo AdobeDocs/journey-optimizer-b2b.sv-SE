@@ -21,13 +21,13 @@ Använd Adobe Journey Optimizer B2B edition för att skicka e-postmeddelanden ti
 
 ## Lägg till en e-poståtgärdsnod i en resa
 
-Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_nod](../journeys/action-nodes.md) och gör följande:
+Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod](../journeys/action-nodes.md) och gör följande:
 
 1. Välj **[!UICONTROL People]** för målet _[!UICONTROL Action on]_.
 
 1. Välj **[!UICONTROL Send email]** för _[!UICONTROL Action on people]_.
 
-1. För _[!UICONTROL Email source]_väljer du hur du vill hämta e-postmeddelandet som ska skickas.
+1. För _[!UICONTROL Email source]_&#x200B;väljer du hur du vill hämta e-postmeddelandet som ska skickas.
 
    ![Vidta en åtgärd - skicka ett e-postmeddelande](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -47,11 +47,11 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
       1. Klicka på **[!UICONTROL Create]**.
 
-         Fälten _[!UICONTROL From email]_och_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+         Fälten _[!UICONTROL From email]_&#x200B;och&#x200B;_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
       1. Klicka på **[!UICONTROL Edit email]** för att definiera e-postinställningarna [för ](#define-the-email-settings) och utforma [innehållet](./email-authoring.md).
 
-+++
+     +++
 
      +++Duplicera befintlig e-post
 
@@ -73,11 +73,11 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
       1. Klicka på **[!UICONTROL Create]**.
 
-         Fälten _[!UICONTROL From email]_och_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+         Fälten _[!UICONTROL From email]_&#x200B;och&#x200B;_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
       1. Om det behövs klickar du på **[!UICONTROL Edit email]** för att ändra e-postinställningarna [för ](#define-the-email-settings) och [innehållet](./email-authoring.md).
 
-+++
+     +++
 
    * Välj **[!UICONTROL Select email from Adobe Marketo Engage]** om du vill använda ett av de förvalda e-postmeddelandena i Marketo Engage och skicka det som en del av resan.
 
