@@ -4,9 +4,9 @@ description: Lär dig att lägga till, definiera och optimera e-poståtgärder i
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -21,71 +21,67 @@ Använd Adobe Journey Optimizer B2B edition för att skicka e-postmeddelanden ti
 
 ## Lägg till en e-poståtgärdsnod i en resa
 
-Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod](../journeys/action-nodes.md) och gör följande:
+Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_nod](../journeys/action-nodes.md) och gör följande:
 
 1. Välj **[!UICONTROL People]** för målet _[!UICONTROL Action on]_.
 
 1. Välj **[!UICONTROL Send email]** för _[!UICONTROL Action on people]_.
 
-1. För _[!UICONTROL Email source]_&#x200B;väljer du hur du vill hämta e-postmeddelandet som ska skickas.
+1. För _[!UICONTROL Email source]_väljer du hur du vill hämta e-postmeddelandet som ska skickas.
 
    ![Vidta en åtgärd - skicka ett e-postmeddelande](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
    * Välj **[!UICONTROL Create new email]** om du vill redigera e-postmeddelandet internt i Journey Optimizer B2B edition.
 
-     Med det här alternativet kan du hantera e-postinnehållet direkt i Journey Optimizer B2B edition. Klicka på **[!UICONTROL Create email]** för att öppna dialogrutan _Skapa ny e-post_. Du kan skapa en ny e-postinnehållsresurs <!-- or duplicate an existing email content asset-->.
+     Med det här alternativet kan du hantera e-postinnehållet direkt i Journey Optimizer B2B edition. Klicka på **[!UICONTROL Create email]** för att öppna dialogrutan _Skapa ny e-post_. Du kan skapa en ny resurs för e-postinnehåll eller duplicera en befintlig resurs för e-postinnehåll.
 
-     Ange en unik **[!UICONTROL Name]** för e-postmeddelandet och en **[!UICONTROL Subject line]** i dialogrutan och klicka sedan på **[!UICONTROL Create]**.
+     +++Nytt e-postmeddelande
 
-     ![Skapa ny e-postdialogruta - ny e-post](assets/create-new-email-no-duplicate.png){width="400"}
+     När du vill skapa ett e-postmeddelande med en tom arbetsyta eller en e-postmall använder du alternativet _[!UICONTROL New email]_.
 
-     Fälten _[!UICONTROL From email]_&#x200B;och&#x200B;_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+      1. Välj **[!UICONTROL New email]** i dialogrutan.
 
-     Definiera e-postinställningarna för [och klicka på ](#define-the-email-settings) för att [utforma innehållet](./email-authoring.md).**[!UICONTROL Edit email content]**
+      1. Ange en unik **[!UICONTROL Name]** för e-postmeddelandet och en **[!UICONTROL Subject line]**.
 
-     <!-- +++New email {#new-email}
-     When you want to create an email using an empty canvas or an email template, use the _[!UICONTROL New email]_ option. 
+         ![Skapa ny e-postdialogruta - ny e-post](assets/create-new-email.png){width="400"}
 
-     1. In the dialog, choose **[!UICONTROL New email]**.
+      1. Klicka på **[!UICONTROL Create]**.
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+         Fälten _[!UICONTROL From email]_och_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
-        ![Create new email dialog - new email](assets/create-new-email.png){width="400"}
+      1. Klicka på **[!UICONTROL Edit email]** för att definiera e-postinställningarna [för ](#define-the-email-settings) och utforma [innehållet](./email-authoring.md).
 
-     1. Click **[!UICONTROL Create]**.
++++
 
-       In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
+     +++Duplicera befintlig e-post
 
-     1. Click **[!UICONTROL Edit email]** to define the email [settings](#define-the-email-settings) and design the [content](./email-authoring.md).
+     När du vill skapa ett e-postmeddelande med hjälp av ett befintligt e-postmeddelande från den aktuella resan eller från en annan resa använder du alternativet _[!UICONTROL Duplicate existing email]_. Du kan ändra den duplicerade e-postadressen enligt ditt mål för kundnoden.
 
-     +++
+      1. Välj **[!UICONTROL Duplicate existing email]** i dialogrutan _[!UICONTROL Create new email]_.
 
-     +++Duplicate existing email {#duplicate-email}
-     When you want to create an email using an existing email from the current journey or from another journey, use the Duplicate existing journey option. You can make changes to the duplicated email according to your objective for the journey node.
+      1. För **[!UICONTROL Existing email to duplicate]** klickar du på ikonen _Markering_ ( ![Markeringsikon](../assets/do-not-localize/icon-email-select.svg) ) och markerar det e-postmeddelande som du vill duplicera och använda för kundnoden.
 
-     1. In the dialog, choose **[!UICONTROL Duplicate existing email]**.
+         Du kan filtrera listan med e-postmeddelanden genom att ange en textsträng i sökfältet så att den matchar e-postnamnet.
 
-     1. For **[!UICONTROL Existing email to duplicate]**, click the _Select email_ icon and select the email you want to duplicate and use for the journey node.
+         ![Välj e-post](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-      You can filter the list of emails by entering a text string in the search field to match the email name.
+         Markera kryssrutan för e-postmeddelandet som du vill duplicera och klicka på **[!UICONTROL Select]**.
 
-      ![Select email](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+      1. Ange en unik **[!UICONTROL Name]** för e-postmeddelandet och en **[!UICONTROL Subject line]**.
 
-      Select the checkbox for the email that you want to duplicate and click **[!UICONTROL Select]**. 
+         ![Skapa ny e-postdialogruta - duplicera befintlig e-post](assets/create-new-email-duplicate.png){width="400"}
 
-     1. Enter a unique **[!UICONTROL Name]** for the email and a **[!UICONTROL Subject line]**.
+      1. Klicka på **[!UICONTROL Create]**.
 
-        ![Create new email dialog - duplciate existing email](assets/create-new-email.png){width="400"}
+         Fälten _[!UICONTROL From email]_och_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
-     1. Click **[!UICONTROL Create]**.
+      1. Om det behövs klickar du på **[!UICONTROL Edit email]** för att ändra e-postinställningarna [för ](#define-the-email-settings) och [innehållet](./email-authoring.md).
 
-        In the _[!UICONTROL Email properties]_ section of the email content page, the _[!UICONTROL From email]_ and _[!UICONTROL Reply to address]_ fields are already configured. You can enter values for the _[!UICONTROL From name]_ and _[!UICONTROL Description]_ (optional) fields.
++++
 
-     1. If needed, click **[!UICONTROL Edit email]** to modify the email [settings](#define-the-email-settings) and [content](./email-authoring.md).
-
-     +++
-   —>
    * Välj **[!UICONTROL Select email from Adobe Marketo Engage]** om du vill använda ett av de förvalda e-postmeddelandena i Marketo Engage och skicka det som en del av resan.
+
+     Om du har fler än en arbetsyta tillgänglig i den anslutna Market Engage-instansen markerar du arbetsytan. Välj sedan det godkända e-postmeddelande som du vill skicka som kundresa.
 
      ![Välj Marketo Engage-e-post](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
