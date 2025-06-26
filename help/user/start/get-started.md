@@ -1,42 +1,43 @@
 ---
-title: Kom igång med Journey Optimizer B2B edition
-description: Som ny användare av Journey Optimizer B2B-version får du lära dig mer om de viktigaste områdena att komma igång med.
+title: Vägledning om introduktion för administratörer och marknadsförare
+description: Som ny administratör eller användare i Journey Optimizer B2B edition får du veta mer om de viktigaste områdena i introduktionsprocessen.
 role: Admin, User
+level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 6%
+source-wordcount: '685'
+ht-degree: 3%
 
 ---
 
-# Kom igång med Journey Optimizer B2B edition
+# Vägledning om introduktion
 
-Vilka funktioner och verktyg du vill använda i Adobe Journey Optimizer B2B edition beror på vilken roll du har i ditt team.
-
-Beroende på din organisation kan administratörer definiera flera typer av användare och ge dem åtkomst till vissa funktioner beroende på deras behörigheter.
+Vilka funktioner och verktyg du vill använda i Adobe Journey Optimizer B2B edition beror på vilken roll du har i ditt team. Beroende på din organisation kan administratörer definiera flera typer av användare och ge dem åtkomst till vissa funktioner beroende på deras behörigheter.
 
 >[!TIP]
 >
->Kontrollera även dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaresäkerhetsskydd och statiska begränsningar.
+>Kontrollera även dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaresäkerhetsskydd och statiska begränsningar.
 
 >[!BEGINTABS]
 
->[!TAB Snabbstart för administratör]
+>[!TAB Administratör]
 
 Innan ditt team kan börja använda funktionerna i Adobe Journey Optimizer B2B edition krävs flera steg för att förbereda din miljö. Utför dessa steg så att datateknikern och marknadsföraren kan börja arbeta med Adobe Journey Optimizer B2B edition.
 
-Som systemadministratör måste du förstå produktprofiler och tilldela behörigheter för sandlådeadministration och kanalkonfiguration. Du måste också konfigurera sandlådor och hantera dem för de tillgängliga produktprofilerna. Du kan sedan tilldela teammedlemmar till produktprofilerna. Dessa funktioner kan hanteras av produktadministratörer som har tillgång till Adobe Admin Console. [Läs mer om Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
+Som systemadministratör måste du förstå produktprofiler och tilldela behörigheter för sandlådeadministration och kanalkonfiguration. Du måste också konfigurera sandlådor och hantera dem för de tillgängliga produktprofilerna. Du kan sedan tilldela teammedlemmar till produktprofilerna. Produktadministratörer som har tillgång till Adobe Admin Console kan hantera dessa funktioner. [Läs mer om Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
 Lär dig mer om åtkomsthantering på följande sidor:
 
-1. **Skapa sandlådor** för att partitionera dina instanser i separata, isolerade virtuella miljöer. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+1. **Skapa sandlådor** för att partitionera dina instanser i separata, isolerade virtuella miljöer. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
+
+1. **Arbeta med datateknikern** för att planera och implementera er B2B-målgrupp och profilaktivering. Granska de publicerade ritningarna och följ riktlinjerna enligt dina önskemål. [Läs mer](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Konfigurera produktprofilen**. En produktprofil är en uppsättning enhetsrättigheter i Adobe Experience Platform som ger användarna tillgång till vissa funktioner eller objekt i gränssnittet. [Läs mer](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Konfigurera användarbehörigheter** för produktprofiler, inklusive sandlådor, och ge teammedlemmarna åtkomst genom att tilldela dem till olika produktprofiler. Den här uppgiften utförs i Admin Console. [Läs mer](../admin/user-management.md#create-a-user-group)
 
-1. **Konfigurera e-postleverans** i Marketo Engage, vilket gör att ditt team kan skicka e-postinnehåll från kontoresor. [Läs mer](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
+1. **Konfigurera e-postleverans** i Marketo Engage, vilket gör att ditt team kan skicka e-postinnehåll från kontoresor. [Läs mer](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
 
 1. **Konfigurera SMS-tjänster**. Konfigurera en av de tredjepartsleverantörer av SMS som stöds och som erbjuder SMS-tjänster oberoende av varandra, och konfigurera kontoinloggningsuppgifterna i Adobe Journey Optimizer B2B edition. [Läs mer](../admin/configure-channels-sms.md)
 
@@ -44,7 +45,7 @@ Lär dig mer om åtkomsthantering på följande sidor:
 
 1. **Konfigurera Adobe Experience Platform (AEP) Experience Event-definitioner** för team som ansvarar för att skapa kontoresor som lyssnar på AEP Experience Events. [Läs mer](../admin/configure-aep-events.md)
 
->[!TAB Komma igång med marknadsföringssnabbtangenten]
+>[!TAB Marketer]
 
 Som marknadsförare, eller en _kontoansvarig_, ansvarar du för att utforma resor och skapa innehåll. Du kan börja arbeta med Adobe Journey Optimizer B2B edition när systemadministratören och datateknikern har förberett din miljö och gett dig åtkomst.
 
@@ -66,7 +67,7 @@ Se följande avsnitt för att konfigurera din första resa, lägga till resurser
 
    * Använd de inbyggda kanalåtgärderna (e-post och SMS) för att skicka meddelanden som utformats i Journey Optimizer B2B edition.
 
-   * I kunddesignern kan du bygga upp dina flerstegssituationer, lägga till villkor och skicka personaliserade meddelanden.
+   * I färdplanen kan du bygga upp dina flerstegsfall, lägga till villkor och skicka personaliserade meddelanden.
 
 [Läs mer](../journeys/journey-overview.md)
 
