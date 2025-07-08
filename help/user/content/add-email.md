@@ -4,9 +4,9 @@ description: Lär dig att lägga till, definiera och optimera e-poståtgärder i
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: cc3f8299af353f6b4578524fffe4ac01c027577f
+source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Använd Adobe Journey Optimizer B2B edition för att skicka e-postmeddelanden ti
 
 ## Lägg till en e-poståtgärdsnod i en resa
 
-Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod](../journeys/action-nodes.md) och gör följande:
+Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_nod](../journeys/action-nodes.md) och gör följande:
 
-1. Välj **[!UICONTROL People]** för målet _[!UICONTROL Action on]_.
+1. Välj _[!UICONTROL Action on]_för målet **[!UICONTROL People]**.
 
-1. Välj **[!UICONTROL Send email]** för _[!UICONTROL Action on people]_.
+1. Välj _[!UICONTROL Action on people]_för **[!UICONTROL Send email]**.
 
-1. För _[!UICONTROL Email source]_&#x200B;väljer du hur du vill hämta e-postmeddelandet som ska skickas.
+1. För _[!UICONTROL Email source]_väljer du hur du vill hämta e-postmeddelandet som ska skickas.
 
    ![Vidta en åtgärd - skicka ett e-postmeddelande](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -47,17 +47,17 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
       1. Klicka på **[!UICONTROL Create]**.
 
-         Fälten _[!UICONTROL From email]_&#x200B;och&#x200B;_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+         Fälten _[!UICONTROL Email properties]_och_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
       1. Klicka på **[!UICONTROL Edit email]** för att definiera e-postinställningarna [för ](#define-the-email-settings) och utforma [innehållet](./email-authoring.md).
 
-     +++
++++
 
      +++Duplicera befintlig e-post
 
      När du vill skapa ett e-postmeddelande med hjälp av ett befintligt e-postmeddelande från den aktuella resan eller från en annan resa använder du alternativet _[!UICONTROL Duplicate existing email]_. Du kan ändra den duplicerade e-postadressen enligt ditt mål för kundnoden.
 
-      1. Välj **[!UICONTROL Duplicate existing email]** i dialogrutan _[!UICONTROL Create new email]_.
+      1. Välj _[!UICONTROL Create new email]_i dialogrutan **[!UICONTROL Duplicate existing email]**.
 
       1. För **[!UICONTROL Existing email to duplicate]** klickar du på ikonen _Markering_ ( ![Markeringsikon](../assets/do-not-localize/icon-email-select.svg) ) och markerar det e-postmeddelande som du vill duplicera och använda för kundnoden.
 
@@ -73,11 +73,11 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
       1. Klicka på **[!UICONTROL Create]**.
 
-         Fälten _[!UICONTROL From email]_&#x200B;och&#x200B;_[!UICONTROL Reply to address]_ är redan konfigurerade i avsnittet _[!UICONTROL Email properties]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+         Fälten _[!UICONTROL Email properties]_och_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
       1. Om det behövs klickar du på **[!UICONTROL Edit email]** för att ändra e-postinställningarna [för ](#define-the-email-settings) och [innehållet](./email-authoring.md).
 
-     +++
++++
 
    * Välj **[!UICONTROL Select email from Adobe Marketo Engage]** om du vill använda ett av de förvalda e-postmeddelandena i Marketo Engage och skicka det som en del av resan.
 
@@ -115,13 +115,13 @@ Det finns två typer av varningar:
 
 * **_Varningar_** som hänvisar till rekommendationer och bästa praxis, som:
 
-   * `The opt-out link is not present in the email body`: det är bäst att lägga till en länk för att avbryta prenumerationen i e-postmeddelandet.
+   * `The opt-out link is not present in the email body`: Det är bäst att lägga till en länk för att avbryta prenumerationen i e-postmeddelandet.
 
      >[!NOTE]
      >
      >E-postmeddelanden i marknadsföringsstil måste innehålla en länk för avanmälan, vilket inte krävs för transaktionsmeddelanden.
 
-   * `Text version of HTML is empty`: glöm inte att definiera en textversion av e-postbrödtexten, som används när HTML-innehåll inte kan visas.
+   * `Text version of HTML is empty`: Glöm inte att definiera en textversion av e-postbrödtexten, som används när HTML-innehåll inte kan visas.
 
    * `Empty link is present in email body`: Kontrollera att alla länkar i e-postmeddelandet är korrekta.
 
@@ -129,6 +129,8 @@ Det finns två typer av varningar:
 
 * **_Fel_** som hindrar dig från att testa eller aktivera resan/kampanjen så länge de inte är lösta, till exempel:
 
-   * `The subject line is missing`: Ämnesraden för e-post är obligatorisk.
+   * `From name is empty`: Fältet _Från_ (obligatoriskt) har inte definierats.
 
-   * `The email version of the message is empty`: Det här felet visas när e-postinnehållet inte har konfigurerats.
+   * `The subject line is missing`: Ämnesraden (obligatoriskt) för e-post har inte definierats.
+
+   * `The email version of the message is empty`: E-postinnehållet har inte definierats.

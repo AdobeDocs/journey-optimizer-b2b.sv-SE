@@ -4,18 +4,18 @@ description: Lär dig skapa e-postinnehåll i Adobe Journey Optimizer B2B. Anvä
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
+source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
 # Redigering av e-postmeddelanden
 
-När du har &lbrack;lagt till en ny<!-- or duplicated -->-e-postresurs till en åtgärdsnod för resan&rbrack;(./add-email.md) kan du definiera innehållet för e-postmeddelandet.
+När du har [lagt till en ny<!-- or duplicated -->-e-postresurs till en åtgärdsnod för resan](./add-email.md) kan du definiera innehållet för e-postmeddelandet.
 
-Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_&#x200B;på den högra panelen.
+Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_på den högra panelen.
 
 ![Klicka på Redigera e-postinnehåll ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -47,19 +47,18 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 
 Använd det visuella designområdet för att definiera strukturen och innehållet i e-postmeddelandet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
 
-1. Välj alternativet **[!UICONTROL Design from scratch]** på startsidan för _[!UICONTROL Design your template]_.
+1. Välj alternativet _[!UICONTROL Design your template]_på startsidan för **[!UICONTROL Design from scratch]**.
 1. [Lägg till struktur och innehåll](#add-structure-and-content) i e-postmeddelandet.
 1. [Lägg till bildresurser](#add-assets) i e-postmeddelandet.
 1. [Anpassa e-postinnehållet](#personalize-content).
 1. [Granska och uppdatera länkar](#preview-and-edit-linked-urls).
+1. [Testa e-postmeddelandet](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-När innehållet är klart klickar du **[!UICONTROL Simulate content]** längst upp för att kontrollera återgivningen. Du kan välja skrivbordsvy eller mobilvy.
 
 När du är nöjd med innehållet klickar du på **[!UICONTROL Save]**.
 
@@ -101,7 +100,7 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -117,7 +116,7 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 
 >[!NOTE]
 >
->Om _[!UICONTROL My Tokens]_&#x200B;har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
+>Om _[!UICONTROL My Tokens]_har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
 
 ### Redigera länkad URL-spårning
 
@@ -133,9 +132,9 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i den vis
    * Klicka på ikonen _Visa_ om du vill förhandsgranska innehåll på olika enheter.
    * Välj en av de färdiga enheterna eller ange anpassade dimensioner för att förhandsgranska innehållet.
 
-### Fler alternativ
+## Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_högst upp i e-postdesignområdet kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/email-designer-more-menu.png){width="500"}
 
@@ -145,15 +144,21 @@ På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan d
 * **[!UICONTROL Save as content template]** - Spara e-postbrödtexten som en e-postmall som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för mallen och sparar den i listan över sparade e-postmallar.
 * **[!UICONTROL Export HTML]** - Hämta innehållet på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.
 
-## Kontrollera och testa e-postmeddelandet {#preview-test}
+## Kontrollera och testa e-postmeddelandet {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Kontrollera hur innehållet renderar"
 >abstract="När innehållet är definierat kan du förhandsgranska det och kontrollera om återgivningen är korrekt för den kanal som du använder."
 
-När meddelandeinnehållet är definierat kan du använda testprofiler för att förhandsgranska det, skicka korrektur och styra återgivningen i populära dator-, mobil- och webbaserade klienter. Om du infogade anpassat innehåll kan du förhandsgranska hur innehållet visas i meddelandet med hjälp av testprofilsdata.
+När meddelandeinnehållet har definierats kan du använda testprofiler för att förhandsgranska det, skicka korrektur och granska återgivningen i skrivbordsformat och mobilformat. Om du infogade anpassat innehåll kan du förhandsgranska hur innehållet visas i meddelandet med hjälp av testprofilsdata.
 
-Om du vill förhandsgranska e-postinnehållet klickar du på **[!UICONTROL Simulate content]** och lägger sedan till en testprofil för att kontrollera meddelandet med testprofildata.
+Om du vill [förhandsgranska e-postinnehållet](./email-simulate-content.md) klickar du på **[!UICONTROL Simulate content]** och väljer en testprofil för att kontrollera meddelandet med personprofilsdata.
 
 ![Simulera e-postinnehållet för att kontrollera din design](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+Du kan använda ytterligare verktyg för att validera och granska e-postinnehållet:
+
+* [Skicka ett bevis](./email-simulate-content.md#send-proofs)
+* [Testa återgivning i e-postklienter](./email-test-rendering.md)
+<!-- * Generate a spam report -->
