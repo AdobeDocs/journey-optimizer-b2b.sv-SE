@@ -5,16 +5,20 @@ feature: Email Authoring, Integrations
 level: Intermediate
 role: User
 exl-id: 26d87a56-6bd1-4d4a-8090-71f5b0a7e9f8
-source-git-commit: 9a8e7e2f36195acad0160456525c00f88cbfcc73
+source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
 
 # Testa e-poståtergivning med Litmus
 
-Om du vill testa dina e-postmeddelanden kan du använda ett [Litmus-konto](https://www.litmus.com/email-testing){target="_blank"} i Journey Optimizer B2B edition. Med den här integreringen kan du förhandsgranska din e-poståtergivning i vanliga e-postklienter. Med det här verktyget kan du se till att e-postinnehållet ser bra ut och fungerar som det ska i alla inkorgar.
+Om du vill testa dina e-postmeddelanden kan du använda ett [Litmus](https://www.litmus.com/email-testing){target="_blank"} Enterprise-konto från Journey Optimizer B2B edition. Med den här integreringen kan du förhandsgranska din e-poståtergivning i vanliga e-postklienter. Med det här verktyget kan du se till att e-postinnehållet ser bra ut och fungerar som det ska i alla inkorgar.
+
+>[!NOTE]
+>
+>Den här integreringen är endast tillgänglig för Litmus Enterprise-konton. Mer information finns på [lösningssidan på Litmus-webbplatsen](https://www.litmus.com/solutions/esp/adobe-journey-optimizer){target="_blank"}.
 
 1. När din e-postdesign är klar och klar att testas klickar du på **[!UICONTROL Simulate content]** i e-postdesignområdet.
 
