@@ -14,9 +14,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Knappen **[!UICONTROL Add custom CSS]** är bara tillgänglig när komponenten _[!UICONTROL Body]_är markerad. Du kan dock använda anpassade CSS-format på alla komponenter i det.
+   >Knappen **[!UICONTROL Add custom CSS]** är bara tillgänglig när komponenten _[!UICONTROL Body]_&#x200B;är markerad. Du kan dock använda anpassade CSS-format på alla komponenter i det.
 
-   Popup-redigeraren _[!UICONTROL Add custom CSS]_visas med platshållarkodkommentarer.
+   Popup-redigeraren _[!UICONTROL Add custom CSS]_&#x200B;visas med platshållarkodkommentarer.
 
 1. Ange din CSS-kod i redigeraren.
 

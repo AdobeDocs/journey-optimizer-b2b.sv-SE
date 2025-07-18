@@ -56,11 +56,11 @@ Du kan hämta en Excel-fil som du kan använda som mall för att förbereda mapp
 
 ## Överför en kategorifil
 
-När kalkylbladet är klart går du tillbaka till konfigurationssidan _[!UICONTROL Intent Mapping]_och överför filen.
+När kalkylbladet är klart går du tillbaka till konfigurationssidan _[!UICONTROL Intent Mapping]_&#x200B;och överför filen.
 
 1. Klicka på **[!UICONTROL Create category]**.
 
-1. Dra och släpp filen i dialogrutan _[!UICONTROL Upload files]_eller klicka på&#x200B;**[!UICONTROL Select a file]**för att leta reda på och markera filen på datorn.
+1. Dra och släpp filen i dialogrutan _[!UICONTROL Upload files]_&#x200B;eller klicka på&#x200B;**[!UICONTROL Select a file]**&#x200B;för att leta reda på och markera filen på datorn.
 
 1. Klicka på **[!UICONTROL Next]**.
 

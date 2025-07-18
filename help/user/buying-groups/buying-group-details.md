@@ -67,7 +67,7 @@ I Journey Optimizer B2B edition kan man med metoden Intent Detection förutsäga
 
 ![Köper gruppmedlemmar](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
-Avsnittet _[!UICONTROL Buying group members]_visar två rader som markerar medlemmar i inköpsgruppen:
+Avsnittet _[!UICONTROL Buying group members]_&#x200B;visar två rader som markerar medlemmar i inköpsgruppen:
 
 * **[!UICONTROL Decision maker]** - De tre viktigaste beslutsfattarna baserat på personengagemangspoäng
 * **[!UICONTROL Top engaged members]** - Andra toppengagerade medlemmar baserat på personengagemangspoäng
@@ -104,11 +104,11 @@ Ett konto kan ha en eller flera inköpsgrupper kopplade till sig, och köpgrupps
 
 1. Klicka på **[!UICONTROL Assign new member]** överst till höger.
 
-1. I dialogrutan _[!UICONTROL Assign member]_väljer du det konto som du vill lägga till i inköpsgruppen och klickar på&#x200B;**[!UICONTROL Next]**.
+1. I dialogrutan _[!UICONTROL Assign member]_&#x200B;väljer du det konto som du vill lägga till i inköpsgruppen och klickar på&#x200B;**[!UICONTROL Next]**.
 
    ![Fliken Medlemmar - tilldela nya medlemmar](./assets/buying-group-details-assign-member.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Edit new member role]_väljer du den roll som ska tilldelas var och en av de nya medlemmarna.
+1. I dialogrutan _[!UICONTROL Edit new member role]_&#x200B;väljer du den roll som ska tilldelas var och en av de nya medlemmarna.
 
    ![Fliken Medlemmar - tilldela ny medlemsroll](./assets/buying-group-details-assign-member-edit-role.png){width="700" zoomable="yes"}
 
@@ -136,7 +136,7 @@ Du kan ändra roll för en eller flera valda medlemmar (upp till 50 i taget) i i
 
    ![Fliken Medlemmar - redigera roller](./assets/buying-group-details-edit-roles.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Edit member role]_väljer du den roll som ska tilldelas var och en av medlemmarna.
+1. I dialogrutan _[!UICONTROL Edit member role]_&#x200B;väljer du den roll som ska tilldelas var och en av medlemmarna.
 
    ![Redigera medlemsroller- välj roller](./assets/buying-group-details-edit-roles-choose-roles.png){width="700" zoomable="yes"}
 
@@ -152,7 +152,7 @@ Du kan skicka ett marknadsföringsgodkänt e-postmeddelande till en eller flera 
 
    ![Fliken Medlemmar - skicka e-post](./assets/buying-group-details-send-email.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Send email]_markerar du arbetsytan i Marketo Engage och markerar sedan kryssrutan för det e-postmeddelande som du vill skicka.
+1. I dialogrutan _[!UICONTROL Send email]_&#x200B;markerar du arbetsytan i Marketo Engage och markerar sedan kryssrutan för det e-postmeddelande som du vill skicka.
 
    ![Välj ett e-postmeddelande som ska skickas till medlemmar i inköpsgruppen](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
 

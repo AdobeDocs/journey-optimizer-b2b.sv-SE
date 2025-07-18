@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Många e-postleverantörer och de flesta företagssystem använder en process för skräppostfiltrering. Om du skickar e-postmeddelanden som triggar dessa filter kan det påverka leveransmöjligheterna avsevärt. I Journey Optimizer B2B edition kan du kontrollera spam-poäng för e-postinnehåll genom att generera en skräppostrapport. Den här rapporten använder [[!DNL SpamAssassin]](https://spamassassin.apache.org/) för att testa e-postmeddelandet och hjälper dig att avgöra om ett meddelande kan betraktas som skräppost med antispam-verktyg. Du kan använda informationen i rapporten för att vidta åtgärder som förbättrar poängen för e-postinnehållet och leveransmöjligheterna.
 
-När du granskar dina e-postinställningar eller redigerar innehållet öppnar du sidan _[!UICONTROL Simulate]_och skapar en_ skräppostrapport _som granskar poängsättningen och flaggade element som kan utlösa skräppostfiltrering.
+När du granskar dina e-postinställningar eller redigerar innehållet öppnar du sidan _[!UICONTROL Simulate]_&#x200B;och skapar en_ skräppostrapport _som granskar poängsättningen och flaggade element som kan utlösa skräppostfiltrering.
 
-1. Klicka på _[!UICONTROL Simulate]_överst till höger på sidan **[!UICONTROL Spam report]**.
+1. Klicka på _[!UICONTROL Simulate]_&#x200B;överst till höger på sidan **[!UICONTROL Spam report]**.
 
    ![Rapporteringsknapp för skräppost](./assets/email-spam-report-button.png){width="700" zoomable="yes"}
 
@@ -39,7 +39,7 @@ När du granskar dina e-postinställningar eller redigerar innehållet öppnar d
 
 1. Om det finns vissa element i e-postinnehållet som kan förbättras kan du redigera innehållet och använda de nödvändiga uppdateringarna.
 
-1. När ändringarna är klara går du tillbaka till sidan _[!UICONTROL Simulate]_och klickar på&#x200B;**[!UICONTROL Spam report]**igen för att kontrollera om resultatet har förbättrats.
+1. När ändringarna är klara går du tillbaka till sidan _[!UICONTROL Simulate]_&#x200B;och klickar på&#x200B;**[!UICONTROL Spam report]**&#x200B;igen för att kontrollera om resultatet har förbättrats.
 
 
 

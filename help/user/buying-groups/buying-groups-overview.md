@@ -72,7 +72,7 @@ För att säkerställa att medlemstilldelningen i en inköpsgrupp inte åsidosä
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
@@ -84,7 +84,7 @@ Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -177,7 +177,7 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
 
 | Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |

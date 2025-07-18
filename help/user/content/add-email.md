@@ -21,13 +21,13 @@ Använd Adobe Journey Optimizer B2B edition för att skicka e-postmeddelanden ti
 
 ## Lägg till en e-poståtgärdsnod i en resa
 
-Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_nod](../journeys/action-nodes.md) och gör följande:
+Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod](../journeys/action-nodes.md) och gör följande:
 
-1. Välj _[!UICONTROL Action on]_för målet **[!UICONTROL People]**.
+1. Välj _[!UICONTROL Action on]_&#x200B;för målet **[!UICONTROL People]**.
 
-1. Välj _[!UICONTROL Action on people]_för **[!UICONTROL Send email]**.
+1. Välj _[!UICONTROL Action on people]_&#x200B;för **[!UICONTROL Send email]**.
 
-1. För _[!UICONTROL Email source]_väljer du hur du vill hämta e-postmeddelandet som ska skickas.
+1. För _[!UICONTROL Email source]_&#x200B;väljer du hur du vill hämta e-postmeddelandet som ska skickas.
 
    ![Vidta en åtgärd - skicka ett e-postmeddelande](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -47,17 +47,17 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
       1. Klicka på **[!UICONTROL Create]**.
 
-         Fälten _[!UICONTROL Email properties]_och_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+         Fälten _[!UICONTROL Email properties]_&#x200B;och&#x200B;_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
       1. Klicka på **[!UICONTROL Edit email]** för att definiera e-postinställningarna [för ](#define-the-email-settings) och utforma [innehållet](./email-authoring.md).
 
-+++
+     +++
 
      +++Duplicera befintlig e-post
 
      När du vill skapa ett e-postmeddelande med hjälp av ett befintligt e-postmeddelande från den aktuella resan eller från en annan resa använder du alternativet _[!UICONTROL Duplicate existing email]_. Du kan ändra den duplicerade e-postadressen enligt ditt mål för kundnoden.
 
-      1. Välj _[!UICONTROL Create new email]_i dialogrutan **[!UICONTROL Duplicate existing email]**.
+      1. Välj _[!UICONTROL Create new email]_&#x200B;i dialogrutan **[!UICONTROL Duplicate existing email]**.
 
       1. För **[!UICONTROL Existing email to duplicate]** klickar du på ikonen _Markering_ ( ![Markeringsikon](../assets/do-not-localize/icon-email-select.svg) ) och markerar det e-postmeddelande som du vill duplicera och använda för kundnoden.
 
@@ -73,11 +73,11 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
       1. Klicka på **[!UICONTROL Create]**.
 
-         Fälten _[!UICONTROL Email properties]_och_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+         Fälten _[!UICONTROL Email properties]_&#x200B;och&#x200B;_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
       1. Om det behövs klickar du på **[!UICONTROL Edit email]** för att ändra e-postinställningarna [för ](#define-the-email-settings) och [innehållet](./email-authoring.md).
 
-+++
+     +++
 
    * Välj **[!UICONTROL Select email from Adobe Marketo Engage]** om du vill använda ett av de förvalda e-postmeddelandena i Marketo Engage och skicka det som en del av resan.
 

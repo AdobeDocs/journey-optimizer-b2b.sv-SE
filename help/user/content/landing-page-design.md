@@ -78,7 +78,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i det vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_längst upp i den visuella designrymden kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_&#x200B;längst upp i den visuella designrymden kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/landing-page-designer-more-menu.png){width="500"}
 
