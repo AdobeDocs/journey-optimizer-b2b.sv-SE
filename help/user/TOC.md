@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
+source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 20%
+source-wordcount: '282'
+ht-degree: 19%
 
 ---
 
@@ -51,7 +51,6 @@ ht-degree: 20%
       + [Lösningsintressen](./buying-groups/solution-interests.md)
       + [Rollmallar](./buying-groups/buying-groups-role-templates.md)
       + [Köpgruppsfaser](./buying-groups/buying-group-stages.md)
-      + [Information om inköpsgrupp](./buying-groups/buying-group-details.md)
       + [Skapa inköpsgrupper](./buying-groups/buying-groups-create.md)
       + [Exportera kontolista](./audiences/account-list-export.md)
       + [LinkedIn-konto matchar målgrupper](./data/linkedin-account-matched-audiences.md)
@@ -59,14 +58,19 @@ ht-degree: 20%
    + Kontolistor {#account-lists}
       + [Översikt](./accounts/account-lists.md)
       + [Användning under resor och program](./accounts/account-lists-journeys.md)
-   + [Kontoinformation](./accounts/account-details.md)
    + [XDM-fält](./data/field-mapping.md)
+   + Försäljningsupplevelse {#sales-experience}
+      + [Kontoinformation](./accounts/account-details.md)
+      + [Information om inköpsgrupp](./buying-groups/buying-group-details.md)
+      + [Personinformation](./accounts/person-details.md)
+      + [CRM-länkning](./accounts/crm-linking.md)
 + Innehållshantering {#content-management}
    + E-post {#emails}
       + [Arbeta med e-postinnehåll](./content/emails-list.md)
-Förhandsgranska och validera  {#preview}
+      + Förhandsgranska och validera {#preview}
          + [Simulera innehåll](./content/email-simulate-content.md)
          + [Testa e-poståtergivning](./content/email-test-rendering.md)
+         + [Rapport om skräppost](./content/email-spam-report.md)
    + Assets {#assets}
       + [Översikt](./content/assets-overview.md)
       + Marketo Engage-resurser {#marketo-engage-dam}
@@ -91,6 +95,7 @@ Förhandsgranska och validera  {#preview}
       + [Översikt](./content/landing-pages.md)
       + [Landningssiddesign](./content/landing-page-design.md)
    + [Villkorligt innehåll](./content/conditional-content.md)
+   + [Anpassad CSS](./content/design-custom-css.md)
 + Insiktspaneler {#dashboards}
    + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
    + [Översikt över engagemang](./dashboards/engagement-dashboard.md)

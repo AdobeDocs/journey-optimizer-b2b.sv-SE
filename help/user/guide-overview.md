@@ -2,10 +2,10 @@
 title: Dokumentation om Adobe Journey Optimizer B2B Edition
 description: Lär dig hur du använder Adobe Journey Optimizer B2B edition-funktionerna för att ordna konton och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
+source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 4%
+source-wordcount: '610'
+ht-degree: 5%
 
 ---
 
@@ -23,43 +23,41 @@ Integrera GenStudio for Performance Marketing e-postupplevelser med Journey Opti
 
 [!BADGE Läs mer]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Läs om GenStudio e-postupplevelser"}
 
->[!TAB Kontolistor]
+>[!TAB Rapportering om skräppostidentifiering]
 
-Skapa en kontolista, som är en samling namngivna konton som marknadsförare kan använda för riktad resesamordning. En kontolista kan ha namngivna konton som mål enligt dina definierade kriterier, t.ex. bransch, plats eller företagets storlek.
+Med de nya skräppostrapporterna kan du undvika skräppostfilter och se till att meddelanden levereras till publikens inkorgar. Generera en _skräppostrapport_ direkt i e-postdesignområdet.
 
-[!BADGE Läs mer]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Läs mer om kontolistor"}
+[!BADGE Läs mer]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Läs mer om rapportering av skräppostavkänning"}
 
->[!TAB Kontolistfilter för smarta listor]
+>[!TAB Åtgärder för konto och inköpsgrupp]
 
-Nu kan du filtrera smarta Marketo Engage-listor med kontolistefilter. Med dessa filter kan ni utelämna och inkludera kontolistmedlemmar i Marketo Engage-kampanjer och program från kontoresor inom Journey Optimizer B2B edition.
+Vidta åtgärder direkt från kontoinformation och köp av informationssidor för grupper för snabbt och avsiktligt engagemang.
 
-[!BADGE Läs mer]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program—member-of-account-list" tooltip="Läs mer om kontolistfilter som används i Marketo Engage smarta listor"}
+Använd åtgärden _Skicka e-post_ för att skicka ett godkänt Marketo Engage-e-postmeddelande till valda kontokontakter eller till medlemmar i inköpsgrupper.
 
->[!TAB Inaktivitetshistorikfilter]
+[!BADGE Läs mer]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Läs mer om hur du skickar e-post till kontokontakter"}
 
-Förloppsresor som bygger på inaktivitet i Marketo Engage kampanjer och program, inklusive e-post, intressanta ögonblick, förändringar av datavärdet och besökta webbsidor.
+Bland köpgruppsinformationen ingår även _Tilldela en ny medlem_, _Ta bort en medlem_ och _Redigera en roll_.
 
-[!BADGE Läs mer]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Läs om filter för inaktivitetshistorik"}
+[!BADGE Läs mer]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Läs om hur du köper gruppåtgärder"}
 
->[!TAB Reseduplicering]
+>[!TAB Stöd för anpassad CSS]
 
-Duplicera strukturen för kontoresan för att minimera manuella fel och säkerställa konsekventa inställningar, flöden och sökvägar. Under den duplicerade resan kan ni justera innehåll eller åtgärder, vilket gör det enklare att hantera större och mer komplexa &#x200B;.
+Nu kan du lägga till egen anpassad CSS när du skapar e-post- och landningssidinnehåll i designområdet.
 
-[!BADGE Läs mer]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-travel" tooltip="Lär dig mer om duplicering av resor"}
+[!BADGE Läs mer]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Läs om hur du använder anpassad CSS"}
 
->[!TAB Kontrollpanel för intelligenta insikter]
+>[!TAB Återgivningsnyckelordsmappning]
 
-Med nya Intelligent Dashboard ser du hur det går för er att köpa upp gruppkvalifikationer i olika faser. Ta reda på vilka köpgrupper som rör sig snabbt och vilka som är stagnerade så att ni kan boka resor för att vårda dem efter behov. Ni har också information på inköpsgrupp- och kontonivå, som ger mer kontext och historiska data för kundengagemang.
+Om du vill aktivera och hantera återgivningsidentifieringsmodellen kan du nu överföra ett kalkylblad för att definiera en kategori för avsiktsdatamappning.
 
-[!BADGE Läs mer]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="Läs om Intelligent Dashboard"}
+[!BADGE Läs mer]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Läs mer om konfiguration av nyckelordsmappning för återgivning"}
 
->[!TAB Adobe Express bildredigering]
+>[!TAB E-posttestning med Litmus]
 
-Använd Adobe Express Snabbåtgärder för att redigera innehållet med beskärning, storleksändring, borttagning av bakgrund och formatkonvertering. Det intuitiva användargränssnittet i Adobe Express är inbyggt så att du snabbt kan finjustera bildresurserna.
+Med ett Litmus-konto kan du nu förhandsgranska din e-poståtergivning i vanliga e-postklienter från Journey Optimizer B2B edition. Tack vare den här integreringen kan du se till att e-postinnehållet ser bra ut och fungerar som det är avsett i varje e-postinkorg.
 
-Med Adobe Express Enterprise licensing kan ni utnyttja alla funktioner i Adobe Express. Använd de här funktionerna för att finputsa och förbättra bilder, samtidigt som du följer varumärkesriktlinjerna och tar bort hinder i innehållsleveranskedjan.
-
-[!BADGE Läs mer]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Läs om bildredigering med Adobe Express"}
+[!BADGE Läs mer]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Läs mer om integrationen av Litmus-e-posttestning"}
 
 >[!ENDTABS]
 
@@ -139,15 +137,15 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Videofilmer och självstudiekurser </a> - <a href="https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeskrivning</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=sv-SE" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Videofilmer och självstudiekurser </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeskrivning</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/sv/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/sv/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
 </td>
 </tr></table>
 

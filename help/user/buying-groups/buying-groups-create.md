@@ -4,9 +4,9 @@ description: Lär dig hur du skapar inköpsgrupper med de nödvändiga komponent
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ När inköpsgruppen har skapats är den tillgänglig för användning i en konto
 
 1. Klicka på **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 
-1. Klicka på **[!UICONTROL Create buying groups]** längst upp till höger på sidan _[!UICONTROL Buying groups]_.
+1. Klicka på _[!UICONTROL Buying groups]_längst upp till höger på sidan **[!UICONTROL Create buying groups]**.
 
    ![Klicka på Skapa inköpsgrupper](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
@@ -38,7 +38,7 @@ Den första sidan ger vägledning om de förutsättningar/komponenter som krävs
 
    * **[!UICONTROL Account audience]** - Klicka på # och välj en målgrupp i listan.
 
-   Under _[!UICONTROL Properties]_&#x200B;genereras namnet på inköpsgrupperna automatiskt (skrivskyddat) som &lt; Solution Interest name > för &lt; account name >.
+   Under _[!UICONTROL Properties]_genereras namnet på inköpsgrupperna automatiskt (skrivskyddat) som &lt; Solution Interest name > för &lt; account name >.
 
    ![Klicka på Skapa inköpsgrupper](./assets/buying-groups-create-components.png){width="700" zoomable="yes"}
 
@@ -50,9 +50,11 @@ Bekräftelsedialogrutan innehåller en sammanfattning av inköpsgruppsprocessen 
 
 ![Skapa bekräftelsedialogruta för inköpsgrupper](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
-Du kan navigera användaren till fliken Lösningens intresse och visa antalet jobb som skapats för lösningsintresset.
+## Köpa gruppskapande jobb
 
-![Klicka på Skapa inköpsgrupper](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+När du skapar ett jobb skapas automatiskt inköpsgrupper för varje nytt konto på kontomålgruppen. Du kan navigera till fliken _[!UICONTROL Solution interest]_, som visar antalet skapade jobb för varje lösningsintresse. Klicka på siffran i kolumnen **[!UICONTROL Buying group creation jobs]**om du vill visa listan med skapande jobb.
+
+![Köper gruppjobb efter lösningsintresse](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!-- Other buying group activities:
 
@@ -62,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## Instruktionsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3451765/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

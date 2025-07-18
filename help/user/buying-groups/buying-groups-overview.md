@@ -4,10 +4,10 @@ description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka ma
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
+source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 7%
+source-wordcount: '1988'
+ht-degree: 6%
 
 ---
 
@@ -18,20 +18,34 @@ För B2B-försäljnings- och marknadsföringsaktiviteter är konton avgörande f
 
 ![Diagram över kontoroller](assets/account-roles-diagram.png){width="800"}
 
-I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Dessa personer fattar i slutändan inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan t.ex. kräva en Chief Information Officer eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp, men en buggspårningsprodukt kan vanligtvis ha en VP som Engineering och en IT-chef som medlemmar i inköpsgruppen.
+I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Dessa personer fattar i slutändan inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan till exempel kräva en informationschef eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp. En produkt för buggspårning kan normalt ha en VP av Engineering och en IT-chef som medlemmar i inköpsgruppen.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
 
 ## Viktiga komponenter
 
-Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i Journey Optimizer B2B edition som identifierar saknade medlemmar i era målkontolistor baserat på de lösningar som era säljteam ansvarar för. Innan du och ditt marknadsföringsteam börjar skapa inköpsgrupper måste du se till att du har definierat nyckelkomponenterna. De här komponenterna är viktiga för att ni ska kunna uppnå era affärsmål.
+Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i Journey Optimizer B2B edition som identifierar medlemmar i era målkontolistor baserat på de lösningar som era säljteam ansvarar för. Innan du och ditt marknadsföringsteam börjar skapa inköpsgrupper måste du se till att du har definierat nyckelkomponenterna. De här komponenterna är viktiga för att ni ska kunna uppnå era affärsmål.
 
 | Komponent | Syfte |
 | --------- | ------- |
-| Intresse av lösningar | Den här komponenten ger svaret på: <ul><li>Vad säljer du som marknadsföringsorganisation?</li><li>Vilken produkt eller produktsamling riktar ni er till?</li></ul>  **_Exempel:_** Merförsäljning av nya produkter X till befintliga kunder |
-| Målgrupp | Den här komponenten ger svaret på: <ul><li>Till vem säljer du?</li><li>Vad är listan med konton som ni riktar er mot?</li></ul> **_Exempel:_** Kontosegment som definieras av konton med produkt Y som har intäkter över 1 miljon |
+| Intresse av lösningar | Den här komponenten ger svaret på: <ul><li>Vad säljer du som marknadsföringsorganisation?</li><li>Vilken produkt eller produktsamling riktar ni er till?</li></ul>  **_Example:_** Merförsäljning av nya produkter X till befintliga kunder |
+| Målgrupp | Den här komponenten ger svaret på: <ul><li>Till vem säljer du?</li><li>Vad är listan med konton som ni riktar er mot?</li></ul> **_Example:_** Kontosegment som definieras av konton med produkt Y som har intäkter över 1 miljon |
 | Köpa grupprollsmallar | Den här komponenten ger svaret på: <ul><li>Vilka roller riktar ni er mot?</li><li>Vilken uppsättning regler används för att avgöra vem som har tilldelats till inköpsgrupproller?</li></ul>  **_Exempel:_** Tilldela en person med CMO-titel rollen beslutsfattare |
 | Köpgruppsfaser | (Valfritt) Den här komponenten ger svaret på: Hur lyckas eller misslyckas inköpsgruppen? |
+
+## Medlemstilldelning
+
+Det finns tre sätt att tilldela eller ta bort medlemmar från en inköpsgrupp. I följande lista beskrivs dessa additions- och borttagningsmetoder i prioritetsordning. Den översta metoden har högsta prioritet och den understa kan inte åsidosätta den.
+
+1. **_Manuell åtgärd_** - En manuell åtgärd för att lägga till eller ta bort medlem som har utförts av en försäljningsanvändare för inköpsgruppen
+2. **_Reseåtgärd_** - Resa [åtgärdsnoder för köp av gruppmedlemskap](../journeys/action-nodes.md#add-a-people-based-action) (_Tilldela till inköpsgrupp_ eller _Ta bort från inköpsgrupp_)
+3. **_Systemjobb_** - Buying group [creation](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) och underhållsjobb.
+
+För att säkerställa att medlemstilldelningen i en inköpsgrupp inte åsidosätts felaktigt är den här listan i prioritetsordningen som följs i systemet för att säkerställa korrekt medlemstilldelning. Om en försäljningsanvändare till exempel lägger till en medlem i inköpsgruppen manuellt, vill de inte att ett underhållsjobb ska ändra tillägget. Följande scenarier används med hjälp av prioritetsordningen:
+
+* Om en användare tilldelar en medlem manuellt till en inköpsgrupp, och detta följs av ett underhållsjobb för inköpsgrupp som tar bort samma medlem från inköpsgruppen, tar underhållsjobbet **inte bort** den medlemmen och kan inte åsidosätta den manuella tilldelningen.
+* Om en användare tilldelar en medlem manuellt till en inköpsgrupp, och detta följs av en utlösad kundnod som tar bort samma medlem från inköpsgruppen, tar inte nodåtgärden **bort** den medlemmen och kan inte åsidosätta den manuella tilldelningen.
+* Om en utlöst transportåtgärdsnod lägger till en medlem i en inköpsgrupp, och detta följs av ett underhållsjobb för inköpsgrupp som tar bort samma medlem från inköpsgruppen, tar underhållsjobbet **inte bort** den medlemmen och kan inte åsidosätta reseåtgärdstilldelningen.
 
 ## Arbetsflöde för inköpsgrupp
 
@@ -40,11 +54,11 @@ Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i 
    * Definiera [lösningsintresse](./solution-interests.md) och [rollmall](./buying-groups-role-templates.md)
    * [Skapa inköpsgruppen](./buying-groups-create.md#create-buying-groups) och tilldela [inköpsgruppfaser](./buying-group-stages.md).
 
-1. Identifiera saknade personer.
+1. Identifiera saknade personer genom fullständighet.
 
    Analysera inköpsgruppen med hjälp av filter.
 
-   **_Exempel:_** Beslutsfattarrollen saknas och poängen för fullständighet är &lt; 50
+   **_Example:_** Beslutsfattarrollen saknas och poängen för fullständighet är &lt; 50
 
 1. Slutför definitioner av inköpsgrupper.
 <!--
@@ -52,25 +66,25 @@ Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i 
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Använd inköpsgruppen på dina kontoresor.
+1. Lägg till inköpsgruppåtgärder på dina kontoresor.
 
 ## Visa inköpsgrupper och komponenter
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
 | [!UICONTROL Overview] | Den här fliken är standard och visar kontrollpanelen [Köpgrupper](../dashboards/buying-groups-dashboard.md). |
-| [!UICONTROL Browse] | Fliken har stöd för följande aktiviteter: <ul><li>Visa listan över befintliga inköpsgrupper. </li><li>Sök genom att köpa gruppnamn. </li><li>Filtrera efter lösningsintresse. </li><li>Granska om du vill köpa gruppinformation. </li><li>Skapa en inköpsgrupp. </li></ul> |
-| [!UICONTROL Solution interests] | Fliken har stöd för följande aktiviteter: <ul><li>Visa listan över befintliga inköpsgrupper. </li><li>Sök genom att köpa gruppnamn. </li><li>Få tillgång till och redigera egenskaper för lösningsintresse. </li><li>Skapa ett intresse för en lösning. </li><li>Ta bort ett lösningsintresse. </li><li>Visa och ta bort inköpsgruppjobb. </li></ul> |
+| [!UICONTROL Browse] | Fliken har stöd för följande aktiviteter: <ul><li>Visa listan över befintliga inköpsgrupper. </li><li>Sök efter inköpsgruppens namn. </li><li>Filtrera efter lösningsintresse. </li><li>Granska om du vill köpa gruppinformation. </li><li>Skapa en inköpsgrupp. </li></ul> |
+| [!UICONTROL Solution interests] | Fliken har stöd för följande aktiviteter: <ul><li>Visa listan över befintliga inköpsgrupper. </li><li>Sök efter inköpsgruppens namn. </li><li>Få tillgång till och redigera egenskaper för lösningsintresse. </li><li>Skapa ett intresse för en lösning. </li><li>Ta bort ett lösningsintresse. </li><li>Visa och ta bort inköpsgruppjobb. </li></ul> |
 | [!UICONTROL Roles Templates] | Fliken har stöd för följande aktiviteter: <ul><li>Visa listan över befintliga rollmallar. </li><li>Sök efter rollmallens namn. </li><li>Få åtkomst till och redigera egenskaper och villkor för rollmallar. </li><li>Skapa en rollmall. </li><li>Ta bort en rollmall. </li></ul> |
 | [!UICONTROL Stages] | Fliken har stöd för följande aktiviteter: <ul><li>Visa den befintliga inköpsgruppsmodellen. </li><li>Få åtkomst till och redigera utkasten till inköpsgruppfasmodell. </li><li>Skapa inköpsgruppens fasmodell. </li></ul> |
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -100,46 +114,52 @@ Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos 
 
 +++aktiviteter som används för poängsättning
 
+>[!BEGINSHADEBOX]
+
 | Aktivitetsnamn | Beskrivning | Typ av åtagande | Maximalt antal dagliga frekvenser | Aktivitetsvikt |
 | --- | --- | --- | --- | --- |
-| Registrera dig för event | Registrerar för en händelse som är associerad med en kampanj | Händelse | 20 | 60 |
-| Delta händelse | Deltar i en kampanjhändelse | Händelse | 20 | 90 |
-| Öppna e-post | Öppnar ett e-postmeddelande | E-post | 20 | 30 |
-| Klicka på E-post | Klicka på en länk i ett e-postmeddelande | E-post | 20 | 30 |
-| Open Sales Email | Öppnar ett e-postmeddelande | E-post | 20 | 30 |
-| Klicka på E-postadress | Klicka på en länk i ett e-postmeddelande | E-post | 20 | 30 |
-| Intressant stund | Har ett intressant ögonblick | Kuraterad | 20 | 60 |
-| Tryck på push-meddelande | Tar emot ett push-meddelande | Mobil | 20 | 30 |
-| Mobilappsaktivitet | Utför en aktivitet i en mobilapp | Mobil | 20 | 30 |
-| Mobilappssession | Är aktiv i mobilappssession | Mobil | 20 | 30 |
-| Fyll i formulär för leadannonser på Facebook | Fyller i och skickar in ett leadannonsformulär på en Facebook-sida | Social | 20 | 30 |
-| Klicka på RTP-anrop för åtgärd | Klicka på en personlig uppmaning | Webb | 20 | 60 |
-| Visa meddelande i appen | Visar ett meddelande i appen | Mobil | 20 | 30 |
-| Tryck på meddelande i appen | Tryck på ett meddelande i appen | Mobil | 20 | 30 |
-| Prenumerera på SMS | Prenumererar på SMS-kommunikation | SMS | 20 | 90 |
-| Svara på e-postadress | Svar på ett e-postmeddelande | E-post | 20 | 30 |
-| Engagerad med en dialogruta | Deltar i en Dynamic Chat-dialog | Chatt | 20 | 90 |
-| Interagera med dokument i dialogrutan | Interagera med ett dokument i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
-| Schemalagt möte i dialogrutan | Schemalägger ett möte i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
-| Dialogrutemål som nåtts | Uppnå ett mål i en Dynamic Chat-dialogruta |  | 20 | 90 |
-| Svar på en omröstning i webbinariet | Svar på en omröstning i ett webbinarium | Chatt | 20 | 90 |
-| Call to action clicked in webbinar | Klicka på en länk för att ringa till åtgärd i ett webbinarium | Utlysning | 20 | 30 |
-| Resurshämtningar i webbinarium | Hämtar en fil/resurs i ett webbinarium | Händelse | 20 | 60 |
-| Frågor och svar i webbinarium | Frågar frågor i ett webbinarium | Händelse | 20 | 60 |
-| Har övervakad händelse | Deltog i en händelse | Händelse | 20 | 60 |
-| Aktiverat med en agent i dialogrutan | Aktiverar en agent i en Dynamic Chat-dialog | Chatt | 20 | 90 |
-| Klicka på Länk i chatt i dialogrutan | Klicka på en länk i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
-| Engagerad med ett konversationsflöde | Engagerar med ett Dynamic Chat-konverteringsflöde | Chatt | 20 | 90 |
-| Schemalagt möte i konversationsflöde | Schemalägger en avtalad tid i ett samtal med Dynamic Chat | Chatt | 20 | 90 |
-| Målet för konversationsflöde har uppnåtts | Uppfyller ett mål i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
-| Interagera med dokument i konversationsflöde | Interagera med ett dokument i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
-| Engagerad med en agent i konversationsflöde | Engagerar med en agent i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
-| Klicka på Länk i chatt i konversationsflöde | Klicka på en länk i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
-| Klicka på Länk i SMS V2 | Klicka på en länk i ett SMS-meddelande | SMS | 20 | 90 |
+| [!UICONTROL Visit Webpage] | En medlem besöker en webbsida | Webb | 20 | 40 |
+| [!UICONTROL Fill Out Form] | En medlem fyller i och skickar ett formulär på en webbsida | Webb | 20 | 40 |
+| [!UICONTROL Click Link] | En medlem klickar på en länk på en webbsida | Webb | 20 | 40 |
+| [!UICONTROL Open Email] | En medlem öppnar ett mejl | E-post | 20 | 30 |
+| [!UICONTROL Click Email] | En medlem klickar på en länk i ett e-postmeddelande | E-post | 20 | 30 |
+| [!UICONTROL Open Sales Email] | En medlem öppnar ett säljmejl | E-post | 20 | 30 |
+| [!UICONTROL Click Sales Email] | En medlem klickar på en länk i ett e-postmeddelande | E-post | 20 | 30 |
+| [!UICONTROL Interesting Moment] | En medlem har en intressant stund | Kuraterad | 20 | 60 |
+| [!UICONTROL Tap Push Notification] | En medlem får ett push-meddelande | Mobil | 20 | 30 |
+| [!UICONTROL Mobile App Activity] | En medlem utför en aktivitet i en mobilapp | Mobil | 20 | 30 |
+| [!UICONTROL Mobile App Session] | En medlem är aktiv i en mobilappssession | Mobil | 20 | 30 |
+| [!UICONTROL Fill Out Facebook Lead Ads Form] | En medlem fyller i och skickar in ett leadannonseringsformulär på en Facebook-sida | Social | 20 | 30 |
+| [!UICONTROL Click RTP Call to Action] | En medlem klickar på en personlig call to action | Webb | 20 | 60 |
+| [!UICONTROL View In-App Message] | En medlem visar ett meddelande i appen | Mobil | 20 | 30 |
+| [!UICONTROL Tap In-App Message] | En medlem trycker på ett meddelande i appen | Mobil | 20 | 30 |
+| [!UICONTROL Subscribe SMS] | En medlem prenumererar på SMS-kommunikation | SMS | 20 | 90 |
+| [!UICONTROL Reply to Sales Email] | En medlem svarar på ett säljmejl | E-post | 20 | 30 |
+| [!UICONTROL Engaged with a Dialogue] | En medlem engagerar sig i en Dynamic Chat-dialog | Chatt | 20 | 90 |
+| [!UICONTROL Interacted with Document in Dialogue] | En medlem interagerar med ett dokument i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
+| [!UICONTROL Scheduled Meeting in Dialogue] | En medlem schemalägger ett möte i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
+| [!UICONTROL Reached Dialogue Goal] | Medlemmen når ett mål i en Dynamic Chat-dialogruta |  | 20 | 90 |
+| [!UICONTROL Responded to a poll in webinar] | En medlem svarar på en omröstning i ett webbinarium | Chatt | 20 | 90 |
+| [!UICONTROL Call to action clicked in webinar] | En medlem klickar på en call-to-action-länk i ett webbinarium | Utlysning | 20 | 30 |
+| [!UICONTROL Asset downloads in webinar] | En medlem hämtar en fil/resurs i ett webbinarium | Händelse | 20 | 60 |
+| [!UICONTROL Asks questions in webinar] | En medlem ställer frågor i ett webbinarium | Händelse | 20 | 60 |
+| [!UICONTROL Has attended event] | En medlem deltog i en händelse | Händelse | 20 | 60 |
+| [!UICONTROL Engaged with an Agent in Dialogue] | En medlem som deltar i en Dynamic Chat-dialog med en agent | Chatt | 20 | 90 |
+| [!UICONTROL Clicked Link in Chat in Dialogue] | En medlem klickar på en länk i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
+| [!UICONTROL Engaged with a Conversational Flow] | En medlem engagerar sig i Dynamic Chat konversationsflöde | Chatt | 20 | 90 |
+| [!UICONTROL Scheduled Meeting in Conversational Flow] | En medlem schemalägger en avtalad tid i ett samtal med Dynamic Chat | Chatt | 20 | 90 |
+| [!UICONTROL Reached Conversational Flow Goal] | Medlemmen uppnår ett mål i Dynamic Chat konversationsflöde | Chatt | 20 | 90 |
+| [!UICONTROL Interacted with Document in Conversational Flow] | En medlem interagerar med ett dokument i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
+| [!UICONTROL Engaged with an Agent in Conversational Flow] | En medlem engagerar sig i en agent i ett samtal med Dynamic Chat | Chatt | 20 | 90 |
+| [!UICONTROL Clicked Link in Chat in Conversational Flow] | En medlem klickar på en länk i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
+| [!UICONTROL Click Link in SMS V2] | En medlem klickar på en länk i ett SMS-meddelande | SMS | 20 | 90 |
+
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
->Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 
@@ -157,7 +177,7 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
 
 | Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |
@@ -205,4 +225,4 @@ Det slutliga poängtalet för engagemang beräknas genom att viktningen tillämp
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3452933/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

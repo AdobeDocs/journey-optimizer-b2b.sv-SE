@@ -5,9 +5,9 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,16 @@ När du har [skapat en mall för landningssidor](./landing-page-templates.md#cre
 >abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för en landningssidmall."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Lägg till anpassad CSS
+
+Du kan lägga till egen anpassad CSS direkt i designutrymmet för landningssidan. Använd anpassad CSS för att använda avancerad och specifik formatering, vilket ger större flexibilitet och kontroll över utseendet på innehållet. Det är en god vana att lägga till den här formateringen på den högsta nivån innan du inkluderar komponenter som bilder, knappar och text.
+
+Med minst en innehållskomponent på arbetsytan väljer du komponenten **[!UICONTROL Body]** i det vänstra navigeringsträdet för att komma åt den anpassade CSS-redigeraren.
+
+![Få åtkomst till brödtextformaten](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Lägga till resurser
 
@@ -68,7 +78,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i det vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;längst upp i den visuella designrymden kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_längst upp i den visuella designrymden kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/landing-page-designer-more-menu.png){width="500"}
 

@@ -4,9 +4,9 @@ description: Lär dig att lägga till, definiera och optimera e-poståtgärder i
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Använd Adobe Journey Optimizer B2B edition för att skicka e-postmeddelanden ti
 
 ## Lägg till en e-poståtgärdsnod i en resa
 
-Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod](../journeys/action-nodes.md) och gör följande:
+Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UICONTROL Take an action]_nod](../journeys/action-nodes.md) och gör följande:
 
-1. Välj _[!UICONTROL Action on]_&#x200B;för målet **[!UICONTROL People]**.
+1. Välj _[!UICONTROL Action on]_för målet **[!UICONTROL People]**.
 
-1. Välj _[!UICONTROL Action on people]_&#x200B;för **[!UICONTROL Send email]**.
+1. Välj _[!UICONTROL Action on people]_för **[!UICONTROL Send email]**.
 
-1. För _[!UICONTROL Email source]_&#x200B;väljer du hur du vill hämta e-postmeddelandet som ska skickas.
+1. För _[!UICONTROL Email source]_väljer du hur du vill hämta e-postmeddelandet som ska skickas.
 
    ![Vidta en åtgärd - skicka ett e-postmeddelande](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -47,17 +47,17 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
       1. Klicka på **[!UICONTROL Create]**.
 
-         Fälten _[!UICONTROL Email properties]_&#x200B;och&#x200B;_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+         Fälten _[!UICONTROL Email properties]_och_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
       1. Klicka på **[!UICONTROL Edit email]** för att definiera e-postinställningarna [för ](#define-the-email-settings) och utforma [innehållet](./email-authoring.md).
 
-     +++
++++
 
      +++Duplicera befintlig e-post
 
      När du vill skapa ett e-postmeddelande med hjälp av ett befintligt e-postmeddelande från den aktuella resan eller från en annan resa använder du alternativet _[!UICONTROL Duplicate existing email]_. Du kan ändra den duplicerade e-postadressen enligt ditt mål för kundnoden.
 
-      1. Välj _[!UICONTROL Create new email]_&#x200B;i dialogrutan **[!UICONTROL Duplicate existing email]**.
+      1. Välj _[!UICONTROL Create new email]_i dialogrutan **[!UICONTROL Duplicate existing email]**.
 
       1. För **[!UICONTROL Existing email to duplicate]** klickar du på ikonen _Markering_ ( ![Markeringsikon](../assets/do-not-localize/icon-email-select.svg) ) och markerar det e-postmeddelande som du vill duplicera och använda för kundnoden.
 
@@ -73,11 +73,11 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
       1. Klicka på **[!UICONTROL Create]**.
 
-         Fälten _[!UICONTROL Email properties]_&#x200B;och&#x200B;_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_&#x200B;på sidan för e-postinnehåll. Du kan ange värden för fälten&#x200B;_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
+         Fälten _[!UICONTROL Email properties]_och_[!UICONTROL From email]_ är redan konfigurerade i avsnittet _[!UICONTROL Reply to address]_på sidan för e-postinnehåll. Du kan ange värden för fälten_[!UICONTROL From name]_ och _[!UICONTROL Description]_(valfritt).
 
       1. Om det behövs klickar du på **[!UICONTROL Edit email]** för att ändra e-postinställningarna [för ](#define-the-email-settings) och [innehållet](./email-authoring.md).
 
-     +++
++++
 
    * Välj **[!UICONTROL Select email from Adobe Marketo Engage]** om du vill använda ett av de förvalda e-postmeddelandena i Marketo Engage och skicka det som en del av resan.
 
@@ -89,9 +89,9 @@ Du kan konfigurera e-postleveranser under en resa när du [lägger till en _[!UI
 
 ## Definiera e-postinställningarna
 
-Med fliken **[!UICONTROL Details]** markerad på panelen _Sammanfattning_ till höger rullar du längst ned för att visa och ange e-postalternativen.
+Med fliken **[!UICONTROL Details]** markerad på panelen _Sammanfattning_ till höger rullar du längst ned för att visa och definiera e-postinställningarna.
 
-![E-postinställningar](./assets/email-summary-details-settings.png){width="600" zoomable="yes"}
+![E-postinställningar](./assets/email-summary-details-settings.png){width="700" zoomable="yes"}
 
 | Alternativ | Beskrivning |
 | ------ | ----------- |
@@ -99,6 +99,9 @@ Med fliken **[!UICONTROL Details]** markerad på panelen _Sammanfattning_ till h
 | [!UICONTROL From email] | Avsändaradressen som används i e-posthuvudet. Standardvärdet fylls i från leveransinställningarna för [e-postkanal](../admin/configure-channels-emails.md#delivery-settings). Klicka på ikonen _Anpassa_ ( ![Ikonen Anpassa ](../assets/do-not-localize/icon-personalize.svg) ) om du vill använda en personaliseringstoken i fältet. |
 | [!UICONTROL Reply-to address] | Avsändaradressen som används i e-posthuvudet. Standardvärdet fylls i från leveransinställningarna för [e-postkanal](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL From Label]). Ange den e-postadress som du vill fylla i om mottagaren använder svarsfunktionen (den kan vara en annan eller samma som avsändaradressen). Klicka på ikonen _Anpassa_ ( ![Ikonen Anpassa ](../assets/do-not-localize/icon-personalize.svg) ) om du vill använda en personaliseringstoken i fältet. |
 | [!UICONTROL Subject line] | Texten som visas i ämnesfältet för e-postmeddelandet. Standardvärdet fylls i från texten som du angav i dialogrutan _[!UICONTROL Create new email]_. Du kan ändra texten om det behövs. Klicka på ikonen_ Anpassa _( ![Ikonen Anpassa ](../assets/do-not-localize/icon-personalize.svg) ) om du vill använda en personaliseringstoken i fältet.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
+| [!UICONTROL Branding domain] | Om du har fler än en [varumärkesdomän](../admin/configure-channels-emails.md#branding-domains) definierad i systemet väljer du den varumärkesdomän som ska användas för att skicka e-postmeddelandet. Använd en specifik varumärkesdomän för att skicka e-postmeddelanden som verkar komma från ert varumärke i stället för från företaget som helhet. Det bygger upp förtroende för varumärket, personaliserar e-postupplevelsen och ökar öppnings- och svarsfrekvensen. |
+| [!UICONTROL Dedicated IP] | Om du har definierat fler än en dedikerad IP-adress väljer du en dedikerad IP-adress som ska användas för att skicka e-postmeddelandet. När ni använder en specifik dedikerad IP-adress för era program kan ni spåra och övervaka leveransen noggrannare och snabbt reagera på eventuella förändringar i leveransstatistiken. Mer information om hur du lägger till en dedikerad IP-adress för den anslutna Marketo Engage-instansen finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
+| Problemlösning - Det är enklare att undersöka, förstå och lösa leveransproblem. |
 | [!UICONTROL Operational email] | Markera kryssrutan om du vill ange att e-postmeddelandet ska fungera. Operativa e-postmeddelanden undantas från avanmälnings-/avanmälningslistor och från kommunikationsbegränsningar. Välj bara det här alternativet om mottagaren inte kan betrakta e-postmeddelandet som ett oombett kommersiellt meddelande (SPAM). |
 | [!UICONTROL Include view as web page] | Markera kryssrutan om du vill inkludera en länk till en webbsida som genereras från e-postmeddelandeinnehållet. E-postmeddelanden har mer begränsade funktioner än webbsidor, så de är användbara för JavaScript, utökad CSS och formulär. Den text som används för att generera länken har konfigurerats i leveransinställningarna för [e-postkanal](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL View as web page HTML] och [!UICONTROL View as web page text]). |
 | [!UICONTROL Disable open tracking] | Markera kryssrutan när du inte vill spåra e-postöppningsaktivitet. När funktionen är inaktiverad ökas antalet aktiviteter för e-postöppning bara när en unik person öppnar e-postmeddelandet. Du kan [hantera spårning för e-postinnehållslänkar](./email-authoring.md#content-authoring---link-tracking) när du utformar e-postinnehållets innehåll. |

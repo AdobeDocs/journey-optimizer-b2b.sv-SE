@@ -4,9 +4,9 @@ description: Lär dig hur du definierar en rollmall som ska användas som en kö
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 1. Klicka på **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 
-1. Välj fliken **[!UICONTROL Roles Templates]** på sidan _[!UICONTROL Buying groups]_.
+1. Välj fliken _[!UICONTROL Buying groups]_på sidan **[!UICONTROL Roles Templates]**.
 
    ![fliken Rollmallar](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   Fliken innehåller en inventeringslista över alla befintliga rollmallar med följande kolumner:
+   På fliken finns en inventeringslista över alla befintliga rollmallar och följande information visas i kolumnformat:
 
    * [!UICONTROL Name]
    * [!UICONTROL Status]
@@ -36,9 +36,7 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
    * [!UICONTROL Published on]
    * [!UICONTROL Published by]
 
-   Listan sorteras som standard efter kolumnen _[!UICONTROL Last update]_.
-
-   Antalet _aktiva_ (publicerade) rollmallar visas längst upp till höger på sidan. Alla rollmallar har statusen `Draft` eller `Live`.
+   Listan sorteras som standard av _[!UICONTROL Last update]_. Alla rollmallar har statusen `Draft` eller `Live`.
 
 1. Om du vill filtrera listan efter namn använder du sökfältet högst upp i listan.
 
@@ -48,7 +46,7 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 ## Skapa en rollmall
 
-1. Klicka på **[!UICONTROL Create template]** i det övre högra hörnet på fliken _[!UICONTROL Roles Templates]_.
+1. Klicka på _[!UICONTROL Roles Templates]_i det övre högra hörnet på fliken **[!UICONTROL Create template]**.
 
 1. Ange ett unikt **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för mallen i dialogrutan.
 
@@ -88,7 +86,7 @@ Varje roll som du definierar för mallen använder en uppsättning filter, eller
 
 1. Klicka på **[!UICONTROL Add Condition]** och definiera den villkorliga regeln för rollen.
 
-   * Expandera listan med **[!UICONTROL Person attributes]** i dialogrutan _[!UICONTROL Condition]_&#x200B;och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
+   * Expandera listan med _[!UICONTROL Condition]_i dialogrutan **[!UICONTROL Person attributes]**och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
 
      ![Rollmallen lägger till attributet Dra villkor](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
@@ -138,7 +136,7 @@ När en rollmall är i läget _Utkast_ kan du fortsätta redigera de definierade
 
 ### Ändra villkoren för en roll
 
-Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_&#x200B;där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
+Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
 
 ### Ta bort ett rollkort
 
@@ -164,4 +162,4 @@ Du kan ta bort en rollmall om den har statusen _Utkast_.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3453305/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
