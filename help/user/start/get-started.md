@@ -33,7 +33,7 @@ Lär dig mer om åtkomsthantering på följande sidor:
 
 1. **Arbeta med datateknikern** för att planera och implementera er B2B-målgrupp och profilaktivering. Granska de publicerade ritningarna och följ riktlinjerna enligt dina önskemål. [Läs mer](https://experienceleague.adobe.com/sv/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Planera och implementera Marketo Engage-integreringen** för att införliva anpassat schema, inmatning av profiler och konton samt samordning av personaliserade resor för inköpsgrupper. [Läs mer](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Planera och implementera Marketo Engage-integreringen** för att införliva anpassat schema, inmatning av profiler och konton samt samordning av personaliserade resor för inköpsgrupper. [Läs mer](https://experienceleague.adobe.com/sv/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Konfigurera produktprofilen**. En produktprofil är en uppsättning enhetsrättigheter i Adobe Experience Platform som ger användarna tillgång till vissa funktioner eller objekt i gränssnittet. [Läs mer](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
