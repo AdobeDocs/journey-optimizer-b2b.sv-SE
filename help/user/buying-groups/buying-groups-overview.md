@@ -4,7 +4,7 @@ description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka ma
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 6%
@@ -72,7 +72,7 @@ För att säkerställa att medlemstilldelningen i en inköpsgrupp inte åsidosä
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
@@ -84,7 +84,7 @@ Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -113,8 +113,6 @@ Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos 
 * Den poäng som visas är avrundad. Ett resultat på till exempel 75,89999 visas som 76.
 
 +++aktiviteter som används för poängsättning
-
->[!BEGINSHADEBOX]
 
 | Aktivitetsnamn | Beskrivning | Typ av åtagande | Maximalt antal dagliga frekvenser | Aktivitetsvikt |
 | --- | --- | --- | --- | --- |
@@ -154,12 +152,9 @@ Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos 
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | En medlem klickar på en länk i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
 | [!UICONTROL Click Link in SMS V2] | En medlem klickar på en länk i ett SMS-meddelande | SMS | 20 | 90 |
 
-
->[!ENDSHADEBOX]
-
 >[!NOTE]
 >
->Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 
@@ -177,7 +172,7 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
 
 | Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |
@@ -225,4 +220,4 @@ Det slutliga poängtalet för engagemang beräknas genom att viktningen tillämp
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3452933/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
