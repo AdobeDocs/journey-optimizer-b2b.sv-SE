@@ -74,7 +74,7 @@ Ett definierat varumärke ger _källan till sanning_ som ditt kreativa team kan 
 
 Produktadministratörer kan aktivera åtkomst till varumärkeshanteringsfunktioner och varumärkesjusteringsfunktioner genom att tilldela **[!UICONTROL Manage brand kit]**- eller **[!UICONTROL Enable AI assistant]**-resursbehörigheter via appen _Permissions_ i Adobe Experience Cloud.
 
-1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klicka på **[!UICONTROL Edit]** om du vill ändra behörigheterna.
 
@@ -94,7 +94,7 @@ Produktadministratörer kan aktivera åtkomst till varumärkeshanteringsfunktion
 
    * Ange användarnamn och e-postadress eller välj en befintlig användare i listan.
 
-     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klicka på **[!UICONTROL Save]** för att tillämpa ändringarna.
 
