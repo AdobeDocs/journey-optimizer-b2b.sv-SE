@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+source-git-commit: 99e859e352cb2682e1d3fb5f0000eb55eacf2642
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '292'
 ht-degree: 19%
 
 ---
@@ -88,12 +88,16 @@ ht-degree: 19%
    + Fragment {#visual-fragments}
       + [Översikt](./content/fragments.md)
       + [Skapa fragment](./content/fragment-authoring.md)
-   + Forms {#forms}
+   + Forms (Beta) {#forms}
       + [Översikt](./content/forms.md)
       + [Formulärdesign](./content/form-design.md)
-   + Landningssidor {#landing-pages}
+   + Landningssidor (Beta) {#landing-pages}
       + [Översikt](./content/landing-pages.md)
       + [Landningssiddesign](./content/landing-page-design.md)
+   + Varumärken (Beta) {#brands}
+      + [Översikt](./content/brands-overview.md)
+      + [Hantera och skapa](./content/brands-manage-create.md)
+      + [Märkesjustering](./content/brand-alignment.md)
    + [Villkorligt innehåll](./content/conditional-content.md)
    + [Anpassad CSS](./content/design-custom-css.md)
 + Insiktspaneler {#dashboards}
