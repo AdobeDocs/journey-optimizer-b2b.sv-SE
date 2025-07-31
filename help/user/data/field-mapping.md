@@ -4,9 +4,9 @@ description: Granska standardattributfälten som är synkroniserade mellan Adobe
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: b62891e3d87ac4ff5345dac564d63c0b8aaa9669
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1097'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 
 >[!TIP]
 >
->Du kan modellera XDM Business Person- och XDM Business Account-klasser i en många-till-många-relation genom att använda klassen XDM Business Account Person Relation enligt beskrivningen i [Experience Platform XDM-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Du kan modellera XDM Business Person- och XDM Business Account-klasser i en många-till-många-relation genom att använda klassen XDM Business Account Person Relation enligt beskrivningen i [Experience Platform XDM-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## XDM Business Account Person Relation-attribut
 
@@ -29,7 +29,10 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 
 >[!IMPORTANT]
 >
->Attributet `workEmail.Address` krävs. Om det är tomt för en medlem i en kontomålgrupp är den personen inte införtärd och utelämnas från kontoresor och inköpsgrupper som refererar till målgruppen.
+>E-postadressattributet är obligatoriskt och måste fyllas i för att funktionen ska fungera korrekt. Som standard använder systemet `workEmail.Address`. Om du tänker använda ett annat attribut kontaktar du Adobe Support innan du publicerar några resor för att säkerställa korrekt konfiguration.<br/>
+>
+>Kontrollera att e-postattributet inte är null eftersom detta kan påverka datasynkronisering och processer längre fram i kedjan.
+><ul><li>Om e-postattributet är null i realtid, CDP B2B, och personen finns i Journey Optimizer B2B edition, skrivs attributet i över i Journey Optimizer B2B edition med ett null-värde under synkronisering. Därefter behålls det som null i Marketo Engage.<li>Om e-postattributet är null i realtid CDP B2B och personen inte finns i Journey Optimizer B2B edition synkroniseras inte personposten.<ul/>
 
 | [Egenskap](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Visningsnamn | Journey Optimizer B2B-visningsnamn | Datatyp | Beskrivning |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -81,7 +84,7 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
