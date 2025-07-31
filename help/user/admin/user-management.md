@@ -121,7 +121,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
 1. Gå till [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Klicka på _[!UICONTROL Quick links]_under **[!UICONTROL Add users]**.
+1. Klicka på _[!UICONTROL Quick links]_&#x200B;under **[!UICONTROL Add users]**.
 
 1. Lägg till varje användare:
 
@@ -268,7 +268,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
 1. Välj **[!UICONTROL Roles]** i den vänstra navigeringen och välj **[!UICONTROL Create role]**.
 
-1. I dialogrutan _[!UICONTROL Create new role]_anger du ett namn för rollen, till exempel_ B2B-marknadsförare _, och en beskrivning (valfritt).
+1. I dialogrutan _[!UICONTROL Create new role]_&#x200B;anger du ett namn för rollen, till exempel_ B2B-marknadsförare _, och en beskrivning (valfritt).
 
 1. Klicka på **[!UICONTROL Confirm]**.
 
@@ -278,7 +278,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
 1. Lägg till profilbehörigheter:
 
-   * Leta reda på objektet _[!UICONTROL Resources]_i listan **[!UICONTROL Profile Management]**till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till attributet.
+   * Leta reda på objektet _[!UICONTROL Resources]_&#x200B;i listan **[!UICONTROL Profile Management]**&#x200B;till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till attributet.
 
    * Lägg till följande behörigheter för attributet:
       * [!UICONTROL View segments]
@@ -294,7 +294,7 @@ For information about user management, see [Admin Console users](https://helpx.a
 
    Se listan över [B2B-produktbehörigheter](#b2b-product-permissions) för att ta reda på vilka produktfunktioner du vill använda för rollen.
 
-   Leta reda på _[!UICONTROL Resources]_-objekten i listan **[!UICONTROL B2B]**till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till varje attribut som du vill aktivera för rollen.
+   Leta reda på _[!UICONTROL Resources]_-objekten i listan **[!UICONTROL B2B]**&#x200B;till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till varje attribut som du vill aktivera för rollen.
 
    Du kan ange _B2B_ i sökverktyget för att filtrera listan över B2B-produktbehörigheter.
 
