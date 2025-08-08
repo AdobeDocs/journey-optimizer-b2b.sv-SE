@@ -19,7 +19,7 @@ ht-degree: 0%
 >title="Kontrollera hur innehållet renderar"
 >abstract="När innehållet är definierat kan du förhandsgranska det och kontrollera om återgivningen är korrekt för den kanal som du använder."
 
-Använd funktionen _Simulera innehåll_ för att förhandsgranska e-postinnehållet och skicka testleveranser till specifika mottagare. De obligatoriska e-postfälten måste definieras, inklusive _[!UICONTROL From name]_,_[!UICONTROL From address]_, _[!UICONTROL Reply-to address]_&#x200B;och&#x200B;_[!UICONTROL Subject line]_, för att du ska kunna komma åt förhandsgransknings- och testfunktionerna.
+Använd funktionen _Simulera innehåll_ för att förhandsgranska e-postinnehållet och skicka testleveranser till specifika mottagare. De obligatoriska e-postfälten måste definieras, inklusive _[!UICONTROL From name]_,_[!UICONTROL From address]_, _[!UICONTROL Reply-to address]_och_[!UICONTROL Subject line]_, för att du ska kunna komma åt förhandsgransknings- och testfunktionerna.
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ Använd funktionen _Simulera innehåll_ för att förhandsgranska e-postinnehål
 
 ## Visa förhandsgranskning av e-post
 
-Du kommer åt förhandsgranskningen av återgivningen från [e-postdesignområdet](./email-authoring.md) eller från _[!UICONTROL Summary]_&#x200B;när du [öppnar ett e-postmeddelande från e-postlistan](./emails-list.md#edit-emails).
+Du kommer åt förhandsgranskningen av återgivningen från [e-postdesignområdet](./email-authoring.md) eller från _[!UICONTROL Summary]_när du [öppnar ett e-postmeddelande från e-postlistan](./emails-list.md#edit-emails).
 
 1. Klicka på **[!UICONTROL Simulate Content]** överst.
 
@@ -37,13 +37,13 @@ Du kommer åt förhandsgranskningen av återgivningen från [e-postdesignområde
    >
    >Den här knappen är inte tillgänglig om det finns fel eller om obligatoriska fält inte har definierats för e-postmeddelandet.
 
-1. På sidan _[!UICONTROL Simulate]_&#x200B;väljer du en personprofil i listan **[!UICONTROL People]**&#x200B;som ska användas för att återge e-postmeddelandet.
+1. På sidan _[!UICONTROL Simulate]_väljer du en personprofil i listan **[!UICONTROL People]**som ska användas för att återge e-postmeddelandet.
 
    I innehållsförhandsgranskningen fylls anpassade element i enligt den valda personprofilen.
 
    ![Välj en personprofil för att återge simuleringen](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   Om listan _[!UICONTROL People]_&#x200B;till vänster är tom [lägger du till personer](#add-people-to-the-profiles-list) med kontakter från den anslutna Marketo Engage-instansen.
+   Om listan _[!UICONTROL People]_till vänster är tom [lägger du till personer](#add-people-to-the-profiles-list) med kontakter från den anslutna Marketo Engage-instansen.
 
    >[!TIP]
    >
@@ -81,7 +81,7 @@ Ett korrektur är ett levererat testmeddelande som gör att du och dina teammedl
 
 ## Lägga till personer i profillistan
 
-1. Klicka på _[!UICONTROL People]_&#x200B;högst upp i listan **[!UICONTROL Add People]**.
+1. Klicka på _[!UICONTROL People]_högst upp i listan **[!UICONTROL Add People]**.
 
    ![Justera förhandsvisningen](assets/email-simulate-content-add-people.png){width="500"}
 
