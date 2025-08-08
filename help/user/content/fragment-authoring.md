@@ -4,9 +4,9 @@ description: Lär dig hur du skapar innehållsfragment som kan återanvändas f�
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,6 @@ ht-degree: 0%
 När du har [skapat ett fragment](./fragments.md#create-fragments) använder du den visuella redigeraren för att skapa struktur- och innehållskomponenterna i fragmentet.
 
 ## Lägga till struktur och innehåll {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Lägg till strukturkomponenter"
->abstract="Strukturkomponenter definierar fragmentets layout. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa innehållet i fragmentet."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Om Innehållskomponenter"
->abstract="Innehållskomponenter är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett fragment."
 
 {{$include /help/_includes/content-design-components.md}}
 

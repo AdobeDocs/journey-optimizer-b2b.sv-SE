@@ -4,9 +4,9 @@ description: Läs om filhantering i Journey Optimizer B2B edition.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Samla marknadsförings- och kreativa arbetsflöden med Adobe Experience Manager 
 
 Adobe Journey Optimizer B2B edition kan ansluta till Adobe Experience Manager Assets as a Cloud Service för centraliserad resurshantering som utökar ert kreativa system och sammanför digitala resurser för leverans av upplevelser. Adobe Experience Manager Assets as a Cloud Service är en lättanvänd molnlösning för effektiv hantering av digitala resurser och dynamiska media. Programmet innehåller smidigt avancerade funktioner, bland annat artificiell intelligens och maskininlärning.
 
-Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
+Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 
@@ -47,7 +47,7 @@ För närvarande kan du bara använda bilder från Adobe Experience Manager Asse
 
 Använd resurser när du skapar e-postmeddelanden, e-postmallar och visuella fragment. Den visuella innehållsredigeraren ger åtkomst till bilderna i dina anslutna resurskataloger. Om du har en prenumeration på Experience Manager Assets as a Cloud Service tillsammans med standardversionen av Adobe Marketo Engage Design Studio kan du välja bildresurser från båda källorna. Du kan också överföra en bildresurs, som placerar den på arbetsytan i Journey Optimizer B2B edition i den anslutna Marketo Engage Design Studio-databasen.
 
-Du kan välja bildkälla när du redigerar inställningarna för en bildkomponent eller direkt på arbetsytan.
+Du kan välja bildkälla när du redigerar inställningarna för en bildkomponent eller direkt på arbetsytan:
 
 * **_Inställningar för bildkomponent_** - När du har markerat en bildkomponent i den visuella designern kan du visa och redigera inställningarna i den högra panelen. Om du vill lägga till eller ändra bildfilen som visas i komponenten väljer du källtyp och väljer en bildfil.
 
@@ -61,7 +61,7 @@ Du kan välja bildkälla när du redigerar inställningarna för en bildkomponen
 
   ![Använd verktygsfältet för att välja en källa för att välja en bildfil för bildkomponenten](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-Du kan lägga till en bildresurs när du redigerar innehållet, beroende på bildresurskällan.
+Du kan lägga till en bildresurs när du redigerar innehållet, beroende på bildresurskällan. Du kan också välja en bildresurs i bakgrundsinställningarna för en strukturkomponent.
 
 >[!BEGINTABS]
 

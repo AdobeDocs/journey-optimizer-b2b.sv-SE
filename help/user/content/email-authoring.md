@@ -4,18 +4,18 @@ description: Lär dig skapa e-postinnehåll i Adobe Journey Optimizer B2B. Anvä
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 # Redigering av e-postmeddelanden
 
-När du har &lbrack;lagt till en ny<!-- or duplicated -->-e-postresurs till en åtgärdsnod för resan&rbrack;(./add-email.md) kan du definiera innehållet för e-postmeddelandet.
+När du har [lagt till en ny<!-- or duplicated -->-e-postresurs till en åtgärdsnod för resan](./add-email.md) kan du definiera innehållet för e-postmeddelandet.
 
-Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_&#x200B;på den högra panelen.
+Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_på den högra panelen.
 
 ![Klicka på Redigera e-postinnehåll ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -35,19 +35,9 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 
 ## Designa din e-post från grunden {#design-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="Lägg till strukturkomponenter"
->abstract="Strukturkomponenter definierar landningssidans layout. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa innehållet på landningssidan."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="Om Innehållskomponenter"
->abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för en landningssida."
-
 Använd det visuella designområdet för att definiera strukturen och innehållet i e-postmeddelandet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
 
-1. Välj alternativet _[!UICONTROL Design your template]_&#x200B;på startsidan för **[!UICONTROL Design from scratch]**.
+1. Välj alternativet _[!UICONTROL Design your template]_på startsidan för **[!UICONTROL Design from scratch]**.
 1. [Lägg till struktur och innehåll](#add-structure-and-content) i e-postmeddelandet.
 1. [Lägg till bildresurser](#add-assets) i e-postmeddelandet.
 1. [Anpassa e-postinnehållet](#personalize-content).
@@ -84,16 +74,6 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 ## Lägga till struktur och innehåll {#structure-content}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Lägg till strukturkomponenter"
->abstract="Strukturkomponenter definierar layouten för e-postmeddelandet. Dra och släpp en **Structure**-komponent på arbetsytan för att börja designa ditt e-postinnehåll."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Om Innehållskomponenter"
->abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för ett e-postmeddelande."
-
 {{$include /help/_includes/content-design-components.md}}
 
 ### Lägg till anpassad CSS
@@ -114,7 +94,7 @@ Med minst en innehållskomponent på arbetsytan väljer du komponenten **[!UICON
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -130,7 +110,7 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 
 >[!NOTE]
 >
->Om _[!UICONTROL My Tokens]_&#x200B;har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
+>Om _[!UICONTROL My Tokens]_har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
 
 ### Redigera länkad URL-spårning
 
@@ -148,7 +128,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i den vis
 
 ## Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_högst upp i e-postdesignområdet kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/email-designer-more-menu.png){width="500"}
 
@@ -159,11 +139,6 @@ På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan d
 * **[!UICONTROL Export HTML]** - Hämta innehållet på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.
 
 ## Kontrollera och testa e-postmeddelandet {#email-testing}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="Kontrollera hur innehållet renderar"
->abstract="När innehållet är definierat kan du förhandsgranska det och kontrollera om återgivningen är korrekt för den kanal som du använder."
 
 När meddelandeinnehållet har definierats kan du använda testprofiler för att förhandsgranska det, skicka korrektur och granska återgivningen i skrivbordsformat och mobilformat. Om du infogade anpassat innehåll kan du förhandsgranska hur innehållet visas i meddelandet med hjälp av testprofilsdata.
 

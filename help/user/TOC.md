@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
-user-guide-description: Läs om Adobe Journey Optimizer B2B-version och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 99e859e352cb2682e1d3fb5f0000eb55eacf2642
+user-guide-description: Läs om Adobe Journey Optimizer B2B edition och hur du kan använda det för att skapa konto och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
+source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 19%
+source-wordcount: '300'
+ht-degree: 10%
 
 ---
 
@@ -94,12 +94,15 @@ ht-degree: 19%
    + Landningssidor (Beta) {#landing-pages}
       + [Översikt](./content/landing-pages.md)
       + [Landningssiddesign](./content/landing-page-design.md)
+   + Verktyg för innehållsdesign {#content-design}
+      + [Strukturkomponenter](./content/structure-components.md)
+      + [Innehållskomponenter](./content/content-components.md)
+      + [Anpassad CSS](./content/design-custom-css.md)
    + Varumärken (Beta) {#brands}
       + [Översikt](./content/brands-overview.md)
       + [Hantera och skapa](./content/brands-manage-create.md)
       + [Märkesjustering](./content/brand-alignment.md)
    + [Villkorligt innehåll](./content/conditional-content.md)
-   + [Anpassad CSS](./content/design-custom-css.md)
 + Insiktspaneler {#dashboards}
    + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
    + [Översikt över engagemang](./dashboards/engagement-dashboard.md)

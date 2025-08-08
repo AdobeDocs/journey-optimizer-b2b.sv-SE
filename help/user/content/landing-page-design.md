@@ -5,9 +5,9 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,6 @@ ht-degree: 0%
 När du har [skapat en landningssida](./landing-pages.md#create-a-landing-page) använder du det visuella designområdet för att skapa struktur- och innehållskomponenterna på sidan.
 
 ## Lägga till struktur och innehåll {#structure-content-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
->title="Lägga till strukturkomponenter på landningssidan"
->abstract="Strukturkomponenter definierar landningssidans layout. Dra och släpp en **Struktur**-komponent på arbetsytan för att börja designa innehållet för sidan."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
->title="Om innehållskomponenter för landningssidor"
->abstract="Innehållskomponenterna är tomma platshållare för innehåll som du kan använda för att skapa layouten för en landningssida."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -78,7 +68,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i det vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;längst upp i den visuella designrymden kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_längst upp i den visuella designrymden kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/landing-page-designer-more-menu.png){width="500"}
 

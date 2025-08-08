@@ -1,7 +1,7 @@
 ---
 title: Skapa innehåll - navigering
 description: Återanvänt avsnitt om att använda navigeringsträdet för innehållsredigering
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -10,21 +10,21 @@ ht-degree: 0%
 
 # Skapa innehåll - navigering
 
-När du arbetar med innehållet i den visuella designern kan du komma åt lagren/behållarna och elementen med hjälp av trädet _Navigering_. Klicka på ikonen _Navigering_ för att visa trädet till vänster om arbetsytan.
+När du arbetar med innehållet i den visuella designrymden kan du komma åt komponenter, kolumner och innehållselement med hjälp av navigeringsträdet. Klicka på ikonen _[!UICONTROL Navigation tree]_( ![ ikonen för navigeringsträd ](../assets/do-not-localize/icon-navigation-tree.svg) ) till vänster för att visa trädet.
 
 ![Åtkomst till innehållslagren](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-I följande exempel visas stegen för att justera utfyllnad och lodrät justering inuti en strukturkomponent som består av kolumner.
+I följande exempel visas stegen för att justera utfyllnad och lodrät justering inuti en strukturkomponent med kolumner.
 
 1. Markera kolumnen i strukturkomponenten direkt på arbetsytan eller med _navigeringsträdet_ som visas till vänster.
 
-1. Klicka på verktyget _[!UICONTROL Select a column]_&#x200B;i kolumnverktygsfältet och välj det som du vill redigera.
+1. Klicka på verktyget _[!UICONTROL Select a column]_i kolumnverktygsfältet och välj det som du vill redigera.
 
-   Du kan också välja det i strukturträdet. De redigerbara parametrarna för den kolumnen visas på flikarna _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Styles]_ till höger.
+   Du kan också välja det i strukturträdet. De redigerbara parametrarna för den kolumnen visas på flikarna _[!UICONTROL Settings]_och_[!UICONTROL Styles]_ till höger.
 
    ![Kolumnkomponenter visas i den visuella designern](../assets/content-design-shared/content-design-layers-column-select.png){width="800" zoomable="yes"}
 
-1. Om du vill redigera kolumnegenskaperna klickar du på fliken _[!UICONTROL Styles]_&#x200B;till höger och ändrar dem efter dina behov:
+1. Om du vill redigera kolumnegenskaperna klickar du på fliken _[!UICONTROL Styles]_till höger och ändrar dem efter dina behov:
 
    * Ändra bakgrundsfärgen för **[!UICONTROL Background]** efter behov.
 
