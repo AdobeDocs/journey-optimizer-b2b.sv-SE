@@ -56,7 +56,7 @@ Den anpassade CSS-koden läggs till i avsnittet `<head>` i en `<style>` -tagg me
 
 >[!NOTE]
 >
->Den anpassade CSS-koden visas eller valideras inte på panelen _[!UICONTROL Styles]_för en vald komponent. Den är helt oberoende och kan bara ändras med alternativet [!UICONTROL Add Custom CSS] på komponentnivån Body.
+>Den anpassade CSS-koden visas eller valideras inte på panelen _[!UICONTROL Styles]_&#x200B;för en vald komponent. Den är helt oberoende och kan bara ändras med alternativet [!UICONTROL Add Custom CSS] på komponentnivån Body.
 
 ## Lägg till anpassad CSS
 
@@ -68,9 +68,9 @@ Den anpassade CSS-koden läggs till i avsnittet `<head>` i en `<style>` -tagg me
 
    >[!NOTE]
    >
-   >Knappen _[!UICONTROL Add custom CSS]_är bara tillgänglig när komponenten_[!UICONTROL Body]_ är markerad. Du kan dock använda anpassade CSS-format på alla komponenter i det.
+   >Knappen _[!UICONTROL Add custom CSS]_&#x200B;är bara tillgänglig när komponenten&#x200B;_[!UICONTROL Body]_ är markerad. Du kan dock använda anpassade CSS-format på alla komponenter i det.
 
-   Popup-redigeraren _[!UICONTROL Add custom CSS]_visas med platshållarkodkommentarer.
+   Popup-redigeraren _[!UICONTROL Add custom CSS]_&#x200B;visas med platshållarkodkommentarer.
 
 1. Ange din CSS-kod i redigeraren.
 

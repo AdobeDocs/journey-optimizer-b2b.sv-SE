@@ -12,7 +12,7 @@ ht-degree: 0%
 
 1. Om du vill starta innehållsdesignen drar du ett objekt från **[!UICONTROL Structures]** och släpper det på arbetsytan.
 
-   Lägg till så många objekt från _[!UICONTROL Structures]_som du behöver och redigera inställningarna för varje objekt i rutan till höger.
+   Lägg till så många objekt från _[!UICONTROL Structures]_&#x200B;som du behöver och redigera inställningarna för varje objekt i rutan till höger.
 
    >[!TIP]
    >
@@ -28,7 +28,7 @@ ht-degree: 0%
    <!--
    reference to the contents elements when we have a completed reference for each.--->
 
-1. Om det behövs kan du göra ytterligare anpassningar för varje komponent på flikarna _[!UICONTROL Settings]_eller_[!UICONTROL Style]_.
+1. Om det behövs kan du göra ytterligare anpassningar för varje komponent på flikarna _[!UICONTROL Settings]_&#x200B;eller&#x200B;_[!UICONTROL Style]_.
 
    Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent.
 
