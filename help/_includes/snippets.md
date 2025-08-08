@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Licenser för AEM Assets as a Cloud Service och Dynamic Media är en förutsättning för integreringen. Kontrollera att [Dynamiska media med Open API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} är aktiverat.<br/>
+>Licenser för AEM Assets as a Cloud Service och Dynamic Media är en förutsättning för integreringen. Kontrollera att [Dynamiska media med Open API](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} är aktiverat.<br/>
 >&#x200B;>Beroende på ditt kontrakt och din konfiguration kan du komma åt Adobe Experience Manager Assets as a Cloud Service direkt från Adobe Journey Optimizer B2B edition när du utformar visuellt innehåll.
 
 ## Skapa innehåll - komponenter - struktursteg {#structures-step}
