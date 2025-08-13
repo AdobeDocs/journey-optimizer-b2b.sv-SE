@@ -4,9 +4,9 @@ description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka ma
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
+source-git-commit: a2917ea8c389c35129a77d427528051be499addf
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '2007'
 ht-degree: 6%
 
 ---
@@ -72,7 +72,7 @@ För att säkerställa att medlemstilldelningen i en inköpsgrupp inte åsidosä
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
@@ -84,7 +84,7 @@ Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -102,7 +102,12 @@ Om det till exempel finns fyra roller inom en inköpsgrupp och tre av de fyra ro
 
 Slutresultatet för inköpsgruppen beräknas om varje gång en inköpsgrupp skapas eller uppdateras.
 
-### Köpa poäng för gruppengagemang
+### Köpa poäng för gruppengagemang {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="Engagement score"
+>abstract="Inköpsmusik avgör nivån på engagemanget för att köpa gruppmedlemmar."
 
 Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos medlemmarna i en inköpsgrupp, baserat på de aktiviteter de utför.
 
@@ -112,7 +117,7 @@ Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos 
 * Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en inköpsgrupp utför samma aktivitet mer än 20 gånger per dag, begränsas antalet aktiviteter till 20 och inte ett högre antal.
 * Den poäng som visas är avrundad. Ett resultat på till exempel 75,89999 visas som 76.
 
-+++aktiviteter som används för poängsättning
++++Verksamheter som används för poängsättning
 
 | Aktivitetsnamn | Beskrivning | Typ av åtagande | Maximalt antal dagliga frekvenser | Aktivitetsvikt |
 | --- | --- | --- | --- | --- |
@@ -154,13 +159,18 @@ Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos 
 
 >[!NOTE]
 >
->Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+>Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
 
 +++
 
-#### Viktning
+#### Viktning {#engagement-score-weighting}
 
-Användare kan tilldela _viktning_ till varje roll i rollmallen för att tilldela olika vikter för en roll för att beräkna förlovningspoängen.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="Vägning av engagemangsmusik"
+>abstract="Använd viktning för att anpassa poängberäkningen för engagemang."
+
+Användare kan tilldela _viktning_ till varje roll i [rollmallen](./buying-groups-role-templates.md) för att tilldela olika vikter för en roll.
 
 ![Ange viktning för varje roll i rollmallen](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -172,7 +182,7 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
 
 | Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |
@@ -220,4 +230,4 @@ Det slutliga poängtalet för engagemang beräknas genom att viktningen tillämp
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3452933/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
