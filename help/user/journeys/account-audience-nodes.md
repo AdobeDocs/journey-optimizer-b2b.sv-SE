@@ -33,7 +33,7 @@ Använd något av följande indataalternativ för den här kundnoden:
 
      Välj alternativ för målgrupp. Klicka sedan på **[!UICONTROL Add account audience]**.
 
-     I dialogrutan _[!UICONTROL Add audience]_väljer du ett tidigare skapat målgruppssegment. Klicka sedan på&#x200B;**[!UICONTROL Add audience]**.
+     I dialogrutan _[!UICONTROL Add audience]_&#x200B;väljer du ett tidigare skapat målgruppssegment. Klicka sedan på&#x200B;**[!UICONTROL Add audience]**.
 
      ![Välj ett målgruppssegment för noden](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
