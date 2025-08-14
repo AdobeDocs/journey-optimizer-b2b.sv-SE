@@ -55,4 +55,4 @@ Använd något av följande indataalternativ för den här kundnoden:
 
    ![Skapa ett målgruppssegment](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Följ stegen i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
+1. Följ stegen i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
