@@ -4,36 +4,36 @@ description: Lär dig hur du kan använda bildresurser från en ansluten AEM Ass
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
 
 # Arbeta med Experience Manager resurser
 
-När Adobe Experience Manager Assets as a Cloud Service är integrerat med Adobe Journey Optimizer B2B edition blir det enkelt att upptäcka och få tillgång till digitala resurser som kan användas i ert marknadsföringsmaterial. När du redigerar ditt innehåll är resurserna tillgängliga från _Experience Manager Assets_ -objektet i den vänstra navigeringen och när du redigerar e-postinnehåll för en kontoresa.
+När [!DNL Adobe Experience Manager Assets as a Cloud Service] är integrerat med [!DNL Adobe Journey Optimizer B2B Edition] kan du enkelt identifiera och få tillgång till digitala resurser som du kan använda i ditt marknadsföringsinnehåll. När du redigerar ditt innehåll är resurserna tillgängliga från objektet _[!UICONTROL Experience Manager Assets]_i den vänstra navigeringen och när du redigerar e-postinnehåll för en kontoresa.
 
 {{aem-assets-licensing-note}}
 
-När du använder dessa digitala resurser sprids de senaste förändringarna i Assets as a Cloud Service automatiskt till e-postkampanjer via länkade referenser. Om bilder tas bort i Adobe Experience Manager Assets as a Cloud Service visas bilderna med en bruten referens i e-postmeddelandena. När resurser som för närvarande används på kontoresor ändras eller tas bort, meddelas författarna av resan om bildändringarna och listan över resor som använder bilden. Alla ändringar av materialet måste göras i Adobe Experience Manager Assets centrala arkiv.
+När du använder dessa digitala resurser sprids de senaste ändringarna i [!DNL Assets as a Cloud Service] automatiskt till aktiva e-postkampanjer via länkade referenser. Om bilder tas bort i [!DNL Adobe Experience Manager Assets as a Cloud Service] visas bilderna med en bruten referens i e-postmeddelandena. När resurser som för närvarande används på kontoresor ändras eller tas bort, meddelas författarna av resan om bildändringarna och listan över resor som använder bilden. Alla ändringar av resurserna måste göras i den centrala databasen [!DNL Adobe Experience Manager Assets].
 
-När din miljö har en eller flera [Assets-databasanslutningar](../admin/configure-aem-repositories.md) kan innehållsförfattare använda AEM Assets som källa för resurser när de skapar e-post, e-postmallar eller visuellt fragment.
+När miljön har en eller flera [Assets-databasanslutningar](../admin/configure-aem-repositories.md) kan innehållsförfattare använda [!DNL Experience Manager Assets] som källa för resurser när de skapar e-post, e-postmallar eller visuellt fragment.
 
 >[!IMPORTANT]
 >
->En administratör måste lägga till användare som behöver tillgång till Assets i produktprofilerna Assets Consumer Users eller/och Assets Users. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>En administratör måste lägga till användare som behöver tillgång till Assets i produktprofilerna Assets Consumer Users eller/och Assets Users. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Öppna AEM Assets-bilder
 
-Klicka på ikonen _Experience Manager Assets_ ( ![Experience Manager Assets-ikon](../../assets/do-not-localize/icon-assets-aem.svg) ) i den vänstra sidofältet i den visuella redigeraren. Detta ändrar verktygspanelen till en lista med tillgängliga resurser i den valda databasen.
+Klicka på ikonen _[!UICONTROL Experience Manager Assets]_( ![ Experience Manager Assets-ikon ](../../assets/do-not-localize/icon-assets-aem.svg) ) i det vänstra sidofältet i designområdet. Detta ändrar verktygspanelen till en lista med tillgängliga resurser i den valda databasen.
 
 ![Klicka på Assets-väljarikonen för att komma åt bildresurserna](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->För närvarande stöds endast bildresurser från Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition. Ändringar av mediefilerna måste göras från Adobe Experience Manager Assets centrala arkiv. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>För närvarande stöds endast bildresurser från [!DNL Adobe Experience Manager Assets] i [!DNL Adobe Journey Optimizer B2B Edition]. Ändringar av resurserna måste göras från den centrala databasen [!DNL Adobe Experience Manager Assets]. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Ändra den databas som visas
 
