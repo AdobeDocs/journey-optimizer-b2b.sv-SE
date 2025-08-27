@@ -4,16 +4,16 @@ description: Lär dig hur du skapar innehållsfragment som kan återanvändas f�
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Skapa fragment
 
-När du har [skapat ett fragment](./fragments.md#create-fragments) använder du den visuella redigeraren för att skapa struktur- och innehållskomponenterna i fragmentet.
+När du har [skapat ett fragment](./fragments.md#create-fragments) använder du det visuella designområdet för att skapa struktur- och innehållskomponenterna i fragmentet.
 
 ## Lägga till struktur och innehåll {#design-fragment}
 
@@ -30,6 +30,12 @@ När du har [skapat ett fragment](./fragments.md#create-fragments) använder du 
 ## Anpassa innehåll
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+## Villkorligt innehåll
+
+Om du vill lägga till villkorligt innehåll som anpassar innehållet till målprofilerna baserat på regler, markerar du en innehållskomponent och klickar på knappen **[!UICONTROL Enable conditional content]** i komponentens verktygsfält. När det publicerade fragmentet inkluderas i ett e-postmeddelande avgör de villkorliga reglerna varianten för en villkorlig komponent som återges i e-postmeddelandet.
+
+Mer information finns i [_Villkorligt innehåll_](./conditional-content.md).
 
 ## Aktivera fragmentanpassning
 

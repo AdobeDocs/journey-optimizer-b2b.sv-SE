@@ -1,23 +1,23 @@
 ---
 title: Villkorligt innehåll
-description: Lär dig hur du skapar innehållsvarianter och använder villkorliga regler när du skapar e-postinnehåll för kontoresor.
-feature: Email Authoring, Content
+description: Lär dig hur du skapar innehållsvariationer och använder villkorliga regler när du skapar visuella fragment och e-postinnehåll för kontoresor.
+feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
 
 # Villkorligt innehåll
 
-Med villkorligt innehåll kan du anpassa e-postinnehåll baserat på villkorliga regler. Dessa regler definieras med hjälp av profilattribut eller sammanhangsbaserade händelser. Du kan skapa villkorliga regler i regelbyggaren, och du kan lagra dem för återanvändning på alla dina kontoresor.
+Med villkorligt innehåll kan ni anpassa e-post- och fragmentinnehåll baserat på villkorliga regler. Dessa regler definieras med hjälp av profilattribut eller sammanhangsbaserade händelser. Du kan skapa villkorliga regler i regelbyggaren, och du kan lagra dem för återanvändning på alla dina kontoresor.
 
-Om du vill lägga till villkorligt innehåll i e-postmeddelanden kan du använda villkorsregler som lagras i biblioteket _Villkor_ i Adobe Journey Optimizer. Använd villkorliga regler i e-postdesignområdet när du [redigerar e-postinnehåll för en kontoresa](./email-authoring.md).
+Om du vill lägga till villkorligt innehåll i fragment och e-postmeddelanden kan du använda villkorliga regler som lagras i biblioteket _Villkor_ i Adobe Journey Optimizer. Använd villkorsregler i den visuella designrymden när du skapar [e-postinnehåll för en kontoresa](./email-authoring.md) eller ett [visuellt fragment](./fragment-authoring.md).
 
-## Lägg till villkorligt innehåll i e-postmeddelanden {#email-content}
+## Lägga till villkorligt innehåll {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
@@ -29,15 +29,15 @@ Om du vill lägga till villkorligt innehåll i e-postmeddelanden kan du använda
 >title="Villkorligt innehåll"
 >abstract="Använd en villkorsstyrd regel som sparats i biblioteket eller skapa en ny."
 
-När du skapar ett e-postmeddelande för din kontoresa i e-postdesignområdet kan du använda villkorsregler för att definiera flera varianter för en innehållskomponent.
+När du skapar ett fragment eller ett e-postmeddelande i den visuella designrymden kan du använda villkorsregler för att definiera flera varianter för en innehållskomponent.
 
 1. Markera en innehållskomponent och klicka på ikonen **[!UICONTROL Enable conditional content]** i komponentverktygsfältet.
 
-   Komponenten kontureras med orange för att ange att den aktiveras som en villkorlig komponent. Fönstret **[!UICONTROL Conditional Content]** visas till vänster med _Standardvariant_ och _Variant - 1.
+   Komponenten kontureras med orange för att ange att den aktiveras som en villkorlig komponent. Fönstret **[!UICONTROL Conditional Content]** visas till vänster med _Standardvariant_ och _Variant - 1_.
 
    ![Aktivera villkorligt innehåll för textkomponenten](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
-   Det ursprungliga innehållet som du markerade och aktiverade är standard och gäller när inga av de villkorliga reglerna uppfylls för någon av de varianter som du definierar.
+   Det ursprungliga innehållet som du markerade och aktiverade är standardvärdet och gäller när inga av de villkorliga reglerna uppfylls för någon av de varianter som du definierar.
 
    I den här rutan kan du definiera flera varianter för den markerade innehållskomponenten med hjälp av villkorsregler.
 
@@ -45,7 +45,7 @@ När du skapar ett e-postmeddelande för din kontoresa i e-postdesignområdet ka
 
    ![Välj villkor för variant](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Dialogrutan _[!UICONTROL Select condition]_&#x200B;öppnas och villkorsbiblioteket visas.
+   Dialogrutan _[!UICONTROL Select condition]_öppnas och villkorsbiblioteket visas.
 
    Om du vill visa information om ett villkor för att se till att det är det du vill ha klickar du på ikonen _Mer meny_ (**..**) och väljer **[!UICONTROL View Info]**.
 
@@ -94,20 +94,18 @@ När du skapar ett e-postmeddelande för din kontoresa i e-postdesignområdet ka
 ## Villkorliga regler
 
 Villkorliga regler är en uppsättning villkorsuttryck som kan utvärderas som sant eller falskt. Du kan använda dessa regler för att avgöra vilken innehållsvariant som ska visas i ett e-postmeddelande baserat på olika filter, till exempel profilattribut eller sammanhangsbaserade händelser.
-
-Villkorliga regler lagras i villkorsbiblioteket, där de är tillgängliga för återanvändning i hela kundresans innehåll för din organisation.
-<!-- 
-
+Reglerna lagras i villkorsbiblioteket, där de är tillgängliga för återanvändning i e-post och fragmentinnehåll för din organisation.
+<!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
 
 ### Villkorsfilter {#condition-filters}
 
 | Villkorstyp | Filter | Beskrivning |
 | -------------- | ------- | ----------- |
 | **Konto** | Kontoattribut | Attribut från kontoprofilen, inklusive: <li>Årliga intäkter</li><li>Ort</li><li>Land</li><li>Medarbetarstorlek</li><li>Bransch</li><li>Namn</li><li>SIC-kod</li><li>Stat</li> |
-| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Kontot har eller saknar medlemmar i inköpsgrupper. Kan även utvärderas mot ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Kontot har eller saknar medlemmar i inköpsgrupper. Filtret kan också utvärderas mot ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li> |
 | **Person** | [!UICONTROL Activity history] > [!UICONTROL Email] | E-postaktiviteter som är kopplade till resan: <li>[!UICONTROL Clicked link in email]</li><li>Öppen e-post</li><li>Levererades via e-post</li><li>Har skickats e-post</li> Dessa villkor utvärderas med hjälp av ett markerat e-postmeddelande från tidigare under resan. |
 |  | [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <li>Ort</li><li>Land</li><li>Födelsedatum</li><li>E-postadress</li><li>Ogiltig e-postadress</li><li>E-postmeddelandet har pausats</li><li>Förnamn</li><li>Ingångsregion</li><li>Befattning</li><li>Efternamn</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postnummer</li><li>Stat</li><li>Avprenumererad</li><li>Orsak till avbeställning</li> |
 | | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Roll</li> |
@@ -121,7 +119,7 @@ Villkorliga regler lagras i villkorsbiblioteket, där de är tillgängliga för 
 
 Du kan komma åt villkorsstyrd regelbyggaren från e-postdesignområdet när du väljer ett villkor för en komponentvariant.
 
-1. Klicka på **[!UICONTROL Create new]** i dialogrutan _[!UICONTROL Select condition]_&#x200B;och välj villkorstyp:
+1. Klicka på _[!UICONTROL Select condition]_i dialogrutan **[!UICONTROL Create new]**och välj villkorstyp:
 
    * **[!UICONTROL Person condition]** - Välj den här typen om du vill skapa den villkorliga regeln med personattribut och sammanhangsberoende händelser.
    * **[!UICONTROL Account condition]** - Välj den här typen om du vill skapa villkorsregeln med kontoattribut.

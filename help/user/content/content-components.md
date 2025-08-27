@@ -3,9 +3,10 @@ title: Innehållskomponenter
 description: Lär dig hur du använder innehållskomponenter för att utforma e-post, landningssidor och visuellt fragmentinnehåll.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2733'
 ht-degree: 1%
 
 ---
@@ -199,10 +200,9 @@ Varje innehållskomponenttyp visar ett verktygsfält när du markerar den på ar
 | ---- | ---- | ----- |
 | ![Lägg till personalisering](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Lägg till personalisering | Använd personaliseringsredigeraren för att infoga personaliseringstoken i komponentinnehållet. [Läs mer](./email-authoring.md#personalize-content) |
 | ![Visa källkoden](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Visa källkoden | Visa HTML-källkoden för komponenten i ett skrivskyddat popup-fönster. <br/>![Visa HTML-kod](./assets/content-components-show-source-code.png){width="200"} |
-| ![Aktivera villkorligt innehåll](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Aktivera villkorligt innehåll | Aktivera villkorsstyrda varianter för komponenten. [Läs mer](./conditional-content.md) |
+| ![Aktivera villkorligt innehåll](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Aktivera villkorligt innehåll | (E-post och fragment) Aktivera villkorliga varianter för komponenten. [Läs mer](./conditional-content.md) |
 | ![Duplicera](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Duplicera | Skapa en kopia av komponenten och lägg till den direkt nedanför. |
 | ![Ta bort](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Ta bort | Ta bort komponenten. |
-
 
 ## Lägga till en innehållskomponent i din design
 
@@ -239,7 +239,7 @@ Om du vill exkludera komponenten från skrivbordet eller mobila enheter ändrar 
 
 Använd en behållare för att tillämpa en viss formatering på en grupp innehållskomponenter. Lägg till en [!UICONTROL Container]-komponent och lägg sedan till andra innehållskomponenter i den. Den här komponenten liknar hur du kan använda ett `div`-element i HTML. Du kan använda ett distinkt format för behållaren som skiljer sig från det format som används för innehållskomponenterna som den innehåller.
 
-Lägg till exempel till en _[!UICONTROL Container]_-komponent och lägg sedan till en&#x200B;_[!UICONTROL Button]_-komponent i den behållaren. Du kan använda en särskild ytformatering för behållaren och formatera knappen och dess bakgrund efter behov.
+Lägg till exempel till en _[!UICONTROL Container]_-komponent och lägg sedan till en_[!UICONTROL Button]_-komponent i den behållaren. Du kan använda en särskild ytformatering för behållaren och formatera knappen och dess bakgrund efter behov.
 
 ![Komponentformat för behållarinnehåll](./assets/content-components-container.png){width="600" zoomable="yes"}
 
@@ -287,7 +287,7 @@ När du anger knappetikettexten och anger formateringen ändras knappens storlek
 
 #### Ange länkalternativ
 
-Använd alternativen för _[!UICONTROL Settings]_&#x200B;på fliken **[!UICONTROL Link]**&#x200B;för att definiera knapptexten, länkmålet och webbläsarbeteendet för att läsa in målsidan.
+Använd alternativen för _[!UICONTROL Settings]_på fliken **[!UICONTROL Link]**för att definiera knapptexten, länkmålet och webbläsarbeteendet för att läsa in målsidan.
 
 1. Ange **[!UICONTROL Type]** för länken:
 
@@ -431,7 +431,7 @@ Lägg till en _Divider_-komponent för att införliva en linjär delning mellan 
 
 +++
 
-+++Line
++++Linje
 
 +++
 
@@ -549,7 +549,7 @@ Välj [resurskälltyp](./assets-overview.md) och välj en bildfil:
 
 * **[!UICONTROL Experience Manager Assets]** - Välj den här typen för att bläddra och välja en bildresurs i en [konfigurerad Experience Manager Assets-databas](../admin/configure-aem-repositories.md).
 
-  I dialogrutan _[!UICONTROL Select Assets]_&#x200B;väljer du en bild med de tillgängliga verktygen för att hitta resursen som du behöver och klickar på&#x200B;**[!UICONTROL Select]**:
+  I dialogrutan _[!UICONTROL Select Assets]_väljer du en bild med de tillgängliga verktygen för att hitta resursen som du behöver och klickar på&#x200B;**[!UICONTROL Select]**:
 
    * Ändra **[!UICONTROL Repository]** överst till höger.
 
@@ -571,7 +571,7 @@ Välj [resurskälltyp](./assets-overview.md) och välj en bildfil:
 
 * **[!UICONTROL Import media]** - Välj den här typen om du vill välja en fil från datorn och importera den till Journey Optimizer B2B edition resursbibliotek.
 
-  I dialogrutan _[!UICONTROL Upload image]_&#x200B;drar och släpper du en fil från systemet till filrutan. Den maximala filstorleken är 100 MB.
+  I dialogrutan _[!UICONTROL Upload image]_drar och släpper du en fil från systemet till filrutan. Den maximala filstorleken är 100 MB.
 
   ![Importera en bildfil till ](./assets/email-designer-image-upload.png){width="450"}
 
@@ -585,7 +585,7 @@ Du kan lägga till en bildtitel och alternativ text för bilden på den högra p
 
 #### Ange länkalternativ
 
-Använd alternativen för _[!UICONTROL Settings]_&#x200B;på fliken **[!UICONTROL Link]**&#x200B;för att länka bilden till ett mål och webbläsarbeteendet för att läsa in målsidan.
+Använd alternativen för _[!UICONTROL Settings]_på fliken **[!UICONTROL Link]**för att länka bilden till ett mål och webbläsarbeteendet för att läsa in målsidan.
 
 1. Ange **[!UICONTROL Type]** för länken:
 

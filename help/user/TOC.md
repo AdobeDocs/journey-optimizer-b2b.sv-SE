@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: d4fee6639033378ecbbe8836d9f63ce4b81208c5
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 19%
+source-wordcount: '309'
+ht-degree: 18%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 19%
       + [Översikt](./buying-groups/buying-groups-overview.md)
       + [Lösningsintressen](./buying-groups/solution-interests.md)
       + [Rollmallar](./buying-groups/buying-groups-role-templates.md)
+      + [Standardroller och anpassade roller](./buying-groups/default-custom-roles.md)
+      + [Engagemangsmoment](./buying-groups/engagement-scores.md)
       + [Köpgruppsfaser](./buying-groups/buying-group-stages.md)
       + [Skapa inköpsgrupper](./buying-groups/buying-groups-create.md)
-      + [Exportera kontolista](./audiences/account-list-export.md)
+      + [Exportera konton](./audiences/account-list-export.md)
       + [LinkedIn-konto matchar målgrupper](./data/linkedin-account-matched-audiences.md)
       + [Köpa gruppfilter i Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Kontolistor {#account-lists}
@@ -116,5 +118,6 @@ ht-degree: 19%
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
    + [Konfigurera AEM Assets-databaser](./admin/configure-aem-repositories.md)
    + [Konfigurera händelsedefinitioner för AEP](./admin/configure-aep-events.md)
+   + [Konfigurera poängvikt för engagemang](./admin/engagement-score-weighting.md)
    + [Inställningar för landningssida](./admin/landing-page-settings.md)
    + [Styrning](./admin/governance.md)

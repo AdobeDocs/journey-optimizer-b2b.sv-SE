@@ -4,10 +4,10 @@ description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka ma
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: a2917ea8c389c35129a77d427528051be499addf
+source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
 workflow-type: tm+mt
-source-wordcount: '2007'
-ht-degree: 6%
+source-wordcount: '1179'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Dessa
 
 ## Viktiga komponenter
 
-Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i Journey Optimizer B2B edition som identifierar medlemmar i era målkontolistor baserat på de lösningar som era säljteam ansvarar för. Innan du och ditt marknadsföringsteam börjar skapa inköpsgrupper måste du se till att du har definierat nyckelkomponenterna. De här komponenterna är viktiga för att ni ska kunna uppnå era affärsmål.
+Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i Journey Optimizer B2B edition som identifierar medlemmar i era målkontolistor för de lösningar som era säljteam ansvarar för. Innan du och ditt marknadsföringsteam börjar skapa inköpsgrupper måste du se till att du har definierat nyckelkomponenterna. De här komponenterna är viktiga för att ni ska kunna uppnå era affärsmål.
 
 | Komponent | Syfte |
 | --------- | ------- |
@@ -41,11 +41,11 @@ Det finns tre sätt att tilldela eller ta bort medlemmar från en inköpsgrupp. 
 2. **_Reseåtgärd_** - Resa [åtgärdsnoder för köp av gruppmedlemskap](../journeys/action-nodes.md#add-a-people-based-action) (_Tilldela till inköpsgrupp_ eller _Ta bort från inköpsgrupp_)
 3. **_Systemjobb_** - Buying group [creation](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) och underhållsjobb.
 
-För att säkerställa att medlemstilldelningen i en inköpsgrupp inte åsidosätts felaktigt är den här listan i prioritetsordningen som följs i systemet för att säkerställa korrekt medlemstilldelning. Om en försäljningsanvändare till exempel lägger till en medlem i inköpsgruppen manuellt, vill de inte att ett underhållsjobb ska ändra tillägget. Följande scenarier används med hjälp av prioritetsordningen:
+För att undvika att en medlemsuppgift åsidosätts felaktigt i en inköpsgrupp ligger listan i prioritetsordningen som följs i systemet för att säkerställa korrekt medlemstilldelning. Om en försäljningsanvändare till exempel lägger till en medlem i inköpsgruppen manuellt, vill de inte att ett underhållsjobb ska ändra tillägget. Följande scenarier används med hjälp av prioritetsordningen:
 
-* Om en användare tilldelar en medlem manuellt till en inköpsgrupp, och detta följs av ett underhållsjobb för inköpsgrupp som tar bort samma medlem från inköpsgruppen, tar underhållsjobbet **inte bort** den medlemmen och kan inte åsidosätta den manuella tilldelningen.
-* Om en användare tilldelar en medlem manuellt till en inköpsgrupp, och detta följs av en utlösad kundnod som tar bort samma medlem från inköpsgruppen, tar inte nodåtgärden **bort** den medlemmen och kan inte åsidosätta den manuella tilldelningen.
-* Om en utlöst transportåtgärdsnod lägger till en medlem i en inköpsgrupp, och detta följs av ett underhållsjobb för inköpsgrupp som tar bort samma medlem från inköpsgruppen, tar underhållsjobbet **inte bort** den medlemmen och kan inte åsidosätta reseåtgärdstilldelningen.
+* Om en användare tilldelar en medlem manuellt till en inköpsgrupp, och den följs av ett underhållsjobb för inköpsgrupp som tar bort samma medlem från inköpsgruppen, tar underhållsjobbet **inte bort** den medlemmen och kan inte åsidosätta den manuella tilldelningen.
+* Om en användare tilldelar en medlem manuellt till en inköpsgrupp, och den följs av en utlösad kundnod som tar bort samma medlem från inköpsgruppen, tar inte nodåtgärden **bort** den medlemmen och kan inte åsidosätta den manuella tilldelningen.
+* Om en utlöst transportåtgärdsnod lägger till en medlem i en inköpsgrupp, och den följs av ett underhållsjobb för inköpsgrupp som tar bort samma medlem från inköpsgruppen, tar underhållsjobbet **inte bort** den medlemmen och kan inte åsidosätta reseåtgärdstilldelningen.
 
 ## Arbetsflöde för inköpsgrupp
 
@@ -72,7 +72,7 @@ För att säkerställa att medlemstilldelningen i en inköpsgrupp inte åsidosä
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
@@ -84,7 +84,7 @@ Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -96,7 +96,7 @@ Om du vill få tillgång till information om en inköpsgrupp klickar du på namn
 
 ### Poäng för slutförande av inköpsgrupp
 
-Slutpoängen används för att avgöra om inköpsgruppen är fullständig, vilket innebär att den har rätt medlemmar tilldelade till rollerna och är klar att användas i en kontoresa. Poängen är en procentandel som baseras på antalet roller i inköpsgruppen och hur många roller som tilldelas med minst en lead.
+Slutenhetspoängen används för att avgöra om inköpsgruppen har rätt medlemmar tilldelade till rollerna och är klar att användas i en kontoresa. Poängen är en procentandel som baseras på antalet roller i inköpsgruppen och hur många roller som tilldelas med minst en lead.
 
 Om det till exempel finns fyra roller inom en inköpsgrupp och tre av de fyra rollerna tilldelas till minst en lead, är inköpsgruppen 75 % färdig.
 
@@ -104,130 +104,12 @@ Slutresultatet för inköpsgruppen beräknas om varje gång en inköpsgrupp skap
 
 ### Köpa poäng för gruppengagemang {#engagement-score}
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_buying_group_engagement_score"
->title="Engagement score"
->abstract="Inköpsmusik avgör nivån på engagemanget för att köpa gruppmedlemmar."
+Poängen för engagemang baseras på aktiviteter för köpgruppsmedlemmar, viktade åtgärder och viktade roller. Resultatpoängen normaliseras inom klienten/instansen för att möjliggöra en konsekvent jämförelse och möjliggöra åtgärdbara insikter.
 
-Att köpa poäng för gruppengagemang är en siffra som avgör engagemanget hos medlemmarna i en inköpsgrupp, baserat på de aktiviteter de utför.
+Den inledande poängberäkningen för engagemang börjar så snart du skapar inköpsgruppen och beräknas om dagligen.
 
-* Beräkningen av poäng för engagemang börjar så snart inköpsgruppen genereras.
-* Alla inkommande aktiviteter som utförts av medlemmarna i inköpsgruppen under de senaste 30 dagarna används för att beräkna poängen.
-* Med 30-dagarsfönstret och när aktiviteter förfaller kan poängen sänkas.
-* Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en inköpsgrupp utför samma aktivitet mer än 20 gånger per dag, begränsas antalet aktiviteter till 20 och inte ett högre antal.
-* Den poäng som visas är avrundad. Ett resultat på till exempel 75,89999 visas som 76.
-
-+++Verksamheter som används för poängsättning
-
-| Aktivitetsnamn | Beskrivning | Typ av åtagande | Maximalt antal dagliga frekvenser | Aktivitetsvikt |
-| --- | --- | --- | --- | --- |
-| [!UICONTROL Visit Webpage] | En medlem besöker en webbsida | Webb | 20 | 40 |
-| [!UICONTROL Fill Out Form] | En medlem fyller i och skickar ett formulär på en webbsida | Webb | 20 | 40 |
-| [!UICONTROL Click Link] | En medlem klickar på en länk på en webbsida | Webb | 20 | 40 |
-| [!UICONTROL Open Email] | En medlem öppnar ett mejl | E-post | 20 | 30 |
-| [!UICONTROL Click Email] | En medlem klickar på en länk i ett e-postmeddelande | E-post | 20 | 30 |
-| [!UICONTROL Open Sales Email] | En medlem öppnar ett säljmejl | E-post | 20 | 30 |
-| [!UICONTROL Click Sales Email] | En medlem klickar på en länk i ett e-postmeddelande | E-post | 20 | 30 |
-| [!UICONTROL Interesting Moment] | En medlem har en intressant stund | Kuraterad | 20 | 60 |
-| [!UICONTROL Tap Push Notification] | En medlem får ett push-meddelande | Mobil | 20 | 30 |
-| [!UICONTROL Mobile App Activity] | En medlem utför en aktivitet i en mobilapp | Mobil | 20 | 30 |
-| [!UICONTROL Mobile App Session] | En medlem är aktiv i en mobilappssession | Mobil | 20 | 30 |
-| [!UICONTROL Fill Out Facebook Lead Ads Form] | En medlem fyller i och skickar in ett leadannonseringsformulär på en Facebook-sida | Social | 20 | 30 |
-| [!UICONTROL Click RTP Call to Action] | En medlem klickar på en personlig call to action | Webb | 20 | 60 |
-| [!UICONTROL View In-App Message] | En medlem visar ett meddelande i appen | Mobil | 20 | 30 |
-| [!UICONTROL Tap In-App Message] | En medlem trycker på ett meddelande i appen | Mobil | 20 | 30 |
-| [!UICONTROL Subscribe SMS] | En medlem prenumererar på SMS-kommunikation | SMS | 20 | 90 |
-| [!UICONTROL Reply to Sales Email] | En medlem svarar på ett säljmejl | E-post | 20 | 30 |
-| [!UICONTROL Engaged with a Dialogue] | En medlem engagerar sig i en Dynamic Chat-dialog | Chatt | 20 | 90 |
-| [!UICONTROL Interacted with Document in Dialogue] | En medlem interagerar med ett dokument i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
-| [!UICONTROL Scheduled Meeting in Dialogue] | En medlem schemalägger ett möte i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
-| [!UICONTROL Reached Dialogue Goal] | Medlemmen når ett mål i en Dynamic Chat-dialogruta |  | 20 | 90 |
-| [!UICONTROL Responded to a poll in webinar] | En medlem svarar på en omröstning i ett webbinarium | Chatt | 20 | 90 |
-| [!UICONTROL Call to action clicked in webinar] | En medlem klickar på en call-to-action-länk i ett webbinarium | Utlysning | 20 | 30 |
-| [!UICONTROL Asset downloads in webinar] | En medlem hämtar en fil/resurs i ett webbinarium | Händelse | 20 | 60 |
-| [!UICONTROL Asks questions in webinar] | En medlem ställer frågor i ett webbinarium | Händelse | 20 | 60 |
-| [!UICONTROL Has attended event] | En medlem deltog i en händelse | Händelse | 20 | 60 |
-| [!UICONTROL Engaged with an Agent in Dialogue] | En medlem som deltar i en Dynamic Chat-dialog med en agent | Chatt | 20 | 90 |
-| [!UICONTROL Clicked Link in Chat in Dialogue] | En medlem klickar på en länk i en Dynamic Chat-dialogruta | Chatt | 20 | 90 |
-| [!UICONTROL Engaged with a Conversational Flow] | En medlem engagerar sig i Dynamic Chat konversationsflöde | Chatt | 20 | 90 |
-| [!UICONTROL Scheduled Meeting in Conversational Flow] | En medlem schemalägger en avtalad tid i ett samtal med Dynamic Chat | Chatt | 20 | 90 |
-| [!UICONTROL Reached Conversational Flow Goal] | Medlemmen uppnår ett mål i Dynamic Chat konversationsflöde | Chatt | 20 | 90 |
-| [!UICONTROL Interacted with Document in Conversational Flow] | En medlem interagerar med ett dokument i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
-| [!UICONTROL Engaged with an Agent in Conversational Flow] | En medlem engagerar sig i en agent i ett samtal med Dynamic Chat | Chatt | 20 | 90 |
-| [!UICONTROL Clicked Link in Chat in Conversational Flow] | En medlem klickar på en länk i ett Dynamic Chat-konversationsflöde | Chatt | 20 | 90 |
-| [!UICONTROL Click Link in SMS V2] | En medlem klickar på en länk i ett SMS-meddelande | SMS | 20 | 90 |
-
->[!NOTE]
->
->Aktiviteter för engagemangsmusik registreras i Marketo Engage [aktivitetsloggen för en person](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
-
-+++
-
-#### Viktning {#engagement-score-weighting}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_buying_group_engagement_score_weighting"
->title="Vägning av engagemangsmusik"
->abstract="Använd viktning för att anpassa poängberäkningen för engagemang."
-
-Användare kan tilldela _viktning_ till varje roll i [rollmallen](./buying-groups-role-templates.md) för att tilldela olika vikter för en roll.
-
-![Ange viktning för varje roll i rollmallen](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
-
-Varje viktningsnivå motsvarar ett värde som används för att beräkna engagemangspoängen:
-
-* [!UICONTROL Trivial] = 20
-* [!UICONTROL Minor] = 40
-* [!UICONTROL Normal] = 60
-* [!UICONTROL Important] = 80
-* [!UICONTROL Vital] = 100
-
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
-
-| Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
-|-------------- |--------- |------------- |------------------ |---------- |
-|               |          |              |                   |           |
-| Beslutsfattare | Vital | 100 | 100/240 | 41,67 % |
-| Påverkande | Viktigt | 80 | 80/240 | 33,33 % |
-| Yrkesverksamma | Normal | 60 | 60/240 | 25 % |
-|               | Totalt | 240 |                   |           |
-
-#### Exempel på beräkning
-
-I följande exempel visas beräkningen av engagemangspoängen med den angivna rollviktsprocenten, antalet inkommande aktiviteter för varje medlem i köpgruppen och ett dagligt tak på 20 antal för varje händelse (om det har inträffat flera gånger).
-
-| Roll | medlem | Typ av aktivitet | Gårdagens antal | Antal i dag | Beräkning | Totalt antal poäng |
-|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
-|               |          |             |                 |             |      |           |
-| Beslutsfattare | Adam | Besökt webbplats | 37 | 15 | 20 + 15 | 35 |
-|               |          | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
-|               |          |             |                 |             |      |           |
-|               | Märk | Besökt webbplats | 5 | 3 | 5 + 3 | 8 |
-|               |          | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
-|               |          | Nedladdad pub | 3 | 2 | 3 + 2 | 5 |
-| **Totalpoäng för beslutsfattare** |         |             |                 |             |      | **52** |
-|               |          |             |                 |             |      |           |
-| Påverkande | John | Besökt webbplats | 19 | 9 | 19 + 9 | 28 |
-| **Påverkar totalpoäng** |         |             |                 |             |      | **28** |
-|               |          |             |                 |             |      |           |
-| Yrkesverksamma | Bob | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
-|               |          |             |                 |             |      |           |
-|               | Paul | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
-|               |          |             |                 |             |      |           |
-|               | Calvin | E-post som klickats | 1 | 1 | 1 + 1 | 2 |
-|               |          | Besökt webbplats | 1 | 7 | 1 + 7 | 8 |
-|               |          | Nedladdad pub | 1 | 2 | 1 + 2 | 3 |
-| **Totalt antal praktikanter** |         |             |                 |             |      | **17** |
-
-Det slutliga poängtalet för engagemang beräknas genom att viktningen tillämpas för varje rollpoäng:
-
-| Roll | Rolltotalpoäng | Rollvikt i % | Poäng X vikt % |
-|-------------- |---------------- |------------- |---------------- |
-| Beslutsfattare | 52 | 41,67 % | 21,67 |
-| Påverkande | 28 | 33,33 % | 9,33 |
-| Yrkesverksamma | 17 | 25 % | 4,25 |
-| **Slutgiltigt engagemangsmoment** |                |             | **35.25** |
+Mer information om aktiviteter och beräkningar finns i [Resultat för engagemang](./engagement-scores.md).
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3452933/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

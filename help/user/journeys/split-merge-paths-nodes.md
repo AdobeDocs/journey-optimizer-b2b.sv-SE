@@ -4,20 +4,20 @@ description: Lär dig mer om delade sökvägar och nodtyper för sammanslagnings
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
 
 # Dela och sammanfoga banor
 
-Använd delade och sammanfogade sökvägsnoder i din kontoresa för att samordna dina kontoresor enligt de villkor som du anger för konton eller personer. Du kan segmentera målgrupps- eller kontolistan utifrån villkoren, definiera en sökväg med händelse- och händelsnoder för varje segment och sedan kombinera segmenten och fortsätta resan vidare.
+Använd delade och sammanfogade sökvägsnoder i kontoresan för att segmentera personer eller konton enligt de villkor som du anger. Du kan definiera sökvägar för kundresan eller kontolistan utifrån villkoren, definiera varje väg med action- och event-noder för varje segment och sedan kombinera sökvägarna och fortsätta resan vidare.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
-En _delad banor_-nod definierar en eller flera segmenterade banor som baseras på antingen konto- eller personfilter.
+En _delad banor_-nod definierar en eller flera segmenterade banor som baseras på **_antingen_**-konto eller personfilter. En delning som baseras på ett personfilter stängs automatiskt med en sammanfogningssökvägsnod så att alla kan gå vidare till nästa steg utan att kontextkontexten försvinner.
 
 >[!NOTE]
 >
@@ -25,9 +25,9 @@ En _delad banor_-nod definierar en eller flera segmenterade banor som baseras p�
 
 ## Dela sökvägar efter konton
 
-Sökvägar som delas upp efter konton kan innehålla både konto- och personåtgärder samt händelser. Dessa banor kan delas upp ytterligare.
+Sökvägar som delas efter konton kan innehålla både konto- och personåtgärder samt händelser. Dessa banor kan delas upp ytterligare.
 
-_Hur fungerar en delad sökväg efter kontonod?_
+_**Så här fungerar en delad sökväg efter kontonod**_
 
 * Varje sökväg som du lägger till innehåller en slutnod med möjlighet att lägga till noder i varje kant.
 * Dela efter kontonoder kan kapslas (du kan dela upp sökvägen efter konton flera gånger).
@@ -54,7 +54,7 @@ _Hur fungerar en delad sökväg efter kontonod?_
 
 1. I nodegenskaperna till höger väljer du **[!UICONTROL Accounts]** för delningen.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
    ![Delad sökvägsnod - lägg till villkor](./assets/node-split-properties-apply-condition.png){width="500"}
 
@@ -86,11 +86,11 @@ _Hur fungerar en delad sökväg efter kontonod?_
 
 ## Dela banor efter personer
 
-Banor som delas av personer kan endast innehålla personåtgärder. Dessa banor kan inte delas igen och kopplas automatiskt tillbaka.
+Delade efter personsökvägar kan endast innehålla personåtgärder. Dessa banor kan inte delas igen och kopplas automatiskt tillbaka.
 
-_Hur fungerar en delad sökväg efter personnod?_
+_**Så här fungerar en delad sökväg med personnod**_
 
-* Dela efter personnoder i en _grupperad nod_, delad sammanslagning. De delade banorna sammanfogas automatiskt så att alla personer i publiken kan gå vidare till nästa steg utan att kontexten för deras konton försvinner.
+* Dela efter personnoder i en _grupperad nod_, delad sammanslagning. De delade banorna sammanfogas automatiskt så att alla kan gå vidare till nästa steg utan att kontextkontexten försvinner.
 * Delning efter personnoder kan inte kapslas (du kan inte lägga till en delad sökväg för personer på en sökväg som finns i den här grupperade noden).
 * Utvärderingen av varje bana görs uppifrån och ned. Om en person matchar den första och den andra banan fortsätter de bara längs den första banan.
 * Noden stöder användning av _konto-person-relationer_, vilket gör att du kan filtrera personer baserat på deras roll (till exempel leverantör eller heltidsanställd) enligt relationens definition.
@@ -102,12 +102,12 @@ _Hur fungerar en delad sökväg efter personnod?_
 
 | Sökvillkor | Beskrivning |
 | --------------- | ----------- |
-| [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <li>Ort</li><li>Land</li><li>Födelsedatum</li><li>E-postadress</li><li>Ogiltig e-postadress</li><li>E-postmeddelandet har pausats</li><li>Förnamn</li><li>Ingångsregion</li><li>Befattning</li><li>Efternamn</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postnummer</li><li>Stat</li><li>Avprenumererad</li><li>Orsak till avbeställning</li> |
 | [!UICONTROL Activity history] > [!UICONTROL Email] | E-postaktiviteter baserade på villkor som utvärderas med ett eller flera valda e-postmeddelanden från tidigare under resan: <li>[!UICONTROL Clicked link in email] <li>Öppen e-post <li>Levererades via e-post <li>Skickades via e-post <br>**[!UICONTROL Switch to inactivity filter]**- Använd det här alternativet om du vill filtrera baserat på aktivitetsbrist (en person som inte har e-postaktiviteten). |
 | [!UICONTROL Activity history] > [!UICONTROL SMS Message] | SMS-aktiviteter baserade på villkor som utvärderas med ett eller flera valda SMS-meddelanden från tidigare körningar: <li>[!UICONTROL Clicked link in SMS] <li>[!UICONTROL SMS Bounced] <br>**[!UICONTROL Switch to inactivity filter]**- Använd det här alternativet om du vill filtrera baserat på aktivitetsbrist (en person har inte SMS-aktiviteten). |
 | [!UICONTROL Activity history] > [!UICONTROL Data Value Changed] | En värdeändring har gjorts för ett markerat personattribut. De här ändringstyperna är: <li>Nytt värde<li>Föregående värde<li>Orsak<li>Källa<li>Aktivitetsdatum<li>Min. antal gånger <br>**[!UICONTROL Switch to inactivity filter]**- Använd det här alternativet om du vill filtrera baserat på bristande aktivitet (en person har inte ändrat något datavärde). |
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Intressanta ögonblick som definieras i den associerade Marketo Engage-instansen. Begränsningarna är: <li>Milstolpe<li>E-post<li>Webb <br>**[!UICONTROL Switch to inactivity filter]**- Använd det här alternativet om du vill filtrera baserat på bristande aktivitet (en person hade inte ett intressant ögonblick). |
 | [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Webbsidesaktivitet som för en eller flera webbsidor hanteras av den associerade Marketo Engage-instansen. Begränsningarna är: <li>Webbsida (obligatoriskt)<li>Aktivitetsdatum<li>Klientens IP-adress <li>Frågesträng <li>Referent <li>Användaragent <li>Sökmotor <li>Sökfråga <li>Anpassad URL <li>Token <li>Webbläsare <li>Plattform <li>Enhet <li>Min. antal gånger <br>**[!UICONTROL Switch to inactivity filter]**- Använd det här alternativet om du vill filtrera baserat på bristande aktivitet (en person har inte besökt webbsidan). |
+| [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <li>Ort <li>Land <li>Födelsedatum <li>E-postadress <li>Ogiltig e-postadress <li>E-postmeddelandet har pausats <li>Förnamn <li>Ingångsregion<li>Befattning <li>Efternamn <li>Mobiltelefonnummer <li>Personengagemangspoäng <li>Telefonnummer <li>Postnummer <li>Stat <li>Avprenumererad <li>Orsak till avbeställning |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Roll</li> |
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | Personen är eller är inte medlem i en eller flera Marketo Engage-listor. |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | Personen är eller är inte medlem i ett eller flera Marketo Engage-program. |
@@ -137,7 +137,7 @@ _Hur fungerar en delad sökväg efter personnod?_
    * Välj **[!UICONTROL People attributes only]** om du vill använda villkor som är relaterade till personprofilen.
    * Välj **[!UICONTROL Account-person attributes only]** om du vill använda villkor som är relaterade till personens rollmedlemskap i ett konto.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
 1. I villkorsredigeraren lägger du till ett eller flera filter för att definiera den delade banan.
 
@@ -183,7 +183,7 @@ För en delad bana som användarna delar kan du definiera en sökväg enligt per
 
 >[!BEGINSHADEBOX &quot;Inaktivitetsfiltrering&quot;]
 
-För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alternativet **[!UICONTROL Switch to inactivity filter]**. Med det här alternativet ändras filtret till en utvärdering för en frånvaro av den aktivitetstypen. Om du till exempel vill skapa en sökväg för personer som _&#x200B;**inte**&#x200B;_öppnade ett e-postmeddelande tidigare under resan lägger du till filtret&#x200B;_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_. Aktivera alternativet för inaktivitet och ange e-postadressen. Det är en god vana att använda begränsningen&#x200B;_[!UICONTROL Date of activity]_ för att definiera en tidsperiod för inaktiviteten.
+För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alternativet **[!UICONTROL Switch to inactivity filter]**. Med det här alternativet ändras filtret till en utvärdering för en frånvaro av den aktivitetstypen. Om du till exempel vill skapa en sökväg för personer som _**inte**_öppnade ett e-postmeddelande tidigare under resan lägger du till filtret_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_. Aktivera alternativet för inaktivitet och ange e-postadressen. Det är en god vana att använda begränsningen_[!UICONTROL Date of activity]_ för att definiera en tidsperiod för inaktiviteten.
 
 ![Delad sökväg efter personer - villkor för att köpa gruppmedlemskap](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -191,7 +191,7 @@ För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alt
 
 ### filtrering av medlemskap
 
-I avsnittet _[!UICONTROL Special Filters]_&#x200B;finns det flera filter som du kan använda för att utvärdera en persons medlemskap i en inköpsgrupp eller Marketo Engage-lista. Om du till exempel vill skapa en sökväg för personer som är medlemmar i en inköpsgrupp och har tilldelats en viss roll, lägger du till filtret&#x200B;_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_. För filtret anger du medlemskapet som_ true _, väljer en&#x200B;_[!UICONTROL Solution interest]_ som är associerad med en eller flera inköpsgrupper och anger den _[!UICONTROL Role]_&#x200B;som du vill matcha.
+I avsnittet _[!UICONTROL Special Filters]_finns det flera filter som du kan använda för att utvärdera en persons medlemskap i en inköpsgrupp eller Marketo Engage-lista. Om du till exempel vill skapa en sökväg för personer som är medlemmar i en inköpsgrupp och har tilldelats en viss roll, lägger du till filtret_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_. För filtret anger du medlemskapet som_ true _, väljer en_[!UICONTROL Solution interest]_ som är associerad med en eller flera inköpsgrupper och anger den _[!UICONTROL Role]_som du vill matcha.
 
 ![Delad sökväg efter personer - villkor för att köpa gruppmedlemskap](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
@@ -233,4 +233,4 @@ Lägg till en _sammanfoga sökvägar_-nod för att kombinera olika delade sökv�
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443260/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
