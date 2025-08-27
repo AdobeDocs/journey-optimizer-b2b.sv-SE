@@ -4,18 +4,18 @@ description: Lär dig skapa e-postinnehåll i Adobe Journey Optimizer B2B. Anvä
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
 
 # Redigering av e-postmeddelanden
 
-När du har &lbrack;lagt till en ny<!-- or duplicated -->-e-postresurs till en åtgärdsnod för resan&rbrack;(./add-email.md) kan du definiera innehållet för e-postmeddelandet.
+När du har [lagt till en e-postresurs till en åtgärdsnod för resan](./add-email.md) kan du definiera innehållet för e-postmeddelandet.
 
-Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_&#x200B;på den högra panelen.
+Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_på den högra panelen.
 
 ![Klicka på Redigera e-postinnehåll ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -37,18 +37,25 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 
 Använd det visuella designområdet för att definiera strukturen och innehållet i e-postmeddelandet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
 
-1. Välj alternativet _[!UICONTROL Design your template]_&#x200B;på startsidan för **[!UICONTROL Design from scratch]**.
-1. [Lägg till struktur och innehåll](#add-structure-and-content) i e-postmeddelandet.
-1. [Lägg till bildresurser](#add-assets) i e-postmeddelandet.
-1. [Anpassa e-postinnehållet](#personalize-content).
+1. Välj alternativet _[!UICONTROL Design your template]_på startsidan för **[!UICONTROL Design from scratch]**.
+
+1. I dialogrutan _[!UICONTROL Create email]_väljer du vilken typ av e-postinnehåll du vill skapa.
+
+   * **[!UICONTROL Use Themes]** - Välj det här alternativet om du vill skapa e-postmeddelandet i _temaläge_. I det här läget kan du använda ett definierat varumärkestema för att effektivisera innehållsredigeringsprocessen och se till att designen följer definierade standarder.
+
+   * **[!UICONTROL Manual Styling]** - Välj det här alternativet om du vill skapa e-postmeddelandet i _Manuellt läge_. I det här läget anger du formateringen manuellt för alla struktur- och innehållskomponenter som du lägger till på den tomma arbetsytan.
+
+1. [Lägg till struktur och innehåll](./email-authoring.md#add-structure-and-content) i mallen.
+
 1. [Granska och uppdatera länkar](#preview-and-edit-linked-urls).
+
 1. [Testa e-postmeddelandet](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->You cannot revert back to the visual designer for this email after switching to the code editor. -->
+>You cannot revert back to the visual design space for this email after switching to the code editor. -->
 
 När du är nöjd med innehållet klickar du på **[!UICONTROL Save]**.
 
@@ -70,7 +77,7 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 >[!NOTE]
 >
-> Sparade mallar kan ha styrningsinställningar (innehållslås) för en eller flera komponenter. Den visuella designern ger riktlinjer om låsta komponenter när du [redigerar ett e-postmeddelande från en styrd mall](./email-authoring-governance.md).
+> Sparade mallar kan ha styrningsinställningar (innehållslås) för en eller flera komponenter. Det visuella designområdet innehåller riktlinjer om låsta komponenter när du [redigerar ett e-postmeddelande från en styrd mall](./email-authoring-governance.md).
 
 ## Lägga till struktur och innehåll {#structure-content}
 
@@ -78,7 +85,7 @@ Du kan anpassa det importerade innehållet efter behov med de visuella redigerin
 
 ### Lägg till anpassad CSS
 
-Du kan lägga till egen anpassad CSS direkt i e-postdesignområdet. Använd anpassad CSS för att använda avancerad och specifik formatering, vilket ger större flexibilitet och kontroll över utseendet på innehållet. Det är en god vana att lägga till den här formateringen på den högsta nivån innan du inkluderar komponenter som bilder, knappar och text.
+Du kan lägga till egen anpassad CSS direkt i e-postdesignområdet. Använd anpassad CSS för att använda avancerad och specifik formatering, vilket ger större flexibilitet och kontroll över utseendet på innehållet. Det är en god vana att lägga till den här formateringen på den högsta nivån innan du inkluderar innehållskomponenter som bilder, knappar och text.
 
 Med minst en innehållskomponent på arbetsytan väljer du komponenten **[!UICONTROL Body]** i det vänstra navigeringsträdet för att komma åt den anpassade CSS-redigeraren.
 
@@ -92,9 +99,13 @@ Med minst en innehållskomponent på arbetsytan väljer du komponenten **[!UICON
 
 ### Lägg till fragment
 
+>[!NOTE]
+>
+>Fragment är inte korskompatibla mellan _temaläge_ och _manuellt läge_ i e-postinnehållet. Om du vill använda ett fragment i e-postinnehåll där ett tema används måste fragmentet också skapas i _temaläge_.
+
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -110,7 +121,7 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 
 >[!NOTE]
 >
->Om _[!UICONTROL My Tokens]_&#x200B;har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
+>Om _[!UICONTROL My Tokens]_har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
 
 ### Redigera länkad URL-spårning
 
@@ -128,13 +139,13 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i den vis
 
 ## Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_längst upp i den visuella designrymden kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Reset email]** - Klicka på det här alternativet om du vill rensa arbetsytan för den visuella e-postdesignern till ett tomt läge och börja bygga om innehållet.
+* **[!UICONTROL Reset email]** - Klicka på det här alternativet om du vill rensa arbetsytan för e-postdesign till en tom plats och börja bygga om innehållet.
 * **[!UICONTROL Save as fragment]** - Spara hela eller delar av e-postmeddelandet som ett fragment som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för fragmentet och sparar det i listan över tillgängliga fragment.
-* **[!UICONTROL Change your design]** - Återgå till sidan _Designa din e-post_. Därifrån kan du välja en annan mall för att starta om designprocessen eller välja att designa innehållet från början på en svart arbetsyta.\
+* **[!UICONTROL Change your design]** - Återgå till sidan _Designa din e-post_. Därifrån kan du välja en annan mall för att starta om designprocessen. Du kan också välja att designa innehållet från grunden med en tom arbetsyta (_Klassiskt läge_) eller med ett [varumärkestema](./brand-themes.md) (_Temalläge_).
 * **[!UICONTROL Save as content template]** - Spara e-postbrödtexten som en e-postmall som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för mallen och sparar den i listan över sparade e-postmallar.
 * **[!UICONTROL Export HTML]** - Hämta innehållet på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.
 

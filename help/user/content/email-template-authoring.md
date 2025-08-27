@@ -4,9 +4,9 @@ description: Lär dig hur du skapar e-postmallar för innehåll som kan använda
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,13 @@ Med minst en innehållskomponent på arbetsytan väljer du komponenten **[!UICON
 
 ### Lägg till fragment
 
+>[!NOTE]
+>
+>Fragment är inte korskompatibla mellan _temaläge_ och _manuellt läge_ i e-postinnehållet. Om du vill använda ett fragment i e-postinnehåll där ett tema används måste fragmentet också skapas i _temaläge_.
+
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När mallen har sparats visas den på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
+När mallen har sparats visas den på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -63,11 +67,11 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i det vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_högst upp i e-postdesignområdet kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/visual-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL Reset template]** - Klicka på det här alternativet om du vill rensa arbetsytan till en tom platta och starta om skapandet av innehåll.
 * **[!UICONTROL Save as fragment]** - Spara alla eller delar av mallen som ett fragment som kan återanvändas i flera e-postmallar eller e-postmallar. Du anger ett namn och en beskrivning för fragmentet och sparar det i listan över tillgängliga fragment.
-* **[!UICONTROL Change your design]** - Återgå till sidan _Designa mallen_. Därifrån kan du välja att designa mallen från grunden eller använda en befintlig mall för att starta om designprocessen.
+* **[!UICONTROL Change your design]** - Återgå till sidan _Designa din e-post_. Därifrån kan du välja en annan mall för att starta om designprocessen. Du kan också välja att designa innehållet från grunden med en tom arbetsyta (_Klassiskt läge_) eller med ett [varumärkestema](./brand-themes.md) (_Temalläge_).
 * **[!UICONTROL Export HTML]** - Hämta innehållet på den visuella arbetsytan till ditt lokala system i HTML-format som paketerats som en zip-fil.

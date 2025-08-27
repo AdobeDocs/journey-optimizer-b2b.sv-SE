@@ -4,22 +4,24 @@ description: Lär dig hur du hanterar och skapar e-postmallar som används för 
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
 
 # E-postmallar
 
-För en snabbare och förbättrad designprocess kan du skapa fristående e-postmallar för att återanvända anpassat innehåll på kontoresor för Adobe Journey Optimizer B2B edition. Med hjälp av mallar kan era innehållsorienterade teammedlemmar arbeta med e-postinnehåll utanför resor. Marknadsföringsstrateger kan sedan återanvända och anpassa de här fristående mallarna i sina kontoresor. En teammedlem ansvarar till exempel bara för innehåll, utan tillgång till kontoresor. De kan dock skapa en e-postmall som marknadsförarna kan välja som utgångspunkt för e-postkommunikation och anpassa den efter kundresan.
+För en snabbare och förbättrad designprocess kan du skapa fristående e-postmallar för att återanvända anpassat innehåll på [!DNL Adobe Journey Optimizer B2B Edition]-kontoresor. Med hjälp av mallar kan era innehållsorienterade teammedlemmar arbeta med e-postinnehåll utanför resor. Marknadsföringsstrateger kan sedan återanvända och anpassa de här fristående mallarna i sina kontoresor. En teammedlem ansvarar till exempel bara för innehåll, utan tillgång till kontoresor. De kan dock skapa en e-postmall som marknadsförarna kan välja som utgångspunkt för e-postkommunikation och anpassa den efter kundresan.
 
 ## Få åtkomst till och hantera e-postmallar
 
-Om du vill komma åt e-postmallar i Adobe Journey Optimizer B2B edition går du till vänster och klickar på **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**. Den här åtgärden öppnar en listsida med alla e-postmallar som har skapats i instansen i en tabell.
+Om du vill komma åt e-postmallar i [!DNL Journey Optimizer B2B Edition] går du till vänster och klickar på **[!UICONTROL Content Management]** > **[!UICONTROL Templates]**. Välj **[!UICONTROL Email templates]** på sidopanelen.
 
-Tabellen sorteras som standard efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade mallarna överst. Klicka på kolumnrubriken om du vill ändra mellan stigande och fallande.
+Den här åtgärden öppnar en listsida med alla e-postmallar som har skapats i instansen i tabellformat.
+
+Listan sorteras som standard efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade mallarna högst upp. Klicka på kolumnrubriken om du vill ändra mellan stigande och fallande.
 
 Om du vill söka efter en mall efter namn anger du en textsträng i sökfältet. Klicka på ikonen _Filter_ längst upp till vänster om du vill filtrera listan efter datum för skapande eller ändring samt mallar som du har skapat eller ändrat.
 
@@ -39,11 +41,11 @@ Du kan skapa en e-postmall från e-postmallens listsida genom att klicka på **[
 
 1. Klicka på **[!UICONTROL Create]**.
 
-Sidan _[!UICONTROL Design your template]_&#x200B;öppnas och innehåller flera alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_&#x200B;eller&#x200B;_[!UICONTROL Select design template]_.
+Sidan _[!UICONTROL Design your template]_öppnas och innehåller flera alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_eller_[!UICONTROL Select design template]_.
 
 ![Välj hur du vill börja med din e-postmallsdesign](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-När du har valt den metod som du vill använda för att starta designen för e-postmallen använder du den visuella designern för att [redigera innehållet i e-postmallen](./email-template-authoring.md).
+När du har valt den metod som du vill använda för att starta e-postmallsdesignen använder du den visuella designrymden för att [skapa e-postmallens innehåll](./email-template-authoring.md).
 
 ### Designa från grunden
 
@@ -53,9 +55,31 @@ Använd den visuella innehållsredigeraren för att definiera strukturen för e-
 >
 >De tillgängliga designverktygen motsvarar verktygen som används för att skapa [e-post](./email-authoring.md). Skillnaden är att det här innehållet sedan sparas som en mall som kan återanvändas i flera _skicka e-post_ -noder på kontoresor.
 
-1. Välj alternativet **[!UICONTROL Design from scratch]** på startsidan för _[!UICONTROL Design your template]_.
+1. Välj alternativet _[!UICONTROL Design your template]_på startsidan för **[!UICONTROL Design from scratch]**.
+
+1. I dialogrutan _[!UICONTROL Create email]_väljer du vilken typ av e-postinnehåll du vill använda för mallen.
+
+   * **[!UICONTROL Use Themes]** - Välj det här alternativet om du vill skapa e-postmallen i _temaläge_. I det här läget kan du använda ett definierat varumärkestema för att effektivisera innehållsredigeringsprocessen och se till att designen följer definierade standarder.
+
+   ![Skapa din e-post - Använd teman](./assets/create-email-use-theme.png){width="450"}
+
+   * **[!UICONTROL Manual Styling]** - Välj det här alternativet om du vill skapa e-postmallen i _Manuellt läge_. I det här läget anger du formateringen manuellt för alla struktur- och innehållskomponenter som du lägger till på den tomma arbetsytan.
+
+1. (_Endast temaläge_) Använd ett tema.
+
+   Klicka på ikonen _Teman_ ( ![Themes ](../assets/do-not-localize/icon-design-themes.svg) ) till höger i e-postdesignområdet.
+
+   ![Blanksteg för e-postdesign - ikonen för teman är vald](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Standardtemat eller det tema som används för mallen visas. Du kan växla mellan färgvarianterna för det här temat.
+
+   Klicka på pilen bredvid temat som visas för att visa en lista över tillgängliga anpassade teman och Adobe-teman. Välj **[!UICONTROL My themes]** om du vill använda ett anpassat tema som har skapats för din organisation.
+
+   När du klickar utanför listan används formaten för det valda temat. Du kan växla mellan färgvarianterna.
 
 1. [Lägg till struktur och innehåll](./email-authoring.md#add-structure-and-content) i mallen.
+
+   Om det finns ett tillämpat tema ärver de tillagda komponenterna automatiskt de format som definierats i temat.
 
 ### Importera HTML
 
@@ -69,7 +93,7 @@ Med Adobe Journey Optimizer B2B edition kan du importera befintligt HTML-innehå
 >
 >Om du använder en `<table>`-tagg som det första lagret i en HTML-fil kan du förlora format, inklusive inställningar för bakgrund och bredd i den översta lagertaggen.
 
-Du kan anpassa det importerade innehållet efter behov med den visuella designern.
+Du kan anpassa det importerade innehållet efter behov i den visuella designrymden.
 
 ### Välj en designmall
 
@@ -120,18 +144,18 @@ Du kan duplicera en e-postmall på något av följande sätt:
 
   ![Klicka på Mer för att komma åt åtgärderna Ta bort och Duplicera](./assets/template-details-more-menu.png){width="400"}
 
-* Klicka på ellipsen (..) bredvid mallen på listsidan _E-postmallar_ och välj **[!UICONTROL Duplicate]**.
+* Klicka på ellipsen (..) bredvid mallen på listsidan för _[!UICONTROL Email Templates]_och välj **[!UICONTROL Duplicate]**.
 
 Ange ett användbart namn (unikt) och en beskrivning i dialogrutan. Klicka på **[!UICONTROL Duplicate]** för att slutföra åtgärden.
 
-Den duplicerade (nya) e-postmallen visas sedan i listan _E-postmallar_ .
+Den duplicerade (nya) e-postmallen visas sedan i listan _[!UICONTROL Email Templates]_.
 
 ## Ta bort e-postmallar
 
 Det går inte att ångra borttagningen av en e-postmall, så kontrollera innan du startar en borttagningsåtgärd. Du kan ta bort en e-postmall på något av följande sätt:
 
 * Expandera **[!UICONTROL More]** från mallinformationen till höger och klicka på **[!UICONTROL Delete]**.
-* Klicka på ellipsen (..) bredvid mallen på listsidan _E-postmallar_ och välj **[!UICONTROL Delete]**.
+* Klicka på ellipsen (..) bredvid mallen på listsidan för _[!UICONTROL Email Templates]_och välj **[!UICONTROL Delete]**.
 
   ![Klicka på ... för att komma åt åtgärderna Duplicera och Ta bort](./assets/templates-list-more-menu.png){width="500"}
 
@@ -165,4 +189,4 @@ Gör så här för att börja skapa innehåll med någon av e-postmallarna:
 
 1. Klicka på **[!UICONTROL Use this template]** överst till höger.
 
-1. Från den visuella designern kan du redigera ditt innehåll efter behov.
+1. Från den visuella designrymden kan du redigera innehållet efter behov.

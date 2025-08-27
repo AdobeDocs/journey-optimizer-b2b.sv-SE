@@ -4,9 +4,9 @@ description: Lär dig hur du skapar och använder visuella innehållsfragment so
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f700f84c55d37ded9980a08286da05011345800c
 workflow-type: tm+mt
-source-wordcount: '2531'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,11 @@ Ett fragment är en återanvändbar komponent som kan refereras i ett eller fler
 
 **Visuella fragment**
 
-Visuella fragment är fördefinierade visuella block som byggts med hjälp av designern för visuellt innehåll och som du kan återanvända i flera e-postmallar eller e-postmallar. Den aktuella omfattningen av Journey Optimizer B2B edition och den här dokumentationen gäller endast för visuella fragment. Uttrycksbaserade fragment stöds ännu inte i Journey Optimizer B2B edition.
+Visuella fragment är fördefinierade visuella block som byggts med de visuella designverktygen som du kan återanvända i flera e-postmallar eller e-postmallar. Den aktuella omfattningen av Journey Optimizer B2B edition och den här dokumentationen gäller endast för visuella fragment.
+
+>[!NOTE]
+>
+>Uttrycksbaserade fragment stöds ännu inte i [!DNL Journey Optimizer B2B Edition].
 
 >[!ENDSHADEBOX]
 
@@ -42,9 +46,9 @@ Fragmentstatusen avgör om den är tillgänglig för användning i en e-post- el
 
 | Status | Beskrivning |
 | -------------------- | ----------- |
-| Utkast | När du skapar ett fragment är det i utkaststatus. Den behåller den här statusen när du definierar eller redigerar det visuella innehållet tills du publicerar det för användning i en e-postmall eller e-postmall. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Redigera i visuell designer<li>Publicera<li>Duplicera<li>Ta bort |
-| Publicerad | När du publicerar ett fragment blir det tillgängligt för användning i en e-postmall eller e-postmall. Publicerat fragmentinnehåll kan inte ändras i den visuella designern. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Skapa utkastversion<li>Duplicera<li>Radera (om den inte används) |
-| Publicerat med utkast | När du skapar ett utkast från ett publicerat fragment förblir den publicerade versionen tillgänglig för användning i en e-postmall eller e-postmall, och utkastinnehållet kan ändras i den visuella designern. Om du publicerar utkastet ersätter det den aktuella publicerade versionen och innehållet uppdateras i e-postmallarna och i e-postmallarna där det används. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Redigera utkast i visuell designer<li>Publicera utkast<li>Duplicera<li>Radera (om den inte används) |
+| Utkast | När du skapar ett fragment är det i utkaststatus. Den behåller den här statusen när du definierar eller redigerar den visuella designrymden tills du publicerar den för användning i en e-postmall eller e-postmall. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Redigera i visuell designrymd<li>Publicera<li>Duplicera<li>Ta bort |
+| Publicerad | När du publicerar ett fragment blir det tillgängligt för användning i en e-postmall eller e-postmall. Publicerat fragmentinnehåll kan inte ändras i den visuella designrymden. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Skapa utkastversion<li>Duplicera<li>Radera (om den inte används) |
+| Publicerat med utkast | När du skapar ett utkast från ett publicerat fragment förblir den publicerade versionen tillgänglig för användning i en e-post- eller e-postmall, och utkastinnehållet kan ändras i den visuella designrymden. Om du publicerar utkastet ersätter det den aktuella publicerade versionen och innehållet uppdateras i e-postmallarna och i e-postmallarna där det används. Tillgängliga åtgärder:<br/><ul><li>Redigera beskrivning<li>Lägg till i ett e-postmeddelande eller en mall<li>Redigera utkast i den visuella designrymden<li>Publicera utkast<li>Duplicera<li>Radera (om den inte används) |
 
 ![Livscykel för fragmentstatus](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -70,7 +74,7 @@ I dialogrutan markerar du de kolumner som ska visas och klickar på **[!UICONTRO
 
 Du kan skapa nya visuella fragment i Journey Optimizer B2B edition genom att klicka på **[!UICONTROL Create fragment]** överst till höger.
 
-1. Ange ett användbart **[!UICONTROL Name]** och **[!UICONTROL Description]** (valfritt) i dialogrutan _[!UICONTROL Create fragment]_.
+1. Ange ett användbart _[!UICONTROL Create fragment]_och **[!UICONTROL Name]**(valfritt) i dialogrutan **[!UICONTROL Description]**.
 
    Fragmentkrav:
 
@@ -86,7 +90,7 @@ Du kan skapa nya visuella fragment i Journey Optimizer B2B edition genom att kli
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   Den visuella designern öppnas med en tom arbetsyta.
+   Det visuella designområdet öppnas med en tom arbetsyta.
 
 1. Använd verktygen för innehållsdesign för att skapa det visuella fragmentinnehållet:
 
@@ -96,6 +100,18 @@ Du kan skapa nya visuella fragment i Journey Optimizer B2B edition genom att kli
    * [Anpassa innehåll](./fragment-authoring.md#personalize-content)
    * [Aktivera anpassade fält](./fragment-authoring.md#enable-fragment-customization)
    * [Redigera länkad URL-spårning](./fragment-authoring.md#edit-linked-url-tracking)
+
+1. (Valfritt) Använd ett [varumärkestema](./brand-themes.md) på fragmentinnehållet för att effektivisera fragmentredigeringsprocessen och se till att designen följer definierade standarder.
+
+   >[!NOTE]
+   >
+   >När du använder ett tema begränsas fragmentkompatibiliteten till e-postmeddelanden och e-postmallar som har skapats i _temaläge_.
+
+   Klicka på ikonen _Teman_ ( ![Themes ](../assets/do-not-localize/icon-design-themes.svg) ) till höger.
+
+   ![Fragmentdesignutrymme - ikonen Teman är markerad](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Välj ett av de anpassade teman som visas på fliken **[!UICONTROL My themes]** eller välj **[!UICONTROL Adobe themes]** om du vill använda ett inbyggt tema. När du klickar utanför listan använder det valda temat formaten för alla komponenter på arbetsytan. Du kan växla mellan färgvarianterna efter behov.
 
 1. Klicka på **[!UICONTROL Save]** när du vill spara utkastet.
 
@@ -136,7 +152,7 @@ Det går inte att ta bort fragment som för närvarande används av e-post- elle
 Du kan ta bort ett fragment på något av följande sätt:
 
 * Klicka på **[!UICONTROL Delete]** från fragmentinformationen till höger.
-* Klicka på ellipsen bredvid fragmentet på listsidan _[!UICONTROL Fragments]_&#x200B;och välj **[!UICONTROL Delete]**.
+* Klicka på ellipsen bredvid fragmentet på listsidan _[!UICONTROL Fragments]_och välj **[!UICONTROL Delete]**.
 
 Åtgärden öppnar en bekräftelsedialogruta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]** eller klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
@@ -158,7 +174,7 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
 >[!TAB Utkast]
 
-1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_&#x200B;för att öppna det.
+1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_för att öppna det.
 
    En förhandsgranskning av det visuella innehållet visas, med fragmentinformationen till höger.
 
@@ -166,7 +182,7 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
    ![Information om rament med utkaststatus](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. Om du vill ändra innehållet i den visuella designern klickar du på **[!UICONTROL Edit fragment]**.
+1. Om du vill ändra innehållet i den visuella designrymden klickar du på **[!UICONTROL Edit fragment]**.
 
    Använd de visuella designverktygen efter behov:
 
@@ -183,7 +199,7 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
 >[!TAB Publicerad]
 
-1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_&#x200B;för att öppna det.
+1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_för att öppna det.
 
    En förhandsgranskning av det visuella innehållet visas, med fragmentinformationen till höger.
 
@@ -193,7 +209,7 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
 1. Om du vill uppdatera innehållet klickar du på **[!UICONTROL Create draft version]** längst upp till höger.
 
-   Klicka på **[!UICONTROL OK]** i dialogrutan för att öppna utkastet i den visuella designern.
+   Klicka på **[!UICONTROL OK]** i dialogrutan för att öppna utkastet i den visuella designrymden.
 
    ![Skapa dialogruta för utkastversion](./assets/fragments-create-draft-version.png){width="300"}
 
@@ -247,7 +263,7 @@ Så här uppdaterar du innehållet:
 
 Du kan duplicera ett fragment på något av följande sätt:
 
-* Klicka på ikonen _Mer_ (**..**) bredvid fragmentnamnet på listsidan _[!UICONTROL Fragments]_&#x200B;och välj **[!UICONTROL Duplicate]**.
+* Klicka på ikonen _[!UICONTROL Fragments]_Mer_ (_..**) bredvid fragmentnamnet på listsidan**och välj **[!UICONTROL Duplicate]**.
 * Klicka på **[!UICONTROL ... More]** längst upp till höger på sidan med fragmentinformation och välj **[!UICONTROL Duplicate]**.
 
 ![Duplicera fragmentet](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -310,9 +326,9 @@ Fragmentets innehåll uppdateras dynamiskt i strukturen för att återge hur inn
 
 >[!TIP]
 >
->Om du vill att fragmentet ska uppta hela den vågräta layouten i e-postmeddelandet lägger du till en [!UICONTROL 1:1 column]-struktur och drar och släpper fragmentet i den.
+>Om du vill att fragmentet ska uppta hela den vågräta layouten i e-postmeddelandet lägger du till en [!UICONTROL 1:1 kolumn ]-struktur och drar och släpper fragmentet i den.
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när fliken _[!UICONTROL Used By]_&#x200B;har valts. Fragment som läggs till i ett e-postmeddelande kan inte redigeras i e-postmeddelandet eller mallen - det publicerade källfragmentet definierar innehållet.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när fliken _[!UICONTROL Used By]_har valts. Fragment som läggs till i ett e-postmeddelande kan inte redigeras i e-postmeddelandet eller mallen - det publicerade källfragmentet definierar innehållet.
 
 >[!TAB Lägg till fragment i en e-postmall]
 
@@ -342,9 +358,9 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 
 >[!TIP]
 >
->Om du vill att fragmentet ska uppta hela den vågräta layouten i e-postmallen lägger du till en _[!UICONTROL 1:1 column]_-struktur och drar och släpper fragmentet i den.
+>Om du vill att fragmentet ska uppta hela den vågräta layouten i e-postmallen lägger du till en _[!UICONTROL 1:1kolumn]_-struktur och drar och släpper fragmentet i den.
 
-När e-postmallen har sparats visas den på fragmentinformationssidan när fliken _[!UICONTROL Used By]_&#x200B;har valts. Fragment som läggs till i en e-postmall kan inte redigeras i mallen - det publicerade källfragmentet definierar innehållet.
+När e-postmallen har sparats visas den på fragmentinformationssidan när fliken _[!UICONTROL Used By]_har valts. Fragment som läggs till i en e-postmall kan inte redigeras i mallen - det publicerade källfragmentet definierar innehållet.
 
 >[!ENDTABS]
 

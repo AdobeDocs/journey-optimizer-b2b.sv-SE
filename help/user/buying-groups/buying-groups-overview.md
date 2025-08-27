@@ -4,9 +4,9 @@ description: Läs om hur köpgrupper i Journey Optimizer B2B edition kan öka ma
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ För B2B-försäljnings- och marknadsföringsaktiviteter är konton avgörande f
 
 I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Dessa personer fattar i slutändan inköpsbeslutet, så de behöver särskild uppmärksamhet från marknadsföraren och kan behöva annan information som skickas till dem än de andra som är kopplade till kontot. Köpgrupper kan bestå av olika grupper av personer för olika produktlinjer eller erbjudanden. En cybersäkerhetsprodukt kan till exempel kräva en informationschef eller Chief Security Officer och en representant från den juridiska avdelningen för att godkänna ett inköp. En produkt för buggspårning kan normalt ha en VP av Engineering och en IT-chef som medlemmar i inköpsgruppen.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
+![Ikon för video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
 
 ## Viktiga komponenter
 
@@ -72,7 +72,7 @@ För att undvika att en medlemsuppgift åsidosätts felaktigt i en inköpsgrupp 
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
@@ -84,7 +84,7 @@ Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -112,4 +112,4 @@ Mer information om aktiviteter och beräkningar finns i [Resultat för engageman
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3452933/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
