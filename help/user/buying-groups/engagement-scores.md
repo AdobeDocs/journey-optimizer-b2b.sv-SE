@@ -30,7 +30,7 @@ Det finns två typer av engagemangspoäng:
 
 * **Personengagemangspoäng** - Personinteraktionspoängen baseras på aktiviteter för en enskild inköpsgruppsmedlem.
 
-  Personinteraktionspoängen för varje köpgruppsmedlem visas på sidan med information om inköpsgrupper [_[!UICONTROL Members]_på fliken ](./buying-group-details.md#buying-group-members). Dessa bakgrundsmusik visas även på sidor och på kontrollpaneler som innehåller information om toppengagerade medlemmar och överlappande kontakter.
+  Personinteraktionspoängen för varje köpgruppsmedlem visas på sidan med information om inköpsgrupper [_[!UICONTROL Members]_&#x200B;på fliken ](./buying-group-details.md#buying-group-members). Dessa bakgrundsmusik visas även på sidor och på kontrollpaneler som innehåller information om toppengagerade medlemmar och överlappande kontakter.
 
   ![De mest engagerade medlemmarna i inköpsgruppen](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -115,7 +115,7 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
 
 | Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |
