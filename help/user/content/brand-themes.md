@@ -68,7 +68,7 @@ Definiera ditt eget varumärkestema som du kan använda för e-post och e-postma
 
    ![Skapa ett tema - valt standardtema](./assets/email-theme-create.png){width="750" zoomable="yes"}
 
-   Sidan _[!UICONTROL Create a theme]_innehåller en arbetsyta med befintliga element av alla typer av text, knappar och behållare från starttemat.
+   Sidan _[!UICONTROL Create a theme]_&#x200B;innehåller en arbetsyta med befintliga element av alla typer av text, knappar och behållare från starttemat.
 
 1. Använd rätt navigering för att komma åt de olika tematiska formatflikarna och ändra temainställningarna:
 
@@ -84,7 +84,7 @@ Definiera ditt eget varumärkestema som du kan använda för e-post och e-postma
 
 1. När temadefinitionen är klar klickar du på **[!UICONTROL Save]**.
 
-1. Klicka på **[!UICONTROL Close]** om du vill gå tillbaka till sidan _[!UICONTROL Create a theme]_och sedan **[!UICONTROL Cancel]**om du vill gå tillbaka till designsidan.
+1. Klicka på **[!UICONTROL Close]** om du vill gå tillbaka till sidan _[!UICONTROL Create a theme]_&#x200B;och sedan **[!UICONTROL Cancel]**&#x200B;om du vill gå tillbaka till designsidan.
 
    Du kan sedan välja **[!UICONTROL Design from scratch]** för att öppna det visuella designområdet och [använda temat](#use-your-theme-for-email-content-authoring) för e-postmeddelandet eller mallen.
 
@@ -148,9 +148,9 @@ På fliken **[!UICONTROL Text settings]** kan du ange globala teckensnittstyper,
 
 | Typ | Inställningar | Beskrivning |
 | ---- | -------- | ----------- |
-| [!UICONTROL Global] | ![Välj bibliotek för de globala textinställningarna](./assets/email-theme-text-settings-global-library.png){width="300"} | Ange **[!UICONTROL Font library]** till _[!UICONTROL Standard]_eller_[!UICONTROL Google Fonts]_. Välj sedan den teckensnittsfamilj som du vill använda. Dessa globala textinställningar används genomgående, såvida du inte anger olika textformat för rubriknivåer och stycketyper. |
-| [!UICONTROL Headings] | ![Rubriktextformat för H1](./assets/email-theme-text-settings-headings.png){width="300"} | För rubriknivån som du vill ange väljer du **[!UICONTROL H1]**, **[!UICONTROL H2]** och så vidare. Ange **[!UICONTROL Font library]** till _[!UICONTROL Standard]_eller_[!UICONTROL Google Fonts]_. Välj sedan teckensnittsfamilj, storlek och stil. Välj **[!UICONTROL Text alignment]**: _Vänster_, _Centrerad_, _Höger_ eller _Justerad_. |
-| [!UICONTROL Paragraphs] | ![Stycketextformat för typ P1](./assets/email-theme-text-settings-headings.png){width="300"} | För rubriknivån som du vill ange väljer du **[!UICONTROL P1]**, **[!UICONTROL HP]** och så vidare. Ange **[!UICONTROL Font library]** till _[!UICONTROL Standard]_eller_[!UICONTROL Google Fonts]_. Välj sedan teckensnittsfamilj, storlek och stil. Justera **[!UICONTROL Line height]** efter behov. Välj **[!UICONTROL Text alignment]**: _Vänster_, _Centrerad_, _Höger_ eller _Justerad_. |
+| [!UICONTROL Global] | ![Välj bibliotek för de globala textinställningarna](./assets/email-theme-text-settings-global-library.png){width="300"} | Ange **[!UICONTROL Font library]** till _[!UICONTROL Standard]_&#x200B;eller&#x200B;_[!UICONTROL Google Fonts]_. Välj sedan den teckensnittsfamilj som du vill använda. Dessa globala textinställningar används genomgående, såvida du inte anger olika textformat för rubriknivåer och stycketyper. |
+| [!UICONTROL Headings] | ![Rubriktextformat för H1](./assets/email-theme-text-settings-headings.png){width="300"} | För rubriknivån som du vill ange väljer du **[!UICONTROL H1]**, **[!UICONTROL H2]** och så vidare. Ange **[!UICONTROL Font library]** till _[!UICONTROL Standard]_&#x200B;eller&#x200B;_[!UICONTROL Google Fonts]_. Välj sedan teckensnittsfamilj, storlek och stil. Välj **[!UICONTROL Text alignment]**: _Vänster_, _Centrerad_, _Höger_ eller _Justerad_. |
+| [!UICONTROL Paragraphs] | ![Stycketextformat för typ P1](./assets/email-theme-text-settings-headings.png){width="300"} | För rubriknivån som du vill ange väljer du **[!UICONTROL P1]**, **[!UICONTROL HP]** och så vidare. Ange **[!UICONTROL Font library]** till _[!UICONTROL Standard]_&#x200B;eller&#x200B;_[!UICONTROL Google Fonts]_. Välj sedan teckensnittsfamilj, storlek och stil. Justera **[!UICONTROL Line height]** efter behov. Välj **[!UICONTROL Text alignment]**: _Vänster_, _Centrerad_, _Höger_ eller _Justerad_. |
 
 +++
 
@@ -194,7 +194,7 @@ På fliken **[!UICONTROL Buttons]** kan du ange olika attribut (andra än färg)
 
 | Typ | Inställningar | Beskrivning |
 | ---- | -------- | ----------- |
-| [!UICONTROL Text] | ![Inställningar för knapptext](./assets/email-theme-button-settings-text.png){width="300"} | Ange **[!UICONTROL Font library]** till _[!UICONTROL Standard]_eller_[!UICONTROL Google Fonts]_. Välj sedan teckensnittsfamilj, storlek och stil. Välj **[!UICONTROL Text alignment]**: _Vänster_, _Centrerad_, _Höger_ eller _Justerad_. |
+| [!UICONTROL Text] | ![Inställningar för knapptext](./assets/email-theme-button-settings-text.png){width="300"} | Ange **[!UICONTROL Font library]** till _[!UICONTROL Standard]_&#x200B;eller&#x200B;_[!UICONTROL Google Fonts]_. Välj sedan teckensnittsfamilj, storlek och stil. Välj **[!UICONTROL Text alignment]**: _Vänster_, _Centrerad_, _Höger_ eller _Justerad_. |
 | [!UICONTROL Border] | ![Knappkantinställningar](./assets/email-theme-button-settings-border.png){width="300"} | Flytta **[!UICONTROL Border]**-växeln åt höger för att aktivera visningsalternativen för knappens kantlinje och ange dem enligt dina designvillkor. Ange **[!UICONTROL Border size]** (linjebredd) genom att öka eller minska antalet pixlar. Ange **[!UICONTROL Border style]** genom att välja ett värde i listan med standard-CSS `border-style`-värden, till exempel _Heldragen_, _Prickad_ och _Streckad_. |
 | [!UICONTROL Size] | ![Inställningar för knappstorlek](./assets/email-theme-button-settings-size.png){width="300"} | För alternativet **[!UICONTROL Height]** klickar du på upp- och nedpilarna för att öka eller minska antalet pixlar. Ett tomt värde (Auto) är standardvärdet och ändrar höjden på knappen efter dess innehåll. Använd växlingsknappen för **[!UICONTROL Width]** för att ange bredden i pixlar eller procent. Om du vill ange en procentbredd använder du skjutreglaget för att ange procentvärdet. Procentvärdet avgör knappstorleken baserat på innehållsrutan i behållarblocket, som inte inkluderar utfyllnad och kanter. Värdet 50 anger till exempel knappbredden till 50 % av den innehållna bredden. Om du vill ha en pixelbaserad bredd klickar du på upp- och nedpilarna för att öka eller minska antalet pixlar. Ett tomt värde (_Auto_) är standardvärdet och ändrar knappens bredd efter dess innehåll. |
 
@@ -308,15 +308,15 @@ När du skapar en ny e-post- eller e-postmall kan du välja att använda ett var
 
    * Välj en e-postmall som innehåller ett tema (skapad i _temaläge_). Temat som är specifikt för varje mall tillämpas automatiskt.
 
-   * Använd alternativet _[!UICONTROL Design from scratch]_och välj **[!UICONTROL Use Themes]**för att börja med ett fördefinierat formattema.
+   * Använd alternativet _[!UICONTROL Design from scratch]_&#x200B;och välj **[!UICONTROL Use Themes]**&#x200B;för att börja med ett fördefinierat formattema.
 
      ![Skapa din e-post - Använd teman](./assets/create-email-use-theme.png){width="450"}
 
      >[!IMPORTANT]
      >
-     >Om du väljer läget _[!UICONTROL Manual Styling]_måste du återställa e-postdesignen för att använda ett tema.
+     >Om du väljer läget _[!UICONTROL Manual Styling]_&#x200B;måste du återställa e-postdesignen för att använda ett tema.
      >
-     >Om du väljer läget _[!UICONTROL Themes]_är bara [fragment](./fragments.md) som också har skapats i läget_ Teman _tillgängliga för att läggas till i e-postinnehållet.
+     >Om du väljer läget _[!UICONTROL Themes]_&#x200B;är bara [fragment](./fragments.md) som också har skapats i läget_ Teman _tillgängliga för att läggas till i e-postinnehållet.
 
 1. Klicka på ikonen _Teman_ ( ![Themes ](../assets/do-not-localize/icon-design-themes.svg) ) till höger i e-postdesignområdet.
 

@@ -37,7 +37,7 @@ Med minst en innehållskomponent på arbetsytan väljer du komponenten **[!UICON
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När mallen har sparats visas den på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
+När mallen har sparats visas den på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
 
 ### Lägga till resurser
 
@@ -67,7 +67,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i det vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_högst upp i e-postdesignområdet kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/visual-designer-more-menu.png){width="500"}
 
