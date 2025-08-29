@@ -6,9 +6,10 @@ hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 role: Admin
-source-git-commit: c17e66ae3bc6344a87cbb3e2d3a971babc9612c3
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 En poäng för köpgruppsengagemang återspeglar engagemanget genom att utvärdera olika aktiviteter som registrerats för medlemmar i inköpsgruppen. Med anpassad poängviktning kan marknadsföringsteamen definiera sina egna modeller för att väga aktiviteter som är mest meningsfulla för engagemang. En anpassad poängsättningsmodell ger en mer exakt återgivning av ert tillvägagångssätt genom att prioritera beteenden som ger en mer korrekt signal till inköpsavsikten i er försäljningsprocess.
 
-Som administratör kan ni definiera flera poängmodeller för engagemang för organisationen, men bara en modell kan vara aktiv åt gången. Du definierar en poängmodell utifrån de aktiviteter som ska inkluderas och den vikt som ska användas för varje aktivitet.
+Som administratör kan ni definiera flera poängmodeller för engagemang för organisationen, men bara en modell kan vara aktiv åt gången. Du definierar en poängmodell utifrån den vikt som används för varje engagemangsbedömning.
 
 ## Få åtkomst till vägningsmodeller för engagemangsmusik
 
@@ -29,7 +30,7 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
    ![Åtkomst till de konfigurerade händelsedefinitionerna](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   Tabellen sorteras efter kolumnen _[!UICONTROL Last updated]_, med de senast uppdaterade modellerna överst som standard, och innehåller möjligheten att söka efter&#x200B;_[!UICONTROL Name]_. Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
+   Tabellen visar de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och innehåller möjligheten att söka efter_[!UICONTROL Name]_. Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
 
 ![Kolumner som ska visas i listan med poäng för engagemang](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -37,7 +38,7 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
 ### Standardpoängmodell
 
-Systemet skapar en inledande engagemangspoängmodell med namnet _Aktivitetsviktningsmodell_, som är den aktiva modellen tills du skapar en egen anpassad modell och aktiverar den. När du aktiverar din anpassade modell ändras standardmodellen till statusen _Arkiverad_. Du kan duplicera den om du återgår till standardpoängmodellen för engagemang, eller om du vill använda den som utgångspunkt för en annan anpassad modell.
+Systemet skapar en inledande engagemangspoängmodell med namnet _Aktivitetsviktningsmodell_, som är den aktiva modellen tills du skapar en egen anpassad modell och aktiverar den. När du aktiverar din anpassade modell ändras standardmodellen till statusen _Arkiverad_ . Du kan duplicera den om du återgår till standardpoängmodellen för engagemang, eller om du vill använda den som utgångspunkt för en annan anpassad modell.
 
 ![Standardvägningsmodell för engagemangspoäng](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
@@ -78,11 +79,11 @@ Viktinställningarna definierar de band som du kan tilldela varje aktivitet i mo
 1. För varje viktband justerar du namnet eller värdena efter behov:
 
    * Ändra namnet i fältet _[!UICONTROL Weighting band]_.
-   * Ange ett nytt värde eller klicka på **+** eller **-** för att öka eller minska värdet.
+   * Ange ett nytt värde. Du kan även klicka på **&amp;plus;** eller **-** för att öka eller minska värdet.
 
    ![Inställningar för engagemangsvikt](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
-1. Lägg till ett annat viktningsband om det behövs:
+1. Lägg till ytterligare ett viktningsband om det behövs:
 
    Klicka på **[!UICONTROL + Add weighting band]** längst ned i listan. Den här åtgärden infogar ett tomt viktningsband längst ned i listan.
 
@@ -98,7 +99,7 @@ Varje poängmodell innehåller en fullständig lista över vilka aktiviteter som
 
 {{engagement-activities}}
 
-För varje aktivitet i listan anger du det värde som du vill tilldela för varje aktivitetsförekomst. Klicka på den nedåtriktade pilen i fältet Viktning och välj viktningsbandet enligt inställningarna för interaktionsviktning.
+För varje aktivitet i listan anger du det värde som du vill tilldela varje aktivitetsförekomst. Klicka på den nedåtriktade pilen i fältet **[!UICONTROL Weighting]** och välj viktningsbandet enligt inställningarna för interaktionsviktning.
 
 ![Ange aktivitetsvikt](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}
 

@@ -3,18 +3,18 @@ title: Konfigurera Experience Platform Events
 description: Lär dig mer om den typ av Wait-nod som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1709'
 ht-degree: 0%
 
 ---
 
 # Konfigurera händelsedefinitioner för Experience Platform
 
-Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
 
@@ -24,13 +24,13 @@ Att använda AEP Experience Events i kundresor är en tvåstegsprocess:
 
 2. Lägg till en _Lyssna efter en händelse_-nod i en kontoresa och [välj en AEP-händelsedefinition som en personhändelse](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Varje händelsdefinition kräver följande indata från Experience Platform:
+För varje händelsedefinition krävs följande indata från Experience Platform:
 
 * **_Schema_** - XDM-schema som definierar Experience Event-datastrukturen. Den måste baseras på en Experience Event och måste vara profilaktiverad.
 
   >[!NOTE]
   >
-  >Samordna med konstruktörsteamet för att säkerställa att nödvändiga scheman är definierade. [Att skapa XDM-scheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/composition){target="_blank"} är en komplex process som utförs av datatekniker baserat på ärendekrav i hela organisationen.
+  >För att säkerställa att nödvändiga scheman är definierade måste ni samordna med ert konstruktörsteam. [Att skapa XDM-scheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} är en komplex process som utförs av datatekniker baserat på ärendekrav i hela organisationen.
 
 * **_Händelsetyper_** - XDM ExperienceEvent-händelsetyp (högst 20 per händelsetyp).
 
@@ -76,13 +76,13 @@ Tänk på följande när du skapar och hanterar händelsedefinitioner för att u
 
 ### Händelsedefinitionsstatus och livscykel
 
-I listan _[!UICONTROL Event definitions]_&#x200B;anger kolumnen **[!UICONTROL Status]**&#x200B;aktuell status för varje definition. Statusen avgör om den är tillgänglig för användning på kontoresor och vilka ändringar du kan göra i den.
+I listan _[!UICONTROL Event definitions]_anger kolumnen **[!UICONTROL Status]**aktuell status för varje definition. Statusen avgör om den är tillgänglig för användning på kontoresor och vilka ändringar du kan göra i den.
 
 | Status | Beskrivning |
 | -------------------- | ----------- |
-| Utkast | När du skapar en händelsedefinition är den i utkaststatus. Den behåller denna status tills du publicerar den för användning på kontoresor. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Publicera<li>Ta bort |
-| Publicerad | När du publicerar en händelsedefinition blir den tillgänglig för användning på kontoresor. Det går inte att ändra informationen. Tillgängliga åtgärder:<br/><ul><li>Tillgänglig för _Lyssna efter en händelse_-kundens nod<li>Skapa utkastversion<li>Radera (om den inte används) |
-| Publicerat (med utkast) | När du skapar ett utkast från en publicerad händelsedefinition är den publicerade versionen fortfarande tillgänglig för användning på kontoresor, och utkastversionen kan ändras. Om du publicerar utkastet ersätts den aktuella publicerade versionen och händelsedefinitionen uppdateras för kontoresor där den ännu inte har körts. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Publicera utkast<li>Ignorera utkastversion<li>Radera (om den inte används) |
+| Utkast | När du skapar en händelsedefinition är den i utkaststatus. Den behåller denna status tills du publicerar den för användning på kontoresor. Tillgängliga åtgärder: <br/><li>Redigera all information<li>Publicera<li>Ta bort |
+| Publicerad | När du publicerar en händelsedefinition blir den tillgänglig för användning på kontoresor. Det går inte att ändra informationen. Tillgängliga åtgärder: <br/><li>Tillgänglig för _Lyssna efter en händelse_-kundens nod<li>Skapa utkastversion<li>Radera (om den inte används) |
+| Publicerat (med utkast) | När du skapar ett utkast från en publicerad händelsedefinition är den publicerade versionen fortfarande tillgänglig för användning på kontoresor, och utkastversionen kan ändras. Om du publicerar utkastet ersätts den aktuella publicerade versionen och händelsedefinitionen uppdateras för kontoresor där den ännu inte har körts. Tillgängliga åtgärder: <br/><li>Redigera all information<li>Publicera utkast<li>Ignorera utkastversion<li>Radera (om den inte används) |
 
 ![Livscykel för fragmentstatus](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ Om du vill söka efter en händelsedefinition utifrån namn anger du en textstr�
 
 1. Ange att **[!UICONTROL Schema]** ska användas för händelsedefinitionen.
 
-   Det schema du väljer avgör vilka fält som är tillgängliga för att läggas till i definitionen, som sedan är tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod på en kontoresa.
+   Det schema du väljer avgör vilka fält som är tillgängliga för att läggas till i definitionen. Fälten som du lägger till är sedan tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod i en kontoresa.
 
    * Klicka på **[!UICONTROL Select schema]**.
    * I dialogrutan väljer du ett schema i listan över Experience Event-baserade scheman.
@@ -116,7 +116,7 @@ Om du vill söka efter en händelsedefinition utifrån namn anger du en textstr�
 
 1. Välj **[!UICONTROL Event types]** som ska användas för händelsedefinitionen.
 
-   De [händelsetyper](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} som du väljer avgör vilka händelser som är tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod i en kontoresa.
+   De [händelsetyper](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} som du väljer avgör vilka händelser som är tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod i en kontoresa.
 
    * Klicka på **[!UICONTROL Select event types]**.
    * I dialogrutan väljer du en eller flera händelsetyper i listan (högst 20).
@@ -146,13 +146,13 @@ Om du vill söka efter en händelsedefinition utifrån namn anger du en textstr�
 
 ## Publicera en händelsedefinition
 
-När du är säker på att definitionen av en utkasthändelse är fullständig och korrekt efter dina behov, kan du publicera den så att den blir tillgänglig för användning på kontoresor. När händelsedefinitionen har publicerats kan du skapa ett utkast om du behöver göra ändringar i den. Du kan dock inte ändra schemat, och du kan bara lägga till händelsetyper och fält (du kan inte ta bort dem).
+När du är säker på att definitionen av en utkasthändelse är fullständig och korrekt kan du publicera den. Den publicerade händelsedefinitionen är sedan tillgänglig för användning vid kontoresor. När händelsedefinitionen har publicerats kan du skapa ett utkast om du behöver göra ändringar i den. Du kan dock inte ändra schemat, och du kan bara lägga till händelsetyper och fält (du kan inte ta bort dem).
 
 1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** i den vänstra navigeringen.
 
 1. Klicka på **[!UICONTROL Events]** på den mellanliggande panelen för att visa listan över händelsedefinitioner.
 
-1. I listan _[!UICONTROL Event definitions]_&#x200B;klickar du på namnet på definitionen av utkasthändelsen för att öppna informationssidan.
+1. I listan _[!UICONTROL Event definitions]_klickar du på namnet på definitionen av utkasthändelsen för att öppna informationssidan.
 
    ![Öppna definitionen för utkastshändelsen](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
 
@@ -182,7 +182,7 @@ När du är säker på att definitionen av en utkasthändelse är fullständig o
 
    ![Den nya definitionen av utkasthändelsen finns på sidan](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-1. Öppna händelsedefinitionsnamnet från listsidan _[!UICONTROL Event definitions]_&#x200B;genom att klicka på det.
+1. Öppna händelsedefinitionsnamnet från listsidan _[!UICONTROL Event definitions]_genom att klicka på det.
 
 Följ stegen enligt status:
 
@@ -202,7 +202,7 @@ Följ stegen enligt status:
 
 1. Klicka på **[!UICONTROL Publish]** i bekräftelsedialogrutan.
 
-   Statusen för händelsedefinitionen ändras till _Publicerad_ och är nu tillgänglig för användning i kontoresor.
+   Statusen för händelsedefinitionen ändras till _Publicerad_ och är nu tillgänglig för användning på kontoresor.
 
 >[!TAB Publicerad]
 
@@ -218,7 +218,7 @@ Följ stegen enligt status:
 
 1. Klicka på händelsens definitionsnamn för att öppna den.
 
-   För en _publicerad (med utkast)_-händelsedefinition är _[!UICONTROL Published]_-versionsfliken markerad som standard.
+   För en _publicerad (med utkast)_-händelsedefinition har _[!UICONTROL Published]_-versionsfliken valts som standard.
 
 1. Välj fliken för version av **[!UICONTROL Draft]**.
 
@@ -240,7 +240,7 @@ Följ stegen enligt status:
 
 >[!TAB Publicerad (med utkast)]
 
-När du öppnar en _publicerad (med utkast)_ -händelsedefinition är _[!UICONTROL Published]_-versionsfliken markerad som standard.
+När du öppnar en _publicerad (med utkast)_ -händelsedefinition väljs _[!UICONTROL Published]_-fliken som standard.
 
 1. Välj fliken för version av **[!UICONTROL Draft]**.
 
@@ -282,4 +282,4 @@ Du kan ta bort en händelsedefinition om den inte används av en publicerad kont
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3448687/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
