@@ -30,7 +30,7 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
    ![Åtkomst till de konfigurerade händelsedefinitionerna](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   Tabellen visar de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och innehåller möjligheten att söka efter_[!UICONTROL Name]_. Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
+   Tabellen visar de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och innehåller möjligheten att söka efter&#x200B;_[!UICONTROL Name]_. Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
 
 ![Kolumner som ska visas i listan med poäng för engagemang](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -79,7 +79,7 @@ Viktinställningarna definierar de band som du kan tilldela varje aktivitet i mo
 1. För varje viktband justerar du namnet eller värdena efter behov:
 
    * Ändra namnet i fältet _[!UICONTROL Weighting band]_.
-   * Ange ett nytt värde. Du kan även klicka på **&amp;plus;** eller **-** för att öka eller minska värdet.
+   * Ange ett nytt värde. Du kan även klicka på **&plus;** eller **-** för att öka eller minska värdet.
 
    ![Inställningar för engagemangsvikt](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 

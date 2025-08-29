@@ -41,7 +41,7 @@ Adobe Experience Manager Cloud Manager är indelat i program och varje program h
 -->
 Härifrån kan du konfigurera anslutningarna till varje AEM-miljödatabas en i taget.
 
-1. Klicka på pilen bredvid _[!UICONTROL Adobe Experience Manager Assets]_i rutan **[!UICONTROL Configure a repository]**och välj databasen.
+1. Klicka på pilen bredvid _[!UICONTROL Adobe Experience Manager Assets]_&#x200B;i rutan **[!UICONTROL Configure a repository]**&#x200B;och välj databasen.
 
    ![Välj en AEM Assets-databas](./assets/configure-assets-aem-choose-respository.png){width="500"}
 
@@ -115,7 +115,7 @@ Du kan visa JSON-certifikatfilen som är kopplad till databasanslutningen.
 
 När du tar bort en databas tas användaråtkomst till Experience Manager Assets-miljön bort i Journey Optimizer B2B edition.
 
-1. På sidan _[!UICONTROL Digital asset management]_letar du reda på listan med konfigurerade resursdatabaser.
+1. På sidan _[!UICONTROL Digital asset management]_&#x200B;letar du reda på listan med konfigurerade resursdatabaser.
 
 1. Klicka på det databasnamn du vill redigera anslutningen.
 
