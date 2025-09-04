@@ -4,9 +4,9 @@ description: Lär dig hur du skapar och använder visuella innehållsfragment so
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: f700f84c55d37ded9980a08286da05011345800c
+source-git-commit: 5e0415268ac3423a6d3004338302b2f756c75a9f
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2643'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Ett fragment är en återanvändbar komponent som kan refereras i ett eller fler
 
 **Visuella fragment**
 
-Visuella fragment är fördefinierade visuella block som byggts med de visuella designverktygen som du kan återanvända i flera e-postmallar eller e-postmallar. Den aktuella omfattningen av Journey Optimizer B2B edition och den här dokumentationen gäller endast för visuella fragment.
+Visuella fragment är fördefinierade visuella block som byggts med de visuella designverktygen som du kan återanvända i flera e-postmallar eller e-postmallar. Den aktuella omfattningen av Journey Optimizer B2B edition och den här dokumentationen innehåller endast visuella fragment.
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ I dialogrutan markerar du de kolumner som ska visas och klickar på **[!UICONTRO
 
 Du kan skapa nya visuella fragment i Journey Optimizer B2B edition genom att klicka på **[!UICONTROL Create fragment]** överst till höger.
 
-1. Ange ett användbart _[!UICONTROL Create fragment]_&#x200B;och **[!UICONTROL Name]**(valfritt) i dialogrutan **[!UICONTROL Description]**.
+1. Ange ett användbart _[!UICONTROL Create fragment]_och **[!UICONTROL Name]**(valfritt) i dialogrutan **[!UICONTROL Description]**.
 
    Fragmentkrav:
 
@@ -152,7 +152,7 @@ Det går inte att ta bort fragment som för närvarande används av e-post- elle
 Du kan ta bort ett fragment på något av följande sätt:
 
 * Klicka på **[!UICONTROL Delete]** från fragmentinformationen till höger.
-* Klicka på ellipsen bredvid fragmentet på listsidan _[!UICONTROL Fragments]_&#x200B;och välj **[!UICONTROL Delete]**.
+* Klicka på ellipsen bredvid fragmentet på listsidan _[!UICONTROL Fragments]_och välj **[!UICONTROL Delete]**.
 
 Åtgärden öppnar en bekräftelsedialogruta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]** eller klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
@@ -174,7 +174,7 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
 >[!TAB Utkast]
 
-1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_&#x200B;för att öppna det.
+1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_för att öppna det.
 
    En förhandsgranskning av det visuella innehållet visas, med fragmentinformationen till höger.
 
@@ -199,7 +199,7 @@ Om fragmentet används för närvarande öppnas en informationsdialogruta där d
 
 >[!TAB Publicerad]
 
-1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_&#x200B;för att öppna det.
+1. Klicka på fragmentnamnet på listsidan _[!UICONTROL Fragments]_för att öppna det.
 
    En förhandsgranskning av det visuella innehållet visas, med fragmentinformationen till höger.
 
@@ -263,7 +263,7 @@ Så här uppdaterar du innehållet:
 
 Du kan duplicera ett fragment på något av följande sätt:
 
-* Klicka på ikonen _[!UICONTROL Fragments]_&#x200B;Mer_ (_..**) bredvid fragmentnamnet på listsidan**&#x200B;och välj **[!UICONTROL Duplicate]**.
+* Klicka på ikonen _[!UICONTROL Fragments]_Mer_ (_..**) bredvid fragmentnamnet på listsidan**och välj **[!UICONTROL Duplicate]**.
 * Klicka på **[!UICONTROL ... More]** längst upp till höger på sidan med fragmentinformation och välj **[!UICONTROL Duplicate]**.
 
 ![Duplicera fragmentet](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
@@ -326,9 +326,9 @@ Fragmentets innehåll uppdateras dynamiskt i strukturen för att återge hur inn
 
 >[!TIP]
 >
->Om du vill att fragmentet ska uppta hela den vågräta layouten i e-postmeddelandet lägger du till en [!UICONTROL 1:1 kolumn &#x200B;]-struktur och drar och släpper fragmentet i den.
+>Om du vill att fragmentet ska uppta hela den vågräta layouten i e-postmeddelandet lägger du till en [!UICONTROL 1:1 kolumn ]-struktur och drar och släpper fragmentet i den.
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när fliken _[!UICONTROL Used By]_&#x200B;har valts. Fragment som läggs till i ett e-postmeddelande kan inte redigeras i e-postmeddelandet eller mallen - det publicerade källfragmentet definierar innehållet.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när fliken _[!UICONTROL Used By]_har valts. Fragment som läggs till i ett e-postmeddelande kan inte redigeras i e-postmeddelandet eller mallen - det publicerade källfragmentet definierar innehållet.
 
 >[!TAB Lägg till fragment i en e-postmall]
 
@@ -360,7 +360,7 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 >
 >Om du vill att fragmentet ska uppta hela den vågräta layouten i e-postmallen lägger du till en _[!UICONTROL 1:1kolumn]_-struktur och drar och släpper fragmentet i den.
 
-När e-postmallen har sparats visas den på fragmentinformationssidan när fliken _[!UICONTROL Used By]_&#x200B;har valts. Fragment som läggs till i en e-postmall kan inte redigeras i mallen - det publicerade källfragmentet definierar innehållet.
+När e-postmallen har sparats visas den på fragmentinformationssidan när fliken _[!UICONTROL Used By]_har valts. Fragment som läggs till i en e-postmall kan inte redigeras i mallen - det publicerade källfragmentet definierar innehållet.
 
 >[!ENDTABS]
 
