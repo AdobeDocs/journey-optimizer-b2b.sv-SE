@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
+source-git-commit: 2a452537620e357a94a5f1c6b6c66f994d06c3c2
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 18%
 
 ---
@@ -112,14 +112,15 @@ ht-degree: 18%
    + [Översikt över inköpsgrupper](./dashboards/buying-groups-dashboard.md)
    + [Översikt över kontoresor](./dashboards/journeys-dashboard.md)
 + Administrering {#admin}
+   + [Styrning](./admin/governance.md)
    + [Användarhantering](./admin/user-management.md)
-   + [Återgivningsdata](./admin/intent-data.md)
    + Kanaler {#channels}
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
-      + [SMS-konfigurationer](./admin/configure-channels-sms.md)
+      + [SMS-konfiguration](./admin/configure-channels-sms.md)
       + [Inställningar för landningssida](./admin/landing-page-settings.md)
       + [Konfigurera datastreams för händelsesamling](./data/aep-event-collection.md)
-   + [Konfigurera AEM Assets-databaser](./admin/configure-aem-repositories.md)
-   + [Konfigurera händelsedefinitioner för AEP](./admin/configure-aep-events.md)
-   + [Konfigurera poängvikt för engagemang](./admin/engagement-score-weighting.md)
-   + [Styrning](./admin/governance.md)
+   + Konfigurationer {#configurations}
+      + [AEM Assets-databaser](./admin/configure-aem-repositories.md)
+      + [AEP händelsedefinitioner](./admin/configure-aep-events.md)
+      + [Återgivningsdata](./admin/intent-data.md)
+      + [Vägning av engagemangsmusik](./admin/engagement-score-weighting.md)
