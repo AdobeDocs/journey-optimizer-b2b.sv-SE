@@ -4,7 +4,7 @@ description: Lär dig hur du konfigurerar anpassad resultatviktning för engagem
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 0%
@@ -27,9 +27,11 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
    ![Åtkomst till de konfigurerade händelsedefinitionerna](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   Tabellen visar de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och innehåller möjligheten att söka efter&#x200B;_[!UICONTROL Name]_. Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
+   Tabellen visar de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och innehåller möjligheten att söka efter_[!UICONTROL Name]_.
 
-![Kolumner som ska visas i listan med poäng för engagemang](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
+
+   ![Kolumner som ska visas i listan med poäng för engagemang](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. Klicka på namnet för att få tillgång till information om en modell för poängsättning för engagemang.
 
@@ -76,7 +78,7 @@ Viktinställningarna definierar de band som du kan tilldela varje aktivitet i mo
 1. För varje viktband justerar du namnet eller värdena efter behov:
 
    * Ändra namnet i fältet _[!UICONTROL Weighting band]_.
-   * Ange ett nytt värde. Du kan även klicka på **&plus;** eller **-** för att öka eller minska värdet.
+   * Ange ett nytt värde. Du kan även klicka på **&amp;plus;** eller **-** för att öka eller minska värdet.
 
    ![Inställningar för engagemangsvikt](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
