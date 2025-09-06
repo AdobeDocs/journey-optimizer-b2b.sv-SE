@@ -282,4 +282,4 @@ Du kan ta bort en händelsedefinition om den inte används av en publicerad kont
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448687/?learn=on&captions=swe)
