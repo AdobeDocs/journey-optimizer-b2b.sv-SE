@@ -1,12 +1,12 @@
 ---
 title: Konfigurationer av e-postkanaler
-description: Lär dig hur du får åtkomst till och granskar e-postinställningarna som har konfigurerats i Marketo Engage.
+description: Konfigurera inställningar för e-postleverans, kommunikationsbegränsningar och autentiseringsprotokoll för att optimera leveransen i Journey Optimizer B2B edition.
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Adobe Journey Optimizer B2B edition utnyttjar kanalfunktionerna och händelsesp�
 
 ## Leveransinställningar
 
-Standardinställningarna för e-post används när marknadsförare skapar ett e-postmeddelande i en kontoresa. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska inställningarna för e-postleverans. Välj _[!UICONTROL Email]_&#x200B;under **[!UICONTROL Delivery Settings]**&#x200B;i navigeringspanelen.
+Standardinställningarna för e-post används när marknadsförare skapar ett e-postmeddelande i en kontoresa. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska inställningarna för e-postleverans. Välj _[!UICONTROL Email]_under **[!UICONTROL Delivery Settings]**i navigeringspanelen.
 
 ![Få åtkomst till inställningarna för e-postleverans](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
 
@@ -51,11 +51,11 @@ Klicka på fliken **[!UICONTROL Branding domains]** om du vill granska profileri
 
 ![Få åtkomst till inställningarna för profileringsdomäner](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Den här inställningen definierar din primära domän för en eller flera arbetsytor i den anslutna Marketo Engage-instansen. Nya e-postmeddelanden använder den här domänen som standard, men marknadsförarna kan [åsidosätta den per e-post](../content/add-email.md#define-the-email-settings). Mer information om hur du definierar standardprofileringsdomänen finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Den här inställningen definierar din primära domän för en eller flera arbetsytor i den anslutna Marketo Engage-instansen. Nya e-postmeddelanden använder den här domänen som standard, men marknadsförarna kan [åsidosätta den per e-post](../content/add-email.md#define-the-email-settings). Mer information om hur du definierar standardprofileringsdomänen finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Om ni marknadsför flera varumärken och vill att var och en ska ha sina egna varumärkesspårningslänkar kan ni lägga till ytterligare en varumärkesdomän. Mer information om hur du lägger till flera profileringsdomäner finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Om ni marknadsför flera varumärken och vill att var och en ska ha sina egna varumärkesspårningslänkar kan ni lägga till ytterligare en varumärkesdomän. Mer information om hur du lägger till flera profileringsdomäner finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Custom header options] {#custom-header-options}
 
@@ -63,13 +63,13 @@ Klicka på fliken **[!UICONTROL Custom header options]** om du vill granska de a
 
 ![Få åtkomst till anpassade rubrikalternativ](./assets/config-email-delivery-custom-header.png){width="700" zoomable="yes"}
 
-När _[!UICONTROL Strict Transport Security]_&#x200B;är aktiverat garanterar det att spårningslänkar överförs via HTTPS (endast för prenumerationer med spårningslänkar som skyddas av SSL).
+När _[!UICONTROL Strict Transport Security]_är aktiverat garanterar det att spårningslänkar överförs via HTTPS (endast för prenumerationer med spårningslänkar som skyddas av SSL).
 
 ## Kommunikationsbegränsningar
 
 Kommunikationsbegränsningar styr hur mycket e-post organisationen skickar. Det är bäst att sätta gränser så att ni inte överbelastar mottagarna med för många e-postmeddelanden från organisationen.
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_&#x200B;under **[!UICONTROL Communication limits]**&#x200B;i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_under **[!UICONTROL Communication limits]**i navigeringspanelen.
 
 ![Åtkomst till inställningarna för kommunikationsbegränsningar](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
@@ -79,13 +79,13 @@ Inställningarna är skrivskyddade i Journey Optimizer B2B edition. Klicka på *
 >
 >Om du vill komma åt och redigera de här inställningarna i Adobe Marketo Engage måste du ha behörighet som produktadministratör.
 
-Mer information om hur du konfigurerar kommunikationsgränserna finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Mer information om hur du konfigurerar kommunikationsgränserna finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
 Förbättra e-postleveransen genom att införliva SPF (Sender Policy Framework) och DKIM (Domain Keys Identified Mail) i dina DNS-inställningar. Dessa tekniker säkerställer att dina e-postmeddelanden inte är skräppost. För att förhindra att mottagarnas skräppostfilter avvisar e-postmeddelanden måste du se till att SPF och DKIM har konfigurerats för dina domäner.
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_&#x200B;under **[!UICONTROL SPF/DKIM]**&#x200B;i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_under **[!UICONTROL SPF/DKIM]**i navigeringspanelen.
 
 ![Åtkomst till SPF/DKIM-konfigurationen](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
@@ -113,7 +113,7 @@ DKIM är ett autentiseringsprotokoll som används av e-postmottagare för att va
 
 När du har den offentliga nyckeln i din DNS-post och den sändande domänen aktiverad i den anslutna Marketo Engage-instansen, används anpassad DKIM-signering för dina utgående meddelanden. Den anpassade DKIM-signeringen innehåller en krypterad digital signatur med varje e-postmeddelande som skickas. Mottagarna kan sedan dekryptera den digitala signaturen genom att leta upp den _offentliga nyckeln_ i den sändande domänens DNS. Om nyckeln i e-postmeddelandet motsvarar nyckeln i DNS-posten är det troligare att den mottagande e-postservern accepterar e-postmeddelandet som skickas via Marketo Engage.
 
-Mer information om hur du konfigurerar en anpassad DKIM-signatur för e-postleverans finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
+Mer information om hur du konfigurerar en anpassad DKIM-signatur för e-postleverans finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
 
 ## Rotaktivitet
 
@@ -136,7 +136,7 @@ För e-postlänkens klicknings- och e-postöppningsaktiviteter fylls nya attribu
 * Aktiviteter som inte identifieras som bots har _Bot Activity_ som `False` och _Bot Activity Pattern_ som `N/A`.
 * Aktiviteter som inträffar innan attributen introducerades har _punktaktivitet_ som tom (null) och _punktaktivitetsmönster_ som tom (null)
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_&#x200B;under **[!UICONTROL Bot activity]**&#x200B;i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_under **[!UICONTROL Bot activity]**i navigeringspanelen.
 
 ![Åtkomst till robotaktivitetskonfigurationen för e-postleverans](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 
@@ -146,4 +146,4 @@ Inställningarna är skrivskyddade i Journey Optimizer B2B edition. Klicka på *
 >
 >Om du vill komma åt och redigera de här inställningarna i Adobe Marketo Engage måste du ha behörighet som produktadministratör.
 
-Mer information om hur du konfigurerar alternativen för robotaktivitet finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Mer information om hur du konfigurerar alternativen för robotaktivitet finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.

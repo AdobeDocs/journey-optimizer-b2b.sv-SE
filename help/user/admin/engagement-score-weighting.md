@@ -1,12 +1,12 @@
 ---
 title: Konfigurera resultatviktning för engagemang
-description: Lär dig hur du konfigurerar anpassad resultatviktning för engagemang så att den återspeglar poänglogiken som passar era affärsstrategier.
+description: Skapa anpassade kundrelationsmodeller med viktade aktiviteter för att mäta kundgruppsengagemang och -återgivning korrekt i Journey Optimizer B2B edition.
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
    ![Åtkomst till de konfigurerade händelsedefinitionerna](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   Tabellen visar de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och innehåller möjligheten att söka efter&#x200B;_[!UICONTROL Name]_.
+   Tabellen visar de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och innehåller möjligheten att söka efter_[!UICONTROL Name]_.
 
    Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
 
@@ -78,7 +78,7 @@ Viktinställningarna definierar de band som du kan tilldela varje aktivitet i mo
 1. För varje viktband justerar du namnet eller värdena efter behov:
 
    * Ändra namnet i fältet _[!UICONTROL Weighting band]_.
-   * Ange ett nytt värde. Du kan även klicka på **&plus;** eller **-** för att öka eller minska värdet.
+   * Ange ett nytt värde. Du kan även klicka på **&amp;plus;** eller **-** för att öka eller minska värdet.
 
    ![Inställningar för engagemangsvikt](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 

@@ -1,15 +1,15 @@
 ---
 title: Konfiguration av landningssida
-description: Lär dig hur du får tillgång till och konfigurerar inställningarna för landningssidan så att marknadsföringsteamet kan skapa och publicera webbsidor som stöder deras kampanjer.
+description: Konfigurera underdomäner för landningssidor, inställningar för förifyllnad av formulär och datastreams för att möjliggöra publicering av kampanjwebbsidor i Journey Optimizer B2B edition.
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 8bd3d696a52a813b88de9e3b58145b1cbfb3fa32
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Administratörer bör se till att inställningarna för landningssidan är konfi
 
 ## Inställningar
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska landningssidans konfiguration. Välj _[!UICONTROL Landing Pages]_&#x200B;under **[!UICONTROL Settings]**&#x200B;i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska landningssidans konfiguration. Välj _[!UICONTROL Landing Pages]_under **[!UICONTROL Settings]**i navigeringspanelen.
 
 ![Inställningar för landningssida](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -82,7 +82,7 @@ Lägg till en ny underdomän för varje unik varumärkes-URL som du vill ha på 
 >
 >Det är inte tillåtet att delegera en ogiltig underdomän till Adobe. Se till att du anger en giltig underdomän som din organisation äger, till exempel _marketing.dincompany.com_.
 
-Om du vill granska dina underdomäner och lägga till nya går du till **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Välj _[!UICONTROL Landing Pages]_&#x200B;under **[!UICONTROL Subdomains]**&#x200B;i navigeringspanelen.
+Om du vill granska dina underdomäner och lägga till nya går du till **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Välj _[!UICONTROL Landing Pages]_under **[!UICONTROL Subdomains]**i navigeringspanelen.
 
 ![Underdomäner för landningssidor](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -90,7 +90,7 @@ _Lägga till en underdomän för landningssida :_
 
 1. Klicka på **[!UICONTROL Add subdomain]** överst till höger.
 
-1. I _[!UICONTROL Subdomain details]_&#x200B;anger du information om underdomäner:
+1. I _[!UICONTROL Subdomain details]_anger du information om underdomäner:
 
    * **[!UICONTROL Subdomain]** - Den underdomän-URL som ska användas, till exempel `marketing.yourcompany.com`
    * **[!UICONTROL Default page]** - URL:en för standardunderdomänsidan, till exempel `marketing.yourcompany.com/products`

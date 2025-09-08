@@ -1,15 +1,15 @@
 ---
 title: Engagement Scores for Buying Groups
-description: Lär dig mer om att köpa poäng för grupper och personer, inklusive beräkningslogik och aktivitetstyper som bestämmer poängsättningen.
-feature: Buying Groups
+description: Spåra poängen för kundvärvningar med viktade aktiviteter och rollbaserade beräkningar i Journey Optimizer B2B edition.
+feature: Buying Groups, Engagement
 role: User
-source-git-commit: 9a70cdf73585a1d55cc973046d91fe15c7e80a02
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 4%
+source-wordcount: '1242'
+ht-degree: 5%
 
 ---
-
 
 # Engagemangsmoment {#engagement-scores}
 
@@ -30,7 +30,7 @@ Det finns två typer av engagemangspoäng:
 
 * **Personengagemangspoäng** - Personinteraktionspoängen baseras på aktiviteter för en enskild inköpsgruppsmedlem.
 
-  Personinteraktionspoängen för varje köpgruppsmedlem visas på sidan med information om inköpsgrupper [_[!UICONTROL Members]_&#x200B;på fliken ](./buying-group-details.md#buying-group-members). Dessa bakgrundsmusik visas även på sidor och på kontrollpaneler som innehåller information om toppengagerade medlemmar och överlappande kontakter.
+  Personinteraktionspoängen för varje köpgruppsmedlem visas på sidan med information om inköpsgrupper [_[!UICONTROL Members]_på fliken ](./buying-group-details.md#buying-group-members). Dessa bakgrundsmusik visas även på sidor och på kontrollpaneler som innehåller information om toppengagerade medlemmar och överlappande kontakter.
 
   ![De mest engagerade medlemmarna i inköpsgruppen](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -50,7 +50,16 @@ Det går inte att köpa grupppoäng _som utlösts av_. Det är en daglig process
 
 Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en inköpsgrupp utför samma aktivitet mer än 20 gånger under en och samma dag, begränsas antalet för aktiviteten till 20.
 
-{{engagement-activities}}
+| Aktivitetsnamn | Beskrivning | Typ av åtagande | Maximalt antal dagliga frekvenser | Standardaktivitetsvikt för modell |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| Delta händelse | En medlem deltog i en händelse | Händelse | 20 | 60 |
+| E-post klickad | En medlem klickar på en länk i ett e-postmeddelande | E-post | 20 | 30 |
+| E-post öppnad | En medlem öppnar ett mejl | E-post | 20 | 30 |
+| Formulär ifyllt | En medlem fyller i och skickar ett formulär på en webbsida | Webb | 20 | 40 |
+| Intressant stund | En medlem har en intressant stund | Kuraterad | 20 | 60 |
+| Länkklickningar | En medlem klickar på en länk på en webbsida | Webb | 20 | 40 |
+| Sidvyer | En medlem visar en webbsida | Webb | 20 | 40 |
+| Registrera dig för event | En medlem registrerad för en händelse | Händelse | 20 | 60 |
 
 <!-- old list
 
@@ -94,7 +103,7 @@ Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en
 
 >[!NOTE]
 >
->Aktiviteter för engagemangsmusik registreras i Marketo Engage aktivitetslogg för en person. Du kommer åt den här loggen i den anslutna Marketo Engage-instansen. Mer information finns i [Leta reda på aktivitetsloggen för en person](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} i Marketo Engage-dokumentationen.
+>Aktiviteter för engagemangsmusik registreras i Marketo Engage aktivitetslogg för en person. Du kommer åt den här loggen i den anslutna Marketo Engage-instansen. Mer information finns i [Leta reda på aktivitetsloggen för en person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} i Marketo Engage-dokumentationen.
 
 ## Viktning av rollmall {#engagement-score-weighting}
 
@@ -115,7 +124,7 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
 
 | Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |

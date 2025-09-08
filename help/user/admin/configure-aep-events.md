@@ -1,20 +1,20 @@
 ---
 title: Konfigurera Experience Platform Events
-description: Lär dig hur du konfigurerar Experience Platform händelsedefinitioner för användning i Journey Optimizer B2B edition-resor.
+description: Konfigurera Experience Platform händelsedefinitioner för att utlösa kontoresor i realtid i Journey Optimizer B2B edition baserat på kundbeteende.
 feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 2cfe830608857206dacb23bb52e41f0b3953b39b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1708'
 ht-degree: 0%
 
 ---
 
 # Konfigurera händelsedefinitioner för Experience Platform
 
-Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
 
@@ -30,7 +30,7 @@ För varje händelsedefinition krävs följande indata från Experience Platform
 
   >[!NOTE]
   >
-  >För att säkerställa att nödvändiga scheman är definierade måste ni samordna med ert konstruktörsteam. [Att skapa XDM-scheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/composition){target="_blank"} är en komplex process som utförs av datatekniker baserat på ärendekrav i hela organisationen.
+  >För att säkerställa att nödvändiga scheman är definierade måste ni samordna med ert konstruktörsteam. [Att skapa XDM-scheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"} är en komplex process som utförs av datatekniker baserat på ärendekrav i hela organisationen.
 
 * **_Händelsetyper_** - XDM ExperienceEvent-händelsetyp (högst 20 per händelsetyp).
 
@@ -76,7 +76,7 @@ Tänk på följande när du skapar och hanterar händelsedefinitioner för att u
 
 ### Händelsedefinitionsstatus och livscykel
 
-I listan _[!UICONTROL Event definitions]_&#x200B;anger kolumnen **[!UICONTROL Status]**&#x200B;aktuell status för varje definition. Statusen avgör om den är tillgänglig för användning på kontoresor och vilka ändringar du kan göra i den.
+I listan _[!UICONTROL Event definitions]_anger kolumnen **[!UICONTROL Status]**aktuell status för varje definition. Statusen avgör om den är tillgänglig för användning på kontoresor och vilka ändringar du kan göra i den.
 
 | Status | Beskrivning |
 | -------------------- | ----------- |
@@ -116,7 +116,7 @@ Om du vill söka efter en händelsedefinition utifrån namn anger du en textstr�
 
 1. Välj **[!UICONTROL Event types]** som ska användas för händelsedefinitionen.
 
-   De [händelsetyper](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} som du väljer avgör vilka händelser som är tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod i en kontoresa.
+   De [händelsetyper](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} som du väljer avgör vilka händelser som är tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod i en kontoresa.
 
    * Klicka på **[!UICONTROL Select event types]**.
    * I dialogrutan väljer du en eller flera händelsetyper i listan (högst 20).
@@ -152,7 +152,7 @@ När du är säker på att definitionen av en utkasthändelse är fullständig o
 
 1. Klicka på **[!UICONTROL Events]** på den mellanliggande panelen för att visa listan över händelsedefinitioner.
 
-1. I listan _[!UICONTROL Event definitions]_&#x200B;klickar du på namnet på definitionen av utkasthändelsen för att öppna informationssidan.
+1. I listan _[!UICONTROL Event definitions]_klickar du på namnet på definitionen av utkasthändelsen för att öppna informationssidan.
 
    ![Öppna definitionen för utkastshändelsen](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
 
@@ -182,7 +182,7 @@ När du är säker på att definitionen av en utkasthändelse är fullständig o
 
    ![Den nya definitionen av utkasthändelsen finns på sidan](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-1. Öppna händelsedefinitionsnamnet från listsidan _[!UICONTROL Event definitions]_&#x200B;genom att klicka på det.
+1. Öppna händelsedefinitionsnamnet från listsidan _[!UICONTROL Event definitions]_genom att klicka på det.
 
 Följ stegen enligt status:
 
@@ -282,4 +282,4 @@ Du kan ta bort en händelsedefinition om den inte används av en publicerad kont
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3448687/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

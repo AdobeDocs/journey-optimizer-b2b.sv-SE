@@ -1,12 +1,12 @@
 ---
 title: Buying Group Filters in Market Engage
-description: Läs om hur du använder medlemskap i inköpsgrupper för att definiera filter i Marketo Engage Smart Lists.
+description: Filtrera leads genom att köpa gruppmedlemskap i Marketo Engage Smart Lists för att optimera kampanjer och poängsätta leads med Journey Optimizer B2B edition.
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Som marknadsförare kanske ni vill inaktivera kampanjer i Marketo Engage för pe
 
 Om dessa villkor är uppfyllda kan du välja att poängsätta det högre. Annars kan du välja att inte markera det som ett marknadsföringsgodkänt lead (MQL).
 
-I din Marketo Engage-instans som är ansluten till Journey Optimizer B2B edition kan du använda filtret _[!UICONTROL Member of Buying Group]_&#x200B;i dina smarta listor för att identifiera dessa leads enligt din kampanjstrategi.
+I din Marketo Engage-instans som är ansluten till Journey Optimizer B2B edition kan du använda filtret _[!UICONTROL Member of Buying Group]_i dina smarta listor för att identifiera dessa leads enligt din kampanjstrategi.
 
-1. När du har [skapat en smart lista i Marketo Engage](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} öppnar du filterredigeraren på fliken **[!UICONTROL Smart List]** .
+1. När du har [skapat en smart lista i Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} öppnar du filterredigeraren på fliken **[!UICONTROL Smart List]** .
 
 1. I filterlistan till höger rullar du nedåt i listan och expanderar mappen **[!UICONTROL Special Filters]**.
 
@@ -30,7 +30,7 @@ I din Marketo Engage-instans som är ansluten till Journey Optimizer B2B edition
 
    ![Lägg till medlemmen i filtret Buying Group i den smarta listan](./assets/me-member-of-buying-group-filter-add.png){width="700" zoomable="yes"}
 
-1. Ställ in alternativet _[!UICONTROL Member of Buying Group]_&#x200B;på&#x200B;**[!UICONTROL true]**&#x200B;eller **[!UICONTROL false]**.
+1. Ställ in alternativet _[!UICONTROL Member of Buying Group]_på&#x200B;**[!UICONTROL true]**eller **[!UICONTROL false]**.
 
    Den här begränsningen krävs för definitionen.
 

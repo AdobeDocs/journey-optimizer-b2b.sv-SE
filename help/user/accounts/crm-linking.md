@@ -1,21 +1,22 @@
 ---
 title: Åtkomst till detaljsidor i CRM
-description: Se hur säljteamets medlemmar kan få tillgång till detaljerade sidor för konton, kontakter och leads direkt från sina CRM-verktyg, som Salesforce eller Microsoft Dynamics.
+description: Lägg till anpassade länkar för konto- och kontaktinformation för direktåtkomst till Journey Optimizer B2B-insikter från Salesforce och Dynamics CRM.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
 # Åtkomst till detaljsidor i CRM
 
-Med Adobe Journey Optimizer B2B edition kan säljteammedlemmar och kontoansvariga få tillgång till detaljerade sidor för konto- och köpgruppsinformation direkt från sina CRM-verktyg, som Salesforce och Microsoft Dynamics. Med den här integreringen kan säljarna snabbt få åtkomst till realtidskonton och inköpen i grupper, som engagemangshistorik, avsiktssignaler och AI-genererade rekommendationer. Detta ger säljteamet möjlighet till snabbare utåtriktad marknadsföring, smartare prioritering och bättre anpassning till marknadsföring.
+Med Adobe Journey Optimizer B2B edition kan sälj- och kontoteammedlemmar få tillgång till detaljerade sidor för konto- och köpgruppsinformation direkt från sina CRM-verktyg, som Salesforce eller Microsoft Dynamics. Med den här integreringen kan säljarna snabbt få åtkomst till realtidskonton och inköpen i grupper, som engagemangshistorik, avsiktssignaler och AI-genererade rekommendationer. Detta ger säljteamet möjlighet till snabbare utåtriktad marknadsföring, smartare prioritering och bättre anpassning till marknadsföring.
 
-Salesforce- eller Dynamics-administratören kan lägga till en Journey Optimizer B2B edition-länk från konto-, kontakt- eller lead-vyn om du vill att säljteamets medlemmar ska kunna visa [kontoinformation](account-details.md) och [personinformation](person-details.md) i Journey Optimizer B2B edition från CRM.
+Salesforce- eller Dynamics-administratören kan lägga till en länk från konto-, kontakt- eller lead-vyn om du vill att försäljnings- och kontoteammedlemmar ska kunna visa [kontoinformation](account-details.md) och [personinformation](person-details.md) i Journey Optimizer B2B edition från CRM.
 
 När en medlem i ett säljteam använder länken från CRM-instansen ska sandlådan vara _Prod_ och IMS-organisationen bestäms enligt följande ordnade logik:
 
@@ -72,7 +73,7 @@ Använd objektet `Account` för att hämta kontots 18-tecken-ID, till exempel `C
 
 +++
 
-+++länk till detaljsida
++++Länk till detaljsida
 
 1. I Salesforce går du till **[!UICONTROL Setup]** > **[!UICONTROL Object Manager]** > **[!UICONTROL Account]**/**[!UICONTROL Contact]**/**[!UICONTROL Lead]** > **[!UICONTROL Buttons, Links, and Actions]**.
 1. Klicka på **[!UICONTROL New Button or Link]** i det övre högra hörnet och skapa länken för detaljsidan.
@@ -91,7 +92,7 @@ Använd objektet `Account` för att hämta kontots 18-tecken-ID, till exempel `C
 
 +++
 
-+++Detaljsidknapp
++++Knappen Detaljsida
 
 1. I Salesforce går du till **[!UICONTROL Setup]** > **[!UICONTROL Object Manager]** > **[!UICONTROL Account]**/**[!UICONTROL Contact]**/**[!UICONTROL Lead]** > **[!UICONTROL Buttons, Links, and Actions]**.
 1. Klicka på **[!UICONTROL New Button or Link]** i det övre högra hörnet och skapa knappen för detaljsidan.
@@ -147,7 +148,7 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
    ![Nytt fält för kontaktenhet](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}
 
 1. Spara fältkonfigurationen.
-1. Välj _[!UICONTROL Solution]_&#x200B;på fliken **[!UICONTROL Web Resources]**.
+1. Välj _[!UICONTROL Solution]_på fliken **[!UICONTROL Web Resources]**.
 1. Klicka på **[!UICONTROL New]** och konfigurera följande skriptwebbresurs (JScript):
 
    ```js
@@ -193,7 +194,7 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
 **3 - Lägg till JS-webbresursen i formulärbiblioteken**
 
-1. Klicka på _[!UICONTROL Home]_&#x200B;på fliken **[!UICONTROL Form Properties]**&#x200B;överst.
+1. Klicka på _[!UICONTROL Home]_på fliken **[!UICONTROL Form Properties]**överst.
 1. Klicka på **[!UICONTROL Add]**.
 
    ![Lägg till formuläregenskaper](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"}
@@ -202,15 +203,15 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
    ![Lägg till webbresursen](./assets/crm-linking-dynamics-url-form-field-libraries.png){width="500" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Add]** under _[!UICONTROL Event Handlers]_&#x200B;med den tillagda resursen markerad.
+1. Klicka **[!UICONTROL Add]** under _[!UICONTROL Event Handlers]_med den tillagda resursen markerad.
 1. Lägg till funktionen `setViewInAjoB2b` i **[!UICONTROL Event Handlers]**.
-1. Med funktionen markerad i listan _[!UICONTROL Event Handlers]_&#x200B;anger du **[!UICONTROL Control]**&#x200B;till `Form` och **[!UICONTROL Event]**&#x200B;till `OnLoad`.
+1. Med funktionen markerad i listan _[!UICONTROL Event Handlers]_anger du **[!UICONTROL Control]**till `Form` och **[!UICONTROL Event]**till `OnLoad`.
 
    ![Lägg till hanteraren](./assets/crm-linking-dynamics-url-handler-properties.png){width="500" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL OK]**.
 
-1. Klicka på _[!UICONTROL Home]_&#x200B;och sedan **[!UICONTROL Save]**&#x200B;på fliken **[!UICONTROL Publish]**&#x200B;överst.
+1. Klicka på _[!UICONTROL Home]_och sedan **[!UICONTROL Save]**på fliken **[!UICONTROL Publish]**överst.
 
 **4 - Verifiera länken**
 
@@ -234,7 +235,7 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
 1. Gå till **[!UICONTROL Advanced Settings]** > **[!UICONTROL Customize the system]** och välj fliken **[!UICONTROL Solution]**.
 
-1. Välj _[!UICONTROL Solution]_&#x200B;på fliken **[!UICONTROL Web Resources]**.
+1. Välj _[!UICONTROL Solution]_på fliken **[!UICONTROL Web Resources]**.
 
 1. Klicka på **[!UICONTROL New]** och konfigurera följande skriptwebbresurs (JScript) med följande funktion:
 
@@ -297,15 +298,15 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
    ![Lägg till webbresursen](./assets/crm-linking-dynamics-web-resources-add-form-property.png){width="500" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Add]** under _[!UICONTROL Event Handlers]_&#x200B;med den tillagda resursen markerad.
+1. Klicka **[!UICONTROL Add]** under _[!UICONTROL Event Handlers]_med den tillagda resursen markerad.
 1. Lägg till funktionen `getFormContext` i **[!UICONTROL Event Handlers]**.
-1. Med funktionen markerad i listan _[!UICONTROL Event Handlers]_&#x200B;anger du **[!UICONTROL Control]**&#x200B;till `Form` och **[!UICONTROL Event]**&#x200B;till `OnLoad`.
+1. Med funktionen markerad i listan _[!UICONTROL Event Handlers]_anger du **[!UICONTROL Control]**till `Form` och **[!UICONTROL Event]**till `OnLoad`.
 
    ![Lägg till hanteraren](./assets/crm-linking-dynamics-web-resources-handler-properties.png){width="500" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL OK]**.
 
-1. Klicka på _[!UICONTROL Home]_&#x200B;och sedan **[!UICONTROL Save]**&#x200B;på fliken **[!UICONTROL Publish]**&#x200B;överst.
+1. Klicka på _[!UICONTROL Home]_och sedan **[!UICONTROL Save]**på fliken **[!UICONTROL Publish]**överst.
 
 **3 - Konfigurera formuläret**
 
@@ -327,7 +328,7 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
    ![Webbresursen har lagts till i sammanfattningsavsnittet i formuläret](./assets/crm-linking-dynamics-web-resource-layout-displayed.png){width="800" zoomable="yes"}
 
-1. Klicka på _[!UICONTROL Home]_&#x200B;och sedan **[!UICONTROL Save]**&#x200B;på fliken **[!UICONTROL Publish]**&#x200B;överst.
+1. Klicka på _[!UICONTROL Home]_och sedan **[!UICONTROL Save]**på fliken **[!UICONTROL Publish]**överst.
 
 **4 - Verifiera länken**
 

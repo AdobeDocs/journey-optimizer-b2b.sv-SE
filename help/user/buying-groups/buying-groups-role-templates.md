@@ -1,12 +1,12 @@
 ---
 title: Mallar för inköpsgrupproll
-description: Lär dig hur du definierar en rollmall som ska användas som en köpgruppskomponent.
+description: Skapa mallar för köpgruppsroller med villkor för automatisk tilldelning för att identifiera beslutsfattare och intressenter i Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 1. Klicka på **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 
-1. Välj fliken _[!UICONTROL Buying groups]_&#x200B;på sidan **[!UICONTROL Roles Templates]**.
+1. Välj fliken _[!UICONTROL Buying groups]_på sidan **[!UICONTROL Roles Templates]**.
 
    ![fliken Rollmallar](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 ## Skapa en rollmall
 
-1. Klicka på _[!UICONTROL Roles Templates]_&#x200B;i det övre högra hörnet på fliken **[!UICONTROL Create template]**.
+1. Klicka på _[!UICONTROL Roles Templates]_i det övre högra hörnet på fliken **[!UICONTROL Create template]**.
 
 1. Ange ett unikt **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för mallen i dialogrutan.
 
@@ -86,7 +86,7 @@ Varje roll som du definierar för mallen använder en uppsättning filter, eller
 
 1. Klicka på **[!UICONTROL Add Condition]** och definiera den villkorliga regeln för rollen.
 
-   * Expandera listan med _[!UICONTROL Condition]_&#x200B;i dialogrutan **[!UICONTROL Person attributes]**&#x200B;och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
+   * Expandera listan med _[!UICONTROL Condition]_i dialogrutan **[!UICONTROL Person attributes]**och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
 
      ![Rollmallen lägger till attributet Dra villkor](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
@@ -136,7 +136,7 @@ När en rollmall är i läget _Utkast_ kan du fortsätta redigera de definierade
 
 ### Ändra villkoren för en roll
 
-Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_&#x200B;där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
+Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
 
 ### Ta bort ett rollkort
 
@@ -162,4 +162,4 @@ Du kan ta bort en rollmall om den har statusen _Utkast_.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3453305/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

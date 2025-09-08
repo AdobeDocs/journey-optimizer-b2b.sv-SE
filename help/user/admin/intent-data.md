@@ -1,12 +1,12 @@
 ---
 title: Återgivningsdata
-description: Lär dig hur du sammanställer och skickar nyckelord för att generera intent data för Journey Optimizer B2B edition.
+description: Konfigurera avsiktsdata med nyckelordsmappning för att förutsäga kundernas intresse och få inköpssignaler för kontobaserad marknadsföring i Journey Optimizer B2B edition.
 feature: Setup, Intent, Account Insights
 roles: Admin
 exl-id: c7f9f6fe-2275-42a4-af80-b5c3d1a82837
-source-git-commit: 65c7bdcc998c604125442fbd0a65c2f8ebd3255d
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,11 @@ Du kan hämta en Excel-fil som du kan använda som mall för att förbereda mapp
 
 ## Överför en kategorifil
 
-När kalkylbladet är klart går du tillbaka till konfigurationssidan _[!UICONTROL Intent Mapping]_&#x200B;och överför filen.
+När kalkylbladet är klart går du tillbaka till konfigurationssidan _[!UICONTROL Intent Mapping]_och överför filen.
 
 1. Klicka på **[!UICONTROL Create category]**.
 
-1. Dra och släpp filen i dialogrutan _[!UICONTROL Upload files]_&#x200B;eller klicka på&#x200B;**[!UICONTROL Select a file]**&#x200B;för att leta reda på och markera filen på datorn.
+1. Dra och släpp filen i dialogrutan _[!UICONTROL Upload files]_eller klicka på&#x200B;**[!UICONTROL Select a file]**för att leta reda på och markera filen på datorn.
 
 1. Klicka på **[!UICONTROL Next]**.
 

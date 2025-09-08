@@ -1,12 +1,12 @@
 ---
 title: Använd kontolistor i resor och program
-description: Lär dig hur du ordnar kontolistmedlemskap under resor och filtrerar Marketo Engage Smart Lists baserat på kontolistans medlemskap.
+description: Använd kontolistor vid resesamordning, lägg till/ta bort konton dynamiskt och filtrera Marketo Engage Smart Lists i Journey Optimizer B2B edition.
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Alla kontoresor börjar med en [_kontomålgrupp_ nod](../journeys/account-audien
 
 Lägg till konton i en statisk kontolista med [a _Ta en åtgärd_-nod](../journeys/action-nodes.md) inom en kontoresa.
 
-Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa konton utför olika åtgärder som svar på en åtgärd. Du ser den här aktiviteten som en kvalifikationspunkt under resan och vill lägga till dem i en kontolista som används som målgrupp för en annan resa med ett annat flöde för kvalificerade konton.
+Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa konton utför olika åtgärder som svar på en åtgärd. Du ser den här aktiviteten som en kvalifikationspunkt under resan. Med kvalificeringen vill du lägga till dem i en kontolista som används som målgrupp för en annan resa med ett annat flöde för kvalificerade konton.
 
 >[!NOTE]
 >
 >Om ett konto redan finns i listan när noden körs, ignoreras åtgärden.
 
-1. Välj alternativet _[!UICONTROL Action on]_&#x200B;**[!UICONTROL Accounts]**.
+1. Välj alternativet _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
 
-1. Välj **[!UICONTROL Add to account list]** för _[!UICONTROL Action on accounts]_.
+1. Välj _[!UICONTROL Action on accounts]_för **[!UICONTROL Add to account list]**.
 
    ![Välj Lägg till i kontolistan](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -57,15 +57,15 @@ Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa ko
 
 Inom en kontoresa tar du bort konton från en statisk kontolista med [a _Ta en åtgärd_-nod](../journeys/action-nodes.md).
 
-Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa konton utför olika åtgärder som svar på en åtgärd. Du ser den här aktiviteten som en kvalifikationspunkt under resan och vill ta bort dem från en kontolista som används som målgrupp för en annan resa som skickar ytterligare e-postmeddelanden så att du inte duplicerar din kvalificeringskommunikation.
+Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa konton utför olika åtgärder som svar på en åtgärd. Du ser den här aktiviteten som en kvalifikationspunkt under resan. Med den här kvalificeringen vill du ta bort dem från en kontolista som används som målgrupp för en annan resa som skickar ytterligare e-postmeddelanden så att du inte duplicerar din kvalificeringskommunikation.
 
 >[!NOTE]
 >
 >Om ett konto inte finns i listan där det är schemalagt för borttagning, ignoreras åtgärden.
 
-1. Välj alternativet _[!UICONTROL Action on]_&#x200B;**[!UICONTROL Accounts]**.
+1. Välj alternativet _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
 
-1. Välj **[!UICONTROL Remove from account list]** för _[!UICONTROL Action on accounts]_.
+1. Välj _[!UICONTROL Action on accounts]_för **[!UICONTROL Remove from account list]**.
 
    ![Välj Lägg till i kontolistan](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
@@ -77,7 +77,7 @@ Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa ko
 
 Som marknadsförare kanske du vill inaktivera program i Marketo Engage för personer som ingår i kontolistor i Journey Optimizer B2B edition.
 
-I Marketo Engage-instansen som är ansluten till Journey Optimizer B2B edition kan du använda filtret _[!UICONTROL Member of Account List]_&#x200B;i dina smarta listor för att identifiera dessa leads enligt din kampanjstrategi. Mer information om smarta listor finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+I Marketo Engage-instansen som är ansluten till Journey Optimizer B2B edition kan du använda filtret _[!UICONTROL Member of Account List]_i dina smarta listor för att identifiera dessa leads enligt din kampanjstrategi. Mer information om smarta listor finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Lägga till filtret i en smart lista
 
@@ -95,7 +95,7 @@ I Marketo Engage-instansen som är ansluten till Journey Optimizer B2B edition k
 
 1. Lägg till steget **[!UICONTROL Add to List]** i kampanjflödet och välj den lista där du vill fylla i personerna från kontolistan för Journey Optimizer B2B edition.
 
-   Mer information om hur du lägger till steg i ett flöde finns i _[Lägg till ett flödessteg i en smart kampanj](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ i Marketo Engage-dokumentationen.
+   Mer information om hur du lägger till steg i ett flöde finns i _[Lägg till ett flödessteg i en smart kampanj](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ i Marketo Engage-dokumentationen.
 
 ### Granska medlemmarna
 

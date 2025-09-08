@@ -1,11 +1,12 @@
 ---
 title: Personinformation
-description: Läs om hur du får tillgång till detaljerad information och en generativ AI-sammanfattning för en person som är kopplad till ett konto eller en inköpsgrupp i Journey Optimizer B2B edition.
+description: Se personinsikter med AI-sammanfattningar, engagemangsmusik, aktivitetsspårning och avsiktsidentifiering för medlemmar i Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
-source-git-commit: 5382bc89903a567268ee06648a8d6b0bf34695a6
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---

@@ -1,12 +1,12 @@
 ---
 title: SMS-konfiguration
-description: Lär dig hur du konfigurerar anslutningar till SMS-leverantörer som stöds för användning av SMS-meddelanden i Journey Optimizer B2B edition.
+description: Koppla upp SMS-leverantörer som Sinch, Twilio och Infobip med API-behörigheter för att aktivera textmeddelanden på Journey Optimizer B2B edition-resor.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Innan du konfigurerar en SMS-kanal i Adobe Journey Optimizer B2B edition måste 
 
 >[!TAB Dra]
 
-_Så här konfigurerar du Sinch som SMS-leverantör med Adobe Journey Optimizer B2B edition:_
+_Konfigurera Sinch som SMS-provider med Adobe Journey Optimizer B2B edition :_
 
 1. Utöka avsnittet **[!UICONTROL Administrator]** till vänster och klicka på **[!UICONTROL Configuration]**.
 
@@ -71,7 +71,7 @@ _Så här konfigurerar du Sinch som SMS-leverantör med Adobe Journey Optimizer 
 
 >[!TAB Twilio]
 
-_Så här konfigurerar du Twilio som SMS-leverantör med Adobe Journey Optimizer B2B edition:_
+_Konfigurera Twilio som SMS-leverantör med Adobe Journey Optimizer B2B edition :_
 
 1. Utöka avsnittet **[!UICONTROL Administrator]** till vänster och klicka på **[!UICONTROL Configuration]**.
 
@@ -93,7 +93,7 @@ _Så här konfigurerar du Twilio som SMS-leverantör med Adobe Journey Optimizer
 
 >[!TAB Infobip]
 
-_Så här konfigurerar du Infobip som SMS-leverantör med Adobe Journey Optimizer B2B edition:_
+_Konfigurera Infobip som din SMS-leverantör med Adobe Journey Optimizer B2B edition :_
 
 1. Utöka avsnittet **[!UICONTROL Administrator]** till vänster och klicka på **[!UICONTROL Configuration]**.
 
@@ -115,4 +115,4 @@ _Så här konfigurerar du Infobip som SMS-leverantör med Adobe Journey Optimize
 
 >[!ENDTABS]
 
-När du klickar på _[!UICONTROL Submit]_&#x200B;valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för&#x200B;_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.
+När du klickar på _[!UICONTROL Submit]_valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.

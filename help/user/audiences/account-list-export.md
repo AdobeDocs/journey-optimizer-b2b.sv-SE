@@ -1,13 +1,13 @@
 ---
 title: Exportera konton
-description: Lär dig exportera kontolistan baserat på inköpsgruppsfilter.
-feature: Account Lists
+description: Exportera filtrerade kontolistor till CSV för tredjepartsplattformar med inköpsgrupper och filter för engagemangspoäng i Journey Optimizer B2B edition.
+feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 0%
+source-wordcount: '249'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Använd funktionen _Exportera konton_ om du vill exportera alla konton eller en 
 
 1. I Journey Optimizer B2B edition går du till **[!UICONTROL Accounts]** > **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 
-1. Välj fliken **[!UICONTROL Browse]**.
+1. Klicka på fliken **[!UICONTROL Browse]**.  
 
 1. Klicka på **[!UICONTROL Export accounts]** överst till höger.
 

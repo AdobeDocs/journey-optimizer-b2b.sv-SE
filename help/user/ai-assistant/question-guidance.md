@@ -1,13 +1,13 @@
 ---
 title: Frågvägledning för AI-assistenten
-description: Lär dig hur du skriver effektiva frågor för AI Assistant i Journey Optimizer B2B edition.
+description: Skriv effektiva AI Assistant-frågor med metodtips, exempel och frastips för att få optimala svar i Journey Optimizer B2B edition.
 feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---

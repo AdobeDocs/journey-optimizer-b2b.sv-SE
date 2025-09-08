@@ -1,10 +1,10 @@
 ---
 title: Kontolistor
-description: Lär dig mer om kontolistor och hur marknadsförare kan använda dem för att rikta konton via kontoresor.
+description: Skapa statiska och dynamiska kontolistor med anpassade filter för riktad resesamordning och kontobaserad marknadsföring i Journey Optimizer B2B edition.
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 I Journey Optimizer B2B edition är en kontolista en samling namngivna konton som marknadsförare kan använda för riktad resesamordning. En kontolista kan ha namngivna konton som mål enligt dina definierade kriterier, t.ex. bransch, plats eller företagets storlek. Det finns två typer av kontolistor:
 
 * **Statisk** - Med en statisk kontolista ändras listan bara när du lägger till kontona. Du kan lägga till konton manuellt genom att använda en filteruppsättning för att fylla i listan baserat på aktuella kontodata eller lägga till och ta bort konton under en kontoresa.
-* **Dynamisk** - Med en dynamisk kontolista definierar du en filteruppsättning som automatiskt väljer listan. Systemet använder den här filteruppsättningen för att lägga till och ta bort konton efter ändringar i kontoinformationen. Den här listhanteringen liknar [målgruppssegmentering i kunddataplattformen ](https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"} i realtid.
+* **Dynamisk** - Med en dynamisk kontolista definierar du en filteruppsättning som automatiskt väljer listan. Systemet använder den här filteruppsättningen för att lägga till och ta bort konton efter ändringar i kontoinformationen. Den här listhanteringen liknar [målgruppssegmentering i kunddataplattformen ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"} i realtid.
 
 När en kontolista är i läget _Live_ (publicerad) är den tillgänglig för [användning i kontoresor och Marketo Engage-program](./account-lists-journeys.md).
 
@@ -24,7 +24,7 @@ När en kontolista är i läget _Live_ (publicerad) är den tillgänglig för [a
 
 >[!NOTE]
 >
->Kontolistor använder kontodata från Marketo Engage för att skapa kontosegment och listor. Det innebär att om ett kontosegment från Adobe Experience Platform inte är aktivt synkroniserat till Marketo Engage är konton i det Experience Platform-segmentet kanske inte tillgängliga i Journey Optimizer B2B edition-kontolistor. Därefter kan personer från konton i Experience Plafrom-segment som inte synkroniseras med Marketo Engage inte inkluderas i antalet personliga medlemskap eller räknas i utlösarhändelser.
+>Kontolistor använder kontodata från Marketo Engage för att skapa kontosegment och listor. Det innebär att om ett kontosegment från Adobe Experience Platform inte är aktivt synkroniserat till Marketo Engage är konton i det Experience Platform-segmentet kanske inte tillgängliga i Journey Optimizer B2B edition-kontolistor. Därefter inkluderas endast personer från konton i Experience Platform-segment som synkroniseras med Marketo Engage i antalet personliga medlemskap och utlösande händelser.
 
 ## Få åtkomst till och bläddra bland kontolistor
 
@@ -32,7 +32,7 @@ Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL A
 
 ![Åtkomstkontoresor](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-Sidan _[!UICONTROL Account lists]_&#x200B;som visas innehåller följande kolumner:
+Sidan _[!UICONTROL Account lists]_som visas innehåller följande kolumner:
 
 * [!UICONTROL Name] (klicka på namnet på kontolistan för att visa information)
 * [!UICONTROL Status]
@@ -54,19 +54,19 @@ Om du vill visa beskrivningen för en kontolista klickar du på ikonen _Informat
 
 När du skapar en kontolista definierar du en uppsättning filter för att generera listan. Du kan till exempel använda den för att skapa en lista över konton där hälso- och sjukvården är och där intäkterna är över 100 miljoner dollar.
 
-1. Klicka på _[!UICONTROL Account lists]_&#x200B;längst upp till höger på sidan **[!UICONTROL Create account list]**.
+1. Klicka på _[!UICONTROL Account lists]_längst upp till höger på sidan **[!UICONTROL Create account list]**.
 
    ![Klicka på Skapa kontolista](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Create account list]_&#x200B;anger du en unik **[!UICONTROL Name]**(obligatoriskt) och en **[!UICONTROL Description]**(valfritt).
+1. I dialogrutan _[!UICONTROL Create account list]_anger du en unik **[!UICONTROL Name]**(obligatoriskt) och en **[!UICONTROL Description]**(valfritt).
 
-1. Välj _[!UICONTROL Type]_&#x200B;för kontolistan,**[!UICONTROL Static]**&#x200B;eller **[!UICONTROL Dynamic]**.
+1. Välj _[!UICONTROL Type]_för kontolistan,**[!UICONTROL Static]**eller **[!UICONTROL Dynamic]**.
 
    ![Välj Statisk eller Dynamisk för kontolistan](./assets/account-list-create-dialog.png){width="380"}
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   En ny statisk kontolista öppnas med en tom lista över konton. En ny dynamisk kontolista öppnas med panelen _[!UICONTROL Add accounts by filter]_&#x200B;på sidan.
+   En ny statisk kontolista öppnas med en tom lista över konton. En ny dynamisk kontolista öppnas med panelen _[!UICONTROL Add accounts by filter]_på sidan.
 
 ## Lägg till konton i kontolistan
 
@@ -90,7 +90,7 @@ När du har skapat den statiska kontolistan kan du fylla i listan genom att anv�
 
    Du kan öppna den här funktionen på den tomma listsidan eller i det övre högra hörnet.
 
-1. I dialogrutan _[!UICONTROL Add accounts by filter]_&#x200B;använder du menyn **[!UICONTROL Account Filters]**&#x200B;för att lägga till de attribut och aktiviteter som du vill använda för att skapa filteruppsättningen:
+1. I dialogrutan _[!UICONTROL Add accounts by filter]_använder du menyn **[!UICONTROL Account Filters]**för att lägga till de attribut och aktiviteter som du vill använda för att skapa filteruppsättningen:
 
    Filtren kapslas in i kategorimappar. Du kan expandera varje mapp och bläddra igenom listan med tillgängliga filter. Du kan också använda _sökverktyget_ längst upp för att hitta det filter du behöver.
 
@@ -118,7 +118,7 @@ När du har skapat en dynamisk kontolista definierar du den filteruppsättning s
 
    ![Välj filter som används för att fylla i listan dynamiskt ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Add accounts by filter]_&#x200B;använder du menyn **[!UICONTROL Account Filters]**&#x200B;för att lägga till de attribut och specialfilter som du vill använda för att skapa filteruppsättningen:
+1. I dialogrutan _[!UICONTROL Add accounts by filter]_använder du menyn **[!UICONTROL Account Filters]**för att lägga till de attribut och specialfilter som du vill använda för att skapa filteruppsättningen:
 
    Filtren kapslas in i kategorimappar. Du kan expandera varje mapp och bläddra igenom listan med tillgängliga filter. Du kan också använda _sökverktyget_ längst upp för att hitta det filter du behöver.
 
@@ -156,11 +156,11 @@ Du kan publicera en kontolista så snart filteruppsättningen är klar.
 
    ![Klicka på Publicera överst till höger](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. Bekräfta genom att klicka på _[!UICONTROL Publish static account list]_&#x200B;i dialogrutan **[!UICONTROL Publish]**.
+1. Bekräfta genom att klicka på _[!UICONTROL Publish static account list]_i dialogrutan **[!UICONTROL Publish]**.
 
    ![Bekräfta publicering för en statisk kontolista](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-Statusen för den statiska kontolistan ändras till _[!UICONTROL Live]_&#x200B;och är tillgänglig för [användning i en kontoresa](#account-list-usage-in-account-journeys).
+Statusen för den statiska kontolistan ändras till _[!UICONTROL Live]_och är tillgänglig för [användning i en kontoresa](#account-list-usage-in-account-journeys).
 
 >[!TAB Dynamisk kontolista]
 
@@ -170,14 +170,14 @@ Du kan publicera en dynamisk kontolista så snart filteruppsättningen är klar.
 
    ![Klicka på Publicera överst till höger](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. Bekräfta genom att klicka på _[!UICONTROL Publish dynamic account list]_&#x200B;i dialogrutan **[!UICONTROL Publish]**.
+1. Bekräfta genom att klicka på _[!UICONTROL Publish dynamic account list]_i dialogrutan **[!UICONTROL Publish]**.
 
    ![Bekräfta publicering för en dynamisk kontolista](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-Status för den dynamiska kontolistan ändras till _[!UICONTROL Live]_&#x200B;och är tillgänglig för [användning i en kontoresa](#account-list-usage-in-account-journeys).
+Status för den dynamiska kontolistan ändras till _[!UICONTROL Live]_och är tillgänglig för [användning i en kontoresa](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3448653/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

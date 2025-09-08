@@ -1,24 +1,25 @@
 ---
 title: Standardroller och anpassade roller
-description: Lär dig mer om standardroller och anpassade roller, och hur du definierar anpassade roller som kan användas för att köpa grupprollmallar.
+description: Hantera standardroller och anpassade inköpsgruppsroller - skapa, redigera och konfigurera rolldefinitioner för dina affärsbehov i Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
-source-git-commit: f68d9ed7e1c64d95cba729eba7f11c5d95d0022f
+exl-id: 3981f26e-dcee-4d32-b15f-f8e315457bd6
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Standardroller och anpassade roller
 
-Journey Optimizer B2B edition innehåller en uppsättning standardroller som används i rollmallar för inköpsgrupper. Men många organisationer kräver anpassade roller som de kan definiera utifrån sina affärsmål och strategier. Du kan använda listan _[!UICONTROL Roles]_&#x200B;för att skapa egna rolldefinitioner som stöder dina inköpsgrupper.
+Journey Optimizer B2B edition innehåller en uppsättning standardroller som används i rollmallar för inköpsgrupper. Men många organisationer kräver anpassade roller som de kan definiera utifrån sina affärsmål och strategier. Du kan använda listan _[!UICONTROL Roles]_för att skapa egna rolldefinitioner som stöder dina inköpsgrupper.
 
 ## Åtkomstroller
 
 1. Klicka på **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 
-1. Välj fliken _[!UICONTROL Buying groups]_&#x200B;på sidan **[!UICONTROL Roles]**.
+1. Välj fliken _[!UICONTROL Buying groups]_på sidan **[!UICONTROL Roles]**.
 
    ![Fliken Roller](./assets/roles-tab.png){width="700" zoomable="yes"}
 
@@ -46,7 +47,7 @@ Journey Optimizer B2B edition innehåller en uppsättning standardroller som anv
 
 ## Skapa en anpassad roll
 
-1. Klicka på _[!UICONTROL Roles]_&#x200B;i det övre högra hörnet på fliken **[!UICONTROL Create Role]**.
+1. Klicka på _[!UICONTROL Roles]_i det övre högra hörnet på fliken **[!UICONTROL Create Role]**.
 
 1. Ange en unik **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för rollen i dialogrutan.
 
@@ -56,6 +57,6 @@ Journey Optimizer B2B edition innehåller en uppsättning standardroller som anv
 
 ## Hantera anpassade roller
 
-Du kan hantera dina anpassade roller på fliken _[!UICONTROL Roles]_, där du bland annat redigerar rollnamnet och beskrivningen och tar bort en roll från rolllistan. Klicka på menyikonen_ Mer _(**..**) bredvid namnet på scenmodellen och välj **[!UICONTROL Edit]**&#x200B;eller **[!UICONTROL Delete]**.
+Du kan hantera dina anpassade roller på fliken _[!UICONTROL Roles]_, där du bland annat redigerar rollnamnet och beskrivningen och tar bort en roll från rolllistan. Klicka på menyikonen_ Mer _(**..**) bredvid namnet på scenmodellen och välj **[!UICONTROL Edit]**eller **[!UICONTROL Delete]**.
 
 ![Redigera eller ta bort en anpassad roll](./assets/roles-more-menu.png){width="600"}

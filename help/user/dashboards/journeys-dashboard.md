@@ -1,12 +1,12 @@
 ---
 title: Kontrollpanel för översikt över kontoresor
-description: Lär dig mer om informationen som tillhandahålls av kontrollpanelen för översikt över resan och hur den kan hjälpa dig att övervaka och hantera strategin för kundresan.
+description: Följ kundens resa med hjälp av siffror för slutförandegrad, engagemang och kanaleffektivitet i Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -55,4 +55,4 @@ Välj **[!UICONTROL View more]** om du vill visa utökade data och insikter.
 
 Det visade popup-fönstret innehåller ett diagram och en tabell som visar hur reseinformationen har delats upp.
 
-Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** längst upp till höger i datatabellen. Klicka på **[!UICONTROL Close]** om du vill återgå till kontrollpanelen _Översikt_.
+Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** längst upp till höger i datatabellen. Klicka på _om du vill återgå till kontrollpanelen_&#x200B;Översikt **[!UICONTROL Close]**.
