@@ -22,7 +22,7 @@ Följande parametrar styr åtkomsten till AI Assistant i Journey Optimizer B2B e
 
 * **Kom åt programmet:** Du kan komma åt AI Assistant i Adobe Journey Optimizer B2B edition.
 
-* **Behörigheter:** Använd [Behörighetsgränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} för att bevilja eller återkalla åtkomst till AI Assistant i organisationen. Om du vill använda AI Assistant måste en viss användare tillhöra en roll som har konfigurerats med behörigheterna _[!UICONTROL Enable AI Assistant]_och_[!UICONTROL View Operational Insights]_.
+* **Behörigheter:** Använd [Behörighetsgränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} för att bevilja eller återkalla åtkomst till AI Assistant i organisationen. Om du vill använda AI Assistant måste en viss användare tillhöra en roll som har konfigurerats med behörigheterna _[!UICONTROL Enable AI Assistant]_&#x200B;och&#x200B;_[!UICONTROL View Operational Insights]_.
 
 Som administratör kan du:
 

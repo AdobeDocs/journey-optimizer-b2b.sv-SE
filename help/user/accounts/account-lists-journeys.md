@@ -41,9 +41,9 @@ Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa ko
 >
 >Om ett konto redan finns i listan när noden körs, ignoreras åtgärden.
 
-1. Välj alternativet _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
+1. Välj alternativet _[!UICONTROL Action on]_&#x200B;**[!UICONTROL Accounts]**.
 
-1. Välj _[!UICONTROL Action on accounts]_för **[!UICONTROL Add to account list]**.
+1. Välj _[!UICONTROL Action on accounts]_&#x200B;för **[!UICONTROL Add to account list]**.
 
    ![Välj Lägg till i kontolistan](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
 
@@ -63,9 +63,9 @@ Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa ko
 >
 >Om ett konto inte finns i listan där det är schemalagt för borttagning, ignoreras åtgärden.
 
-1. Välj alternativet _[!UICONTROL Action on]_**[!UICONTROL Accounts]**.
+1. Välj alternativet _[!UICONTROL Action on]_&#x200B;**[!UICONTROL Accounts]**.
 
-1. Välj _[!UICONTROL Action on accounts]_för **[!UICONTROL Remove from account list]**.
+1. Välj _[!UICONTROL Action on accounts]_&#x200B;för **[!UICONTROL Remove from account list]**.
 
    ![Välj Lägg till i kontolistan](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
@@ -77,7 +77,7 @@ Du kan till exempel ha en resa där du skickar ett e-postmeddelande och vissa ko
 
 Som marknadsförare kanske du vill inaktivera program i Marketo Engage för personer som ingår i kontolistor i Journey Optimizer B2B edition.
 
-I Marketo Engage-instansen som är ansluten till Journey Optimizer B2B edition kan du använda filtret _[!UICONTROL Member of Account List]_i dina smarta listor för att identifiera dessa leads enligt din kampanjstrategi. Mer information om smarta listor finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+I Marketo Engage-instansen som är ansluten till Journey Optimizer B2B edition kan du använda filtret _[!UICONTROL Member of Account List]_&#x200B;i dina smarta listor för att identifiera dessa leads enligt din kampanjstrategi. Mer information om smarta listor finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Lägga till filtret i en smart lista
 

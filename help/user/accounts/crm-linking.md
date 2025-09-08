@@ -148,7 +148,7 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
    ![Nytt fält för kontaktenhet](./assets/crm-linking-dynamics-url-field-new.png){width="800" zoomable="yes"}
 
 1. Spara fältkonfigurationen.
-1. Välj _[!UICONTROL Solution]_på fliken **[!UICONTROL Web Resources]**.
+1. Välj _[!UICONTROL Solution]_&#x200B;på fliken **[!UICONTROL Web Resources]**.
 1. Klicka på **[!UICONTROL New]** och konfigurera följande skriptwebbresurs (JScript):
 
    ```js
@@ -194,7 +194,7 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
 **3 - Lägg till JS-webbresursen i formulärbiblioteken**
 
-1. Klicka på _[!UICONTROL Home]_på fliken **[!UICONTROL Form Properties]**överst.
+1. Klicka på _[!UICONTROL Home]_&#x200B;på fliken **[!UICONTROL Form Properties]**&#x200B;överst.
 1. Klicka på **[!UICONTROL Add]**.
 
    ![Lägg till formuläregenskaper](./assets/crm-linking-dynamics-url-form-properties.png){width="500" zoomable="yes"}
@@ -203,15 +203,15 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
    ![Lägg till webbresursen](./assets/crm-linking-dynamics-url-form-field-libraries.png){width="500" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Add]** under _[!UICONTROL Event Handlers]_med den tillagda resursen markerad.
+1. Klicka **[!UICONTROL Add]** under _[!UICONTROL Event Handlers]_&#x200B;med den tillagda resursen markerad.
 1. Lägg till funktionen `setViewInAjoB2b` i **[!UICONTROL Event Handlers]**.
-1. Med funktionen markerad i listan _[!UICONTROL Event Handlers]_anger du **[!UICONTROL Control]**till `Form` och **[!UICONTROL Event]**till `OnLoad`.
+1. Med funktionen markerad i listan _[!UICONTROL Event Handlers]_&#x200B;anger du **[!UICONTROL Control]**&#x200B;till `Form` och **[!UICONTROL Event]**&#x200B;till `OnLoad`.
 
    ![Lägg till hanteraren](./assets/crm-linking-dynamics-url-handler-properties.png){width="500" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL OK]**.
 
-1. Klicka på _[!UICONTROL Home]_och sedan **[!UICONTROL Save]**på fliken **[!UICONTROL Publish]**överst.
+1. Klicka på _[!UICONTROL Home]_&#x200B;och sedan **[!UICONTROL Save]**&#x200B;på fliken **[!UICONTROL Publish]**&#x200B;överst.
 
 **4 - Verifiera länken**
 
@@ -235,7 +235,7 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
 1. Gå till **[!UICONTROL Advanced Settings]** > **[!UICONTROL Customize the system]** och välj fliken **[!UICONTROL Solution]**.
 
-1. Välj _[!UICONTROL Solution]_på fliken **[!UICONTROL Web Resources]**.
+1. Välj _[!UICONTROL Solution]_&#x200B;på fliken **[!UICONTROL Web Resources]**.
 
 1. Klicka på **[!UICONTROL New]** och konfigurera följande skriptwebbresurs (JScript) med följande funktion:
 
@@ -298,15 +298,15 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
    ![Lägg till webbresursen](./assets/crm-linking-dynamics-web-resources-add-form-property.png){width="500" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Add]** under _[!UICONTROL Event Handlers]_med den tillagda resursen markerad.
+1. Klicka **[!UICONTROL Add]** under _[!UICONTROL Event Handlers]_&#x200B;med den tillagda resursen markerad.
 1. Lägg till funktionen `getFormContext` i **[!UICONTROL Event Handlers]**.
-1. Med funktionen markerad i listan _[!UICONTROL Event Handlers]_anger du **[!UICONTROL Control]**till `Form` och **[!UICONTROL Event]**till `OnLoad`.
+1. Med funktionen markerad i listan _[!UICONTROL Event Handlers]_&#x200B;anger du **[!UICONTROL Control]**&#x200B;till `Form` och **[!UICONTROL Event]**&#x200B;till `OnLoad`.
 
    ![Lägg till hanteraren](./assets/crm-linking-dynamics-web-resources-handler-properties.png){width="500" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL OK]**.
 
-1. Klicka på _[!UICONTROL Home]_och sedan **[!UICONTROL Save]**på fliken **[!UICONTROL Publish]**överst.
+1. Klicka på _[!UICONTROL Home]_&#x200B;och sedan **[!UICONTROL Save]**&#x200B;på fliken **[!UICONTROL Publish]**&#x200B;överst.
 
 **3 - Konfigurera formuläret**
 
@@ -328,7 +328,7 @@ Följ den här åtgärdssekvensen för att lägga till den anpassade länken som
 
    ![Webbresursen har lagts till i sammanfattningsavsnittet i formuläret](./assets/crm-linking-dynamics-web-resource-layout-displayed.png){width="800" zoomable="yes"}
 
-1. Klicka på _[!UICONTROL Home]_och sedan **[!UICONTROL Save]**på fliken **[!UICONTROL Publish]**överst.
+1. Klicka på _[!UICONTROL Home]_&#x200B;och sedan **[!UICONTROL Save]**&#x200B;på fliken **[!UICONTROL Publish]**&#x200B;överst.
 
 **4 - Verifiera länken**
 
