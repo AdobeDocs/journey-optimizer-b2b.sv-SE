@@ -103,7 +103,7 @@ Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en
 
 >[!NOTE]
 >
->Aktiviteter för engagemangsmusik registreras i Marketo Engage aktivitetslogg för en person. Du kommer åt den här loggen i den anslutna Marketo Engage-instansen. Mer information finns i [Leta reda på aktivitetsloggen för en person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} i Marketo Engage-dokumentationen.
+>Aktiviteter för engagemangsmusik registreras i Marketo Engage aktivitetslogg för en person. Du kommer åt den här loggen i den anslutna Marketo Engage-instansen. Mer information finns i [Leta reda på aktivitetsloggen för en person](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} i Marketo Engage-dokumentationen.
 
 ## Viktning av rollmall {#engagement-score-weighting}
 

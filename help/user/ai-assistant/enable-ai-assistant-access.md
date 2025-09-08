@@ -22,7 +22,7 @@ Följande parametrar styr åtkomsten till AI Assistant i Journey Optimizer B2B e
 
 * **Kom åt programmet:** Du kan komma åt AI Assistant i Adobe Journey Optimizer B2B edition.
 
-* **Behörigheter:** Använd [Behörighetsgränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} för att bevilja eller återkalla åtkomst till AI Assistant i organisationen. Om du vill använda AI Assistant måste en viss användare tillhöra en roll som har konfigurerats med behörigheterna _[!UICONTROL Enable AI Assistant]_&#x200B;och&#x200B;_[!UICONTROL View Operational Insights]_.
+* **Behörigheter:** Använd [Behörighetsgränssnittet](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} för att bevilja eller återkalla åtkomst till AI Assistant i organisationen. Om du vill använda AI Assistant måste en viss användare tillhöra en roll som har konfigurerats med behörigheterna _[!UICONTROL Enable AI Assistant]_&#x200B;och&#x200B;_[!UICONTROL View Operational Insights]_.
 
 Som administratör kan du:
 
@@ -32,7 +32,7 @@ Som administratör kan du:
 
 ![Tilldela AI-assistentbehörigheter](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-Använd gränssnittet Behörigheter för att bevilja behörigheter att använda AI-assistenten i Journey Optimizer B2B edition. Information om hur du får åtkomst till AI Assistant i Experience Platform och andra Experience Cloud-program finns i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
+Använd gränssnittet Behörigheter för att bevilja behörigheter att använda AI-assistenten i Journey Optimizer B2B edition. Information om hur du får åtkomst till AI Assistant i Experience Platform och andra Experience Cloud-program finns i [Adobe Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 När användaren har de behörigheter som krävs kan han/hon få åtkomst till AI Assistant genom att markera ikonen _AI Assistant_ i det övre huvudet i programmet som du använder.
 
