@@ -180,4 +180,4 @@ Status för den dynamiska kontolistan ändras till _[!UICONTROL Live]_&#x200B;oc
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448653/?learn=on&captions=swe)

@@ -112,4 +112,4 @@ Mer information om aktiviteter och beräkningar finns i [Resultat för engageman
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452933/?learn=on&captions=swe)
