@@ -1,12 +1,12 @@
 ---
 title: SMS-redigering
-description: Lär dig hur du skickar textmeddelanden (SMS) till dina kunder på deras mobila enheter och hur du anpassar och förhandsgranskar meddelanden i textformat från SMS-redigeraren.
+description: Skapa SMS-meddelanden för kontoresor med personalisering, länkar och godkännandehantering - förhandsgranska innehåll och konfigurera leveransinställningar i Journey Optimizer B2B edition.
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ Innan du skapar SMS-meddelanden för kontoresor måste du kontrollera att [SMS-t
 
 Du kan ställa in textmeddelandeleveranser under en kontoresa när du lägger till en _[!UICONTROL Take an action]_-nod och gör följande:
 
-1. Välj **[!UICONTROL People]** för målet _[!UICONTROL Action on]_.
+1. Välj _[!UICONTROL Action on]_för målet **[!UICONTROL People]**.
 
-1. Välj **[!UICONTROL Send SMS]** för _[!UICONTROL Action on people]_.
+1. Välj _[!UICONTROL Action on people]_för **[!UICONTROL Send SMS]**.
 
    ![Vidta en åtgärd - skicka sms](assets/journey-node-send-sms.png){width="800" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Create SMS]** längst ned på panelen _[!UICONTROL Take an action]_.
+1. Klicka på _[!UICONTROL Take an action]_längst ned på panelen **[!UICONTROL Create SMS]**.
 
 1. Ange en unik **[!UICONTROL Name]** för SMS-meddelandet i dialogrutan.
 
@@ -65,7 +65,7 @@ Du kan skapa ett meddelande med upp till 1 600 tecken där var 160:e tecken betr
 
    ![Klicka på ellipserna om du vill använda ett reserv för token](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Enter fallback value]_&#x200B;anger du den text som visas som reserv och klickar sedan på&#x200B;**[!UICONTROL Add]**.
+1. I dialogrutan _[!UICONTROL Enter fallback value]_anger du den text som visas som reserv och klickar sedan på&#x200B;**[!UICONTROL Add]**.
 
    ![Ange grundtexten för token](./assets/sms-message-personalize-fallback-text.png){width="400"}
 
@@ -91,8 +91,8 @@ Du kan skapa ett meddelande med upp till 1 600 tecken där var 160:e tecken betr
 
      >[!NOTE]
      >
-     >När du tillåter spårning men inaktiverar _[!UICONTROL Include mkt_tok]_&#x200B;innehåller mål-URL:en inte frågesträngsparametern `mkt_tok` efter omdirigering. Den här parametern används av Marketo Engage landningssidor och Munchkin för att säkerställa att spårning av personaktiviteter (t.ex. när en person säger upp prenumerationen på ett e-postmeddelande) sker. Inaktivera inte det här alternativet om inte parametern orsakar problem på webbplatsen.<br/>
-     >Mer information om hur du använder Munchkin spårningskoder på din webbplats finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >När du tillåter spårning men inaktiverar _[!UICONTROL Include mkt_tok]_innehåller mål-URL:en inte frågesträngsparametern `mkt_tok` efter omdirigering. Den här parametern används av Marketo Engage landningssidor och Munchkin för att säkerställa att spårning av personaktiviteter (t.ex. när en person säger upp prenumerationen på ett e-postmeddelande) sker. Inaktivera inte det här alternativet om inte parametern orsakar problem på webbplatsen.<br/>
+     >Mer information om hur du använder Munchkin spårningskoder på din webbplats finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Dialogrutan Lägg till länk för SMS-meddelande](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -100,7 +100,7 @@ Du kan skapa ett meddelande med upp till 1 600 tecken där var 160:e tecken betr
 
 ### Ange SMS-egenskaper
 
-1. I avsnittet _[!UICONTROL SMS properties]_&#x200B;anger du **[!UICONTROL Name]**(obligatoriskt, högst 100 tecken) och **[!UICONTROL Description]**(valfritt, högst 300 tecken) för meddelandet.
+1. I avsnittet _[!UICONTROL SMS properties]_anger du **[!UICONTROL Name]**(obligatoriskt, högst 100 tecken) och **[!UICONTROL Description]**(valfritt, högst 300 tecken) för meddelandet.
 
    Alpha, numeriska specialtecken är tillåtna för dessa fält. Följande reserverade tecken är **inte tillåtna**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` och `|`.
 
@@ -124,7 +124,7 @@ Du kan skapa ett meddelande med upp till 1 600 tecken där var 160:e tecken betr
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Kontrollera hur innehållet renderar"
->abstract="När innehållet är definierat kan du förhandsgranska det och kontrollera återgivningen för den kanal som du använder."
+>abstract="När innehållet är definierat kan du förhandsgranska och kontrollera återgivningen för den kanal som du använder."
 
 När meddelandeinnehållet har definierats kan du använda testprofiler för att simulera (förhandsgranska) innehållet. Om du har infogat anpassat innehåll kan du kontrollera hur det här innehållet visas i meddelandet med hjälp av testprofildata.
 
@@ -134,7 +134,7 @@ När meddelandeinnehållet har definierats kan du använda testprofiler för att
 
 1. Klicka på **[!UICONTROL Simulate Content]** högst upp på SMS-redigeringsarbetsytan.
 
-1. Klicka på **[!UICONTROL Add People]** på sidan _[!UICONTROL Simulate Content]_.
+1. Klicka på _[!UICONTROL Simulate Content]_på sidan **[!UICONTROL Add People]**.
 
 1. Använd sidan _Simulera innehåll_ för att hantera leads som används för din testprofil.
 
@@ -154,7 +154,7 @@ När meddelandeinnehållet har definierats kan du använda testprofiler för att
 
    Du kan också välja en lead i väljaren ovanför förhandsvisningsområdet för att uppdatera SMS-förhandsgranskningen på sidan för motsvarande lead.
 
-1. Om du vill avsluta sidan _[!UICONTROL Simulate Content]_&#x200B;och gå tillbaka till SMS-redigeringsarbetsytan klickar du på&#x200B;**[!UICONTROL Close]**&#x200B;överst till höger.
+1. Om du vill avsluta sidan _[!UICONTROL Simulate Content]_och gå tillbaka till SMS-redigeringsarbetsytan klickar du på&#x200B;**[!UICONTROL Close]**överst till höger.
 
 ## Hantering av SMS-medgivande
 

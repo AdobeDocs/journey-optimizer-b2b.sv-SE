@@ -1,15 +1,16 @@
 ---
 title: Använd varumärken för generering och enhetlighet
-description: Läs mer om riktlinjer för varumärken som du kan definiera i Journey Optimizer B2B edition för att generera och optimera innehåll baserat på varumärkets stil och röst.
+description: Definiera varumärkesriktlinjer för enhetlig framtagning av innehåll - bibehåll visuell identitet, anpassning av meddelanden och autentisk röst i Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Kom igång med varumärken"
->abstract="Skapa och anpassa egna varumärken för att definiera din unika visuella och verbala identitet samtidigt som det blir enklare att generera innehåll som matchar din varumärkesstil och röst."
+>abstract="Skapa och anpassa era varumärken för att definiera er unika visuella och verbala identitet samtidigt som det blir enklare att generera innehåll som matchar er varumärkesstil och röst."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 Varumärken hjälper dig att definiera din _varumärkesidentitet_ och spelar en viktig roll när det gäller att skapa enhetligt och effektivt innehåll som korrekt representerar varumärkets identitet, värden och meddelanden. Genom att följa väldefinierade varumärkesstilar kan organisationer upprätthålla en sammanhängande och identifierbar varumärkesnärvaro i alla kanaler och vid alla kontaktytor, och stärka sitt varumärkesidentifiering, sitt förtroende och sin lojalitet bland målgrupperna.
 
-+++Fördelar med att använda varumärken
++++Fördelar med varumärken
 
 Organisationen kan få ett betydande värde genom att använda ett varumärke när den skapar och utvärderar innehåll, som:
 
@@ -72,9 +73,9 @@ Ett definierat varumärke ger _källan till sanning_ som ditt kreativa team kan 
 
 ## Märkesrelaterade behörigheter
 
-Produktadministratörer kan aktivera åtkomst till varumärkeshanteringsfunktioner och varumärkesjusteringsfunktioner genom att tilldela **[!UICONTROL Manage brand kit]**- eller **[!UICONTROL Enable AI assistant]**-resursbehörigheter via appen _Permissions_ i Adobe Experience Cloud.
+Produktadministratörer kan aktivera åtkomst till varumärkeshanteringsfunktioner och varumärkesjusteringsfunktioner genom att tilldela **[!UICONTROL Manage brand kit]**- eller **[!UICONTROL Enable AI assistant]**-resursbehörigheter via användargränssnittet för _Behörigheter_ i Adobe Experience Cloud.
 
-1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klicka på **[!UICONTROL Edit]** om du vill ändra behörigheterna.
 
@@ -94,9 +95,8 @@ Produktadministratörer kan aktivera åtkomst till varumärkeshanteringsfunktion
 
    * Ange användarnamn och e-postadress eller välj en befintlig användare i listan.
 
-     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klicka på **[!UICONTROL Save]** för att tillämpa ändringarna.
 
 >[!ENDSHADEBOX]
-

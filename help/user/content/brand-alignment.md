@@ -1,15 +1,16 @@
 ---
-title: Poäng för varumärkesjustering
-description: Lär dig skapa, validera och hantera varumärkesanpassat innehåll.
+title: Klassificering av varumärkesjustering
+description: Utvärdera e-postinnehåll med bedömning av varumärkesjustering - validera färger, teckensnitt, logotyper och skriva stil mot varumärkesriktlinjer i Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: b0b4359128d65c6e765af6d07db1bfeb26d4fbc9
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Poäng för varumärkesjustering"
->abstract="Poängen för varumärkesanpassning mäter hur väl ert innehåll följer varumärkesriktlinjerna och säkerställer enhetlighet när det gäller färger, teckensnitt, logotyp, bilder och stil."
+>abstract="Poängen för varumärkesanpassning mäter hur väl ert innehåll följer varumärkesriktlinjerna och säkerställer enhetlighet när det gäller färger, teckensnitt, logotyp, bilder och stilar."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"
