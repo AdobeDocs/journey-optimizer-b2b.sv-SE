@@ -157,4 +157,4 @@ Använd en raderingsåtgärd för att ta bort en resa permanent. Du kan inte ta 
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443211/?learn=on&captions=swe)
