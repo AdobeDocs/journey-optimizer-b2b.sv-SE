@@ -1,12 +1,12 @@
 ---
 title: Köpgrupper
-description: Förbättra kontobaserad marknadsföring med inköpsgrupper för att identifiera viktiga beslutsfattare, spåra engagemangsmätningar och målinrikta konton i Journey Optimizer B2B edition.
+description: Optimera kontobaserad marknadsföring med inköpsgrupper - identifiera beslutsfattare, spåra engagemangsmätningar och automatisera målinriktningen i Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ I kontot kan det finnas en delmängd av personer som utgör _köpgruppen_. Dessa
 
 ## Viktiga komponenter
 
-Ni kan öka marknadsföringens effektivitet genom att inrätta inköpsgrupper i Journey Optimizer B2B edition som identifierar medlemmar i era målkontolistor för de lösningar som era säljteam ansvarar för. Innan du och ditt marknadsföringsteam börjar skapa inköpsgrupper måste du se till att du har definierat nyckelkomponenterna. De här komponenterna är viktiga för att ni ska kunna uppnå era affärsmål.
+Ni kan öka marknadsföringens effektivitet genom att etablera inköpsgrupper som identifierar medlemmar för era målkontolistor för de lösningar som era säljteam ansvarar för. Innan du och ditt marknadsföringsteam börjar skapa inköpsgrupper måste du se till att du har definierat nyckelkomponenterna. De här komponenterna är viktiga för att ni ska kunna uppnå era affärsmål.
 
 | Komponent | Syfte |
 | --------- | ------- |
@@ -72,7 +72,7 @@ För att undvika att en medlemsuppgift åsidosätts felaktigt i en inköpsgrupp 
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
@@ -84,7 +84,7 @@ Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -112,4 +112,4 @@ Mer information om aktiviteter och beräkningar finns i [Resultat för engageman
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3452933/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

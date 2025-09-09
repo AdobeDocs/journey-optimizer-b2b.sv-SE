@@ -1,12 +1,12 @@
 ---
 title: Målgruppsnoder för konto
-description: Lär dig mer om vilken typ av kontomålsnod du kan använda för att definiera indata för kontoresor i Journey Optimizer B2B edition.
+description: Konfigurera noder för kontomålgrupper eller kontolistor för att definiera ingångspunkter för kundresor för riktad samordning i Journey Optimizer B2B edition.
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: 82553c9ee6205e0ad47cc5a56112590471c03d0e
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Använd något av följande indataalternativ för den här kundnoden:
 
      Välj alternativ för målgrupp. Klicka sedan på **[!UICONTROL Add account audience]**.
 
-     I dialogrutan _[!UICONTROL Add audience]_&#x200B;väljer du ett tidigare skapat målgruppssegment. Klicka sedan på&#x200B;**[!UICONTROL Add audience]**.
+     I dialogrutan _[!UICONTROL Add audience]_väljer du ett tidigare skapat målgruppssegment. Klicka sedan på&#x200B;**[!UICONTROL Add audience]**.
 
      ![Välj ett målgruppssegment för noden](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
@@ -55,4 +55,4 @@ Använd något av följande indataalternativ för den här kundnoden:
 
    ![Skapa ett målgruppssegment](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Följ stegen i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
+1. Följ stegen i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.

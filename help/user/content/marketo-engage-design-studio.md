@@ -1,12 +1,12 @@
 ---
 title: Arbeta med Marketo Engage Assets
-description: Läs om hur du använder Marketo Engage Design Studio-mediehanteringsintegrering i Journey Optimizer B2B edition.
+description: Sök, hantera och använd Marketo Engage Design Studio-material i Journey Optimizer B2B edition - ordna arbetsytor, redigera bilder och skapa material för kontouppgifter.
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1903'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ På listsidan _Assets_ kan du lägga till bildresurser på arbetsytan i Journey 
 
 1. Klicka på **[!UICONTROL Add Assets]** överst till höger.
 
-1. I dialogrutan _[!UICONTROL Add assets]_&#x200B;drar och släpper du en eller flera filer från systemet till filrutan.
+1. I dialogrutan _[!UICONTROL Add assets]_drar och släpper du en eller flera filer från systemet till filrutan.
 
    ![Lägg till resurser på en arbetsyta](./assets/assets-add-dialog.png){width="500"}
 
-   Du kan också klicka på länken _[!UICONTROL Select a file from your computer]_&#x200B;om du vill använda ditt lokala filsystem för att söka efter och välja filer.
+   Du kan också klicka på länken _[!UICONTROL Select a file from your computer]_om du vill använda ditt lokala filsystem för att söka efter och välja filer.
 
    Du kan överföra resurser från ditt lokala system på upp till 10 filer i taget. Den maximala filstorleken är 100 MB.
 
@@ -86,7 +86,7 @@ På listsidan _Assets_ kan du lägga till bildresurser på arbetsytan i Journey 
 
    >[!NOTE]
    >
-   >Om du väljer en plats på arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;kan du hantera resursen i appen. Om du lägger till resursen på en Marketo Engage-arbetsyta är resurshanteringsfunktionerna bara tillgängliga från Marketo Engage Design Studio.
+   >Om du väljer en plats på arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_kan du hantera resursen i appen. Om du lägger till resursen på en Marketo Engage-arbetsyta är resurshanteringsfunktionerna bara tillgängliga från Marketo Engage Design Studio.
 
 1. Om du vill skriva över (ersätta) filer när du överför en eller flera filer med ett befintligt filnamn markerar du kryssrutan **[!UICONTROL Overwrite existing files]**.
 
@@ -102,13 +102,13 @@ Använd någon av följande metoder för att ta bort en resurs som finns på arb
 
   ![Åtkomståtgärder för resursen](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
-* Klicka på ikonen _[!UICONTROL Assets]_&#x200B;Mer_ (_) bredvid resursobjektet på listsidan **[!UICONTROL ...]**&#x200B;och välj **[!UICONTROL Delete]**&#x200B;bland alternativen.
+* Klicka på ikonen _[!UICONTROL Assets]_Mer_ (_) bredvid resursobjektet på listsidan **[!UICONTROL ...]**och välj **[!UICONTROL Delete]**bland alternativen.
 
   ![Åtkomståtgärder för resursen](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
   >[!NOTE]
   >
-  >Endast resurser som finns på arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;har funktioner för resurshantering tillgängliga på menyn_ Mer _.
+  >Endast resurser som finns på arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_har funktioner för resurshantering tillgängliga på menyn_ Mer _.
 
 Åtgärden öppnar en bekräftelsedialogruta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]** eller klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
@@ -120,15 +120,15 @@ Använd någon av följande metoder för att ersätta en resurs som finns på ar
 
 * Gå till resursinformationen, klicka på **[!UICONTROL ... More]** längst upp till höger och välj **[!UICONTROL Replace]** bland alternativen.
 
-* Klicka på ikonen _[!UICONTROL Assets]_&#x200B;Mer_ (_) bredvid resursobjektet på listsidan **[!UICONTROL ...]**&#x200B;och välj **[!UICONTROL Replace]**&#x200B;bland alternativen.
+* Klicka på ikonen _[!UICONTROL Assets]_Mer_ (_) bredvid resursobjektet på listsidan **[!UICONTROL ...]**och välj **[!UICONTROL Replace]**bland alternativen.
 
-I dialogrutan _[!UICONTROL Replace asset]_&#x200B;drar och släpper du ersättningsfilen från systemet till filrutan. Du kan också klicka på länken&#x200B;_[!UICONTROL Select a file from your computer]_ om du vill använda det lokala filsystemet för att välja en fil. (Om du markerar flera filer i det lokala systemet används den första filen som är markerad för att ersätta dem.)
+I dialogrutan _[!UICONTROL Replace asset]_drar och släpper du ersättningsfilen från systemet till filrutan. Du kan också klicka på länken_[!UICONTROL Select a file from your computer]_ om du vill använda det lokala filsystemet för att välja en fil. (Om du markerar flera filer i det lokala systemet används den första filen som är markerad för att ersätta dem.)
 
 ![Dialogrutan Ersätt resurs](./assets/assets-replace-dialog.png){width="500"}
 
 Klicka på **[!UICONTROL Replace]** om du vill fortsätta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]**.
 
-Om filen som ska ersättas används visas en informationsdialogruta som informerar dig om att den nya bildfilen ersätter bilden på alla platser där den används (e-post, e-postmallar och fragment).
+Om filen som ska ersättas används visas en dialogruta som meddelar dig om att den nya bildfilen ersätter bilden där den används (e-post, e-postmallar och fragment).
 
 ## Hämta resurser
 
@@ -136,7 +136,7 @@ Du kan hämta en resurs på något av följande sätt:
 
 * Gå till resursinformationen och klicka på **[!UICONTROL Download]** längst upp till höger.
 
-* Klicka på _[!UICONTROL Assets]_&#x200B;Ellipsen_ (_) bredvid resursobjektet på listsidan **[!UICONTROL ...]**&#x200B;och välj **[!UICONTROL Download]**&#x200B;bland alternativen.
+* Klicka på _[!UICONTROL Assets]_Ellipsen_ (_) bredvid resursobjektet på listsidan **[!UICONTROL ...]**och välj **[!UICONTROL Download]**bland alternativen.
 
 I bekräftelsedialogrutan klickar du på **[!UICONTROL Download]** för att påbörja hämtningen av resursen till ditt lokala system. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]**.
 
@@ -156,7 +156,7 @@ Du kan utföra följande gruppåtgärder för markerade resurser på arbetsytan 
 
 1. Välj en mapp.
 
-   Sökvägen bredvid _[!UICONTROL Selected assets will move to:]_&#x200B;reflekterar ändringen.
+   Sökvägen bredvid _[!UICONTROL Selected assets will move to:]_reflekterar ändringen.
 
 1. Klicka på **[!UICONTROL Move]**.
 
@@ -178,7 +178,7 @@ Du kan utföra följande gruppåtgärder för markerade resurser på arbetsytan 
 
 ## Skapa en mapp
 
-1. Klicka på _[!UICONTROL Assets]_&#x200B;överst till höger på listsidan **[!UICONTROL Create Folder]**.
+1. Klicka på _[!UICONTROL Assets]_överst till höger på listsidan **[!UICONTROL Create Folder]**.
 
 1. Ange mappnamnet i dialogrutan och välj målmappen (överordnad) för den nya mappen.
 
@@ -190,13 +190,13 @@ Du kan utföra följande gruppåtgärder för markerade resurser på arbetsytan 
 
 ## Använda åtgärder på mappnivå
 
-I arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_&#x200B;kan du tillämpa åtgärder på en mapp eller resurser i mappen. Klicka på ikonen_ Mer _(**..**) bredvid mappen för att visa de åtgärder som du kan tillämpa på den.
+I arbetsytan _[!UICONTROL Journey Optimizer B2B Edition]_kan du tillämpa åtgärder på en mapp eller resurser i mappen. Klicka på ikonen_ Mer _(**..**) bredvid mappen för att visa de åtgärder som du kan tillämpa på den.
 
 ![Tillämpa åtgärder på en mapp eller resurser i mappen](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 Du kan utföra följande åtgärder på mappnivå:
 
-+++Lägg till resurser
++++Lägga till resurser
 
 1. Välj **[!UICONTROL Add assets]** om du vill överföra bildfiler till mappen.
 
@@ -270,7 +270,7 @@ Om du arkiverar en mapp blir filerna i den inte sökbara. Använd arkivfunktione
 
 Assets kan användas i teamets e-post, e-postmall eller visuella fragmentredigering från den visuella innehållsredigeraren.
 
-I det visuella designergränssnittet väljer du ikonen _Marketo Engage Assets_ ( ![Marketo Engage Assets-ikon](../../assets/do-not-localize/icon-assets-me.svg) ) på vänster sidofält.
+Välj ikonen _Marketo Engage Assets_ ( ![Marketo Engage Assets-ikon ](../../assets/do-not-localize/icon-assets-me.svg) ) på vänster sidofält i den visuella designrymden.
 
 Den här åtgärden ändrar verktygspanelen som visar en strukturerad lista över tillgängliga resurser på den valda arbetsytan. Välj den arbetsyta som du vill visa för att välja en resurs.
 

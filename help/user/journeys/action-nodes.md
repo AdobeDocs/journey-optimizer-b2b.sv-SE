@@ -1,12 +1,12 @@
 ---
 title: Gör något
-description: Läs mer om nodtypen Ta en åtgärd som du kan använda för att samordna dina kontoresor i Journey Optimizer B2B edition.
+description: Konfigurera åtgärdsnoder för konto- och personåtgärder - skicka e-post, uppdatera inköpsgrupper, ändra poäng och integrera med Marketo Engage i Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: e42367fad7247446c414a3b6b7a75573806d62cb
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -96,11 +96,11 @@ Använd den här åtgärden för att skicka människor till en extern publik som
 
 ![Vidta en åtgärd - Lägg till för extern kundpublik](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-När du väljer den här personbaserade åtgärden kan du skapa en ny extern målgrupp eller välja från en befintlig extern målgrupp. För befintliga målgrupper kan ni välja bland externa kundmålgrupper som bara har skapats i Journey Optimizer B2B edition. När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i Experience Platform-dokumentationen.
+När du väljer den här personbaserade åtgärden kan du skapa en ny extern målgrupp eller välja från en befintlig extern målgrupp. För befintliga målgrupper kan ni välja bland externa kundmålgrupper som bara har skapats i Journey Optimizer B2B edition. När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i Experience Platform-dokumentationen.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Titta på en videoöversikt för betald mediasamordning](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
-_Så här skapar du en extern målgrupp:_
+_Skapa en extern publik :_
 
 1. Välj **[!UICONTROL Create new]**.
 
@@ -118,7 +118,7 @@ _Så här skapar du en extern målgrupp:_
    >
    >När en ny extern kundpublik skapas från Journey Optimizer B2B edition dirigeras den med en dummy-post (`test@email.com`). Den här posten skrivs över så snart den första riktiga profilen läggs till den externa publiken från resan.
 
-_Så här använder du en befintlig målgrupp:_
+_Använd en befintlig målgrupp :_
 
 1. Klicka på **[!UICONTROL Select external customer audience]**.
 
@@ -148,7 +148,7 @@ Använd den här åtgärden om du vill ändra värdet för ett [personprofilattr
 
 +++[!UICONTROL Change Score]
 
-Använd den här åtgärden om du vill ändra personpoängen i Marketo Engage. [Läs mer](https://experienceleague.adobe.com/sv/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Använd den här åtgärden om du vill ändra personpoängen i Marketo Engage. [Läs mer](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Vidta en åtgärd - Ändra poäng](./assets/node-action-change-score.png){width="300"}
 
@@ -156,7 +156,7 @@ Använd den här åtgärden om du vill ändra personpoängen i Marketo Engage. [
 
 +++[!UICONTROL Person Interesting Moment]
 
-Använd den här åtgärden för att logga en intressant stund för personprofiler. Välj en typ (E-post, Milstolpe eller Webb) och lägg till en beskrivning (valfritt).
+Använd den här åtgärden för att logga ett intressant ögonblick för människor. Välj en typ (E-post, Milstolpe eller Webb) och lägg till en beskrivning (valfritt).
 
 ![Vidta en åtgärd - Personens intressanta ögonblick](./assets/node-action-person-interesting-moment.png){width="300"}
 
@@ -172,7 +172,7 @@ Använd den här åtgärden om du vill ta bort personprofiler från en [inköpsg
 
 +++[!UICONTROL Send email]
 
-Använd den här åtgärden om du vill skicka ett e-postmeddelande. När du har [skapat e-postmeddelandet](../content/add-email.md#add-an-email-to-your-journey) för noden kan du utforma, anpassa och förhandsgranska e-postmeddelanden i e-postdesignområdet (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan i Marketo Engage och välj sedan det e-postmeddelande som du vill skicka.
+Använd den här åtgärden om du vill skicka ett e-postmeddelande. När du har [skapat e-postmeddelandet](../content/add-email.md#add-an-email-to-your-journey) för noden kan du utforma, anpassa och förhandsgranska e-postmeddelanden i e-postdesignområdet (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan i Marketo Engage och välj sedan det e-postmeddelande som du vill skicka.
 
 ![Vidta en åtgärd - Skicka e-post](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -180,7 +180,7 @@ Använd den här åtgärden om du vill skicka ett e-postmeddelande. När du har 
 
 +++[!UICONTROL Send SMS]
 
-Använd den här åtgärden om du vill skicka ett SMS-meddelande. Du kan skapa, anpassa och förhandsgranska SMS-meddelanden i den visuella designern (se [SMS-redigering](../content/sms-authoring.md)).
+Använd den här åtgärden om du vill skicka ett SMS-meddelande. Du kan skapa, anpassa och förhandsgranska SMS-meddelanden i den visuella designrymden (se [SMS-redigering](../content/sms-authoring.md)).
 
 ![Vidta en åtgärd - Skicka SMS](./assets/node-action-send-sms.png){width="300"}
 
@@ -192,7 +192,7 @@ Marketo Engage personbaserade åtgärder är utformade för att samordna er kont
 
 +++[!UICONTROL Add to list]
 
-Använd den här åtgärden om du vill lägga till personer i en [statisk lista](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage.
+Använd den här åtgärden om du vill lägga till personer i en [statisk lista](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage.
 
 Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan listnamnet.
 
@@ -202,7 +202,7 @@ Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan l
 
 +++[!UICONTROL Add to Marketo Request campaign]
 
-Använd den här åtgärden om du vill lägga till personprofiler i en [begärankampanj](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} i Marketo Engage.
+Använd den här åtgärden om du vill lägga till personprofiler i en [begärankampanj](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} i Marketo Engage.
 
 Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan kampanjnamnet för begäran.
 
@@ -212,7 +212,7 @@ Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan k
 
 +++[!UICONTROL Change people partition in Marketo Engage]
 
-Använd den här åtgärden om du vill ändra [personpartitionen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} i Marketo Engage.
+Använd den här åtgärden om du vill ändra [personpartitionen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} i Marketo Engage.
 
 ![Vidta en åtgärd - Ändra personpartition i Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
 
@@ -220,7 +220,7 @@ Använd den här åtgärden om du vill ändra [personpartitionen](https://experi
 
 +++[!UICONTROL Remove from list]
 
-Använd den här åtgärden om du vill ta bort personer från en [statisk lista](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage. Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan listnamnet.
+Använd den här åtgärden om du vill ta bort personer från en [statisk lista](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage. Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan listnamnet.
 
 ![Vidta en åtgärd - Ta bort från listan](./assets/node-action-remove-from-list-options.png){width="300"}
 
@@ -230,4 +230,4 @@ Om personprofilen inte var medlem i den smarta listan ignoreras åtgärden.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443249/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

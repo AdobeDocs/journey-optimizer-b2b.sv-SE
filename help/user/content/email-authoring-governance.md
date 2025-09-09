@@ -1,19 +1,19 @@
 ---
 title: Skapa från en styrd mall
-description: Lär dig hur du använder e-postredigering med en styrd mall som innehåller låsta innehållskomponenter.
+description: Skapa e-post från styrda mallar med låst innehåll - identifiera redigerbara områden och arbeta inom styrningsbegränsningar i Journey Optimizer B2B edition.
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # Författare från en styrd mall
 
-Innehållsdesigners kan aktivera [styrning (_innehållslås_)](./template-content-governance.md) när de skapar e-postmallar. Styrningsfunktioner gör det möjligt för dem att ange vilka delar av designen som inte kan ändras när de används på en kontoresa. När du [väljer en sparad mall](./email-authoring.md#select-a-template) för att skapa ett e-postmeddelande läser den visuella designern in mallen så att du kan använda den som grund för e-postmeddelandet.
+Innehållsdesigners kan aktivera [styrning (_innehållslås_)](./template-content-governance.md) när de skapar e-postmallar. Styrningsfunktioner gör det möjligt för dem att ange vilka delar av designen som inte kan ändras när de används på en kontoresa. När du [väljer en sparad mall](./email-authoring.md#select-a-template) för att skapa ett e-postmeddelande, läses mallen in av det visuella designområdet så att du kan använda den som grund för e-postmeddelandet.
 
 Om mallen har styrning aktiverad visas en varning på egenskapspanelen till höger. Du kan aktivera **[!UICONTROL Highlight editable areas]** högst upp på arbetsytan för att se vilka komponenter och innehållselement som kan redigeras under din resa.
 

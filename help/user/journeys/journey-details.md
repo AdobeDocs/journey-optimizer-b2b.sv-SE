@@ -1,19 +1,19 @@
 ---
 title: Resedetaljer
-description: Lär dig mer om informationen på sidan med kundinformation och hur den kan hjälpa dig att övervaka och hantera din publicerade kontoresa.
+description: Övervaka kundresan med hjälp av siffror för slutförande, engagemang, e-post-/SMS-analyser och AI-insikter i Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Resedetaljer
 
-När du klickar på namnet för en aktiv kontoresa visas reseinformationen. Fliken _[!UICONTROL Overview]_&#x200B;innehåller användbar information om resan, inklusive generativa AI-sammanfattningar.
+När du klickar på namnet för en aktiv kontoresa visas reseinformationen. Fliken _[!UICONTROL Overview]_innehåller användbar information om resan, inklusive generativa AI-sammanfattningar.
 
 Den här instrumentpanelen ger en omfattande översikt över en vald kontoresa, med detaljerad information om kontostatus med hjälp av cirkel- och linjediagram som kategoriserar och kvantifierar slutföranden, pågående aktiviteter och avbryter över tid. Det hjälper marknadsförarna att utvärdera hur effektiva e-post- och SMS-kanalerna är med hjälp av nyckeltal för leverans och engagemang.
 
@@ -69,7 +69,7 @@ Engagera dig ytterligare med data genom att använda åtgärdsikonen (**...**) i
 
 ### Detaljgranskning
 
-För diagrammet _[!UICONTROL Journey status]_&#x200B;väljer du **[!UICONTROL Drill through]**&#x200B;för en ingående analys av enskilda kontostatusar.
+För diagrammet _[!UICONTROL Journey status]_väljer du **[!UICONTROL Drill through]**för en ingående analys av enskilda kontostatusar.
 
 ![Detaljnivån för diagramdata](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
@@ -81,4 +81,4 @@ Välj **[!UICONTROL View more]** om du vill komma åt utökade data. Det visade 
 
 ![Visa utökade data](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
-Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** längst upp till höger i datatabellen. Klicka på **[!UICONTROL Close]** om du vill återgå till kontrollpanelen _Översikt_.
+Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** längst upp till höger i datatabellen. Klicka på _om du vill återgå till kontrollpanelen_&#x200B;Översikt **[!UICONTROL Close]**.

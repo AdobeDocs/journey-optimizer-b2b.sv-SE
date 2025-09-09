@@ -1,12 +1,12 @@
 ---
 title: Styrning av mallinnehåll
-description: Lär dig hur du låser innehållselement i e-postmallar så att du kan styra hur de kan ändras för användning på kontoresor.
+description: Lås e-postmallskomponenter för varumärkeskompatibilitet - ange styrningslägen, kontrollera redigering av innehåll och hantera behörigheter för kontouppsättare i Journey Optimizer B2B edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -19,21 +19,21 @@ Du kan till exempel låsa sidhuvudet och sidfoten som är utformad för kontinui
 
 ## Aktivera innehållsstyrning för mallen
 
-När du har använt den visuella designern för att [redigera struktur- och innehållskomponenterna](./email-template-authoring.md) för din e-postmall aktiverar du styrning och tillämpar specifik innehållslåsning efter behov.
+När du har använt det visuella designområdet för att [redigera struktur- och innehållskomponenterna](./email-template-authoring.md) för din e-postmall aktiverar du styrning och tillämpar specifikt innehåll som låses efter behov.
 
-1. I den visuella designern kommer du åt lager/behållare och element med hjälp av _navigeringsträdet_.
+1. I det visuella designområdet kan du komma åt lager/behållare och element med hjälp av _navigeringsträdet_.
 
    Klicka på ikonen _Navigeringsträd_ ( ![länkikon](../assets/do-not-localize/icon-navigation-tree.svg) ) till vänster om arbetsytan för att visa trädet.
 
 1. Markera rotkomponenten **[!UICONTROL Body]** i trädet.
 
-   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_&#x200B;som standard.
+   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_som standard.
 
 1. Aktivera alternativet **[!UICONTROL Governance]**.
 
    ![Aktivera styrning för en e-postmall](./assets/governance-template-enable.png){width="800" zoomable="yes"}
 
-   När det här alternativet är aktiverat är standardvärdet _[!UICONTROL Mode]_&#x200B;**[!UICONTROL Read only]**. När det här läget är inställt på rotnivån är alla element i mallen låsta. Trädstrukturen till vänster visar ikonen_ Skrivskyddad _( ![Skrivskyddad ikon](../assets/do-not-localize/icon-tree-lock.svg) ) bredvid roten och alla underordnade element.
+   När det här alternativet är aktiverat är standardvärdet _[!UICONTROL Mode]_**[!UICONTROL Read only]**. När det här läget är inställt på rotnivån är alla element i mallen låsta. Trädstrukturen till vänster visar ikonen_ Skrivskyddad _( ![Skrivskyddad ikon](../assets/do-not-localize/icon-tree-lock.svg) ) bredvid roten och alla underordnade element.
 
 1. Om du vill aktivera specifikt innehåll som låses i mallen ändrar du **[!UICONTROL Mode]** till **[!UICONTROL Content locking]**.
 
@@ -67,7 +67,7 @@ Om du använder en låstyp på strukturnivån får du en standardinställning f�
 
 1. Markera strukturen i trädet.
 
-   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_&#x200B;som standard.
+   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_som standard.
 
 1. Ange **[!UICONTROL Lock type]**:
 
@@ -81,7 +81,7 @@ Om du använder en låstyp på strukturnivån får du en standardinställning f�
 
 1. Markera komponenten i trädet.
 
-   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_&#x200B;som standard.
+   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_som standard.
 
 1. Aktivera alternativet **[!UICONTROL Use specific locking]**.
 

@@ -1,11 +1,11 @@
 ---
 title: Adobe Journey Optimizer B2B edition - översikt
-description: Upptäck funktioner för Adobe Journey Optimizer B2B-versionen, användningsfall och arkitekturer.
+description: Läs om Adobe Journey Optimizer B2B edition - samordna kontoresor med inköpsgrupper, AI-insikter och Experience Platform-integrering för B2B-marknadsföring.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: 5ca03b12fd459c64b245ad95e60a382c355922f9
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 5%
+source-wordcount: '819'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B edition använder _Account Audiences_ och _People Au
 
 >[!NOTE]
 >
->Kontrollera dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaresäkerhetsskydd och statiska begränsningar.
+>Kontrollera dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaskydd och statiska begränsningar.
 
 ### Prenumerationsmodell
 

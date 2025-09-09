@@ -1,12 +1,12 @@
 ---
 title: E-postmeddelande om försäljning
-description: Lär dig hur du tar med ett automatiskt försäljningsmeddelande i dina kontoresor.
+description: Konfigurera e-postmeddelanden om försäljning på kontoresor för att meddela säljarna - innehåller sammanfattningar av inköpsgrupper, AI-insikter och medlemsinformation i Journey Optimizer B2B edition.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Som marknadsförare kan du konfigurera en e-postnod för försäljningsavisering
 
 ## E-postinnehåll
 
-+++Exempel på försäljningsmeddelande via e-post
++++Exempel på e-postavisering om försäljning
 ![Exempel på ett e-postmeddelande om försäljning med standardmallen](./assets/sales-alert-email-example.png){width="500" zoomable="yes"}
 
 +++
@@ -55,9 +55,9 @@ Som marknadsförare kan du konfigurera en e-postnod för försäljningsavisering
 
 Du kan konfigurera e-postleveranser för försäljningsaviseringar under en kontoresa när du lägger till en _[!UICONTROL Take an action]_-nod och gör följande:
 
-1. Välj **[!UICONTROL Account]** för målet _[!UICONTROL Action on]_.
+1. Välj _[!UICONTROL Action on]_för målet **[!UICONTROL Account]**.
 
-1. Välj **[!UICONTROL Send Sales Alert]** för _[!UICONTROL Action on accounts]_.
+1. Välj _[!UICONTROL Action on accounts]_för **[!UICONTROL Send Sales Alert]**.
 
 1. För **[!UICONTROL Select solution interest]** väljer du det lösningsintresse som ska användas för det genererade e-postinnehållet.
 
@@ -65,4 +65,4 @@ Du kan konfigurera e-postleveranser för försäljningsaviseringar under en kont
 
    ![Skapa ny e-postdialogruta](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   När kontoresan har publicerats levereras försäljningsvarningen enligt dessa parametrar.
+   När kontoresan är live skickas försäljningsvarningen enligt dessa parametrar.

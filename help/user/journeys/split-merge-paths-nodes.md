@@ -1,19 +1,19 @@
 ---
 title: Dela och sammanfoga banor
-description: Lär dig mer om delade sökvägar och nodtyper för sammanslagningssökvägar som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
+description: Skapa delade och sammanfoga bannoder till segmentkonton och personer med villkorslogik, filtrera genom att köpa grupper och kombinera banor på nytt i Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1948'
 ht-degree: 0%
 
 ---
 
 # Dela och sammanfoga banor
 
-Använd delade och sammanfogade sökvägsnoder i kontoresan för att segmentera personer eller konton enligt de villkor som du anger. Du kan definiera sökvägar för kundresan eller kontolistan utifrån villkoren, definiera varje väg med action- och event-noder för varje segment och sedan kombinera sökvägarna och fortsätta resan vidare.
+Använd delade och sammanfoga bannoder för att segmentera personer eller konton enligt de villkor som du anger. Skapa sökvägar för målgruppen eller kontolistan utifrån villkor, definiera varje bana med action- och event-noder för segmentet och kombinera sedan banorna och fortsätt kundresan.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
@@ -27,7 +27,7 @@ En _delad banor_-nod definierar en eller flera segmenterade banor som baseras p�
 
 Sökvägar som delas efter konton kan innehålla både konto- och personåtgärder samt händelser. Dessa banor kan delas upp ytterligare.
 
-_&#x200B;**Så här fungerar en delad sökväg efter kontonod**&#x200B;_
+_**Så här fungerar en delad sökväg efter kontonod**_
 
 * Varje sökväg som du lägger till innehåller en slutnod med möjlighet att lägga till noder i varje kant.
 * Dela efter kontonoder kan kapslas (du kan dela upp sökvägen efter konton flera gånger).
@@ -42,7 +42,7 @@ _&#x200B;**Så här fungerar en delad sökväg efter kontonod**&#x200B;_
 | Sökvillkor | Beskrivning |
 | --------------- | ----------- |
 | Kontoattribut | Attribut från kontoprofilen, inklusive: <li>Årliga intäkter <li>Ort <li>Land <li>Medarbetarstorlek <li>Bransch <li>Namn <li>SIC-kod <li>Stat |
-| [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Kontot har eller saknar medlemmar i inköpsgrupper. Kan även utvärderas mot ett eller flera av följande kriterier: <li>Intresse av lösningar <li>Status för inköpsgrupp <li>Slutförandepoäng <li>Engagement Score |
+| [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Kontot har eller saknar medlemmar i inköpsgrupper. Den kan också utvärderas mot ett eller flera av följande kriterier: <li>Intresse av lösningar <li>Status för inköpsgrupp <li>Slutförandepoäng <li>Engagement Score |
 
 ### Lägg till en delad sökväg efter kontonod
 
@@ -54,7 +54,7 @@ _&#x200B;**Så här fungerar en delad sökväg efter kontonod**&#x200B;_
 
 1. I nodegenskaperna till höger väljer du **[!UICONTROL Accounts]** för delningen.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
    ![Delad sökvägsnod - lägg till villkor](./assets/node-split-properties-apply-condition.png){width="500"}
 
@@ -88,7 +88,7 @@ _&#x200B;**Så här fungerar en delad sökväg efter kontonod**&#x200B;_
 
 Delade efter personsökvägar kan endast innehålla personåtgärder. Dessa banor kan inte delas igen och kopplas automatiskt tillbaka.
 
-_&#x200B;**Så här fungerar en delad sökväg med personnod**&#x200B;_
+_**Så här fungerar en delad sökväg med personnod**_
 
 * Dela efter personnoder i en _grupperad nod_, delad sammanslagning. De delade banorna sammanfogas automatiskt så att alla kan gå vidare till nästa steg utan att kontextkontexten försvinner.
 * Delning efter personnoder kan inte kapslas (du kan inte lägga till en delad sökväg för personer på en sökväg som finns i den här grupperade noden).
@@ -137,7 +137,7 @@ _&#x200B;**Så här fungerar en delad sökväg med personnod**&#x200B;_
    * Välj **[!UICONTROL People attributes only]** om du vill använda villkor som är relaterade till personprofilen.
    * Välj **[!UICONTROL Account-person attributes only]** om du vill använda villkor som är relaterade till personens rollmedlemskap i ett konto.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
 1. I villkorsredigeraren lägger du till ett eller flera filter för att definiera den delade banan.
 
@@ -183,7 +183,7 @@ För en delad bana som användarna delar kan du definiera en sökväg enligt per
 
 >[!BEGINSHADEBOX &quot;Inaktivitetsfiltrering&quot;]
 
-För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alternativet **[!UICONTROL Switch to inactivity filter]**. Med det här alternativet ändras filtret till en utvärdering för en frånvaro av den aktivitetstypen. Om du till exempel vill skapa en sökväg för personer som _&#x200B;**inte**&#x200B;_öppnade ett e-postmeddelande tidigare under resan lägger du till filtret&#x200B;_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_. Aktivera alternativet för inaktivitet och ange e-postadressen. Det är en god vana att använda begränsningen&#x200B;_[!UICONTROL Date of activity]_ för att definiera en tidsperiod för inaktiviteten.
+För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alternativet **[!UICONTROL Switch to inactivity filter]**. Med det här alternativet ändras filtret till en utvärdering för en frånvaro av den aktivitetstypen. Om du till exempel vill skapa en sökväg för personer som _**inte**_öppnade ett e-postmeddelande tidigare under resan lägger du till filtret_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_. Aktivera alternativet för inaktivitet och ange e-postadressen. Det är en god vana att använda begränsningen_[!UICONTROL Date of activity]_ för att definiera en tidsperiod för inaktiviteten.
 
 ![Delad sökväg efter personer - villkor för att köpa gruppmedlemskap](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -191,7 +191,7 @@ För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alt
 
 ### filtrering av medlemskap
 
-I avsnittet _[!UICONTROL Special Filters]_&#x200B;finns det flera filter som du kan använda för att utvärdera en persons medlemskap i en inköpsgrupp eller Marketo Engage-lista. Om du till exempel vill skapa en sökväg för personer som är medlemmar i en inköpsgrupp och har tilldelats en viss roll, lägger du till filtret&#x200B;_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_. För filtret anger du medlemskapet som_ true _, väljer en&#x200B;_[!UICONTROL Solution interest]_ som är associerad med en eller flera inköpsgrupper och anger den _[!UICONTROL Role]_&#x200B;som du vill matcha.
+I avsnittet _[!UICONTROL Special Filters]_finns det flera filter som du kan använda för att utvärdera en persons medlemskap i en inköpsgrupp eller Marketo Engage-lista. Om du till exempel vill skapa en sökväg för personer som är medlemmar i en inköpsgrupp och har tilldelats en viss roll, lägger du till filtret_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_. För filtret anger du medlemskapet som_ true _, väljer en_[!UICONTROL Solution interest]_ som är associerad med en eller flera inköpsgrupper och anger den _[!UICONTROL Role]_som du vill matcha.
 
 ![Delad sökväg efter personer - villkor för att köpa gruppmedlemskap](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
@@ -233,4 +233,4 @@ Lägg till en _sammanfoga sökvägar_-nod för att kombinera olika delade sökv�
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443260/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

@@ -1,10 +1,10 @@
 ---
 title: Fragmentredigering
-description: Lär dig hur du skapar innehållsfragment som kan återanvändas för e-post och malldesigner för att vara effektiv och för att upprätthålla design- och varumärkesstandarder.
+description: Skapa återanvändbara innehållsfragment med visuella designverktyg - lägg till komponenter, personalisering, villkorsstyrt innehåll och anpassningsbara fält för e-post och mallar i Journey Optimizer B2B edition.
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%

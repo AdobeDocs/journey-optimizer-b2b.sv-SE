@@ -1,13 +1,13 @@
 ---
 title: Design av mall för landningssida
-description: Lär dig utforma och skapa innehåll för landningssidmallar som marknadsförare kan återanvända för att skapa landningssidor.
+description: Designa mallar för landningssidor för återanvändning - lägg till innehållskomponenter, formulär, anpassad CSS, personalisering och förhandsgranskning av enheter i Journey Optimizer B2B edition.
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i det vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;längst upp i den visuella designrymden kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_längst upp i den visuella designrymden kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/landing-page-designer-more-menu.png){width="500"}
 

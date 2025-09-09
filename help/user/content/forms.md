@@ -1,13 +1,13 @@
 ---
 title: Forms
-description: Lär dig hur du skapar återanvändbara formulär som du kan inkludera på dina landningssidor.
+description: Skapa och hantera återanvändbara formulär för insamling av affärsdata - utforma fält, ange tacksidor, publicera och spåra användningen i Journey Optimizer B2B edition.
 feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 9b3b6db22e27ceff88be9808a1aaf89b3eee7f17
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2278'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Formulärstatusen avgör dess tillgänglighet för användning på en landningss
 | -------------------- | ----------- |
 | Utkast | När du skapar ett formulär är det i utkaststatus. Den behåller den här statusen när du definierar eller redigerar fälten tills du publicerar den för användning i en landningssida eller en landningssidmall. Tillgängliga åtgärder:<br/><ul><li>Redigera all information<li>Redigera i visuell designrymd<li>Publicera<li>Duplicera<li>Ta bort |
 | Publicerad | När du publicerar ett formulär blir det tillgängligt för användning på en landningssida eller på en landningssidmall. Publicerat formulärinnehåll kan inte ändras i den visuella designrymden. Tillgängliga åtgärder:<br/><ul><li>Redigera namn, beskrivning eller tack<li>Lägga till en landningssida eller en landningssidmall<li>Skapa utkastversion<li>Duplicera<li>Radera (om den inte används)<li>Bädda in kod |
-| Publicerat med utkast | När du skapar ett utkast från ett publicerat formulär förblir den publicerade versionen tillgänglig för användning på en landningssida eller en landningssidmall, och utkastinnehållet kan ändras i den visuella designrymden. Om du publicerar utkastet ersätts den aktuella publicerade versionen och innehållet uppdateras på landningssidorna eller på landningssidmallarna där det används. Tillgängliga åtgärder:<br/><ul><li>Redigera namn-, beskrivning- eller tack-sidor<li>Lägga till en landningssida eller en landningssidmall<li>Redigera utkast i visuell designmodell<li>Publicera utkast<li>Duplicera<li>Radera (om den inte används)<li>Bädda in kod |
+| Publicerat med utkast | När du skapar ett utkast från ett publicerat formulär förblir den publicerade versionen tillgänglig för användning på en landningssida eller -mall. Innehållet i utkastet kan ändras i den visuella designrymden. Om du publicerar utkastet ersätts den aktuella publicerade versionen och innehållet uppdateras på landningssidorna eller på landningssidmallarna där det används. Tillgängliga åtgärder:<br/><ul><li>Redigera namn-, beskrivning- eller tack-sidor<li>Lägga till en landningssida eller en landningssidmall<li>Redigera utkast i visuell designmodell<li>Publicera utkast<li>Duplicera<li>Radera (om den inte används)<li>Bädda in kod |
 
 ![Formulärstatus, livscykel](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -78,7 +78,7 @@ Det finns flera saker att tänka på innan du börjar skapa återanvändbara for
 
 Du kan skapa ett formulär i Journey Optimizer B2B edition genom att klicka på **[!UICONTROL Create form]** längst upp till höger på listsidan för _[!UICONTROL Forms]_.
 
-1. I dialogrutan _[!UICONTROL Create form]_&#x200B;anger du ett användbart **[!UICONTROL Name]**(obligatoriskt) och **[!UICONTROL Description]**(valfritt).
+1. I dialogrutan _[!UICONTROL Create form]_anger du ett användbart **[!UICONTROL Name]**(obligatoriskt) och **[!UICONTROL Description]**(valfritt).
 
    Formulärkrav:
 
@@ -112,7 +112,7 @@ Klicka på **[!UICONTROL Save & close]** om du vill spara ändringarna i formul�
 
 ### Ange tacksidan
 
-I panelen _[!UICONTROL Summary]_&#x200B;till höger bläddrar du till avsnittet **[!UICONTROL Thank you page]**&#x200B;och använder inställningen **[!UICONTROL Follow up with]**&#x200B;för att definiera vad som händer när en besökare skickar formuläret:
+I panelen _[!UICONTROL Summary]_till höger bläddrar du till avsnittet **[!UICONTROL Thank you page]**och använder inställningen **[!UICONTROL Follow up with]**för att definiera vad som händer när en besökare skickar formuläret:
 
 * **[!UICONTROL Stay on page]** - Välj det här alternativet om du vill att besökaren ska vara på samma sida när formuläret skickas.
 
@@ -148,7 +148,7 @@ Avsluta vyn när som helst genom att klicka på pilen _Bakåt_ längst upp till 
 
 ## Visa formulär som används av referenser
 
-Klicka på fliken _[!UICONTROL Summary]_&#x200B;på panelen **[!UICONTROL Used By]**&#x200B;till höger för att visa information om var formuläret används för närvarande i Journey Optimizer B2B edition, över landningssidor och mallar för landningssidor.
+Klicka på fliken _[!UICONTROL Summary]_på panelen **[!UICONTROL Used By]**till höger för att visa information om var formuläret används för närvarande i Journey Optimizer B2B edition, över landningssidor och mallar för landningssidor.
 
 >[!IMPORTANT]
 >
@@ -165,7 +165,7 @@ Alla formulär som för närvarande används av en landningssida eller en landni
 Du kan ta bort ett formulär på något av följande sätt:
 
 * Klicka på **[!UICONTROL ... More]** överst till höger och välj **[!UICONTROL Delete]**.
-* Klicka på ellipsen bredvid formulärnamnet på listsidan _[!UICONTROL Forms]_&#x200B;och välj **[!UICONTROL Delete]**.
+* Klicka på ellipsen bredvid formulärnamnet på listsidan _[!UICONTROL Forms]_och välj **[!UICONTROL Delete]**.
 
 Åtgärden öppnar en bekräftelsedialogruta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]** eller klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
 
@@ -182,7 +182,7 @@ Duplicera ett formulär som ett snabbt och enkelt sätt att skapa ett nytt från
 Du kan duplicera ett formulär på något av följande sätt:
 
 * Klicka på **[!UICONTROL ... More]** längst upp till höger på sidan med formulärinformation och välj **[!UICONTROL Duplicate]**.
-* Klicka på ellipsen bredvid formulärnamnet på listsidan _[!UICONTROL Forms]_&#x200B;och välj **[!UICONTROL Duplicate]**.
+* Klicka på ellipsen bredvid formulärnamnet på listsidan _[!UICONTROL Forms]_och välj **[!UICONTROL Duplicate]**.
 
 ![Duplicera formuläret](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -204,7 +204,7 @@ Redigera det duplicerade formuläret om du vill ändra namnet efter behov och ä
 
 >[!TAB Utkast]
 
-1. Klicka på formulärnamnet på listsidan _[!UICONTROL Forms]_&#x200B;för att öppna det.
+1. Klicka på formulärnamnet på listsidan _[!UICONTROL Forms]_för att öppna det.
 
    En förhandsgranskning av formulärinnehållet visas, med formulärinformationen till höger.
 
@@ -228,11 +228,11 @@ Redigera det duplicerade formuläret om du vill ändra namnet efter behov och ä
 
 >[!TAB Publicerad]
 
-1. Klicka på formulärnamnet på listsidan _[!UICONTROL Forms]_&#x200B;för att öppna det.
+1. Klicka på formulärnamnet på listsidan _[!UICONTROL Forms]_för att öppna det.
 
    En förhandsgranskning av formulärinnehållet visas, med formulärinformationen till höger.
 
-1. Om du vill skapa ett utkast för redigering av formuläret klickar du på **[!UICONTROL Edit form]** på panelen _[!UICONTROL Summary]_&#x200B;till höger.
+1. Om du vill skapa ett utkast för redigering av formuläret klickar du på **[!UICONTROL Edit form]** på panelen _[!UICONTROL Summary]_till höger.
 
 1. Klicka på **[!UICONTROL Create draft version]** i dialogrutan för att öppna utkastet i den visuella designrymden.
 
@@ -256,13 +256,13 @@ Redigera det duplicerade formuläret om du vill ändra namnet efter behov och ä
 
 1. Klicka på formulärnamnet för att öppna det.
 
-1. Välj fliken **[!UICONTROL Draft]**.
+1. Klicka på fliken **[!UICONTROL Draft]**.  
 
    En förhandsgranskning av formulärinnehållet i utkastversionen visas, med formulärinformationen till höger.
 
    ![Redigera från utkastversion](./assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Edit form]** i rutan _[!UICONTROL Summary]_&#x200B;till höger och använd de visuella designverktygen efter behov:
+1. Klicka på **[!UICONTROL Edit form]** i rutan _[!UICONTROL Summary]_till höger och använd de visuella designverktygen efter behov:
 
    * [Lägg till fält](./form-design.md#add-a-field)
    * [Ändra fältformat](./form-design.md#change-field-styling)

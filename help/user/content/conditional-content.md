@@ -1,12 +1,12 @@
 ---
 title: Villkorligt innehåll
-description: Lär dig hur du skapar innehållsvariationer och använder villkorliga regler när du skapar visuella fragment och e-postinnehåll för kontoresor.
+description: Skapa varianter av dynamiskt innehåll med villkorliga regler baserade på profilattribut och händelser för personaliserade e-postmeddelanden och fragment i Journey Optimizer B2B edition.
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ När du skapar ett fragment eller ett e-postmeddelande i den visuella designrymd
 
    ![Välj villkor för variant](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Dialogrutan _[!UICONTROL Select condition]_&#x200B;öppnas och villkorsbiblioteket visas.
+   Dialogrutan _[!UICONTROL Select condition]_öppnas och villkorsbiblioteket visas.
 
    Om du vill visa information om ett villkor för att se till att det är det du vill ha klickar du på ikonen _Mer meny_ (**..**) och väljer **[!UICONTROL View Info]**.
 
@@ -119,7 +119,7 @@ Reglerna lagras i villkorsbiblioteket, där de är tillgängliga för återanvä
 
 Du kan komma åt villkorsstyrd regelbyggaren från e-postdesignområdet när du väljer ett villkor för en komponentvariant.
 
-1. Klicka på _[!UICONTROL Select condition]_&#x200B;i dialogrutan **[!UICONTROL Create new]**&#x200B;och välj villkorstyp:
+1. Klicka på _[!UICONTROL Select condition]_i dialogrutan **[!UICONTROL Create new]**och välj villkorstyp:
 
    * **[!UICONTROL Person condition]** - Välj den här typen om du vill skapa den villkorliga regeln med personattribut och sammanhangsberoende händelser.
    * **[!UICONTROL Account condition]** - Välj den här typen om du vill skapa villkorsregeln med kontoattribut.

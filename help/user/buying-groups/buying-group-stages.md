@@ -1,12 +1,12 @@
 ---
 title: Buying Group Stages
-description: Konfigurera inköpsgruppsfaser för att spåra säljutvecklingen från affärsmöjlighet till kundkonvertering i Journey Optimizer B2B edition.
+description: Bygg egna modeller för inköpsgrupper med start-, framgångs- och felfaser för att följa utvecklingen och få igång kundreseåtgärder i Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De olika inköpsgruppfaserna är utformade för att följa hur köpgrupperna utvecklas genom att konvertera möjligheter till kunder. Använd den här funktionen för att spåra köpgruppsutvecklingen och identifiera nästa bästa åtgärd för medlemmar i inköpsgrupper.
 
-Definiera faserna i en enda mellanlagringsmodell, definiera flera steg och övergångsflödet mellan dem. En eller flera stadier är avsedda att ingå i livscykeln. Modellen tillåter även icke-linjär progression, där du kan ange övergångar från en scen till en annan, till exempel från fas A till fas B, C eller D. Det krävs att en fas utses till lyckad fas, t.ex. ett inköp eller ett signerat kontrakt. Det är valfritt att ange en annan fas som en misslyckad fas, t.ex. ett avvisat kontrakt eller köp av en konkurrerande lösning från en annan leverantör. Detta uppnås med [intelligenta instrumentpaneler](../dashboards/intelligent-dashboard.md) som visar hur köpgrupper utvecklas när det gäller att slutföra en försäljningsmöjlighet eller konvertera en affärsmöjlighet till en kund.
+Definiera faserna i en enda mellanlagringsmodell, definiera flera steg och övergångsflödet mellan dem. En eller flera stadier är avsedda att ingå i livscykeln. Modellen tillåter även icke-linjär progression, där du kan ange övergångar från en scen till en annan, till exempel från fas A till fas B, C eller D. Det krävs att en fas utses till lyckad fas, t.ex. ett inköp eller ett signerat kontrakt. Det är valfritt att ange en annan fas som en misslyckad fas, t.ex. ett avvisat kontrakt eller köp av en konkurrerande lösning från en annan leverantör. Övervaka de här stegen via [intelligenta instrumentpaneler](../dashboards/intelligent-dashboard.md) som visar hur köpgrupper utvecklas när det gäller att slutföra en säljmöjlighet eller konvertera en affärsmöjlighet till en kund.
 
 ![Exempel på inköpsgruppstadier](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -41,7 +41,7 @@ När du skapar en inköpsgruppsscenmodell får den automatiskt statusen _Utkast_
 
    ![Fliken Steg](assets/stages-tab-none.png){width="800" zoomable="yes"}
 
-   Fliken _[!UICONTROL Stages]_&#x200B;är i läget_ tom _tills du skapar modellen.
+   Fliken _[!UICONTROL Stages]_är i läget_ tom _tills du skapar modellen.
 
 1. Klicka på **[!UICONTROL Create model]** mitt på sidan.
 
@@ -49,7 +49,7 @@ När du skapar en inköpsgruppsscenmodell får den automatiskt statusen _Utkast_
 
    ![Lägg till modellens namn och beskrivning](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}
 
-   Om du klickar på _[!UICONTROL Cancel]_&#x200B;i den här dialogrutan återgår du till fliken&#x200B;_[!UICONTROL Stages]_ i läget _tom_.
+   Om du klickar på _[!UICONTROL Cancel]_i den här dialogrutan återgår du till fliken_[!UICONTROL Stages]_ i läget _tom_.
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -81,7 +81,7 @@ När du har skapat modellen öppnas den på arbetsytan och du uppmanas att skapa
 
 ### Konfigurera arbetsflödes- och övergångsregler
 
-När du har sparat faserna återgår de till modellarbetsytan. Kolumnen _[!UICONTROL Allowed transit to]_&#x200B;är tom, vilket anger att övergångsreglerna för modellfaserna ännu inte har definierats.
+När du har sparat faserna återgår de till modellarbetsytan. Kolumnen _[!UICONTROL Allowed transit to]_är tom, vilket anger att övergångsreglerna för modellfaserna ännu inte har definierats.
 
 ![Övergångsregler är inte definierade än](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
@@ -89,11 +89,11 @@ När du har sparat faserna återgår de till modellarbetsytan. Kolumnen _[!UICON
 
 1. Klicka på **[!UICONTROL Edit transition rules]** överst till höger.
 
-   Den här åtgärden öppnar dialogrutan _[!UICONTROL Edit stage rules]_&#x200B;där du definierar logiken för flödet.
+   Den här åtgärden öppnar dialogrutan _[!UICONTROL Edit stage rules]_där du definierar logiken för flödet.
 
-   När du anger alternativen finns det några inbyggda skyddsräcken och meddelanden som hjälper dig att undvika logiska fel i flödet. Du kan klicka på _[!UICONTROL Cancel]_&#x200B;om du vill stänga dialogrutan och återgå till fliksidan&#x200B;_[!UICONTROL Stages]_ utan ändringar.
+   När du anger alternativen finns det några inbyggda skyddsräcken och meddelanden som hjälper dig att undvika logiska fel i flödet. Du kan klicka på _[!UICONTROL Cancel]_om du vill stänga dialogrutan och återgå till fliksidan_[!UICONTROL Stages]_ utan ändringar.
 
-1. I avsnittet _[!UICONTROL Select stage]_&#x200B;anger du start- och slutfaser för flödet:
+1. I avsnittet _[!UICONTROL Select stage]_anger du start- och slutfaser för flödet:
 
    * **[!UICONTROL Entry point stage]** (obligatoriskt) - Ange en eller flera anmälningsfaser för inköpsgruppens affärsmöjlighet.
 
@@ -140,7 +140,7 @@ _Om du vill visa utkastmodellen :_
 
 1. Klicka på **[!UICONTROL Edit stages]**.
 
-   I dialogrutan _[!UICONTROL Edit stages]_&#x200B;kan du lägga till nya faser eller ändra namn och beskrivning för befintliga faser.
+   I dialogrutan _[!UICONTROL Edit stages]_kan du lägga till nya faser eller ändra namn och beskrivning för befintliga faser.
 
    * Ändra **[!UICONTROL Name]** eller **[!UICONTROL Description]** för alla scener efter behov.
 
@@ -148,7 +148,7 @@ _Om du vill visa utkastmodellen :_
 
 1. När du är nöjd med de stadier som du har definierat klickar du på **[!UICONTROL Save]**.
 
-   Du kan också klicka på _[!UICONTROL Cancel]_&#x200B;för att stänga dialogrutan och återgå till sidan med modellinformation utan ändringar.
+   Du kan också klicka på _[!UICONTROL Cancel]_för att stänga dialogrutan och återgå till sidan med modellinformation utan ändringar.
 
 ### Redigera övergångsreglerna för modellen
 
@@ -160,7 +160,7 @@ _Om du vill visa utkastmodellen :_
 
 1. När du är nöjd med övergångsreglerna som har definierats klickar du på **[!UICONTROL Save]**.
 
-   Du kan också klicka på _[!UICONTROL Cancel]_&#x200B;för att stänga dialogrutan och återgå till sidan med modellinformation utan ändringar.
+   Du kan också klicka på _[!UICONTROL Cancel]_för att stänga dialogrutan och återgå till sidan med modellinformation utan ändringar.
 
 ## Publicera inköpsgruppens fasmodell
 
@@ -178,7 +178,7 @@ Om det inte finns några valideringsfel kan modellen publiceras. När den public
 
 1. Klicka på **[!UICONTROL Publish]** i bekräftelsedialogrutan.
 
-   När modellen återgår till sidan med modellinformation anges den som _[!UICONTROL Live]_. Klicka på pilen_ Bakåt _längst upp till vänster för att återgå till fliksidan&#x200B;_[!UICONTROL Stages]_.
+   När modellen återgår till sidan med modellinformation anges den som _[!UICONTROL Live]_. Klicka på pilen_ Bakåt _längst upp till vänster för att återgå till fliksidan_[!UICONTROL Stages]_.
 
 ![Den publicerade modellen](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
 <!-- list these later when the Published columns are working correctly
@@ -245,7 +245,7 @@ Med en [delad sökvägsnod](../journeys/journey-nodes.md#split-paths) kan du fil
 
 1. I nodegenskaperna till höger väljer du **[!UICONTROL Accounts]** för delningen.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
    ![Delad sökvägsnod - lägg till villkor](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
@@ -277,9 +277,9 @@ Med en [delad sökvägsnod](../journeys/journey-nodes.md#split-paths) kan du fil
 
 1. I nodegenskaperna till höger väljer du **[!UICONTROL People]** för delningen.
 
-   Lämna standardvärdet för _[!UICONTROL Attribute used for conditions]_&#x200B;som **[!UICONTROL People attributes only]**.
+   Lämna standardvärdet för _[!UICONTROL Attribute used for conditions]_som **[!UICONTROL People attributes only]**.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
    ![Delad sökvägsnod - lägg till villkor](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
@@ -365,4 +365,4 @@ Använd förekomsten av en ändring av inköpsgruppfas för att flytta kontot fr
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3448698/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

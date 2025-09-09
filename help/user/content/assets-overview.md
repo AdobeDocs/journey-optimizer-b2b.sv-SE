@@ -1,21 +1,21 @@
 ---
 title: Assets
-description: Läs om filhantering i Journey Optimizer B2B edition.
+description: Hantera bildresurser från Marketo Engage Design Studio och AEM Assets för e-post, mallar och fragment i Journey Optimizer B2B edition.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
 
 # Assets
 
-I [!DNL Adobe Journey Optimizer B2B Edition] är resurser vanligtvis de bilder som används vid design av innehåll som stöder kontoresor. Du kan använda dessa bilder i e-postmeddelanden, e-postmallar och fragment via en resursväljare eller ett enkelt dra och släpp-gränssnitt i den visuella designrymden.
+I [!DNL Adobe Journey Optimizer B2B Edition] är resurser vanligtvis de bilder som används vid design av innehåll som stöder kontoresor. Du kan använda de här bilderna i e-postmeddelanden, e-postmallar och fragment från resursväljaren eller i ett enkelt dra och släpp-gränssnitt i den visuella designrymden.
 
-[!DNL Journey Optimizer B2B Edition] ger marknadsförare åtkomst till två typer av resursbibliotek: [!DNL Adobe Marketo Engage] [!DNL Design Studio] och [!DNL Adobe Experience Manager Assets as a Cloud Service]. Du får bara använda Adobe Marketo Engage Design Studio, eller använda båda biblioteken som konfigurerats samtidigt (baserat på den [!DNL Experience Manager Assets]-licens du har).
+[!DNL Journey Optimizer B2B Edition] ger marknadsförare åtkomst till två typer av resursbibliotek: [!DNL Adobe Marketo Engage] [!DNL Design Studio] och [!DNL Adobe Experience Manager Assets as a Cloud Service]. Du kanske bara använder Adobe Marketo Engage Design Studio eller båda biblioteken som är konfigurerade samtidigt (baserat på den [!DNL Experience Manager Assets]-licens du har).
 
 ## Resurshantering
 
@@ -35,7 +35,7 @@ Sammanför arbetsflöden för marknadsföring och kreativitet med [!DNL Adobe Ex
 
 [!DNL Adobe Journey Optimizer B2B Edition] kan ansluta till [!DNL Adobe Experience Manager Assets as a Cloud Service] för centraliserad resurshantering som utökar ditt kreativa system och förenar digitala resurser för upplevelseleverans. [!DNL Adobe Experience Manager Assets as a Cloud Service] erbjuder en lättanvänd molnlösning för effektiv hantering av digitala resurser och dynamiska media. Programmet innehåller smidigt avancerade funktioner, bland annat artificiell intelligens och maskininlärning.
 
-Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
+Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 

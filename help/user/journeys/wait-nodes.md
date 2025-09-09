@@ -1,12 +1,12 @@
 ---
 title: Vänta noder
-description: Lär dig mer om den typ av Wait-nod som du kan använda för att ordna dina kontoresor i Journey Optimizer B2B edition.
+description: Lägg till väntenoder för att pausa resans fortskridande med relativ varaktighet eller specifika datum för strategisk timing i Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Du kan definiera väntetiden på två sätt:
 * En relativ varaktighet (antal minuter, timmar, dagar, veckor eller månader)
 * Ett specifikt datum när du vill gå vidare till nästa nod i resan
 
-_Så här definierar du en väntenod för din kontoresa:_
+_Definiera en väntenod för din kontoresa :_
 
 1. Navigera till resekartan.
 

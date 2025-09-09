@@ -1,13 +1,13 @@
 ---
 title: Noder för kontoresa
-description: Lär dig mer om de nodtyper som du kan använda för att skapa kontoresor i Journey Optimizer B2B edition.
+description: Skapa kontoresor med action-, event- och orkestrationsnoder - målgrupp, vänta, dela och sammanfoga - för flerkanalsmarknadsföring i Journey Optimizer B2B edition.
 feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 9438b1472df38eddc3e1fa6cd5bc3992af0c9eec
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---

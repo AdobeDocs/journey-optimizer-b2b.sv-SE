@@ -1,12 +1,12 @@
 ---
 title: Kontoresor
-description: Kom igång med kontoresor och lär dig hur du använder kontoreselistan för att hantera dem.
+description: Effektivisera genereringen av efterfrågan med kontoresor - skapa, publicera, hantera inköpsgruppsengagemang via e-post, SMS och evenemang i Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '972'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Ange text i _sökverktyget_ längst upp i listan om du vill filtrera den visade 
 
 ![Filtrera kontoreselistan](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-Listsidan _[!UICONTROL Account Journeys]_&#x200B;innehåller följande kolumner:
+Listsidan _[!UICONTROL Account Journeys]_innehåller följande kolumner:
 
 * [!UICONTROL Name] (klicka på namnet för att öppna resan för redigering)
 * [!UICONTROL Status]
@@ -47,7 +47,7 @@ Listsidan _[!UICONTROL Account Journeys]_&#x200B;innehåller följande kolumner:
 * [!UICONTROL Published on]
 * [!UICONTROL Published by]
 
-Du kan sortera listan efter _[!UICONTROL Status]_&#x200B;genom att klicka på kolumnrubriken.
+Du kan sortera listan efter _[!UICONTROL Status]_genom att klicka på kolumnrubriken.
 
 Du kan anpassa kolumnerna som visas i tabellen genom att klicka på ikonen _Anpassa tabell_ ( ![Anpassa tabell](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet. Markera eller avmarkera kryssrutorna i dialogrutan och klicka på **[!UICONTROL Apply]**.
 
@@ -55,7 +55,7 @@ Du kan anpassa kolumnerna som visas i tabellen genom att klicka på ikonen _Anpa
 
 ## Analys av en kontoresa
 
-Klicka på namnet (visas som en länk) i listan _[!UICONTROL Account journeys]_&#x200B;om du vill granska informationen, göra ändringar och vidta åtgärder.
+Klicka på namnet (visas som en länk) i listan _[!UICONTROL Account journeys]_om du vill granska informationen, göra ändringar och vidta åtgärder.
 
 ![Arbetsyta för kontoresa](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
@@ -69,11 +69,11 @@ Status för en resa kan ändras beroende på vilka åtgärder du vidtar. Beroend
 
 | Status | Beskrivning | Tillgängliga åtgärder |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Utkast**&#x200B;_ | En opublicerad resa som är redigerbar. | <li>[Publicera](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Resans status ändras från utkast till Live när en resa publiceras. I det här läget går det inte längre att redigera. | <li>[Duplicera](#duplicate-journey)<li>[Stäng till nya poster](#close-to-new-entries) <li>[Avbryt](#abort-journey) |
-| _&#x200B;**Stängda till nya poster**&#x200B;_ | Resursstatusen ändras från _Live_ till _Stängd till nya poster_ när du klickar på [!UICONTROL Close to new entries] i den övre navigeringen. | <li>[Duplicera](#duplicate-journey) <li>[Avbryt](#abort-journey) |
-| _&#x200B;**Avbruten**&#x200B;_ | Resans status ändras från _Live_ eller _Stängd till nya poster_ när du avbryter en resa. En avbruten resa kan inte startas om. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
-| _&#x200B;**Slutförd**&#x200B;_ | När alla konton i en resa har slutfört resan ändras statusen från _Live_ eller _Stängd till nya poster_ till _Slutförd_. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
+| _**Utkast**_ | En opublicerad resa som är redigerbar. | <li>[Publicera](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
+| _**Live**_ | Resans status ändras från utkast till Live när en resa publiceras. I det här läget går det inte längre att redigera. | <li>[Duplicera](#duplicate-journey)<li>[Stäng till nya poster](#close-to-new-entries) <li>[Avbryt](#abort-journey) |
+| _**Stängda till nya poster**_ | Resursstatusen ändras från _Live_ till _Stängd till nya poster_ när du klickar på [!UICONTROL Close to new entries] i den övre navigeringen. | <li>[Duplicera](#duplicate-journey) <li>[Avbryt](#abort-journey) |
+| _**Avbruten**_ | Resans status ändras från _Live_ eller _Stängd till nya poster_ när du avbryter en resa. En avbruten resa kan inte startas om. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
+| _**Slutförd**_ | När alla konton i en resa har slutfört resan ändras statusen från _Live_ eller _Stängd till nya poster_ till _Slutförd_. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
 
 ## Hantera resor
 
@@ -151,10 +151,10 @@ Använd en raderingsåtgärd för att ta bort en resa permanent. Du kan inte ta 
 
    * Klicka på menyn **[!UICONTROL More...]** längst upp till höger och välj **[!UICONTROL Delete]** för ett utkast.
 
-   * Klicka **[!UICONTROL Delete]** längst upp till höger för andra status för resan, till exempel _Slutförd_ eller _Avbruten_.
+   * Klicka _längst upp till höger för andra status för resan, till exempel_ Slutförd _eller_ Avbruten **[!UICONTROL Delete]**.
 
 1. Klicka på **[!UICONTROL Delete]** i bekräftelsedialogrutan.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443211/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

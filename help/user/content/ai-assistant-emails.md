@@ -1,17 +1,17 @@
 ---
-title: AI-assistenten för e-postredigering
-description: Lär dig hur du använder AI Assistant för att optimera e-postinnehållet som används i kontoresor.
+title: AI-assistenten för generering av e-postinnehåll
+description: Generera e-postinnehåll med AI Assistant - skapa meddelandeinnehåll, ämnesrader och rubriker med varumärkesresurser och köpa grupproller för Journey Optimizer B2B edition.
 feature: AI Assistant, Email Authoring, Content
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2943'
+source-wordcount: '2960'
 ht-degree: 0%
 
 ---
 
-# AI-assistenten för att skapa e-post
+# AI Assistant för generering av e-postinnehåll
 
 I takt med att marknadsföringsbranschen blir mer konkurrenskraftig söker varumärkena effektiva sätt att snabbt och effektivt generera slagkraftigt innehåll. AI Assistant för framtagning av e-post i Adobe Journey Optimizer B2B edition är Adobe AI-baserade funktioner för innehållsgenerering som revolutionerar det sätt på vilket marknadsförare skapar professionellt och varumärkesenhetligt e-postinnehåll. Med avancerade GenAI-modeller och god förståelse för varumärkesriktlinjerna genererar AI Assistant automatiskt personaliserat, engagerande och effektivt innehåll baserat på marknadsföringsmålet med innehåll som är optimerat för varumärkeskonturerade format, layouter, färgtoner och mycket annat. AI Assistant gör det enkelt att skapa och genomföra e-postkampanjer intuitivt, utan krångel. Genom att lägga till den här funktionen i arbetsflödena kan du spara tid, förbättra effektiviteten och få bättre resultat.
 
@@ -72,7 +72,7 @@ När du [lägger till en e-poståtgärd](./add-email.md#add-an-email-action-node
 
 1. Skapa ett e-postmeddelande från en kontoresa eller öppna ett befintligt e-postmeddelande från en kundnod.
 
-   E-postförhandsgranskningssidan visas med _[!UICONTROL Email properties]_&#x200B;till höger.
+   E-postförhandsgranskningssidan visas med _[!UICONTROL Email properties]_till höger.
 
 1. Välj någon av följande flikar för att lära dig hur du använder AI Assistant när du skapar e-postegenskaper.
 
@@ -82,7 +82,7 @@ När du [lägger till en e-poståtgärd](./add-email.md#add-an-email-action-node
 
 I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant för att generera en optimerad ämnesrad för e-postmeddelandet:
 
-1. I _[!UICONTROL Email Properties]_&#x200B;klickar du på AI Assistant-ikonen ( ![ AI Assistant-ikon ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger om fältet **[!UICONTROL Subject line]**.
+1. I _[!UICONTROL Email Properties]_klickar du på AI Assistant-ikonen ( ![ AI Assistant-ikon ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger om fältet **[!UICONTROL Subject line]**.
 
    ![AI Assistant-åtkomst till ämnesrad för e-post](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -204,11 +204,11 @@ En e-postförrubrik är den korta sammanfattningstexten som följer efter ämnes
 
 När du har [skapat och anpassat din e-post](./email-authoring.md) använder du AI Assistant i Adobe Journey Optimizer B2B edition, som drivs av generativ AI för att lyfta ditt innehåll i e-postbrödtexten till nästa nivå.
 
-I e-postdesignern kan AI Assistant hjälpa dig att optimera effekten av dina leveranser genom att generera hela e-postbrödtexten, riktat textinnehåll och rekommendationer för bilder som får genklang hos din målgrupp. Den här optimeringen av era e-postkampanjer är utformad för att ge ett bättre engagemang.
+I e-postdesignområdet kan AI Assistant hjälpa dig att optimera effekten av dina leveranser genom att generera hela e-postbrödtexten, riktat textinnehåll och rekommendationer för bilder som får genklang hos din målgrupp. Den här optimeringen av era e-postkampanjer är utformad för att ge ett bättre engagemang.
 
 1. Skapa ett e-postmeddelande från en kontoresa och klicka på **[!UICONTROL Open Email Designer]** eller **[!UICONTROL Add Email Content]**.
 
-1. Markera och öppna en e-postmall i den visuella e-postdesignern.
+1. Markera och öppna en e-postmall i den visuella e-postdesignrymden.
 
 1. Anpassa e-postmeddelandet efter behov för kundresan.
 
@@ -220,7 +220,7 @@ I e-postdesignern kan AI Assistant hjälpa dig att optimera effekten av dina lev
 
 I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant för att förfina en befintlig e-postmall:
 
-1. I e-postdesignern öppnar du AI Assistant-menyn genom att klicka på ikonen ( ![AI Assistant-menyn ](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) till höger.
+1. I e-postdesignområdet öppnar du AI Assistant-menyn genom att klicka på ikonen ( ![AI Assistant-menyn till höger](../assets/button-ai-assistant.png){width="30" zoomable="no"} ).
 
    ![AI Assistant växlar i e-postdesignern](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -259,15 +259,15 @@ I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant
 
      ![AI-assistenten - textinställningar](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Select]** om du vill ersätta mallinnehållet med den valda varianten och återgå till e-postdesignern.
+1. Klicka på **[!UICONTROL Select]** om du vill ersätta mallinnehållet med den valda varianten och återgå till e-postdesignområdet.
 
-   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
+   I e-postdesignområdet kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
 
 >[!TAB Textgenerering]
 
 I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant för att förfina eller förbättra textinnehållet i ett befintligt e-postmeddelande:
 
-1. I e-postdesignern öppnar du AI Assistant-menyn genom att klicka på ikonen ( ![AI Assistant-menyn ](../assets/button-ai-assistant.png){width="30" zoomable="no"} ) till höger.
+1. I e-postdesignområdet öppnar du AI Assistant-menyn genom att klicka på ikonen ( ![AI Assistant-menyn till höger](../assets/button-ai-assistant.png){width="30" zoomable="no"} ).
 
    ![AI Assistant växlar i e-postdesignern](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -315,9 +315,9 @@ I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant
 
    ![AI Assistant-förhandsgranskning av textvariationer och förfiningsalternativ](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. När du har önskat innehåll klickar du på **[!UICONTROL Select]** för att ersätta texten med den valda varianten och återgå till e-postdesignern.
+1. När du har det innehåll du vill ha klickar du på **[!UICONTROL Select]** för att ersätta texten med den valda varianten och återgå till e-postdesignområdet.
 
-   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra texten, samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
+   I e-postdesignområdet kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra texten, samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
 
 >[!TAB Bildrekommendationer]
 
@@ -345,7 +345,7 @@ Du kan använda AI Assistant för att optimera och förbättra dina resurser och
 
 1. Använd bildinställningarna för att förfina uppmaningen:
 
-   * **[!UICONTROL Aspect ratio]** - Den här inställningen avgör objektets bredd och höjd. Du kan välja mellan vanliga proportioner som 16:9, 4:3, 3:2 eller 1:1, eller ange en anpassad storlek.
+   * **[!UICONTROL Aspect ratio]** - Den här inställningen avgör objektets bredd och höjd. Du kan välja bland vanliga proportioner som 16:9, 4:3, 3:2 eller 1:1, eller så kan du ange en anpassad storlek.
    * **[!UICONTROL Color & tone]** - Den här inställningen påverkar det övergripande utseendet på färgerna i en bild och stämningen eller atmosfären som bilden förmedlar.
    * **[!UICONTROL Content type]** - Den här inställningen kategoriserar det visuella elementets karaktär och skiljer mellan olika former av visuell representation, till exempel foton, grafik eller grafik.
    * **[!UICONTROL Lighting]** - Den här inställningen justerar blixten i en bild, som formar atmosfären och markerar specifika element.
@@ -359,12 +359,12 @@ Du kan använda AI Assistant för att optimera och förbättra dina resurser och
    >
    >Om det inte finns några bilder i varumärkesresursen för indata eller om det inte finns några bilder som är relevanta för indatarameddelandet, är utdata tomma.
 
-1. Bläddra igenom _[!UICONTROL Variations]_&#x200B;och välj den som passar bäst för e-postmeddelandet.
+1. Bläddra igenom _[!UICONTROL Variations]_och välj den som passar bäst för e-postmeddelandet.
 
    Om du vill visa en fullskärmsversion av den valda varianten klickar du på **[!UICONTROL Preview]**.
 
-1. Markera bilden som du vill använda och klicka på **[!UICONTROL Select]** för att ersätta bilden eller platshållaren med det valda objektet och återgå till e-postdesignern.
+1. Markera bilden som du vill använda och klicka på **[!UICONTROL Select]** för att ersätta bilden eller platshållaren med det markerade objektet och återgå till designområdet för e-postmeddelanden.
 
-   I e-postdesignern kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
+   I e-postdesignområdet kan du använda redigerings- och formateringsverktygen på arbetsytan för att ändra innehållet samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
 
 >[!ENDTABS]

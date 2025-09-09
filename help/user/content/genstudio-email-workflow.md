@@ -1,14 +1,15 @@
 ---
 title: Skapa e-postinnehåll med GenStudio for Performance Marketing
-description: Lär dig hur du kan integrera med GenStudio arbetsflöden för att effektivisera designen av e-postupplevelser.
+description: Integrera GenStudio for Performance Marketing med Journey Optimizer B2B edition - exportera HTML, skapa AI-baserade e-postupplevelser och importera varumärkesprofilerat innehåll.
 feature: Email Authoring, Content, Integrations
 topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="Begränsad tillgänglighet" type="Informative"
-source-git-commit: fe54f7eba982a29461aa922b408e6b4d68e6b0e2
+exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -36,9 +37,9 @@ En teknisk marknadsförare som använder Journey Optimizer B2B edition för att 
 
 [Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} är en generativ AI-tillämpning som ger marknadsföringsteamen möjlighet att skapa slagkraftiga, personaliserade annonser och e-postmeddelanden som följer varumärkesstandarder och följer deras företagspolicyer. Genom att utnyttja Adobe AI-teknik får du en omfattande verktygslåda som förenklar komplexa funktioner för att skapa och hantera innehåll så att kreatörerna kan fokusera på innovation.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Skapa e-postmeddelanden för marknadsföring på varumärke](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Skapa e-postmeddelanden för marknadsföring på varumärke](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
-Läs mer om GenStudio for Performance Marketing-funktionerna i [dokumentationen](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}
+Läs mer om GenStudio for Performance Marketing-funktionerna i [dokumentationen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +49,7 @@ I Journey Optimizer B2B edition exporterar du HTML från ett e-postmeddelande so
 
 1. I Journey Optimizer B2B edition får du tillgång till innehållet i e-postmeddelandet i den visuella designrymden.
 
-1. Välj **[!UICONTROL Export HTML]** på menyn _[!UICONTROL More ...]_&#x200B;överst i e-postdesignområdet.
+1. Välj _[!UICONTROL More ...]_på menyn **[!UICONTROL Export HTML]**överst i e-postdesignområdet.
 
    ![Klicka på Mer och välj Exportera HTML](./assets/email-export-html.png){width="600"}
 
@@ -72,7 +73,7 @@ GenStudio for Performance Marketing känner igen vissa element i det importerade
 
 Använd HTML-filen för att skapa en mall i GenStudio for Performance Marketing.
 
-Mer information om hur du överför en HTML-mall till GenStudio i Adobe GenStudio for Performance Marketing finns i [Lägga till en mall](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) i GenStudio for Performance Marketing-dokumentationen.
+Mer information om hur du överför en HTML-mall till GenStudio i Adobe GenStudio for Performance Marketing finns i [Lägga till en mall](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) i GenStudio for Performance Marketing-dokumentationen.
 
 När du överför den exporterade HTML-filen som en mall söker GenStudio for Performance Marketing igenom HTML-filen efter identifierade fält. Använd förhandsgranskningen för att granska mallelementen och bekräfta att du har identifierat dem korrekt med de identifierade fältnamnen.
 
@@ -80,7 +81,7 @@ När du överför den exporterade HTML-filen som en mall söker GenStudio for Pe
 
 I GenStudio for Performance Marketing använder du mallen för att skapa flera varianter av e-postupplevelser och spara dem.
 
-Mer information om hur du genererar varumärkesanpassade e-postupplevelser finns i [Skapa en e-postupplevelse](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) i GenStudio for Performance Marketing-dokumentationen.
+Mer information om hur du genererar varumärkesanpassade e-postupplevelser finns i [Skapa en e-postupplevelse](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience) i GenStudio for Performance Marketing-dokumentationen.
 
 ## Lägg till genererade e-postupplevelser i Journey Optimizer B2B edition
 
@@ -92,17 +93,17 @@ Så här använder du e-postvarianter från GenStudio som skapats från den expo
 
 1. I Journey Optimizer B2B edition [lägger du till ett e-postmeddelande](./add-email.md) till en kontoresa med en _[!UICONTROL Take an action]_-nod.
 
-   * Välj **[!UICONTROL People]** för målet _[!UICONTROL Action on]_.
+   * Välj _[!UICONTROL Action on]_för målet **[!UICONTROL People]**.
 
-   * Välj **[!UICONTROL Send email]** för _[!UICONTROL Action on people]_.
+   * Välj _[!UICONTROL Action on people]_för **[!UICONTROL Send email]**.
 
      ![Vidta en åtgärd - skicka ett e-postmeddelande](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
-   * För _[!UICONTROL Email source]_&#x200B;väljer du **[!UICONTROL Create new email]**&#x200B;om du vill skapa e-postmeddelandet i Journey Optimizer B2B edition.
+   * För _[!UICONTROL Email source]_väljer du **[!UICONTROL Create new email]**om du vill skapa e-postmeddelandet i Journey Optimizer B2B edition.
 
-1. Välj **[!UICONTROL Import HTML]** på sidan _Skapa din e-post_.
+1. Välj _på sidan_ Skapa din e-post **[!UICONTROL Import HTML]**.
 
-1. Klicka på **[!UICONTROL Adobe GenStudio for Performance Marketing]** i dialogrutan _[!UICONTROL Import your email]_.
+1. Klicka på _[!UICONTROL Import your email]_i dialogrutan **[!UICONTROL Adobe GenStudio for Performance Marketing]**.
 
    ![Importera HTML från GenStudio for Performance Marketing](./assets/email-import-html-genstudio.png){width="500" zoomable="yes"}
 
