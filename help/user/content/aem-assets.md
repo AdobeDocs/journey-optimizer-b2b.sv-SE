@@ -23,7 +23,7 @@ När miljön har en eller flera [Assets-databasanslutningar](../admin/configure-
 
 >[!IMPORTANT]
 >
->En administratör måste lägga till användare som behöver tillgång till Assets i produktprofilerna Assets Consumer Users eller/och Assets Users. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>En administratör måste lägga till användare som behöver tillgång till Assets i produktprofilerna Assets Consumer Users eller/och Assets Users. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Öppna AEM Assets-bilder
 
@@ -33,7 +33,7 @@ Klicka på ikonen _[!UICONTROL Experience Manager Assets]_( ![ Experience Manage
 
 >[!NOTE]
 >
->För närvarande stöds endast bildresurser från [!DNL Adobe Experience Manager Assets] i [!DNL Adobe Journey Optimizer B2B Edition]. Ändringar av resurserna måste göras från den centrala databasen [!DNL Adobe Experience Manager Assets]. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>För närvarande stöds endast bildresurser från [!DNL Adobe Experience Manager Assets] i [!DNL Adobe Journey Optimizer B2B Edition]. Ändringar av resurserna måste göras från den centrala databasen [!DNL Adobe Experience Manager Assets]. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Ändra den databas som visas
 
