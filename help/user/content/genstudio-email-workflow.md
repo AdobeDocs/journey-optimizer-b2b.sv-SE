@@ -49,7 +49,7 @@ I Journey Optimizer B2B edition exporterar du HTML från ett e-postmeddelande so
 
 1. I Journey Optimizer B2B edition får du tillgång till innehållet i e-postmeddelandet i den visuella designrymden.
 
-1. Välj _[!UICONTROL More ...]_på menyn **[!UICONTROL Export HTML]**överst i e-postdesignområdet.
+1. Välj _[!UICONTROL More ...]_&#x200B;på menyn **[!UICONTROL Export HTML]**&#x200B;överst i e-postdesignområdet.
 
    ![Klicka på Mer och välj Exportera HTML](./assets/email-export-html.png){width="600"}
 
@@ -93,17 +93,17 @@ Så här använder du e-postvarianter från GenStudio som skapats från den expo
 
 1. I Journey Optimizer B2B edition [lägger du till ett e-postmeddelande](./add-email.md) till en kontoresa med en _[!UICONTROL Take an action]_-nod.
 
-   * Välj _[!UICONTROL Action on]_för målet **[!UICONTROL People]**.
+   * Välj _[!UICONTROL Action on]_&#x200B;för målet **[!UICONTROL People]**.
 
-   * Välj _[!UICONTROL Action on people]_för **[!UICONTROL Send email]**.
+   * Välj _[!UICONTROL Action on people]_&#x200B;för **[!UICONTROL Send email]**.
 
      ![Vidta en åtgärd - skicka ett e-postmeddelande](./assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
-   * För _[!UICONTROL Email source]_väljer du **[!UICONTROL Create new email]**om du vill skapa e-postmeddelandet i Journey Optimizer B2B edition.
+   * För _[!UICONTROL Email source]_&#x200B;väljer du **[!UICONTROL Create new email]**&#x200B;om du vill skapa e-postmeddelandet i Journey Optimizer B2B edition.
 
 1. Välj _på sidan_ Skapa din e-post **[!UICONTROL Import HTML]**.
 
-1. Klicka på _[!UICONTROL Import your email]_i dialogrutan **[!UICONTROL Adobe GenStudio for Performance Marketing]**.
+1. Klicka på _[!UICONTROL Import your email]_&#x200B;i dialogrutan **[!UICONTROL Adobe GenStudio for Performance Marketing]**.
 
    ![Importera HTML från GenStudio for Performance Marketing](./assets/email-import-html-genstudio.png){width="500" zoomable="yes"}
 

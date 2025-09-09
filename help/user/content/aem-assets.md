@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Arbeta med Experience Manager resurser
 
-När [!DNL Adobe Experience Manager Assets as a Cloud Service] är integrerat med [!DNL Adobe Journey Optimizer B2B Edition] kan du enkelt identifiera och få tillgång till digitala resurser som du kan använda i ditt marknadsföringsinnehåll. När du redigerar ditt innehåll är resurserna tillgängliga från objektet _[!UICONTROL Experience Manager Assets]_i den vänstra navigeringen och när du redigerar e-postinnehåll för en kontoresa.
+När [!DNL Adobe Experience Manager Assets as a Cloud Service] är integrerat med [!DNL Adobe Journey Optimizer B2B Edition] kan du enkelt identifiera och få tillgång till digitala resurser som du kan använda i ditt marknadsföringsinnehåll. När du redigerar ditt innehåll är resurserna tillgängliga från objektet _[!UICONTROL Experience Manager Assets]_&#x200B;i den vänstra navigeringen och när du redigerar e-postinnehåll för en kontoresa.
 
 {{aem-assets-licensing-note}}
 

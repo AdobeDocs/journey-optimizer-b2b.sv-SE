@@ -103,7 +103,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera en eller flera webbsidor som ska matcha och eventuella ytterligare begränsningar för händelsen.
 
-   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_definierar du formulärbegränsningen **[!UICONTROL Web page]**eller Fyller i. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda **[!UICONTROL is any]**för att matcha vid besök på Marketo Engage webbsidor eller i ifyllda formulär.
+   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_&#x200B;definierar du formulärbegränsningen **[!UICONTROL Web page]**&#x200B;eller Fyller i. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**&#x200B;för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda **[!UICONTROL is any]**&#x200B;för att matcha vid besök på Marketo Engage webbsidor eller i ifyllda formulär.
 
    * (Valfritt) Klicka på **[!UICONTROL Add constraint]** och välj det fält som du vill använda som begränsning. Ange operatorn och fältets värde.
 
@@ -145,7 +145,7 @@ _Inkludera en upplevelsehändelse i din resa :_
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera händelsetyperna och eventuella ytterligare begränsningar för händelsen.
 
-   * (Obligatoriskt) Definiera händelsetypen i dialogrutan _[!UICONTROL Edit event]_. Du kan använda standardoperatorn **[!UICONTROL is]**för att matcha en eller flera valda händelsetyper. Du kan också använda operatorn **[!UICONTROL is not]**för att matcha alla händelsetyper med undantag för en eller flera valda händelsetyper.
+   * (Obligatoriskt) Definiera händelsetypen i dialogrutan _[!UICONTROL Edit event]_. Du kan använda standardoperatorn **[!UICONTROL is]**&#x200B;för att matcha en eller flera valda händelsetyper. Du kan också använda operatorn **[!UICONTROL is not]**&#x200B;för att matcha alla händelsetyper med undantag för en eller flera valda händelsetyper.
 
    * (Valfritt) Klicka på **[!UICONTROL Add constraint]** och välj det fält som du vill använda som begränsning. Ange operatorn och fältets värde.
 

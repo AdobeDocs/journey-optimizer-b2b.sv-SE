@@ -55,9 +55,9 @@ Som marknadsförare kan du konfigurera en e-postnod för försäljningsavisering
 
 Du kan konfigurera e-postleveranser för försäljningsaviseringar under en kontoresa när du lägger till en _[!UICONTROL Take an action]_-nod och gör följande:
 
-1. Välj _[!UICONTROL Action on]_för målet **[!UICONTROL Account]**.
+1. Välj _[!UICONTROL Action on]_&#x200B;för målet **[!UICONTROL Account]**.
 
-1. Välj _[!UICONTROL Action on accounts]_för **[!UICONTROL Send Sales Alert]**.
+1. Välj _[!UICONTROL Action on accounts]_&#x200B;för **[!UICONTROL Send Sales Alert]**.
 
 1. För **[!UICONTROL Select solution interest]** väljer du det lösningsintresse som ska användas för det genererade e-postinnehållet.
 

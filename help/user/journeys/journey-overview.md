@@ -36,7 +36,7 @@ Ange text i _sökverktyget_ längst upp i listan om du vill filtrera den visade 
 
 ![Filtrera kontoreselistan](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-Listsidan _[!UICONTROL Account Journeys]_innehåller följande kolumner:
+Listsidan _[!UICONTROL Account Journeys]_&#x200B;innehåller följande kolumner:
 
 * [!UICONTROL Name] (klicka på namnet för att öppna resan för redigering)
 * [!UICONTROL Status]
@@ -47,7 +47,7 @@ Listsidan _[!UICONTROL Account Journeys]_innehåller följande kolumner:
 * [!UICONTROL Published on]
 * [!UICONTROL Published by]
 
-Du kan sortera listan efter _[!UICONTROL Status]_genom att klicka på kolumnrubriken.
+Du kan sortera listan efter _[!UICONTROL Status]_&#x200B;genom att klicka på kolumnrubriken.
 
 Du kan anpassa kolumnerna som visas i tabellen genom att klicka på ikonen _Anpassa tabell_ ( ![Anpassa tabell](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet. Markera eller avmarkera kryssrutorna i dialogrutan och klicka på **[!UICONTROL Apply]**.
 
@@ -55,7 +55,7 @@ Du kan anpassa kolumnerna som visas i tabellen genom att klicka på ikonen _Anpa
 
 ## Analys av en kontoresa
 
-Klicka på namnet (visas som en länk) i listan _[!UICONTROL Account journeys]_om du vill granska informationen, göra ändringar och vidta åtgärder.
+Klicka på namnet (visas som en länk) i listan _[!UICONTROL Account journeys]_&#x200B;om du vill granska informationen, göra ändringar och vidta åtgärder.
 
 ![Arbetsyta för kontoresa](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
@@ -69,11 +69,11 @@ Status för en resa kan ändras beroende på vilka åtgärder du vidtar. Beroend
 
 | Status | Beskrivning | Tillgängliga åtgärder |
 | ------ | ----------- | ----------------- |
-| _**Utkast**_ | En opublicerad resa som är redigerbar. | <li>[Publicera](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
-| _**Live**_ | Resans status ändras från utkast till Live när en resa publiceras. I det här läget går det inte längre att redigera. | <li>[Duplicera](#duplicate-journey)<li>[Stäng till nya poster](#close-to-new-entries) <li>[Avbryt](#abort-journey) |
-| _**Stängda till nya poster**_ | Resursstatusen ändras från _Live_ till _Stängd till nya poster_ när du klickar på [!UICONTROL Close to new entries] i den övre navigeringen. | <li>[Duplicera](#duplicate-journey) <li>[Avbryt](#abort-journey) |
-| _**Avbruten**_ | Resans status ändras från _Live_ eller _Stängd till nya poster_ när du avbryter en resa. En avbruten resa kan inte startas om. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
-| _**Slutförd**_ | När alla konton i en resa har slutfört resan ändras statusen från _Live_ eller _Stängd till nya poster_ till _Slutförd_. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
+| _&#x200B;**Utkast**&#x200B;_ | En opublicerad resa som är redigerbar. | <li>[Publicera](./create-publish-journey.md#publish-an-account-journey)<li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
+| _&#x200B;**Live**&#x200B;_ | Resans status ändras från utkast till Live när en resa publiceras. I det här läget går det inte längre att redigera. | <li>[Duplicera](#duplicate-journey)<li>[Stäng till nya poster](#close-to-new-entries) <li>[Avbryt](#abort-journey) |
+| _&#x200B;**Stängda till nya poster**&#x200B;_ | Resursstatusen ändras från _Live_ till _Stängd till nya poster_ när du klickar på [!UICONTROL Close to new entries] i den övre navigeringen. | <li>[Duplicera](#duplicate-journey) <li>[Avbryt](#abort-journey) |
+| _&#x200B;**Avbruten**&#x200B;_ | Resans status ändras från _Live_ eller _Stängd till nya poster_ när du avbryter en resa. En avbruten resa kan inte startas om. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
+| _&#x200B;**Slutförd**&#x200B;_ | När alla konton i en resa har slutfört resan ändras statusen från _Live_ eller _Stängd till nya poster_ till _Slutförd_. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
 
 ## Hantera resor
 
