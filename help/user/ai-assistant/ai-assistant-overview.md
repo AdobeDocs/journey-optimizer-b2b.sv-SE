@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # AI Assistant i Journey Optimizer B2B edition
 
-AI Assistant i Journey Optimizer B2B edition skapas från samma tekniska grund som [AI Assistant i Adobe Experience Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home){target="_blank"}. Det är en samtalsupplevelse som du kan använda för att snabba upp arbetsflödena i Adobe Journey Optimizer B2B edition. Du kan använda AI Assistant för att få bättre förståelse för produktfunktioner, felsöka problem eller söka i information och hitta driftsinsikter för Journey Optimizer B2B edition.
+AI Assistant i Journey Optimizer B2B edition skapas från samma tekniska grund som [AI Assistant i Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. Det är en samtalsupplevelse som du kan använda för att snabba upp arbetsflödena i Adobe Journey Optimizer B2B edition. Du kan använda AI Assistant för att få bättre förståelse för produktfunktioner, felsöka problem eller söka i information och hitta driftsinsikter för Journey Optimizer B2B edition.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ AI Assistant i Journey Optimizer B2B edition skapas från samma tekniska grund s
 
 ## AI Assistant-funktioner i Journey Optimizer B2B edition
 
-Om du vill formulera ett svar på dina inskickade frågor skickar AI Assistant en fråga till en databas och översätter data från databasen till ett läsbart svar. Det här svaret är en intern representation av underliggande data och kallas även _&#x200B;**_kunskapsdiagram_**&#x200B;_ - en omfattande webbplats med koncept, data och metadata för ett givet svar. Kunskapsdiagrammet består av deldiagram som refereras när frågor skickas:
+Om du vill formulera ett svar på dina inskickade frågor skickar AI Assistant en fråga till en databas och översätter data från databasen till ett läsbart svar. Det här svaret är en intern representation av underliggande data och kallas även _**_kunskapsdiagram_**_ - en omfattande webbplats med koncept, data och metadata för ett givet svar. Kunskapsdiagrammet består av deldiagram som refereras när frågor skickas:
 
 * Experience League dokumentation.
 * Operativa artefakter som scheman, fält, målgrupper och resor.
@@ -92,7 +92,7 @@ AI Assistant i Journey Optimizer B2B edition har tagits fram med sekretess, säk
 
 * Du måste ha uttrycklig behörighet att interagera med AI Assistant.
 
-   * En administratör kan ange behörigheter med [behörighetsgränssnittet](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} och [Admin Console](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * En administratör kan ange behörigheter med [behörighetsgränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} och [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Behörigheterna är detaljerade och din sandlådeadministratör kan konfigurera vilka användare som kan ställa olika frågekategorier (produktkunskapsbaserade frågor med AI Assistant eller frågor om driftsinsikter).
 
