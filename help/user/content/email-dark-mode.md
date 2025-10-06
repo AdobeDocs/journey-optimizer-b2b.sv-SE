@@ -29,7 +29,7 @@ _Mörkt läge_ gör att en e-postklient eller app som stöder det kan visa e-pos
 
 ![Konceptionsdiagram för ljust och mörkt läge med återgivning av innehåll i både ljusa och mörka teman](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-När du [skapar ditt e-postinnehåll](./email-authoring.md) i den visuella designrymden [!DNL Journey Optimizer B2B Edition] kan du växla till _&#x200B;**[!UICONTROL Dark mode]**&#x200B;_-vyn. I den här vyn kan du även definiera specifika anpassade inställningar för stöd av e-postklienter när deras mörka läge är aktiverat.
+När du [skapar ditt e-postinnehåll](./email-authoring.md) i den visuella designrymden [!DNL Journey Optimizer B2B Edition] kan du växla till _**[!UICONTROL Dark mode]**_-vyn. I den här vyn kan du även definiera specifika anpassade inställningar för stöd av e-postklienter när deras mörka läge är aktiverat.
 
 ## Ta hänsyn till e-postklienter
 
