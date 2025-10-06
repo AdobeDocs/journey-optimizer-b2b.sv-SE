@@ -4,9 +4,9 @@ description: Skapa återanvändbara e-postmallar med visuella designverktyg, anp
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ Med minst en innehållskomponent på arbetsytan väljer du komponenten **[!UICON
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När mallen har sparats visas den på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
+När mallen har sparats visas den på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
 
-### Lägga till resurser
+### Lägga till bildresurser
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -55,6 +55,14 @@ När mallen har sparats visas den på fragmentinformationssidan när du väljer 
 
 {{$include /help/_includes/content-design-links.md}}
 
+### Använda format i mörkt läge
+
+Använd _mörkt läge_ för att granska din e-postvisning för ett mörkt tema i en e-postklient. I ett mörkt läge eller tema kan en e-postklient eller app som stöder det visa e-postmeddelanden med mörkare bakgrund och ljusare färger för text, knappar och andra visuella element. Överst till höger på arbetsytan ändrar du väljaren till _Mörkt läge_ ( ![Mörkt läge-ikon](../assets/do-not-localize/icon-content-dark-mode.svg) ). Förhandsgranska och definiera sedan specifika anpassade inställningar som ska användas för visning av e-postklienter när deras mörka tema är aktiverat.
+
+![Designarbetsyta för e-post visar väljaren för mörkt läge och e-postinnehåll som visas i mörkt läge](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+Mer information om formatet för mörkt läge och de effektivaste strategierna finns i [Mörkt läge för e-postinnehåll](./email-dark-mode.md).
+
 ## Visningsalternativ
 
 Utnyttja de alternativ för visning och innehållsvalidering som finns i det visuella designutrymmet.
@@ -67,7 +75,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i det vis
 
 ### Fler alternativ
 
-På menyn _[!UICONTROL More ...]_&#x200B;högst upp i e-postdesignområdet kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_högst upp i e-postdesignområdet kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/visual-designer-more-menu.png){width="500"}
 

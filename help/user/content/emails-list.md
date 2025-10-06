@@ -4,7 +4,7 @@ description: Hantera ditt e-postbibliotek med sök-, filter- och massåtgärder 
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 6a5bfd15272b4b2a95bd979d117743b4583bb2a4
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # E-post
 
-När du [skapar e-postmeddelanden](./add-email.md) lägger du till dem i kontexten för en kundnod. När du vill arbeta med e-postinnehåll utanför färdplanen använder du listan _[!UICONTROL Emails]_&#x200B;för att leta reda på och uppdatera e-postmeddelandet. Du kan granska e-postmeddelanden eller uppdatera inställningarna och innehållet.
+När du [skapar e-postmeddelanden](./add-email.md) lägger du till dem i kontexten för en kundnod. När du vill arbeta med e-postinnehåll utanför färdplanen använder du listan _[!UICONTROL Emails]_för att leta reda på och uppdatera e-postmeddelandet. Du kan granska e-postmeddelanden eller uppdatera inställningarna och innehållet.
 
 ## Få åtkomst till och hantera e-post
 

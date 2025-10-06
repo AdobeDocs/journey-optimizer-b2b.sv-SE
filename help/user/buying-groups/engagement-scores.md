@@ -4,7 +4,7 @@ description: Beräkna poäng för köp av grupper och personal med hjälp av vik
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
 workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 5%
@@ -30,13 +30,13 @@ Det finns två typer av engagemangspoäng:
 
 * **Personengagemangspoäng** - Personinteraktionspoängen baseras på aktiviteter för en enskild inköpsgruppsmedlem.
 
-  Personinteraktionspoängen för varje köpgruppsmedlem visas på sidan med information om inköpsgrupper [_[!UICONTROL Members]_&#x200B;på fliken ](./buying-group-details.md#buying-group-members). Dessa bakgrundsmusik visas även på sidor och på kontrollpaneler som innehåller information om toppengagerade medlemmar och överlappande kontakter.
+  Personinteraktionspoängen för varje köpgruppsmedlem visas på sidan med information om inköpsgrupper [_[!UICONTROL Members]_på fliken ](./buying-group-details.md#buying-group-members). Dessa bakgrundsmusik visas även på sidor och på kontrollpaneler som innehåller information om toppengagerade medlemmar och överlappande kontakter.
 
   ![De mest engagerade medlemmarna i inköpsgruppen](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-Personinteraktionspoängen är ett attribut som är tillgängligt för filtrering i [rollmallar](./buying-groups-role-templates.md#add-the-template-roles) och [kundresan, platt-path-by-people-noder](../journeys/split-merge-paths-nodes.md#people-path-conditions).
+Personinteraktionspoängen är ett attribut som är tillgängligt för filtrering i [rollmallar](./buying-groups-role-templates.md#add-the-template-roles) och [kundresan, platt-path-by-people-noder](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Åtkomst till de konfigurerade händelsedefinitionerna](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
@@ -103,7 +103,7 @@ Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en
 
 >[!NOTE]
 >
->Aktiviteter för engagemangsmusik registreras i Marketo Engage aktivitetslogg för en person. Du kommer åt den här loggen i den anslutna Marketo Engage-instansen. Mer information finns i [Leta reda på aktivitetsloggen för en person](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} i Marketo Engage-dokumentationen.
+>Aktiviteter för engagemangsmusik registreras i Marketo Engage aktivitetslogg för en person. Du kommer åt den här loggen i den anslutna Marketo Engage-instansen. Mer information finns i [Leta reda på aktivitetsloggen för en person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} i Marketo Engage-dokumentationen.
 
 ## Viktning av rollmall {#engagement-score-weighting}
 
@@ -124,7 +124,7 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
 
 | Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |
