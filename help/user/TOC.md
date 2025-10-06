@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: e66d4fe77152ed4edb1c929fd1d38ac693e83ed2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '329'
 ht-degree: 18%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 18%
    + [Använd AI-assistenten](./ai-assistant/use-ai-assistant.md)
 + Kontoresor {#account-journeys}
    + [Översikt](./journeys/journey-overview.md)
+   + [Journey Build Agent](./agents/journey-agent.md)
    + [Skapa och publicera en resa](./journeys/create-publish-journey.md)
    + [Resensnoder](./journeys/journey-nodes.md)
    + Resensnoder {#journey-nodes}
@@ -40,12 +41,14 @@ ht-degree: 18%
       + [Framtagning av e-post](./content/email-authoring.md)
       + [AI-assistenten för att skapa e-post](./content/ai-assistant-emails.md)
       + [GenStudio arbetsflöden](./content/genstudio-email-workflow.md)
+      + [Mörkt läge för e-postdesign](./content/email-dark-mode.md)
       + [Styrda mallar](./content/email-authoring-governance.md)
       + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
    + [Anpassade personaliseringstoken](./content/personalization-my-tokens.md)
    + [SMS-redigering](./content/sms-authoring.md)
 + Konton {#accounts}
    + [Målgrupper](./audiences/account-audience-overview.md)
+   + [Audience-agent](./agents/audience-agent-b2b.md)
    + Köpgrupper {#buying-groups}
       + [Översikt](./buying-groups/buying-groups-overview.md)
       + [Lösningsintressen](./buying-groups/solution-interests.md)
@@ -74,6 +77,7 @@ ht-degree: 18%
          + [Simulera innehåll](./content/email-simulate-content.md)
          + [Testa e-poståtergivning](./content/email-test-rendering.md)
          + [Rapport om skräppost](./content/email-spam-report.md)
+      + [E-postsamarbete](./content/email-collaboration-tools.md)
    + Assets {#assets}
       + [Översikt](./content/assets-overview.md)
       + Marketo Engage-resurser {#marketo-engage-dam}
