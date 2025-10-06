@@ -143,7 +143,7 @@ Medarbetarna kan klicka på den numrerade nålikonen på e-postarbetsytan för a
 
 #### Svara på en kommentar
 
-För varje kommentar kan du använda funktionen _[!UICONTROL Reply]_för att fortsätta en diskussion eller besvara en fråga.
+För varje kommentar kan du använda funktionen _[!UICONTROL Reply]_&#x200B;för att fortsätta en diskussion eller besvara en fråga.
 
 Klicka på **[!UICONTROL Reply]** längst ned i kommentaren och ange texten för ditt svar. Om du vill ta med en citat från den aktuella kommentaren i ditt svar klickar du på ikonen _Mer-menyn_ ( **..** ) och väljer **[!UICONTROL Quote reply]**.
 
@@ -179,7 +179,7 @@ Du kan rensa kommentarloggen genom att ta bort och ta bort dem. Klicka på ikone
 
 ### Lösta kommentarer
 
-Lösta kommentarer är som standard dolda på panelen _Collaboration_. Du kan visa lösta kommentarer när som helst genom att rensa filtret. Klicka på ikonen _Filter_ ( ![Filtrera lösta kommentarer ](../assets/do-not-localize/icon-filter.svg) ) och avmarkera kryssrutan **[!UICONTROL Hide resolved comments]**.
+Lösta kommentarer är som standard dolda på panelen _Collaboration_. Du kan visa lösta kommentarer när som helst genom att rensa filtret. Klicka på ikonen _Filter_ ( ![Filtrera lösta kommentarer &#x200B;](../assets/do-not-localize/icon-filter.svg) ) och avmarkera kryssrutan **[!UICONTROL Hide resolved comments]**.
 
 ![Collaboration-panelen visar filter för att visa lösta e-postkommentarer](./assets/email-comments-filter-resolved.png){width="350"}
 

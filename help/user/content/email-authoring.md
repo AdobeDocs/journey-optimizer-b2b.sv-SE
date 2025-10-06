@@ -15,9 +15,9 @@ ht-degree: 0%
 
 När du har [lagt till en e-postresurs till en åtgärdsnod för resan](./add-email.md) kan du definiera innehållet för e-postmeddelandet.
 
-Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_på den högra panelen.
+Klicka på **[!UICONTROL Edit email content]** på fliken _[!UICONTROL Details]_&#x200B;på den högra panelen.
 
-![Klicka på Redigera e-postinnehåll ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Klicka på Redigera e-postinnehåll &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Den här åtgärden startar e-postdesignverktygen, där du kan välja hur du vill utforma e-postmeddelandet bland följande alternativ:
 
@@ -37,9 +37,9 @@ När du har skapat och anpassat e-postinnehållet kan du exportera innehållet f
 
 Använd det visuella designområdet för att definiera strukturen och innehållet i e-postmeddelandet. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på det återanvändbara e-postinnehållet på några sekunder.
 
-1. Välj alternativet _[!UICONTROL Design your template]_på startsidan för **[!UICONTROL Design from scratch]**.
+1. Välj alternativet _[!UICONTROL Design your template]_&#x200B;på startsidan för **[!UICONTROL Design from scratch]**.
 
-1. I dialogrutan _[!UICONTROL Create email]_väljer du vilken typ av e-postinnehåll du vill skapa.
+1. I dialogrutan _[!UICONTROL Create email]_&#x200B;väljer du vilken typ av e-postinnehåll du vill skapa.
 
    * **[!UICONTROL Use Themes]** - Välj det här alternativet om du vill skapa e-postmeddelandet i _temaläge_. I det här läget kan du använda ett definierat varumärkestema för att effektivisera innehållsredigeringsprocessen och se till att designen följer definierade standarder.
 
@@ -105,7 +105,7 @@ Med minst en innehållskomponent på arbetsytan väljer du komponenten **[!UICON
 
 {{$include /help/_includes/content-design-use-fragments.md}}
 
-När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_i sammanfattningen.
+När e-postmeddelandet har sparats visas det på fragmentinformationssidan när du väljer fliken _[!UICONTROL Used By]_&#x200B;i sammanfattningen.
 
 ### Lägga till bildresurser
 
@@ -121,7 +121,7 @@ När e-postmeddelandet har sparats visas det på fragmentinformationssidan när 
 
 >[!NOTE]
 >
->Om _[!UICONTROL My Tokens]_har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
+>Om _[!UICONTROL My Tokens]_&#x200B;har definierats för kontoresan kan du även använda dessa kundspecifika tokens för ditt e-postinnehåll. Mer information finns i [Anpassade token för e-postanpassning](./personalization-my-tokens.md).
 
 ### Redigera länkad URL-spårning
 
@@ -147,7 +147,7 @@ Utnyttja de alternativ för visning och innehållsvalidering som finns i den vis
 
 ## Fler alternativ
 
-På menyn _[!UICONTROL More ...]_längst upp i den visuella designrymden kan du utföra följande åtgärder:
+På menyn _[!UICONTROL More ...]_&#x200B;längst upp i den visuella designrymden kan du utföra följande åtgärder:
 
 ![Klicka på Mer för att komma åt mallåtgärder](./assets/email-designer-more-menu.png){width="500"}
 
