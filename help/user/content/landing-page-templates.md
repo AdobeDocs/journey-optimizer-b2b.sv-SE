@@ -144,7 +144,7 @@ Det går inte att ångra borttagning av en landningssidmall, så kontrollera inn
 
 På listsidan för landningssidmallar väljer du flera mallar åt gången genom att markera kryssrutorna till vänster. En banderoll visas längst ned när du väljer flera mallar.
 
-![En banderoll visar antalet valda mallar och ikonen Ta bort ](./assets/templates-multi-select-banner.png){width="600"}
+![En banderoll visar antalet valda mallar och ikonen Ta bort &#x200B;](./assets/templates-multi-select-banner.png){width="600"}
 
 **[!UICONTROL Delete]** - Du kan ta bort upp till 20 mallar samtidigt. I en bekräftelsedialogruta kan du avbryta åtgärden eller bekräfta borttagningen av mallarna.
 

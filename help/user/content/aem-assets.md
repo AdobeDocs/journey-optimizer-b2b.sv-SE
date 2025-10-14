@@ -27,7 +27,7 @@ När miljön har en eller flera [Assets-databasanslutningar](../admin/configure-
 
 ## Öppna AEM Assets-bilder
 
-Klicka på ikonen _[!UICONTROL Experience Manager Assets]_( ![ Experience Manager Assets-ikon ](../../assets/do-not-localize/icon-assets-aem.svg) ) i det vänstra sidofältet i designområdet. Detta ändrar verktygspanelen till en lista med tillgängliga resurser i den valda databasen.
+Klicka på ikonen _[!UICONTROL Experience Manager Assets]_( ![&#x200B; Experience Manager Assets-ikon &#x200B;](../../assets/do-not-localize/icon-assets-aem.svg) ) i det vänstra sidofältet i designområdet. Detta ändrar verktygspanelen till en lista med tillgängliga resurser i den valda databasen.
 
 ![Klicka på Assets-väljarikonen för att komma åt bildresurserna](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 

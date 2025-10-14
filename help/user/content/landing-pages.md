@@ -225,7 +225,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 När du öppnar landningssidan visas utkastet som standard. Med flikarna högst upp i förhandsvisningsområdet kan du växla visningen mellan publicerade versioner och utkastversioner. Utkaståtgärder och information visas till höger.
 
-![Förhandsgranskning och information för landningssidans utkast ](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
+![Förhandsgranskning och information för landningssidans utkast &#x200B;](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
 
 Så här uppdaterar du innehållet:
 

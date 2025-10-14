@@ -270,7 +270,7 @@ Om du arkiverar en mapp blir filerna i den inte sökbara. Använd arkivfunktione
 
 Assets kan användas i teamets e-post, e-postmall eller visuella fragmentredigering från den visuella innehållsredigeraren.
 
-Välj ikonen _Marketo Engage Assets_ ( ![Marketo Engage Assets-ikon ](../../assets/do-not-localize/icon-assets-me.svg) ) på vänster sidofält i den visuella designrymden.
+Välj ikonen _Marketo Engage Assets_ ( ![Marketo Engage Assets-ikon &#x200B;](../../assets/do-not-localize/icon-assets-me.svg) ) på vänster sidofält i den visuella designrymden.
 
 Den här åtgärden ändrar verktygspanelen som visar en strukturerad lista över tillgängliga resurser på den valda arbetsytan. Välj den arbetsyta som du vill visa för att välja en resurs.
 

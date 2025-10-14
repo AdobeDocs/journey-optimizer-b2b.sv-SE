@@ -257,7 +257,7 @@ Välj den här typen om du vill välja en fil från datorn och importera den til
 
 I dialogrutan _[!UICONTROL Upload image]_&#x200B;drar och släpper du en fil från systemet till filrutan. Den maximala filstorleken är 100 MB.
 
-![Importera en bildfil till ](../user/content/assets/email-designer-image-upload.png){width="450"}
+![Importera en bildfil till &#x200B;](../user/content/assets/email-designer-image-upload.png){width="450"}
 
 De markerade bildernas filnamn visas i dialogrutan. Resursfilnamn måste vara unika (i olika mappar), och om det redan finns en fil med det namnet visas ett meddelande. Namn kan innehålla högst 100 tecken och får inte innehålla specialtecken (som `;`, `:`, `\` och `|`).
 

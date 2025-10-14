@@ -293,7 +293,7 @@ Använd alternativen för _[!UICONTROL Settings]_&#x200B;på fliken **[!UICONTRO
 
    * **[!UICONTROL External link]** - Välj den här typen om du vill använda en standard-URL som länkmål.
 
-     Ange länkens URL i **[!UICONTROL Url]**. Klicka på ikonen _Anpassa_ ( ![Ikonen Anpassa ](../assets/do-not-localize/icon-personalize.svg) ) om du vill använda en personaliseringstoken som parameter i URL:en.
+     Ange länkens URL i **[!UICONTROL Url]**. Klicka på ikonen _Anpassa_ ( ![Ikonen Anpassa &#x200B;](../assets/do-not-localize/icon-personalize.svg) ) om du vill använda en personaliseringstoken som parameter i URL:en.
 
      ![Definiera en extern länk för en knappkomponent](./assets/component-button-link-options-external.png){width="200"}
 
@@ -573,7 +573,7 @@ Välj [resurskälltyp](./assets-overview.md) och välj en bildfil:
 
   I dialogrutan _[!UICONTROL Upload image]_&#x200B;drar och släpper du en fil från systemet till filrutan. Den maximala filstorleken är 100 MB.
 
-  ![Importera en bildfil till ](./assets/email-designer-image-upload.png){width="450"}
+  ![Importera en bildfil till &#x200B;](./assets/email-designer-image-upload.png){width="450"}
 
   De markerade bildernas filnamn visas i dialogrutan. Resursfilnamn måste vara unika (i olika mappar), och om det redan finns en fil med det namnet visas ett meddelande. Namn kan innehålla högst 100 tecken och får inte innehålla specialtecken (som `;`, `:`, `\` och `|`).
 
@@ -591,7 +591,7 @@ Använd alternativen för _[!UICONTROL Settings]_&#x200B;på fliken **[!UICONTRO
 
    * **[!UICONTROL External link]** - Välj den här typen om du vill använda en standard-URL som länkmål.
 
-     Ange länkens URL i **[!UICONTROL Url]**. Klicka på ikonen _Anpassa_ ( ![Ikonen Anpassa ](../assets/do-not-localize/icon-personalize.svg) ) om du vill använda en personaliseringstoken som parameter i URL:en.
+     Ange länkens URL i **[!UICONTROL Url]**. Klicka på ikonen _Anpassa_ ( ![Ikonen Anpassa &#x200B;](../assets/do-not-localize/icon-personalize.svg) ) om du vill använda en personaliseringstoken som parameter i URL:en.
 
      ![Definiera en extern länk för en knappkomponent](./assets/component-button-link-options-external.png){width="250"}
 

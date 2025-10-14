@@ -97,7 +97,7 @@ Du kan ta bort sidhuvuds- och sidfotsindelningen genom att markera komponenten o
 
 För mindre skärmar eller visningsfönster visas kolumnerna i strukturkomponenten som staplade, såvida du inte ändrar standardinställningen. När strukturkomponenten med flera kolumner är markerad ändrar du inställningen för **[!UICONTROL Do not stack columns on mobile]** genom att flytta reglaget till höger.
 
-![Stapla inte kolumner på mobilen ](./assets/structure-component-settings-stack-columns.png){width="250"}
+![Stapla inte kolumner på mobilen &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## Komponentformat
 
@@ -237,7 +237,7 @@ När kolumnen är markerad på arbetsytan kan du ange format som ska användas p
 
 ## Navigeringsträd
 
-I den visuella designrymden kan du komma åt de strukturella komponenterna, inklusive kolumner och innehåll, med hjälp av navigeringsträdet. Klicka på ikonen _[!UICONTROL Navigation tree]_( ![ ikonen för navigeringsträd ](../assets/do-not-localize/icon-navigation-tree.svg) ) till vänster för att visa trädet.
+I den visuella designrymden kan du komma åt de strukturella komponenterna, inklusive kolumner och innehåll, med hjälp av navigeringsträdet. Klicka på ikonen _[!UICONTROL Navigation tree]_( ![&#x200B; ikonen för navigeringsträd &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg) ) till vänster för att visa trädet.
 
 ![Åtkomst till innehållslagren](../../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 

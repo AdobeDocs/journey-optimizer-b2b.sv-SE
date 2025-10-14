@@ -72,7 +72,7 @@ Du kan följa din första fråga genom att be om en lista med artefakter, som _V
 
 ![AI Assistant-svar för en lista över direktresor](./assets/ai-assistant-artifacts-query.png){width="420"}
 
-Om du vill visa hela tabellen i AI-assistenten klickar du på ikonen _Maximera_ ( ![Maximera ](../assets/do-not-localize/icon-maximize.svg) ). I den utökade tabellvyn klickar du på **[!UICONTROL Download CSV]** för att spara informationen som en CSV-fil.
+Om du vill visa hela tabellen i AI-assistenten klickar du på ikonen _Maximera_ ( ![Maximera &#x200B;](../assets/do-not-localize/icon-maximize.svg) ). I den utökade tabellvyn klickar du på **[!UICONTROL Download CSV]** för att spara informationen som en CSV-fil.
 
 ![AI Assistant-svar för en lista över direktresor](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 

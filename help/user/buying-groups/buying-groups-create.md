@@ -24,7 +24,7 @@ När inköpsgruppen har skapats är den tillgänglig för användning i en konto
 
 1. Följ instruktionerna på varje sida och klicka på **[!UICONTROL Next]** för att fortsätta.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videon ](#how-to-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videon &#x200B;](#how-to-video)
 
 ## Vägledningssida
 

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 1. Klicka på ikonen _[!UICONTROL Links]_( ![ikonen Visa länkar](../assets/do-not-localize/icon-links.svg) ) till vänster om du vill visa alla länkade URL:er i ditt innehåll som ska spåras.
 
-1. Om det behövs klickar du på ikonen _Redigera_ ( ![Redigera ](../user/assets/do-not-localize/icon-edit.svg) ) och ändrar **[!UICONTROL Tracking Type]** eller **[!UICONTROL Label]**.
+1. Om det behövs klickar du på ikonen _Redigera_ ( ![Redigera &#x200B;](../user/assets/do-not-localize/icon-edit.svg) ) och ändrar **[!UICONTROL Tracking Type]** eller **[!UICONTROL Label]**.
 
    Du kan också lägga till _taggar_ för en länk.
 

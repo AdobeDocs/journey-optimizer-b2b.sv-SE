@@ -29,7 +29,7 @@ Se till att följande domäner (inklusive asterisken) läggs till i tillåtelsel
 
 Följ de här stegen för att säkerställa spårning och e-postleverans:
 
-1. [Skapa DNS-poster för ](#create-dns-records-for-landing-pages-and-email)
+1. [Skapa DNS-poster för &#x200B;](#create-dns-records-for-landing-pages-and-email)
 1. [Konfigurera SPF och DKIM](#set-up-spf-and-dkim)
 1. [Konfigurera DMARC](#set-up-dmarc)
 1. [Konfigurera MX-poster för din domän](#set-up-mx-records-for-your-domain)
@@ -61,7 +61,7 @@ Exempel:
 
 >[!NOTE]
 >
->Värdet `[MktoTrackingLink]` måste vara [varumärkningsdomänens ](../admin/configure-channels-emails.md#branding-domains) standardvärde.
+>Värdet `[MktoTrackingLink]` måste vara [varumärkningsdomänens &#x200B;](../admin/configure-channels-emails.md#branding-domains) standardvärde.
 
 ### Tillhandahåll SSL-certifikatet
 

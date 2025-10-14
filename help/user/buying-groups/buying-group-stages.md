@@ -198,7 +198,7 @@ Du kan ta bort inköpsgruppens fasmodell när den är i ett utkast eller publice
 
 1. Klicka på menyikonen _Mer_ (**..**) bredvid namnet på scenmodellen och välj **[!UICONTROL Delete]**.
 
-   ![Menyn Mer för att köpa gruppstadier ](./assets/stages-model-list-more-menu.png){width="700"}
+   ![Menyn Mer för att köpa gruppstadier &#x200B;](./assets/stages-model-list-more-menu.png){width="700"}
 
 1. Bekräfta genom att klicka på **[!UICONTROL Delete]** i dialogrutan.
 

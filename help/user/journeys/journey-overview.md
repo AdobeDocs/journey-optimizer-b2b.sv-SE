@@ -62,7 +62,7 @@ Klicka på namnet (visas som en länk) i listan _[!UICONTROL Account journeys]_&
 Huvudet för varje kontoresekarta omfattar:
 
 * Resensnamn
-* Redigera verktyg för resenamnet ( ikonen ![Redigera ](../assets/do-not-localize/icon-edit.svg) _Redigera_ )
+* Redigera verktyg för resenamnet ( ikonen ![Redigera &#x200B;](../assets/do-not-localize/icon-edit.svg) _Redigera_ )
 * Status för resan
 
 Status för en resa kan ändras beroende på vilka åtgärder du vidtar. Beroende på statusen för en resa är vissa åtgärder inte tillgängliga från den högra sidan av huvudet.

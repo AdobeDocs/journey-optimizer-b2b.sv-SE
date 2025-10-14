@@ -27,7 +27,7 @@ I följande exempel beskrivs stegen för att anpassa innehåll med hjälp av lea
 
 1. Markera textkomponenten och klicka på ikonen _Lägg till anpassning_ i verktygsfältet.
 
-   ![Klicka på ikonen Anpassa ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![Klicka på ikonen Anpassa &#x200B;](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    Den här åtgärden öppnar dialogrutan _Redigera Personalization_.
 

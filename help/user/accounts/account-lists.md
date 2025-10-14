@@ -16,7 +16,7 @@ ht-degree: 0%
 I Journey Optimizer B2B edition är en kontolista en samling namngivna konton som marknadsförare kan använda för riktad resesamordning. En kontolista kan ha namngivna konton som mål enligt dina definierade kriterier, t.ex. bransch, plats eller företagets storlek. Det finns två typer av kontolistor:
 
 * **Statisk** - Med en statisk kontolista ändras listan bara när du lägger till kontona. Du kan lägga till konton manuellt genom att använda en filteruppsättning för att fylla i listan baserat på aktuella kontodata eller lägga till och ta bort konton under en kontoresa.
-* **Dynamisk** - Med en dynamisk kontolista definierar du en filteruppsättning som automatiskt väljer listan. Systemet använder den här filteruppsättningen för att lägga till och ta bort konton efter ändringar i kontoinformationen. Den här listhanteringen liknar [målgruppssegmentering i kunddataplattformen ](https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"} i realtid.
+* **Dynamisk** - Med en dynamisk kontolista definierar du en filteruppsättning som automatiskt väljer listan. Systemet använder den här filteruppsättningen för att lägga till och ta bort konton efter ändringar i kontoinformationen. Den här listhanteringen liknar [målgruppssegmentering i kunddataplattformen &#x200B;](https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"} i realtid.
 
 När en kontolista är i läget _Live_ (publicerad) är den tillgänglig för [användning i kontoresor och Marketo Engage-program](./account-lists-journeys.md).
 
@@ -86,7 +86,7 @@ När du har skapat den statiska kontolistan kan du fylla i listan genom att anv�
 
 1. CLick **[!UICONTROL Add accounts]**.
 
-   ![Lägg till ett kontofilter för att fylla i listan ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
+   ![Lägg till ett kontofilter för att fylla i listan &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Du kan öppna den här funktionen på den tomma listsidan eller i det övre högra hörnet.
 
@@ -98,7 +98,7 @@ När du har skapat den statiska kontolistan kan du fylla i listan genom att anv�
    * Slutför definitionen av matchningsutvärderingen.
    * Upprepa dessa åtgärder för varje filter som du vill inkludera.
 
-     ![Lägg till filter för att fylla i kontolistan ](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Lägg till filter för att fylla i kontolistan &#x200B;](./assets/account-lists-static-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Du kan finjustera dina villkor genom att använda **[!UICONTROL Filter logic]** högst upp. Du kan välja att matcha alla attributvillkor eller alla villkor.
 
@@ -116,7 +116,7 @@ När du har skapat en dynamisk kontolista definierar du den filteruppsättning s
 
 1. Klicka på **[!UICONTROL Select filters]**.
 
-   ![Välj filter som används för att fylla i listan dynamiskt ](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
+   ![Välj filter som används för att fylla i listan dynamiskt &#x200B;](./assets/account-lists-dynamic-new-select-filters.png){width="700" zoomable="yes"}
 
 1. I dialogrutan _[!UICONTROL Add accounts by filter]_&#x200B;använder du menyn **[!UICONTROL Account Filters]**&#x200B;för att lägga till de attribut och specialfilter som du vill använda för att skapa filteruppsättningen:
 
@@ -126,7 +126,7 @@ När du har skapat en dynamisk kontolista definierar du den filteruppsättning s
    * Slutför definitionen av matchningsutvärderingen.
    * Upprepa dessa åtgärder för varje filter som du vill inkludera.
 
-     ![Lägg till filter för att fylla i kontolistan ](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
+     ![Lägg till filter för att fylla i kontolistan &#x200B;](./assets/account-lists-dynamic-add-accounts-by-filters.png){width="700" zoomable="yes"}
 
    * Du kan finjustera dina villkor genom att använda **[!UICONTROL Filter logic]** högst upp. Du kan välja att matcha alla attributvillkor eller alla villkor.
 

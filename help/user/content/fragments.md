@@ -107,7 +107,7 @@ Du kan skapa nya visuella fragment i Journey Optimizer B2B edition genom att kli
    >
    >När du använder ett tema begränsas fragmentkompatibiliteten till e-postmeddelanden och e-postmallar som har skapats i _temaläge_.
 
-   Klicka på ikonen _Teman_ ( ![Themes ](../assets/do-not-localize/icon-design-themes.svg) ) till höger.
+   Klicka på ikonen _Teman_ ( ![Themes &#x200B;](../assets/do-not-localize/icon-design-themes.svg) ) till höger.
 
    ![Fragmentdesignutrymme - ikonen Teman är markerad](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
@@ -302,7 +302,7 @@ Fragment är utformade för återanvändning och kan infogas för att skapa e-po
 
 1. Navigera till **[!UICONTROL Account Journeys]** och öppna en befintlig resa eller skapa en ny.
 
-1. Skapa en [_[!UICONTROL Send Email]_-nod ](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Skapa en [_[!UICONTROL Send Email]_-nod &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Skapa eller redigera [e-postinnehåll för noden](./email-authoring.md).
 

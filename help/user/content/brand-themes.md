@@ -118,7 +118,7 @@ Välj fliken **[!UICONTROL Colors]** och använd inställningarna för att defin
 
 * Klicka på **[!UICONTROL Add variant]** om du vill skapa flera färgvarianter, till exempel ett _ljust_- och _mörkt_-läge, där varje variant har sin egen färgpalett och nya kontroller. Du kan ha upp till sex varianter.
 
-  Klicka på ikonen _Redigera_ ( ![Redigera ](../assets/do-not-localize/icon-edit.svg) ) för varje variant. Du kan använda standardpaletten eller andra anpassade färger.
+  Klicka på ikonen _Redigera_ ( ![Redigera &#x200B;](../assets/do-not-localize/icon-edit.svg) ) för varje variant. Du kan använda standardpaletten eller andra anpassade färger.
 
   ![Inställningar för temafärger - redigera variant](./assets/email-theme-colors-settings-variant.png){width="450"}
 
@@ -245,7 +245,7 @@ Använd listen till höger för att navigera mellan de olika flikarna och ändra
 
 ![Redigera ett tema - välj ett anpassat tema att redigera](./assets/email-theme-edit-canvas.png){width="800" zoomable="yes"}
 
-De visuella elementen som visas ändras när du ändrar inställningarna. Om resultatet på arbetsytan inte blir som du vill kan du klicka på ikonen _Ångra_ ( ![Ångra-ikonen ](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ) längst ned på den högra panelen. Klicka på ikonen _Gör om_ ( ![ikonen Gör om](../assets/do-not-localize/icon-design-themes-redo.png){width="16"} ) för att tillämpa ändringen igen.
+De visuella elementen som visas ändras när du ändrar inställningarna. Om resultatet på arbetsytan inte blir som du vill kan du klicka på ikonen _Ångra_ ( ![Ångra-ikonen &#x200B;](../assets/do-not-localize/icon-design-themes-undo.png){width="16"} ) längst ned på den högra panelen. Klicka på ikonen _Gör om_ ( ![ikonen Gör om](../assets/do-not-localize/icon-design-themes-redo.png){width="16"} ) för att tillämpa ändringen igen.
 
 Klicka på **[!UICONTROL Save]** när dina temaändringar är slutförda.
 
@@ -319,7 +319,7 @@ När du skapar en ny e-post- eller e-postmall kan du välja att använda ett var
      >
      >Om du väljer läget _[!UICONTROL Themes]_&#x200B;är bara [fragment](./fragments.md) som också har skapats i läget_ Teman _tillgängliga för att läggas till i e-postinnehållet.
 
-1. Klicka på ikonen _Teman_ ( ![Themes ](../assets/do-not-localize/icon-design-themes.svg) ) till höger i e-postdesignområdet.
+1. Klicka på ikonen _Teman_ ( ![Themes &#x200B;](../assets/do-not-localize/icon-design-themes.svg) ) till höger i e-postdesignområdet.
 
    ![Blanksteg för e-postdesign - ikonen för teman är vald](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
@@ -335,7 +335,7 @@ När du skapar en ny e-post- eller e-postmall kan du välja att använda ett var
 
    Det nyligen valda anpassade temat använder formaten på alla e-postkomponenter på arbetsytan. Du kan växla mellan färgvarianterna.
 
-1. Om du behöver åsidosätta temaformaten för en markerad komponent klickar du på ikonen _Lås upp komponentformat_ ( ![Lås upp komponentformat ](../assets/do-not-localize/icon-design-theme-unlock.svg) ).
+1. Om du behöver åsidosätta temaformaten för en markerad komponent klickar du på ikonen _Lås upp komponentformat_ ( ![Lås upp komponentformat &#x200B;](../assets/do-not-localize/icon-design-theme-unlock.svg) ).
 
    ![Designrymd för e-post - lås upp temaformat för komponent](./assets/email-design-themes-unlock-component.png){width="600" zoomable="yes"}
 
@@ -351,7 +351,7 @@ Du kan ändra temat när som helst för e-post- eller e-postmallar som skapats i
 
 1. Öppna e-post- eller e-postmallen i designområdet.
 
-1. Klicka på ikonen _Teman_ ( ![Themes ](../assets/do-not-localize/icon-design-themes.svg) ) till höger.
+1. Klicka på ikonen _Teman_ ( ![Themes &#x200B;](../assets/do-not-localize/icon-design-themes.svg) ) till höger.
 
    Det använda temat visas på den högra panelen.
 

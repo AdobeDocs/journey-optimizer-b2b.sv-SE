@@ -82,7 +82,7 @@ När du [lägger till en e-poståtgärd](./add-email.md#add-an-email-action-node
 
 I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant för att generera en optimerad ämnesrad för e-postmeddelandet:
 
-1. I _[!UICONTROL Email Properties]_&#x200B;klickar du på AI Assistant-ikonen ( ![ AI Assistant-ikon ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger om fältet **[!UICONTROL Subject line]**.
+1. I _[!UICONTROL Email Properties]_&#x200B;klickar du på AI Assistant-ikonen ( ![&#x200B; AI Assistant-ikon &#x200B;](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger om fältet **[!UICONTROL Subject line]**.
 
    ![AI Assistant-åtkomst till ämnesrad för e-post](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -142,7 +142,7 @@ I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant
 
 En e-postförrubrik är den korta sammanfattningstexten som följer efter ämnesraden när ett e-postmeddelande visas i inkorgen. Det är ett valfritt element för ett e-postmeddelande, men en utmärkt möjlighet att förbättra engagemanget. I följande steg beskrivs aktivitetssekvensen för hur du använder AI Assistant för att generera en optimerad förrubrik för e-postmeddelandet:
 
-1. Markera kryssrutan **[!UICONTROL Preheader]** i E-postegenskaperna och klicka på AI Assistant-ikonen ( ![ AI Assistant-ikon ](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger.
+1. Markera kryssrutan **[!UICONTROL Preheader]** i E-postegenskaperna och klicka på AI Assistant-ikonen ( ![&#x200B; AI Assistant-ikon &#x200B;](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} ) till höger.
 
    ![AI-assistentåtkomst för e-postförrubrik](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
 

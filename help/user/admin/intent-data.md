@@ -18,7 +18,7 @@ I Journey Optimizer B2B edition förutser Intent Detection-modellen en lösning/
 * Avsiktsnivåer - Tillgängligt på kända leads-, konto- och inköpsgruppsnivåer.
 * Typer av avsiktssignal - Nyckelord, produkt och lösning
 
-Ingående data används i [_Intelligent Dashboard_](../dashboards/intelligent-dashboard.md), [_Kontoinformation_, ](../accounts/account-details.md), [_Information om inköpsgrupp_, ](../buying-groups/buying-group-details.md) och [_Personinformation_, sida](../accounts/person-details.md).
+Ingående data används i [_Intelligent Dashboard_](../dashboards/intelligent-dashboard.md), [_Kontoinformation_, &#x200B;](../accounts/account-details.md), [_Information om inköpsgrupp_, &#x200B;](../buying-groups/buying-group-details.md) och [_Personinformation_, sida](../accounts/person-details.md).
 
 ![Återgivningsdatavisualisering](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 

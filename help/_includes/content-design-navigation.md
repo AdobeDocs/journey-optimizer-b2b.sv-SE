@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Skapa innehåll - navigering
 
-När du arbetar med innehållet i den visuella designrymden kan du komma åt komponenter, kolumner och innehållselement med hjälp av navigeringsträdet. Klicka på ikonen _[!UICONTROL Navigation tree]_( ![ ikonen för navigeringsträd ](../assets/do-not-localize/icon-navigation-tree.svg) ) till vänster för att visa trädet.
+När du arbetar med innehållet i den visuella designrymden kan du komma åt komponenter, kolumner och innehållselement med hjälp av navigeringsträdet. Klicka på ikonen _[!UICONTROL Navigation tree]_( ![&#x200B; ikonen för navigeringsträd &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg) ) till vänster för att visa trädet.
 
 ![Åtkomst till innehållslagren](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 

@@ -67,7 +67,7 @@ Använd den visuella innehållsredigeraren för att definiera strukturen för e-
 
 1. (_Endast temaläge_) Använd ett tema.
 
-   Klicka på ikonen _Teman_ ( ![Themes ](../assets/do-not-localize/icon-design-themes.svg) ) till höger i e-postdesignområdet.
+   Klicka på ikonen _Teman_ ( ![Themes &#x200B;](../assets/do-not-localize/icon-design-themes.svg) ) till höger i e-postdesignområdet.
 
    ![Blanksteg för e-postdesign - ikonen för teman är vald](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
@@ -165,7 +165,7 @@ Det går inte att ångra borttagningen av en e-postmall, så kontrollera innan d
 
 På listsidan för e-postmallar markerar du flera mallar åt gången genom att markera kryssrutorna till vänster. En banderoll visas längst ned när du väljer flera mallar.
 
-![En banderoll visar antalet valda mallar och ikonen Ta bort ](./assets/templates-multi-select-banner.png){width="600"}
+![En banderoll visar antalet valda mallar och ikonen Ta bort &#x200B;](./assets/templates-multi-select-banner.png){width="600"}
 
 **[!UICONTROL Delete]** - Du kan ta bort upp till 20 mallar samtidigt. I en bekräftelsedialogruta kan du avbryta åtgärden eller bekräfta borttagningen av mallarna.
 

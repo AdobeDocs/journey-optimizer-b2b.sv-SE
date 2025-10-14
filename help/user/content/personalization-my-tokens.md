@@ -81,7 +81,7 @@ Du kan ta bort en anpassad token från listan _Mina token_, men du bör se till 
 
 När du skapar e-postinnehåll för din kontoresa kan du använda någon av tokenerna i listan _Mina token_ när du använder personaliseringsverktygen i den visuella designområdet.
 
-1. Markera textkomponenten och klicka på ikonen _Lägg till anpassning_ ( ![Lägg till personalisering ](../../assets/do-not-localize/icon-personalization-field.svg) ) i verktygsfältet.
+1. Markera textkomponenten och klicka på ikonen _Lägg till anpassning_ ( ![Lägg till personalisering &#x200B;](../../assets/do-not-localize/icon-personalization-field.svg) ) i verktygsfältet.
 
    ![Klicka på ikonen Lägg till anpassning](./assets/email-personalize-text.png){width="600"}
 
