@@ -3,8 +3,7 @@ title: Collaboration verktyg för e-post
 description: Samarbeta om e-post i Journey Optimizer B2B edition. Lägg in kommentarer, bjuda in granskare, åtgärda feedback och effektivisera granskningsflödena för team.
 feature: Email Authoring, Content
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -37,7 +36,7 @@ Produktadministratörer kan aktivera åtkomst till e-postsamarbetsverktygen geno
 
 +++ Aktivera e-postbehörigheter
 
-1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klicka på **[!UICONTROL Edit]** om du vill ändra behörigheterna.
 
@@ -53,7 +52,7 @@ Produktadministratörer kan aktivera åtkomst till e-postsamarbetsverktygen geno
 
    * Ange användarnamn och e-postadress eller välj en befintlig användare i listan.
 
-     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klicka på **[!UICONTROL Save]** för att tillämpa ändringarna.
 
@@ -144,7 +143,7 @@ Medarbetarna kan klicka på den numrerade nålikonen på e-postarbetsytan för a
 
 #### Svara på en kommentar
 
-För varje kommentar kan du använda funktionen _[!UICONTROL Reply]_&#x200B;för att fortsätta en diskussion eller besvara en fråga.
+För varje kommentar kan du använda funktionen _[!UICONTROL Reply]_för att fortsätta en diskussion eller besvara en fråga.
 
 Klicka på **[!UICONTROL Reply]** längst ned i kommentaren och ange texten för ditt svar. Om du vill ta med en citat från den aktuella kommentaren i ditt svar klickar du på ikonen _Mer-menyn_ ( **..** ) och väljer **[!UICONTROL Quote reply]**.
 
@@ -180,7 +179,7 @@ Du kan rensa kommentarloggen genom att ta bort och ta bort dem. Klicka på ikone
 
 ### Lösta kommentarer
 
-Lösta kommentarer är som standard dolda på panelen _Collaboration_. Du kan visa lösta kommentarer när som helst genom att rensa filtret. Klicka på ikonen _Filter_ ( ![Filtrera lösta kommentarer &#x200B;](../assets/do-not-localize/icon-filter.svg) ) och avmarkera kryssrutan **[!UICONTROL Hide resolved comments]**.
+Lösta kommentarer är som standard dolda på panelen _Collaboration_. Du kan visa lösta kommentarer när som helst genom att rensa filtret. Klicka på ikonen _Filter_ ( ![Filtrera lösta kommentarer ](../assets/do-not-localize/icon-filter.svg) ) och avmarkera kryssrutan **[!UICONTROL Hide resolved comments]**.
 
 ![Collaboration-panelen visar filter för att visa lösta e-postkommentarer](./assets/email-comments-filter-resolved.png){width="350"}
 
