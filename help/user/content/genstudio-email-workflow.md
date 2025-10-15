@@ -35,7 +35,7 @@ En teknisk marknadsförare som använder Journey Optimizer B2B edition för att 
 
 ## Funktioner för generering av GenStudio-innehåll
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio-for-performance-marketing.html){target="_blank"} är en generativ AI-tillämpning som ger marknadsföringsteamen möjlighet att skapa slagkraftiga, personaliserade annonser och e-postmeddelanden som följer varumärkesstandarder och följer deras företagspolicyer. Genom att utnyttja Adobe AI-teknik får du en omfattande verktygslåda som förenklar komplexa funktioner för att skapa och hantera innehåll så att kreatörerna kan fokusera på innovation.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/se/products/genstudio-for-performance-marketing.html){target="_blank"} är en generativ AI-tillämpning som ger marknadsföringsteamen möjlighet att skapa slagkraftiga, personaliserade annonser och e-postmeddelanden som följer varumärkesstandarder och följer deras företagspolicyer. Genom att utnyttja Adobe AI-teknik får du en omfattande verktygslåda som förenklar komplexa funktioner för att skapa och hantera innehåll så att kreatörerna kan fokusera på innovation.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Skapa e-postmeddelanden för marknadsföring på varumärke](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
