@@ -96,7 +96,7 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
    * Klicka på **[!UICONTROL Select person attributes]**.
 
-   * I dialogrutan _[!UICONTROL Select person attributes]_markerar du kryssrutan för varje attribut som du vill mappa (högst fem).
+   * I dialogrutan _[!UICONTROL Select person attributes]_&#x200B;markerar du kryssrutan för varje attribut som du vill mappa (högst fem).
 
      Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet.
 
@@ -121,7 +121,7 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
 Om du tar bort en profil tas den bort från listan _Personmappning_ och kan inte längre användas i rollmallar.
 
-1. På sidan _[!UICONTROL Persona mapping]_letar du reda på den profil du vill ta bort.
+1. På sidan _[!UICONTROL Persona mapping]_&#x200B;letar du reda på den profil du vill ta bort.
 
 1. Klicka på ellipsikonen (**..**) bredvid namnet för och välj **[!UICONTROL Delete]**.
 
