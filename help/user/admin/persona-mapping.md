@@ -5,9 +5,9 @@ feature: Setup, Buying Groups
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 role: Admin
-source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
+source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -76,10 +76,7 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
   ![Filtrera de händelsedefinitioner som visas](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter.svg) ) längst upp till vänster om du vill filtrera den visade listan med något av dessa attribut:
-
-   * ?
-   * ?
+* Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter.svg) ) längst upp till vänster om du vill filtrera den visade listan efter attribut.
 
 ## Skapa en persona
 
@@ -95,7 +92,7 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
    * Klicka på **[!UICONTROL Select person attributes]**.
 
-   * I dialogrutan _[!UICONTROL Select person attributes]_&#x200B;markerar du kryssrutan för varje attribut som du vill mappa (högst fem).
+   * I dialogrutan _[!UICONTROL Select person attributes]_markerar du kryssrutan för varje attribut som du vill mappa (högst fem).
 
      Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet.
 
@@ -115,12 +112,11 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
 1. Klicka på namnet för att få tillgång till informationen om den aktuella personen.
 
-
 ## Ta bort en persona
 
 Om du tar bort en profil tas den bort från listan _Personmappning_ och kan inte längre användas i rollmallar.
 
-1. På sidan _[!UICONTROL Persona mapping]_&#x200B;letar du reda på den profil du vill ta bort.
+1. På sidan _[!UICONTROL Persona mapping]_letar du reda på den profil du vill ta bort.
 
 1. Klicka på ellipsikonen (**..**) bredvid namnet för och välj **[!UICONTROL Delete]**.
 
