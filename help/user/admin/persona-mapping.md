@@ -1,11 +1,9 @@
 ---
 title: Personamappning
-description: Lär dig hur du konfigurerar profiler för kontobaserad marknadsföring genom att mappa personattribut för att skapa anpassade rollmallar för inköpsgrupper.
+description: Lär dig hur du skapar personmappning för B2B-marknadsföring. Mappa personattribut i Journey Optimizer B2B edition för att skapa rollmallar och optimera målinriktningen för inköpsgrupper.
 feature: Setup, Buying Groups
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 role: Admin
-source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -92,7 +90,7 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
    * Klicka på **[!UICONTROL Select person attributes]**.
 
-   * I dialogrutan _[!UICONTROL Select person attributes]_&#x200B;markerar du kryssrutan för varje attribut som du vill mappa (högst fem).
+   * I dialogrutan markerar du kryssrutan för varje attribut som du vill mappa (högst fem).
 
      Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet.
 
@@ -110,13 +108,13 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
 ## Redigera en profil
 
-1. Klicka på namnet för att få tillgång till informationen om den aktuella personen.
+Klicka på det personliga namnet för att komma åt och redigera informationen för den aktuella personen,
 
 ## Ta bort en persona
 
 Om du tar bort en profil tas den bort från listan _Personmappning_ och kan inte längre användas i rollmallar.
 
-1. På sidan _[!UICONTROL Persona mapping]_&#x200B;letar du reda på den profil du vill ta bort.
+1. På sidan _[!UICONTROL Persona mapping]_letar du reda på den profil du vill ta bort.
 
 1. Klicka på ellipsikonen (**..**) bredvid namnet för och välj **[!UICONTROL Delete]**.
 
