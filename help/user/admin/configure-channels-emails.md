@@ -51,11 +51,11 @@ Klicka på fliken **[!UICONTROL Branding domains]** om du vill granska profileri
 
 ![Få åtkomst till inställningarna för profileringsdomäner](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Den här inställningen definierar din primära domän för en eller flera arbetsytor i den anslutna Marketo Engage-instansen. Nya e-postmeddelanden använder den här domänen som standard, men marknadsförarna kan [åsidosätta den per e-post](../content/add-email.md#define-the-email-settings). Mer information om hur du definierar standardprofileringsdomänen finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Den här inställningen definierar din primära domän för en eller flera arbetsytor i den anslutna Marketo Engage-instansen. Nya e-postmeddelanden använder den här domänen som standard, men marknadsförarna kan [åsidosätta den per e-post](../content/add-email.md#define-the-email-settings). Mer information om hur du definierar standardprofileringsdomänen finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Om ni marknadsför flera varumärken och vill att var och en ska ha sina egna varumärkesspårningslänkar kan ni lägga till ytterligare en varumärkesdomän. Mer information om hur du lägger till flera profileringsdomäner finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Om ni marknadsför flera varumärken och vill att var och en ska ha sina egna varumärkesspårningslänkar kan ni lägga till ytterligare en varumärkesdomän. Mer information om hur du lägger till flera profileringsdomäner finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Custom header options] {#custom-header-options}
 
@@ -79,7 +79,7 @@ Klicka på **[!UICONTROL Edit settings]** överst till höger för att komma åt
 >
 >Om du vill komma åt och redigera de här inställningarna i Adobe Marketo Engage måste du ha behörighet som produktadministratör.
 
-Mer information om hur du konfigurerar kommunikationsgränserna finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Mer information om hur du konfigurerar kommunikationsgränserna finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
@@ -113,7 +113,7 @@ DKIM är ett autentiseringsprotokoll som används av e-postmottagare för att va
 
 När du har den offentliga nyckeln i din DNS-post och den sändande domänen aktiverad i den anslutna Marketo Engage-instansen, används anpassad DKIM-signering för dina utgående meddelanden. Den anpassade DKIM-signeringen innehåller en krypterad digital signatur med varje e-postmeddelande som skickas. Mottagarna kan sedan dekryptera den digitala signaturen genom att leta upp den _offentliga nyckeln_ i den sändande domänens DNS. Om nyckeln i e-postmeddelandet motsvarar nyckeln i DNS-posten är det troligare att den mottagande e-postservern accepterar e-postmeddelandet som skickas via Marketo Engage.
 
-Mer information om hur du konfigurerar en anpassad DKIM-signatur för e-postleverans finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
+Mer information om hur du konfigurerar en anpassad DKIM-signatur för e-postleverans finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
 
 ## Rotaktivitet
 
@@ -146,4 +146,4 @@ Inställningarna är skrivskyddade i Journey Optimizer B2B edition. Klicka på *
 >
 >Om du vill komma åt och redigera de här inställningarna i Adobe Marketo Engage måste du ha behörighet som produktadministratör.
 
-Mer information om hur du konfigurerar alternativen för robotaktivitet finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Mer information om hur du konfigurerar alternativen för robotaktivitet finns i [Marketo Engage-dokumentationen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
