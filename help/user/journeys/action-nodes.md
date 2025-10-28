@@ -231,4 +231,4 @@ Om personprofilen inte var medlem i den smarta listan ignoreras åtgärden.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443249/?captions=swe&learn=on)
