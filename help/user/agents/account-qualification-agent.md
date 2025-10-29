@@ -3,7 +3,7 @@ title: Account Qualification Agent för B2B
 description: Läs mer om Account Qualification Agent för B2B-säljteam med AI för att snabba upp pipeline-genereringen med automatiserad undersökning av potentiella kunder, kontoinsikter och e-postutkast.
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 79a4c897621c7af68c4c17382673124cdc14d8af
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Account Qualification Agent för B2B
 
->[!NOTE]
->Den här funktionen är för närvarande begränsad och inte tillgänglig för alla användare.
+>[!AVAILABILITY]
 >
+>Den här funktionen är för närvarande begränsad och inte tillgänglig för alla användare.
 
 Account Qualification Agent är en AI-assistent som utformats för kontorepresentanter. Det effektiviserar och automatiserar arbetsflödena för utveckling av kärnförsäljning, vilket avsevärt minskar de manuella omkostnaderna och snabbar upp produktionen av rörledningar.
 
