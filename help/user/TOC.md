@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '339'
 ht-degree: 17%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 17%
          + [Översikt](./content/email-templates.md)
          + [Framtagning av e-postmallar](./content/email-template-authoring.md)
          + [Konvertera bild till mall](./content/email-template-image-convert.md)
-      + Mallar för landningssidor {#landing-page-templates}
+      + Landningssidmallar (Beta) {#landing-page-templates}
          + [Översikt](./content/landing-page-templates.md)
          + [Design av mall för landningssida](./content/landing-page-template-design.md)
    + Fragment {#visual-fragments}

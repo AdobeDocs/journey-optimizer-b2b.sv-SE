@@ -2,7 +2,7 @@
 title: Konvertera en bild till en e-postmall
 description: Förvandla bildfiler till HTML e-postmallar med Journey Optimizer B2B edition. Ladda upp PNG-/JPEG-filer och generera automatiskt återanvändbart e-postinnehåll.
 feature: Email Authoring, Content
-source-git-commit: afac631110f27c59f73aaf4761e3739c772258be
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -11,11 +11,9 @@ ht-degree: 0%
 
 # Konvertera en bild till en e-postmall
 
-Du kan enkelt konvertera designfiler som sparats som bilder (PNG eller JPEG) till HTML som är färdigt för e-postmallar, vilket sparar värdefull tid och resurser för webbteamet.
-
 Att skapa och uppdatera e-postmallar är en grundläggande komponent i leveranskedjan för marknadsföringsmaterial, men dessa uppgifter kräver ofta mycket tid och resurser på grund av manuell HTML-kodning. Marknadsföringsteamen har traditionellt förlitat sig på byråer eller IT-team för att ta fram dessa mallar. Det nya Image-to-HTML-verktyget för e-postmallar förenklar processen genom att marknadsförarna kan konvertera designfiler till HTML-kodmallar. Den konverterade HTML är klar för redigering i e-postdesignområdet. Det här verktyget har stöd för både filtyperna JPEG och PNG och har ett dra och släpp-gränssnitt.
 
-Den intuitiva mallgeneratorn konverterar bilder till HTML-kodmallar som är klara att ändras med e-postdesignverktygen. Marknadsförare kan ladda upp bilder och snabbt generera e-postmallar utan att behöva skriva kod manuellt från HTML. Det här verktyget stöder konvertering från JPEG- och PNG-filer till HTML-kodade e-postmallar.
+Du kan enkelt konvertera designfiler som sparats som bilder (PNG eller JPEG) till HTML som är färdigt för e-postmallar, vilket sparar värdefull tid och resurser för webbteamet. Den intuitiva mallgeneratorn konverterar bilder till HTML-kodade e-postmallar som är klara att ändras med e-postdesignverktygen. Marknadsförare kan ladda upp bilder och snabbt generera e-postmallar utan att behöva skriva kod manuellt från HTML. Det här verktyget stöder konvertering från JPEG- och PNG-filer till HTML-kodade e-postmallar.
 
 >[!BEGINSHADEBOX]
 
