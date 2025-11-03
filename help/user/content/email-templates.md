@@ -41,7 +41,7 @@ Du kan skapa en e-postmall från e-postmallens listsida genom att klicka på **[
 
 1. Klicka på **[!UICONTROL Create]**.
 
-Sidan _[!UICONTROL Design your template]_öppnas och innehåller flera alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_eller_[!UICONTROL Select design template]_.
+Sidan _[!UICONTROL Design your template]_&#x200B;öppnas och innehåller flera alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_&#x200B;eller&#x200B;_[!UICONTROL Select design template]_.
 
 ![Välj hur du vill börja med din e-postmallsdesign](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
@@ -55,9 +55,9 @@ Använd den visuella innehållsredigeraren för att definiera strukturen för e-
 >
 >De tillgängliga designverktygen motsvarar verktygen som används för att skapa [e-post](./email-authoring.md). Skillnaden är att det här innehållet sedan sparas som en mall som kan återanvändas i flera _skicka e-post_ -noder på kontoresor.
 
-1. Välj alternativet _[!UICONTROL Design your template]_på startsidan för **[!UICONTROL Design from scratch]**.
+1. Välj alternativet _[!UICONTROL Design your template]_&#x200B;på startsidan för **[!UICONTROL Design from scratch]**.
 
-1. I dialogrutan _[!UICONTROL Create email]_väljer du vilken typ av e-postinnehåll du vill använda för mallen.
+1. I dialogrutan _[!UICONTROL Create email]_&#x200B;väljer du vilken typ av e-postinnehåll du vill använda för mallen.
 
    * **[!UICONTROL Use Themes]** - Välj det här alternativet om du vill skapa e-postmallen i _temaläge_. I det här läget kan du använda ett definierat varumärkestema för att effektivisera innehållsredigeringsprocessen och se till att designen följer definierade standarder.
 
@@ -67,7 +67,7 @@ Använd den visuella innehållsredigeraren för att definiera strukturen för e-
 
 1. (_Endast temaläge_) Använd ett tema.
 
-   Klicka på ikonen _Teman_ ( ![Themes ](../assets/do-not-localize/icon-design-themes.svg) ) till höger i e-postdesignområdet.
+   Klicka på ikonen _Teman_ ( ![Themes &#x200B;](../assets/do-not-localize/icon-design-themes.svg) ) till höger i e-postdesignområdet.
 
    ![Blanksteg för e-postdesign - ikonen för teman är vald](./assets/email-design-themes-icon-selected.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Du kan duplicera en e-postmall på något av följande sätt:
 
   ![Klicka på Mer för att komma åt åtgärderna Ta bort och Duplicera](./assets/template-details-more-menu.png){width="400"}
 
-* Klicka på ellipsen (..) bredvid mallen på listsidan för _[!UICONTROL Email Templates]_och välj **[!UICONTROL Duplicate]**.
+* Klicka på ellipsen (..) bredvid mallen på listsidan för _[!UICONTROL Email Templates]_&#x200B;och välj **[!UICONTROL Duplicate]**.
 
 Ange ett användbart namn (unikt) och en beskrivning i dialogrutan. Klicka på **[!UICONTROL Duplicate]** för att slutföra åtgärden.
 
@@ -155,7 +155,7 @@ Den duplicerade (nya) e-postmallen visas sedan i listan _[!UICONTROL Email Templ
 Det går inte att ångra borttagningen av en e-postmall, så kontrollera innan du startar en borttagningsåtgärd. Du kan ta bort en e-postmall på något av följande sätt:
 
 * Expandera **[!UICONTROL More]** från mallinformationen till höger och klicka på **[!UICONTROL Delete]**.
-* Klicka på ellipsen (..) bredvid mallen på listsidan för _[!UICONTROL Email Templates]_och välj **[!UICONTROL Delete]**.
+* Klicka på ellipsen (..) bredvid mallen på listsidan för _[!UICONTROL Email Templates]_&#x200B;och välj **[!UICONTROL Delete]**.
 
   ![Klicka på ... för att komma åt åtgärderna Duplicera och Ta bort](./assets/templates-list-more-menu.png){width="500"}
 
@@ -165,7 +165,7 @@ Det går inte att ångra borttagningen av en e-postmall, så kontrollera innan d
 
 På listsidan för e-postmallar markerar du flera mallar åt gången genom att markera kryssrutorna till vänster. En banderoll visas längst ned när du väljer flera mallar.
 
-![En banderoll visar antalet valda mallar och ikonen Ta bort ](./assets/templates-multi-select-banner.png){width="600"}
+![En banderoll visar antalet valda mallar och ikonen Ta bort &#x200B;](./assets/templates-multi-select-banner.png){width="600"}
 
 **[!UICONTROL Delete]** - Du kan ta bort upp till 20 mallar samtidigt. I en bekräftelsedialogruta kan du avbryta åtgärden eller bekräfta borttagningen av mallarna.
 
