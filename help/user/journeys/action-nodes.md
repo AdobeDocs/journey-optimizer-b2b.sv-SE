@@ -4,9 +4,9 @@ description: Konfigurera åtgärdsnoder för konto- och personåtgärder - skick
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 17cdface550fc5bcc8050cd10880929885dfe27c
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,36 @@ Använd en åtgärd för konton när du vill använda en ändring för alla pers
 1. Välj en åtgärd i listan och ange värden för åtgärden.
 
    ![Resensnod - utför en åtgärd på ett konto](./assets/node-take-action-account.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+### Aktivera till ett LinkedIn-mål
+
+Använd åtgärden _Aktivera till mål_ för konton om du vill aktivera konton till Experience Platform-mål direkt från din resa. Med den här åtgärden kan ni överföra kvalificerade konton (baserat på inköpsgruppfilter, engagemangspoäng och andra kriterier) till matchande målgrupper på de destinationer som stöds. Den
+
+Från och med version 2025.10 är **_LinkedIn_** den första måltypen som stöds. Använd åtgärden för ett LinkedIn-mål för att effektivisera kampanjkörningen genom att eliminera överlämningar i flera system och minska latensen. Som marknadsförare kan du till exempel automatiskt aktivera återannonsering med hög återgivning av konton till LinkedIn när nyckelinköpsroller saknas, eller återaktivera vilande konton baserat på inaktivitetsfilter.
+
+Mer information om hur du använder kontomatchade målgrupper för ett LinkedIn-mål finns i [Matchade målgrupper för LinkedIn-konto](../data/linkedin-account-matched-audiences.md).
+
++++ Ange aktivering av konton för en LinkedIn-destination
+
+1. Med noden _Vidta en åtgärd_ markerad på arbetsytan för resan ställer du in **[!UICONTROL Action on accounts]** på **[!UICONTROL Activate to destination]**.
+
+1. Klicka på **[!UICONTROL Select destination]**.
+
+   ![Resensnod - utför en åtgärd på konton - aktivera till mål](./assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+
+1. I dialogrutan väljer du det konfigurerade LinkedIn-målet och klickar på **[!UICONTROL Save]**.
+
+![Resensnod - utför en åtgärd på konton - aktivera till mål - välj måldialogruta](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+
+1. Ange **[!UICONTROL Audience name]** som används för att identifiera den aktiverade målgruppen i målet.
+
+   ![Resensnod - utför en åtgärd på konton - aktivera till mål - slutförda inställningar](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
+
++++
+
+>[!ENDSHADEBOX]
 
 ## Personåtgärder
 
@@ -97,7 +127,7 @@ Använd den här åtgärden för att skicka människor till en extern publik som
 
 ![Vidta en åtgärd - Lägg till för extern kundpublik](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-När du väljer den här personbaserade åtgärden kan du skapa en ny extern målgrupp eller välja från en befintlig extern målgrupp. För befintliga målgrupper kan ni välja bland externa kundmålgrupper som bara har skapats i Journey Optimizer B2B edition. När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i Experience Platform-dokumentationen.
+När du väljer den här personbaserade åtgärden kan du skapa en ny extern målgrupp eller välja från en befintlig extern målgrupp. För befintliga målgrupper kan ni välja bland externa kundmålgrupper som bara har skapats i Journey Optimizer B2B edition. När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i Experience Platform-dokumentationen.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Titta på en videoöversikt för betald mediasamordning](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -149,7 +179,7 @@ Använd den här åtgärden om du vill ändra värdet för ett [personprofilattr
 
 +++[!UICONTROL Change Score]
 
-Använd den här åtgärden om du vill ändra personpoängen i Marketo Engage. [Läs mer](https://experienceleague.adobe.com/sv/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Använd den här åtgärden om du vill ändra personpoängen i Marketo Engage. [Läs mer](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Vidta en åtgärd - Ändra poäng](./assets/node-action-change-score.png){width="300"}
 
@@ -173,7 +203,7 @@ Använd den här åtgärden om du vill ta bort personprofiler från en [inköpsg
 
 +++[!UICONTROL Send email]
 
-Använd den här åtgärden om du vill skicka ett e-postmeddelande. När du har [skapat e-postmeddelandet](../content/add-email.md#add-an-email-to-your-journey) för noden kan du utforma, anpassa och förhandsgranska e-postmeddelanden i e-postdesignområdet (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan i Marketo Engage och välj sedan det e-postmeddelande som du vill skicka.
+Använd den här åtgärden om du vill skicka ett e-postmeddelande. När du har [skapat e-postmeddelandet](../content/add-email.md#add-an-email-to-your-journey) för noden kan du utforma, anpassa och förhandsgranska e-postmeddelanden i e-postdesignområdet (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan i Marketo Engage och välj sedan det e-postmeddelande som du vill skicka.
 
 ![Vidta en åtgärd - Skicka e-post](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -193,7 +223,7 @@ Marketo Engage personbaserade åtgärder är utformade för att samordna er kont
 
 +++[!UICONTROL Add to list]
 
-Använd den här åtgärden om du vill lägga till personer i en [statisk lista](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage.
+Använd den här åtgärden om du vill lägga till personer i en [statisk lista](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage.
 
 Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan listnamnet.
 
@@ -203,7 +233,7 @@ Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan l
 
 +++[!UICONTROL Add to Marketo Request campaign]
 
-Använd den här åtgärden om du vill lägga till personprofiler i en [begärankampanj](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} i Marketo Engage.
+Använd den här åtgärden om du vill lägga till personprofiler i en [begärankampanj](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} i Marketo Engage.
 
 Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan kampanjnamnet för begäran.
 
@@ -213,7 +243,7 @@ Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan k
 
 +++[!UICONTROL Change people partition in Marketo Engage]
 
-Använd den här åtgärden om du vill ändra [personpartitionen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} i Marketo Engage.
+Använd den här åtgärden om du vill ändra [personpartitionen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} i Marketo Engage.
 
 ![Vidta en åtgärd - Ändra personpartition i Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
 
@@ -221,7 +251,7 @@ Använd den här åtgärden om du vill ändra [personpartitionen](https://experi
 
 +++[!UICONTROL Remove from list]
 
-Använd den här åtgärden om du vill ta bort personer från en [statisk lista](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage. Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan listnamnet.
+Använd den här åtgärden om du vill ta bort personer från en [statisk lista](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage. Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan listnamnet.
 
 ![Vidta en åtgärd - Ta bort från listan](./assets/node-action-remove-from-list-options.png){width="300"}
 
@@ -231,4 +261,4 @@ Om personprofilen inte var medlem i den smarta listan ignoreras åtgärden.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443249/?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

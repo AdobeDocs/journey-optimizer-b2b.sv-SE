@@ -1,21 +1,23 @@
 ---
 title: LinkedIn-konto matchar målgrupper
-description: Lär dig hur du ansluter ett LinkedIn-konto och aktiverar ett dataflöde för inköpsgrupper.
+description: Lär dig hur du ansluter ett LinkedIn-konto och aktiverar ett dataflöde för kontomedlemmar.
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1cc50d33e396e490f401330688e5d322270090e3
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
 
 # LinkedIn-konto matchar målgrupper
 
-Journey Optimizer B2B edition kan generera LinkedIn Ad-målgrupper via Account Matched Audiences och är utformat för att hjälpa er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar köpgruppsparametrarna. Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen. Det finns en gräns på tio dataflöden.
+Journey Optimizer B2B edition kan generera LinkedIn Ad-målgrupper via Account Matched Audiences och är utformat för att hjälpa er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar köpgruppsparametrarna. Du kan också aktivera en målgrupp från en kontoresa från en _Ta en åtgärd_-nod.
 
-Innan du initierar ett dataflöde från Journey Optimizer B2B edition måste du ha minst en instans av [(Companies) LinkedIn Matched Audience-målkopplingen &#x200B;](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} med ett LinkedIn Campaign Manager-konto konfigurerat i ditt Experience Platform-program.
+Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen. Det finns en gräns på tio dataflöden.
+
+Innan du initierar ett dataflöde från Journey Optimizer B2B edition måste du ha minst en instans av [(Companies) LinkedIn Matched Audience-målkopplingen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} med ett LinkedIn Campaign Manager-konto konfigurerat i ditt Experience Platform-program.
 
 ## Konfigurera en ny LinkedIn-kontoanslutning {#linkedin-destination-setup}
 
@@ -74,7 +76,7 @@ Namnet och beskrivningen för LinkedIn-kontot visas för inköpsgrupper i Journe
 
 1. I Journey Optimizer B2B edition går du till **[!UICONTROL Accounts]** > **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 
-1. Välj fliken **[!UICONTROL Browse]**.
+1. Klicka på fliken **[!UICONTROL Browse]**.  
 
 1. Klicka på **[!UICONTROL Activate to LinkedIn Destination]** överst till höger.
 
@@ -114,8 +116,26 @@ Namnet och beskrivningen för LinkedIn-kontot visas för inköpsgrupper i Journe
 
    En banderoll visas med en länk till dataflödesmenyn i Experience Platform så att du kan kontrollera dataflödesposten.
 
+## Aktivera en målgrupp från en kontoresa
+
+Från och med version 2025.10 använder du åtgärden _Aktivera till mål_ för konton för att aktivera konton till ett LinkedIn-mål direkt från din resa. Använd åtgärden för ett LinkedIn-mål för att effektivisera kampanjkörningen genom att eliminera överlämningar i flera system och minska latensen. Som marknadsförare kan du till exempel automatiskt aktivera återannonsering med hög återgivning av konton till LinkedIn när nyckelinköpsroller saknas, eller återaktivera vilande konton baserat på inaktivitetsfilter.
+
+1. Med noden _Vidta en åtgärd_ markerad på arbetsytan för resan ställer du in **[!UICONTROL Action on accounts]** på **[!UICONTROL Activate to destination]**.
+
+1. Klicka på **[!UICONTROL Select destination]**.
+
+   ![Resensnod - utför en åtgärd på konton - aktivera till mål](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+
+1. I dialogrutan väljer du det konfigurerade LinkedIn-målet och klickar på **[!UICONTROL Save]**.
+
+   ![Resensnod - utför en åtgärd på konton - aktivera till mål - välj måldialogruta](../journeys/assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+
+1. Ange **[!UICONTROL Audience name]** som används för att identifiera den aktiverade målgruppen i målet.
+
+   ![Resensnod - utför en åtgärd på konton - aktivera till mål - slutförda inställningar](../journeys/assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
+
 ## Orchestrera-engagemang i betalda medier
 
 Du kan interagera med kontomedlemmar via en betald mediekanal, som LinkedIn Ad-målgrupper, för att värva, vårda och kvalificera dem för försäljning. Använd en _Ta en åtgärd_-nod i en kontoresa för att automatisera interaktionen med nyckelmedlemmar i ett konto via en extern kanal som passar olika kontomedlemmar bäst.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448676/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

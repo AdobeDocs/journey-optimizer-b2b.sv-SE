@@ -4,9 +4,9 @@ description: Optimera kontobaserad marknadsföring med inköpsgrupper - identifi
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1179'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,10 @@ För att undvika att en medlemsuppgift åsidosätts felaktigt i en inköpsgrupp 
 * Om en användare tilldelar en medlem manuellt till en inköpsgrupp, och den följs av en utlösad kundnod som tar bort samma medlem från inköpsgruppen, tar inte nodåtgärden **bort** den medlemmen och kan inte åsidosätta den manuella tilldelningen.
 * Om en utlöst transportåtgärdsnod lägger till en medlem i en inköpsgrupp, och den följs av ett underhållsjobb för inköpsgrupp som tar bort samma medlem från inköpsgruppen, tar underhållsjobbet **inte bort** den medlemmen och kan inte åsidosätta reseåtgärdstilldelningen.
 
+>[!NOTE]
+>
+>Automatiserade underhållsjobb för inköpsgrupper körs dagligen, från version 2025.10.
+
 ## Arbetsflöde för inköpsgrupp
 
 1. Skapa inköpsgrupper.
@@ -72,7 +76,7 @@ För att undvika att en medlemsuppgift åsidosätts felaktigt i en inköpsgrupp 
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
@@ -84,7 +88,7 @@ Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -96,11 +100,11 @@ Om du vill få tillgång till information om en inköpsgrupp klickar du på namn
 
 ### Poäng för slutförande av inköpsgrupp
 
-Slutenhetspoängen används för att avgöra om inköpsgruppen har rätt medlemmar tilldelade till rollerna och är klar att användas i en kontoresa. Poängen är en procentandel som baseras på antalet roller i inköpsgruppen och hur många roller som tilldelas med minst en lead.
+Slutpoängen används för att avgöra om inköpsgruppen har rätt antal medlemmar tilldelade till de nödvändiga rollerna och är klar att användas i en kontoresa. Poängen är en procentandel som baseras på antalet roller i inköpsgruppen och fullständigheten för var och en av de definierade rollerna.
 
-Om det till exempel finns fyra roller inom en inköpsgrupp och tre av de fyra rollerna tilldelas till minst en lead, är inköpsgruppen 75 % färdig.
+Den inledande poängberäkningen av fullständighetens storlek börjar så snart du skapar inköpsgruppen och beräknas om dagligen och varje gång en inköpsgrupp skapas eller uppdateras.
 
-Slutresultatet för inköpsgruppen beräknas om varje gång en inköpsgrupp skapas eller uppdateras.
+Se [Resultat för fullständighet](./completeness-scores.md) för detaljerad information om poängsättning och beräkningar för fullständighet.
 
 ### Köpa poäng för gruppengagemang {#engagement-score}
 
@@ -112,4 +116,4 @@ Mer information om aktiviteter och beräkningar finns i [Resultat för engageman
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3452933/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
