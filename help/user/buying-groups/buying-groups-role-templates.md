@@ -21,7 +21,7 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 1. Klicka på **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 
-1. Välj fliken _[!UICONTROL Buying groups]_på sidan **[!UICONTROL Roles Templates]**.
+1. Välj fliken _[!UICONTROL Buying groups]_&#x200B;på sidan **[!UICONTROL Roles Templates]**.
 
    ![fliken Rollmallar](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 ## Skapa en rollmall
 
-1. Klicka på _[!UICONTROL Roles Templates]_i det övre högra hörnet på fliken **[!UICONTROL Create template]**.
+1. Klicka på _[!UICONTROL Roles Templates]_&#x200B;i det övre högra hörnet på fliken **[!UICONTROL Create template]**.
 
 1. Ange ett unikt **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för mallen i dialogrutan.
 
@@ -86,7 +86,7 @@ Varje roll som du definierar för mallen använder en uppsättning filter, eller
 
 1. Klicka på **[!UICONTROL Add Condition]** och definiera den villkorliga regeln för rollen.
 
-   * Expandera listan med _[!UICONTROL Condition]_i dialogrutan **[!UICONTROL Person attributes]**och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
+   * Expandera listan med _[!UICONTROL Condition]_&#x200B;i dialogrutan **[!UICONTROL Person attributes]**&#x200B;och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
 
      ![Rollmallen lägger till attributet Dra villkor](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
@@ -134,7 +134,7 @@ Se [Resultat för fullständighet](./completeness-scores.md) för detaljerad inf
 
 1. I dialogrutan ändrar du värdet **[!UICONTROL Members required]** för varje definierad roll efter behov.
 
-   Du kan ange värdet eller klicka på **&amp;plus;** eller **-** för att öka eller minska värdet.
+   Du kan ange värdet eller klicka på **&plus;** eller **-** för att öka eller minska värdet.
 
    ![Rollmall - inställningsknapp för slutförandepoäng](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -156,7 +156,7 @@ När en rollmall är i läget _Utkast_ kan du fortsätta redigera de definierade
 
 ### Ändra villkoren för en roll
 
-Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
+Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_&#x200B;där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
 
 ### Ta bort ett rollkort
 

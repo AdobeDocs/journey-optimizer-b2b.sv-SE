@@ -17,7 +17,7 @@ Journey Optimizer B2B edition kan generera LinkedIn Ad-målgrupper via Account M
 
 Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen. Det finns en gräns på tio dataflöden.
 
-Innan du initierar ett dataflöde från Journey Optimizer B2B edition måste du ha minst en instans av [(Companies) LinkedIn Matched Audience-målkopplingen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} med ett LinkedIn Campaign Manager-konto konfigurerat i ditt Experience Platform-program.
+Innan du initierar ett dataflöde från Journey Optimizer B2B edition måste du ha minst en instans av [(Companies) LinkedIn Matched Audience-målkopplingen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} med ett LinkedIn Campaign Manager-konto konfigurerat i ditt Experience Platform-program.
 
 ## Konfigurera en ny LinkedIn-kontoanslutning {#linkedin-destination-setup}
 
