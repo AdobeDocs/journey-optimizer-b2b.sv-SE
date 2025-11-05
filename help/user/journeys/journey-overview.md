@@ -167,4 +167,4 @@ När du markerar noden klickar du på numret för att visa en lista över konton
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443211/?captions=swe&learn=on)
