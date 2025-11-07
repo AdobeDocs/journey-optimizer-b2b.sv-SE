@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '346'
 ht-degree: 17%
 
 ---
@@ -23,9 +23,12 @@ ht-degree: 17%
    + [Aktivera åtkomst till AI Assistant](./ai-assistant/enable-ai-assistant-access.md)
    + [Frågevägledning](./ai-assistant/question-guidance.md)
    + [Använd AI-assistenten](./ai-assistant/use-ai-assistant.md)
+   + Agenter {#ai-agents}
+      + [Audience-agent](./agents/audience-agent-b2b.md)
+      + [Journey Build Agent](./agents/journey-agent.md)
+      + [Försäljningskvalificerare](./agents/sales-qualifier.md)
 + Kontoresor {#account-journeys}
    + [Översikt](./journeys/journey-overview.md)
-   + [Journey Build Agent](./agents/journey-agent.md)
    + [Skapa och publicera en resa](./journeys/create-publish-journey.md)
    + [Resensnoder](./journeys/journey-nodes.md)
    + Resensnoder {#journey-nodes}
@@ -48,8 +51,6 @@ ht-degree: 17%
    + [SMS-redigering](./content/sms-authoring.md)
 + Konton {#accounts}
    + [Målgrupper](./audiences/account-audience-overview.md)
-   + [Audience-agent](./agents/audience-agent-b2b.md)
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
    + Köpgrupper {#buying-groups}
       + [Översikt](./buying-groups/buying-groups-overview.md)
       + [Lösningsintressen](./buying-groups/solution-interests.md)
@@ -63,6 +64,7 @@ ht-degree: 17%
       + [Exportera konton](./audiences/account-list-export.md)
       + [LinkedIn-konto matchar målgrupper](./data/linkedin-account-matched-audiences.md)
       + [Köpa gruppfilter i Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [Insikter i CRM](./buying-groups/incrm-insights.md)
    + Kontolistor {#account-lists}
       + [Översikt](./accounts/account-lists.md)
       + [Användning under resor och program](./accounts/account-lists-journeys.md)
