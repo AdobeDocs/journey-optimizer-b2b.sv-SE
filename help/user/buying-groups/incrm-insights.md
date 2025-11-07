@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Marketo In-CRM Insights är ett webbaserat program som integreras med Salesforce och ger er tillgång till era AJO B2B-inköpsgrupper direkt inifrån Salesforce. På så sätt kan ni identifiera möjligheter till ökat engagemang och ökad säljpotential.
 
-In-CRM-insikterna är tillgängliga i [Marketo Sales Insights-paketet](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+In-CRM-insikterna är tillgängliga i [Marketo Sales Insights-paketet](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## Använda insikter i InCRM
 
@@ -29,7 +29,7 @@ In-CRM-insikter är tillgängliga i Salesforce via App Launcher.
 Dina inköpsgrupper är inlästa och tillgängliga. Data är skrivskyddade via In-CRM-insikter.
 
 >[!NOTE]
->Användare måste vara medlem i rollen [B2B-säljanvändare](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) för att få åtkomst till In-CRM-insikter.
+>Användare måste vara medlem i rollen [B2B-säljanvändare](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/admin/user-management#add-users-to-a-role) för att få åtkomst till In-CRM-insikter.
 >
 
-Genom att välja en inköpsgrupp kan du nu bläddra bland [gruppinformationen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#), precis som i Journey Optimizer B2B.
+Genom att välja en inköpsgrupp kan du nu bläddra bland [gruppinformationen](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#), precis som i Journey Optimizer B2B.
