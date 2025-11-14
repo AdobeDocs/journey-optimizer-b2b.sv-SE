@@ -1,33 +1,30 @@
 ---
 title: Skapa innehåll - personalisering
 description: Återanvänt avsnitt om att använda personalisering för innehållsutveckling
-source-git-commit: d67f44419e09693ec93fd4db7982ec59c672b633
+source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
 
 # Skapa innehåll - personalisering
 
-Journey Optimizer B2B edition använder en infogad enkel syntax som gör att du kan skapa uttryck med anpassat innehåll omgivet av klammerparenteser `{}`. Du kan lägga till flera uttryck i samma innehåll eller fält utan begränsningar.
+Journey Optimizer B2B edition använder en infogad enkel syntax som gör att du kan skapa uttryck med anpassat innehåll omgivet av klammerparenteser `{{}}`. Du kan lägga till flera uttryck i samma innehåll eller fält utan begränsningar.
 
-Exempel:
+Du kan till exempel lägga till ett anpassningsuttryck som `Hello {{lead.firstName}} {{lead.lastName}}`. När du bearbetar innehållet ersätter Journey Optimizer B2B edition uttrycket med data som finns i Experience Platform-databasen. Det första exemplet blir _Hello John Doe_.
 
-* `Hello {{lead.firstName}} {{lead.lastName}}`
-* `Hello {%= lead.mktoName ?: "Marketer" %}`
+Mer information om hur du använder personaliseringsverktyg i Journey Optimizer B2B edition finns i [Innehållspersonalisering](../user/content/personalization.md).
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition följer nu syntaxen _kamelcase_ för personaliseringstoken i e-postmeddelanden för att matcha övriga Adobe Experience Platform-program för en enhetlig upplevelse. Detta tokenformat är helt kompatibelt med [Handlebars-mallsspråket](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Alla tokens som lades till före den här ändringen uppdateras automatiskt.
+>Journey Optimizer B2B edition följer syntaxen _kamelcase_ för personaliseringstoken i e-postmeddelanden för att matcha övriga Adobe Experience Platform-program för en enhetlig upplevelse. Detta tokenformat är helt kompatibelt med [Handlebars-mallsspråket](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Alla tokens som lades till före den här ändringen uppdateras automatiskt.
 
-När du bearbetar innehållet ersätter Journey Optimizer B2B edition uttrycket med data som finns i Experience Platform-databasen. Det första exemplet blir _Hello John Doe_.
+I följande exempel beskrivs stegen för att anpassa innehåll med hjälp av person- och systemtokens. Det återspeglar de ändringar som är tillgängliga för Journey Optimizer B2B edition-miljöer som har etablerats i den [förenklade arkitekturen](../user/simplified-architecture.md).
 
-I följande exempel beskrivs stegen för att anpassa innehåll med hjälp av lead-/kontoattribut och systemtokens.
+1. Markera textkomponenten och klicka på ikonen _Lägg till anpassning_ ( ![Lägg till personalisering ](../assets/do-not-localize/icon-personalization-field.svg) ) i verktygsfältet.
 
-1. Markera textkomponenten och klicka på ikonen _Lägg till anpassning_ i verktygsfältet.
-
-   ![Klicka på ikonen Anpassa &#x200B;](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![Klicka på ikonen Anpassa ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    Den här åtgärden öppnar dialogrutan _Redigera Personalization_.
 

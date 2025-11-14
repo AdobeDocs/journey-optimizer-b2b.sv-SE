@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: d7de2cb8383def7c2ed5e57c0c116ffb72424468
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '356'
 ht-degree: 17%
 
 ---
@@ -117,6 +117,10 @@ ht-degree: 17%
       + [Märkesjustering](./content/brand-alignment.md)
    + [Varumärkesteman](./content/brand-themes.md)
    + [Villkorligt innehåll](./content/conditional-content.md)
+   + Personalisering {#personalization}
+      + [Översikt](./content/personalization.md)
+      + [Personalization syntax](./content/personalization-syntax.md)
+      + [Hjälpfunktionslista](./content/personalization-helper-functions.md)
 + Insiktspaneler {#dashboards}
    + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
    + [Översikt över engagemang](./dashboards/engagement-dashboard.md)
@@ -136,3 +140,4 @@ ht-degree: 17%
       + [AEP händelsedefinitioner](./admin/configure-aep-events.md)
       + [Återgivningsdata](./admin/intent-data.md)
       + [Vägning av engagemangsmusik](./admin/engagement-score-weighting.md)
+   + [Förenklad arkitekturkonfiguration](simplified-architecture.md)
