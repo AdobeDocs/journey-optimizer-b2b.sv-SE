@@ -34,7 +34,7 @@ Var:
 
   >[!NOTE]
   >
-  >Attributstrukturen definieras i ett [Adobe Experience Platform XDM-schema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
+  >Attributstrukturen definieras i ett [Adobe Experience Platform XDM-schema](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Identifierare kan vara vilket Unicode-tecken som helst förutom följande:
 
