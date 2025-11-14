@@ -17,7 +17,7 @@ Adobe Journey Optimizer B2B edition utnyttjar kanalfunktionerna och händelsesp�
 
 ## Leveransinställningar
 
-Standardinställningarna för e-post används när marknadsförare skapar ett e-postmeddelande i en kontoresa. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska inställningarna för e-postleverans. Välj _[!UICONTROL Email]_under **[!UICONTROL Delivery Settings]**i navigeringspanelen.
+Standardinställningarna för e-post används när marknadsförare skapar ett e-postmeddelande i en kontoresa. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska inställningarna för e-postleverans. Välj _[!UICONTROL Email]_&#x200B;under **[!UICONTROL Delivery Settings]**&#x200B;i navigeringspanelen.
 
 ![Få åtkomst till inställningarna för e-postleverans](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Klicka på fliken **[!UICONTROL Custom header options]** om du vill granska de a
 
 ![Få åtkomst till anpassade rubrikalternativ](./assets/config-email-delivery-custom-header.png){width="700" zoomable="yes"}
 
-När _[!UICONTROL Strict Transport Security]_är aktiverat garanterar det att spårningslänkar överförs via HTTPS (endast för prenumerationer med spårningslänkar som skyddas av SSL).
+När _[!UICONTROL Strict Transport Security]_&#x200B;är aktiverat garanterar det att spårningslänkar överförs via HTTPS (endast för prenumerationer med spårningslänkar som skyddas av SSL).
 
 ## Kommunikationsbegränsningar
 
@@ -81,7 +81,7 @@ Alla Marketo Engage-produktionsinstanser har kommunikationsgränser definierade 
 >
 >Om du vill utöka kommunikationsreglerna för Marketo Munchkin-koder kontaktar du kontohanteringsgruppen på Adobe. Den här konfigurationen är vanligtvis en del av introduktionsprocessen.
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska eller ange regler för kommunikationsbegränsning. Under _[!UICONTROL Email]_i navigeringspanelen och välj **[!UICONTROL Communication limits]**.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska eller ange regler för kommunikationsbegränsning. Under _[!UICONTROL Email]_&#x200B;i navigeringspanelen och välj **[!UICONTROL Communication limits]**.
 
 ![Åtkomst till konfigurationen för kommunikationsbegränsningar](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
 
@@ -101,7 +101,7 @@ Som standard finns det en global regeluppsättning där du kan definiera, aktive
 
 1. Välj värdet **[!UICONTROL Reset capping frequency]** enligt hur du vill definiera tidsperioden för gränsen.
 
-   Du kan välja _[!UICONTROL Hourly]_,_[!UICONTROL Daily]_, _[!UICONTROL Weekly]_eller_[!UICONTROL Monthly]_.
+   Du kan välja _[!UICONTROL Hourly]_,_[!UICONTROL Daily]_, _[!UICONTROL Weekly]_&#x200B;eller&#x200B;_[!UICONTROL Monthly]_.
 
    ![Åtkomst till konfigurationen för kommunikationsbegränsningar](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
 
@@ -133,7 +133,7 @@ Regeln visas med statusen _Inaktiv_. Det liknar en utkastregel och du kan redige
 
 Förbättra e-postleveransen genom att införliva SPF (Sender Policy Framework) och DKIM (Domain Keys Identified Mail) i dina DNS-inställningar. Dessa tekniker säkerställer att dina e-postmeddelanden inte är skräppost. För att förhindra att mottagarnas skräppostfilter avvisar e-postmeddelanden måste du se till att SPF och DKIM har konfigurerats för dina domäner.
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_under **[!UICONTROL SPF/DKIM]**i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_&#x200B;under **[!UICONTROL SPF/DKIM]**&#x200B;i navigeringspanelen.
 
 ![Åtkomst till SPF/DKIM-konfigurationen](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
@@ -184,7 +184,7 @@ För e-postlänkens klicknings- och e-postöppningsaktiviteter fylls nya attribu
 * Aktiviteter som inte identifieras som bots har _Bot Activity_ som `False` och _Bot Activity Pattern_ som `N/A`.
 * Aktiviteter som inträffar innan attributen introducerades har _punktaktivitet_ som tom (null) och _punktaktivitetsmönster_ som tom (null)
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_under **[!UICONTROL Bot activity]**i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska de aktuella inställningarna. Välj _[!UICONTROL Email]_&#x200B;under **[!UICONTROL Bot activity]**&#x200B;i navigeringspanelen.
 
 ![Åtkomst till robotaktivitetskonfigurationen för e-postleverans](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 

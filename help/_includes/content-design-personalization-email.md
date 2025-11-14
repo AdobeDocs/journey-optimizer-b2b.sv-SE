@@ -22,9 +22,9 @@ Mer information om hur du använder personaliseringsverktyg i Journey Optimizer 
 
 I följande exempel beskrivs stegen för att anpassa innehåll med hjälp av person- och systemtokens. Det återspeglar de ändringar som är tillgängliga för Journey Optimizer B2B edition-miljöer som har etablerats i den [förenklade arkitekturen](../user/simplified-architecture.md).
 
-1. Markera textkomponenten och klicka på ikonen _Lägg till anpassning_ ( ![Lägg till personalisering ](../assets/do-not-localize/icon-personalization-field.svg) ) i verktygsfältet.
+1. Markera textkomponenten och klicka på ikonen _Lägg till anpassning_ ( ![Lägg till personalisering &#x200B;](../assets/do-not-localize/icon-personalization-field.svg) ) i verktygsfältet.
 
-   ![Klicka på ikonen Anpassa ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![Klicka på ikonen Anpassa &#x200B;](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    Den här åtgärden öppnar dialogrutan _Redigera Personalization_.
 
