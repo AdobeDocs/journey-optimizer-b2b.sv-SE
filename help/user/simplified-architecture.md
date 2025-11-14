@@ -131,11 +131,11 @@ Välj [relationsscheman](https://experienceleague.adobe.com/en/docs/experience-p
 >Observera att relationsscheman måste ha följande konfigurationer:
 >
 ><li>Beteende: Post
-&gt; <li>Segmentering: Aktiverad
-&gt; <li>Relationstyp: många till ett
-&gt; <li>Referensschema: [B2B-konto - XDM Business Account-schema](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
-&gt; <li>Obligatoriska fält: Primär nyckel, Sekundär nyckel och Versionsbeskrivning
-&gt; <li>Associerad datauppsättning: Definierad och mappad till schemat
+>&gt; <li>Segmentering: Aktiverad
+>&gt; <li>Relationstyp: många till ett
+>&gt; <li>Referensschema: [B2B-konto - XDM Business Account-schema](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+>&gt; <li>Obligatoriska fält: Primär nyckel, Sekundär nyckel och Versionsbeskrivning
+>&gt; <li>Associerad datauppsättning: Definierad och mappad till schemat
 
 ### Händelser
 
