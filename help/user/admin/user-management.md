@@ -121,7 +121,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
 1. Gå till [https://adminconsole.adobe.com](https://adminconsole.adobe.com).
 
-1. Klicka på _[!UICONTROL Quick links]_under **[!UICONTROL Add users]**.
+1. Klicka på _[!UICONTROL Quick links]_&#x200B;under **[!UICONTROL Add users]**.
 
 1. Lägg till varje användare:
 
@@ -184,11 +184,11 @@ _Ändra behörigheter för en roll :_
 
 1. Gå till [experience.adobe.com](https://experience.adobe.com/).
 
-1. Välj _[!UICONTROL Quick access]_på panelen **[!UICONTROL Permissions]**.
+1. Välj _[!UICONTROL Quick access]_&#x200B;på panelen **[!UICONTROL Permissions]**.
 
    >[!NOTE]
    >
-   >Om du inte ser _[!UICONTROL Permissions]_kan du behöva klicka på&#x200B;**[!UICONTROL View all]**och välja det bland de tillgängliga programmen.
+   >Om du inte ser _[!UICONTROL Permissions]_&#x200B;kan du behöva klicka på&#x200B;**[!UICONTROL View all]**&#x200B;och välja det bland de tillgängliga programmen.
 
    ![Experience Platform - åtkomstbehörigheter](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
@@ -200,7 +200,7 @@ _Ändra behörigheter för en roll :_
 
    ![Experience Platform - redigera rollen](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   I rollredigeraren visar menyn _[!UICONTROL Resources]_en lista över de resurser som gäller för Experience Cloud - plattformsbaserade programprodukter.
+   I rollredigeraren visar menyn _[!UICONTROL Resources]_&#x200B;en lista över de resurser som gäller för Experience Cloud - plattformsbaserade programprodukter.
 
    Du kan ange _B2B_ i sökverktyget för att filtrera listan över B2B-produktbehörigheter.
 
@@ -208,7 +208,7 @@ _Ändra behörigheter för en roll :_
 
    ![Experience Platform - redigera rollen](./assets/aep-permissions-role-edit-b2b-journeys-add.png){width="700" zoomable="yes"}
 
-1. Välj _[!UICONTROL B2B Journeys]_på behörighetskortet **[!UICONTROL Manage B2B Account Journeys]**.
+1. Välj _[!UICONTROL B2B Journeys]_&#x200B;på behörighetskortet **[!UICONTROL Manage B2B Account Journeys]**.
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -228,7 +228,7 @@ _Ändra behörigheter för en roll :_
 
    ![Experience Platform - lägg till användare i rollen](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Add users]_letar du reda på och väljer de användare som du vill lägga till i rollen.
+1. I dialogrutan _[!UICONTROL Add users]_&#x200B;letar du reda på och väljer de användare som du vill lägga till i rollen.
 
    * Du kan använda sökverktyget för att filtrera listan med användare.
 
@@ -252,7 +252,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
    ![Experience Platform - lägg till användare i rollen](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Add groups]_letar du reda på och markerar de grupper som du vill lägga till i rollen.
+1. I dialogrutan _[!UICONTROL Add groups]_&#x200B;letar du reda på och markerar de grupper som du vill lägga till i rollen.
 
    * Du kan använda sökverktyget för att filtrera listan med användargrupper.
 
@@ -268,7 +268,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
 1. Välj **[!UICONTROL Roles]** i den vänstra navigeringen och välj **[!UICONTROL Create role]**.
 
-1. I dialogrutan _[!UICONTROL Create new role]_anger du ett namn för rollen, till exempel_ B2B-marknadsförare _, och en beskrivning (valfritt).
+1. I dialogrutan _[!UICONTROL Create new role]_&#x200B;anger du ett namn för rollen, till exempel_ B2B-marknadsförare _, och en beskrivning (valfritt).
 
 1. Klicka på **[!UICONTROL Confirm]**.
 
@@ -278,7 +278,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
 1. Lägg till profilbehörigheter:
 
-   * Leta reda på objektet _[!UICONTROL Resources]_i listan **[!UICONTROL Profile Management]**till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till attributet.
+   * Leta reda på objektet _[!UICONTROL Resources]_&#x200B;i listan **[!UICONTROL Profile Management]**&#x200B;till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till attributet.
 
    * Lägg till följande behörigheter för attributet:
       * [!UICONTROL View segments]
@@ -294,7 +294,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
    Se listan över [B2B-produktbehörigheter](#b2b-product-permissions) för att ta reda på vilka produktfunktioner du vill använda för rollen.
 
-   Leta reda på _[!UICONTROL Resources]_-objekten i listan **[!UICONTROL B2B]**till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till varje attribut som du vill aktivera för rollen.
+   Leta reda på _[!UICONTROL Resources]_-objekten i listan **[!UICONTROL B2B]**&#x200B;till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till varje attribut som du vill aktivera för rollen.
 
    Du kan ange _B2B_ i sökverktyget för att filtrera listan över B2B-produktbehörigheter.
 
