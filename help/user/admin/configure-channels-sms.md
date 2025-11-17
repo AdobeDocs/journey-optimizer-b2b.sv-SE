@@ -4,9 +4,9 @@ description: Koppla upp SMS-leverantörer som Sinch, Twilio och Infobip med API-
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ _Konfigurera Sinch som SMS-provider med Adobe Journey Optimizer B2B edition :_
 
    * **[!UICONTROL Service ID]** och **[!UICONTROL API Token]** - Gå till API:er-sidan från ditt Sinch-konto (du hittar dina autentiseringsuppgifter på fliken SMS).
 
-   Mer information om hur du söker efter den här informationen för ditt Sinch-konto finns i [dokumentationen för Sinch-utvecklare](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
+   Mer information om hur du söker efter den här informationen för ditt Sinch-konto finns i [dokumentationen för Sinch-utvecklare](https://developers.sinch.com/docs/sms/getting-started)
 
 1. Klicka på **[!UICONTROL Submit]** när konfigurationsinformationen för dina API-autentiseringsuppgifter är klar.
 
@@ -115,4 +115,4 @@ _Konfigurera Infobip som din SMS-leverantör med Adobe Journey Optimizer B2B edi
 
 >[!ENDTABS]
 
-När du klickar på _[!UICONTROL Submit]_&#x200B;valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för&#x200B;_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.
+När du klickar på _[!UICONTROL Submit]_valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.

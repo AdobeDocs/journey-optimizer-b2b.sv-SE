@@ -1,11 +1,11 @@
 ---
 title: Försäljningskvalificerare
-description: Lär dig hur du använder Sales Qualifier för att snabba upp och underhålla dina resor.
-feature: Account Journeys, AI Assistant
+description: Automatisera kvalificering av B2B-potentiella kunder och utåtriktad verksamhet med säljkvalificerare. Det innehåller AI-driven forskning, e-postskisser, CRM-integrering och engagemangsplaner för BDR.
+feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 0%
 >Den här funktionen är för närvarande begränsad och inte tillgänglig för alla användare.
 >
 
-Försäljningskvalificeraren är ett AI-drivet tillägg till Adobe Journey Optimizer B2B edition som innehåller Account Qualification Agent och är utformat för att effektivisera arbetsflöden för BDR (Business Development Representants). Säljkvalificeraren automatiserar arbetsflödena för kvalificering av potentiella kunder, utåtriktad verksamhet och köpengagemang i alla kanaler, vilket minskar den manuella BDR-belastningen och snabbar upp pipeline-hastigheten för företag B2B-företag.
+Sales Qualifier är ett AI-drivet tilläggsprogram till Adobe Journey Optimizer B2B edition som innehåller Account Qualification Agent och är utformat för att effektivisera arbetsflöden för BDR (Business Development Representants). Säljkvalificeraren automatiserar arbetsflödena för kvalificering av potentiella kunder, utåtriktad verksamhet och köpengagemang i alla kanaler. Det minskar den manuella belastningen på BDR och snabbar upp pipelinehastigheten för företag inom B2B.
 Använd webbläsar- och e-postpluginerna för att få tillgång till affärsinformation direkt i CRM- eller Outlook.
 
-Försäljningskvalificeraren ingår i AJO B2B men är en separat app i AEP Experience Cloud.
+Säljkvalificerare ingår i Journey Optimizer B2B edition, men är en separat app i Experience Platform Experience Cloud.
 
 ![Startsida för försäljningskvalificerare](assets/home-screen.png)
 
 ## Account Qualification Agent
 
-Account Qualification Agent (AQA) är hjärtat i Sales Qualifier. AQA använder AI för att läsa dina konton och avgöra vilka som är klara för nästa steg.  Det hjälper till med forskning, e-postframtagning och CRM-uppdateringar.
+Account Qualification Agent (AQA) är hjärtat i Sales Qualifier. AQA använder AI för att läsa dina konton och avgöra vilka som är klara för nästa steg. Det hjälper till med forskning, e-postframtagning och CRM-uppdateringar.
 
 ![Account Qualification Agent](assets/acc-qualification-agent.png)
 
@@ -52,11 +52,11 @@ Adobe AI-agenter använder _frågor för naturligt språk_, vilket innebär att 
 
 Med naturspråket kan du be agenten att:
 
-* Visa mina tilldelade leads utan någon interaktion än
-* Visa alla mina ledtrådar som inte ingår i något självständigt engagemang
-* Ge mig en detaljerad sammanfattning om `<company>`, inklusive deras inköpsgrupp, senaste avsiktssignaler och vårt tidigare engagemang.
+* `Show me my assigned leads with no engagement yet`
+* `Show me all my leads that are not part of any autonomous engagement`
+* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
 
-Ni kan omedelbart förstå vilka konton och leads som är mest aktiva och visa det högsta avsikten, så att ni kan fokusera er energi där den har störst effekt.
+Ni kan omedelbart förstå vilka konton och leads som är de mest aktiva och visa det högsta avsikten, så att ni kan fokusera er energi där den har störst effekt.
 
 Iterera längs hela kundresan genom att förfina era uppmaningar för att få de resultat ni behöver. Exempel:
 
@@ -66,11 +66,11 @@ Iterera längs hela kundresan genom att förfina era uppmaningar för att få de
 
 ## Prospekt
 
-I det här fönstret visas alla leads som du har tillgång till. Det går snabbt att kontrollera saker som ledstatus och senaste aktivitet.
+I det här fönstret visas alla leads som du har tillgång till. Det är en snabb kontroll av saker som ledstatus och senaste aktivitet.
 
 ![Visa alla dina leads i tabellen Leads](assets/prospects.png)
 
-Klicka på filterikonen ![Filterikonen](../assets/icon-filter.png) om du vill filtrera efter lead-status.
+Klicka på ikonen _Filter_ ![Filter ](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
 
 ## Förlovningsplaner
 
@@ -80,10 +80,10 @@ I det här fönstret finns information om definierade engagemangsplaner.
 
 Klicka på **[!UICONTROL Create engagement plan]** om du vill skapa en ny engagemangsplan.
 
-1. Ange ett namn och en valfri beskrivning på detaljscenen. Klicka på **[!UICONTROL Save and Continue]**.
-1. I fasen Välj potentiella kunder väljer du de leads som ska ingå i den här planen.
-1. Ange parametrarna för planen i fasen Definiera varaktighet.
-1. Kontrollera att allt fungerar som det ska i förhandsgranskningsfasen.
+1. Ange ett namn och en valfri beskrivning i _Detaljer_ -scenen. Klicka på **[!UICONTROL Save and Continue]**.
+1. I fasen _Välj potentiella kunder_ väljer du de leads som ska ingå i den här planen.
+1. Ange parametrarna för planen i scenen _Definiera gräns_.
+1. Kontrollera att allt fungerar som det ska i _förhandsgranskningsfasen_.
 
 ## E-postutkorg
 
@@ -99,7 +99,7 @@ På den här panelen visas alla chattrådar.
 
 ![Chatinkorg](assets/chat-inbox.png)
 
-Du kan inte bara interagera med kunder, du kan också se en sammanfattning av kontakten och en sammanfattning av tråden, så att du snabbt kan se var du befinner dig i tråden.
+Du kan interagera med kunder och se sammanfattningar för kontakten och tråden så att du snabbt kan se var du befinner dig i tråden.
 
 ## Integreringar
 
@@ -116,7 +116,7 @@ Om du vill starta en ny integrering klickar du på **[!UICONTROL Create integrat
 
 ![Integreringsinformation](assets/integration-details.png)
 
-Här definierar vi integreringens URL och fastställer nyttolasten som ska skickas.
+Definiera URL:en för integreringen och upprätta nyttolasten som ska skickas:
 
 1. Ange ett unikt namn och en beskrivning (valfritt) för integreringen.
 1. Ange URL-fältet till integreringsautentiseringsslutpunkten för integreringswebbplatsen.
@@ -130,27 +130,28 @@ Här definierar vi integreringens URL och fastställer nyttolasten som ska skick
    * API-nyckel
    * Grundläggande autentisering
 
-1. Ange begränsnings- och cachevärden i avsnittet för nyttolastkonfiguration.
-1. Klicka på pennikonen under Nyttolastskonfigurationen. Klistra in eller ange JSON-nyttolastobjektet i dialogrutan Klistra in nyttolast.
-   * Begär nyttolast: Ett JSON-objekt som innehåller data för att skicka integrationsplatsen.
-   * Svarets nyttolast: Den datastruktur du förväntar dig ska returneras.
-1. Klicka på [!UICONTROL Test Connection] för att kontrollera att inställningarna är korrekta.
+1. Ange begränsning och cachevärden i avsnittet **[!UICONTROL Payload configuration]**.
+   * Klicka på pennikonen.
+   * Klistra in eller ange JSON-nyttolastobjektet i dialogrutan _Klistra in nyttolast_ .
+
+      * **[!UICONTROL Request payload]** - Ett JSON-objekt som innehåller data som ska skickas till integrationsplatsen.
+      * **[!UICONTROL Response payload]** - Den datastruktur du förväntar dig ska returneras.
+
+1. Klicka på **[!UICONTROL Test Connection]** för att kontrollera att inställningarna är korrekta.
 
 När anslutningsinställningarna är giltiga klickar du på **[!UICONTROL Save as draft]**.
 
-När du är tillbaka i huvudintegrationstabellen markerar du integreringen och klickar på **[!UICONTROL Activate]** för att göra integreringen aktiv, eller **[!UICONTROL Save as draft]**.
-
-
+När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
 
 #### Hantera åtkomst
 
-Du kan hantera åtkomst till användare och vilken typ av data som delas med olika användargrupper.
+Du kan hantera åtkomst till användare och den typ av data som delas med olika användargrupper.
 
-Klicka på **[!UICONTROL Manage access]** för att öppna dialogrutan Hantera åtkomst.
+Klicka på **[!UICONTROL Manage access]** för att öppna dialogrutan _[!UICONTROL Manage Access]_.
 
-I den här dialogrutan visas alla etiketter som har skapats av din organisation. Välj de etiketter som du vill använda för den här integreringen.
+I den här dialogrutan visas alla etiketter som har skapats för din organisation. Välj de etiketter som du vill använda för den här integreringen.
 
-Om du behöver en ny etikett klickar du på **[!UICONTROL Create label]** och fyller i:
+Om du behöver en ny etikett klickar du på **[!UICONTROL Create label]** och anger etikettinformationen:
 
 * Namn
 * Eget namn
@@ -158,56 +159,45 @@ Om du behöver en ny etikett klickar du på **[!UICONTROL Create label]** och fy
 
 ## Representativa inställningar
 
-Här anger du information om dig själv: personuppgifter, e-post- och kalenderinställningar samt chatttillgänglighet.
+Representantinställningarna anger information om dig själv, inklusive personliga detaljer, e-post- och kalenderinställningar samt chatttillgänglighet.
 
 ### Information
 
-På fliken Information kan du ange information om dig själv:
+På fliken **[!UICONTROL Details]** anger du information om dig själv:
 
 ![Inställningar för försäljningsinformation för kvalificerare](assets/details.png)
 
 ### E-postinställningar
 
-Konfigurera e-postanslutningarna på fliken E-postinställningar.
+Konfigurera e-postanslutningarna på fliken **[!UICONTROL Email settings]**.
 
 ![E-postinställningar](assets/email-settings.png)
 
-#### E-postanslutningar
+* **[!UICONTROL Email connections]** - Klicka på **[!UICONTROL Connect]** och följ inloggningsproceduren för Microsoft.
 
-Klicka på **[!UICONTROL Connect]** och följ sedan inloggningsproceduren för Microsoft.
-
-#### E-postsignatur
-
-Konfigurera din e-postsignatur som används i automatiskt genererade e-postmeddelanden.
+* **[!UICONTROL Email signature]** - Konfigurera e-postsignaturen som används i automatiskt genererade e-postmeddelanden.
 
 ### Kalenderinställningar
 
-Ange din tidszon och tillgänglighet på fliken Kalenderinställningar.
+Ange din tidszon och tillgänglighet på fliken **[!UICONTROL Calendar settings]**.
 
 ![Kalenderinställningar](assets/calendar-settings.png)
 
-#### Kalenderanslutning
+* **[!UICONTROL Calendar connection]** - Klicka på **[!UICONTROL Connect]** och följ inloggningsproceduren för Microsoft för att integrera din kalender.
 
-Klicka på **[!UICONTROL Connect]** och följ inloggningsproceduren för Microsoft för att integrera din kalender.
+* **[!UICONTROL Meeting confirmation email]** - När en klient bekräftar ett möte med dig får de bekräftelsemeddelandet via e-post som svar. Använd de här inställningarna för att definiera e-postmeddelandets ämne och innehåll.
 
-#### E-post med mötesbekräftelse
-
-När en kund bekräftar ett möte med dig får de bekräftelsemeddelandet via e-post som ett svar.
-Använd de här inställningarna för att definiera e-postmeddelandets ämne och innehåll.
-
-#### Inställningar
-
-Ange standardlängd för mötet och hur lång tid du vill ha mellan mötena.
+* **[!UICONTROL Preferences]** - Ange din standardlängd för mötet och hur länge du vill växla mellan möten.
 
 ### Chattinställningar
 
-På den här fliken anger du din tillgänglighet för tidszonslive-chatt.
+På fliken **[!UICONTROL Chat settings]** anger du din tillgängliga tidszonslive-chatt.
 
 ![Chatinställningar](assets/chat-settings.png)
 
 ## Representativ förvaltning
 
-På den här panelen visas en tabell över alla definierade representanter och deras kalenderstatus.
+Panelen _[!UICONTROL Representative management]_visar de definierade representanterna och deras kalenderstatus.
 
 ## Mötesprestanda
 
@@ -233,4 +223,4 @@ Klicka på **[!UICONTROL Edit]** längst ned till vänster i programmet för att
 
 I följande video visas en kort demonstration av Sales Qualifier och Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476565?captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
