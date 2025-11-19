@@ -1,16 +1,16 @@
 ---
-title: Journey Build Agent for B2B
+title: Journey Build Agent B2B
 description: Lär dig använda den AI-baserade agenten för att skapa robusta resor snabbt
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Journey Build Agent for B2B
+# Journey Build Agent B2B
 
 Journey Builder Agent B2B är en AI-agent som hjälper dig att designa/skapa resor, genomföra och optimera genom automatisering och datadrivna rekommendationer. Journey Builder Agent for B2B automatiserar och minskar tiden det tar att skapa nya B2B-resor.
 
