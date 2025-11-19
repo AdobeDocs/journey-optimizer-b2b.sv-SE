@@ -4,9 +4,9 @@ description: Hantera bildresurser från Journey Optimizer B2B edition och AEM As
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Sammanför arbetsflöden för marknadsföring och kreativitet med [!DNL Adobe Ex
 
 [!DNL Adobe Journey Optimizer B2B Edition] kan ansluta till [!DNL Adobe Experience Manager Assets as a Cloud Service] för centraliserad resurshantering som utökar ditt kreativa system och förenar digitala resurser för upplevelseleverans. [!DNL Adobe Experience Manager Assets as a Cloud Service] erbjuder en lättanvänd molnlösning för effektiv hantering av digitala resurser och dynamiska media. Programmet innehåller smidigt avancerade funktioner, bland annat artificiell intelligens och maskininlärning.
 
-Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
+Läs mer i [Adobe Experience Manager as a Cloud Service-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview){target="_blank"}.
 
 {{aem-assets-licensing-note}}
 
@@ -49,15 +49,15 @@ Använd resurser när du skapar e-postmeddelanden, e-postmallar och visuella fra
 
 Du kan välja bildkälla när du redigerar inställningarna för en bildkomponent eller direkt på arbetsytan:
 
-* **_Inställningar för bildkomponent_** - När du har markerat en bildkomponent i det visuella designområdet kan du visa och redigera inställningarna på den högra panelen. Om du vill lägga till eller ändra bildfilen som visas i komponenten väljer du källtyp och väljer en bildfil.
+* **_Inställningar för bildkomponent_** - När du har markerat en bildkomponent på arbetsytan kan du visa och redigera inställningarna på den högra panelen. Om du vill lägga till eller ändra bildfilen som visas i komponenten väljer du källtyp och väljer en bildfil.
 
   ![Redigera bildkomponentsinställningarna på den högra panelen](./assets/content-assets-image-settings.png){width="350"}
 
-* **_Tom komponent_** - När du lägger till en bildkomponent i den visuella designrymden är den tom och ger enkel åtkomst för att välja en källa och välja en bildfil.
+* **_Tom komponent_** - När du lägger till en bildkomponent på arbetsytan är den tom och ger enkel åtkomst för att välja en källa och välja en bildfil.
 
   ![Välj en källa för att välja en bildfil för den tomma bildkomponenten](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_Verktygsfältet Bildkomponent_** - När du har markerat en bildkomponent i den visuella designrymden kan du enkelt välja en källa och välja bildfilen i verktygsfältet.
+* **_Verktygsfältet Bildkomponent_** - När du har markerat en bildkomponent på arbetsytan kan du enkelt välja en källa och välja bildfilen i verktygsfältet.
 
   ![Använd verktygsfältet för att välja en källa för att välja en bildfil för bildkomponenten](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
