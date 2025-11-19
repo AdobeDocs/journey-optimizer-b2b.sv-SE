@@ -4,9 +4,9 @@ description: Konfigurera åtgärdsnoder för konto- och personåtgärder - skick
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,13 @@ Använd en åtgärd för personer när du vill använda en ändring för alla pe
 | | [!UICONTROL Remove from Buying Group] | Välj lösningsintresse |
 | | [!UICONTROL Send email] | Skapa nytt e-postmeddelande<br/>Välj e-post från Marketo Engage |
 | | [!UICONTROL Send SMS] | Skapa SMS |
-| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to List] | Välj Marketo Engage-arbetsyta<br/>Listnamn |
-| | [!UICONTROL Add to Marketo Engage Request campaign] | Välj Marketo Engage-arbetsyta<br/>Välj kampanj för begäran |
-| | [!UICONTROL Change People Partition in Marketo Engage] | Ny partition |
-| | [!UICONTROL Remove from List] | Välj Marketo Engage-arbetsyta<br/>Listnamn |
+| [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to Marketo Engage Request campaign] | Välj Marketo Engage-arbetsyta<br/>Välj kampanj för begäran |
+| | [!UICONTROL Add to Marketo list] | Ange namnet på den externa Marketo-anslutningen <br/>Listnamn |
+| | [!UICONTROL Remove from Marketo list] | Ange namnet på den externa Marketo-anslutningen <br/>Listnamn |
+
+>[!NOTE]
+>
+>Åtgärden _[!UICONTROL Change People Partition in Marketo Engage]_är föråldrad för version 2025.10 och är inte tillgänglig för den förenklade arkitekturen för Journey Optimizer B2B edition.
 
 ### Lägga till en personbaserad åtgärd
 
@@ -127,7 +130,7 @@ Använd den här åtgärden för att skicka människor till en extern publik som
 
 ![Vidta en åtgärd - Lägg till för extern kundpublik](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-När du väljer den här personbaserade åtgärden kan du skapa en ny extern målgrupp eller välja från en befintlig extern målgrupp. För befintliga målgrupper kan ni välja bland externa kundmålgrupper som bara har skapats i Journey Optimizer B2B edition. När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i Experience Platform-dokumentationen.
+När du väljer den här personbaserade åtgärden kan du skapa en ny extern målgrupp eller välja från en befintlig extern målgrupp. För befintliga målgrupper kan ni välja bland externa kundmålgrupper som bara har skapats i Journey Optimizer B2B edition. När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i Experience Platform-dokumentationen.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Titta på en videoöversikt för betald mediasamordning](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -179,7 +182,7 @@ Använd den här åtgärden om du vill ändra värdet för ett [personprofilattr
 
 +++[!UICONTROL Change Score]
 
-Använd den här åtgärden om du vill ändra personpoängen i Marketo Engage. [Läs mer](https://experienceleague.adobe.com/sv/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Använd den här åtgärden om du vill ändra personpoängen i Marketo Engage. [Läs mer](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Vidta en åtgärd - Ändra poäng](./assets/node-action-change-score.png){width="300"}
 
@@ -203,7 +206,7 @@ Använd den här åtgärden om du vill ta bort personprofiler från en [inköpsg
 
 +++[!UICONTROL Send email]
 
-Använd den här åtgärden om du vill skicka ett e-postmeddelande. När du har [skapat e-postmeddelandet](../content/add-email.md#add-an-email-to-your-journey) för noden kan du utforma, anpassa och förhandsgranska e-postmeddelanden i e-postdesignområdet (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan i Marketo Engage och välj sedan det e-postmeddelande som du vill skicka.
+Använd den här åtgärden om du vill skicka ett e-postmeddelande. När du har [skapat e-postmeddelandet](../content/add-email.md#add-an-email-to-your-journey) för noden kan du utforma, anpassa och förhandsgranska e-postmeddelanden i e-postdesignområdet (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan i Marketo Engage och välj sedan det e-postmeddelande som du vill skicka.
 
 ![Vidta en åtgärd - Skicka e-post](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -219,46 +222,44 @@ Använd den här åtgärden om du vill skicka ett SMS-meddelande. Du kan skapa, 
 
 ### Marketo Engage-åtgärder
 
-Marketo Engage personbaserade åtgärder är utformade för att samordna er kontobaserade marknadsföringssamordning i Journey Optimizer B2B edition med era ledande marknadsföringssatsningar i Marketo Engage. Använd dessa åtgärder för att samordna listmedlemskap, personpartitioner och begära kampanjer.
+Marketo Engage personbaserade åtgärder är utformade för att samordna er kontobaserade marknadsföringssamordning i Journey Optimizer B2B edition med era ledande marknadsföringssatsningar i Marketo Engage. Använd dessa åtgärder för att samordna listmedlemskap och begära kampanjer.
 
-+++[!UICONTROL Add to list]
+>[!NOTE]
+>
+>Marketo Engage-åtgärderna kräver konfigurerad integrering med en eller flera externa Marketo Engage-instanser. <!-- For detailed information about configuring these connections, see #. -->
 
-Använd den här åtgärden om du vill lägga till personer i en [statisk lista](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage.
+Du kanske vill inaktivera kampanjer i Marketo Engage för personer som är en del av inköpsgrupper i Journey Optimizer B2B edition. I det här fallet kan du skapa en statisk lista i Marketo Engage specifikt för att tillgodose lösningsbehovet. Använd sedan åtgärden _Lägg till i Marketo-lista_ från en kundnod på en delad sökväg genom att köpa en grupp. Den här åtgärden lägger till köpgruppsmedlemmar i en viss statisk lista i en ansluten Marketo Engage-instans. Använd sedan den statiska listan med lösningsintresse för ett smart listfilter i Marketo Engage.
 
-Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan listnamnet.
++++[!UICONTROL Add to Marketo Engage Request campaign]
 
-![Vidta en åtgärd - Lägg till i listan](./assets/node-action-add-to-list-options.png){width="300"}
+Använd den här åtgärden om du vill lägga till personprofiler i en [begärankampanj](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} i Marketo Engage.
 
-+++
+Välj först en ansluten Marketo Engage-instans. Välj sedan kampanjnamnet för begäran.
 
-+++[!UICONTROL Add to Marketo Request campaign]
-
-Använd den här åtgärden om du vill lägga till personprofiler i en [begärankampanj](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} i Marketo Engage.
-
-Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan kampanjnamnet för begäran.
-
-![Vidta en åtgärd - Lägg till i Marketo Request-kampanj](./assets/node-action-add-to-request-campaign-options.png){width="300"}
+![Vidta en åtgärd - Lägg till i Marketo Engage Request-kampanj](./assets/node-action-add-to-request-campaign-options.png){width="300"}
 
 +++
 
-+++[!UICONTROL Change people partition in Marketo Engage]
++++[!UICONTROL Add to Marketo list]
 
-Använd den här åtgärden om du vill ändra [personpartitionen](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} i Marketo Engage.
+Använd den här åtgärden om du vill lägga till personer i en [statisk lista](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage.
 
-![Vidta en åtgärd - Ändra personpartition i Marketo Engage](./assets/node-action-change-people-partition-options.png){width="300"}
+Välj först en ansluten Marketo Engage-instans. Välj sedan listnamnet.
+
+![Vidta en åtgärd - Lägg till i Marketo-listan](./assets/node-action-add-to-list-options.png){width="300"}
 
 +++
 
-+++[!UICONTROL Remove from list]
++++[!UICONTROL Remove from Marketo list]
 
-Använd den här åtgärden om du vill ta bort personer från en [statisk lista](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage. Markera först arbetsytan i den anslutna Marketo Engage-instansen. Välj sedan listnamnet.
+Använd den här åtgärden om du vill ta bort personer från en [statisk lista](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage.
 
-![Vidta en åtgärd - Ta bort från listan](./assets/node-action-remove-from-list-options.png){width="300"}
+Välj först en ansluten Marketo Engage-instans. Välj sedan listnamnet.
 
-Om personprofilen inte var medlem i den smarta listan ignoreras åtgärden.
+![Vidta en åtgärd - Ta bort från Marketo-listan](./assets/node-action-remove-from-list-options.png){width="300"}
 
 +++
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443249/?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
