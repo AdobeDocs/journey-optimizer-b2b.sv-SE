@@ -4,7 +4,7 @@ description: Konfigurera åtgärdsnoder för konto- och personåtgärder - skick
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -174,7 +174,7 @@ Använd den här åtgärden om du vill lägga till personprofiler i en [inköpsg
 
 +++[!UICONTROL Change Data Value]
 
-Använd den här åtgärden om du vill ändra värdet för ett [personprofilattribut](../data/field-mapping.md#xdm-business-person-attributes). Markera attributet och ange sedan det nya värdet.
+Använd den här åtgärden om du vill ändra värdet för ett [personprofilattribut](../admin/field-mapping.md#xdm-business-person-attributes). Markera attributet och ange sedan det nya värdet.
 
 ![Vidta en åtgärd - Ändra datavärde](./assets/node-action-change-data-value.png){width="300"}
 
