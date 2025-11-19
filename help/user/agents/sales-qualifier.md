@@ -3,9 +3,9 @@ title: Försäljningskvalificerare
 description: Automatisera kvalificering av B2B-potentiella kunder och utåtriktad verksamhet med säljkvalificerare. Det innehåller AI-driven forskning, e-postskisser, CRM-integrering och engagemangsplaner för BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Använd webbläsar- och e-postpluginerna för att få tillgång till affärsinfo
 
 Säljkvalificerare ingår i Journey Optimizer B2B edition, men är en separat app i Experience Platform Experience Cloud.
 
-![Startsida för försäljningskvalificerare](assets/home-screen.png)
+![Kontrollpanel för säljkvalificerare som automatiserar BDR-kvalificering och utdataanslutning för företag B2B](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 Account Qualification Agent (AQA) är hjärtat i Sales Qualifier. AQA använder AI för att läsa dina konton och avgöra vilka som är klara för nästa steg. Det hjälper till med forskning, e-postframtagning och CRM-uppdateringar.
 
-![Account Qualification Agent](assets/acc-qualification-agent.png)
+![AI-baserad Account Qualification Agent-instrumentpanel för potentiell kund inom försäljning och kontoanalys](assets/acc-qualification-agent.png)
 
 * **Prospekterad forskning**
 
@@ -44,11 +44,11 @@ Account Qualification Agent (AQA) är hjärtat i Sales Qualifier. AQA använder 
 
 * **E-post om engagemangsplan**
 
-  Skapa e-postutkast för engagemangsplanering som är personaliserade för varje steg i en BDR-definierad utdatacache, och se till att hela sekvensen är personaliserad
+  Skapa e-postutkast för engagemangsplanering som är personaliserade för varje steg i en BDR-definierad utdatacache, och se till att hela sekvensen är personaliserad.
 
 ### Grundläggande användning
 
-Adobe AI-agenter använder _frågor för naturligt språk_, vilket innebär att de använder samma språk i textprompten som när du pratar med en person. Ju mer detaljerad du är, desto bättre resultat.
+Adobe AI-agenter använder _naturliga språkfrågor_, vilket innebär att de använder samma språk i textprompten som när du pratar med en person. Ju mer detaljerad du är, desto bättre resultat.
 
 Med naturspråket kan du be agenten att:
 
@@ -68,15 +68,15 @@ Iterera längs hela kundresan genom att förfina era uppmaningar för att få de
 
 I det här fönstret visas alla leads som du har tillgång till. Det är en snabb kontroll av saker som ledstatus och senaste aktivitet.
 
-![Visa alla dina leads i tabellen Leads](assets/prospects.png)
+![Leadregister som visar lead-status och senaste aktivitet för hantering av potentiella kunder](assets/prospects.png)
 
-Klicka på ikonen _Filter_ ![Filter &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
+Klicka på ikonen _Filter_ ![Filter ](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
 
 ## Förlovningsplaner
 
 I det här fönstret finns information om definierade engagemangsplaner.
 
-![Åtagandeplaner](assets/engagement-plans.png)
+![Kontrollpanel för engagemangsplan med planinformation, valda leads och schemainställningar](assets/engagement-plans.png)
 
 Klicka på **[!UICONTROL Create engagement plan]** om du vill skapa en ny engagemangsplan.
 
@@ -95,9 +95,9 @@ På den här panelen visas alla möten som ställts in via automatisering.
 
 ## Chattinkorg
 
-På den här panelen visas alla chattrådar.
+På den här panelen visas alla dina chattrådar.
 
-![Chatinkorg](assets/chat-inbox.png)
+![Panel med chatttrådar med kontakt- och trådsammanfattningar för säljautomatisering](assets/chat-inbox.png)
 
 Du kan interagera med kunder och se sammanfattningar för kontakten och tråden så att du snabbt kan se var du befinner dig i tråden.
 
@@ -106,15 +106,15 @@ Du kan interagera med kunder och se sammanfattningar för kontakten och tråden 
 Med integreringar kan säljkvalificeraren utnyttja CRM och andra datakällor för att berika kundprofiler och utnyttja säljaktiviteter:
 
 * Integrera med e-postinkorgen för att hålla reda på relevanta inkommande e-postmeddelanden och hjälpa till att generera svar.
-* Läs och uppdatera CRM-data, som Salesforce eller Microsoft® Dynamics, ZoomInfo eller Buildwidth.
+* Läs och uppdatera CRM-data, som Salesforce eller Microsoft® Dynamics, ZoomInfo eller BuiltWith.
 
-![Outlook-integrering för försäljningskvalificerare](assets/outlook.png)
+![Integrering av säljkvalificerare med Microsoft Outlook, med e-post- och kontaktsammanfattningar](assets/outlook.png)
 
 ### Konfigurera en ny integrering
 
 Om du vill starta en ny integrering klickar du på **[!UICONTROL Create integration]** längst upp till höger.
 
-![Integreringsinformation](assets/integration-details.png)
+![Formulär för integreringskonfiguration med URL, HTTP-metod, rubriker och autentiseringsalternativ](assets/integration-details.png)
 
 Definiera URL:en för integreringen och upprätta nyttolasten som ska skickas:
 
@@ -141,7 +141,7 @@ Definiera URL:en för integreringen och upprätta nyttolasten som ska skickas:
 
 När anslutningsinställningarna är giltiga klickar du på **[!UICONTROL Save as draft]**.
 
-När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_&#x200B;markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**&#x200B;för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
+När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
 
 #### Hantera åtkomst
 
@@ -165,13 +165,13 @@ Representantinställningarna anger information om dig själv, inklusive personli
 
 På fliken **[!UICONTROL Details]** anger du information om dig själv:
 
-![Inställningar för försäljningsinformation för kvalificerare](assets/details.png)
+![Fliken Detaljer som visar personlig information, e-post och tillgänglighetsinställningar för chatt för representanter](assets/details.png)
 
 ### E-postinställningar
 
 Konfigurera e-postanslutningarna på fliken **[!UICONTROL Email settings]**.
 
-![E-postinställningar](assets/email-settings.png)
+![Fliken E-postinställningar med alternativ för e-postanslutning och konfiguration för e-postsignatur](assets/email-settings.png)
 
 * **[!UICONTROL Email connections]** - Klicka på **[!UICONTROL Connect]** och följ inloggningsproceduren för Microsoft.
 
@@ -181,7 +181,7 @@ Konfigurera e-postanslutningarna på fliken **[!UICONTROL Email settings]**.
 
 Ange din tidszon och tillgänglighet på fliken **[!UICONTROL Calendar settings]**.
 
-![Kalenderinställningar](assets/calendar-settings.png)
+![Fliken Kalenderinställningar som visar tidszon och alternativ för tillgänglighet](assets/calendar-settings.png)
 
 * **[!UICONTROL Calendar connection]** - Klicka på **[!UICONTROL Connect]** och följ inloggningsproceduren för Microsoft för att integrera din kalender.
 
@@ -193,11 +193,11 @@ Ange din tidszon och tillgänglighet på fliken **[!UICONTROL Calendar settings]
 
 På fliken **[!UICONTROL Chat settings]** anger du din tillgängliga tidszonslive-chatt.
 
-![Chatinställningar](assets/chat-settings.png)
+![Fliken Chattinställningar för att konfigurera tidszon och live-chatttillgänglighet](assets/chat-settings.png)
 
 ## Representativ förvaltning
 
-Panelen _[!UICONTROL Representative management]_&#x200B;visar de definierade representanterna och deras kalenderstatus.
+Panelen _[!UICONTROL Representative management]_visar de definierade representanterna och deras kalenderstatus.
 
 ## Mötesprestanda
 
@@ -223,4 +223,4 @@ Klicka på **[!UICONTROL Edit]** längst ned till vänster i programmet för att
 
 I följande video visas en kort demonstration av Sales Qualifier och Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476565?captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
