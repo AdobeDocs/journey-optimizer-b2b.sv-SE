@@ -4,9 +4,9 @@ description: Redigera bilder direkt med Adobe Express i Journey Optimizer B2B ed
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >title="Redigera bilder i Adobe Express"
 >abstract="De enkla och intuitiva bildredigeringsverktygen från Adobe Express finns tillgängliga direkt i Adobe Journey Optimizer B2B edition för att öka innehållets hastighet."
 
-Adobe Journey Optimizer B2B edition kan integreras med Adobe Express och ger tillgång till en uppsättning bildredigeringsverktyg från Adobe Express. Du kan använda de här verktygen för att ändra de bilder som lagras i Journey Optimizer B2B edition resurskatalog. Integreringen ger följande viktiga fördelar:
+[!DNL Adobe Journey Optimizer B2B Edition] kan integreras med Adobe Express och ger dig tillgång till en uppsättning [!DNL Adobe Express] bildredigeringsverktyg. Du kan använda de här verktygen för att ändra bilderna som lagras i resurskatalogen för [!DNL Journey Optimizer B2B Edition]. Integreringen ger följande viktiga fördelar:
 
 * Större återanvändning av innehåll genom att redigera och spara nya bildresurser i Journey Optimizer B2B edition.
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer B2B edition kan integreras med Adobe Express och ger til
 >
 >Tillstånd till Adobe Express redigeringsfunktioner ingår i alla prenumerationer på Journey Optimizer B2B edition.
 
-Adobe Express-funktionerna stöder bildfilformaten PNG och JPEG.
+Funktionerna [!DNL Adobe Express] stöder bildfilformaten PNG och JPEG.
 
 _Ändra en bild :_
 
@@ -52,7 +52,7 @@ Den här åtgärden öppnar en listsida med alla resurser listade.
    >
    >Det är en god vana att välja [fliken _[!UICONTROL Used By]_](./internal-image-assets.md#view-asset-used-by-references) i bildinformationen och granska innehållet där bilden används innan du fortsätter att redigera bildfilen.
 
-1. Klicka på _[!UICONTROL Details]_&#x200B;i bilden **[!UICONTROL Edit with Adobe Express]**&#x200B;till höger.
+1. Klicka på _[!UICONTROL Details]_i bilden **[!UICONTROL Edit with Adobe Express]**till höger.
 
    ![Öppna bilden i Adobe Express Editor](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
@@ -70,7 +70,7 @@ Om du har en Enterprise-licens för Adobe Express kan du komma åt och använda 
 
 ![Öppna bilden i Adobe Express Enterprise Editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express användarhandbok](https://helpx.adobe.com/se/express/web.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
+[Adobe Express användarhandbok](https://helpx.adobe.com/express/web.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
 
 ## Snabbåtgärder i Adobe Express
 
@@ -94,7 +94,7 @@ Om du inte har någon Adobe Express Enterprise-licens har du tillgång till Adob
 
    * Välj ett **[!UICONTROL Aspect ratio]**-alternativ. Använd en standardstorlek för digitalt innehåll eller välj **[!UICONTROL Custom]** om du vill ange värden för **[!UICONTROL Width]** och **[!UICONTROL Height]** efter dina behov.
 
-   * Visade _[!UICONTROL Original size]_&#x200B;och&#x200B;_[!UICONTROL Compressed size]_ visar de storleksändringar som blir resultatet om du tillämpar ändringarna. Med verktyget **[!UICONTROL Zoom and Crop]** kan du inspektera delar av den visade bilden närmare.
+   * Visade _[!UICONTROL Original size]_och_[!UICONTROL Compressed size]_ visar de storleksändringar som blir resultatet om du tillämpar ändringarna. Med verktyget **[!UICONTROL Zoom and Crop]** kan du inspektera delar av den visade bilden närmare.
 
    * Om du vill återställa bilden till det ursprungliga läget klickar du på **[!UICONTROL Reset]**.
 
