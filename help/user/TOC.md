@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '361'
 ht-degree: 17%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 17%
    + [Använd AI-assistenten](./ai-assistant/use-ai-assistant.md)
    + Agenter {#ai-agents}
       + [Audience-agent](./agents/audience-agent-b2b.md)
-      + [Journey Build Agent](./agents/journey-agent.md)
+      + [Journey Build Agent B2B](./agents/journey-agent.md)
       + [Försäljningskvalificerare](./agents/sales-qualifier.md)
 + Kontoresor {#account-journeys}
    + [Översikt](./journeys/journey-overview.md)
@@ -68,7 +68,6 @@ ht-degree: 17%
    + Kontolistor {#account-lists}
       + [Översikt](./accounts/account-lists.md)
       + [Användning under resor och program](./accounts/account-lists-journeys.md)
-   + [XDM-fält](./data/field-mapping.md)
    + Försäljningsupplevelse {#sales-experience}
       + [Kontoinformation](./accounts/account-details.md)
       + [Information om inköpsgrupp](./buying-groups/buying-group-details.md)
@@ -128,8 +127,11 @@ ht-degree: 17%
    + [Översikt över kontoresor](./dashboards/journeys-dashboard.md)
 + Administrering {#admin}
    + [Styrning](./admin/governance.md)
+   + [Konfiguration av Marketo Actions](./admin/marketo-actions-connect.md)
    + [Personmappning](./admin/persona-mapping.md)
    + [Användarhantering](./admin/user-management.md)
+   + [XDM-fält](./admin/field-mapping.md)
+   + [Val av XDM-fält](admin/xdm-field-management.md)
    + Kanaler {#channels}
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
