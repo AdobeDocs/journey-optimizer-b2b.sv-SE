@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 17%
+source-wordcount: '365'
+ht-degree: 16%
 
 ---
 
@@ -130,8 +130,10 @@ ht-degree: 17%
    + [Konfiguration av Marketo Actions](./admin/marketo-actions-connect.md)
    + [Personmappning](./admin/persona-mapping.md)
    + [Användarhantering](./admin/user-management.md)
-   + [XDM-fält](./admin/field-mapping.md)
-   + [Val av XDM-fält](admin/xdm-field-management.md)
+   + XDM-fälthantering {#xdm-field-management}
+      + [XDM-klasser](admin/xdm-field-management.md)
+      + [Experience Events och fields](./admin/configure-aep-events.md)
+      + [XDM-standardfält](./admin/field-mapping.md)
    + Kanaler {#channels}
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
@@ -139,7 +141,6 @@ ht-degree: 17%
       + [Konfigurera datastreams för händelsesamling](./data/aep-event-collection.md)
    + Konfigurationer {#configurations}
       + [AEM Assets-databaser](./admin/configure-aem-repositories.md)
-      + [AEP händelsedefinitioner](./admin/configure-aep-events.md)
       + [Återgivningsdata](./admin/intent-data.md)
       + [Vägning av engagemangsmusik](./admin/engagement-score-weighting.md)
    + [Förenklad arkitekturkonfiguration](simplified-architecture.md)

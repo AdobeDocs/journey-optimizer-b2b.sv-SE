@@ -3,9 +3,9 @@ title: Personamappning
 description: Lär dig hur du skapar personmappning för B2B-marknadsföring. Mappa personattribut i Journey Optimizer B2B edition för att skapa rollmallar och optimera målinriktningen för inköpsgrupper.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,13 @@ Du kan till exempel konfigurera en person med namnet _Product Management_ och de
 
 1. Klicka på **[!UICONTROL Persona mapping]** på den mellanliggande panelen för att visa listan över profiler.
 
-   ![Få åtkomst till konfigurerade profiler](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![Få åtkomst till konfigurerade profiler](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   Från den här sidan kan du [skapa](#create-an-engagement-score-model), [redigera](#change-the-engagement-weighting-settings) eller [ta bort](#delete-a-persona) profiler.
+   Från den här sidan kan du [skapa](#create-a-persona), [redigera](#edit-a-persona) eller [ta bort](#delete-a-persona) profiler.
 
-   Personmappningslistan. är organiserat som en tabell och visar de senast uppdaterade personerna högst upp (sorterat efter _[!UICONTROL Last update]_). Du kan anpassa den visade tabellen genom att klicka på ikonen_ Kolumninställningar _( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
+   Personmappningslistan är ordnad som en tabell och visar de senast uppdaterade personerna högst upp (sorterade efter _[!UICONTROL Last update]_). Du kan anpassa den visade tabellen genom att klicka på ikonen_ Kolumninställningar _( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
 
-![Kolumner att visa i personmappningslistan](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![Kolumner att visa i personmappningslistan](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Klicka på namnet om du vill komma åt informationen för en person.
 
@@ -68,13 +68,9 @@ Listan _Personmappning_ innehåller fem standardprofiler som har definierats enl
 
 ### Listfiltrering
 
-Använd sök- och filterverktygen för att hitta den profil du vill ha:
+Om du vill hitta den profil du vill ha anger du en textsträng i sökfältet som matchar personerna efter namn,
 
-* Ange en textsträng i sökfältet för att matcha persona efter namn,
-
-  ![Filtrera de händelsedefinitioner som visas](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter.svg) ) längst upp till vänster om du vill filtrera den visade listan efter attribut.
+![Filtrera de personliga mappningarna som visas](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## Skapa en persona
 
@@ -86,6 +82,8 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
 1. Ange en unik **[!UICONTROL Name]** och **[!UICONTROL Description]** (valfritt) för personen.
 
+   ![Skapa en personlig mappning](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. Välj de attribut som ska användas för att matcha persona.
 
    * Klicka på **[!UICONTROL Select person attributes]**.
@@ -96,6 +94,8 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
      Om du vill filtrera attributlistan efter namn anger du en textsträng i sökfältet. Du kan också klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter.svg) ) längst upp till vänster om du vill filtrera den visade listan efter typ, _Standard_ eller _Egen_.
 
+     ![Dialogrutan Välj personliga attribut](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * Klicka på **[!UICONTROL Save]**.
 
      De markerade attributen fylls i i avsnittet _[!UICONTROL Persona attributes]_.
@@ -104,17 +104,19 @@ Använd sök- och filterverktygen för att hitta den profil du vill ha:
 
    I stället för ett värde kan du också lägga till en fråga som kan användas för att identifiera en matchning. Du kan till exempel skriva
 
-1. Klicka på **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Submit]**.
 
 ## Redigera en profil
 
 Klicka på det personliga namnet för att komma åt och redigera informationen för den aktuella personen,
 
+Du kan ändra namnet eller beskrivningen, lägga till attribut eller uppdatera attributvärdena. Klicka på **[!UICONTROL Submit]** när ändringarna är klara.
+
 ## Ta bort en persona
 
 Om du tar bort en profil tas den bort från listan _Personmappning_ och kan inte längre användas i rollmallar.
 
-1. På sidan _[!UICONTROL Persona mapping]_&#x200B;letar du reda på den profil du vill ta bort.
+1. På sidan _[!UICONTROL Persona mapping]_letar du reda på den profil du vill ta bort.
 
 1. Klicka på ellipsikonen (**..**) bredvid namnet för och välj **[!UICONTROL Delete]**.
 

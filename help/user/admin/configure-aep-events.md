@@ -1,285 +1,130 @@
 ---
-title: Konfigurera Experience Platform Events
-description: Konfigurera Experience Platform händelsedefinitioner för att utlösa kontoresor i realtid i Journey Optimizer B2B edition baserat på kundbeteende.
+title: Välj upplevelsehändelser och fält
+description: Välj Experience Platform-händelser och -fält för att aktivera realtidsbeslut i resor baserat på kundbeteende.
 feature: Setup, Integrations
 role: Admin
+badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en betaversion"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
-# Konfigurera händelsedefinitioner för Experience Platform
+# Välj upplevelsehändelser och fält
 
-Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}.
+Administratörer kan välja specifika [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} och tillhörande fält i Experience Event-unionens schema. Efter markeringen kan användarna konfigurera beslutsregler så att de lyssnar på Experience Events för att aktivera dynamiska och målinriktade kampanjåtgärder baserat på händelsedata i nära realtid.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se videoöversikten](#overview-video)
+<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
+Att använda AEP upplevelsehändelser under resor är en tvåstegsprocess:
 
-Att använda AEP Experience Events i kundresor är en tvåstegsprocess:
+1. En administratör [lägger till AEP Experience-händelser och fält](#add-an-event) i Journey Optimizer B2B edition-konfigurationerna.
 
-1. Skapa och publicera en händelsdefinition för AEP.
+2. Under en resa lägger en marknadsförare till en _Lyssna efter en händelse_-nod och [väljer en Experience Event](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-2. Lägg till en _Lyssna efter en händelse_-nod i en kontoresa och [välj en AEP-händelsedefinition som en personhändelse](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+   * Väljer den händelse som ska användas i noden.
+   * Väljer de fält som ska användas som begränsningar.
 
-För varje händelsedefinition krävs följande indata från Experience Platform:
+>[!BEGINSHADEBOX]
 
-* **_Schema_** - XDM-schema som definierar Experience Event-datastrukturen. Den måste baseras på en Experience Event och måste vara profilaktiverad.
+## Riktlinjer och begränsningar
 
-  >[!NOTE]
-  >
-  >För att säkerställa att nödvändiga scheman är definierade måste ni samordna med ert konstruktörsteam. [Att skapa XDM-scheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/composition){target="_blank"} är en komplex process som utförs av datatekniker baserat på ärendekrav i hela organisationen.
+När du väljer händelser för att uppnå dina organisationsmål bör du tänka på följande:
 
-* **_Händelsetyper_** - XDM ExperienceEvent-händelsetyp (högst 20 per händelsetyp).
+* Du kan välja upp till 50 händelser och upp till 100 fält per händelse.
 
-* **_Fält_** - XDM-fält som finns i schemat (högst 20 per händelsdefinition)
+* Resor kan lyssna på Experience Events som är inkapslade med Experience Platform direktuppspelningsfunktioner, som Web SDK eller HTTP API.
 
-* **_Namn_** - Ett unikt namn för händelsedefinitionen.
+* Ni kan använda Experience Events för att fatta beslut inom en resa, men de behålls inte. Därför kan ni inte utnyttja tidigare erfarenheter av Experience Events i Journey Optimizer B2B edition.
 
-* **_Beskrivning_** - En beskrivning av händelsedefinitionen.
+* När du använder en Experience Event och publicerar resan kan du lägga till fler fält, men du kan inte ta bort fält som tidigare har markerats.
 
-## Begränsningar och skyddsräcken
+* Du kan referera till en upplevelsehändelse på flera resor eller använda en mer än en gång under samma resa.
 
-Tänk på följande när du skapar och hanterar händelsedefinitioner för att uppfylla dina organisationsmål:
+>[!ENDSHADEBOX]
 
-* Journey Optimizer B2B edition stöder maximalt 50 händelsedefinitioner.
-
-* Kontoresor kan lyssna efter AEP Experience Events som importerats med hjälp av AEP direktuppspelningsfunktioner, som Web SDK eller HTTP API.
-
-* Endast en AEP-händelsedefinition kan använda ett kombinerat schema och en uppsättning händelsetyper. När du skapar en händelsedefinition med ett schema (till exempel `My Schema`) och en händelsetyp (till exempel `Web Webpagedetails Page Views`) kan ingen annan händelsedefinition använda kombinationen `My Schema` och `Web Webpagedetails Page Views`.
-
-* En händelsedefinition kan användas i mer än en kontoresa.
-
-* AEP Experience Events kan användas för att fatta beslut inom en kontoresa, men bevaras inte. Därför går det inte att utnyttja tidigare erfarenheter av AEP Experience Events inom Journey Optimizer B2B edition.
-
-* Begränsningarna för _aktivitetsdatum_ och _minsta antal gånger_ stöds inte.
-
-* När en händelsedefinition har publicerats kan schemat och namnet inte ändras. Du kan dock lägga till händelsetyper och fält genom att skapa ett utkast och publicera igen.
-
-* Händelsedefinitioner som används i publicerade resor kan inte tas bort.
-
-## Få åtkomst till och hantera händelsedefinitioner
+## Hantera upplevelsehändelser
 
 1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** i den vänstra navigeringen.
 
-1. Klicka på **[!UICONTROL Events]** på den mellanliggande panelen för att visa listan över händelsedefinitioner.
+1. Klicka på **[!UICONTROL XDM Classes]** på den mellanliggande panelen och klicka sedan på fliken **[!UICONTROL Events]** för att visa listan över tillgängliga händelser.
 
-   Från den här sidan kan du [skapa](#create-an-event-definition), [publicera](#publish-an-event-defintion), [redigera](#edit-an-event-definition) och [ta bort](#delete-an-event-definition) händelsedefinitioner.
+   ![Få åtkomst till de valda upplevelsehändelserna](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 
-   ![Åtkomst till de konfigurerade händelsedefinitionerna](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
+   Tabellen sorteras efter kolumnen _[!UICONTROL Last update]_, med de senast uppdaterade händelserna högst upp som standard.
 
-   Tabellen sorteras efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade definitionerna överst som standard.<!-- Click the column title to change between ascending and descending.-->
+   Från den här sidan kan du [välja](#add-an-event) och [redigera](#edit-an-event) händelser som ska användas i resor.
 
-1. Klicka på namnet för att få tillgång till informationen om en händelsedefinition.
+   Klicka på händelsenamnet för att få tillgång till information om en vald händelse.
 
-### Händelsedefinitionsstatus och livscykel
+### Filtrera händelselistan
 
-I listan _[!UICONTROL Event definitions]_&#x200B;anger kolumnen **[!UICONTROL Status]**&#x200B;aktuell status för varje definition. Statusen avgör om den är tillgänglig för användning på kontoresor och vilka ändringar du kan göra i den.
+Ange text i fältet _[!UICONTROL Search]_för att filtrera de händelser som visas så att de matchar händelsenamnet.
 
-| Status | Beskrivning |
-| -------------------- | ----------- |
-| Utkast | När du skapar en händelsedefinition är den i utkaststatus. Den behåller denna status tills du publicerar den för användning på kontoresor. Tillgängliga åtgärder: <br/><li>Redigera all information<li>Publicera<li>Ta bort |
-| Publicerad | När du publicerar en händelsedefinition blir den tillgänglig för användning på kontoresor. Det går inte att ändra informationen. Tillgängliga åtgärder: <br/><li>Tillgänglig för _Lyssna efter en händelse_-kundens nod<li>Skapa utkastversion<li>Radera (om den inte används) |
-| Publicerat (med utkast) | När du skapar ett utkast från en publicerad händelsedefinition är den publicerade versionen fortfarande tillgänglig för användning på kontoresor, och utkastversionen kan ändras. Om du publicerar utkastet ersätts den aktuella publicerade versionen och händelsedefinitionen uppdateras för kontoresor där den ännu inte har körts. Tillgängliga åtgärder: <br/><li>Redigera all information<li>Publicera utkast<li>Ignorera utkastversion<li>Radera (om den inte används) |
+![Filtrera listan med markerade händelser efter namn](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-![Livscykel för fragmentstatus](../assets/status-lifecycle-diagram.png){zoomable="yes"}
+### Lägg till en händelse
 
-### Filtrera händelsedefinitionslistan
+Om du vill göra en Experience Event tillgänglig för en _Lyssna efter en händelse_-nod under en resa, markerar du händelsen och de fält som stöds.
 
-Om du vill söka efter en händelsedefinition utifrån namn anger du en textsträng i sökfältet för en matchning.
+>[!NOTE]
+>
+>I betaversionen kan du inte ta bort händelser från listan. Se till att alla händelser du lägger till är avsedda att användas av organisationen.
 
-![Filtrera de händelsedefinitioner som visas](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
+1. Klicka på **[!UICONTROL Select experience event]** överst till höger.
 
-## Skapa en händelsedefinition
+   Sidan med händelseinformation visas. På den här sidan kan du välja händelsetyp och fält.
 
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** i den vänstra navigeringen.
+   ![Händelseinformation för en ny händelse](./assets/configurations-xdm-classes-events-select-new.png){width="700" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Events]** på den mellanliggande panelen för att visa listan över händelsedefinitioner.
+1. Välj händelsetyp.
 
-1. Klicka på **[!UICONTROL Create event]** överst till höger.
+   * Klicka på **[!UICONTROL Select event type]**.
 
-1. Ange **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt).
+   * Välj händelsetyp i dialogrutan.
 
-   ![Skapa händelsedefinition](./assets/configuration-events-create.png){width="600" zoomable="yes"}
+     Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
 
-1. Ange att **[!UICONTROL Schema]** ska användas för händelsedefinitionen.
+     ![Dialogrutan Välj händelsetyp](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
 
-   Det schema du väljer avgör vilka fält som är tillgängliga för att läggas till i definitionen. Fälten som du lägger till är sedan tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod i en kontoresa.
-
-   * Klicka på **[!UICONTROL Select schema]**.
-   * I dialogrutan väljer du ett schema i listan över Experience Event-baserade scheman.
    * Klicka på **[!UICONTROL Select]**.
 
-   ![Välj schema för händelsedefinitionen](./assets/configuration-events-create-select-schema.png){width="600" zoomable="yes"}
-
-1. Välj **[!UICONTROL Event types]** som ska användas för händelsedefinitionen.
-
-   De [händelsetyper](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} som du väljer avgör vilka händelser som är tillgängliga som begränsningar för en _Lyssna efter en händelse_-nod i en kontoresa.
-
-   * Klicka på **[!UICONTROL Select event types]**.
-   * I dialogrutan väljer du en eller flera händelsetyper i listan (högst 20).
-   * Klicka på **[!UICONTROL Select]**.
-
-   ![Välj händelsetyper för händelsedefinitionen](./assets/configuration-events-create-select-event-types.png){width="600" zoomable="yes"}
-
-1. Välj **[!UICONTROL Fields]** som ska användas för händelsedefinitionen.
-
-   Fälten som du väljer avgör vilka begränsningar som är tillgängliga när händelsen används för en _Lyssna efter en händelse_-nod i en kontoresa.
-
-   >[!NOTE]
-   >
-   >Fältet `eventType` är obligatoriskt och automatiskt markerat.
+1. Välj ett eller flera fält för händelsetypen.
 
    * Klicka på **[!UICONTROL Select fields]**.
-   * I dialogrutan väljer du ett eller flera fält i listan (högst 20).
+
+   * I dialogrutan väljer du de fält som du vill använda som begränsningar för matchande händelser.
+
+     Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
+
+     ![Dialogrutan Välj fält](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
+
    * Klicka på **[!UICONTROL Select]**.
 
-   ![Markera fälten för händelsedefinitionen](./assets/configuration-events-create-select-fields.png){width="600" zoomable="yes"}
+1. Klicka på **[!UICONTROL Save]** på sidan med händelseinformation.
 
-1. När schemat, händelsetyperna och fälten är klara klickar du på **[!UICONTROL Create]**.
+Den sparade händelsen visas i listan på fliken _[!UICONTROL Events]_.
 
-   När listsidan skapas visas den och den nya händelsen visas högst upp i listan med statusen _Utkast_.
+### Redigera en händelse
 
-   ![Den nya definitionen av utkasthändelsen finns på sidan](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
+Redigera händelseinformationen för att ändra fälten.
 
-## Publicera en händelsedefinition
+1. Klicka på händelsenamnet eller klicka på ikonen _Mer meny_ ( **...** ) och välj **[!UICONTROL Edit]**.
 
-När du är säker på att definitionen av en utkasthändelse är fullständig och korrekt kan du publicera den. Den publicerade händelsedefinitionen är sedan tillgänglig för användning vid kontoresor. När händelsedefinitionen har publicerats kan du skapa ett utkast om du behöver göra ändringar i den. Du kan dock inte ändra schemat, och du kan bara lägga till händelsetyper och fält (du kan inte ta bort dem).
+   ![Klicka på ikonen Mer på menyn ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** i den vänstra navigeringen.
+1. Klicka på **[!UICONTROL Edit fields]** om du vill lägga till fler fält eller ta bort befintliga markeringar i dialogrutan _[!UICONTROL Select fields]_.
 
-1. Klicka på **[!UICONTROL Events]** på den mellanliggande panelen för att visa listan över händelsedefinitioner.
+1. Klicka på **[!UICONTROL Select]** om du vill spara dina val.
 
-1. I listan _[!UICONTROL Event definitions]_&#x200B;klickar du på namnet på definitionen av utkasthändelsen för att öppna informationssidan.
+### Ta bort en händelse
 
-   ![Öppna definitionen för utkastshändelsen](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
-
-   Granska inställningarna innan du publicerar om det behövs. Du kan [redigera utkastet](#edit-an-event-definition) om det inte uppfyller dina krav.
-
-1. Klicka på **[!UICONTROL Publish]** överst till höger.
-
-1. Klicka på **[!UICONTROL Publish]** i bekräftelsedialogrutan.
-
-   ![Dialogrutan Publicera händelse](./assets/configuration-events-publish-dialog.png){width="300"}
-
-   Statusen för händelsedefinitionen ändras till _Publicerad_ och är nu [tillgänglig för användning i kontoresor](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
-
-   ![Händelsedefinitionsstatusen uppdateras på sidan](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
-
-## Redigera en händelsedefinition
-
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** i den vänstra navigeringen.
-
-1. Klicka på **[!UICONTROL Events]** på den mellanliggande panelen för att visa listan över händelsedefinitioner.
-
-   Redigeringar av en händelsedefinition beror på dess aktuella status:
-
-   * När en händelsedefinition har statusen _Utkast_ kan du redigera all information om den.
-   * Du kan inte redigera en händelsedefinition när den har statusen _Publicerad_. Du kan skapa ett utkast som är redigerbart och sedan ersätta den publicerade versionen.
-   * När en händelsedefinition är i _Publicerad (med utkast)_ kan du ändra utkastversionen (redigera beskrivningen och lägga till händelsetyper och fält).
-
-   ![Den nya definitionen av utkasthändelsen finns på sidan](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
-
-1. Öppna händelsedefinitionsnamnet från listsidan _[!UICONTROL Event definitions]_&#x200B;genom att klicka på det.
-
-Följ stegen enligt status:
-
->[!BEGINTABS]
-
->[!TAB Utkast]
-
-1. Ändra alla händelsedefinitionsdetaljer efter behov.
-
-   ![Information om en händelsedefinition med utkaststatus](./assets/configuration-events-publish-draft.png){width="600" zoomable="yes"}
-
-   Följ samma riktlinjer som används för att [skapa en händelsedefinition](#create-an-event-definition).
-
-   Ändringarna sparas automatiskt i utkastet.
-
-1. När händelsedefinitionen uppfyller dina villkor och du vill göra den tillgänglig för kontoresor klickar du på **[!UICONTROL Publish]**.
-
-1. Klicka på **[!UICONTROL Publish]** i bekräftelsedialogrutan.
-
-   Statusen för händelsedefinitionen ändras till _Publicerad_ och är nu tillgänglig för användning på kontoresor.
-
->[!TAB Publicerad]
-
-1. Om du vill uppdatera händelsedefinitionen klickar du på **[!UICONTROL Create draft version]** överst till höger.
-
-   ![Definitionsinformation för publicerad händelse](./assets/configuration-events-published-details.png){width="600" zoomable="yes"}
-
-1. Klicka på **[!UICONTROL Create draft]** i bekräftelsedialogrutan för att öppna utkastet.
-
-   ![Skapa dialogruta för utkastversion](./assets/configuration-events-published-create-draft-dialog.png){width="300"}
-
-   Den här åtgärden skapar utkastet till version och återgår till listsidan, där händelsedefinitionen nu har statusen _Publicerad (med utkast)_.
-
-1. Klicka på händelsens definitionsnamn för att öppna den.
-
-   För en _publicerad (med utkast)_-händelsedefinition har _[!UICONTROL Published]_-versionsfliken valts som standard.
-
-1. Välj fliken för version av **[!UICONTROL Draft]**.
-
-   ![Markera utkastet för att redigera informationen](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
-
-1. Ändra den redigerbara informationen (**[!UICONTROL Description]**, **[!UICONTROL Event types]** och **[!UICONTROL Fields]**) efter behov.
-
-   Följ samma riktlinjer som används för att [skapa en händelsedefinition](#create-an-event-definition).
-
-   Ändringarna sparas automatiskt i utkastet.
-
-1. När utkasthändelsedefinitionen uppfyller dina villkor och du vill ersätta den aktuella publicerade versionen för användning på kontoresor klickar du på **[!UICONTROL Publish Draft]**.
-
-1. Klicka på **[!UICONTROL Publish]** i bekräftelsedialogrutan.
-
-   ![Publicera utkastsdialogruta](./assets/configuration-events-publish-draft-dialog.png){width="300"}
-
-   När du publicerar utkastet ersätts den aktuella publicerade versionen och händelsedefinitionen uppdateras för kontoresor där den redan används men ännu inte körs.
-
->[!TAB Publicerad (med utkast)]
-
-När du öppnar en _publicerad (med utkast)_ -händelsedefinition väljs _[!UICONTROL Published]_-fliken som standard.
-
-1. Välj fliken för version av **[!UICONTROL Draft]**.
-
-   ![Markera utkastet för att redigera informationen](./assets/configuration-events-published-draft-tab.png){width="600" zoomable="yes"}
-
-1. Ändra den redigerbara informationen (**[!UICONTROL Description]**, **[!UICONTROL Event types]** och **[!UICONTROL Fields]**) efter behov.
-
-   Följ samma riktlinjer som används för att [skapa en händelsedefinition](#create-an-event-definition).
-
-   Ändringarna sparas automatiskt i utkastet.
-
-1. När utkasthändelsedefinitionen uppfyller dina villkor och du vill ersätta den aktuella publicerade versionen för användning på kontoresor klickar du på **[!UICONTROL Publish Draft]**.
-
-1. Klicka på **[!UICONTROL Publish]** i bekräftelsedialogrutan.
-
-   ![Publicera utkastsdialogruta](./assets/configuration-events-publish-draft-dialog.png){width="300"}
-
-   När du publicerar utkastet ersätts den aktuella publicerade versionen och händelsedefinitionen uppdateras för kontoresor där den redan används men ännu inte körs.
-
->[!ENDTABS]
-
-## Ta bort en händelsedefinition
-
-Du kan ta bort en händelsedefinition om den inte används av en publicerad kontoresa.
-
->[!CAUTION]
+>[!NOTE]
 >
->Använd den här åtgärden med försiktighet. Borttagning av en händelsedefinition kan inte ångras.
+>I Beta-versionen av den här funktionen kan du inte ta bort en händelse från listan med markerade händelser. Händelseborttagning planeras för GA-versionen.
 
-1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** i den vänstra navigeringen.
+<!-- ## Overview video
 
-1. Klicka på **[!UICONTROL Events]** på den mellanliggande panelen för att visa listan över händelsedefinitioner.
-
-1. Leta reda på händelsedefinitionen i listan och klicka på ikonen _Ta bort_ ( ![Ta bort ikon](../assets/do-not-localize/icon-delete.svg) ) till höger om namnet.
-
-1. Klicka på **[!UICONTROL Delete]** i bekräftelsedialogrutan.
-
-   ![Bekräfta borttagning av händelsedefinitionen](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
-
-## Videoöversikt
-
->[!VIDEO](https://video.tv.adobe.com/v/3448687/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->

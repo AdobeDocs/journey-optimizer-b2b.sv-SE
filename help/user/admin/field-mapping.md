@@ -1,28 +1,27 @@
 ---
-title: XDM-fält
+title: XDM-standardfält
 description: Granska standardattributfälten som är synkroniserade mellan Adobe Experience Platform och Journey Optimizer B2B edition.
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1155'
 ht-degree: 6%
 
 ---
 
-# XDM-fält
+# XDM-standardfält
 
 Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Business Person-klasserna. Data synkroniseras regelbundet mellan Adobe Experience Platform och Journey Optimizer B2B edition. I följande avsnitt visas standarduppsättningarna med attribut.
 
 >[!TIP]
 >
->Du kan modellera XDM Business Person- och XDM Business Account-klasser i en många-till-många-relation genom att använda klassen XDM Business Account Person Relation enligt beskrivningen i [Experience Platform XDM-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Du kan modellera XDM Business Person- och XDM Business Account-klasser i en många-till-många-relation genom att använda klassen XDM Business Account Person Relation enligt beskrivningen i [Experience Platform XDM-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 >[!NOTE]
->Data Mirror och relationsscheman är tillgängliga för innehavare av Adobe Journey Optimizer Orchestrated-kampanjlicenser. De finns också som en begränsad version för Customer Journey Analytics-användare, beroende på licens- och funktionsinställningarna. Kontakta din Adobe-representant för att få åtkomst. Relationsscheman finns också i en begränsad version för Adobe Journey Optimizer B2B edition.
 >
-
+>Data Mirror och relationsscheman är tillgängliga för innehavare av Adobe Journey Optimizer Orchestrated-kampanjlicenser. De finns också som en begränsad version för Customer Journey Analytics-användare, beroende på licens- och funktionsinställningarna. Kontakta din Adobe-representant för att få åtkomst. Relationsscheman finns också i en begränsad version för Adobe Journey Optimizer B2B edition.
 
 ## XDM Business Account Person Relation-attribut
 
@@ -89,7 +88,7 @@ Målgruppsdata lagras som attribut i både XDM Business Account- och XDM Busines
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

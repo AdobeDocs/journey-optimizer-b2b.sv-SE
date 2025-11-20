@@ -4,9 +4,9 @@ description: Konfigurera händelsnoder för konto- och personutlösare - lyssna 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
+source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1616'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera en eller flera webbsidor som ska matcha och eventuella ytterligare begränsningar för händelsen.
 
-   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_&#x200B;definierar du begränsningen **[!UICONTROL Web page]**&#x200B;eller **[!UICONTROL Fills out form]**. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**&#x200B;för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda **[!UICONTROL is any]**&#x200B;för att matcha vid besök på Marketo Engage webbsidor eller i ifyllda formulär.
+   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_definierar du begränsningen **[!UICONTROL Web page]**eller **[!UICONTROL Fills out form]**. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda operatorn **[!UICONTROL is any]**för att matcha ett besök på en Marketo Engage-webbsida eller i ett ifyllt formulär.
 
    * (Valfritt) Klicka på **[!UICONTROL Add constraint]** och välj det fält som du vill använda som begränsning. Ange operatorn och fältets värde.
 
@@ -135,13 +135,14 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 ### Lyssna efter en upplevelsehändelse
 
-Administratörer kan konfigurera Adobe Experience Platform (AEP)-baserade händelsedefinitioner, som gör att marknadsförare kan skapa kontoresor som reagerar på [AEP Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}. Att använda AEP Experience Events i kundresor är en tvåstegsprocess:
+Administratörer kan välja [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} som gör att marknadsförare kan skapa resor som reagerar på händelserna i nära realtid. Att använda upplevelsehändelser under resor är en tvåstegsprocess:
 
-1. [Skapa och publicera en AEP-händelsedefinition](../admin/configure-aep-events.md).
+1. En administratör [väljer händelsetyper och intressefält](../admin/configure-aep-events.md#select-an-event) för att göra dem tillgängliga på resorna.
 
-2. Lägg till en _Lyssna efter en händelse_-nod i en kontoresa och välj en Experience Platform-händelsdefinition för en personbaserad händelse.
+2. Lägg till en _Lyssna efter en händelse_-nod på en resa och välj en Experience Platform-händelsetyp för en personbaserad händelse.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Se videoöversikten](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 _Inkludera en upplevelsehändelse i din resa :_
 
@@ -159,21 +160,21 @@ _Inkludera en upplevelsehändelse i din resa :_
 
    ![Redigera händelsen](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Edit event]** och definiera händelsetyperna och eventuella ytterligare begränsningar för händelsen.
+1. Klicka på **[!UICONTROL Edit event]** och definiera en eller flera begränsningar för händelsen.
 
-   * (Obligatoriskt) Definiera händelsetypen i dialogrutan _[!UICONTROL Edit event]_. Du kan använda standardoperatorn **[!UICONTROL is]**&#x200B;för att matcha en eller flera valda händelsetyper. Du kan också använda operatorn **[!UICONTROL is not]**&#x200B;för att matcha alla händelsetyper med undantag för en eller flera valda händelsetyper.
+   De tillgängliga begränsningarna definieras som hanterade fält för händelsekonfigurationen.
 
-   * (Valfritt) Klicka på **[!UICONTROL Add constraint]** och välj det fält som du vill använda som begränsning. Ange operatorn och fältets värde.
+   * Klicka på **[!UICONTROL Add constraint]** och välj det fält som du vill använda som begränsning.
+
+   * Slutför villkoret för villkoret.
+
+     Du kan använda standardoperatorn **[!UICONTROL is]** för att matcha ett eller flera fältvärden. Du kan också använda operatorn **[!UICONTROL is not]** för att matcha alla värden med undantag för ett eller flera angivna värden.
 
      ![Lyssna efter en upplevelsehändelse](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >Begränsningarna för _aktivitetsdatum_ och _minsta antal gånger_ stöds inte.
-
-     Du kan upprepa den här åtgärden för att inkludera ytterligare fältbegränsningar efter behov.
-
    * Om det behövs väljer du fliken **[!UICONTROL Filters]** för att [lägga till filter för händelsen](#add-a-filter-to-the-people-event).
+
+   * (Valfritt) Klicka på **[!UICONTROL Add constraint]** och upprepa de här stegen för att inkludera ytterligare fältbegränsningar efter behov.
 
    * När begränsningarna och filtren har definierats klickar du på **[!UICONTROL Done]**.
 
@@ -219,6 +220,6 @@ Ange vid behov hur lång tid resan väntar på händelsen. Resan avslutas efter 
 
    ![Resans händelsnod - ange tidsgräns](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Videoöversikt
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443238/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
