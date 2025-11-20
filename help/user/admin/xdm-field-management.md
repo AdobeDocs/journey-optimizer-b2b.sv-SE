@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)-scheman innehåller vanligtvis många fält i ko
 Administratörer som förstår XDM och samarbetar med datatekniker eller intressenter för CDP-datamodellering (B2B customer data platform) följer procedurerna i den här handboken.
 
 >[!NOTE]
->[Relationsscheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad version. Data Mirror och relationsscheman är tillgängliga för innehavare av Journey Optimizer Orchestrated-kampanjlicenser. Relationsscheman är också tillgängliga som en begränsad release för Customer Journey Analytics-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
+>[Relationsscheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad version. Data Mirror och relationsscheman är tillgängliga för innehavare av Journey Optimizer Orchestrated-kampanjlicenser. Relationsscheman är också tillgängliga som en begränsad release för Customer Journey Analytics-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
 
 ## Åtkomst till XDM-klasser
 

@@ -70,7 +70,7 @@ Om du har en Enterprise-licens för Adobe Express kan du komma åt och använda 
 
 ![Öppna bilden i Adobe Express Enterprise Editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express användarhandbok](https://helpx.adobe.com/express/web.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
+[Adobe Express användarhandbok](https://helpx.adobe.com/se/express/web.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
 
 ## Snabbåtgärder i Adobe Express
 

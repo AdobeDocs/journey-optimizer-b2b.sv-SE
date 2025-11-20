@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Marketo Engage-åtgärder är _personbaserade_-åtgärder som gör att du kan koordinera din _kontobaserade_ marknadsföringssamordning mellan Journey Optimizer B2B edition och dina _lead-baserade_ marknadsföringssatsningar i Marketo Engage. Använd dessa åtgärder för att samordna statiskt listmedlemskap och för att placera personer i kampanjer.
 
-Om du vill använda Marketo Engage-åtgärder skapar en administratör först en [anpassad tjänst](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#) i Marketo Engage, som tillhandahåller de autentiseringsuppgifter som krävs för autentisering.
+Om du vill använda Marketo Engage-åtgärder skapar en administratör först en [anpassad tjänst](https://experienceleague.adobe.com/sv/docs/marketo-developer/marketo/rest/custom-services#) i Marketo Engage, som tillhandahåller de autentiseringsuppgifter som krävs för autentisering.
 Sedan skapar en produktadministratör för Journey Optimizer B2B edition en anslutning till Marketo Engage genom att ange inloggningsuppgifterna.
 Journey Optimizer B2B edition-användare kan sedan referera till anslutningen för att konfigurera Marketo Engage-åtgärder på <!-- Person and -->kontoresor, som att lägga till eller ta bort personer från Marketo Engage-listor eller lägga till dem i kampanjförfrågningar.
 
