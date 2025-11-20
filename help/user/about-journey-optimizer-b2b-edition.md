@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B edition använder _Account Audiences_ och _People Au
 
 >[!NOTE]
 >
->Kontrollera dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaskydd och statiska begränsningar.
+>Kontrollera dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaskydd och statiska begränsningar.
 
 ### Prenumerationsmodell
 
