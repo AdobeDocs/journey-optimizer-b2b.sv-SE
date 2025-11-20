@@ -70,7 +70,7 @@ I det här fönstret visas alla leads som du har tillgång till. Det är en snab
 
 ![Leadregister som visar lead-status och senaste aktivitet för hantering av potentiella kunder](assets/prospects.png)
 
-Klicka på ikonen _Filter_ ![Filter ](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
+Klicka på ikonen _Filter_ ![Filter &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
 
 ## Förlovningsplaner
 
@@ -141,7 +141,7 @@ Definiera URL:en för integreringen och upprätta nyttolasten som ska skickas:
 
 När anslutningsinställningarna är giltiga klickar du på **[!UICONTROL Save as draft]**.
 
-När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
+När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_&#x200B;markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**&#x200B;för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
 
 #### Hantera åtkomst
 
@@ -197,7 +197,7 @@ På fliken **[!UICONTROL Chat settings]** anger du din tillgängliga tidszonsliv
 
 ## Representativ förvaltning
 
-Panelen _[!UICONTROL Representative management]_visar de definierade representanterna och deras kalenderstatus.
+Panelen _[!UICONTROL Representative management]_&#x200B;visar de definierade representanterna och deras kalenderstatus.
 
 ## Mötesprestanda
 

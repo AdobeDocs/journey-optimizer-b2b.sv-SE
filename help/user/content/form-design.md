@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Formulärdesign
 
-När du har [skapat ett formulär](./forms.md#create-forms) öppnas ett utkast med en grundläggande standardformulärdefinition. Klicka på _[!UICONTROL Summary]_på panelen **[!UICONTROL Edit form]**till höger och använd det visuella designområdet för att definiera formulärformateringen och fältkomponenterna.
+När du har [skapat ett formulär](./forms.md#create-forms) öppnas ett utkast med en grundläggande standardformulärdefinition. Klicka på _[!UICONTROL Summary]_&#x200B;på panelen **[!UICONTROL Edit form]**&#x200B;till höger och använd det visuella designområdet för att definiera formulärformateringen och fältkomponenterna.
 
 ![Öppna formulärbiblioteket](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
@@ -30,13 +30,13 @@ Använd fältdesignverktygen för att skapa de fält och den layout som behövs 
 
 ### Lägg till ett fält {#add-field}
 
-1. Dra innehållskomponenten _[!UICONTROL Components]_på panelen **[!UICONTROL Field]**till vänster och släpp den på arbetsytan.
+1. Dra innehållskomponenten _[!UICONTROL Components]_&#x200B;på panelen **[!UICONTROL Field]**&#x200B;till vänster och släpp den på arbetsytan.
 
    ![Lägg till en fältkomponent i formuläret](./assets/form-content-add-field.png){width="700" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Select field attribute]**.
 
-1. I dialogrutan _[!UICONTROL Select field attribute]_markerar du kryssrutan för personprofilattributet som du vill använda för fältet och klickar på&#x200B;**[!UICONTROL Select]**.
+1. I dialogrutan _[!UICONTROL Select field attribute]_&#x200B;markerar du kryssrutan för personprofilattributet som du vill använda för fältet och klickar på&#x200B;**[!UICONTROL Select]**.
 
    [XDM-affärsscheman](../admin/field-mapping.md#xdm-business-person-attributes) avgör vilka attribut som är tillgängliga.  Alla anpassade fält som är definierade för din Journey Optimizer B2B edition-instans är också tillgängliga. Använd söktextrutan för att filtrera listan efter namn eller klicka på filterikonen för att filtrera listan efter schema/datatyp.
 
@@ -83,7 +83,7 @@ Använd fältdesignverktygen för att skapa de fält och den layout som behövs 
 
    * **[!UICONTROL Default value]** - Använd det här alternativet om du vill ange ett standardvärde för fältet.
 
-   * **[!UICONTROL Validation message]** - Använd det här alternativet om du vill ange ett valideringsmeddelande för fältet. Det här meddelandet visas om besökaren anger ett ogiltigt värde för fältet. Meddelandet _[!UICONTROL Standard]_är inställt som standard. Välj **[!UICONTROL Custom]**och ange ett eget meddelande.
+   * **[!UICONTROL Validation message]** - Använd det här alternativet om du vill ange ett valideringsmeddelande för fältet. Det här meddelandet visas om besökaren anger ett ogiltigt värde för fältet. Meddelandet _[!UICONTROL Standard]_&#x200B;är inställt som standard. Välj **[!UICONTROL Custom]**&#x200B;och ange ett eget meddelande.
 
    * **Maximal längd** - Ange det maximala antalet tecken som kan anges i fältet.
 
@@ -141,7 +141,7 @@ Skicka-knappen (sidfotsfältet) är som standard en del av formuläret och kan i
 
 ### Redigera knappinnehåll {#button-content}
 
-Ändra texten i fältet _[!UICONTROL Content]_på fliken **[!UICONTROL Button text]**som visas på den högra panelen. Knappens storlek justeras efter textens längd.
+Ändra texten i fältet _[!UICONTROL Content]_&#x200B;på fliken **[!UICONTROL Button text]**&#x200B;som visas på den högra panelen. Knappens storlek justeras efter textens längd.
 
 ![Ändra knapptexten i formuläret](./assets//form-field-button-text.png){width="600" zoomable="yes"}
 

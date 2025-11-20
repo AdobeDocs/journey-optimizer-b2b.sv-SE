@@ -102,7 +102,7 @@ Använd en åtgärd för personer när du vill använda en ändring för alla pe
 
 >[!NOTE]
 >
->Åtgärden _[!UICONTROL Change People Partition in Marketo Engage]_är föråldrad för version 2025.10 och är inte tillgänglig för den förenklade arkitekturen för Journey Optimizer B2B edition.
+>Åtgärden _[!UICONTROL Change People Partition in Marketo Engage]_&#x200B;är föråldrad för version 2025.10 och är inte tillgänglig för den förenklade arkitekturen för Journey Optimizer B2B edition.
 
 ### Lägga till en personbaserad åtgärd
 

@@ -63,7 +63,7 @@ Klicka på klassnamnet för att öppna dialogrutan _Hanterade fält_.
 
 ![Dialogrutan för val av hanterade fält för standard-XDM-klasser som visar alternativ för konfigurerbara fält](assets/xdm-standard-managed-fields.png){width="600" zoomable="yes"}
 
-1. Klicka på menyn **..** för att växla mellan _[!UICONTROL Managed fields]_och_[!UICONTROL Updatable fields]_. I dialogrutan visas alla konfigurerbara fält.
+1. Klicka på menyn **..** för att växla mellan _[!UICONTROL Managed fields]_&#x200B;och&#x200B;_[!UICONTROL Updatable fields]_. I dialogrutan visas alla konfigurerbara fält.
 1. Välj upp till 100 fält för varje XDM-klass.
 1. Klicka på **[!UICONTROL Save]** för att bekräfta dina val.
 
