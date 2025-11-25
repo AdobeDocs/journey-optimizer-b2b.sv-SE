@@ -1,11 +1,11 @@
 ---
 title: Insikter i CRM
-description: Gå till Journey Optimizer B2B edition inköpsgrupper direkt i Salesforce. Säljteammedlemmarna kan visa engagemangsdata och identifiera säljmöjligheter med insikter om In-CRM.
+description: Få tillgång till Journey Optimizer B2B edition inköpsgrupper direkt i CRM. Säljteammedlemmarna kan visa engagemangsdata och identifiera säljmöjligheter med insikter om In-CRM.
 feature: Sales Insights, Buying Groups
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: b5173345f5dfb879b36726ca27e164d9a267dac4
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -13,34 +13,64 @@ ht-degree: 0%
 
 # Insikter i CRM
 
-In-CRM Insights är ett webbaserat program som integreras med Salesforce och ger er tillgång till era inköpsgrupper i Journey Optimizer B2B edition direkt inifrån Salesforce. Ni kan identifiera möjligheter för ökat engagemang och ökad säljpotential.
+[!DNL In-CRM Insights] är ett webbbasprogram som integreras med Salesforce och Microsoft Dynamics 365 och ger dig tillgång till [!DNL Journey Optimizer B2B Edition] som köper grupper direkt i CRM. Här samlas datakällor för försäljning, vilket gör det enklare att identifiera möjligheter till ökat engagemang och ökad säljpotential.
 
-In-CRM Insights-programmet är tillgängligt i [Marketo Sales Insights-paketet](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+Programmet [!DNL In-CRM Insights] är tillgängligt i paketet [Marketo Sales Insights](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
-## Behörigheter
+## Installation
 
-För att få åtkomst till programmet måste användarna ha ett medlemskap i en roll med behörigheten **Sales Insights:View Sales Insights** .
+Installationsprocessen omfattar:
 
-Om du vill begränsa en grupp användare till InCRM-Insights använder du följande riktlinjer för att skapa en anpassad roll specifikt för InCRM-Insights:
+* Konfigurera användarbehörigheter och grupper
+* Installera programvarupaketet
+* Logga in via CRM
 
-* Skapa en anpassad roll med bara behörighetsgruppen **Sales Insights:View Sales Insights** .
-* Skapa en ny användargrupp utan att lägga till produktprofiler.
-* Skapa en annan användargrupp och lägg till en AEP-produktprofil eller lägg till en befintlig AEP-profil i användargruppen som du just skapade.
-* Tilldela de nya användargrupperna till den nya rollen och lägg till nya användare i de nya användargrupperna.
+### Ange behörigheter
 
-## Använda insikter i InCRM
+Användare som installerar programmet måste ha behörighet att installera Salesforce-paket.
 
-In-CRM Insights-programmet är tillgängligt i Salesforce via App Launcher.
+Användarna måste ha ett medlemskap i en roll med behörigheten **Sales Insights:View Sales Insights** för att få åtkomst till programmet.
 
-1. Klicka på App Launcher i Salesforce.
-1. Välj eller sök efter `Journey Optimizer B2B Edition`.
-1. Logga in med dina Adobe-inloggningsuppgifter på den flik som visas.
-1. Välj en sandlåda som är värd för dina kontoresor.
+Om du vill begränsa användare till endast [!DNL In-CRM Insights]:
 
-Dina inköpsgrupper är inlästa och tillgängliga. Data är skrivskyddade via In-CRM-insikter.
+1. Skapa en [anpassad roll](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) och tilldela den behörigheten **Försäljningsinsikter: Visa försäljningsinsikter**.
+1. Skapa en ny [användargrupp](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
+1. Lägg till en Experience Platform-produktprofil i gruppen.
 
->[!NOTE]
->
->Det krävs medlemskap i produktrollen [B2B-säljanvändare](../admin/user-management.md#b2b-built-in-roles) för att få tillgång till In-CRM-insikter.
+### Installera paketet
 
-När du har valt en inköpsgrupp kan du bläddra bland [gruppinformationen](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#), precis som i Journey Optimizer B2B edition.
+Följ stegen för Salesforce eller Microsoft Dynamics för att installera In-CRM Insights-paketet.
+
+#### Salesforce
+
+1. Hämta installationspaketet [In-CRM Insights](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce).
+1. När du har loggat in omdirigeras du till paketinstallationssidan.
+1. Välj alternativet **[!UICONTROL Install for All Users]** och klicka på **[!UICONTROL Install]**.
+
+   ![Installera In-CRM Insights-paketet](assets/incrm-install-sf.png){width=500}
+
+1. Godkänn åtkomst från tredje part i dialogrutan och klicka sedan på **[!UICONTROL Continue]**.
+1. När installationen är klar klickar du på **[!UICONTROL Done]**.
+
+   Den visas nu på sidan **Installerade paket** och **Journey Optimizer B2B edition** visas i appstartaren.
+
+   ![In-CRM-insikter konfigurerade i Salesforce](assets/in-crm-install-sf-done.png){width=800 zoomable="yes"}
+
+#### MS Dynamics
+
+1. Hämta installationspaketet [In-CRM Insights](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics).
+1. Gå till porten [Power Apps](https://make.powerapps.com/){target=_blank}.
+1. När du har loggat in väljer du miljön för paketet och navigerar sedan till **[!UICONTROL Solutions]** på den vänstra menyn.
+1. Klicka på **[!UICONTROL Import solution]**.
+1. Bläddra till och överför installationspaketet och klicka sedan på **[!UICONTROL Next]**.
+1. Verifiera paketinformationen och klicka på **[!UICONTROL Next]**.
+1. Under _Miljövariabler_ kontrollerar du att värdet är inställt på `prod` (ändra inte värdet) och klickar på **[!UICONTROL Import]**.
+1. När installationen är klar visas **[!UICONTROL Journey Optimizer B2B Edition]** > **[!UICONTROL Buying groups]** i det vänstra navigeringsfältet.
+
+   ![In-CRM-insikter finns i Microsoft Dynamics](assets/incrm-ms-install-done.png){width=800 zoomable="yes"}
+
+## Visa dina inköpsgrupper
+
+Följ instruktionerna för att logga in på ditt Adobe-konto. Dina inköpsgrupper är inlästa och tillgängliga att visa.
+
+När du har valt en inköpsgrupp kan du bläddra bland [gruppinformationen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Detta är samma som de data och insikter som visas i Journey Optimizer B2B edition, men data är skrivskyddade via [!DNL In-CRM Insights].
