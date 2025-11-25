@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL In-CRM Insights] är ett webbbasprogram som integreras med Salesforce och Microsoft Dynamics 365 och ger dig tillgång till [!DNL Journey Optimizer B2B Edition] som köper grupper direkt i CRM. Här samlas datakällor för försäljning, vilket gör det enklare att identifiera möjligheter till ökat engagemang och ökad säljpotential.
 
-Programmet [!DNL In-CRM Insights] är tillgängligt i paketet [Marketo Sales Insights](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
+Programmet [!DNL In-CRM Insights] är tillgängligt i paketet [Marketo Sales Insights](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/marketo-sales-insight/msi-for-salesforce/installation/install-marketo-sales-insight-package-in-salesforce-appexchange).
 
 ## Installation
 
@@ -33,8 +33,8 @@ Användarna måste ha ett medlemskap i en roll med behörigheten **Sales Insight
 
 Om du vill begränsa användare till endast [!DNL In-CRM Insights]:
 
-1. Skapa en [anpassad roll](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) och tilldela den behörigheten **Försäljningsinsikter: Visa försäljningsinsikter**.
-1. Skapa en ny [användargrupp](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
+1. Skapa en [anpassad roll](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/accounts/buying-groups/default-custom-roles#create-a-custom-role) och tilldela den behörigheten **Försäljningsinsikter: Visa försäljningsinsikter**.
+1. Skapa en ny [användargrupp](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/admin/user-management#create-user-group).
 1. Lägg till en Experience Platform-produktprofil i gruppen.
 
 ### Installera paketet
@@ -73,4 +73,4 @@ Följ stegen för Salesforce eller Microsoft Dynamics för att installera In-CRM
 
 Följ instruktionerna för att logga in på ditt Adobe-konto. Dina inköpsgrupper är inlästa och tillgängliga att visa.
 
-När du har valt en inköpsgrupp kan du bläddra bland [gruppinformationen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Detta är samma som de data och insikter som visas i Journey Optimizer B2B edition, men data är skrivskyddade via [!DNL In-CRM Insights].
+När du har valt en inköpsgrupp kan du bläddra bland [gruppinformationen](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Detta är samma som de data och insikter som visas i Journey Optimizer B2B edition, men data är skrivskyddade via [!DNL In-CRM Insights].
