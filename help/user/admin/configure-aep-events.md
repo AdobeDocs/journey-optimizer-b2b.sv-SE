@@ -61,7 +61,7 @@ När du väljer händelser för att uppnå dina organisationsmål bör du tänka
 
 ### Filtrera händelselistan
 
-Ange text i fältet _[!UICONTROL Search]_för att filtrera de händelser som visas så att de matchar händelsenamnet.
+Ange text i fältet _[!UICONTROL Search]_&#x200B;för att filtrera de händelser som visas så att de matchar händelsenamnet.
 
 ![Filtrera listan med markerade händelser efter namn](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
@@ -85,7 +85,7 @@ Om du vill göra en Experience Event tillgänglig för en _Lyssna efter en händ
 
    * Välj händelsetyp i dialogrutan.
 
-     Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
+     Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
 
      ![Dialogrutan Välj händelsetyp](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
 
@@ -97,7 +97,7 @@ Om du vill göra en Experience Event tillgänglig för en _Lyssna efter en händ
 
    * I dialogrutan väljer du de fält som du vill använda som begränsningar för matchande händelser.
 
-     Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
+     Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
 
      ![Dialogrutan Välj fält](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
 
@@ -113,7 +113,7 @@ Redigera händelseinformationen för att ändra fälten.
 
 1. Klicka på händelsenamnet eller klicka på ikonen _Mer meny_ ( **...** ) och välj **[!UICONTROL Edit]**.
 
-   ![Klicka på ikonen Mer på menyn ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Klicka på ikonen Mer på menyn &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Edit fields]** om du vill lägga till fler fält eller ta bort befintliga markeringar i dialogrutan _[!UICONTROL Select fields]_.
 
