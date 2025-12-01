@@ -281,4 +281,4 @@ Välj först en ansluten Marketo Engage-instans. Välj sedan listnamnet.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443249/?captions=swe&learn=on)
