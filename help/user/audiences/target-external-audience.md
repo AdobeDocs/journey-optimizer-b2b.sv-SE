@@ -106,5 +106,5 @@ Aktiveringsprocessen kräver att du lägger till [!DNL Adobe Target] som en exte
 
    ![Experience Platform - mål - aktivera mål - granskning](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Vid aktiveringen kan du se målgruppen i [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} och använda dem i Adobe Target-aktiviteter.
+Vid aktiveringen kan du se målgruppen i [Adobe Target](https://experienceleague.adobe.com/sv/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} och använda dem i Adobe Target-aktiviteter.
 
