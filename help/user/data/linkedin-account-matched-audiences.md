@@ -4,20 +4,20 @@ description: Lär dig hur du ansluter ett LinkedIn-konto och aktiverar ett dataf
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 1cc50d33e396e490f401330688e5d322270090e3
+source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
 
-# LinkedIn-konto matchar målgrupper
+# LinkedIn Account - matchade målgrupper
 
-Journey Optimizer B2B edition kan generera LinkedIn Ad-målgrupper via Account Matched Audiences och är utformat för att hjälpa er att fylla tomma roller i era inköpsgrupper. Genom att definiera en uppsättning inköpsgruppfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar köpgruppsparametrarna. Du kan också aktivera en målgrupp från en kontoresa från en _Ta en åtgärd_-nod.
+[!DNL Journey Optimizer B2B Edition] erbjuder möjlighet att generera LinkedIn Ad-målgrupper via kontomatchade målgrupper och är utformat för att hjälpa dig att fylla tomma roller i dina inköpsgrupper. Genom att definiera en uppsättning inköpsgruppfilter kan du upprätthålla en LinkedIn Matched Audience för att rikta presumtiva kunder som matchar köpgruppsparametrarna. Du kan också aktivera en målgrupp från en kontoresa från en _Ta en åtgärd_-nod.
 
 Den här funktionen utnyttjar Experience Platform Destinations för att hantera vissa aspekter av integreringen. Det finns en gräns på tio dataflöden.
 
-Innan du initierar ett dataflöde från Journey Optimizer B2B edition måste du ha minst en instans av [(Companies) LinkedIn Matched Audience-målkopplingen &#x200B;](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} med ett LinkedIn Campaign Manager-konto konfigurerat i ditt Experience Platform-program.
+Innan du initierar ett dataflöde från Journey Optimizer B2B edition måste du ha minst en instans av [(Companies) LinkedIn Matched Audience-målkopplingen ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} med ett LinkedIn Campaign Manager-konto konfigurerat i ditt Experience Platform-program.
 
 ## Konfigurera en ny LinkedIn-kontoanslutning {#linkedin-destination-setup}
 
@@ -122,7 +122,17 @@ Från och med version 2025.10 använder du åtgärden _Aktivera till mål_ för 
 
 1. Med noden _Vidta en åtgärd_ markerad på arbetsytan för resan ställer du in **[!UICONTROL Action on accounts]** på **[!UICONTROL Activate to destination]**.
 
-1. Klicka på **[!UICONTROL Select destination]**.
+   ![Resensnod - utför en åtgärd på konton - aktivera till mål](./assets/node-activate-destination.png){width="550" zoomable="yes"}
+
+1. Välj mål i nodegenskaperna till höger.
+
+   * Om du har skapat ett eller flera mål kan du klicka på **[!UICONTROL Select destination]** och välja ett befintligt mål.
+
+   * Klicka på **[!UICONTROL Set up destination]** om det inte finns några befintliga mål eller om du vill skapa ett nytt mål.
+
+     ![Resensnod - utför en åtgärd på konton - aktivera till mål - konfigurera mål](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
+
+     Med den här åtgärden öppnas sidan Destinationskatalog på en ny flik i webbläsaren.
 
    ![Resensnod - utför en åtgärd på konton - aktivera till mål](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
@@ -138,4 +148,4 @@ Från och med version 2025.10 använder du åtgärden _Aktivera till mål_ för 
 
 Du kan interagera med kontomedlemmar via en betald mediekanal, som LinkedIn Ad-målgrupper, för att värva, vårda och kvalificera dem för försäljning. Använd en _Ta en åtgärd_-nod i en kontoresa för att automatisera interaktionen med nyckelmedlemmar i ett konto via en extern kanal som passar olika kontomedlemmar bäst.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448676/?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: ab6445c36e6287e04015b2b1f7dd9dd8cb8d1287
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '371'
 ht-degree: 16%
 
 ---
@@ -49,8 +49,11 @@ ht-degree: 16%
       + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
    + [Anpassade personaliseringstoken](./content/personalization-my-tokens.md)
    + [SMS-redigering](./content/sms-authoring.md)
++ Målgrupper {#audiences}
+   + [Experience Platform målgrupper](./audiences/account-audience-overview.md)
+   + [Målgrupper externt](./audiences/target-external-audience.md)
+   + [LinkedIn Account - matchade målgrupper](./data/linkedin-account-matched-audiences.md)
 + Konton {#accounts}
-   + [Målgrupper](./audiences/account-audience-overview.md)
    + Köpgrupper {#buying-groups}
       + [Översikt](./buying-groups/buying-groups-overview.md)
       + [Lösningsintressen](./buying-groups/solution-interests.md)
@@ -62,7 +65,6 @@ ht-degree: 16%
       + [Köpgruppsfaser](./buying-groups/buying-group-stages.md)
       + [Skapa inköpsgrupper](./buying-groups/buying-groups-create.md)
       + [Exportera konton](./audiences/account-list-export.md)
-      + [LinkedIn-konto matchar målgrupper](./data/linkedin-account-matched-audiences.md)
       + [Köpa gruppfilter i Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
       + [Insikter i CRM](./buying-groups/incrm-insights.md)
    + Kontolistor {#account-lists}
