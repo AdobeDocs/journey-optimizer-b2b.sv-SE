@@ -38,7 +38,7 @@ Använd en åtgärd för konton när du vill använda en ändring för alla pers
 
 >[!NOTE]
 >
->Åtgärden _[!UICONTROL Account Change Data Value]_har tagits bort för version 2025.10. Den ersätts med_[!UICONTROL Update account profile]_ för den [förenklade arkitekturen](../simplified-architecture.md).<br/>
+>Åtgärden _[!UICONTROL Account Change Data Value]_&#x200B;har tagits bort för version 2025.10. Den ersätts med&#x200B;_[!UICONTROL Update account profile]_ för den [förenklade arkitekturen](../simplified-architecture.md).<br/>
 >
 >En administratör kan konfigurera tillgängliga attribut för XDM Business Account genom att uppdatera fälten i _[!UICONTROL XDM Classes]_>_[!UICONTROL Standard classes]_. Mer information finns i [Standardklasser](../admin/xdm-field-management.md#standard-classes).
 
@@ -108,9 +108,9 @@ Använd en åtgärd för personer när du vill använda en ändring för alla pe
 
 >[!NOTE]
 >
->Åtgärden _[!UICONTROL Change People Partition in Marketo Engage]_är föråldrad för version 2025.10 och är inte tillgänglig för den [förenklade arkitekturen](../simplified-architecture.md) för Journey Optimizer B2B edition.<br/>
+>Åtgärden _[!UICONTROL Change People Partition in Marketo Engage]_&#x200B;är föråldrad för version 2025.10 och är inte tillgänglig för den [förenklade arkitekturen](../simplified-architecture.md) för Journey Optimizer B2B edition.<br/>
 >
->Åtgärden _[!UICONTROL Change Data Value]_har tagits bort för version 2025.10. Den ersätts med_[!UICONTROL Update person profile]_ på den förenklade arkitekturen.
+>Åtgärden _[!UICONTROL Change Data Value]_&#x200B;har tagits bort för version 2025.10. Den ersätts med&#x200B;_[!UICONTROL Update person profile]_ på den förenklade arkitekturen.
 
 ### Lägga till en personbaserad åtgärd
 
@@ -233,7 +233,7 @@ Använd den här åtgärden om du vill ändra värdet för ett [personprofilattr
 
 >[!NOTE]
 >
->_[!UICONTROL Update person profile]_ersätter åtgärden_[!UICONTROL Change Data Value]_ för den [förenklade arkitekturen](../simplified-architecture.md).<br/>
+>_[!UICONTROL Update person profile]_&#x200B;ersätter åtgärden&#x200B;_[!UICONTROL Change Data Value]_ för den [förenklade arkitekturen](../simplified-architecture.md).<br/>
 >
 >En administratör kan konfigurera tillgängliga attribut för den enskilda XDM-profilen genom att uppdatera fälten i _[!UICONTROL XDM Classes]_> [!UICONTROL Standard classes]. Mer information finns i [Standardklasser](../admin/xdm-field-management.md#standard-classes).
 

@@ -27,9 +27,9 @@ Under din resa [lägger du till en _Vidta en åtgärd_-nod](../journeys/action-n
 >
 >När ett kvalificerande konto med personprofiler når noden _Lägg till i den externa kundmålgruppen_ i en publicerad resa kan det ta upp till 48 timmar för dessa profiler att fylla i den externa målgruppen.
 
-1. Markera noden _Utför en åtgärd_ på arbetsytan och välj alternativet _[!UICONTROL Action on]_**[!UICONTROL People]**.
+1. Markera noden _Utför en åtgärd_ på arbetsytan och välj alternativet _[!UICONTROL Action on]_&#x200B;**[!UICONTROL People]**.
 
-1. Välj _[!UICONTROL Action on people]_för **[!UICONTROL Add to external customer audience]**.
+1. Välj _[!UICONTROL Action on people]_&#x200B;för **[!UICONTROL Add to external customer audience]**.
 
    ![Resensnod - utför en åtgärd på personer - lägg till externa kundmålgrupper](./assets/node-add-external-audience.png){width="550" zoomable="yes"}
 
@@ -59,7 +59,7 @@ Under din resa [lägger du till en _Vidta en åtgärd_-nod](../journeys/action-n
 
    ![Vidta en åtgärd för personer - lägg till externa kunder - välj det befintliga alternativet](./assets/node-add-external-audience-select-existing-option.png){width="300"}
 
-1. I dialogrutan _[!UICONTROL Add audience]_väljer du den målgrupp som du vill använda.
+1. I dialogrutan _[!UICONTROL Add audience]_&#x200B;väljer du den målgrupp som du vill använda.
 
    Du kan ange text i fältet _Sök_ om du vill filtrera de visade objekten så att de matchar målgruppens namn.
 
@@ -81,7 +81,7 @@ Aktiveringsprocessen kräver att du lägger till [!DNL Adobe Target] som en exte
 
 ![Ikon för AEP-behörigheter](../../assets/do-not-localize/icon_permissions-outline.svg) Följande steg kräver följande behörigheter för din tilldelade användarroll:
 
-* **[!UICONTROL Experience Platform]** - För _[!UICONTROL Destinations]_resource: `Activate Destinations`, `Manage and Activate Dataset Destination` och `View Destination`
+* **[!UICONTROL Experience Platform]** - För _[!UICONTROL Destinations]_&#x200B;resource: `Activate Destinations`, `Manage and Activate Dataset Destination` och `View Destination`
 * **[!DNL Target]** - `Approver`
 
 >[!ENDSHADEBOX]
@@ -92,11 +92,11 @@ Aktiveringsprocessen kräver att du lägger till [!DNL Adobe Target] som en exte
 
 1. Leta reda på målanslutningen som du vill använda för att aktivera dina segment, klicka på ikonen _Mer meny_ ( **..** ) bredvid namnet och välj **[!UICONTROL Activate audiences]**.
 
-   Ange text i fältet _[!UICONTROL Search]_om du vill filtrera de visade målplatserna efter namn.
+   Ange text i fältet _[!UICONTROL Search]_&#x200B;om du vill filtrera de visade målplatserna efter namn.
 
    ![Experience Platform - mål - bläddra bland målmål - mer meny](./assets/aep-destinations-activate-target-audience.png){width="800" zoomable="yes"}
 
-1. Välj din externa målgrupp i listan _[!UICONTROL Available audiences]_och klicka på&#x200B;**[!UICONTROL Next]**.
+1. Välj din externa målgrupp i listan _[!UICONTROL Available audiences]_&#x200B;och klicka på&#x200B;**[!UICONTROL Next]**.
 
    ![Experience Platform - mål - bläddra bland målmål - mer meny](./assets/aep-destinations-activate-target-audience-available-audiences.png){width="700" zoomable="yes"}
 
