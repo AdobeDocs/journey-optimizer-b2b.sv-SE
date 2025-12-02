@@ -78,7 +78,7 @@ När uttrycket är klart och felfritt klickar du på **[!UICONTROL Save]**.
 
 ### Anpassade datamängder
 
-Du kan använda relationsscheman (modellbaserade klasser) för e-postpersonalisering. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält ](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. Dessa fält är tillgängliga i personaliseringsredigeraren. Endast anpassade objekt som har en 1:N-relation (1:M) till kontot <!-- (M1.5 Beta) or Person (M1.5 GA) --> är tillgängliga.
+Du kan använda relationsscheman (modellbaserade klasser) för e-postpersonalisering. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält &#x200B;](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. Dessa fält är tillgängliga i personaliseringsredigeraren. Endast anpassade objekt som har en 1:N-relation (1:M) till kontot <!-- (M1.5 Beta) or Person (M1.5 GA) --> är tillgängliga.
 
 >[!IMPORTANT]
 >
