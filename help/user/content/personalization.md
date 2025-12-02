@@ -6,9 +6,9 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: uttryck, redigerare, start, personalisering
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+source-git-commit: 5063f9a924aef0a54b05e9bf223fc2d4898bc5a5
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -42,19 +42,21 @@ I [!DNL Journey Optimizer B2B Edition] kan du skapa ditt dynamiska e-postinnehå
 
 >[!NOTE]
 >
->Läs mer om XDM-scheman i [dokumentationen för Adobe Experience Platform datamodell (XDM)](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/home){target="_blank"}.
+>Läs mer om XDM-scheman i [dokumentationen för Adobe Experience Platform datamodell (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Personalization editor
 
 Anpassningsredigeraren är tillgänglig i alla sammanhang där du behöver definiera personalisering i e-postinnehåll. I redigeraren kan du välja, ordna, anpassa och validera alla data för att skapa en anpassad personalisering för ditt innehåll.
 
->[!NOTE]
->
->Följande information för anpassningsredigeraren återspeglar de ändringar som är tillgängliga för Journey Optimizer B2B edition-miljöer som har etablerats i den [förenklade arkitekturen](../simplified-architecture.md).
-
 Lägg till personalisering i alla fält- eller innehållskomponenter genom att klicka på ikonen _Lägg till personalisering_ ( ![Lägg till personaliseringsikon](../../assets/do-not-localize/icon-personalization-field.svg) ).
 
 ![Personalization-redigerare](./assets/personalization-editor.png){width="800" zoomable="yes"}
+
+>[!NOTE]
+>
+>Följande information om anpassningsredigeraren återspeglar de ändringar som är tillgängliga för [!DNL Journey Optimizer B2B Edition]-miljöer som har etablerats i den [förenklade arkitekturen](../simplified-architecture.md).
+
+### Tokens och hjälpfunktioner
 
 Om du vill använda en personaliseringstoken eller hjälpfunktion letar du reda på den i den vänstra navigeringsrutan och klickar på **+** för att lägga till den i uttrycket.
 
@@ -74,6 +76,18 @@ Det är en god vana att validera uttrycket innan du infogar det i innehållet. K
 
 När uttrycket är klart och felfritt klickar du på **[!UICONTROL Save]**.
 
+### Anpassade datamängder
+
+Du kan använda relationsscheman (modellbaserade klasser) för e-postpersonalisering. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält ](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. Dessa fält är tillgängliga i personaliseringsredigeraren. Endast anpassade objekt som har en 1:N-relation (1:M) till kontot <!-- (M1.5 Beta) or Person (M1.5 GA) --> är tillgängliga.
+
+>[!IMPORTANT]
+>
+>Innan du använder anpassade objekt för skriptad personalisering måste du kontrollera och förstå [Handlebar-mallsspråket](https://handlebarsjs.com/guide/), [personaliseringssyntaxen](./personalization-syntax.md) och de inbyggda [hjälpfunktionerna](./personalization-helper-functions.md).
+
+När du definierar personalisering med de anpassade objekten kan du komma åt alla variabler i skripttillgängliga objekt i **[!UICONTROL Personalization tokens]** (person/lead, konto, system och Mina token) och **[!UICONTROL Model-based classes]** (relationsscheman). När du har valt modellbaserade klasser kan du visa fälten genom att klicka på den anpassade objektmappen. Klicka på **+** för varje fält som du vill lägga till i uttrycket.
+
+![Personalization-redigerare - Modellbaserade klasser - lägg till anpassade objektfält](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
+
 <!-- ## Personalization experimentation {#playground}
 
 **[!DNL Adobe Journey Optimizer]** includes an interactive tool designed to help you learn and experiment with personalization capabilities.
@@ -82,13 +96,13 @@ This playground provides a simulated environment to write and test personalizati
 
 ![personalization playground](assets/playground.png)
 
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/sv/apps/journey-optimizer/ajo-personalization){target="_blank"} 
+➡️ [Access the personalization playground](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"} 
 
 ## How-to videos{#video-perso}
 
 Learn how to use contextual event information from a journey to personalize a message.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448135?captions=swe&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
 
@@ -96,4 +110,4 @@ Learn how to add profile-based personalization to a message and how to use audie
 
 Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475956?captions=swe&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12) -->
