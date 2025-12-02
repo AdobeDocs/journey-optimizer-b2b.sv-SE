@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)-scheman innehåller vanligtvis många fält i ko
 Administratörer som förstår XDM och samarbetar med datatekniker eller intressenter för CDP-datamodellering (B2B customer data platform) bör använda procedurerna på den här sidan.
 
 >[!NOTE]
->[Relationsscheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad tillgänglighetsrelease. Data Mirror och relationsscheman är tillgängliga för innehavare av Journey Optimizer Orchestrated-kampanjlicenser. Relationsscheman är också tillgängliga som en begränsad release för Customer Journey Analytics-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
+>[Relationsscheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad tillgänglighetsrelease. Data Mirror och relationsscheman är tillgängliga för innehavare av Journey Optimizer Orchestrated-kampanjlicenser. Relationsscheman är också tillgängliga som en begränsad release för Customer Journey Analytics-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
 
 ## Åtkomst till XDM-klasser
 
@@ -89,7 +89,7 @@ När du väljer **[!UICONTROL Managed fields]** visas alla konfigurerbara fält 
 
 #### Uppdateringsbara fält
 
-Innan du konfigurerar uppdateringsbara fält måste de finnas i en anpassad datamängd. En genomgång av arbetsflödet för anpassade datauppsättningar finns i [Skapa datauppsättningar och importera data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} och använd alternativet **[!UICONTROL Create dataset from schema]**. Den här datauppsättningen används för att isolera uppdateringsbara fält. Alla uppdateringsbara fält måste finnas i den här datauppsättningen.
+Innan du konfigurerar uppdateringsbara fält måste de finnas i en anpassad datamängd. En genomgång av arbetsflödet för anpassade datauppsättningar finns i [Skapa datauppsättningar och importera data](https://experienceleague.adobe.com/sv/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} och använd alternativet **[!UICONTROL Create dataset from schema]**. Den här datauppsättningen används för att isolera uppdateringsbara fält. Alla uppdateringsbara fält måste finnas i den här datauppsättningen.
 
 Skapa en datauppsättning för Individual Profile och en annan för Business Account. Välj varje ny datauppsättning under konfigurationsprocessen:
 
