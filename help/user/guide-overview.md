@@ -2,24 +2,28 @@
 title: Dokumentation om Adobe Journey Optimizer B2B Edition
 description: Fullständig dokumentation för Journey Optimizer B2B edition - utforska de tillgängliga resurserna för introduktion, skapande av inköpsgrupper, framtagning av kontoresor och hantering av innehåll.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+source-git-commit: ae903f25327d7ac9d7b47e4b5f736a164b2d2d4b
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 8%
+source-wordcount: '803'
+ht-degree: 7%
 
 ---
 
 # Dokumentation om Adobe Journey Optimizer B2B Edition
 
+[!DNL Adobe Journey Optimizer B2B Edition] är en förstklassig tillämpning som gör att marknadsförings- och säljteam kan skapa kontobaserade upplevelser och kvalificera inköpsgrupper för specifika produkter under hela kundlivscykeln. Det använder AI för att engagera och kvalificera inköpsgrupper inom målkonton, vilket hjälper era team att generera en högre kvalitet, utforma bättre strategier för förvärv, expansion och kundlojalitet. Det ger även delade insikter mellan sälj- och marknadsföringsteam.
+
+Den här dokumentationen innehåller information om hur du maskar programmet. Det är avsett för marknadsförare, företagsutvecklingsrepresentanter, dataanalytiker och administratörer.
+
 ## Nyheter
 
-Här är ett exempel på de senaste tilläggen och förbättringarna i programmet och dokumentationen för [!DNL Journey Optimizer B2B Edition].
+Granska det här exemplet av de senaste tilläggen och förbättringarna i programmet och dokumentationen för [!DNL Journey Optimizer B2B Edition].
 
 >[!BEGINTABS]
 
 >[!TAB AI-agenter]
 
-Med [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/sv/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} kan AI Assitant-gränssnittet automatiskt anropa specialiserade agenter för att ge dig rätt svar och insikter. Agent Orchestrator kommer ihåg din konversationshistorik, vilket gör att du kan bygga vidare på tidigare frågor på ett naturligt sätt utan att behöva upprepa sammanhanget. Den kombinerar även insikter från olika agenter för att ge dig tydliga och enhetliga svar. I [!DNL Journey Optimizer B2B Edition]-kontexten finns det tre specialbyggda agenter för specifika B2B-aktiviteter och domäner:
+Med [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} kan AI Assistant-gränssnittet automatiskt anropa specialiserade agenter för att ge dig rätt svar och insikter. Agent Orchestrator kommer ihåg din konversationshistorik, vilket gör att du kan bygga vidare på tidigare frågor på ett naturligt sätt utan att behöva upprepa sammanhanget. Den kombinerar även insikter från olika agenter för att ge dig tydliga och enhetliga svar. I [!DNL Journey Optimizer B2B Edition]-kontexten finns det tre specialbyggda agenter för specifika B2B-aktiviteter och domäner:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Build Agent B2B](./agents/journey-agent.md)
@@ -45,7 +49,7 @@ Medlemmar i säljteam kan nu visa mognadslagrade inköpsgrupper och relaterade i
 
 >[!TAB Samarbete med e-postinnehåll]
 
-I e-postdesignområdet finns samarbetsverktyg för kommentarer och lösningar så att marknadsföringsteamen smidigt kan granska, diskutera och färdigställa e-postresurser direkt i [!DNL Journey Optimizer B2B Edition]. I stället för att dela utkast över externa verktyg (som chatt, e-posttrådar eller kalkylblad) kan användare kommentera, föreslå redigeringar och åtgärda feedback inom e-postdesignområdet. Du kan tagga dina teammedlemmar så att de får ett e-postmeddelande eller ett pulsmeddelande med information om kommentaren.
+I e-postdesignområdet ingår samarbetsverktyg för feedback och lösningar så att marknadsföringsteamen smidigt kan granska, diskutera och färdigställa e-postresurser direkt i [!DNL Journey Optimizer B2B Edition]. I stället för att dela utkast över externa verktyg (som chatt, e-posttrådar eller kalkylblad) kan användare kommentera, föreslå redigeringar och åtgärda feedback inom e-postdesignområdet. Du kan tagga dina teammedlemmar så att de får ett e-postmeddelande eller ett pulsmeddelande med information om kommentaren.
 
 [!BADGE Läs mer]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Läs mer om verktyg för samarbete om e-postinnehåll"}
 
@@ -139,15 +143,15 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Videofilmer och självstudiekurser </a> - <a href="https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeskrivning</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=sv-SE" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Videofilmer och självstudiekurser </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeskrivning</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/sv/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/sv/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
 </td>
 </tr></table>
 
