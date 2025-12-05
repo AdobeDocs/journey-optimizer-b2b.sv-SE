@@ -23,7 +23,7 @@ Granska det här exemplet av de senaste tilläggen och förbättringarna i progr
 
 >[!TAB AI-agenter]
 
-Med [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} kan AI Assistant-gränssnittet automatiskt anropa specialiserade agenter för att ge dig rätt svar och insikter. Agent Orchestrator kommer ihåg din konversationshistorik, vilket gör att du kan bygga vidare på tidigare frågor på ett naturligt sätt utan att behöva upprepa sammanhanget. Den kombinerar även insikter från olika agenter för att ge dig tydliga och enhetliga svar. I [!DNL Journey Optimizer B2B Edition]-kontexten finns det tre specialbyggda agenter för specifika B2B-aktiviteter och domäner:
+Med [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/sv/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} kan AI Assistant-gränssnittet automatiskt anropa specialiserade agenter för att ge dig rätt svar och insikter. Agent Orchestrator kommer ihåg din konversationshistorik, vilket gör att du kan bygga vidare på tidigare frågor på ett naturligt sätt utan att behöva upprepa sammanhanget. Den kombinerar även insikter från olika agenter för att ge dig tydliga och enhetliga svar. I [!DNL Journey Optimizer B2B Edition]-kontexten finns det tre specialbyggda agenter för specifika B2B-aktiviteter och domäner:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Build Agent B2B](./agents/journey-agent.md)
@@ -73,7 +73,7 @@ En fullständig lista över nya funktioner och förbättringar finns i [versions
 
 :::: landing-cards-container
 :::
-![Ikon för lista](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![Ikon för lista](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=sv-SE)
 
 Senaste versionsinformation
 
@@ -83,7 +83,7 @@ Håll dig uppdaterad med den senaste versionsinformationen, nya funktioner och f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=sv-SE)
 
 Kom igång
 
@@ -93,7 +93,7 @@ Läs Journey Optimizer B2B edition introduktionsguide för administratörer och 
 :::
 
 :::
-![Konfigurera ikon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![Konfigurera ikon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=sv-SE)
 
 Konfigurera dina XDM-fält
 
@@ -103,7 +103,7 @@ Implementera systemkonfigurationerna för att aktivera XDM-scheman och -fält so
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=sv-SE)
 
 Kommunikationskanaler
 
@@ -114,7 +114,7 @@ Konfigurera och hantera e-post, SMS och andra kanaler för personaliserade kundi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=sv-SE)
 
 Designinnehåll
 
@@ -124,7 +124,7 @@ Lär dig hur du skapar och hanterar innehåll för personaliserade kundupplevels
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=sv-SE)
 
 Skapa en kontoresa
 
@@ -134,7 +134,7 @@ Designa, samordna, hantera och optimera personaliserade kontoresor.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=sv-SE)
 
 Förstå inköpsgrupper
 
@@ -194,15 +194,15 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Videofilmer och självstudiekurser </a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeskrivning</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Videofilmer och självstudiekurser </a> - <a href="https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeskrivning</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=sv-SE" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
+<a href="https://experienceleague.adobe.com/sv/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
+<a href="https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/sv/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
+<a href="https://experienceleague.adobe.com/sv/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/sv/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
 </td>
 </tr></table>
 
