@@ -3,7 +3,7 @@ title: Försäljningskvalificerare
 description: Automatisera kvalificering av B2B-potentiella kunder och utåtriktad verksamhet med säljkvalificerare. Det innehåller AI-driven forskning, e-postskisser, CRM-integrering och engagemangsplaner för BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
+source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 0%
@@ -19,6 +19,12 @@ ht-degree: 0%
 
 Sales Qualifier är ett AI-drivet tilläggsprogram till Adobe Journey Optimizer B2B edition som innehåller Account Qualification Agent och är utformat för att effektivisera arbetsflöden för BDR (Business Development Representants). Säljkvalificeraren automatiserar arbetsflödena för kvalificering av potentiella kunder, utåtriktad verksamhet och köpengagemang i alla kanaler. Det minskar den manuella belastningen på BDR och snabbar upp pipelinehastigheten för företag inom B2B.
 Använd webbläsar- och e-postpluginerna för att få tillgång till affärsinformation direkt i CRM- eller Outlook.
+
+## Demonstrationsvideo
+
+I följande video visas en kort demonstration av Sales Qualifier och Account Qualification Agent.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Säljkvalificerare ingår i [!UICONTROL Journey Optimizer B2B Edition], men det är en separat app i Experience Platform Experience Cloud.
 
@@ -70,7 +76,7 @@ I det här fönstret visas alla leads som du har tillgång till. Det är en snab
 
 ![Leadregister som visar lead-status och senaste aktivitet för hantering av potentiella kunder](assets/prospects.png)
 
-Klicka på ikonen _Filter_ ![Filter &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
+Klicka på ikonen _Filter_ ![Filter ](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
 
 ## Förlovningsplaner
 
@@ -141,7 +147,7 @@ Definiera URL:en för integreringen och upprätta nyttolasten som ska skickas:
 
 När anslutningsinställningarna är giltiga klickar du på **[!UICONTROL Save as draft]**.
 
-När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_&#x200B;markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**&#x200B;för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
+När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
 
 #### Hantera åtkomst
 
@@ -197,7 +203,7 @@ På fliken **[!UICONTROL Chat settings]** anger du din tillgängliga tidszonsliv
 
 ## Representativ förvaltning
 
-Panelen _[!UICONTROL Representative management]_&#x200B;visar de definierade representanterna och deras kalenderstatus.
+Panelen _[!UICONTROL Representative management]_visar de definierade representanterna och deras kalenderstatus.
 
 ## Mötesprestanda
 
@@ -218,9 +224,3 @@ När plugin-programmet är installerat i Chrome visas Adobe logotyp i mitten til
 ## Redigera det vänstra navigeringsfältet
 
 Klicka på **[!UICONTROL Edit]** längst ned till vänster i programmet för att kontrollera vilka ikoner som visas i navigeringen. Du kan också dra och släppa dem för att ändra ordningen.
-
-## Demonstrationsvideo
-
-I följande video visas en kort demonstration av Sales Qualifier och Account Qualification Agent.
-
->[!VIDEO](https://video.tv.adobe.com/v/3476565?captions=swe)
