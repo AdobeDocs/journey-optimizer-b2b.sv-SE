@@ -37,7 +37,7 @@ Så här aktiverar du deduplicering av e-post för en kontoresa:
 
 1. Klicka på **[!UICONTROL More]** (**..**) i det övre högra hörnet av arbetsytan för resan.
 
-   ![Researbetsyta med Mer-menyn utökad med alternativet E-postborttagning ](./assets/email-deduplication-more-menu.png){width="450"}
+   ![Researbetsyta med Mer-menyn utökad med alternativet E-postborttagning &#x200B;](./assets/email-deduplication-more-menu.png){width="450"}
 
 1. Välj **[!UICONTROL Email Deduplication]**.
 
