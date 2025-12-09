@@ -5,9 +5,9 @@ feature: Setup, Administration
 role: Admin, Data Engineer
 hide: true
 hidefromtoc: true
-source-git-commit: d2f33c30dba1ce44842f41bd2dbbfada24a8ff9c
+source-git-commit: 8f2cd2a657892b0f776b51776d3056946930df21
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1351'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ För miljöer som har etablerats för den här arkitekturen använder du följan
 
 ## Namnutrymmen och scheman
 
-En översikt finns i [B2B-namnutrymmen och scheman](https://experienceleague.adobe.com/sv/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) i Experience Platform-dokumentationen.
+En översikt finns i [B2B-namnutrymmen och scheman](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) i Experience Platform-dokumentationen.
 
 ### Miljöinställningar
 
@@ -38,11 +38,11 @@ Konfigurera en Postman-miljö för att stödja verktyget för automatisk generer
 
 * Du kan hämta samlingen och miljön för automatisk generering av namnområde och scheman från [GitHub-databasen](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility).
 
-* Mer information om hur du använder Experience Platform API:er, inklusive information om hur du samlar in värden för obligatoriska huvuden och läser exempel-API-anrop, finns i handboken [Komma igång med Experience Platform API:er](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/platform-apis/api-guide).
+* Mer information om hur du använder Experience Platform API:er, inklusive information om hur du samlar in värden för obligatoriska huvuden och läser exempel-API-anrop, finns i handboken [Komma igång med Experience Platform API:er](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide).
 
-* Mer information om hur du genererar autentiseringsuppgifter för Experience Platform API:er finns i självstudiekursen om [autentisering och åtkomst av Experience Platform API:er](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/platform-apis/api-authentication).
+* Mer information om hur du genererar autentiseringsuppgifter för Experience Platform API:er finns i självstudiekursen om [autentisering och åtkomst av Experience Platform API:er](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication).
 
-* Mer information om hur du konfigurerar Postman för Experience Platform API:er finns i de detaljerade stegen i [Postman i Adobe Experience Platform](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/platform-apis/postman).
+* Mer information om hur du konfigurerar Postman för Experience Platform API:er finns i de detaljerade stegen i [Postman i Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman).
 
 Med en utvecklarkonsol från Experience Platform och Postman kan du nu börja använda rätt miljövärden i din Postman-miljö.
 
@@ -100,17 +100,22 @@ Välj vilka fält som kan ändras via **[!UICONTROL Update Account Profile]** el
 
    Dessa scheman och datauppsättningar tillhandahålls av din organisation.
 
+   Garantier för uppdateringsbara fält:
+
+   * Scheman - Schemat får inte innehålla några andra obligatoriska fält än systemdefinierade, som `identityMap` eller `personID`, i klassen XDM Individual Profile.
+   * Datauppsättningar - Välj inte en datauppsättning som redan används för ett annat ändamål. Det bästa sättet är att skapa dedikerade datauppsättningar som är särskilt utformade för att lagra uppdateringsbara fält. Använd en separat datamängd för varje XDM-klass.
+
 1. Granska listan över uppdateringsbara fält (klicka på ikonen _Information_ för metadata).
 
    Endast hanterade fält kan redigeras.
 
 1. Markera de fält som du vill göra tillgängliga för uppdatering från resor.
 
-1. Klicka på **Spara**
+1. Klicka på **[!UICONTROL Save]**
 
 ### Relationsscheman
 
-Välj [relationsscheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/relational) som ska användas i **_resebeslut_** och **_personalisering_**. För närvarande är dessa scheman avsedda för användning av anpassade objekt. I framtiden kan relationsscheman även användas för andra objektanvändningsfall.
+Välj [relationsscheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational) som ska användas i **_resebeslut_** och **_personalisering_**. För närvarande är dessa scheman avsedda för användning av anpassade objekt. I framtiden kan relationsscheman även användas för andra objektanvändningsfall.
 
 1. Klicka på fliken **[!UICONTROL Relational]**.  
 
@@ -131,11 +136,11 @@ Välj [relationsscheman](https://experienceleague.adobe.com/sv/docs/experience-p
 >Observera att relationsscheman måste ha följande konfigurationer:
 >
 ><li>Beteende: Post
->&gt; <li>Segmentering: Aktiverad
->&gt; <li>Relationstyp: många till ett
->&gt; <li>Referensschema: <a href="https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B-konto - XDM Business Account-schema</a>
->&gt; <li>Obligatoriska fält: Primär nyckel, Sekundär nyckel och Versionsbeskrivning
->&gt; <li>Associerad datauppsättning: Definierad och mappad till schemat
+&gt; <li>Segmentering: Aktiverad
+&gt; <li>Relationstyp: många till ett
+&gt; <li>Referensschema: <a href="https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B-konto - XDM Business Account-schema</a>
+&gt; <li>Obligatoriska fält: Primär nyckel, Sekundär nyckel och Versionsbeskrivning
+&gt; <li>Associerad datauppsättning: Definierad och mappad till schemat
 
 ### Händelser
 
@@ -155,19 +160,19 @@ Välj de Experience Events som ska användas i **_resebeslut_**.
 
 Följande bör konfigureras för att skicka e-post från Journey Optimizer B2B edition.  
 
-[https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/get-started/email-protocols)
+[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols)
 
 ### Protokoll för spårning och e-postleverans
 
-1. [Skapa DNS-poster för e-post](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
+1. [Skapa DNS-poster för e-post](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
 
-1. [Konfigurera SPF och DKIM](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
+1. [Konfigurera SPF och DKIM](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
 
-1. [Konfigurera DMARC](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
+1. [Konfigurera DMARC](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
 
-1. [Konfigurera MX-poster för din domän](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [Konfigurera MX-poster för din domän](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. [Lägg till utgående IP-adresser till tillåtelselista](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+1. [Lägg till utgående IP-adresser till tillåtelselista](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
 1. Om du behöver dela den dedikerade IP-poolen kontaktar du leveransteamet om genomförbarhet och assisterad konfiguration.
 
@@ -175,9 +180,9 @@ Följande bör konfigureras för att skicka e-post från Journey Optimizer B2B e
 
 I den förenklade arkitekturen konfigureras e-postinställningarna från Marketo Engage-programmet. Slutför de e-postrelaterade installationsstegen:
 
-* [https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/setup-steps)
+* [https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
 
-* [https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
+* [https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
 
 ### Kommunikationsbegränsningar
 
@@ -189,7 +194,7 @@ I den förenklade arkitekturen konfigureras e-postinställningarna från Marketo
 
    Det finns ingen kommunikationsgräns om den globala regeluppsättningen inte skapas.
 
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
+<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
 
 ### Begränsningar för delad kommunikation
 
@@ -217,7 +222,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## SMS-kanalskonfiguration
 
-Mer information finns i [_SMS-konfigurationer_](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms).
+Mer information finns i [_SMS-konfigurationer_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms).
 
 ## Marketo Engage-åtgärder från resor
 
@@ -247,7 +252,7 @@ Utför följande steg för att konfigurera anslutningarna:
 
 ## Användarregistrering
 
-På sidan [Användarhantering](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/admin/user-management) finns en översikt.
+På sidan [Användarhantering](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management) finns en översikt.
 
 ### Befintliga användargrupper
 
@@ -257,7 +262,7 @@ Om alla användare av Journey Optimizer B2B edition behöver tillgång till den 
 
 1. Lägg till en befintlig användargrupp i den skapade produktprofilen.
 
-Profilerna ger alla roller och behörigheter som redan tilldelats den användargruppen, som redan bör konfigureras för att användarna ska få tillgång till Journey Optimizer B2B edition. Om bara en delmängd av användarna ska få tillgång till den nya arkitekturen, ska du slutföra stegen nedan. Mer information finns i den [aktuella dokumentationen](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/admin/user-management).
+Profilerna ger alla roller och behörigheter som redan tilldelats den användargruppen, som redan bör konfigureras för att användarna ska få tillgång till Journey Optimizer B2B edition. Om bara en delmängd av användarna ska få tillgång till den nya arkitekturen, ska du slutföra stegen nedan. Mer information finns i den [aktuella dokumentationen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management).
 
 ### Skapa en ny användargrupp
 
