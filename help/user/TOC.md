@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '378'
 ht-degree: 16%
 
 ---
@@ -124,11 +124,12 @@ ht-degree: 16%
       + [Översikt](./content/personalization.md)
       + [Personalization syntax](./content/personalization-syntax.md)
       + [Hjälpfunktionslista](./content/personalization-helper-functions.md)
-+ Insiktspaneler {#dashboards}
-   + [Intelligent Dashboard](./dashboards/intelligent-dashboard.md)
-   + [Översikt över engagemang](./dashboards/engagement-dashboard.md)
-   + [Översikt över inköpsgrupper](./dashboards/buying-groups-dashboard.md)
-   + [Översikt över kontoresor](./dashboards/journeys-dashboard.md)
++ Intelligenta instrumentpaneler {#dashboards}
+   + [Instrumentpanel för insikter](./dashboards/intelligent-dashboard.md)
+   + [Instrumentpanel för engagemang](./dashboards/engagement-dashboard.md)
+   + [Kontrollpanel för webbengagemang](./dashboards/web-engagement-dashboard.md)
+   + [Instrumentpanel för inköpsgrupper](./dashboards/buying-groups-dashboard.md)
+   + [Kontrollpanel för kontoresor](./dashboards/journeys-dashboard.md)
 + Administrering {#admin}
    + [Styrning](./admin/governance.md)
    + [Konfiguration av Marketo Actions](./admin/marketo-actions-connect.md)
