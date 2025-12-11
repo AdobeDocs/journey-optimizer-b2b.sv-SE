@@ -83,7 +83,7 @@ Använd menyn _Mer_ (**..**) längst upp till höger i varje diagram för att in
 
 ### [!UICONTROL Drill through]
 
-För _[!UICONTROL Engagement by role]_väljer du **[!UICONTROL Drill through]**för en ingående analys av engagemangen efter roll och lösningsintresse.
+För _[!UICONTROL Engagement by role]_&#x200B;väljer du **[!UICONTROL Drill through]**&#x200B;för en ingående analys av engagemangen efter roll och lösningsintresse.
 
 De globala filter som används på kontrollpanelen överförs. Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter.svg) ) längst upp till vänster för att [ändra attributfiltren](#filter-the-data) för den detaljerade vyn.
 
