@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 8a473540e850e2868f22d480809b3965806979f5
+source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '375'
 ht-degree: 16%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 16%
       + [Lösningsintressen](./buying-groups/solution-interests.md)
       + [Rollmallar](./buying-groups/buying-groups-role-templates.md)
       + [Standardroller och anpassade roller](./buying-groups/default-custom-roles.md)
+      + [Rollinsikter](./buying-groups/buying-group-role-insights.md)
       + Köpa grupppoäng {#scoring}
          + [Engagemangsmoment](./buying-groups/engagement-scores.md)
          + [Slutförandepoäng](./buying-groups/completeness-scores.md)
