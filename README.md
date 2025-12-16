@@ -29,7 +29,7 @@ Om du bidrar med en mindre uppdatering:
 1. I _Var det här innehållet till hjälp?_ banner längst ned i webbläsarfönstret, klicka på **Detaljerade feedbackalternativ**.
 1. Klicka på **Föreslå en redigering** och skicka en pull-begäran (PR) med dina ändringar i GitHub-gränssnittet.
 
-   Mer information finns i den allmänna [Adobe Docs Contributor-guiden](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+   Mer information finns i den allmänna [Adobe Docs Contributor-guiden](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction).
 
 Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här rapporten omfattas av Adobe användarvillkor.
 
@@ -43,7 +43,7 @@ Om du är en del av Adobe-communityn och vill skapa ett nytt ämne eller skicka 
 
 Deltagare i communityn kan använda GitHub-gränssnittet för grundläggande redigering eller förgrena rapporten för att göra större insatser.
 
-Mer information finns i [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Mer information finns i [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction).
 
 ## Interna medarbetare
 
