@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-post, design, tillgänglighet
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: 09391f6d7c3360d0624edd7dae6c25a8616046d9
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -19,43 +19,37 @@ Den [europeiska tillgänglighetslagen](https://eur-lex.europa.eu/legal-content/E
 
 I den här förordningen anges att all digital kommunikation, inklusive e-post, nyhetsbrev, PDF-filer och hämtningsbart innehåll, bör vara tillgänglig. När du skapar innehåll för dina mottagare måste du därför följa särskilda riktlinjer, t.ex. använda hjälpmedelsanpassade teckensnitt, läsbara format och ange alternativ text för bilder.
 
-Med e-post-Designer [!DNL Journey Optimizer B2B Edition], som gör det möjligt för marknadsförare att skapa innehåll både för **e-post** och **landningssidor**, kan du enkelt följa det här direktivet, baserat på Web Content Accessibility Guidelines (WCAG) 2.1, nivå AA.
+Med designverktygen i [!DNL Journey Optimizer B2B Edition] kan marknadsförare skapa innehåll både för **e-post** och **landningssidor**. Använd dessa verktyg för att följa det här direktivet, som bygger på Web Content Accessibility Guidelines (WCAG) 2.1, nivå AA.
 
-I enlighet med detta listas de bästa sätten att utforma hjälpmedelsanpassat innehåll med [!DNL Journey Optimizer B2B Edition] nedan.
-
->[!NOTE]
->
->Den här sidan handlar om att göra ditt innehåll tillgängligt för alla dina mottagare, så att personer med funktionshinder kan läsa, förstå och interagera med dina e-postmeddelanden och landningssidor som är utformade med [!DNL Journey Optimizer B2B Edition].
->
+I följande avsnitt beskrivs de bästa sätten att utforma hjälpmedelsanpassat innehåll med [!DNL Journey Optimizer B2B Edition]. Denna information fokuserar på att utforma innehåll som är tillgängligt för alla mottagare, så att personer med funktionshinder kan läsa, förstå och interagera med e-postmeddelanden och landningssidor.
  
-
 ## Säkra textläsbarhet {#text-readability}
 
-Utnyttja fliken **[!UICONTROL Styles]** i komponenten **[!UICONTROL Text]** för att säkerställa att texten är läsbar, till exempel genom att använda rätt färgkontrast och enkla teckensnitt. [Läs mer](content-components.md#text)
+Utnyttja fliken **[!UICONTROL Styles]** i komponenten **[!UICONTROL Text]** för att säkerställa att texten är läsbar, till exempel genom att använda rätt färgkontrast och enkla teckensnitt. Mer information om textkomponentens format finns i [Innehållskomponenter](content-components.md#text)
 
-![](assets/accessible-text-styles.png){width="80%"}
+![Fliken Textkomponentformat med alternativ för teckensnitt, storlek och färg ](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 För teckensnitt och text måste du följa riktlinjerna nedan:
 
-**Val av teckensnitt**
+### Val av teckensnitt
 
-* Använd sans-serif-teckensnitt som Arial, Verdana, Tahoma, Helvetica eller Open Sans.
+* Använd sans-serif-teckensnitt, till exempel Arial, Verdana, Tahoma, Helvetica eller Open Sans.
 * Undvik serif-, cursive- och dekorativa teckensnitt i brödtextinnehållet.
 * Behåll en begränsad teckensnittsuppsättning för konsekvens och reservteckensnitt (till exempel: `font-family: Arial, Helvetica, sans-serif;`).
 
-**Teckensnittsstorlek**
+### Teckensnittsstorlek
 
 * Se till att teckensnittsstorleken är minst 16px för brödtext.
-* Använd rätt hierarki för rubriker.
+* Använd en korrekt hierarki för rubriker.
 
-**Färgkontrast**
+### Färgkontrast
 
 * Behåll ett kontrastförhållande på minst 4,5:1 mellan text och bakgrund.
 * För stor text (≥24px eller fet 18px) måste du se till att kontrasten är minst 3:1.
 * Undvik ljusgrå eller pastelltext på vita bakgrunder.
 * Förlita dig inte på enbart färg för att förmedla innebörden, utan använd i stället understrykningar, ikoner osv.
 
-**Texttillgänglighet**
+### Texttillgänglighet
 
 * Undvik text i bilder.
 * Använd inte versaler i brödtexten.
@@ -74,11 +68,11 @@ I [!DNL Journey Optimizer B2B Edition] kan storleken och mellanrummet för de ol
 
 Du kan till exempel uppdatera bakgrunden eller ändra marginaler, utfyllnad och justering för att förbättra innehållets visuella tillgänglighet.
 
-![](assets/accessible-styles.png){width="80%"}
+![Formatruta med bakgrund, marginaler, utfyllnad och justeringsinställningar](assets/accessible-styles.png){width="700" zoomable="yes"}
 
-Dessutom kan du förhandsgranska och optimera designen för olika enheter och skärmstorlekar med e-post [!DNL Journey Optimizer B2B Edition] från Designer. Du kan när som helst **[!UICONTROL Switch to live view]** kontrollera hur ditt innehåll kan återges på olika enhetsstorlekar.
+Dessutom kan du förhandsgranska och optimera designen för olika enheter och skärmstorlekar med e-post [!DNL Journey Optimizer B2B Edition] från Designer. Du kan när som helst **[!UICONTROL Switch to live view]** för att kontrollera hur ditt innehåll kan återges på olika enhetsstorlekar.
 
-![](assets/accessible-live-view.png){width="80%"}
+![Live-vy som växlar mellan att visa alternativ för förhandsvisning på dator, surfplatta och mobil](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -86,9 +80,9 @@ Dessutom kan du förhandsgranska och optimera designen för olika enheter och sk
 
 ## Använd alternativ text för bilder {#alt-text}
 
-Använd komponenten **[!UICONTROL Image]** för att ange alternativ text för bilder. [Läs mer](content-components.md#image)
+Använd komponenten **[!UICONTROL Image]** för att ange alternativ text för bilder. Mer information om inställningar för bildkomponenter finns i [Innehållskomponenter](content-components.md#image)
 
-![](assets/accessible-alt-text.png){width="90%"}
+![Panelen Inställningar för bildkomponent med markerat alternativt textfält](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 För effektiv alternativ text i digitala produkter, följ riktlinjerna nedan:
 
@@ -100,7 +94,7 @@ För effektiv alternativ text i digitala produkter, följ riktlinjerna nedan:
 
 Använd den relevanta strukturen för e-postprogrammet för Designer och [innehållskomponenter](content-components.md), samt alternativen i rutan **[!UICONTROL Styles]**, för att ordna ditt innehåll på ett tydligt, logiskt och koncist sätt som är tillgängligt för alla.
 
-![](assets/accessible-components.png){width="100%"}
+![Skicka e-post till Designer med struktur- och innehållskomponenter för strukturerade layouter](assets/accessible-components.png){width="800" zoomable="yes"}
 
 * Använd strukturerad, semantisk HTML med rätt rubriker, stycken, listor och tabeller.
 * Kontrollera att innehållet följer ett logiskt flöde från vänster till höger, uppifrån och ned.
@@ -117,7 +111,7 @@ För att innehållet ska vara läsbart måste det vara klart, välstrukturerat o
 * Använd aktiv röst för att förenkla meningsbyggnaden.
 * Undvik slang, jargon och regionala ord som vissa kanske inte känner till.
 
-Om du vill utvärdera läsbarheten för e-post kan du använda det populära [Flesch Reading Ease-testet](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} som finns i Microsoft Word och som beräknar hur enkelt innehållet är att läsa på en skala från 0 till 100.
+Använd det populära testet [Läsövergång från flesch](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} i Microsoft Word för att utvärdera din läsbarhet i e-postmeddelanden. Det beräknar hur enkelt innehållet är att läsa på en skala från 0 till 100.
 
 ## Testa innehållet {#test}
 
@@ -129,7 +123,7 @@ Om du vill verifiera innehållets tillgänglighet kan du använda testfunktioner
 
 * Skicka korrektur för att testa återgivningen av materialet innan det skickas till den verkliga målgruppen.
 
-![](assets/accessible-simulate.png){width="90%"}
+![Gränssnitt för simulering av innehåll med förhandsvisningsalternativ för testprofiler](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 Om du vill kontrollera på ett mer konsekvent sätt om innehållet är tillgängligt kan du gå till särskilda externa verktyg som:
 
@@ -139,13 +133,12 @@ Om du vill kontrollera på ett mer konsekvent sätt om innehållet är tillgäng
 
 ## Använd mörkt läge {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
 Mörkt läge förbättrar den visuella tillgängligheten för användare med ljuskänslighet eller synnedsättning, vilket ger en bättre visningsupplevelse.
 
-![](assets/accessible-dark-mode.png){width="90%"}
+![Förhandsgranska e-post genom att jämföra ljusläge och återgivning i mörkt läge](assets/accessible-dark-mode.png){width="800" zoomable="yes"}
 
-Bland de bästa sätten att utforma innehåll i mörkt läge bör du använda genomskinliga PNG- eller SVG-filer, ställa in lämpliga metataggar och CSS och ge hjälpmedelsanpassad grundformatering om mörkt läge inte stöds. Slutligen måste du se till att dina e-postmeddelanden återges korrekt i mörkt läge genom att testa allt e-postinnehåll och alla gränssnittselement i både ljust och mörkt läge.
+När du designar för mörkt läge använder du genomskinliga PNG- eller SVG-bilder och anger lämpliga metataggar och CSS. Ange hjälpmedelsanpassad grundformatering om mörkt läge inte stöds. Slutligen testar du allt e-postinnehåll och gränssnittselement i både ljust och mörkt läge.
 
 ## Använd specifika attribut för tillgänglighet {#attributes}
 
@@ -189,7 +182,7 @@ När du skapar designer inkluderar du attributen `lang` (språk) och `dir` (text
 
   +++
 
-Skärmläsare förlitar sig på attributet `lang` för att använda rätt uttydningsregler, medan textriktning garanterar att innehållet flödar naturligt för språk som läses från vänster till höger eller från höger till vänster. Utan dessa attribut kan användare uppleva förvirrande läsordning eller feluttal. Därför ska du alltid radbryta din e-postbrödtext med rätt `lang`- och `dir`-attribut.
+Skärmläsare förlitar sig på attributet `lang` för att använda rätt uttalsregler. Textriktningen säkerställer att innehållet flyter naturligt för språk som läses från vänster till höger eller från höger till vänster. Utan dessa attribut kan användare uppleva förvirrande läsordning eller feluttal. Därför ska du alltid radbryta din e-postbrödtext med rätt `lang`- och `dir`-attribut.
 
 >[!TIP]
 >
@@ -197,7 +190,7 @@ Skärmläsare förlitar sig på attributet `lang` för att använda rätt uttydn
 
 ### Tabeller {#tables}
 
-I HTML används ofta tabeller för layout. Som standard behandlar skärmläsare varje `<table>` som en datatabell, där rader, kolumner och struktur presenteras. Detta kan vara förvirrande om tabellen bara används för formatering.
+I HTML används ofta tabeller för layout. Som standard behandlar skärmläsare varje `<table>` som en datatabell, där rader, kolumner och struktur presenteras. Den här strukturen kan vara förvirrande om tabellen bara används för formatering.
 
 Lägg till `role="presentation"` (eller `role="none"`) i layouttabeller för att säkerställa att hjälpmedelstekniker hoppar över sin struktur och bara fokuserar på det faktiska innehållet.
 
@@ -215,7 +208,7 @@ Lägg till `role="presentation"` (eller `role="none"`) i layouttabeller för att
 ```
 
 Skärmläsarna läser:
-&quot;Hello World. Välkommen till vårt nyhetsbrev.&quot; *(Ingen uppgift om rader, kolumner eller tabell)*
+&quot;Hello World. Välkommen till det här nyhetsbrevet.&quot; *(Ingen uppgift om rader, kolumner eller tabell)*
 
 +++
 
@@ -253,11 +246,11 @@ Skärmläsarna läser:
 
 ### Text för länkar {#links}
 
-Skärmläsare läser upp länkar med sin text. Om en länk endast heter&quot;Klicka här&quot; eller&quot;Läs mer&quot; kommer användare av hjälpmedelstekniker inte att känna till målet. För att säkerställa tillgänglighet behöver de beskrivande text som tydligt anger målet eller åtgärden.
+Skärmläsare läser upp länkar med sin text. Om en länk endast är märkt med _Klicka här_ eller _Läs mer_, känner inte användare av hjälpmedelstekniker till målet. För att säkerställa tillgänglighet behöver de beskrivande text som tydligt anger målet eller åtgärden.
 
-Använd e-post-Designer för att lägga till en länk till ditt innehåll och redigera etiketten så att den blir urskiljbar (synlig) och beskrivande (tydlig om syftet). Undvik otydliga etiketter som &quot;here&quot; eller &quot;more&quot;.
+Använd e-post-Designer för att lägga till en länk till ditt innehåll och redigera etiketten så att den blir urskiljbar (synlig) och beskrivande (tydlig om syftet). Undvik otydliga etiketter som _här_ eller _mer_.
 
-![](assets/accessible-link.png){width="70%"}
+![Panelen Länkinställningar som visar URL-fält och beskrivande etikettalternativ](assets/accessible-link.png){width="600" zoomable="yes"}
 
 +++Exempel - Bra länk (beskrivande): 
 
@@ -289,7 +282,7 @@ Skärmläsarna läser:
 
 <!--for landing pages-->
 
-Med stöd för tangentbordsnavigering och -fokus kan personer som inte kan använda en mus få full tillgång till och interagera med innehållet. Det förbättrar också den övergripande användbarheten genom att ge alla användare ett tydligt och konsekvent sätt att gå igenom informationen.
+Med stöd för tangentbordsnavigering och -fokus kan personer som inte kan använda en mus få åtkomst till och interagera med innehåll. Det förbättrar också den övergripande användbarheten genom att ge alla användare ett tydligt och konsekvent sätt att gå igenom informationen.
 
 * Fokusera via tangentbordet
    * Kontrollera att alla interaktiva element (till exempel knappar, kryssrutor och länkar) har `tabindex="0"` så att de inkluderas i den naturliga tabbordningen.
