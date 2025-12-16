@@ -23,11 +23,12 @@ Med designverktygen i [!DNL Journey Optimizer B2B Edition] kan marknadsförare s
 
 I följande avsnitt beskrivs de bästa sätten att utforma hjälpmedelsanpassat innehåll med [!DNL Journey Optimizer B2B Edition]. Denna information fokuserar på att utforma innehåll som är tillgängligt för alla mottagare, så att personer med funktionshinder kan läsa, förstå och interagera med e-postmeddelanden och landningssidor.
  
+
 ## Säkra textläsbarhet {#text-readability}
 
 Utnyttja fliken **[!UICONTROL Styles]** i komponenten **[!UICONTROL Text]** för att säkerställa att texten är läsbar, till exempel genom att använda rätt färgkontrast och enkla teckensnitt. Mer information om textkomponentens format finns i [Innehållskomponenter](content-components.md#text)
 
-![Fliken Textkomponentformat med alternativ för teckensnitt, storlek och färg ](assets/accessible-text-styles.png){width="700" zoomable="yes"}
+![Fliken Textkomponentformat med alternativ för teckensnitt, storlek och färg &#x200B;](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 För teckensnitt och text måste du följa riktlinjerna nedan:
 
