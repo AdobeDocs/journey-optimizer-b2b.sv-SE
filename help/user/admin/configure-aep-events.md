@@ -6,16 +6,16 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en betaversion"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 5f3d7bb8eb72c48409273de43b03114d273cb80c
+source-git-commit: cefd98099bf6524d1d559a47d502990852de1468
 workflow-type: tm+mt
 source-wordcount: '1423'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Välj upplevelsehändelser och fält
 
-Administratörer kan välja specifika [AEP Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} och tillhörande fält i Experience Event-unionens schema. Efter markeringen kan användarna konfigurera beslutsregler så att de lyssnar på Experience Events för att aktivera dynamiska och målinriktade kampanjåtgärder baserat på händelsedata i nära realtid.
+Administratörer kan välja specifika [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} och tillhörande fält i Experience Event-unionens schema. Efter markeringen kan användarna konfigurera beslutsregler så att de lyssnar på Experience Events för att aktivera dynamiska och målinriktade kampanjåtgärder baserat på händelsedata i nära realtid.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 Att använda AEP upplevelsehändelser under resor är en tvåstegsprocess:
@@ -61,7 +61,7 @@ När du väljer händelser för att uppnå dina organisationsmål bör du tänka
 
 ### Filtrera händelselistan
 
-Ange text i fältet _[!UICONTROL Search]_&#x200B;för att filtrera de händelser som visas så att de matchar händelsenamnet.
+Ange text i fältet _[!UICONTROL Search]_för att filtrera de händelser som visas så att de matchar händelsenamnet.
 
 ![Filtrera listan med markerade händelser efter namn](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
@@ -85,7 +85,7 @@ Om du vill göra en Experience Event tillgänglig för en _Lyssna efter en händ
 
    * Välj händelsetyp i dialogrutan.
 
-     Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
+     Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
 
      ![Dialogrutan Välj händelsetyp](./assets/configurations-xdm-classes-select-event-type-dialog.png){width="450" zoomable="yes"}
 
@@ -97,7 +97,7 @@ Om du vill göra en Experience Event tillgänglig för en _Lyssna efter en händ
 
    * I dialogrutan väljer du de fält som du vill använda som begränsningar för matchande händelser.
 
-     Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
+     Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
 
      ![Dialogrutan Välj fält](./assets/configurations-xdm-classes-select-fields-dialog.png){width="450" zoomable="yes"}
 
@@ -113,7 +113,7 @@ Redigera händelseinformationen för att ändra fälten.
 
 1. Klicka på händelsenamnet eller klicka på ikonen _Mer meny_ ( **...** ) och välj **[!UICONTROL Edit]**.
 
-   ![Klicka på ikonen Mer på menyn &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Klicka på ikonen Mer på menyn ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Edit fields]** om du vill lägga till fler fält eller ta bort befintliga markeringar i dialogrutan _[!UICONTROL Select fields]_.
 
@@ -139,8 +139,8 @@ Händelsetyp: `directMarketing.emailSent`
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -167,8 +167,8 @@ Händelsetyp: `directMarketing.emailDelivered `
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -195,8 +195,8 @@ Händelsetyp: `directMarketing.emailOpened`
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -227,8 +227,8 @@ Händelsetyp: `directMarketing.emailClicked`
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -260,8 +260,8 @@ Händelsetyp: `directMarketing.emailBounced`
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -291,8 +291,8 @@ Händelsetyp: `directMarketing.emailBouncedSoft`
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -322,8 +322,8 @@ Händelsetyp: `directMarketing.emailUnsubscribed `
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -350,8 +350,8 @@ Händelsetyp: `web.webpagedetails.pageViews`
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -381,8 +381,8 @@ Händelsetyp: `web.formFilledOut`
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -412,8 +412,8 @@ Händelsetyp: `web.webinteraction.linkClicks`
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -443,8 +443,8 @@ Händelsetyp: `leadOperation.interestingMoment `
 
 +++Fält
 
-| Fält | Fälttyp |
-| ----- | ---------- |
+| Visningsnamn | Sökväg |
+| ------------ | ---- |
 | Identifierare | `_id` |
 | Händelsetyp | `eventType` |
 | Tidsstämpel | `timestamp` |
@@ -464,4 +464,4 @@ Händelsetyp: `leadOperation.interestingMoment `
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448687/?captions=swe&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
