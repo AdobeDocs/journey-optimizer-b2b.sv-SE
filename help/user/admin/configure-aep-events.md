@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Välj upplevelsehändelser och fält
 
-Administratörer kan välja specifika [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} och tillhörande fält i Experience Event-unionens schema. Efter markeringen kan användarna konfigurera beslutsregler så att de lyssnar på Experience Events för att aktivera dynamiska och målinriktade kampanjåtgärder baserat på händelsedata i nära realtid.
+Administratörer kan välja specifika [AEP Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} och tillhörande fält i Experience Event-unionens schema. Efter markeringen kan användarna konfigurera beslutsregler så att de lyssnar på Experience Events för att aktivera dynamiska och målinriktade kampanjåtgärder baserat på händelsedata i nära realtid.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 Att använda AEP upplevelsehändelser under resor är en tvåstegsprocess:
