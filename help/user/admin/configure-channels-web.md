@@ -19,7 +19,7 @@ En webbkonfiguration är en webbegenskap som identifieras av en URL där innehå
 
 **Förutsättningar**
 
-Om du vill använda webbkanaler måste din webbplats ha [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerat för besöksidentifiering och innehållsleverans. Kontrollera att Adobe Experience Platform Web SDK version är 2.16 eller senare.
+Om du vill använda webbkanaler måste din webbplats ha [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/sv/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerat för besöksidentifiering och innehållsleverans. Kontrollera att Adobe Experience Platform Web SDK version är 2.16 eller senare.
 
 Webbkanalskonfigurationen i Journey Optimizer B2B edition kräver följande [behörigheter](../admin/user-management.md#b2b-product-permissions):
 
