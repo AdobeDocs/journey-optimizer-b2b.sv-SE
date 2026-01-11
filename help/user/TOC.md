@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '392'
 ht-degree: 16%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 16%
       + [Vänta](./journeys/wait-nodes.md)
    + [Resedetaljer](./journeys/journey-details.md)
 + Reseinnehåll {#journey-content}
+   + [SMS-kanal](./content/sms-authoring.md)
    + E-postkanal {#email-channel}
       + [Lägg till ett e-postmeddelande](./content/add-email.md)
       + [Framtagning av e-post](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 16%
       + [Styrda mallar](./content/email-authoring-governance.md)
       + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
       + [Deduplicering av e-post](./content/email-deduplication.md)
+   + Webbkanal (Beta) {#web-channel}
+      + [Översikt](./content/web-experiences.md)
+      + [Design av webbupplevelser](./content/web-experience-design.md)
+      + [Single-page applications](./content/web-single-page-applications.md)
    + [Anpassade personaliseringstoken](./content/personalization-my-tokens.md)
-   + [SMS-redigering](./content/sms-authoring.md)
 + Målgrupper {#audiences}
    + [Experience Platform målgrupper](./audiences/account-audience-overview.md)
    + [Målgrupper externt](./audiences/target-external-audience.md)
@@ -142,7 +146,8 @@ ht-degree: 16%
    + Kanaler {#channels}
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
-      + [Inställningar för landningssida](./admin/landing-page-settings.md)
+      + [Konfigurationer av webbkanaler (Beta)](./admin/configure-channels-web.md)
+      + [Inställningar för landningssida (Beta)](./admin/landing-page-settings.md)
       + [Konfigurera datastreams för händelsesamling](./data/aep-event-collection.md)
    + Konfigurationer {#configurations}
       + [AEM Assets-databaser](./admin/configure-aem-repositories.md)

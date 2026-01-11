@@ -1,17 +1,17 @@
 ---
-title: SMS-konfiguration
+title: SMS-kanalkonfigurationer
 description: Koppla upp SMS-leverantörer som Sinch, Twilio och Infobip med API-behörigheter för att aktivera textmeddelanden på Journey Optimizer B2B edition-resor.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
+source-git-commit: ee6000d8527222a246f715de033ee99ea49f47fd
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
 
-# SMS-konfiguration
+# SMS-kanalkonfigurationer
 
 Adobe Journey Optimizer B2B edition skickar textmeddelanden via SMS-tjänstleverantörer (eller SMS-gatewayleverantörer). Innan du skapar SMS-meddelandet måste du konfigurera tjänsteleverantören från inställningarna för _Administratör_.
 
@@ -115,4 +115,4 @@ _Konfigurera Infobip som din SMS-leverantör med Adobe Journey Optimizer B2B edi
 
 >[!ENDTABS]
 
-När du klickar på _[!UICONTROL Submit]_&#x200B;valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för&#x200B;_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.
+När du klickar på _[!UICONTROL Submit]_valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.
