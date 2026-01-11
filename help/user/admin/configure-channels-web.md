@@ -32,7 +32,7 @@ Webbkanalskonfigurationen i Journey Optimizer B2B edition kräver följande [beh
 
 1. Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** i den vänstra navigeringen.
 
-1. Välj _[!UICONTROL Web]_under **[!UICONTROL Channel configurations]**i navigeringspanelen.
+1. Välj _[!UICONTROL Web]_&#x200B;under **[!UICONTROL Channel configurations]**&#x200B;i navigeringspanelen.
 
    ![Få åtkomst till webbkanalskonfigurationerna](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
@@ -60,13 +60,13 @@ Så snart webbkanalen används i en resa, flyttas den till statusen _Aktiv_. I d
 
 ## Sidmatchningsregler {#pages-matching-rule}
 
-När du skapar en webbkonfiguration kan du skapa en _[!UICONTROL Pages matching rule]_som mål för flera URL:er som matchar samma regel. Med de här reglerna kan du tillämpa samma innehållsändringar på flera sidor.
+När du skapar en webbkonfiguration kan du skapa en _[!UICONTROL Pages matching rule]_&#x200B;som mål för flera URL:er som matchar samma regel. Med de här reglerna kan du tillämpa samma innehållsändringar på flera sidor.
 
 Du kan till exempel lägga till ändringar i en hjältebanderoll på en hel webbplats, eller lägga till en toppbild som visas på alla produktsidor.
 
 ### Bygg en regel
 
-1. Välj [ när du ](#create-a-web-channel-configuration)skapar en webbkanalskonfiguration **[!UICONTROL Page matching rule]**.
+1. Välj [&#x200B; när du &#x200B;](#create-a-web-channel-configuration)skapar en webbkanalskonfiguration **[!UICONTROL Page matching rule]**.
 
 1. Definiera dina villkor för fälten **[!UICONTROL Domain]** och **[!UICONTROL Page]** med hjälp av de olika operatorerna i varje avsnitt för att skapa regeln.
 
@@ -109,9 +109,9 @@ Du kan till exempel lägga till ändringar i en hjältebanderoll på en hel webb
 
    * Använd operatorerna **[!UICONTROL Or]** eller **[!UICONTROL Exclude]** mellan de olika reglerna.
 
-     _[!UICONTROL Or]_är standardoperator för att definiera flera regler och är användbar när du vill lägga till flera villkorsdefinitioner som kan matchas.
+     _[!UICONTROL Or]_&#x200B;är standardoperator för att definiera flera regler och är användbar när du vill lägga till flera villkorsdefinitioner som kan matchas.
 
-     _[!UICONTROL Exclude]_är användbart när en av sidorna som matchar den definierade regeln inte ska ha något mål. Du kan till exempel ange alla `bodea.com` sidor som innehåller `lumasecure` som mål, men inte bloggsidor (till exempel `bodea.com/blogs/lumasecure/latest-release`).
+     _[!UICONTROL Exclude]_&#x200B;är användbart när en av sidorna som matchar den definierade regeln inte ska ha något mål. Du kan till exempel ange alla `bodea.com` sidor som innehåller `lumasecure` som mål, men inte bloggsidor (till exempel `bodea.com/blogs/lumasecure/latest-release`).
 
    ![Sidor som matchar regler med undantag](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
