@@ -23,7 +23,7 @@ Innan du kan utforma webbupplevelser måste du kontrollera att följande krav up
 
 * En produktadministratör har konfigurerat en eller flera webbkanaler för att definiera de URL:er (sidor) som ska inkluderas för en webbupplevelse. Mer information finns i [Konfigurationer för webbkanaler](../admin/configure-channels-web.md).
 
-* På webbplatsen har [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerats för besöksidentifiering och innehållsleverans. Adobe Experience Platform Web SDK version 2.16 eller senare krävs.
+* På webbplatsen har [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/sv/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerats för besöksidentifiering och innehållsleverans. Adobe Experience Platform Web SDK version 2.16 eller senare krävs.
 
 * Du har de [behörigheter](../admin/user-management.md#b2b-product-permissions) som krävs för att skapa och hantera webbupplevelser under en resa:
    * _[!UICONTROL Campaigns]_>_[!UICONTROL Manage Campaigns]_ - Krävs för att lägga till eller uppdatera en åtgärdsnod för webbanpassning.
@@ -326,7 +326,7 @@ Spåra användarinteraktioner med element för att mäta engagemang och samla in
 
 När webbupplevelsen aktiveras (live) kan du även skapa rapporter med Adobe Customer Journey Analytics (som kräver en produktprenumeration). Om du vill förbättra övervakningen av webbupplevelsen kan du även spåra klick på ett visst element på webbplatsen. Med Spärra/knip kan du visa antalet klick för det elementet i webbrapporterna.
 
-Mer information om Customer Journey Analytics och hur du skapar webbrapporter finns i [Customer Journey Analytics-dokumentationen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
+Mer information om Customer Journey Analytics och hur du skapar webbrapporter finns i [Customer Journey Analytics-dokumentationen](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-landing).
 
 1. Välj ett element i webbredigeraren, till exempel en bild eller länk.
 
