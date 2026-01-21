@@ -77,17 +77,17 @@ Innan du kan skapa webbupplevelser måste du se till att följande krav uppfylls
 
 ## Skapa en webbupplevelse
 
-Du kan konfigurera webbupplevelser under en resa när du [lägger till en _[!UICONTROL Take an action]_nod](../journeys/action-nodes.md) och gör följande:
+Du kan konfigurera webbupplevelser under en resa när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod](../journeys/action-nodes.md) och gör följande:
 
-1. Välj _[!UICONTROL Action on]_för målet **[!UICONTROL People]**.
+1. Välj _[!UICONTROL Action on]_&#x200B;för målet **[!UICONTROL People]**.
 
-1. Välj _[!UICONTROL Action on people]_för **[!UICONTROL Personalize web experience]**.
+1. Välj _[!UICONTROL Action on people]_&#x200B;för **[!UICONTROL Personalize web experience]**.
 
    ![Vidta en åtgärd - anpassa webbupplevelsen](./assets/web-experience-add-journey-node.png){width="500"}
 
 1. Klicka på **[!UICONTROL Create web experience]**.
 
-1. Ange ett användbart _[!UICONTROL Create web experience]_och **[!UICONTROL Name]**(valfritt) i dialogrutan **[!UICONTROL Description]**.
+1. Ange ett användbart _[!UICONTROL Create web experience]_&#x200B;och **[!UICONTROL Name]**(valfritt) i dialogrutan **[!UICONTROL Description]**.
 
    * Namn - Max 100 tecken, måste vara unikt, skiftlägeskänsligt
 
@@ -111,14 +111,14 @@ Du kan konfigurera webbupplevelser under en resa när du [lägger till en _[!UIC
 
 1. Om du vill definiera webbändringarna klickar du på **[!UICONTROL Edit content]**.
 
-   Redigeraren öppnas på fliken _[!UICONTROL Content]_där du kan definiera ändringarna för webbupplevelsen. Mer information om hur du använder designverktygen för att lägga till innehållsändringar i webbupplevelsen finns i [Utformning av webbupplevelser](./web-experience-design.md).
+   Redigeraren öppnas på fliken _[!UICONTROL Content]_&#x200B;där du kan definiera ändringarna för webbupplevelsen. Mer information om hur du använder designverktygen för att lägga till innehållsändringar i webbupplevelsen finns i [Utformning av webbupplevelser](./web-experience-design.md).
 
 1. I den högra panelen anger du webbupplevelseegenskaperna efter hur du vill definiera och hantera den.
 
    * **[!UICONTROL Visual editor]** - Växla mellan den [visuella och den icke-visuella redigeraren](./web-experience-design.md#web-design-tools) för design av webbupplevelseändringar.
    * **[!UICONTROL Visitor redirection]** - Aktivera det här alternativet för att [omdirigera besökare till en annan befintlig URL](#redirect-to-url) i stället för att skapa en ny variant på innehållsfliken.
 
-   ![Växla egenskaper för den visuella redigeraren och omdirigerings-URL:en ](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
+   ![Växla egenskaper för den visuella redigeraren och omdirigerings-URL:en &#x200B;](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Edit web page]** om du vill [utforma dina webbändringar](./web-experience-design.md).
 
@@ -153,19 +153,19 @@ Skapa till exempel en webbkampanj med två behandlingar:
 
 I Behandling A kan du skapa en webbupplevelse med innehållsredigeraren för halva målpopulationen.
 
-I Behandling B väljer du alternativet _[!UICONTROL Redirect to URL]_för den andra halvan av målpopulationen. Ange URL-adressen till en sida med en alternativ design som du skapade utanför Journey Optimizer B2B edition.
+I Behandling B väljer du alternativet _[!UICONTROL Redirect to URL]_&#x200B;för den andra halvan av målpopulationen. Ange URL-adressen till en sida med en alternativ design som du skapade utanför Journey Optimizer B2B edition.
 
 ![Ange omdirigering av besökare för att dirigera om besökare till en specifik URL](./assets/web-experience-journey-node-content-visitor-redirection.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->När det här alternativet är markerat visas inte webbplatsförhandsvisningen och växlingen _[!UICONTROL Visual editor]_är inaktiverad.
+>När det här alternativet är markerat visas inte webbplatsförhandsvisningen och växlingen _[!UICONTROL Visual editor]_&#x200B;är inaktiverad.
 
 När webbkampanjen är aktiv kan ni spåra hur den webbupplevelse ni definierade i Journey Optimizer B2B edition fungerar mot webbupplevelser som har omdirigerats till den alternativa sidan.
 
 ## Testa webbupplevelsen
 
-När innehållsdesignen är klar för webbupplevelsen kan du använda funktionen _Simulera innehåll_ för att förhandsgranska webbsidesändringarna. Om du har infogat anpassat innehåll kan du använda testprofildata för att kontrollera hur innehållet återges. Simuleringsverktygen är tillgängliga på fliken _[!UICONTROL Content]_för webbupplevelsen eller den visuella designredigeraren för innehåll.
+När innehållsdesignen är klar för webbupplevelsen kan du använda funktionen _Simulera innehåll_ för att förhandsgranska webbsidesändringarna. Om du har infogat anpassat innehåll kan du använda testprofildata för att kontrollera hur innehållet återges. Simuleringsverktygen är tillgängliga på fliken _[!UICONTROL Content]_&#x200B;för webbupplevelsen eller den visuella designredigeraren för innehåll.
 
 1. Klicka på **[!UICONTROL Simulate content]** överst till höger.
 
@@ -191,7 +191,7 @@ Om du vill aktivera leverans av webbupplevelser måste följande inställningar 
 
   Med den här konfigurationen kan Adobe Experience Platform Edge hantera inkommande händelser korrekt. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
-* Kontrollera att du har en sammanfogningsprincip med alternativet _[!UICONTROL Active-On-Edge Merge Policy]_aktiverat i Adobe Experience Platform.
+* Kontrollera att du har en sammanfogningsprincip med alternativet _[!UICONTROL Active-On-Edge Merge Policy]_&#x200B;aktiverat i Adobe Experience Platform.
 
   Välj en profil på Experience Platform-menyn Kund > Profiler > Sammanfoga profiler. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
