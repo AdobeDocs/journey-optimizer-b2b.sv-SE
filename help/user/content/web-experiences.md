@@ -4,7 +4,7 @@ description: Skapa, designa och publicera personaliserade webbupplevelser för k
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
-source-git-commit: 6eae855a1e20b3a4350353940cb3ea82fd84933b
+source-git-commit: e3c00ab4657c7bf05573e049bbcb4bb3628e751e
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Innan du kan skapa webbupplevelser måste du se till att följande krav uppfylls
 
 * En produktadministratör har konfigurerat en eller flera webbkanaler för att definiera de URL:er (sidor) som ska inkluderas för en webbupplevelse. Mer information finns i [Konfigurationer för webbkanaler](../admin/configure-channels-web.md).
 
-* På webbplatsen har [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/sv/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerats för besöksidentifiering och innehållsleverans. Kontrollera att Adobe Experience Platform Web SDK version är 2.16 eller senare.
+* På webbplatsen har [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerats för besöksidentifiering och innehållsleverans. Kontrollera att Adobe Experience Platform Web SDK version är 2.16 eller senare.
 
 * Du har de [behörigheter](../admin/user-management.md#b2b-product-permissions) som krävs för att skapa och hantera webbupplevelser under en resa:
    * _[!UICONTROL Campaigns]_>_[!UICONTROL Manage Campaigns]_ - Krävs för att lägga till eller uppdatera en åtgärdsnod för webbanpassning.
@@ -77,17 +77,17 @@ Innan du kan skapa webbupplevelser måste du se till att följande krav uppfylls
 
 ## Skapa en webbupplevelse
 
-Du kan konfigurera webbupplevelser under en resa när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod](../journeys/action-nodes.md) och gör följande:
+Du kan konfigurera webbupplevelser under en resa när du [lägger till en _[!UICONTROL Take an action]_nod](../journeys/action-nodes.md) och gör följande:
 
-1. Välj _[!UICONTROL Action on]_&#x200B;för målet **[!UICONTROL People]**.
+1. Välj _[!UICONTROL Action on]_för målet **[!UICONTROL People]**.
 
-1. Välj _[!UICONTROL Action on people]_&#x200B;för **[!UICONTROL Personalize web experience]**.
+1. Välj _[!UICONTROL Action on people]_för **[!UICONTROL Personalize web experience]**.
 
    ![Vidta en åtgärd - anpassa webbupplevelsen](./assets/web-experience-add-journey-node.png){width="500"}
 
 1. Klicka på **[!UICONTROL Create web experience]**.
 
-1. Ange ett användbart _[!UICONTROL Create web experience]_&#x200B;och **[!UICONTROL Name]**(valfritt) i dialogrutan **[!UICONTROL Description]**.
+1. Ange ett användbart _[!UICONTROL Create web experience]_och **[!UICONTROL Name]**(valfritt) i dialogrutan **[!UICONTROL Description]**.
 
    * Namn - Max 100 tecken, måste vara unikt, skiftlägeskänsligt
 
@@ -111,14 +111,14 @@ Du kan konfigurera webbupplevelser under en resa när du [lägger till en _[!UIC
 
 1. Om du vill definiera webbändringarna klickar du på **[!UICONTROL Edit content]**.
 
-   Redigeraren öppnas på fliken _[!UICONTROL Content]_&#x200B;där du kan definiera ändringarna för webbupplevelsen. Mer information om hur du använder designverktygen för att lägga till innehållsändringar i webbupplevelsen finns i [Utformning av webbupplevelser](./web-experience-design.md).
+   Redigeraren öppnas på fliken _[!UICONTROL Content]_där du kan definiera ändringarna för webbupplevelsen. Mer information om hur du använder designverktygen för att lägga till innehållsändringar i webbupplevelsen finns i [Utformning av webbupplevelser](./web-experience-design.md).
 
 1. I den högra panelen anger du webbupplevelseegenskaperna efter hur du vill definiera och hantera den.
 
    * **[!UICONTROL Visual editor]** - Växla mellan den [visuella och den icke-visuella redigeraren](./web-experience-design.md#web-design-tools) för design av webbupplevelseändringar.
    * **[!UICONTROL Visitor redirection]** - Aktivera det här alternativet för att [omdirigera besökare till en annan befintlig URL](#redirect-to-url) i stället för att skapa en ny variant på innehållsfliken.
 
-   ![Växla egenskaper för den visuella redigeraren och omdirigerings-URL:en &#x200B;](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
+   ![Växla egenskaper för den visuella redigeraren och omdirigerings-URL:en ](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Edit web page]** om du vill [utforma dina webbändringar](./web-experience-design.md).
 
@@ -153,19 +153,19 @@ Skapa till exempel en webbkampanj med två behandlingar:
 
 I Behandling A kan du skapa en webbupplevelse med innehållsredigeraren för halva målpopulationen.
 
-I Behandling B väljer du alternativet _[!UICONTROL Redirect to URL]_&#x200B;för den andra halvan av målpopulationen. Ange URL-adressen till en sida med en alternativ design som du skapade utanför Journey Optimizer B2B edition.
+I Behandling B väljer du alternativet _[!UICONTROL Redirect to URL]_för den andra halvan av målpopulationen. Ange URL-adressen till en sida med en alternativ design som du skapade utanför Journey Optimizer B2B edition.
 
 ![Ange omdirigering av besökare för att dirigera om besökare till en specifik URL](./assets/web-experience-journey-node-content-visitor-redirection.png){width="500" zoomable="yes"}
 
 >[!NOTE]
 >
->När det här alternativet är markerat visas inte webbplatsförhandsvisningen och växlingen _[!UICONTROL Visual editor]_&#x200B;är inaktiverad.
+>När det här alternativet är markerat visas inte webbplatsförhandsvisningen och växlingen _[!UICONTROL Visual editor]_är inaktiverad.
 
 När webbkampanjen är aktiv kan ni spåra hur den webbupplevelse ni definierade i Journey Optimizer B2B edition fungerar mot webbupplevelser som har omdirigerats till den alternativa sidan.
 
 ## Testa webbupplevelsen
 
-När innehållsdesignen är klar för webbupplevelsen kan du använda funktionen _Simulera innehåll_ för att förhandsgranska webbsidesändringarna. Om du har infogat anpassat innehåll kan du använda testprofildata för att kontrollera hur innehållet återges. Simuleringsverktygen är tillgängliga på fliken _[!UICONTROL Content]_&#x200B;för webbupplevelsen eller den visuella designredigeraren för innehåll.
+När innehållsdesignen är klar för webbupplevelsen kan du använda funktionen _Simulera innehåll_ för att förhandsgranska webbsidesändringarna. Om du har infogat anpassat innehåll kan du använda testprofildata för att kontrollera hur innehållet återges. Simuleringsverktygen är tillgängliga på fliken _[!UICONTROL Content]_för webbupplevelsen eller den visuella designredigeraren för innehåll.
 
 1. Klicka på **[!UICONTROL Simulate content]** överst till höger.
 
@@ -177,7 +177,7 @@ När innehållsdesignen är klar för webbupplevelsen kan du använda funktionen
 
 ## Aktivera din webbupplevelse
 
-Din webbupplevelse aktiveras och blir synlig för publiken när du [publicerar resan](../journeys/create-publish-journey.md#publish-an-account-journey). Innan du aktiverar en webbupplevelse under en resa bör du tänka på följande:
+Din webbupplevelse aktiveras och blir synlig för publiken när du [publicerar resan](../journeys/create-publish-journey.md#publish-a-journey). Innan du aktiverar en webbupplevelse under en resa bör du tänka på följande:
 
 * Om du publicerar en resa med en webbupplevelse som påverkar samma sidor som en annan resa som redan är aktiv, tillämpas alla ändringar på webbsidorna.
 
@@ -189,16 +189,16 @@ Om du vill aktivera leverans av webbupplevelser måste följande inställningar 
 
 * I Adobe Experience Platform Data Collection kontrollerar du att du har en dataström som är definierad med alternativet Adobe Journey Optimizer B2B edition aktiverat under tjänsten Adobe Experience Platform.
 
-  Med den här konfigurationen kan Adobe Experience Platform Edge hantera inkommande händelser korrekt. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/datastreams/configure)
+  Med den här konfigurationen kan Adobe Experience Platform Edge hantera inkommande händelser korrekt. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 
-* Kontrollera att du har en sammanfogningsprincip med alternativet _[!UICONTROL Active-On-Edge Merge Policy]_&#x200B;aktiverat i Adobe Experience Platform.
+* Kontrollera att du har en sammanfogningsprincip med alternativet _[!UICONTROL Active-On-Edge Merge Policy]_aktiverat i Adobe Experience Platform.
 
-  Välj en profil på Experience Platform-menyn Kund > Profiler > Sammanfoga profiler. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Välj en profil på Experience Platform-menyn Kund > Profiler > Sammanfoga profiler. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Den här sammanfogningsprincipen används av inkommande kanaler i Journey Optimizer B2B edition för att korrekt aktivera och publicera inkommande webbupplevelser. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/ui-guide)
+  Den här sammanfogningsprincipen används av inkommande kanaler i Journey Optimizer B2B edition för att korrekt aktivera och publicera inkommande webbupplevelser. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Felsökning
 
 Du kan använda Edge Delivery-vyn i Adobe Experience Platform Assurance för att felsöka leveransen av Journey Optimizer B2B edition webbupplevelser. Med denna plugin kan du granska detaljerade förfrågningar, verifiera förväntade gränsanrop och granska profildata. Profildata innehåller identitetskartor, segmentmedlemskap och inställningar för samtycke. Du kan även granska kvalificerade och okvalificerade aktiviteter för begäran.
 
-Mer information om Edge Delivery-vyn i Assurance finns i [Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/assurance/view/edge-delivery).
+Mer information om Edge Delivery-vyn i Assurance finns i [Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery).

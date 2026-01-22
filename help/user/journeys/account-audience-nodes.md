@@ -4,7 +4,7 @@ description: Konfigurera noder för kontomålgrupper eller kontolistor för att 
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Nod för kundresa
 
-Kontots målgruppsnod anger vilka konton som anger resan. När du [skapar en kontoresa](./journey-overview.md#create-an-account-journey) börjar resan alltid med en kontomålsnod som definierar dess indata.
+Kontots målgruppsnod anger vilka konton som anger resan. När du [skapar en kontoresa](./create-publish-journey.md#create-a-journey) börjar resan alltid med en kontomålsnod som definierar dess indata.
 
 Använd något av följande indataalternativ för den här kundnoden:
 
@@ -33,7 +33,7 @@ Använd något av följande indataalternativ för den här kundnoden:
 
      Välj alternativ för målgrupp. Klicka sedan på **[!UICONTROL Add account audience]**.
 
-     I dialogrutan _[!UICONTROL Add audience]_&#x200B;väljer du ett tidigare skapat målgruppssegment. Klicka sedan på&#x200B;**[!UICONTROL Add audience]**.
+     I dialogrutan _[!UICONTROL Add audience]_väljer du ett tidigare skapat målgruppssegment. Klicka sedan på&#x200B;**[!UICONTROL Add audience]**.
 
      ![Välj ett målgruppssegment för noden](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
 
@@ -55,4 +55,4 @@ Använd något av följande indataalternativ för den här kundnoden:
 
    ![Skapa ett målgruppssegment](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Följ stegen i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
+1. Följ stegen i [Segmenteringstjänstguiden](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.

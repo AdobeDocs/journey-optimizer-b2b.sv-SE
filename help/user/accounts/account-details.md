@@ -4,7 +4,7 @@ description: Ta del av kontoinsikter med AI-sammanfattningar, intent detection, 
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Avsnittet för kontoöversikt innehåller följande kontoinformation:
 * Antal personer i kontot
 * Bransch
 * Öppna affärsmöjligheter
-* De tre senaste kontoresorna där kontot används (klicka på resenamnet för att öppna [reseöversikten](../journeys/journey-overview.md))
+* De tre senaste kontoresorna där kontot används (klicka på resenamnet för att öppna [reseöversikten](../journeys/journeys-overview.md))
 * Generativ AI-sammanfattning av kontot, som innehåller information om de mest engagerade inköpsgrupperna.
 
 ### Återgivningsdata
@@ -52,7 +52,7 @@ I Journey Optimizer B2B edition förutser Intent Detection-modellen en lösning/
 
 ![Kontokontaktens täckning](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-Avsnittet _[!UICONTROL Contact coverage]_&#x200B;visar antalet kontakter från kontot med en specifik roll som är associerad med ett lösningsintresse. Tilldelningen av roll och lösningsintresse baseras på mallen för inköpsgruppsroller. Klicka på en cell för att visa följande information:
+Avsnittet _[!UICONTROL Contact coverage]_visar antalet kontakter från kontot med en specifik roll som är associerad med ett lösningsintresse. Tilldelningen av roll och lösningsintresse baseras på mallen för inköpsgruppsroller. Klicka på en cell för att visa följande information:
 
 * Beskrivning, i följande format: _x personer har min roll för z-lösningens intresse_
 * Kolumner
@@ -73,7 +73,7 @@ Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter
 
 ![Kontokontaktöverlappning](./assets/details-page-contact-overlap.png){width="800" zoomable="yes"}
 
-Avsnittet _[!UICONTROL Contact overlap]_&#x200B;visar kontakter från kontot som är en del av mer än en inköpsgrupp som ett resultat av att de är kopplade till flera lösningsintressen. Den här informationen är i form av en tabell med följande kolumner:
+Avsnittet _[!UICONTROL Contact overlap]_visar kontakter från kontot som är en del av mer än en inköpsgrupp som ett resultat av att de är kopplade till flera lösningsintressen. Den här informationen är i form av en tabell med följande kolumner:
 
 * Namn
 * Befattning
@@ -107,11 +107,11 @@ Du kan skicka ett e-postmeddelande som godkänts av en marknadsförare till en e
 
 >[!TAB Alla kontokontakter]
 
-1. Klicka på _[!UICONTROL Overview]_&#x200B;överst till höger på fliken **[!UICONTROL Send email]**.
+1. Klicka på _[!UICONTROL Overview]_överst till höger på fliken **[!UICONTROL Send email]**.
 
    ![Kontoinformation - Välj e-post](../accounts/assets/account-details-send-email.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Send email]_&#x200B;markerar du arbetsytan i Marketo Engage och markerar sedan kryssrutan för det e-postmeddelande som du vill skicka.
+1. I dialogrutan _[!UICONTROL Send email]_markerar du arbetsytan i Marketo Engage och markerar sedan kryssrutan för det e-postmeddelande som du vill skicka.
 
    ![Välj ett e-postmeddelande som ska skickas till medlemmar i inköpsgruppen](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
 
@@ -125,7 +125,7 @@ Du kan skicka ett e-postmeddelande som godkänts av en marknadsförare till en e
 
    ![Fliken Medlemmar - skicka e-post](../accounts/assets/account-details-send-email-selections.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Send email]_&#x200B;markerar du arbetsytan i Marketo Engage och markerar sedan kryssrutan för det e-postmeddelande som du vill skicka.
+1. I dialogrutan _[!UICONTROL Send email]_markerar du arbetsytan i Marketo Engage och markerar sedan kryssrutan för det e-postmeddelande som du vill skicka.
 
    ![Välj ett e-postmeddelande som ska skickas till medlemmar i inköpsgruppen](../accounts/assets/account-details-send-email-dialog.png){width="700" zoomable="yes"}
 

@@ -4,26 +4,26 @@ description: Konfigurera händelsnoder för konto- och personutlösare - lyssna 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1647'
 ht-degree: 1%
 
 ---
 
 # Lyssna efter en händelse
 
-Lägg till noden _Lyssna efter en händelse_ om du vill flytta målgruppen framåt till nästa steg i kontoresan när en händelse inträffar.
+Lägg till noden _Lyssna efter en händelse_ för att flytta din publik framåt till nästa steg i resan när en händelse inträffar.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width=&quot;30&quot;, vertical-align=&quot;middle&quot;} [Se översiktsvideon](#overview-video)
 
 >[!NOTE]
 >
->Du kan inte lägga till den här nodtypen på delad sökväg av personer.
+>För en kontoresa kan du inte lägga till den här nodtypen på delad sökväg av personer.
 
 ## Kontohändelser
 
-Lyssna efter en händelse som baseras på kontot när du vill flytta kontot framåt i resan enligt händelser som utlöses av kontoaktivitet.
+Under en kontoresa kan du lyssna efter en händelse som baseras på kontot när du vill flytta kontot framåt under resan enligt händelser som utlöses av kontoaktivitet.
 
 ### Händelser och begränsningar
 
@@ -52,7 +52,7 @@ Lyssna efter en händelse som baseras på kontot när du vill flytta kontot fram
 
 ## Personhändelser
 
-Lyssna efter en händelse som baseras på personer när du vill flytta kontot framåt i resan enligt händelser som triggas av personaktivitet. Du kan också filtrera händelser efter personattribut,
+Under en kontoresa kan du lyssna efter en händelse som baseras på personer när du vill flytta kontot framåt under resan enligt händelser som triggas av personaktivitet. Du kan också filtrera händelser efter personattribut,
 
 ### Händelser och begränsningar
 
@@ -117,7 +117,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera en eller flera webbsidor som ska matcha och eventuella ytterligare begränsningar för händelsen.
 
-   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_&#x200B;definierar du begränsningen **[!UICONTROL Web page]**&#x200B;eller **[!UICONTROL Fills out form]**. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**&#x200B;för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda operatorn **[!UICONTROL is any]**&#x200B;för att matcha ett besök på en Marketo Engage-webbsida eller i ett ifyllt formulär.
+   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_definierar du begränsningen **[!UICONTROL Web page]**eller **[!UICONTROL Fills out form]**. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda operatorn **[!UICONTROL is any]**för att matcha ett besök på en Marketo Engage-webbsida eller i ett ifyllt formulär.
 
    * (Valfritt) Klicka på **[!UICONTROL Add constraint]** och välj det fält som du vill använda som begränsning. Ange operatorn och fältets värde.
 
@@ -135,7 +135,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 ### Lyssna efter en upplevelsehändelse
 
-Administratörer kan välja [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} som gör att marknadsförare kan skapa resor som reagerar på händelserna i nära realtid. Att använda upplevelsehändelser under resor är en tvåstegsprocess:
+Administratörer kan välja [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} som gör att marknadsförare kan skapa konto- och personresor som reagerar på händelserna i nära realtid. Att använda upplevelsehändelser under resor är en tvåstegsprocess:
 
 1. En administratör [väljer händelsetyper och intressefält](../admin/configure-aep-events.md#select-an-event) för att göra dem tillgängliga på resorna.
 
@@ -148,19 +148,19 @@ _Inkludera en upplevelsehändelse i din resa :_
 
 1. Välj en **[!UICONTROL Listen for an event]**-nod på färdkartan.
 
-1. Välj **[!UICONTROL People]** som händelsetyp i nodegenskaperna till höger.
-
-1. Klicka på pilen för väljaren **[!UICONTROL Select people event]** och rulla menyn till avsnittet **[!UICONTROL Adobe Experience Platform]**.
-
-   ![Lyssna efter en upplevelsehändelse](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. (Endast kontoresa) Välj **[!UICONTROL People]** som händelsetyp i nodegenskaperna till höger.
 
 1. Markera händelsen.
 
-   Händelsetypen visas som tom i nodinformationen.
+   Klicka på pilen för **_-väljaren för en_** kontoresa **[!UICONTROL Select people event]** och rulla menyn till avsnittet **[!UICONTROL Adobe Experience Platform]**.
 
-   ![Redigera händelsen](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
+   ![Lyssna efter en upplevelsehändelse](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   Klicka på pilen för väljaren **[!UICONTROL Select event]** för en personresa och välj händelsen.
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera en eller flera begränsningar för händelsen.
+
+   ![Redigera händelsen](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
    De tillgängliga begränsningarna definieras som hanterade fält för händelsekonfigurationen.
 
@@ -182,11 +182,13 @@ _Inkludera en upplevelsehändelse i din resa :_
 
 1. Lägg till nästa nod som ska köras när händelsen inträffar i färdkartan.
 
-1. Slutför de återstående noderna för din resa och [publicera den](./journey-overview.md).
+1. Slutför de återstående noderna för din resa och [publicera den](./journeys-overview.md).
 
    När resan är live (publicerad) och når noden _Lyssna efter en händelse_ börjar den lyssna efter AEP Experience Events.
 
 ### Lägg till filter i personhändelsen
+
+(Endast kontoresor)
 
 1. När du har definierat händelsen väljer du fliken **[!UICONTROL Filters]** i dialogrutan _[!UICONTROL Edit Event]_.
 
@@ -222,4 +224,4 @@ Ange vid behov hur lång tid resan väntar på händelsen. Resan avslutas efter 
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443238/?captions=swe&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

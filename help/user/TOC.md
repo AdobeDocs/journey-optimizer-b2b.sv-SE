@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
+source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 16%
+source-wordcount: '398'
+ht-degree: 15%
 
 ---
 
@@ -27,12 +27,13 @@ ht-degree: 16%
       + [Audience-agent](./agents/audience-agent-b2b.md)
       + [Journey Build Agent B2B](./agents/journey-agent.md)
       + [Försäljningskvalificerare](./agents/sales-qualifier.md)
-+ Kontoresor {#account-journeys}
-   + [Översikt](./journeys/journey-overview.md)
++ Resehantering {#journeys}
+   + [Konto- och personresor](./journeys/journeys-overview.md)
    + [Skapa och publicera en resa](./journeys/create-publish-journey.md)
    + [Resensnoder](./journeys/journey-nodes.md)
    + Resensnoder {#journey-nodes}
       + [Målgrupp](./journeys/account-audience-nodes.md)
+      + [Målgrupp (Beta)](./journeys/person-audience-nodes.md)
       + [Agera](./journeys/action-nodes.md)
       + [Lyssna efter en händelse](./journeys/listen-for-event-nodes.md)
       + [Dela och sammanfoga banor](./journeys/split-merge-paths-nodes.md)

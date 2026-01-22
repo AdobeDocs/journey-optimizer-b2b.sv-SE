@@ -1,25 +1,32 @@
 ---
-title: Skapa och publicera en kontoresa
-description: Skapa kontoresor på den visuella arbetsytan, lägg till åtgärder och händelsnoder, konfigurera schemaläggning och publicera för live-orkestrering i Journey Optimizer B2B edition.
+title: Skapa och publicera en resa
+description: Skapa konto- och personresor på den visuella arbetsytan, lägg till action- och event-noder, konfigurera schemaläggning och publicera för live-orkestrering i Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 433b08efbb24453f318bbce989ce18c9d96dea05
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
 
-# Skapa och publicera en kontoresa
+# Bygg och publicera en resa
 
-Om du vill komma igång med en kontoresa skapar du resan och skapar sedan noderna och reseflödet i färdkartan.
+Om du vill komma igång med en resa skapar du resan och skapar sedan noderna och reseflödet i färdkartan.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Se översiktsvideon](#overview-video)
 
-## Skapa en kontoresa
+## Skapa en resa
 
-1. Klicka på **[!UICONTROL Account journeys]** i den vänstra navigeringen.
+Under **[!UICONTROL Journey management]** i den vänstra navigeringen väljer du den resetyp som du vill skapa:
+
+* **[!UICONTROL Account journeys]**
+* **[!UICONTROL Person journeys]** (Beta)
+
+_Lägga till en ny resa :_
+
++++Kontoresa
 
 1. Klicka på **[!UICONTROL Create Account Journey]** överst till höger på sidan.
 
@@ -29,9 +36,26 @@ Om du vill komma igång med en kontoresa skapar du resan och skapar sedan nodern
 
 1. Klicka på **[!UICONTROL Create]**.
 
-## Byggstenar i en resa
++++
 
-_resekartan_ är den centrala zonen på arbetsytan för resan. Det är i den här zonen som du kan lägga till och konfigurera resenoder. Klicka på en nod för att öppna dess egenskapspanel till höger om arbetsytan och ange dem i enlighet med din design. En kontoresa börjar alltid med en [målgruppsnod](./account-audience-nodes.md) där du kan lägga till indata till din resa.
++++Personresa (Beta)
+
+1. Klicka på **[!UICONTROL Create Journey]** överst till höger på sidan.
+
+1. Ange en unik **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) i dialogrutan.
+
+   ![Dialogrutan Skapa resa](./assets/person-journey-create-dialog.png){width="400"}
+
+1. Klicka på **[!UICONTROL Create]**.
+
++++
+
+## Byggstenar för resedesign
+
+_resekartan_ är den centrala zonen på arbetsytan för resan. Det är i den här zonen som du kan lägga till och konfigurera resenoder. Klicka på en nod för att öppna dess egenskapspanel till höger om arbetsytan och ange dem i enlighet med din design. En resa börjar alltid med en målgruppsnod där du kan definiera vad som ska användas under resan:
+
+* [Målgruppsnod](./account-audience-nodes.md)
+* [Personmålsnod](./person-audience-nodes.md)
 
 När du har skapat en kontoresa och lagt till målgruppen kan du bygga ut resan med hjälp av noder. Färdkartan innehåller en arbetsyta där du kan skapa flerstegs-B2B-användningsfall för marknadsföring med följande nodtyper för att skapa en kontoresa:
 
@@ -109,9 +133,9 @@ När du publicerar en resa kan den påbörjas omedelbart eller på ett schemalag
 
    När du är redo att publicera din resa kan du granska de här inställningarna när du klickar på _[!UICONTROL Publish]_.
 
-## Publicera en kontoresa
+## Publicera en resa
 
-Du kan publicera en resa om det inte finns några fel i blockeringen. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen _[!UICONTROL Publish]_&#x200B;ned med innehållsinformation: `Resolve errors before publishing`.
+Du kan publicera en resa om det inte finns några fel i blockeringen. När den publiceras ändras resestatusen till _Live_. Om resan innehåller fel tonas knappen _[!UICONTROL Publish]_ned med innehållsinformation: `Resolve errors before publishing`.
 
 >[!NOTE]
 >
@@ -119,7 +143,7 @@ Du kan publicera en resa om det inte finns några fel i blockeringen. När den p
 
 1. Klicka på **[!UICONTROL Publish]** längst upp till höger på färdkartan.
 
-1. I dialogrutan _[!UICONTROL Review journey settings]_&#x200B;anger du alternativ för start av resan.
+1. I dialogrutan _[!UICONTROL Review journey settings]_anger du alternativ för start av resan.
 
    Om du redan har angett inställningar för resan för att definiera ett schema ska du granska inställningarna.
 
@@ -141,4 +165,4 @@ Du kan publicera en resa om det inte finns några fel i blockeringen. När den p
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443223/?learn=on&captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
