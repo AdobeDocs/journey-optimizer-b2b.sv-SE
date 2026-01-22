@@ -30,7 +30,7 @@ Innan du kan skapa webbupplevelser måste du se till att följande krav uppfylls
 
 * En produktadministratör har konfigurerat en eller flera webbkanaler för att definiera de URL:er (sidor) som ska inkluderas för en webbupplevelse. Mer information finns i [Konfigurationer för webbkanaler](../admin/configure-channels-web.md).
 
-* På webbplatsen har [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerats för besöksidentifiering och innehållsleverans. Kontrollera att Adobe Experience Platform Web SDK version är 2.16 eller senare.
+* På webbplatsen har [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/sv/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerats för besöksidentifiering och innehållsleverans. Kontrollera att Adobe Experience Platform Web SDK version är 2.16 eller senare.
 
 * Du har de [behörigheter](../admin/user-management.md#b2b-product-permissions) som krävs för att skapa och hantera webbupplevelser under en resa:
    * _[!UICONTROL Campaigns]_>_[!UICONTROL Manage Campaigns]_ - Krävs för att lägga till eller uppdatera en åtgärdsnod för webbanpassning.
@@ -189,16 +189,16 @@ Om du vill aktivera leverans av webbupplevelser måste följande inställningar 
 
 * I Adobe Experience Platform Data Collection kontrollerar du att du har en dataström som är definierad med alternativet Adobe Journey Optimizer B2B edition aktiverat under tjänsten Adobe Experience Platform.
 
-  Med den här konfigurationen kan Adobe Experience Platform Edge hantera inkommande händelser korrekt. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+  Med den här konfigurationen kan Adobe Experience Platform Edge hantera inkommande händelser korrekt. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/datastreams/configure)
 
 * Kontrollera att du har en sammanfogningsprincip med alternativet _[!UICONTROL Active-On-Edge Merge Policy]_&#x200B;aktiverat i Adobe Experience Platform.
 
-  Välj en profil på Experience Platform-menyn Kund > Profiler > Sammanfoga profiler. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Välj en profil på Experience Platform-menyn Kund > Profiler > Sammanfoga profiler. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Den här sammanfogningsprincipen används av inkommande kanaler i Journey Optimizer B2B edition för att korrekt aktivera och publicera inkommande webbupplevelser. [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+  Den här sammanfogningsprincipen används av inkommande kanaler i Journey Optimizer B2B edition för att korrekt aktivera och publicera inkommande webbupplevelser. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Felsökning
 
 Du kan använda Edge Delivery-vyn i Adobe Experience Platform Assurance för att felsöka leveransen av Journey Optimizer B2B edition webbupplevelser. Med denna plugin kan du granska detaljerade förfrågningar, verifiera förväntade gränsanrop och granska profildata. Profildata innehåller identitetskartor, segmentmedlemskap och inställningar för samtycke. Du kan även granska kvalificerade och okvalificerade aktiviteter för begäran.
 
-Mer information om Edge Delivery-vyn i Assurance finns i [Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery).
+Mer information om Edge Delivery-vyn i Assurance finns i [Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/assurance/view/edge-delivery).
