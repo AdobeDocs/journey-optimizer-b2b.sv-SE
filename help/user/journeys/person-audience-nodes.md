@@ -51,7 +51,7 @@ Evenemangsbaserade personresor kan kvalificera profiler som fortfarande är anon
 
      Välj alternativet _[!UICONTROL Profile audience]_. Klicka sedan på&#x200B;**[!UICONTROL Add profile audience]**.
 
-     I dialogrutan _[!UICONTROL Add audience]_väljer du ett tidigare skapat målgruppssegment. Klicka sedan på&#x200B;**[!UICONTROL Add audience]**.
+     I dialogrutan _[!UICONTROL Add audience]_&#x200B;väljer du ett tidigare skapat målgruppssegment. Klicka sedan på&#x200B;**[!UICONTROL Add audience]**.
 
      ![Välj en profilmålgrupp för noden](./assets/node-person-audience-add-audience-dialog.png){width="700" zoomable="yes"}
 
@@ -59,7 +59,7 @@ Evenemangsbaserade personresor kan kvalificera profiler som fortfarande är anon
 
      Välj alternativet _[!UICONTROL Event audience]_. Klicka sedan på&#x200B;**[!UICONTROL Add event criteria]**.
 
-     I dialogrutan _[!UICONTROL Edit event criteria]_lägger du till en eller flera händelser som du vill använda för att kvalificera målgruppsmedlemmar. För varje händelse som du lägger till klickar du på&#x200B;**[!UICONTROL Add constraint]**för att välja ett händelseattribut för en matchning. Ange utvärderingen som du vill använda för en matchning. Du kan lägga till flera begränsningar för att matcha händelsen.
+     I dialogrutan _[!UICONTROL Edit event criteria]_&#x200B;lägger du till en eller flera händelser som du vill använda för att kvalificera målgruppsmedlemmar. För varje händelse som du lägger till klickar du på&#x200B;**[!UICONTROL Add constraint]**&#x200B;för att välja ett händelseattribut för en matchning. Ange utvärderingen som du vill använda för en matchning. Du kan lägga till flera begränsningar för att matcha händelsen.
 
      ![Lägg till händelser och matchningskriterier för att kvalificera en personprofil](./assets/node-person-audience-edit-event-criteria-dialog.png){width="700" zoomable="yes"}
 
