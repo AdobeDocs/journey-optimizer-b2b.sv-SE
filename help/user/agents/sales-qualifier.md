@@ -3,9 +3,9 @@ title: Försäljningskvalificerare
 description: Automatisera kvalificering av B2B-potentiella kunder och utåtriktad verksamhet med säljkvalificerare. Det innehåller AI-driven forskning, e-postskisser, CRM-integrering och engagemangsplaner för BDR.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
+source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Använd webbläsar- och e-postpluginerna för att få tillgång till affärsinfo
 
 I följande video visas en kort demonstration av Sales Qualifier och Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476565?captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Säljkvalificerare ingår i [!UICONTROL Journey Optimizer B2B Edition], men det är en separat app i Experience Platform Experience Cloud.
 
@@ -76,7 +76,7 @@ I det här fönstret visas alla leads som du har tillgång till. Det är en snab
 
 ![Leadregister som visar lead-status och senaste aktivitet för hantering av potentiella kunder](assets/prospects.png)
 
-Klicka på ikonen _Filter_ ![Filter &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
+Klicka på ikonen _Filter_ ![Filter ](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
 
 ## Förlovningsplaner
 
@@ -147,7 +147,7 @@ Definiera URL:en för integreringen och upprätta nyttolasten som ska skickas:
 
 När anslutningsinställningarna är giltiga klickar du på **[!UICONTROL Save as draft]**.
 
-När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_&#x200B;markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**&#x200B;för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
+När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
 
 #### Hantera åtkomst
 
@@ -203,23 +203,24 @@ På fliken **[!UICONTROL Chat settings]** anger du din tillgängliga tidszonsliv
 
 ## Representativ förvaltning
 
-Panelen _[!UICONTROL Representative management]_&#x200B;visar de definierade representanterna och deras kalenderstatus.
+Panelen _[!UICONTROL Representative management]_visar de definierade representanterna och deras kalenderstatus.
 
 ## Mötesprestanda
 
 Den här panelen ger analyser kring de slutförda mötena.
 
-## Konfigurera plugin-programmet för Chrome
+<!-- SHPHR-24341 remove section 
+## Set up the Chrome plugin
 
-Chrome-plugin-programmet för AI Assistant finns på [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
+The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
-När plugin-programmet är installerat i Chrome visas Adobe logotyp i mitten till höger när du är på en integrerad webbplats:
+When the plugin is installed in Chrome, the Adobe logo appears on the middle right when you are on an integrated site:
 
-* Adobe webbprogram
+* Adobe web applications
 * Salesforce
 * Outlook
-* Microsoft Dynamics och webbprogram
-* Google-program
+* Microsoft Dynamics and web applications
+* Google applications -->
 
 ## Redigera det vänstra navigeringsfältet
 
