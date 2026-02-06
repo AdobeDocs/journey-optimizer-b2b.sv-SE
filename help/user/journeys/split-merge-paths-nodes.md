@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '2326'
+source-wordcount: '2367'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ En _delad banor_-nod definierar en eller flera segmenterade banor som baseras p�
 
 Sökvägar som delas efter konton kan innehålla både konto- och personåtgärder samt händelser. Dessa banor kan delas upp ytterligare.
 
-_&#x200B;**Så här fungerar en delad sökväg efter kontonod**&#x200B;_
+_**Så här fungerar en delad sökväg efter kontonod**_
 
 * Varje sökväg som du lägger till innehåller en slutnod med möjlighet att lägga till noder i varje kant.
 * Dela efter kontonoder kan kapslas (du kan dela upp sökvägen efter konton flera gånger).
@@ -50,7 +50,7 @@ _&#x200B;**Så här fungerar en delad sökväg efter kontonod**&#x200B;_
 
 >[!NOTE]
 >
->Filtret _[!UICONTROL Has Buying Group]_&#x200B;har markerats för framtida borttagning. Använd filtret&#x200B;_[!UICONTROL Account has matched buying group]_ för nya resor, som innehåller samma begränsningar.
+>Filtret _[!UICONTROL Has Buying Group]_har markerats för framtida borttagning. Använd filtret_[!UICONTROL Account has matched buying group]_ för nya resor, som innehåller samma begränsningar.
 
 ### Lägg till en delad sökväg efter kontonod
 
@@ -62,7 +62,7 @@ _&#x200B;**Så här fungerar en delad sökväg efter kontonod**&#x200B;_
 
 1. I nodegenskaperna till höger väljer du **[!UICONTROL Accounts]** för delningen.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
    ![Delad sökvägsnod - lägg till villkor](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
@@ -124,7 +124,7 @@ För de identifierade kontona kanske du vill lägga till en åtgärdsnod i sökv
 
 [!BADGE Beta]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Finns som betaversion av den förenklade arkitekturen"}
 
-Du kan använda relationsscheman (modellbaserade klasser) för att dela banor efter konto. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält &#x200B;](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. De markerade schemafälten är tillgängliga i villkorsredigeraren och kan användas i delade sökvägar efter kontonoder.
+Du kan använda relationsscheman (modellbaserade klasser) för att dela banor efter konto. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält ](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. De markerade schemafälten är tillgängliga i villkorsredigeraren och kan användas i delade sökvägar efter kontonoder.
 
 ![Exempel på villkor för relationsschema för erbjudande](./assets/node-split-paths-account-relational-schema.png){width="700" zoomable="yes"}
 
@@ -139,7 +139,7 @@ This will also be available for split paths by people (under special filters) fo
 
 Delade efter personsökvägar kan endast innehålla personåtgärder. Dessa banor kan inte delas igen och kopplas automatiskt tillbaka.
 
-_&#x200B;**Så här fungerar en delad sökväg med personnod**&#x200B;_
+_**Så här fungerar en delad sökväg med personnod**_
 
 * Dela efter personnoder i en _grupperad nod_, delad sammanslagning. De delade banorna sammanfogas automatiskt så att alla kan gå vidare till nästa steg utan att kontextkontexten försvinner.
 * Delning efter personnoder kan inte kapslas (du kan inte lägga till en delad sökväg för personer på en sökväg som finns i den här grupperade noden).
@@ -159,7 +159,7 @@ _&#x200B;**Så här fungerar en delad sökväg med personnod**&#x200B;_
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Intressanta aktivitetsaktiviteter som har definierats i den associerade [!DNL Marketo Engage]-instansen. Begränsningarna är: <li>Milstolpe<li>E-post<li>Webb <br>**[!UICONTROL Switch to inactivity filter]**- Använd det här alternativet om du vill filtrera baserat på bristande aktivitet (en person hade inte ett intressant ögonblick). |
 | [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Webbsidesaktivitet som för en eller flera webbsidor hanteras av den associerade [!DNL Marketo Engage]-instansen. Begränsningarna är: <li>Webbsida (obligatoriskt)<li>Aktivitetsdatum<li>Klientens IP-adress <li>Frågesträng <li>Referent <li>Användaragent <li>Sökmotor <li>Sökfråga <li>Anpassad URL <li>Token <li>Webbläsare <li>Plattform <li>Enhet <li>Min. antal gånger <br>**[!UICONTROL Switch to inactivity filter]**- Använd det här alternativet om du vill filtrera baserat på bristande aktivitet (en person har inte besökt webbsidan). |
 | [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <li>Ort <li>Land <li>Födelsedatum <li>E-postadress <li>Ogiltig e-postadress <li>E-postmeddelandet har pausats <li>Förnamn <li>Ingångsregion<li>Befattning <li>Efternamn <li>Mobiltelefonnummer <li>Personengagemangspoäng <li>Telefonnummer <li>Postnummer <li>Stat <li>Avprenumererad <li>Orsak till avbeställning |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Roll</li> |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Har tagits bort</li><li>Roll</li> |
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | Personen är eller är inte medlem i en eller flera [!DNL Marketo Engage]-listor. |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | Personen är eller är inte medlem i ett eller flera [!DNL Marketo Engage]-program. |
 
@@ -188,7 +188,7 @@ _&#x200B;**Så här fungerar en delad sökväg med personnod**&#x200B;_
    * Välj **[!UICONTROL People attributes only]** om du vill använda villkor som är relaterade till personprofilen.
    * Välj **[!UICONTROL Account-person attributes only]** om du vill använda villkor som är relaterade till personens rollmedlemskap i ett konto.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
 1. I villkorsredigeraren lägger du till ett eller flera filter för att definiera den delade banan.
 
@@ -234,7 +234,7 @@ För en delad bana som användarna delar kan du definiera en sökväg enligt per
 
 >[!BEGINSHADEBOX &quot;Inaktivitetsfiltrering&quot;]
 
-För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alternativet **[!UICONTROL Switch to inactivity filter]**. Med det här alternativet ändras filtret till en utvärdering för en frånvaro av den aktivitetstypen. Lägg till exempel till filtret&#x200B;_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_&#x200B;för att skapa en sökväg för personer som _&#x200B;**inte**&#x200B;_öppnade ett e-postmeddelande tidigare under resan. Aktivera alternativet för inaktivitet och ange e-postadressen. Det är en god vana att använda begränsningen&#x200B;_[!UICONTROL Date of activity]_ för att definiera en tidsperiod för inaktiviteten.
+För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alternativet **[!UICONTROL Switch to inactivity filter]**. Med det här alternativet ändras filtret till en utvärdering för en frånvaro av den aktivitetstypen. Lägg till exempel till filtret_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_för att skapa en sökväg för personer som _**inte**_öppnade ett e-postmeddelande tidigare under resan. Aktivera alternativet för inaktivitet och ange e-postadressen. Det är en god vana att använda begränsningen_[!UICONTROL Date of activity]_ för att definiera en tidsperiod för inaktiviteten.
 
 ![Delad sökväg efter personer - villkor för att köpa gruppmedlemskap](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -242,15 +242,29 @@ För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alt
 
 ### filtrering av medlemskap
 
-I avsnittet _[!UICONTROL Special Filters]_&#x200B;finns det flera filter som du kan använda för att utvärdera en persons medlemskap i en inköpsgrupp eller [!DNL Marketo Engage]-lista. Om du till exempel vill skapa en sökväg för personer som är medlemmar i en inköpsgrupp och har tilldelats en viss roll, lägger du till filtret&#x200B;_[!UICONTROL Special filters]_ > _[!UICONTROL Member of Buying group]_. För filtret anger du medlemskapet som_ true _, väljer en&#x200B;_[!UICONTROL Solution interest]_ som är associerad med en eller flera inköpsgrupper och anger den _[!UICONTROL Role]_&#x200B;som du vill matcha.
+I avsnittet _[!UICONTROL Special Filters]_finns det flera filter som du kan använda för att utvärdera en persons medlemskap i en inköpsgrupp eller [!DNL Marketo Engage]-lista.
+
+Om du till exempel vill skapa en sökväg för personer som är medlemmar i en inköpsgrupp och har tilldelats en viss roll, lägger du till filtret _[!UICONTROL Special filters]_>_[!UICONTROL Member of Buying group]_. För filtret anger du medlemskapet som _true_, väljer en _[!UICONTROL Solution interest]_som är associerad med en eller flera inköpsgrupper och anger den_[!UICONTROL Role]_ som du vill matcha.
 
 ![Delad sökväg efter personer - villkor för att köpa gruppmedlemskap](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX &quot;Marketo Engage listmedlemskap&quot;]
+Du kan även inkludera ytterligare begränsningar för medlemskap i inköpsgrupper:
+
+* _[!UICONTROL Buying group stage]_
+* _[!UICONTROL Buying group status]_
+* _[!UICONTROL Completeness score]_
+* _[!UICONTROL Engagement score]_
+* _[!UICONTROL Is Removed]_
+
+>[!TIP]
+>
+>Om du vill exkludera medlemmar som har tagits bort från en inköpsgrupp använder du begränsningen _[!UICONTROL Is Removed]_som är inställd på `false`. Du kan även inkludera borttagna medlemmar explicit genom att ange den här begränsningen som `true`.
+
+>[!BEGINSHADEBOX &quot;Lista och programmedlemskap för Marketo Engage&quot;]
 
 I [!DNL Marketo Engage] kontrollerar _Smarta kampanjer_ medlemskap i program för att se till att leads inte får dubbla e-postmeddelanden och inte är medlemmar i flera e-postströmmar samtidigt. I Journey Optimizer B2B kan du kontrollera om det finns ett [!DNL Marketo Engage]-listmedlemskap som ett villkor för din delade sökväg för att hjälpa till att eliminera duplicering av reseaktiviteter.
 
-Om du vill använda listmedlemskap i ett delat villkor expanderar du **[!UICONTROL Special Filters]** och drar villkoret **[!UICONTROL Member of List]** till filterområdet. Slutför filterdefinitionen för att utvärdera medlemskap i en eller flera [!DNL Marketo Engage]-listor.
+Om du vill använda listmedlemskap i ett delat villkor expanderar du **[!UICONTROL Special Filters]** och drar **[!UICONTROL Member of List]** - eller **[!UICONTROL Member of Program]** -villkoret till filterområdet. Slutför filterdefinitionen för att utvärdera medlemskap i en eller flera [!DNL Marketo Engage]-listor.
 
 ![Delad sökväg efter personer - villkor för [!DNL Marketo Engage] listmedlemskap](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
@@ -284,4 +298,4 @@ Lägg till en _sammanfoga sökvägar_-nod för att kombinera olika delade sökv�
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443260/?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

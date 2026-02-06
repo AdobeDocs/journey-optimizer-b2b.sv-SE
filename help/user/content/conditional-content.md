@@ -4,9 +4,9 @@ description: Skapa varianter av dynamiskt innehåll med villkorliga regler baser
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1202'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ När du skapar ett fragment eller ett e-postmeddelande i den visuella designrymd
 
    ![Välj villkor för variant](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Dialogrutan _[!UICONTROL Select condition]_&#x200B;öppnas och villkorsbiblioteket visas.
+   Dialogrutan _[!UICONTROL Select condition]_öppnas och villkorsbiblioteket visas.
 
    Om du vill visa information om ett villkor för att se till att det är det du vill ha klickar du på ikonen _Mer meny_ (**..**) och väljer **[!UICONTROL View Info]**.
 
@@ -108,7 +108,7 @@ Reglerna lagras i villkorsbiblioteket, där de är tillgängliga för återanvä
 | | [!UICONTROL Special filters] > [!UICONTROL Has Buying Group] | Kontot har eller saknar medlemmar i inköpsgrupper. Filtret kan också utvärderas mot ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li> |
 | **Person** | [!UICONTROL Activity history] > [!UICONTROL Email] | E-postaktiviteter som är kopplade till resan: <li>[!UICONTROL Clicked link in email]</li><li>Öppen e-post</li><li>Levererades via e-post</li><li>Har skickats e-post</li> Dessa villkor utvärderas med hjälp av ett markerat e-postmeddelande från tidigare under resan. |
 |  | [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <li>Ort</li><li>Land</li><li>Födelsedatum</li><li>E-postadress</li><li>Ogiltig e-postadress</li><li>E-postmeddelandet har pausats</li><li>Förnamn</li><li>Ingångsregion</li><li>Befattning</li><li>Efternamn</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postnummer</li><li>Stat</li><li>Avprenumererad</li><li>Orsak till avbeställning</li> |
-| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Roll</li> |
+| | [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Har tagits bort</li><li>Roll</li> |
 
 ### Skapa en villkorsregel {#create-condition}
 
@@ -119,7 +119,7 @@ Reglerna lagras i villkorsbiblioteket, där de är tillgängliga för återanvä
 
 Du kan komma åt villkorsstyrd regelbyggaren från e-postdesignområdet när du väljer ett villkor för en komponentvariant.
 
-1. Klicka på _[!UICONTROL Select condition]_&#x200B;i dialogrutan **[!UICONTROL Create new]**&#x200B;och välj villkorstyp:
+1. Klicka på _[!UICONTROL Select condition]_i dialogrutan **[!UICONTROL Create new]**och välj villkorstyp:
 
    * **[!UICONTROL Person condition]** - Välj den här typen om du vill skapa den villkorliga regeln med personattribut och sammanhangsberoende händelser.
    * **[!UICONTROL Account condition]** - Välj den här typen om du vill skapa villkorsregeln med kontoattribut.

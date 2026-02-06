@@ -4,9 +4,9 @@ description: Konfigurera händelsnoder för konto- och personutlösare - lyssna 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1649'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Under en kontoresa kan du lyssna efter en händelse som baseras på kontot när 
 
 ## Personhändelser
 
-Under en kontoresa kan du lyssna efter en händelse som baseras på personer när du vill flytta kontot framåt under resan enligt händelser som triggas av personaktivitet. Du kan också filtrera händelser efter personattribut,
+Under en kontoresa kan du lyssna efter en händelse som baseras på personer när du vill flytta kontot framåt under resan enligt händelser som triggas av personaktivitet. Du kan också filtrera händelser efter personattribut.
 
 ### Händelser och begränsningar
 
@@ -80,7 +80,7 @@ Under en kontoresa kan du lyssna efter en händelse som baseras på personer nä
 | [!UICONTROL Activity history] > [!UICONTROL Had Interesting Moment] | Intressanta ögonblick som definieras i den associerade Marketo Engage-instansen. Begränsningarna är: <li>Milstolpe<li>E-post<li>Webb <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL Activity history] > [!UICONTROL Visited web page] | Webbsidesaktivitet som för en eller flera webbsidor hanteras av den associerade Marketo Engage-instansen. Begränsningarna är: <li>Webbsida (obligatoriskt)<li>Aktivitetsdatum<li>Klientens IP-adress <li>Frågesträng <li>Referent <li>Användaragent <li>Sökmotor <li>Sökfråga <li>Anpassad URL <li>Token <li>Webbläsare <li>Plattform <li>Enhet <li>Min. antal gånger <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
 | [!UICONTROL Person Attributes] | Attribut från personprofilen, inklusive: <li>Ort <li>Land <li>Födelsedatum <li>E-postadress <li>Ogiltig e-postadress <li>E-postmeddelandet har pausats <li>Förnamn <li>Ingångsregion<li>Befattning <li>Efternamn <li>Mobiltelefonnummer <li>Personengagemangspoäng <li>Telefonnummer <li>Postnummer <li>Stat <li>Avprenumererad <li>Orsak till avbeställning |
-| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Roll</li> |
+| [!UICONTROL Special filters] > [!UICONTROL Member of Buying Group] | Personen är eller är inte medlem i en inköpsgrupp och utvärderas utifrån ett eller flera av följande kriterier: <li>Intresse av lösningar</li><li>Status för inköpsgrupp</li><li>Slutförandepoäng</li><li>Engagement Score</li><li>Har tagits bort</li><li>Roll</li> |
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | Personen är eller är inte medlem i en eller flera Marketo Engage-listor. |
 | [!UICONTROL Special filters] > [!UICONTROL Member of Program] | Personen är eller är inte medlem i ett eller flera Marketo Engage-program. |
 
@@ -108,7 +108,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 1. Klicka på pilen för väljaren **[!UICONTROL Select people event]** och rulla menyn till avsnittet **[!UICONTROL Marketo Engage]**.
 
-1. Välj en marknadsengagerande aktivitetstyp:
+1. Välj en aktivitetstyp för Marketo Engage:
 
    * **[!UICONTROL Visits Web Page]**.
    * **[!UICONTROL Fills Out Form]**
@@ -117,7 +117,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera en eller flera webbsidor som ska matcha och eventuella ytterligare begränsningar för händelsen.
 
-   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_&#x200B;definierar du begränsningen **[!UICONTROL Web page]**&#x200B;eller **[!UICONTROL Fills out form]**. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**&#x200B;för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda operatorn **[!UICONTROL is any]**&#x200B;för att matcha ett besök på en Marketo Engage-webbsida eller i ett ifyllt formulär.
+   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_definierar du begränsningen **[!UICONTROL Web page]**eller **[!UICONTROL Fills out form]**. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda operatorn **[!UICONTROL is any]**för att matcha ett besök på en Marketo Engage-webbsida eller i ett ifyllt formulär.
 
    * (Valfritt) Klicka på **[!UICONTROL Add constraint]** och välj det fält som du vill använda som begränsning. Ange operatorn och fältets värde.
 
@@ -135,7 +135,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 ### Lyssna efter en upplevelsehändelse
 
-Administratörer kan välja [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} som gör att marknadsförare kan skapa konto- och personresor som reagerar på händelserna i nära realtid. Att använda upplevelsehändelser under resor är en tvåstegsprocess:
+Administratörer kan välja [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} som gör att marknadsförare kan skapa konto- och personresor som reagerar på händelserna i nära realtid. Att använda upplevelsehändelser under resor är en tvåstegsprocess:
 
 1. En administratör [väljer händelsetyper och intressefält](../admin/configure-aep-events.md#select-an-event) för att göra dem tillgängliga på resorna.
 
@@ -224,4 +224,4 @@ Ange vid behov hur lång tid resan väntar på händelsen. Resan avslutas efter 
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443238/?captions=swe&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
