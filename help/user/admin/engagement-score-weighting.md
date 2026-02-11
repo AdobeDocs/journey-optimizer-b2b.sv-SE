@@ -23,7 +23,7 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
 ## Få åtkomst till vägningsmodeller för engagemangsmusik
 
-Öppna listan _[!UICONTROL Engagement score weighting]_om du vill visa aktiva, utkast och arkiverade modeller:
+Öppna listan _[!UICONTROL Engagement score weighting]_&#x200B;om du vill visa aktiva, utkast och arkiverade modeller:
 
 1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** i den vänstra navigeringen.
 
@@ -33,7 +33,7 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
    ![Få åtkomst till definierade poängmodeller för engagemang](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   I listan visas de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och där finns möjlighet att söka efter_[!UICONTROL Name]_.
+   I listan visas de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och där finns möjlighet att söka efter&#x200B;_[!UICONTROL Name]_.
 
    Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
 
@@ -92,7 +92,7 @@ Viktinställningarna definierar de band som du kan tilldela varje aktivitet i mo
 1. För varje viktband justerar du namnet eller värdena efter behov:
 
    * Ändra namnet i fältet _[!UICONTROL Weighting band]_.
-   * Ange ett nytt värde. Du kan även klicka på **&amp;plus;** eller **-** för att öka eller minska värdet.
+   * Ange ett nytt värde. Du kan även klicka på **&plus;** eller **-** för att öka eller minska värdet.
 
    ![Inställningar för engagemangsvikt](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
