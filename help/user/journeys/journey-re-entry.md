@@ -4,19 +4,19 @@ description: Styr när och hur ofta konton kan återföras till samma kontoresa.
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
-
 
 # Reseåterinträde
 
 _Endast kontoresor_
 
-När du aktiverar återregistrering för en kontoresa kan du styra när och hur ofta ett konto kan återkomma till samma resa. Använd inställningarna för ny registrering för att ställa in villkor, begränsningar och väntetider så att konton kan kvalificeras på ett kontrollerat sätt.
+När du aktiverar återregistrering för en kontoresa kan du styra när och hur ofta ett konto kan återkomma till samma resa. Använd inställningarna för återinträde för att ställa in villkor, begränsningar och väntetider så att kontona får kontroll över kundresan.
 
 Ett konto kan begära en resa när följande saker är sanna:
 
@@ -34,7 +34,7 @@ Du kan aktivera återinträde och ändra inställningarna för återinträde nä
 
    ![Klicka på Mer längst upp till höger](./assets/account-journey-draft-more-menu.png){width="450"}
 
-1. I dialogrutan _[!UICONTROL Journey re-entry]_&#x200B;växlar du till alternativet **[!UICONTROL Enable re-entry]**.
+1. I dialogrutan _[!UICONTROL Journey re-entry]_växlar du till alternativet **[!UICONTROL Enable re-entry]**.
 
    När funktionen är aktiverad visas alternativen för timing, delay och limits.
 

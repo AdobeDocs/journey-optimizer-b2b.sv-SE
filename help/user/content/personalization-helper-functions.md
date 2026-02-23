@@ -6,9 +6,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: uttryck, redigerare, syntax, personalisering
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4853'
+source-wordcount: '4849'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ Använd Helper-funktionerna i personaliseringsredigeraren för att definiera per
 
 >[!AVAILABILITY]
 >
->Hjälpfunktioner är tillgängliga för Joureny Optimizer B2B edition-miljöer som har etablerats på den [förenklade arkitekturen](../simplified-architecture.md).
+>Hjälpfunktioner är tillgängliga för [!DNL Journey Optimizer B2B Edition]-miljöer som har etablerats på den [förenklade arkitekturen](../simplified-architecture.md).
 
 ## Sammanställningsfunktioner
 
