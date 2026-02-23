@@ -34,7 +34,7 @@ Du kan aktivera återinträde och ändra inställningarna för återinträde nä
 
    ![Klicka på Mer längst upp till höger](./assets/account-journey-draft-more-menu.png){width="450"}
 
-1. I dialogrutan _[!UICONTROL Journey re-entry]_växlar du till alternativet **[!UICONTROL Enable re-entry]**.
+1. I dialogrutan _[!UICONTROL Journey re-entry]_&#x200B;växlar du till alternativet **[!UICONTROL Enable re-entry]**.
 
    När funktionen är aktiverad visas alternativen för timing, delay och limits.
 
