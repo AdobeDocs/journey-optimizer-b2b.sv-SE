@@ -43,7 +43,7 @@ I [!DNL Journey Optimizer B2B Edition] kan du skapa ditt dynamiska e-postinnehå
 
 >[!NOTE]
 >
->Läs mer om XDM-scheman i [dokumentationen för Adobe Experience Platform datamodell (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
+>Läs mer om XDM-scheman i [dokumentationen för Adobe Experience Platform datamodell (XDM)](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Personalization editor
 
