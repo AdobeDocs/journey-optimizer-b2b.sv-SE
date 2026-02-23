@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation av Journey Optimizer B2B-version
 user-guide-description: Läs om Adobe Journey Optimizer B2B Edition och hur du kan använda det för att hantera konton och inköpsgrupper med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
+source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 15%
+source-wordcount: '400'
+ht-degree: 16%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 15%
 + Resehantering {#journeys}
    + [Konto- och personresor](./journeys/journeys-overview.md)
    + [Skapa och publicera en resa](./journeys/create-publish-journey.md)
+   + [Reseåterinträde](./journeys/journey-re-entry.md)
    + [Resensnoder](./journeys/journey-nodes.md)
    + Resensnoder {#journey-nodes}
       + [Målgrupp](./journeys/account-audience-nodes.md)
@@ -91,7 +92,7 @@ ht-degree: 15%
          + [Testa e-poståtergivning](./content/email-test-rendering.md)
          + [Rapport om skräppost](./content/email-spam-report.md)
       + [E-postsamarbete](./content/email-collaboration-tools.md)
-   + Assets {#assets}
+   + Resurser {#assets}
       + [Översikt](./content/assets-overview.md)
       + Interna tillgångar {#internal-dam}
          + [Arbeta med interna resurser](./content/internal-image-assets.md)
