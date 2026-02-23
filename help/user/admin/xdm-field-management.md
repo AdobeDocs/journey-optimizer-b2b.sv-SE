@@ -4,13 +4,13 @@ description: Använd XDM-fälthantering för att styra vilka data som är tillg�
 feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion av den förenklade arkitekturen"
-source-git-commit: afac024e5eeb6b9d230c4292a6f37e92e16d29f6
+exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
+source-git-commit: 863265860a59abac4a73971bf923fa4cc1456e8d
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
-
 
 # XDM-fälthantering
 
@@ -50,7 +50,7 @@ Använd följande riktlinje för att göra fältmarkeringar:
 
 ### Standardklasser
 
-På fliken _[!UICONTROL Standard]_&#x200B;kan du redigera_ hanterade fält _och_ uppdateringsbara fält _för standardklasserna:
+På fliken _[!UICONTROL Standard]_kan du redigera_ hanterade fält _och_ uppdateringsbara fält _för standardklasserna:
 
 * Hanterade fält visas på resor, i inköpsgrupper och i personaliseringsfunktioner.
 * Uppdateringsbara fält fungerar som begränsningar för noderna _Uppdatera kontoprofil_ och _Uppdatera personprofil_.
@@ -68,7 +68,7 @@ Den klassinformation som visas omfattar:
 * Antal uppdateringsbara fält
 * Senaste uppdateringstid
 
-Om du vill välja fält från unionsschemat för standard-XDM-klasser klickar du på klassnamnet för att öppna dialogrutan _Hanterade fält_ eller klickar på ikonen _Mer meny_ ( **...** ) för att välja mellan _[!UICONTROL Managed fields]_&#x200B;och&#x200B;_[!UICONTROL Updatable fields]_.
+Om du vill välja fält från unionsschemat för standard-XDM-klasser klickar du på klassnamnet för att öppna dialogrutan _Hanterade fält_ eller klickar på ikonen _Mer meny_ ( **...** ) för att välja mellan _[!UICONTROL Managed fields]_och_[!UICONTROL Updatable fields]_.
 
 ![Klicka på ikonen Mer för att välja mellan hanterade fält och uppdateringsbara fält](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
 
@@ -82,7 +82,7 @@ När du väljer **[!UICONTROL Managed fields]** visas alla konfigurerbara fält 
 
 1. Välj upp till 100 fält för varje XDM-klass.
 
-   Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
+   Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
 
    ![Dialogrutan för val av hanterade fält för standard-XDM-klasser som visar alternativ för konfigurerbara fält](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
@@ -90,7 +90,7 @@ När du väljer **[!UICONTROL Managed fields]** visas alla konfigurerbara fält 
 
 #### Uppdateringsbara fält
 
-Innan du konfigurerar uppdateringsbara fält måste de finnas i en anpassad datamängd. En genomgång av arbetsflödet för anpassade datauppsättningar finns i [Skapa datauppsättningar och importera data](https://experienceleague.adobe.com/sv/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} och använd alternativet **[!UICONTROL Create dataset from schema]**. Den här datauppsättningen används för att isolera uppdateringsbara fält. Alla uppdateringsbara fält måste finnas i den här datauppsättningen.
+Innan du konfigurerar uppdateringsbara fält måste de finnas i en anpassad datamängd. En genomgång av arbetsflödet för anpassade datauppsättningar finns i [Skapa datauppsättningar och importera data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} och använd alternativet **[!UICONTROL Create dataset from schema]**. Den här datauppsättningen används för att isolera uppdateringsbara fält. Alla uppdateringsbara fält måste finnas i den här datauppsättningen.
 
 >[!IMPORTANT]
 >
@@ -113,15 +113,15 @@ Skapa en datauppsättning för Individual Profile och en annan för Business Acc
 
 Med Relationsscheman kan du skapa anpassade dataklasser. Med tillgång till flera datauppsättningar kan du skapa klasser som är särskilt anpassade efter dina databehov. Använd relationsscheman för affärsenheter som inköp, licenser och händelseregistreringar i resebeslut och e-postpersonalisering. Du kan välja upp till 50 scheman och upp till 100 fält per schema.
 
-Mer information om hur du kan använda de valda fälten för avancerad e-postanpassning finns i [Innehållspersonalisering](../content/personalization.md#custom-datasets). Mer information om hur du kan använda de valda fälten för resebeslut (delade sökvägar efter konto) finns i [Anpassad datafiltrering](../journeys/split-merge-paths-nodes.md#custom-data-filtering). <!-- add link to split path by people in M 1.5 GA release -->
+Mer information om hur du kan använda de valda fälten för avancerad e-postanpassning finns i [Innehållspersonalisering](../content/personalization.md#custom-datasets). Mer information om hur du kan använda de valda fälten för resebeslut (delade sökvägar efter konto eller personer) finns i [Anpassad datafiltrering](../journeys/split-merge-paths-nodes.md#custom-data-filtering).
+
+>[!AVAILABILITY]
+>
+>[Relationsscheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad tillgänglighetsrelease. Data Mirror och relationsscheman är tillgängliga för [!DNL Journey Optimizer Orchestrated Campaigns] licensinnehavare. Relationsscheman är också tillgängliga som en begränsad version för [!DNL Customer Journey Analytics]-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
 
 >[!NOTE]
 >
->[Relationsscheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad tillgänglighetsrelease. Data Mirror och relationsscheman är tillgängliga för [!DNL Journey Optimizer Orchestrated Campaigns] licensinnehavare. Relationsscheman är också tillgängliga som en begränsad version för [!DNL Customer Journey Analytics]-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
-
->[!NOTE]
->
->Den här funktionen har för närvarande stöd för kontorelaterade anpassade användningsfall för objekt, med planer på att i framtiden stödja fler körklara användningsfall för objekt.
+>Den här funktionen har för närvarande stöd för kontorelaterade och personrelaterade fall av anpassad objektanvändning, med planer på att ge stöd för fler körklara användningsfall för objekt i framtiden.
 
 Du kan skapa relationsscheman med schemaredigeraren (gå till **[!UICONTROL Data Management]** > **[!UICONTROL Schemas]** i den vänstra navigeringen).
 
@@ -144,13 +144,9 @@ Så här väljer du relationsschemafält som ska användas i [!DNL Journey Optim
 
    >[!NOTE]
    >
-   >I den här betafunktionen stöds bara _Account many-to-one Custom Objects_.
+   >I den här betafunktionen stöds bara _Account och People many-to-one Custom Objects_.
 
 1. Välj ett relationsschema och klicka på **[!UICONTROL Next]**.
-
-   >[!NOTE]
-   >
-   >I den här betafunktionen kan du inte ta bort ett schema från listan efter att du har valt det.
 
    ![Välj ett relationsschema i dialogrutan](./assets/xdm-classes-relational-select-schema-dialog.png){width="500" zoomable="yes"}
 
@@ -172,7 +168,7 @@ Så här väljer du relationsschemafält som ska användas i [!DNL Journey Optim
    * Primär nyckel
    * Versionsbeskrivare
 
-   Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
+   Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
 
    ![Välj fält för relationsschemat i dialogrutan](./assets/xdm-classes-relational-select-schema-fields.png){width="500" zoomable="yes"}
 
