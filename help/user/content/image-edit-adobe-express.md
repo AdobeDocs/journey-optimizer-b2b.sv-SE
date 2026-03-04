@@ -4,9 +4,9 @@ description: Redigera bilder direkt med Adobe Express i Journey Optimizer B2B ed
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 7e58b0ccb9d9dd0192cb119bec83a1f13e3d5d69
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Den här åtgärden öppnar en listsida med alla resurser listade.
    >
    >Det är en god vana att välja [fliken _[!UICONTROL Used By]_](./internal-image-assets.md#view-asset-used-by-references) i bildinformationen och granska innehållet där bilden används innan du fortsätter att redigera bildfilen.
 
-1. Klicka på _[!UICONTROL Details]_&#x200B;i bilden **[!UICONTROL Edit with Adobe Express]**&#x200B;till höger.
+1. Klicka på **[!UICONTROL Edit with Adobe Express]** i bilden _[!UICONTROL Details]_till höger.
 
    ![Öppna bilden i Adobe Express Editor](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
@@ -70,7 +70,7 @@ Om du har en Enterprise-licens för Adobe Express kan du komma åt och använda 
 
 ![Öppna bilden i Adobe Express Enterprise Editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-[Adobe Express användarhandbok](https://helpx.adobe.com/se/express/web.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
+[Adobe Express användarhandbok](https://helpx.adobe.com/express/web.html){target="_blank"} innehåller detaljerad information om tillgängliga redigeringsfunktioner.
 
 ## Snabbåtgärder i Adobe Express
 
@@ -88,13 +88,13 @@ Om du inte har någon Adobe Express Enterprise-licens har du tillgång till Adob
 
 1. När du kommer tillbaka till Adobe Express snabbredigerare klickar du på **[!UICONTROL Save]** för att spara den ändrade bildfilen i Journey Optimizer B2B edition resurskatalog med samma filnamn.
 
-## Ändra bildstorlek
+### Ändra bildstorlek
 
 1. Använd storleksinställningarna för att förminska eller förstora bilden:
 
    * Välj ett **[!UICONTROL Aspect ratio]**-alternativ. Använd en standardstorlek för digitalt innehåll eller välj **[!UICONTROL Custom]** om du vill ange värden för **[!UICONTROL Width]** och **[!UICONTROL Height]** efter dina behov.
 
-   * Visade _[!UICONTROL Original size]_&#x200B;och&#x200B;_[!UICONTROL Compressed size]_ visar de storleksändringar som blir resultatet om du tillämpar ändringarna. Med verktyget **[!UICONTROL Zoom and Crop]** kan du inspektera delar av den visade bilden närmare.
+   * Visade _[!UICONTROL Original size]_och_[!UICONTROL Compressed size]_ visar de storleksändringar som blir resultatet om du tillämpar ändringarna. Med verktyget **[!UICONTROL Zoom and Crop]** kan du inspektera delar av den visade bilden närmare.
 
    * Om du vill återställa bilden till det ursprungliga läget klickar du på **[!UICONTROL Reset]**.
 
@@ -102,13 +102,13 @@ Om du inte har någon Adobe Express Enterprise-licens har du tillgång till Adob
 
 1. När du är nöjd med resultatet klickar du på **[!UICONTROL Apply]**.
 
-## Ta bort bakgrund
+### Ta bort bakgrund
 
 ![Redigera med Adobe Express - ta bort bakgrund](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
 Adobe Express utför en automatisk borttagning av bakgrunden för att isolera det primära objektet i bilden. Om du är nöjd med resultatet klickar du på **[!UICONTROL Apply]**.
 
-## Beskär bild
+### Beskär bild
 
 1. Dra i handtagen på hörnen av bilden för att ta bort de yttre områden som du inte vill ta med i bildresursen.
 
@@ -116,7 +116,7 @@ Adobe Express utför en automatisk borttagning av bakgrunden för att isolera de
 
 1. När du är nöjd med resultatet klickar du på **[!UICONTROL Apply]**.
 
-## Konvertera filformat
+### Konvertera filformat
 
 * **[!UICONTROL Convert to JPEG]** - För en PNG-bild kan du konvertera bilden till en JPEG-bildfil och spara den som en ny resurs.
 * **[!UICONTROL Convert to PNG]** - För en JPEG-bild kan du konvertera bilden till en PNG-bildfil och spara den som en ny resurs.

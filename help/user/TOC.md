@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B edition Documentation
 user-guide-description: Läs om Adobe Journey Optimizer B2B edition och hur du kan använda det för att skapa konto och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '415'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 2%
    + [Aktivera åtkomst till AI Assistant](./ai-assistant/enable-ai-assistant-access.md)
    + [Frågevägledning](./ai-assistant/question-guidance.md)
    + [Använd AI-assistenten](./ai-assistant/use-ai-assistant.md)
+   + [Generativ AI för innehåll](./ai-assistant/generative-ai-content.md)
    + Agenter {#ai-agents}
       + [Audience Agent](./agents/audience-agent-b2b.md)
       + [Journey Build Agent B2B](./agents/journey-agent.md)
@@ -116,6 +117,7 @@ ht-degree: 2%
    + Landningssidor (Beta) {#landing-pages}
       + [Översikt](./content/landing-pages.md)
       + [Landningssiddesign](./content/landing-page-design.md)
+      + [AI Assistant för landningssidans innehåll](./content/ai-assistant-landing-pages.md)
    + Verktyg för innehållsdesign {#content-design}
       + [Strukturkomponenter](./content/structure-components.md)
       + [Innehållskomponenter](./content/content-components.md)

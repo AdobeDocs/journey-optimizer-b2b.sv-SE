@@ -5,9 +5,9 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2108'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 En landningssida är en fristående webbsida där du kan dirigera kontakter och kunder efter att de har klickat på ett länkat objekt i ett e-postmeddelande, SMS-meddelande eller någon annan digital plats. Du kan lägga in dessa sidor i dina kontoresor så att dina presumtiva kunder och kunder kan se dina meddelanden på webben och hur kontoresan fortskrider. Du kan skapa, anpassa och förhandsgranska landningssidor i den visuella designrymden för landningssidan.
 
-Om du vill dirigera kunderna till en definierad webbsida när de klickar på en viss länk skapar du en landningssida i Journey Optimizer B2B edition.
+Om du vill dirigera dina kunder till en definierad webbsida när de klickar på en viss länk skapar du en landningssida i Journey Optimizer B2B edition:
 
 * Skapa sidan
 * Utforma landningssidan och författarinnehållet
@@ -68,7 +68,7 @@ Landningssidans status avgör om den är tillgänglig för länkning i e-post- o
 
 Du kan lägga till en ny landningssida i Journey Optimizer B2B edition genom att klicka på **[!UICONTROL Create landing page]** överst till höger.
 
-1. Ange ett användbart _[!UICONTROL Create landing page]_&#x200B;och **[!UICONTROL Name]**(valfritt) i dialogrutan **[!UICONTROL Description]**.
+1. Ange ett användbart **[!UICONTROL Name]** och **[!UICONTROL Description]** (valfritt) i dialogrutan _[!UICONTROL Create landing page]_.
 
    Krav för landningssida:
 
@@ -86,7 +86,7 @@ Du kan lägga till en ny landningssida i Journey Optimizer B2B edition genom att
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   Hemsidan _[!UICONTROL Create your primary landing page]_&#x200B;öppnas och innehåller flera alternativ för att skapa sidan:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_&#x200B;eller använda en sparad mall.
+   Hemsidan _[!UICONTROL Create your primary landing page]_öppnas och innehåller flera alternativ för att skapa sidan:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_eller använda en sparad mall.
 
    ![Välj hur du vill börja med landningssidans design](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
@@ -96,7 +96,7 @@ Du kan lägga till en ny landningssida i Journey Optimizer B2B edition genom att
 
 Använd den visuella innehållsredigeraren för att definiera strukturen för innehållet på landningssidan. Genom att lägga till och flytta strukturella komponenter med enkla dra och släpp-åtgärder kan du designa formen på sidinnehållet på några sekunder.
 
-1. Välj alternativet _[!UICONTROL Create your primary landing page]_&#x200B;på startsidan för **[!UICONTROL Design from scratch]**.
+1. Välj alternativet **[!UICONTROL Design from scratch]** på startsidan för _[!UICONTROL Create your primary landing page]_.
 
 1. [Lägg till struktur och innehåll](./landing-page-design.md#add-structure-and-content) på sidan.
 
@@ -114,15 +114,15 @@ Med Adobe Journey Optimizer B2B edition kan du importera befintligt HTML-innehå
 
 Du kan anpassa det importerade innehållet efter behov med den visuella designrymden.
 
-### Välj en sparad mall
+### Välj en sparad mall eller en exempelmall
 
 Du kan välja mellan:
 
-* **Exempelmallar**. Journey Optimizer-gränssnittet innehåller en samling färdiga sidmallar som du kan välja bland.
+* **Exempelmallar**. Journey Optimizer B2B edition-gränssnittet innehåller en samling färdiga mallar för landningssidor som du kan använda som startpunkt för landningssidans design.
 
 * **Sparade mallar**. Använd en sparad anpassad mall som har skapats av en medlem i organisationen med hjälp av _[!UICONTROL Templates]_-menyn <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
 
-Använd avsnittet _[!UICONTROL Select design template]_&#x200B;för att börja skapa innehåll från en mall. Du kan använda en exempelmall eller en sparad anpassad landningssidmall från din Journey Optimizer B2B edition-instans.
+Använd avsnittet _[!UICONTROL Select design template]_för att börja skapa innehåll från en mall. Du kan använda en exempelmall eller en sparad anpassad landningssidmall från din Journey Optimizer B2B edition-instans.
 
 >[!BEGINTABS]
 
@@ -169,7 +169,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 >[!TAB Utkast]
 
-1. Klicka på landningssidans namn på listsidan _[!UICONTROL Landing pages]_&#x200B;för att öppna den.
+1. Klicka på landningssidans namn på listsidan _[!UICONTROL Landing pages]_för att öppna den.
 
    En förhandsgranskning av det visuella innehållet visas, med information om landningssidan till höger.
 
@@ -193,7 +193,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 >[!TAB Publicerad]
 
-1. Klicka på sidnamnet på listsidan _[!UICONTROL Landing page]_&#x200B;för att öppna den.
+1. Klicka på sidnamnet på listsidan _[!UICONTROL Landing page]_för att öppna den.
 
    En förhandsgranskning av det visuella innehållet visas, med information om landningssidan till höger.
 
@@ -225,7 +225,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 När du öppnar landningssidan visas utkastet som standard. Med flikarna högst upp i förhandsvisningsområdet kan du växla visningen mellan publicerade versioner och utkastversioner. Utkaståtgärder och information visas till höger.
 
-![Förhandsgranskning och information för landningssidans utkast &#x200B;](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
+![Förhandsgranskning och information för landningssidans utkast ](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
 
 Så här uppdaterar du innehållet:
 
@@ -271,7 +271,7 @@ Det finns två typer av varningar:
 
 Du kan duplicera en landningssida på något av följande sätt:
 
-* Klicka på ikonen _[!UICONTROL Landing page]_&#x200B;Mer_ (_..**) bredvid landningssidans namn på listsidan**&#x200B;och välj **[!UICONTROL Duplicate]**.
+* Klicka på ikonen _Mer_ (**..**) på listsidan för _[!UICONTROL Landing page]_. bredvid landningssidans namn och välj **[!UICONTROL Duplicate]**.
 * Klicka på **[!UICONTROL ... More]** längst upp till höger på informationssidan för landningssidan och välj **[!UICONTROL Duplicate]**.
 
 ![Duplicera landningssidan](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
@@ -286,7 +286,7 @@ Den duplicerade (nya) sidan visas sedan i listan _Landningssidor_.
 
 Du kan ta bort en landningssida på något av följande sätt:
 
-* Klicka på ikonen _[!UICONTROL Landing page]_&#x200B;Mer_ (_..**) bredvid landningssidans namn på listsidan**&#x200B;och välj **[!UICONTROL Delete]**.
+* Klicka på ikonen _Mer_ (**..**) på listsidan för _[!UICONTROL Landing page]_. bredvid landningssidans namn och välj **[!UICONTROL Delete]**.
 * Klicka på **[!UICONTROL ... More]** längst upp till höger på informationssidan för landningssidan och välj **[!UICONTROL Delete]**.
 
 Åtgärden öppnar en bekräftelsedialogruta. Du kan avbryta processen genom att klicka på **[!UICONTROL Cancel]** eller klicka på **[!UICONTROL Delete]** för att bekräfta borttagningen.
@@ -301,7 +301,7 @@ Som marknadsförare eller Designer som skapar e-post-, fragment- och sidinnehål
 
    Alternativen för **[!UICONTROL Link]** visas på den högra panelen.
 
-1. Välj **[!UICONTROL Type]** för alternativet **[!UICONTROL Landing page]**.
+1. Välj **[!UICONTROL Landing page]** för alternativet **[!UICONTROL Type]**.
 
    ![Länkalternativ för en landningssida](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
 
