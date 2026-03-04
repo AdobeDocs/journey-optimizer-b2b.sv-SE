@@ -335,7 +335,7 @@ Förutom att använda en tydlig och välformad prompt innehåller textinställni
 
 >[!TIP]
 >
->Använd alternativen _[!UICONTROL Communication strategy]_och_[!UICONTROL Tone]_ i _[!UICONTROL Text settings]_i stället för att ange dessa egenskaper i uppmaningen.
+>Använd alternativen _[!UICONTROL Communication strategy]_&#x200B;och&#x200B;_[!UICONTROL Tone]_ i _[!UICONTROL Text settings]_&#x200B;i stället för att ange dessa egenskaper i uppmaningen.
 
 ### Typ av kommunikationsstrategi
 

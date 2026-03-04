@@ -30,7 +30,7 @@ AI Assistant i Journey Optimizer B2B edition skapas från samma tekniska grund s
 
 ## AI Assistant-funktioner i Journey Optimizer B2B edition
 
-Om du vill formulera ett svar på dina inskickade frågor skickar AI Assistant en fråga till en databas och översätter data från databasen till ett läsbart svar. Det här svaret är en intern representation av underliggande data och kallas även _**_kunskapsdiagram_**_ - en omfattande webbplats med koncept, data och metadata för ett givet svar. Kunskapsdiagrammet består av deldiagram som refereras när frågor skickas:
+Om du vill formulera ett svar på dina inskickade frågor skickar AI Assistant en fråga till en databas och översätter data från databasen till ett läsbart svar. Det här svaret är en intern representation av underliggande data och kallas även _&#x200B;**_kunskapsdiagram_**&#x200B;_ - en omfattande webbplats med koncept, data och metadata för ett givet svar. Kunskapsdiagrammet består av deldiagram som refereras när frågor skickas:
 
 * Experience League dokumentation.
 * Operativa artefakter som scheman, fält, målgrupper och resor.

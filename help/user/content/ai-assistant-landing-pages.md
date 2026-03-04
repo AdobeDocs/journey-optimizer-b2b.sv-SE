@@ -30,7 +30,7 @@ Ni kan generera kompletta innehållsupplevelser för era landningssidor, både t
 
 ## Riktlinjer och begränsningar
 
-Läs [riktlinjerna och begränsningarna](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations) innan du börjar använda den här funktionen. [Godkännande av användaravtal ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} krävs också innan du kan använda AI-funktioner i [!DNL Journey Optimizer B2B Edition]. Kontakta Adobe om du vill ha mer information.
+Läs [riktlinjerna och begränsningarna](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations) innan du börjar använda den här funktionen. [Godkännande av användaravtal &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} krävs också innan du kan använda AI-funktioner i [!DNL Journey Optimizer B2B Edition]. Kontakta Adobe om du vill ha mer information.
 
 Med Adobe åtagande att främja genomskinlighet vid användning av generativa AI-verktyg när du skapar media, tillämpar Adobe [innehållsuppgifter](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} för allt innehåll eller projekt som innehåller en Firefly-genererad resurs när den hämtas eller exporteras.
 
@@ -62,7 +62,7 @@ Ett effektivt tips är nödvändigt för att skapa så bra innehåll som möjlig
 
 ![AI Assistant - gå till frågebiblioteket](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Välj den fråga som bäst återspeglar dina avsedda mål och klicka på **[!UICONTROL Try this Prompt]**. Ersätt eventuella platshållare (till exempel `[Key Feature/Information]`) i fältet _[!UICONTROL Prompt]_med de värden som krävs för att ange varumärket, erbjudandet, kampanjen och användningsfall.
+Välj den fråga som bäst återspeglar dina avsedda mål och klicka på **[!UICONTROL Try this Prompt]**. Ersätt eventuella platshållare (till exempel `[Key Feature/Information]`) i fältet _[!UICONTROL Prompt]_&#x200B;med de värden som krävs för att ange varumärket, erbjudandet, kampanjen och användningsfall.
 
 >[!ENDSHADEBOX]
 
@@ -94,7 +94,7 @@ Alternativet **[!UICONTROL Generate images using AI]** är inaktiverat som stand
 * **[!UICONTROL Lighting]**: Den ljusstil som används för bilden, som formar atmosfären och markerar specifika element.
 * **[!UICONTROL Composition]**: Elementets placering inom en bilds bildruta.
 
-![Panelen Bildinställningar med alternativen Innehållstyp, Visuell intensitet, Färg och Ton, Ljus och Disposition ](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+![Panelen Bildinställningar med alternativen Innehållstyp, Visuell intensitet, Färg och Ton, Ljus och Disposition &#x200B;](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
 
 Klicka på vänsterpilen för att gå tillbaka till huvudpilen _[!UICONTROL Settings]_.
 
@@ -128,7 +128,7 @@ Följ de här stegen för att använda AI Assistant för att skapa hela landning
 
 1. Välj en mall.
 
-   För att generera fullständigt innehåll krävs en mall. Det kan vara en standardmall från Adobe eller en sparad mall. Du kan också använda alternativet _[!UICONTROL Import HTML]_för att importera en mall.
+   För att generera fullständigt innehåll krävs en mall. Det kan vara en standardmall från Adobe eller en sparad mall. Du kan också använda alternativet _[!UICONTROL Import HTML]_&#x200B;för att importera en mall.
 
    Mer information om hur du använder en landningssidmall finns i _[Välja en sparad mall eller exempelmall](./landing-pages.md#select-a-saved-or-sample-template)_.
 
@@ -162,7 +162,7 @@ Följ de här stegen för att använda AI Assistant för att skapa hela landning
 
 1. Bläddra nedåt på AI Assistant-panelen och bläddra igenom de varianter som skapas för att se vilken som passar bäst.
 
-   * Klicka på ikonen _Helskärm_ ( ![Helskärm ](../assets/do-not-localize/icon-full-screen.svg) ) för att öppna dialogrutan _[!UICONTROL Generate Landing Page]_
+   * Klicka på ikonen _Helskärm_ ( ![Helskärm &#x200B;](../assets/do-not-localize/icon-full-screen.svg) ) för att öppna dialogrutan _[!UICONTROL Generate Landing Page]_
 
    * Om det behövs kan du använda [förfiningsåtgärderna](#refine-a-variation) för att finjustera variationen så att den uppfyller dina exakta krav.
 
@@ -170,7 +170,7 @@ Följ de här stegen för att använda AI Assistant för att skapa hela landning
 
 1. Klicka på **[!UICONTROL Select]** om du vill ersätta mallinnehållet med den valda varianten och återgå till designområdet för landningssidan.
 
-   Du kan använda redigerings- och formateringsverktygen på arbetsytan för att ändra det genererade innehållet samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
+   Du kan använda redigerings- och formateringsverktygen på arbetsytan för att ändra det genererade innehållet samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
 
 >[!TAB Endast text]
 
@@ -204,7 +204,7 @@ Följ de här stegen för att använda AI Assistant för att förfina eller för
 
 1. Bläddra nedåt på AI Assistant-panelen och bläddra igenom de varianter som skapas för att se vilken som passar bäst.
 
-   * Klicka på ikonen _Helskärm_ ( ![Helskärm ](../assets/do-not-localize/icon-full-screen.svg) ) för att öppna dialogrutan _[!UICONTROL Generate Text]_
+   * Klicka på ikonen _Helskärm_ ( ![Helskärm &#x200B;](../assets/do-not-localize/icon-full-screen.svg) ) för att öppna dialogrutan _[!UICONTROL Generate Text]_
 
    * Om det behövs kan du använda [förfiningsåtgärderna](#refine-a-variation) för att finjustera variationen så att den uppfyller dina exakta krav.
 
@@ -212,7 +212,7 @@ Följ de här stegen för att använda AI Assistant för att förfina eller för
 
 1. När du har önskat innehåll klickar du på **[!UICONTROL Select]** för att ersätta texten med den valda varianten och återgå till designutrymmet för landningssidan.
 
-   Du kan använda redigerings- och formateringsverktygen på arbetsytan för att ändra texten, samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
+   Du kan använda redigerings- och formateringsverktygen på arbetsytan för att ändra texten, samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
 
 >[!TAB Endast bild]
 
@@ -262,7 +262,7 @@ Följ de här stegen för att använda AI Assistant för att förfina eller för
 
 1. Markera bilden som du vill använda och klicka på **[!UICONTROL Select]** för att ersätta bilden eller platshållaren med det valda objektet och återgå till designutrymmet för landningssidan.
 
-   Du kan använda redigerings- och formateringsverktygen på arbetsytan för att ändra bilden samt alternativen _[!UICONTROL Settings]_och_[!UICONTROL Style]_ till höger.
+   Du kan använda redigerings- och formateringsverktygen på arbetsytan för att ändra bilden samt alternativen _[!UICONTROL Settings]_&#x200B;och&#x200B;_[!UICONTROL Style]_ till höger.
 
 >[!ENDTABS]
 
@@ -274,7 +274,7 @@ När du har genererat innehållsvariationer kan du finjustera resultatet för at
 
 1. Bläddra bland **[!UICONTROL Variations]** efter den första genereringen av innehåll.
 
-1. Identifiera den variation som är bäst för dina mål och klicka på ikonen _Helskärm_ ( ![Helskärm ](../assets/do-not-localize/icon-full-screen.svg) ) för att öppna dialogrutan.
+1. Identifiera den variation som är bäst för dina mål och klicka på ikonen _Helskärm_ ( ![Helskärm &#x200B;](../assets/do-not-localize/icon-full-screen.svg) ) för att öppna dialogrutan.
 
    ![Öppna dialogrutan Generera](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
