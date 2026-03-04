@@ -32,7 +32,7 @@ Ni kan generera kompletta innehållsupplevelser för era landningssidor, både t
 
 Läs [riktlinjerna och begränsningarna](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations) innan du börjar använda den här funktionen. [Godkännande av användaravtal &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} krävs också innan du kan använda AI-funktioner i [!DNL Journey Optimizer B2B Edition]. Kontakta Adobe om du vill ha mer information.
 
-Med Adobe åtagande att främja genomskinlighet vid användning av generativa AI-verktyg när du skapar media, tillämpar Adobe [innehållsuppgifter](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} för allt innehåll eller projekt som innehåller en Firefly-genererad resurs när den hämtas eller exporteras.
+Med Adobe åtagande att främja genomskinlighet vid användning av generativa AI-verktyg när du skapar media, tillämpar Adobe [innehållsuppgifter](https://helpx.adobe.com/se/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} för allt innehåll eller projekt som innehåller en Firefly-genererad resurs när den hämtas eller exporteras.
 
 Följande begränsningar och riktlinjer gäller för AI Assistant-funktioner som används för att generera innehåll på landningssidor i [!DNL Journey Optimizer B2B Edition]:
 

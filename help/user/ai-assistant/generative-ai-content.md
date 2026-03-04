@@ -49,7 +49,7 @@ AI Assistant-verktyg för innehållsgenerering stöds med följande resurstyper:
 
 ## Allmänna riktlinjer och begränsningar {#general-guidelines-and-limitations}
 
-Användningen av generativa AI-funktioner regleras av [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Med Adobe engagemang för genomskinlighet i användningen av generativa AI-verktyg för att skapa media, tillämpar Adobe [innehållsuppgifter](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} för allt innehåll eller projekt som innehåller en [!DNL Firefly]-genererad resurs när den hämtas eller exporteras.
+Användningen av generativa AI-funktioner regleras av [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Med Adobe engagemang för genomskinlighet i användningen av generativa AI-verktyg för att skapa media, tillämpar Adobe [innehållsuppgifter](https://helpx.adobe.com/se/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} för allt innehåll eller projekt som innehåller en [!DNL Firefly]-genererad resurs när den hämtas eller exporteras.
 
 Läs de här allmänna riktlinjerna för hur du använder generativ AI för innehåll i [!DNL Journey Optimizer B2B Edition]:
 
