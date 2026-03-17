@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Audience Agent B2B
 
-Audience Agent B2B är tillgänglig i Journey Optimizer B2B edition med [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator). Med denna agent blir det effektivare och effektivare att utforska och skala målgrupper, vilket snabbar upp framtagningen av inköpsgrupper och smidiga arbetsflöden för aktivering av kundresan:
+Audience Agent B2B är tillgänglig i Journey Optimizer B2B edition med [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/sv/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator). Med denna agent blir det effektivare och effektivare att utforska och skala målgrupper, vilket snabbar upp framtagningen av inköpsgrupper och smidiga arbetsflöden för aktivering av kundresan:
 
 * **_Prioritera målgrupper utifrån avsikt_**: Använd personprofiler baserat på produktavsikt för olika målgrupper och effektivisera kampanjplaneringen, minska tiden som läggs på målgruppsvalidering.
 
