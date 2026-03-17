@@ -1,15 +1,15 @@
 ---
 title: Försäljningskvalificerare
 description: Automatisera kvalificering av B2B-potentiella kunder och utåtriktad verksamhet med säljkvalificerare. Det innehåller AI-driven forskning, e-postskisser, CRM-integrering och engagemangsplaner för BDR.
-feature: AI Assistant, Sales Insights, Account Journeys
+feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
+exl-id: cc590444-41df-44fe-830b-92241718ee81
+source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
-
 
 # Försäljningskvalificerare
 
@@ -24,7 +24,7 @@ Använd webbläsar- och e-postpluginerna för att få tillgång till affärsinfo
 
 I följande video visas en kort demonstration av Sales Qualifier och Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476565?captions=swe)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Säljkvalificerare ingår i [!UICONTROL Journey Optimizer B2B Edition], men det är en separat app i Experience Platform Experience Cloud.
 
@@ -54,7 +54,7 @@ Account Qualification Agent (AQA) är hjärtat i Sales Qualifier. AQA använder 
 
 ### Grundläggande användning
 
-Adobe AI-agenter använder _naturliga språkfrågor_, vilket innebär att de använder samma språk i textprompten som när du pratar med en person. Ju mer detaljerad du är, desto bättre resultat.
+Adobe AI-agenter använder _frågor för naturligt språk_, vilket innebär att de använder samma språk i textprompten som när du pratar med en person. Ju mer detaljerad du är, desto bättre resultat.
 
 Med naturspråket kan du be agenten att:
 
@@ -64,7 +64,7 @@ Med naturspråket kan du be agenten att:
 
 Ni kan omedelbart förstå vilka konton och leads som är de mest aktiva och visa det högsta avsikten, så att ni kan fokusera er energi där den har störst effekt.
 
-Iterera längs hela kundresan genom att förfina era uppmaningar för att få de resultat ni behöver. Exempel:
+Iterera längs hela kundresan genom att förfina era uppmaningar för att få de resultat ni behöver. Till exempel:
 
 * Utforma en uppföljning av e-postritning från ett sammanhang som inkomstsamtal eller rapporter. Upp till 120 ord. Ämnesrad: Engagerande, inbyggt nyckeltema. Intro: Ansluta med ett direkt citat från sammanhangskällor. Brödtext: Koppla samman med problempunkter och värdeförslag. CTA: föreslå ett kort samtal för att utforska vidare.
 
@@ -76,7 +76,7 @@ I det här fönstret visas alla leads som du har tillgång till. Det är en snab
 
 ![Leadregister som visar lead-status och senaste aktivitet för hantering av potentiella kunder](assets/prospects.png)
 
-Klicka på ikonen _Filter_ ![Filter &#x200B;](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
+Klicka på ikonen _Filter_ ![Filter ](../../assets/do-not-localize/icon_filter-outline.svg) för att filtrera den visade listan efter lead-status.
 
 ## Förlovningsplaner
 
@@ -147,7 +147,7 @@ Definiera URL:en för integreringen och upprätta nyttolasten som ska skickas:
 
 När anslutningsinställningarna är giltiga klickar du på **[!UICONTROL Save as draft]**.
 
-När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_&#x200B;markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**&#x200B;för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
+När du är tillbaka i huvudtabellen _[!UICONTROL Integrations]_markerar du integreringen och klickar på&#x200B;**[!UICONTROL Activate]**för att göra integreringen offentlig. Om du inte är redo att aktivera den klickar du på&#x200B;**[!UICONTROL Save as draft]**.
 
 #### Hantera åtkomst
 
@@ -203,7 +203,7 @@ På fliken **[!UICONTROL Chat settings]** anger du din tillgängliga tidszonsliv
 
 ## Representativ förvaltning
 
-Panelen _[!UICONTROL Representative management]_&#x200B;visar de definierade representanterna och deras kalenderstatus.
+Panelen _[!UICONTROL Representative management]_visar de definierade representanterna och deras kalenderstatus.
 
 ## Mötesprestanda
 

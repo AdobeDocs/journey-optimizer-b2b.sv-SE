@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B edition Documentation
 user-guide-description: Läs om Adobe Journey Optimizer B2B edition och hur du kan använda det för att skapa konto och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
+source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 2%
    + [Vägledning om introduktion](./start/get-started.md)
    + [Spårnings- och e-postprotokoll](./start/email-protocols.md)
 + AI-assistenten {#ai-assistant}
-   + [Ökning](./ai-assistant/ai-assistant-overview.md)
+   + [Översikt](./ai-assistant/ai-assistant-overview.md)
    + [Aktivera åtkomst till AI Assistant](./ai-assistant/enable-ai-assistant-access.md)
    + [Frågevägledning](./ai-assistant/question-guidance.md)
    + [Använd AI-assistenten](./ai-assistant/use-ai-assistant.md)
    + [Generativ AI för innehåll](./ai-assistant/generative-ai-content.md)
    + Agenter {#ai-agents}
-      + [Audience Agent](./agents/audience-agent-b2b.md)
-      + [Journey Build Agent B2B](./agents/journey-agent.md)
+      + [Audience Agent B2B](./agents/audience-agent-b2b.md)
+      + [Journey Agent B2B](./agents/journey-agent.md)
       + [Försäljningskvalificerare](./agents/sales-qualifier.md)
 + Resehantering {#journeys}
    + [Konto- och personresor](./journeys/journeys-overview.md)
@@ -53,7 +53,7 @@ ht-degree: 2%
       + [E-postmeddelande om försäljning](./content/sales-alert-email.md)
       + [Deduplicering av e-post](./content/email-deduplication.md)
    + Webbkanal (Beta) {#web-channel}
-      + [Ökning](./content/web-experiences.md)
+      + [Översikt](./content/web-experiences.md)
       + [Design av webbupplevelser](./content/web-experience-design.md)
       + [Single-page applications](./content/web-single-page-applications.md)
    + [Anpassade personaliseringstoken](./content/personalization-my-tokens.md)
@@ -63,7 +63,7 @@ ht-degree: 2%
    + [LinkedIn Account - matchade målgrupper](./data/linkedin-account-matched-audiences.md)
 + Konton {#accounts}
    + Köpgrupper {#buying-groups}
-      + [Ökning](./buying-groups/buying-groups-overview.md)
+      + [Översikt](./buying-groups/buying-groups-overview.md)
       + [Lösningsintressen](./buying-groups/solution-interests.md)
       + [Rollmallar](./buying-groups/buying-groups-role-templates.md)
       + [Standardroller och anpassade roller](./buying-groups/default-custom-roles.md)
@@ -77,7 +77,7 @@ ht-degree: 2%
       + [Köpa gruppfilter i Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
       + [Insikter i CRM](./buying-groups/incrm-insights.md)
    + Kontolistor {#account-lists}
-      + [Ökning](./accounts/account-lists.md)
+      + [Översikt](./accounts/account-lists.md)
       + [Användning under resor och program](./accounts/account-lists-journeys.md)
    + Försäljningsupplevelse {#sales-experience}
       + [Kontoinformation](./accounts/account-details.md)
@@ -94,7 +94,7 @@ ht-degree: 2%
          + [Rapport om skräppost](./content/email-spam-report.md)
       + [E-postsamarbete](./content/email-collaboration-tools.md)
    + Resurser {#assets}
-      + [Ökning](./content/assets-overview.md)
+      + [Översikt](./content/assets-overview.md)
       + Interna tillgångar {#internal-dam}
          + [Arbeta med interna resurser](./content/internal-image-assets.md)
          + [Redigera bilder med Adobe Express](./content/image-edit-adobe-express.md)
@@ -102,17 +102,17 @@ ht-degree: 2%
    + Mallar {#templates}
       + [Innehållsstyrning](./content/template-content-governance.md)
       + E-postmallar {#email-templates}
-         + [Ökning](./content/email-templates.md)
+         + [Översikt](./content/email-templates.md)
          + [Framtagning av e-postmallar](./content/email-template-authoring.md)
          + [Konvertera bild till mall](./content/email-template-image-convert.md)
       + Landningssidmallar (Beta) {#landing-page-templates}
-         + [Ökning](./content/landing-page-templates.md)
+         + [Översikt](./content/landing-page-templates.md)
          + [Design av mall för landningssida](./content/landing-page-template-design.md)
    + Fragment {#visual-fragments}
-      + [Ökning](./content/fragments.md)
+      + [Översikt](./content/fragments.md)
       + [Skapa fragment](./content/fragment-authoring.md)
    + Forms (Beta) {#forms}
-      + [Ökning](./content/forms.md)
+      + [Översikt](./content/forms.md)
       + [Formulärdesign](./content/form-design.md)
    + Landningssidor (Beta) {#landing-pages}
       + [Översikt](./content/landing-pages.md)
@@ -123,13 +123,13 @@ ht-degree: 2%
       + [Innehållskomponenter](./content/content-components.md)
       + [Anpassad CSS](./content/design-custom-css.md)
    + Varumärken (Beta) {#brands}
-      + [Ökning](./content/brands-overview.md)
+      + [Översikt](./content/brands-overview.md)
       + [Hantera och skapa](./content/brands-manage-create.md)
       + [Märkesjustering](./content/brand-alignment.md)
    + [Varumärkesteman](./content/brand-themes.md)
    + [Villkorligt innehåll](./content/conditional-content.md)
    + Personalisering {#personalization}
-      + [Ökning](./content/personalization.md)
+      + [Översikt](./content/personalization.md)
       + [Personalization syntax](./content/personalization-syntax.md)
       + [Hjälpfunktionslista](./content/personalization-helper-functions.md)
 + Intelligenta instrumentpaneler {#dashboards}
