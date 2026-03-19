@@ -52,11 +52,11 @@ Det första steget när du arbetar med varumärkesdomäner är att redigera stan
 >
 >Du kan inte definiera ytterligare en varumärkesdomän förrän du har redigerat den allmänna standarddomänen.
 
-1. Markera den generiska domänen på panelen _[!UICONTROL Branding Domains]_och klicka på&#x200B;**[!UICONTROL Edit]**överst.
+1. Markera den generiska domänen på panelen _[!UICONTROL Branding Domains]_&#x200B;och klicka på&#x200B;**[!UICONTROL Edit]**&#x200B;överst.
 
    ![Panelen Varumärkesdomäner med den generiska domänen markerad](./assets/me-admin-email-branding-domains-edit-default.png){width="500"}
 
-1. I dialogrutan _[!UICONTROL Edit Branding Domain]_anger du namnet på din standarddomän i fältet **[!UICONTROL Domain]**.
+1. I dialogrutan _[!UICONTROL Edit Branding Domain]_&#x200B;anger du namnet på din standarddomän i fältet **[!UICONTROL Domain]**.
 
    ![Dialogrutan Redigera profileringsdomän](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
@@ -82,7 +82,7 @@ _Lägga till domänen :_
 
    ![Panelen Varumärkesdomäner med knappen Lägg till överst](assets/me-admin-email-branding-domains-add.png){width="500"}
 
-1. I dialogrutan _[!UICONTROL New Branding Domain]_anger du namnet på varumärkesdomänen i fältet **[!UICONTROL Domain]**.
+1. I dialogrutan _[!UICONTROL New Branding Domain]_&#x200B;anger du namnet på varumärkesdomänen i fältet **[!UICONTROL Domain]**.
 
 1. (Valfritt) Markera kryssrutan **[!UICONTROL Generate SSL Certificate]** om du vill generera en SSL automatiskt för domänen.
 
@@ -108,7 +108,7 @@ Följ de här stegen för att aktivera SSL för dina befintliga domäner.
 
 1. Välj **[!UICONTROL Email]** i området _[!UICONTROL Admin]_.
 
-1. Markera domänraden på panelen _[!UICONTROL Branding Domains]_och klicka på&#x200B;**[!UICONTROL Add SSL]**.
+1. Markera domänraden på panelen _[!UICONTROL Branding Domains]_&#x200B;och klicka på&#x200B;**[!UICONTROL Add SSL]**.
 
    ![Panelen Varumärkesdomäner med Lägg till SSL överst](./assets/me-admin-email-branding-domain-add-ssl.png){width="500"}
 
@@ -135,4 +135,4 @@ Följ de här stegen för att aktivera SSL för dina befintliga domäner.
 >
 >SSL-certifikatet tas inte bort när domänen **_tas bort._** Skyddsplanen förhindrar användarfel som gör att en webbplats saknar SSL-certifikat. Kontakta Adobe support om du vill ta bort SSL-certifikaten.
 
-Markera domänen på panelen _[!UICONTROL Branding Domains]_och klicka på&#x200B;**[!UICONTROL Delete]**överst.
+Markera domänen på panelen _[!UICONTROL Branding Domains]_&#x200B;och klicka på&#x200B;**[!UICONTROL Delete]**&#x200B;överst.

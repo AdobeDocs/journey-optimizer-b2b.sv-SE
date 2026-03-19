@@ -28,7 +28,7 @@ Om du vill ange standardvärden för e-post för den bifogade Marketo Engage-ins
 
 1. Gå till området **[!UICONTROL Admin]** i den bifogade Marketo Engage-instansen och välj **[!UICONTROL Email]**.
 
-1. På panelen _[!UICONTROL Settings]_anger du de standardvärden som du vill använda för **[!UICONTROL From Email]**och **[!UICONTROL From Label]**.
+1. På panelen _[!UICONTROL Settings]_&#x200B;anger du de standardvärden som du vill använda för **[!UICONTROL From Email]**&#x200B;och **[!UICONTROL From Label]**.
 
    ![E-postinställningar - från e-post och från etikett, standardvärden](./assets/me-admin-email-settings-from.png){width="500"}
 
@@ -40,13 +40,13 @@ För icke-operativa e-postmeddelanden om marknadsföring läggs text och länkar
 
 1. Gå till området **[!UICONTROL Admin]** i den bifogade Marketo Engage-instansen och välj **[!UICONTROL Email]**.
 
-1. På panelen _[!UICONTROL Settings]_anger du de standardvärden som du vill använda för **[!UICONTROL Unsubscribe HTML]**och **[!UICONTROL Unsubscribe Text]**.
+1. På panelen _[!UICONTROL Settings]_&#x200B;anger du de standardvärden som du vill använda för **[!UICONTROL Unsubscribe HTML]**&#x200B;och **[!UICONTROL Unsubscribe Text]**.
 
    >[!TIP]
    >
    >Marknadsförarna kan ändra positionen för det HTML som avbeställer prenumerationen i sina e-postmeddelanden med hjälp av systemtokens.
 
-   ![E-postinställningar - Avsluta prenumeration på HTML och Avsluta prenumeration ](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
+   ![E-postinställningar - Avsluta prenumeration på HTML och Avsluta prenumeration &#x200B;](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
 
    >[!CAUTION]
    >
@@ -74,7 +74,7 @@ E-postinnehåll har begränsade visningsmöjligheter (begränsad CSS och inga Ja
 
 1. Gå till området **[!UICONTROL Admin]** i den bifogade Marketo Engage-instansen och välj **[!UICONTROL Email]**.
 
-1. Ändra innehållet i fälten **[!UICONTROL View as Web Page HTML]** och **[!UICONTROL View as Web Page Text]** på panelen _[!UICONTROL Settings]_så att de återspeglar din ton och ditt meddelande.
+1. Ändra innehållet i fälten **[!UICONTROL View as Web Page HTML]** och **[!UICONTROL View as Web Page Text]** på panelen _[!UICONTROL Settings]_&#x200B;så att de återspeglar din ton och ditt meddelande.
 
    ![E-postinställningar - Visa som webbsida HTML och Visa som webbsidetext som standardvärden](./assets/me-admin-email-settings-view-as-web-page.png){width="500"}
 
@@ -124,21 +124,21 @@ _Ändra gränsen :_
 
 1. Gå till området **[!UICONTROL Admin]** i den bifogade Marketo Engage-instansen och välj **[!UICONTROL Email]**.
 
-1. Bläddra till panelen _[!UICONTROL Custom Object Retrieval Limits]_och ange ett nytt värde i **[!UICONTROL Parent Retrieval Limit]**fält.
+1. Bläddra till panelen _[!UICONTROL Custom Object Retrieval Limits]_&#x200B;och ange ett nytt värde i **[!UICONTROL Parent Retrieval Limit]**&#x200B;fält.
 
    ![Marketo Engage e-postadministratör - Standardvärden för hämtning av anpassade objekt](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
-   Värden från 10 till 100 stöds. _[!UICONTROL Child Retrieval Limit]_anges automatiskt genom att dividera 1000 med den överordnade gränsen. Om du till exempel anger den överordnade gränsen till 50 beräknas den underordnade gränsen till 20 (1 000?? 50 = 20).
+   Värden från 10 till 100 stöds. _[!UICONTROL Child Retrieval Limit]_&#x200B;anges automatiskt genom att dividera 1000 med den överordnade gränsen. Om du till exempel anger den överordnade gränsen till 50 beräknas den underordnade gränsen till 20 (1 000?? 50 = 20).
 
 1. Klicka på **[!UICONTROL Save Changes]**.
 
 ## Anpassade rubrikalternativ
 
-Ändra _[!UICONTROL Custom Header Options]_för e-post om du vill konfigurera länkrubriker för e-postspårning. Aktivera dessa alternativ för att implementera säkra spårningslänkar med HTTPS med Strict Transport.
+Ändra _[!UICONTROL Custom Header Options]_&#x200B;för e-post om du vill konfigurera länkrubriker för e-postspårning. Aktivera dessa alternativ för att implementera säkra spårningslänkar med HTTPS med Strict Transport.
 
 1. Gå till området **[!UICONTROL Admin]** i den bifogade Marketo Engage-instansen och välj **[!UICONTROL Email]**.
 
-1. Bläddra till panelen _[!UICONTROL Custom Header Options]_och ändra inställningen enligt spårningslänkens principer:
+1. Bläddra till panelen _[!UICONTROL Custom Header Options]_&#x200B;och ändra inställningen enligt spårningslänkens principer:
 
    ![Marketo Engage e-postadministratör - Standardinställningar för anpassade rubrikalternativ](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
@@ -156,8 +156,8 @@ _Ändra gränsen :_
 
 Rotera-aktiviteter via e-post, som även kallas icke-mänsklig interaktion (NHI), kan blåsa upp dina e-postöppningar i _öppningar_ och _klickningar_, vilket förvränger dina interaktionsvärden och utlöser händelsebaserad reseprogression. Använd filtrering av e-postrobotar för att bevara integriteten hos klickengagemangsmått och insikter. Det finns två metoder för att identifiera misstänkt robotaktivitet:
 
-* _**[!UICONTROL Match with IAB Bot list]**_- Aktiviteter som matchar något i [Interactive Advertising Bureau bot list](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP address) markeras som bots.
-* _**[!UICONTROL Match with Proximity Pattern]**_- Två eller flera aktiviteter som inträffar samtidigt (under en sekund) identifieras som bottar. Attribut som beaktas vid jämförelse är:
+* _&#x200B;**[!UICONTROL Match with IAB Bot list]**&#x200B;_- Aktiviteter som matchar något i [Interactive Advertising Bureau bot list](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP address) markeras som bots.
+* _&#x200B;**[!UICONTROL Match with Proximity Pattern]**&#x200B;_- Två eller flera aktiviteter som inträffar samtidigt (under en sekund) identifieras som bottar. Attribut som beaktas vid jämförelse är:
    * Lead-ID (ska vara samma)
    * E-postresurs (ska vara samma)
    * Klicka eller mejla
@@ -179,7 +179,7 @@ För e-postlänksklickning och e-postöppningsaktivitet fylls attributen i med f
 
 1. Aktivera det ena eller båda genom att växla skjutreglaget.
 
-   Välj _[!UICONTROL Log Bot Activity]_eller_[!UICONTROL Filter Bot Activity]_ för varje metod som du aktiverar.
+   Välj _[!UICONTROL Log Bot Activity]_&#x200B;eller&#x200B;_[!UICONTROL Filter Bot Activity]_ för varje metod som du aktiverar.
 
    >[!IMPORTANT]
    >
@@ -187,7 +187,7 @@ För e-postlänksklickning och e-postöppningsaktivitet fylls attributen i med f
 
    ![Marketo Engage e-postadministratör - Alternativ för identifiering av startaktivitet](./assets/me-admin-email-bot-activity-set-filters.png){width="500"}
 
-   För _[!UICONTROL Match with Proximity Pattern]_kan du också ange antalet sekunder för **[!UICONTROL Duration Between Activities]**(standardvärdet är `0`, maxvärdet är `3`).
+   För _[!UICONTROL Match with Proximity Pattern]_&#x200B;kan du också ange antalet sekunder för **[!UICONTROL Duration Between Activities]**(standardvärdet är `0`, maxvärdet är `3`).
 
    >[!NOTE]
    >
