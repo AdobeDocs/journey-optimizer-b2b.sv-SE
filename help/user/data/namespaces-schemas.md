@@ -16,9 +16,9 @@ I Journey Optimizer B2B edition-inställningarna för den förenklade arkitektur
 
 >[!AVAILABILITY]
 >
->- Du måste ha tillgång till [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} för att dina B2B-scheman ska vara kvalificerade i [kundprofilen i realtid](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home){target="_blank"}.
+>- Du måste ha tillgång till [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} för att dina B2B-scheman ska vara kvalificerade i [kundprofilen i realtid](https://experienceleague.adobe.com/sv/docs/experience-platform/profile/home){target="_blank"}.
 >
->- Experience Platform B2B-entiteter måste använda de standardrelationer som beskrivs i [B2B-namnutrymmen och schemaguiden](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
+>- Experience Platform B2B-entiteter måste använda de standardrelationer som beskrivs i [B2B-namnutrymmen och schemaguiden](https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"}.
 
 Granska följande information om den underliggande inställningen för de namnutrymmen och scheman som ska användas med B2B-källor. Här finns också information om hur du konfigurerar Postman automatiseringsverktyg, vilket krävs för att generera B2B-namnutrymmen och scheman.
 
@@ -27,9 +27,9 @@ Granska följande information om den underliggande inställningen för de namnut
 Mer information om krav och detaljerad information om hur du konfigurerar [!DNL Postman]-miljön så att den stöder B2B-namnområdet och automatisk schemagenerering finns i följande resurser.
 
 - Hämta samlingen och miljön för automatisk generering av namnområde och schema från [GitHub-databasen](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
-- Mer information om hur du använder Experience Platform API:er, inklusive information om hur du samlar in värden för obligatoriska huvuden och läser API-anrop från exempel, finns i [_Komma igång med Adobe Experience Platform API:er_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"}.
-- Mer information om hur du genererar autentiseringsuppgifter för Experience Platform API:er finns i [_Autentisera och få åtkomst till Experience Platform API:er_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
-- Mer information om hur du konfigurerar [!DNL Postman] för Experience Platform API:er finns i [_[!DNL Postman] i Adobe Experience Platform _](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
+- Mer information om hur du använder Experience Platform API:er, inklusive information om hur du samlar in värden för obligatoriska huvuden och läser API-anrop från exempel, finns i [_Komma igång med Adobe Experience Platform API:er_](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"}.
+- Mer information om hur du genererar autentiseringsuppgifter för Experience Platform API:er finns i [_Autentisera och få åtkomst till Experience Platform API:er_](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
+- Mer information om hur du konfigurerar [!DNL Postman] för Experience Platform API:er finns i [_[!DNL Postman] i Adobe Experience Platform _](https://experienceleague.adobe.com/sv/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
 
 ### Miljövärden
 
@@ -65,7 +65,7 @@ En lyckad begäran skapar de nödvändiga B2B-namnutrymmena och schemana.
 
 ## B2B-namnutrymmen
 
-Identitetsnamnutrymmen är en komponent i Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"} som kan skilja kontexten för en identitet åt. En fullständigt kvalificerad identitet innehåller ett identitetsvärde och ett namnutrymme. Mer information finns i [översikten över namnutrymmen](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces){target="_blank"}.
+Identitetsnamnutrymmen är en komponent i Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/sv/docs/experience-platform/identity/home){target="_blank"} som kan skilja kontexten för en identitet åt. En fullständigt kvalificerad identitet innehåller ett identitetsvärde och ett namnutrymme. Mer information finns i [översikten över namnutrymmen](https://experienceleague.adobe.com/sv/docs/experience-platform/identity/features/namespaces){target="_blank"}.
 
 B2B-namnutrymmen används i entitetens primära identitet.
 
@@ -89,14 +89,14 @@ Experience Platform använder scheman för att beskriva datastrukturen på ett k
 
 Innan Experience Platform kan importera data måste det finnas ett schema som beskriver datastrukturen och innehåller begränsningar för den typ av data som kan finnas i varje fält. Scheman består av en basklass och noll eller flera schemafältgrupper.
 
-Mer information om schemakompositionsmodellen, inklusive designprinciper och bästa praxis, finns i [_Grundläggande om schemakomposition_](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}.
+Mer information om schemakompositionsmodellen, inklusive designprinciper och bästa praxis, finns i [_Grundläggande om schemakomposition_](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/composition){target="_blank"}.
 
 +++ B2B-konto
 
 <table>
     <tr>
         <td style="width: 30%;">Basklass</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM Business Account</a></td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM Business Account</a></td>
     </tr>
     <tr>
         <td>Fältgrupper</td>
@@ -135,7 +135,7 @@ Mer information om schemakompositionsmodellen, inklusive designprinciper och bä
 <table>
     <tr>
         <td style="width: 30%;">Basklass</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile">Individuell XDM-profil</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/individual-profile">Individuell XDM-profil</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Fältgrupper</td>
@@ -176,7 +176,7 @@ Mer information om schemakompositionsmodellen, inklusive designprinciper och bä
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -216,7 +216,7 @@ Mer information om schemakompositionsmodellen, inklusive designprinciper och bä
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -257,7 +257,7 @@ Mer information om schemakompositionsmodellen, inklusive designprinciper och bä
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -297,7 +297,7 @@ Mer information om schemakompositionsmodellen, inklusive designprinciper och bä
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -335,7 +335,7 @@ Mer information om schemakompositionsmodellen, inklusive designprinciper och bä
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -379,7 +379,7 @@ Mer information om schemakompositionsmodellen, inklusive designprinciper och bä
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -423,7 +423,7 @@ Mer information om schemakompositionsmodellen, inklusive designprinciper och bä
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>

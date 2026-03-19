@@ -19,7 +19,7 @@ När en administratör har slutfört [konfigurationsåtgärderna](../simplified-
 
 >[!TIP]
 >
->Kontrollera även dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaresäkerhetsskydd och statiska begränsningar.
+>Kontrollera även dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaresäkerhetsskydd och statiska begränsningar.
 
 Som marknadsförare, eller en _kontoansvarig_, ansvarar du för att utforma resor och skapa innehåll. Du kan börja arbeta med Adobe Journey Optimizer B2B edition när systemadministratören och datateknikern har förberett din miljö och gett dig åtkomst.
 

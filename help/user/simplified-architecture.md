@@ -51,7 +51,7 @@ Använd checklistan för att slutföra installationen av Journey Optimizer B2B e
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
 <td>Samla in Experience Platform API-uppgifter och obligatoriska rubriker.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide">Läs mer</a></td>
+<td><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/landing/platform-apis/api-guide">Läs mer</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
@@ -273,7 +273,7 @@ Konfigurera ytterligare kanaler för att ge marknadsförarna stöd för att inkl
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
 <td>Konfigurera din företagswebbplats så att den stöder Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Läs mer</a></td>
+<td><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/collection/js/js-overview">Läs mer</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>

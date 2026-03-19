@@ -92,7 +92,7 @@ När du väljer **[!UICONTROL Managed fields]** visas alla konfigurerbara fält 
 
 Ställ in de uppdateringsbara fälten för att välja vilka fält som kan ändras via **[!UICONTROL Update Account Profile]** eller **[!UICONTROL Update Person Profile]** reseåtgärder.
 
-Innan du konfigurerar uppdateringsbara fält måste de finnas i en anpassad datamängd. En genomgång av arbetsflödet för anpassade datauppsättningar finns i [Skapa datauppsättningar och importera data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} och använd alternativet **[!UICONTROL Create dataset from schema]**. Den här datauppsättningen används för att isolera uppdateringsbara fält. Alla uppdateringsbara fält måste finnas i den här datauppsättningen.
+Innan du konfigurerar uppdateringsbara fält måste de finnas i en anpassad datamängd. En genomgång av arbetsflödet för anpassade datauppsättningar finns i [Skapa datauppsättningar och importera data](https://experienceleague.adobe.com/sv/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} och använd alternativet **[!UICONTROL Create dataset from schema]**. Den här datauppsättningen används för att isolera uppdateringsbara fält. Alla uppdateringsbara fält måste finnas i den här datauppsättningen.
 
 >[!IMPORTANT]
 >
@@ -119,7 +119,7 @@ Mer information om hur du kan använda de valda fälten för avancerad e-postanp
 
 >[!AVAILABILITY]
 >
->[Relationsscheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad tillgänglighetsrelease. Data Mirror och relationsscheman är tillgängliga för [!DNL Journey Optimizer Orchestrated Campaigns] licensinnehavare. Relationsscheman är också tillgängliga som en begränsad version för [!DNL Customer Journey Analytics]-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
+>[Relationsscheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad tillgänglighetsrelease. Data Mirror och relationsscheman är tillgängliga för [!DNL Journey Optimizer Orchestrated Campaigns] licensinnehavare. Relationsscheman är också tillgängliga som en begränsad version för [!DNL Customer Journey Analytics]-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ När du skapar ett schema för användning med [!DNL Journey Optimizer B2B Editi
 * Beteende: Post
 * Segmentering: Aktiverad
 * Relationstyp: många-till-ett
-* Referensschema: [B2B-konto](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+* Referensschema: [B2B-konto](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
 * Obligatoriska fält: Primär nyckel, sekundärnyckel och versionsbeskrivning
 * Associerad datauppsättning: Definierad och mappad till schemat
 
