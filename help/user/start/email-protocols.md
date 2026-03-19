@@ -1,23 +1,23 @@
 ---
-title: Protokoll för spårning och e-postleverans
+title: Inställningar för e-postspårning och leverans
 description: Konfigurera leveransprotokoll för e-post - konfigurera DNS-, SPF-, DKIM-, DMARC- och IP-tillåtelselista för optimal spårning och leveransbarhet i Journey Optimizer B2B edition.
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '2389'
 ht-degree: 0%
 
 ---
 
-# Protokoll för spårning och e-postleverans
+# Inställningar för e-postspårning och leverans
 
-Adobe Journey Optimizer B2B edition utnyttjar e-postkanalsfunktionerna och händelsespårningen i Marketo Engage. För att e-postleveransen ska fungera som förväntat för organisationer som använder en begränsande brandvägg eller proxyserverinställningar måste systemadministratören lägga till vissa domäner och IP-adressintervall i tillåtelselista.
+Adobe Journey Optimizer B2B edition utnyttjar e-postkanalsfunktionerna och händelsespårningen i den bifogade Marketo Engage-instansen. För att e-postleveransen ska fungera som förväntat för organisationer som använder en begränsande brandvägg eller proxyserverinställningar måste systemadministratören lägga till vissa domäner och IP-adressintervall i tillåtelselista.
 
 >[!NOTE]
 >
->Om din organisation redan använder den anslutna Marketo Engage-instansen för att köra sina marknadsföringsåtgärder bör dessa protokoll och konfigurationer redan finnas på plats.
+>Om din organisation redan använder den anslutna Marketo Engage-instansen för att köra dina marknadsföringsåtgärder bör dessa protokoll och konfigurationer redan finnas på plats.
 
 Se till att följande domäner (inklusive asterisken) läggs till i tillåtelselista för att aktivera alla Marketo Engage-resurser och webbsocketar:
 
@@ -29,25 +29,29 @@ Se till att följande domäner (inklusive asterisken) läggs till i tillåtelsel
 
 Följ de här stegen för att säkerställa spårning och e-postleverans:
 
-1. [Skapa DNS-poster för &#x200B;](#create-dns-records-for-landing-pages-and-email)
+1. [Skapa DNS-poster för landningssidor och e-post](#create-dns-records-for-landing-pages-and-email)
 1. [Konfigurera SPF och DKIM](#set-up-spf-and-dkim)
 1. [Konfigurera DMARC](#set-up-dmarc)
 1. [Konfigurera MX-poster för din domän](#set-up-mx-records-for-your-domain)
 1. [Lägg till utgående IP-adresser till tillåtelselista](#outbound-ip-addresses)
 
-## Skapa DNS-poster för <!-- landing pages and -->e-post
+>[!NOTE]
+>
+>E-postleveranstjänster och konsulttjänster är separata betalerbjudanden från Adobe. Om du behöver eller vill ha support från leveransteamet för din Journey Optimizer B2B edition-instans måste du köpa något av e-postleveranspaketen (Essentials, Enhanced eller Plus) för den instansen. Detta är oberoende av alla paket för leverans i en befintlig Marketo Engage-instans. Leveranstjänster bifogas per instans, inte per organisation. Leveranssupport för båda instanserna kräver två separata paket för Deliverability Services. När en ny IP-adress har etablerats för Journey Optimizer B2B edition krävs ett nytt Deliverability Services-paket för IP-uppvärmning och kontinuerlig leveranssupport.
+
+## Skapa DNS-poster för landningssidor och e-post
 
 Genom att ansluta en CNAME-post kan marknadsförarna lagra webbversioner av e-postmeddelanden, landningssidor och bloggar med enhetlig märkning som förbättrar trafik och konverteringar. Vi rekommenderar starkt att du lägger till CNAME:er i din rotdomänvärd så att Marketo Engage kan vara värd för dina marknadsföringsfokuserade webbresurser. Som administratör bör du samarbeta med ditt marknadsföringsteam för att planera och implementera en CNAME-post för spårningslänkarna som ingår i e-postmeddelanden som skickas via Marketo Engage.
-<!-- As an administrator, you should work with your Marketing team to plan and implement two CNAME records. The first one is for landing page URLs, so that the landing pages appear in URLs that reflect your domain and not Adobe Marketo Engage (the actual host). The second one is for the tracking links that are included in the emails sent through Marketo Engage.
 
-### Add the CNAME for landing pages
+Som administratör bör du samarbeta med ditt marknadsföringsteam för att planera och implementera två CNAME-poster. Den första är för landningssidans URL:er, så att landningssidorna visas i URL:er som återspeglar din domän och inte Adobe Marketo Engage (den faktiska värden). Den andra gäller spårningslänkarna som ingår i e-postmeddelanden som skickas via Marketo Engage.
 
-Add the landing page CNAME to your DNS record, so that `[YourLandingPageCNAME]` points to the unique account string that is assigned to your landing pages. Log in to your domain registrar's site and enter the landing page CNAME and account string. This entry usually involves three fields:
+### Lägg till CNAME för landningssidor
 
-* Alias: Enter `[YourLandingPageCNAME]`
-* Type: CNAME
-* Point to: Enter `[MunchkinID].mktoweb.com`
--->
+Lägg till landningssidan CNAME i din DNS-post, så att `[YourLandingPageCNAME]` pekar på den unika kontosträng som är tilldelad till dina landningssidor. Logga in på domänregistratorns webbplats och ange landningssidan CNAME och kontosträngen. Det här är vanligtvis tre fält:
+
+* Alias: Ange `[YourLandingPageCNAME]`
+* Typ: CNAME
+* Peka på: Ange `[MunchkinID].mktoweb.com`
 
 ### Lägg till CNAME för e-postspårningslänkar
 
@@ -55,23 +59,25 @@ Lägg till e-postmeddelandet CNAME så att `[YourEmailCNAME]` pekar på `[MktoTr
 
 `[YourEmailCNAME].[YourDomain].com` I CNAME `[MktoTrackingLink]`
 
-Exempel:
+Till exempel:
 
 `pages.abc.com IN CNAME mkto-a0244.com`
 
 >[!NOTE]
 >
->Värdet `[MktoTrackingLink]` måste vara [varumärkningsdomänens &#x200B;](../admin/configure-channels-emails.md#branding-domains) standardvärde.
+>Värdet `[MktoTrackingLink]` måste vara [varumärkningsdomänens ](../admin/configure-channels-emails.md#branding-domains) standardvärde.
 
 ### Tillhandahåll SSL-certifikatet
 
-Kontakta [Adobe Support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support){target="_blank"} för att starta processen med att etablera ett SSL-certifikat.
+Kontakta [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} för att starta processen med att etablera ett SSL-certifikat.
 
 Denna process kan ta upp till tre arbetsdagar att slutföra.
 
 ## Konfigurera SPF och DKIM
 
 Marknadsföringsteamet bör tillhandahålla den DKIM-information (Domain Keys Identified Mail) som ska läggas till i din DNS-resurspost. Följ de här stegen för att konfigurera DKIM och SPF (Sender Policy Framework) och meddela sedan marknadsföringsteamet när det uppdateras.
+
+Du kan använda samma DKIM-konfiguration för din produktion av Marketo Engage-instansen och den bifogade Journey Optimizer B2B edition-instansen. I den bifogade instansen skapar du samma exakta domän som i din Marketo Engage-instans. Väljar- och krypteringsvärdena behöver inte matcha. När domänen har lagts till i Journey Optimizer B2B edition-instansen öppnar du en Adobe-supportanmälan och begär att din DKIM-konfiguration delas från din Marketo Engage-instans till den nya instansen. Ange ditt Marketo Engage-prefix (Munchkin-ID) och ditt nya Journey Optimizer B2B edition-prefix (Munchkin-ID).
 
 1. Om du vill konfigurera SPF lägger du till följande rad i DNS-posterna:
 
@@ -96,7 +102,7 @@ Marknadsföringsteamet bör tillhandahålla den DKIM-information (Domain Keys Id
 
    `[DKIMDomain2]`: Värdposten är `[HostRecord2]` och TXT-värdet är `[TXTValue2]`.
 
-   Kopiera `HostRecord` och `TXTValue` för varje DKIM-domän efter att ha följt [instruktionerna](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen. Du kan verifiera domänerna i Journey Optimizer B2B edition (se [SPF/DKIM](../admin/configure-channels-emails.md#spfdkim)).
+   Kopiera `HostRecord` och `TXTValue` för varje DKIM-domän efter att ha följt [instruktionerna](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen. Du kan verifiera domänerna i Journey Optimizer B2B edition (se [SPF/DKIM](../admin/configure-channels-emails.md#spfdkim)).
 
 ## Konfigurera DMARC
 
@@ -105,7 +111,7 @@ DMARC (domänbaserad meddelandeautentisering, rapportering och överensstämmels
 För att DMARC ska fungera måste du ha minst en av följande DNS TXT-poster:
 
 * En giltig SPF
-* A valid DKIM Record for your FROM: domain (recommended for Marketo Engage and Journey Optimizer B2B edition)
+* En giltig DKIM-post för din FROM:-domän (rekommenderas för [!DNL Marketo Engage] och [!UICONTROL Journey Optimizer B2B Edition])
 
 Du måste också ha en DMARC-specifik DNS TXT-post för din `FROM:`-domän. Du kan också ange en e-postadress som anger var DMARC-rapporter ska placeras i organisationen för rapportövervakning.
 
@@ -160,12 +166,12 @@ DMARC-poster har flera komponenter som kallas _DMARC-taggar_. Varje tagg har ett
 | Märkordsnamn | Använd | Funktion | Exempel | Standardvärde |
 |-----------|------------------------|-----------|----------|-----------------------------------|
 | `v` | Obligatoriskt | Anger versionen. Det finns bara en version, så den har ett fast värde på `v=DMARC1` | V=DMARC1 DMARC1 | DMARC1 |
-| `p` | Obligatoriskt | Anger DMARC-principen som instruerar mottagaren att rapportera, karantän eller avvisa e-post som inte kan autentiseras. | `p=none`, `p=quarantine` eller `p=reject` | – |
+| `p` | Obligatoriskt | Anger DMARC-principen som instruerar mottagaren att rapportera, karantän eller avvisa e-post som inte kan autentiseras. | `p=none`, `p=quarantine` eller `p=reject` | - |
 | `fo` | Valfritt | Låter domänägaren ange rapportalternativ. | `0`: Generera en rapport om både SPF och DKIM misslyckas <br> `1` - Generera en rapport om antingen SPF eller DKIM misslyckas <br> `d` - Generera en rapport om DKIM misslyckas <br> `s` - Generera en rapport om SPF misslyckas | `1` (rekommenderas för DMARC-rapporter) |
 | `pct` | Valfritt | Anger procentandelen meddelanden som ska filtreras. | `pct=20` | `100` |
-| `rua` | Valfritt (rekommenderas) | Anger var aggregerade rapporter levereras. | `rua=mailto:aggrep@example.com` | – |
-| `ruf` | Valfritt (rekommenderas) | Anger var kriminaltekniska rapporter levereras. | `ruf=mailto:authfail@example.com` | – |
-| `sp` | Valfritt | Anger DMARC-principen för den överordnade domänens underdomäner. | `sp=reject` | – |
+| `rua` | Valfritt (rekommenderas) | Anger var aggregerade rapporter levereras. | `rua=mailto:aggrep@example.com` | - |
+| `ruf` | Valfritt (rekommenderas) | Anger var kriminaltekniska rapporter levereras. | `ruf=mailto:authfail@example.com` | - |
+| `sp` | Valfritt | Anger DMARC-principen för den överordnade domänens underdomäner. | `sp=reject` | - |
 | `adkim` | Valfritt | Anger en strikt (`s`) eller relaxerad (`r`) justering. Avlastad justering innebär att domänen används i DKIM-signaturen och kan vara en underdomän till adressen `From:`. Strikta justeringar innebär att domänen används i DKIM-signaturen och måste vara en exakt matchning av domänen som används i `From:`-adressen. | `adkim=r` | `r` |
 | `aspf` | Valfritt | Kan vara strikt (`s`) eller avslappnad (`r`). Avstängt läge innebär att domänen Return-Path kan vara en underdomän till adressen `From:`. Strikt läge innebär att domänen Return-Path måste vara en exakt matchning med adressen `From:`. | `aspf=r` | `r` |
 
@@ -179,7 +185,7 @@ Det finns två typer av justering för DMARC:
 
   DKIM-justering validerar om avsändaren har behörighet att skicka e-post från domänen och verifierar att inget innehåll har ändrats under e-postöverföring. Så här implementerar du DKIM-anpassade DMARC:
 
-   * Konfigurera DKIM för e-postmeddelandets MAIL FROM-domän. Använd [instruktionerna](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen.
+   * Konfigurera DKIM för e-postmeddelandets MAIL FROM-domän. Använd [instruktionerna](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen.
 
    * Konfigurera DMARC för domänen DKIM MAIL FROM.
 
@@ -202,13 +208,27 @@ Det finns två typer av justering för DMARC:
 
 ### Dedikerade IP-adresser och delad pool
 
-Om du skickar e-post via Marketo Engage via en dedikerad IP-adress och inte har implementerat en profilerad retursökväg (eller om du inte vet om du har det), öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support){target="_blank"}.
+Om du skickar e-post via Marketo Engage via en dedikerad IP-adress och inte har implementerat en profilerad retursökväg (eller om du inte vet om du har det), öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}.
+
+>[!BEGINSHADEBOX]
+
+**Migrering till den förenklade arkitekturen**
+
+Om du har dedikerade IP-adresser måste du ha den nya Journey Optimizer B2B edition-instansen skapad i samma region som din befintliga Marketo Engage-instans. Om den nya instansen finns i en annan region går det inte att dela den befintliga IP-adressen. Om regionen matchar öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} för att begära att dina befintliga IP-adresser och bindningsgrupper delas med den nya instansen. Ange ditt Marketo Engage-prefix (Munchkin-ID) och ditt nya Journey Optimizer B2B edition-prefix (Munchkin-ID).
+
+Med den här begäran replikerar Adobe samma IP-adresser, bindningsgrupper och konfigurerade Return-Path-domäner som din befintliga Marketo Engage-instans. När IP-adresser delas mellan din Marketo Engage-instans och Journey Optimizer B2B edition använder båda dem samtidigt (en sändning från Marketo Engage och en sändning från Journey Optimizer B2B edition använder samma IP-adresser).
+
+>[!ENDSHADEBOX]
 
 Betrodda IP-adresser är en delad pool med IP-adresser som är reserverade för användare med lägre volym som skickar mindre än 75 kB per månad och som inte är kvalificerade för en dedikerad IP-adress. Dessa användare måste också uppfylla kraven på god praxis.
 
 * Om du skickar e-post via Marketo Engage med en delad pool med IP-adresser kan du kontrollera om du är berättigad till betrodda IP-adresser genom att [ansöka om det betrodda IP-sändningsintervallprogrammet](https://na-sjg.marketo.com/lp/marketoprivacydemo/Trusted-IP-Sending-Range-Program.html){target="_blank"}. Den varumärkesskyddade retursökvägen inkluderas när du skickar från Marketo Engage betrodda IP-adresser. Om du godkänner programmet kan du kontakta Adobe Support för att skapa en egen returneringsväg.
 
 * Om du skickar mer än 100 000 meddelanden per månad och vill skicka e-post via Marketo Engage via delade IP-adresser kontaktar du Adobe Account Team (din kontohanterare) för att köpa en dedikerad IP-adress.
+
+Kunder i den delade IP-poolen behöver ingen ytterligare konfiguration. Du fortsätter att använda samma IP-pooler och samma standarddomän för retursökväg som tidigare.
+
+
 
 ## Konfigurera MX-poster för din domän
 
@@ -220,11 +240,11 @@ En utgående anslutning upprättas av Marketo Engage till en server på Internet
 
 <!-- ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
 
 ## Utgående IP-adressblock
 

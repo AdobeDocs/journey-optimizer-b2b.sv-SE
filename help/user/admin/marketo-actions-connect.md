@@ -1,21 +1,25 @@
 ---
 title: Aktivera Marketo Engage för att stödja reseåtgärder
 description: Aktivera Marketo Engage-anslutningar för att stödja kundresor så att marknadsförarna kan samordna kampanjer mellan Marketo Engage och Journey Optimizer B2B edition.
-feature: Integrations, Audiences, Buying Groups
-role: User, Admin
+feature: Setup, Integrations
+role: Admin
 exl-id: e324a11b-1025-4850-865f-ef8886a6b2bb
-source-git-commit: cd11d96c80a8015fedd82d2c4db12e559da37f2c
+source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
 
-# Aktivera Marketo Engage-instanser för att stödja åtgärder
+# Aktivera Marketo Engage-anslutningar för supportåtgärder
 
 Marketo Engage-åtgärder är _personbaserade_-åtgärder som gör att du kan koordinera din _kontobaserade_ marknadsföringssamordning mellan Journey Optimizer B2B edition och dina _lead-baserade_ marknadsföringssatsningar i Marketo Engage. Använd dessa åtgärder för att samordna statiskt listmedlemskap och för att placera personer i kampanjer.
 
-Om du vill använda Marketo Engage reseåtgärder skapar en administratör först en [anpassad tjänst](https://experienceleague.adobe.com/sv/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} i Marketo Engage, som tillhandahåller de autentiseringsuppgifter som krävs för autentisering. Därefter använder en produktadministratör för Journey Optimizer B2B edition inloggningsuppgifterna för att skapa en anslutning till Marketo Engage. Journey Optimizer B2B edition-användare kan sedan referera till anslutningen för att konfigurera Marketo Engage-åtgärder på <!-- person and -->kontoresor, som att lägga till eller ta bort personer från Marketo Engage-listor eller lägga till dem i kampanjförfrågningar.
+Om du vill använda Marketo Engage reseåtgärder skapar en administratör först en [anpassad tjänst](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} i Marketo Engage, som tillhandahåller de autentiseringsuppgifter som krävs för autentisering. Därefter använder en produktadministratör för Journey Optimizer B2B edition inloggningsuppgifterna för att skapa en anslutning till Marketo Engage. Journey Optimizer B2B edition-användare kan sedan referera till anslutningen för att konfigurera Marketo Engage-åtgärder i <!-- person and -->kontoresor:
+
+* [!UICONTROL Add to Marketo List]
+* [!UICONTROL Remove from Marketo List]
+* [!UICONTROL Add to Marketo Request Campaign]
 
 ## Konfigurera en Marketo Engage-anslutning {#external-marketo-configure}
 
@@ -28,14 +32,14 @@ Utför följande uppgifter för att konfigurera en extern Marketo Engage-instans
 
 ### Skapa Marketo Engage anpassade tjänst
 
-1. Logga in på Marketo Engage som administratör och [skapa en anpassad tjänst](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Logga in på Marketo Engage som administratör och [skapa en anpassad tjänst](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Kopiera följande värden som ska användas för Journey Optimizer B2B edition-anslutningen:
 
    * MUNCHKIN ID
    * Klient-ID
    * Klienthemlighet
 
-Synligheten för Marketo Engage-arbetsytan för resurser, som listor och kampanjer, styrs av rollbehörigheterna [som tilldelats i den anpassade tjänsten](https://experienceleague.adobe.com/sv/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Marknadsförarna kan använda samma uppkoppling flera gånger under en resa och använda olika Marketo Engage-anslutningar under samma resa.
+Synligheten för Marketo Engage-arbetsytan för resurser, som listor och kampanjer, styrs av rollbehörigheterna [som tilldelats i den anpassade tjänsten](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Marknadsförarna kan använda samma uppkoppling flera gånger under en resa och använda olika Marketo Engage-anslutningar under samma resa.
 
 ### Lägg till integreringen
 

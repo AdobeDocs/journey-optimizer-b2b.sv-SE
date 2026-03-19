@@ -1,55 +1,25 @@
 ---
 title: Vägledning om introduktion för administratörer och marknadsförare
 description: Onboarding Guide för administratörer och marknadsförare - konfigurera sandlådor, konfigurera kanaler, skapa inköpsgrupper och utforma kontoresor i Journey Optimizer B2B edition.
-role: Admin, User
+role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 632530569c6247ffbd453578fc8561d17d500283
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
-# Vägledning om introduktion
+# Vägledning om användarintroduktion
 
 Vilka funktioner och verktyg du vill använda i Adobe Journey Optimizer B2B edition beror på vilken roll du har i ditt team. Beroende på din organisation kan administratörer definiera flera typer av användare och ge dem åtkomst till vissa funktioner beroende på deras behörigheter.
 
+När en administratör har slutfört [konfigurationsåtgärderna](../simplified-architecture.md) använder du den här informationen för allmän inloggning.
+
 >[!TIP]
 >
->Kontrollera även dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaresäkerhetsskydd och statiska begränsningar.
-
->[!BEGINTABS]
-
->[!TAB Administratör]
-
-Innan ditt team kan börja använda funktionerna i Adobe Journey Optimizer B2B edition krävs flera steg för att förbereda din miljö. Utför dessa steg så att datateknikern och marknadsföraren kan börja arbeta med Adobe Journey Optimizer B2B edition.
-
-Som systemadministratör måste du förstå produktprofiler och tilldela behörigheter för sandlådeadministration och kanalkonfiguration. Du måste också konfigurera sandlådor och hantera dem för de tillgängliga produktprofilerna. Du kan sedan tilldela teammedlemmar till produktprofilerna. Produktadministratörer som har tillgång till Adobe Admin Console kan hantera dessa funktioner. [Läs mer om Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
-
-Lär dig mer om åtkomsthantering på följande sidor:
-
-1. **Skapa sandlådor** för att partitionera dina instanser i separata, isolerade virtuella miljöer. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
-
-1. **Arbeta med datateknikern** för att planera och implementera er B2B-målgrupp och profilaktivering. Granska de publicerade ritningarna och följ riktlinjerna enligt dina önskemål. [Läs mer](https://experienceleague.adobe.com/sv/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
-
-1. **Planera och implementera Marketo Engage-integreringar** för att införliva anpassade scheman, inmatning av profiler och konton samt samordning av personaliserade resor för inköpsgrupper. [Läs mer](https://experienceleague.adobe.com/sv/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
-
-1. **Konfigurera produktprofilen**. En produktprofil är en uppsättning enhetsrättigheter i Adobe Experience Platform som ger användarna tillgång till vissa funktioner eller objekt i gränssnittet. [Läs mer](../admin/user-management.md#create-the-marketo-engage-product-profile)
-
-1. **Konfigurera användarbehörigheter** för produktprofiler, inklusive sandlådor, och ge teammedlemmarna åtkomst genom att tilldela dem till olika produktprofiler. Den här uppgiften utförs i Admin Console. [Läs mer](../admin/user-management.md#create-a-user-group)
-
-1. **Konfigurera XDM-klasser och -fält** för att styra vilka data som är tillgängliga för resesamordning och innehållspersonalisering i Journey Optimizer B2B edition. [Läs mer](../admin/xdm-field-management.md)
-
-1. **Konfigurera e-postleverans** i Marketo Engage, vilket gör att ditt team kan skicka e-postinnehåll från kontoresor. [Läs mer](../admin/configure-channels-emails.md){target="_blank"}
-
-1. **Konfigurera SMS-tjänster**. Konfigurera en av de tredjepartsleverantörer av SMS som stöds och som erbjuder SMS-tjänster oberoende av varandra, och konfigurera kontoinloggningsuppgifterna i Adobe Journey Optimizer B2B edition. [Läs mer](../admin/configure-channels-sms.md)
-
-1. **Konfigurera och aktivera användning av Adobe Experience Manager Assets** för team som använder Assets as a Cloud Service för centraliserad hantering av digitala resurser. [Läs mer](../admin/configure-aem-repositories.md)
-
-1. **Konfigurera Adobe Experience Platform (AEP) Experience Event-definitioner** för team som ansvarar för att skapa kontoresor som lyssnar på AEP Experience Events. [Läs mer](../admin/configure-aep-events.md)
-
->[!TAB Marketer]
+>Kontrollera även dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaresäkerhetsskydd och statiska begränsningar.
 
 Som marknadsförare, eller en _kontoansvarig_, ansvarar du för att utforma resor och skapa innehåll. Du kan börja arbeta med Adobe Journey Optimizer B2B edition när systemadministratören och datateknikern har förberett din miljö och gett dig åtkomst.
 
@@ -74,5 +44,3 @@ Se följande avsnitt för att konfigurera din första resa, lägga till resurser
    * I färdplanen kan du bygga upp dina flerstegsfall, lägga till villkor och skicka personaliserade meddelanden.
 
    [Läs mer](../journeys/journeys-overview.md)
-
->[!ENDTABS]

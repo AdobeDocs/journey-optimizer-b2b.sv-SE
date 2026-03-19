@@ -1,9 +1,9 @@
 ---
 user-guide-title: Journey Optimizer B2B edition Documentation
 user-guide-description: Läs om Adobe Journey Optimizer B2B edition och hur du kan använda det för att skapa konto och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '423'
 ht-degree: 5%
 
 ---
@@ -15,9 +15,18 @@ ht-degree: 5%
 + [Versionsinformation](./release-notes/release-notes.md)
 + Kom igång {#get-started}
    + [Journey Optimizer B2B edition - översikt](about-journey-optimizer-b2b-edition.md)
+   + Förenklad arkitektur {#simplified-architecture}
+      + [Konfigurera checklista](./simplified-architecture.md)
+      + [Namnutrymmen och scheman](./data/namespaces-schemas.md)
+      + [Val av XDM-fält](./admin/xdm-field-management.md)
+      + [Experience Events och fields](./admin/configure-aep-events.md)
+      + [Varumärkesdomäner](./start/branding-domains.md)
+      + [Spårning och leverans av e-post](./start/email-protocols.md)
+      + [E-postinställningar](./start/email-setup.md)
+      + [Marketo Engage reseåtgärder](./admin/marketo-actions-connect.md)
+      + [Användarhantering](./admin/user-management.md)
+   + [Vägledning om användarintroduktion](./start/get-started.md)
    + [Inloggning och hemsida](home-page.md)
-   + [Vägledning om introduktion](./start/get-started.md)
-   + [Spårnings- och e-postprotokoll](./start/email-protocols.md)
 + AI-assistenten {#ai-assistant}
    + [Översikt](./ai-assistant/ai-assistant-overview.md)
    + [Aktivera åtkomst till AI Assistant](./ai-assistant/enable-ai-assistant-access.md)
@@ -61,6 +70,7 @@ ht-degree: 5%
    + [Experience Platform målgrupper](./audiences/account-audience-overview.md)
    + [Målgrupper externt](./audiences/target-external-audience.md)
    + [LinkedIn Account - matchade målgrupper](./data/linkedin-account-matched-audiences.md)
+   + [XDM-standardfält](./admin/field-mapping.md)
 + Konton {#accounts}
    + Köpgrupper {#buying-groups}
       + [Översikt](./buying-groups/buying-groups-overview.md)
@@ -140,13 +150,7 @@ ht-degree: 5%
    + [Kontrollpanel för kontoresor](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
    + [Styrning](./admin/governance.md)
-   + [Konfiguration av Marketo Actions](./admin/marketo-actions-connect.md)
    + [Personmappning](./admin/persona-mapping.md)
-   + [Användarhantering](./admin/user-management.md)
-   + XDM-fälthantering {#xdm-field-management}
-      + [XDM-klasser](admin/xdm-field-management.md)
-      + [Experience Events och fields](./admin/configure-aep-events.md)
-      + [XDM-standardfält](./admin/field-mapping.md)
    + Kanaler {#channels}
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
@@ -157,4 +161,3 @@ ht-degree: 5%
       + [AEM Assets-databaser](./admin/configure-aem-repositories.md)
       + [Återgivningsdata](./admin/intent-data.md)
       + [Vägning av engagemangsmusik](./admin/engagement-score-weighting.md)
-   + [Förenklad arkitekturkonfiguration](simplified-architecture.md)

@@ -3,13 +3,11 @@ title: Konfiguration av landningssida
 description: Konfigurera underdomäner för landningssidor, inställningar för förifyllnad av formulär och datastreams för att möjliggöra publicering av kampanjwebbsidor i Journey Optimizer B2B edition.
 feature: Setup, Landing Pages, Content
 role: Admin
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 6719755db59ed79a4bd32e4f0df0ebb8207aecda
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -20,7 +18,7 @@ Administratörer bör se till att inställningarna för landningssidan är konfi
 
 ## Inställningar
 
-Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska landningssidans konfiguration. Välj _[!UICONTROL Landing Pages]_&#x200B;under **[!UICONTROL Settings]**&#x200B;i navigeringspanelen.
+Gå till **[!UICONTROL Administration]** > **[!UICONTROL Channels]** om du vill granska landningssidans konfiguration. Välj **[!UICONTROL Settings]** under _[!UICONTROL Landing Pages]_i navigeringsrutan.
 
 ![Inställningar för landningssida](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -68,7 +66,7 @@ Ange alternativet **[!UICONTROL Datastream]** för att konfigurera ett datastrea
 >title="Konfigurera underdomän för landningssida"
 >abstract="En konfigurerad underdomän krävs för att publicera landningssidor. Du kan använda en underdomän som redan har delegerats till Adobe eller skapa en ny underdomän."
 
-En deldomän på en landningssida ska hjälpa till att identifiera innehållstyp, produktnamn eller kampanj och förstärka sidans autenticitet. Innan du konfigurerar underdomänerna definierar du en eller flera CNAME som ska användas för dina landningssidor. Exempel:
+En deldomän på en landningssida ska hjälpa till att identifiera innehållstyp, produktnamn eller kampanj och förstärka sidans autenticitet. Innan du konfigurerar underdomänerna definierar du en eller flera CNAME som ska användas för dina landningssidor. Till exempel:
 
 * **product**.[CompanyDomain].com
 * **go**.[CompanyDomain].com
@@ -82,7 +80,7 @@ Lägg till en ny underdomän för varje unik varumärkes-URL som du vill ha på 
 >
 >Det är inte tillåtet att delegera en ogiltig underdomän till Adobe. Se till att du anger en giltig underdomän som din organisation äger, till exempel _marketing.dincompany.com_.
 
-Om du vill granska dina underdomäner och lägga till nya går du till **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Välj _[!UICONTROL Landing Pages]_&#x200B;under **[!UICONTROL Subdomains]**&#x200B;i navigeringspanelen.
+Om du vill granska dina underdomäner och lägga till nya går du till **[!UICONTROL Administration]** > **[!UICONTROL Channels]**. Välj **[!UICONTROL Subdomains]** under _[!UICONTROL Landing Pages]_i navigeringspanelen.
 
 ![Underdomäner för landningssidor](./assets/config-landing-pages-settings.png){width="800" zoomable="yes"}
 
@@ -90,7 +88,7 @@ _Lägga till en underdomän för landningssida :_
 
 1. Klicka på **[!UICONTROL Add subdomain]** överst till höger.
 
-1. I _[!UICONTROL Subdomain details]_&#x200B;anger du information om underdomäner:
+1. I _[!UICONTROL Subdomain details]_anger du information om underdomäner:
 
    * **[!UICONTROL Subdomain]** - Den underdomän-URL som ska användas, till exempel `marketing.yourcompany.com`
    * **[!UICONTROL Default page]** - URL:en för standardunderdomänsidan, till exempel `marketing.yourcompany.com/products`

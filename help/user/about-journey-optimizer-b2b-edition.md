@@ -2,9 +2,9 @@
 title: Adobe Journey Optimizer B2B edition - översikt
 description: Läs om Adobe Journey Optimizer B2B edition - samordna kontoresor med inköpsgrupper, AI-insikter och Experience Platform-integrering för B2B-marknadsföring.
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Med Adobe Journey Optimizer B2B edition kan ni samordna konton och köpa gruppre
 
 ## Kontoresor med inköpsgrupper
 
-När man jämför Adobe Journey Optimizer B2B edition med Marketo Engage och Adobe Journey Optimizer är den viktigaste skillnaden att kontoresor rör konton genom resan, inte människor. En person som är kopplad till ett konto har vanligtvis en icke-linjär progression som baseras på hur kontot fortskrider under resan, inte baserat på deras individuella åtgärder. Om ett konto till exempel befinner sig i ett tidigt skede av köpresan kan den information som skickas handla om allmänna funktioner eller funktioner för lösningar. Under köpprocessen kan innehållet bli mer inriktat på vissa erbjudanden eller andra objekt som är inriktade på att avsluta en försäljning. När lösningen har köpts kan informationen ändras igen för att ge handledningar, bästa praxis eller information om kommande evenemang, eller för innehåll om ytterligare merförsäljning. Även om en individ inte har interagerat med innehållet i den tidiga fasen vill du ändå gå vidare till den aktuella fasen baserat inte på deras egna åtgärder, utan på åtgärder från andra personer på deras konto eller i deras inköpsgrupp.
+När man jämför kontoresor med resefunktionerna i Marketo Engage och Adobe Journey Optimizer-standarden är den viktigaste skillnaden att kontoresor flyttar konton genom resan, inte människor. En person som är kopplad till ett konto har vanligtvis en icke-linjär progression som baseras på hur kontot fortskrider under resan, inte baserat på deras individuella åtgärder. Om ett konto till exempel befinner sig i ett tidigt skede av köpresan kan den information som skickas handla om allmänna funktioner eller funktioner för lösningar. Under köpprocessen kan innehållet bli mer inriktat på vissa erbjudanden eller andra objekt som är inriktade på att avsluta en försäljning. När lösningen har köpts kan informationen ändras igen för att ge handledningar, bästa praxis eller information om kommande evenemang, eller för innehåll om ytterligare merförsäljning. Även om en individ inte har interagerat med innehållet i den tidiga fasen vill du ändå gå vidare till den aktuella fasen baserat inte på deras egna åtgärder, utan på åtgärder från andra personer på deras konto eller i deras inköpsgrupp.
 
 ## Arkitektur på hög nivå
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer B2B edition använder _Account Audiences_ och _People Au
 
 >[!NOTE]
 >
->Kontrollera dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaskydd och statiska begränsningar.
+>Kontrollera dina licensrättigheter och motsvarande [produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om prestandaskydd och statiska begränsningar.
 
 ### Prenumerationsmodell
 
