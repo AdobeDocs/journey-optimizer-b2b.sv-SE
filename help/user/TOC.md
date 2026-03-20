@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B edition Documentation
 user-guide-description: Läs om Adobe Journey Optimizer B2B edition och hur du kan använda det för att skapa konto och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 2e63606151c41a4fcdb632c367e3f41ca04c6ecb
+source-git-commit: 7ebf73a1cb34143d20a49f5d1ba82568718e0ca4
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '422'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 5%
       + [E-postinställningar](./start/email-setup.md)
       + [Marketo Engage reseåtgärder](./admin/marketo-actions-connect.md)
       + [Användarhantering](./admin/user-management.md)
-   + [Vägledning om användarintroduktion](./start/get-started.md)
+   + [Användarregistrering](./start/get-started.md)
    + [Inloggning och hemsida](home-page.md)
 + AI-assistenten {#ai-assistant}
    + [Översikt](./ai-assistant/ai-assistant-overview.md)
