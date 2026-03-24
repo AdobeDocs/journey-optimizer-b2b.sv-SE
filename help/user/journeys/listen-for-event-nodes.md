@@ -135,7 +135,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 ### Lyssna efter en upplevelsehändelse
 
-Administratörer kan välja [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} som gör att marknadsförare kan skapa konto- och personresor som reagerar på händelserna i nära realtid. Att använda upplevelsehändelser under resor är en tvåstegsprocess:
+Administratörer kan välja [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} som gör att marknadsförare kan skapa konto- och personresor som reagerar på händelserna i nära realtid. Att använda upplevelsehändelser under resor är en tvåstegsprocess:
 
 1. En administratör [väljer händelsetyper och intressefält](../admin/configure-aep-events.md#select-an-event) för att göra dem tillgängliga på resorna.
 
