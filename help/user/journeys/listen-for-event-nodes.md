@@ -4,9 +4,9 @@ description: Konfigurera händelsnoder för konto- och personutlösare - lyssna 
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: a9f38d6d38233a974d640f83e5940d16fec50632
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1648'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Under en kontoresa kan du lyssna efter en händelse som baseras på personer nä
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera information för händelsen.
 
-### Lyssna efter en Marketo Engage-händelse
+### Lyssna efter en Marketo Engage-händelse {#listen-for-marketo-engage-event}
 
 Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en händelse baserat på ett besök eller inget besök på dessa webbsidor, samt på Marketo Engage-formulär som fyllts i eller inte fyllts i.
 
@@ -117,7 +117,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 1. Klicka på **[!UICONTROL Edit event]** och definiera en eller flera webbsidor som ska matcha och eventuella ytterligare begränsningar för händelsen.
 
-   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_&#x200B;definierar du begränsningen **[!UICONTROL Web page]**&#x200B;eller **[!UICONTROL Fills out form]**. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**&#x200B;för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda operatorn **[!UICONTROL is any]**&#x200B;för att matcha ett besök på en Marketo Engage-webbsida eller i ett ifyllt formulär.
+   * (Obligatoriskt) I dialogrutan _[!UICONTROL Edit event]_definierar du begränsningen **[!UICONTROL Web page]**eller **[!UICONTROL Fills out form]**. Använd **[!UICONTROL is]**(standard) för att matcha på en eller flera valda sidor eller formulär. Använd **[!UICONTROL is not]**för att matcha på alla sidbesök/formulär med undantag för en eller flera valda sidor/formulär. Du kan också använda operatorn **[!UICONTROL is any]**för att matcha ett besök på en Marketo Engage-webbsida eller i ett ifyllt formulär.
 
    * (Valfritt) Klicka på **[!UICONTROL Add constraint]** och välj det fält som du vill använda som begränsning. Ange operatorn och fältets värde.
 
@@ -135,7 +135,7 @@ Om du har webbsidor i den anslutna Marketo Engage-instansen kan du utlösa en h�
 
 ### Lyssna efter en upplevelsehändelse
 
-Administratörer kan välja [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} som gör att marknadsförare kan skapa konto- och personresor som reagerar på händelserna i nära realtid. Att använda upplevelsehändelser under resor är en tvåstegsprocess:
+Administratörer kan välja [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} som gör att marknadsförare kan skapa konto- och personresor som reagerar på händelserna i nära realtid. Att använda upplevelsehändelser under resor är en tvåstegsprocess:
 
 1. En administratör [väljer händelsetyper och intressefält](../admin/configure-aep-events.md#select-an-event) för att göra dem tillgängliga på resorna.
 
@@ -152,7 +152,7 @@ _Inkludera en upplevelsehändelse i din resa :_
 
 1. Markera händelsen.
 
-   Klicka på pilen för **_-väljaren för en_** kontoresa **[!UICONTROL Select people event]** och rulla menyn till avsnittet **[!UICONTROL Adobe Experience Platform]**.
+   Klicka på pilen för **[!UICONTROL Select people event]**-väljaren för en **_kontoresa_** och rulla menyn till avsnittet **[!UICONTROL Adobe Experience Platform]**.
 
    ![Lyssna efter en upplevelsehändelse](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
 
@@ -224,4 +224,4 @@ Ange vid behov hur lång tid resan väntar på händelsen. Resan avslutas efter 
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443238/?captions=swe&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->
