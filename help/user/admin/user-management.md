@@ -4,10 +4,10 @@ description: Hantera användaråtkomst med Experience Cloud Admin Console - skap
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 7027e028922dae2a2dff64ab966886af7b6a8c49
+source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 0%
+source-wordcount: '2041'
+ht-degree: 92%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 När etableringen är klar och sandlådorna är bundna utför du följande steg för att ge ditt team och dina användare tillgång till Adobe Journey Optimizer B2B edition.
 
-1. [Skapa en Marketo Engage-produktprofil](#create-the-marketo-engage-product-profile) i Admin Console (endast ny Marketo Engage-instans).
-1. [Lägg till en användargrupp](#add-a-user-group-for-the-profile) i Admin Console.
+1. [Skapa en Marketo Engage-produktprofil](#marketo-engage-profile) i Admin Console (endast ny Marketo Engage-instans).
+1. [Lägg till en användargrupp](#add-user-group) i Admin Console.
 1. [Redigera inbyggda roller](#edit-roles-for-product-permissions) eller [skapa en anpassad roll](#create-a-custom-role) med Journey Optimizer B2B edition-behörigheter.
 1. [Lägg till användare](#add-users) eller [grupper](#add-user-groups-to-a-role) i roller.
 
-Som administratör kan du utföra dessa uppgifter i Adobe Admin Console, som är en central plats för att administrera och hantera dina Adobe produktlicenser och användare. I Admin Console kan du skapa och hantera användare på en och samma plats i stället för i de olika individuella lösningarna. På sidan [Admin Console - översikt](https://helpx.adobe.com/se/enterprise/using/admin-console.html) finns mer information om funktioner och funktioner.
+Som administratör kan du utföra dessa uppgifter i Adobe Admin Console, som är en central plats för att administrera och hantera dina Adobe produktlicenser och användare. I Admin Console kan du skapa och hantera användare på en och samma plats i stället för i de olika individuella lösningarna. På sidan [Admin Console - översikt](https://helpx.adobe.com/enterprise/using/admin-console.html) finns mer information om funktioner och funktioner.
 
 ## Öppna Admin Console
 
@@ -56,13 +56,13 @@ Innan du kan använda Admin Console för att administrera användare i ditt team
 
 När du ger användare tillgång till en Adobe-lösning behöver du inte nödvändigtvis ge dem fullständig åtkomst. Med produktprofiler kan varje lösning ha en egen uppsättning användarbehörigheter. Använd Admin Console för att tilldela produktprofiler.
 
-Mer information om hur du använder produktprofiler för användarberättiganden finns i [_Hantera produktprofiler för företagsanvändare_](https://helpx.adobe.com/se/enterprise/using/manage-product-profiles.html){target="_blank"} i Admin Console-dokumentationen.
+Mer information om hur du använder produktprofiler för användarberättiganden finns i [_Hantera produktprofiler för företagsanvändare_](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html){target="_blank"} i Admin Console-dokumentationen.
 
 >[!BEGINSHADEBOX]
 
-När du lägger till en användare i Marketo Engage produktprofil läggs de sedan till i rollen _Standardanvändare_ i standardarbetsytan för Marketo Engage-prenumerationen. Den här rollen ger dem alla _x_-behörigheter för Marketo Engage på den arbetsytan. För närvarande måste alla användare av Journey Optimizer B2B edition vara Marketo Engage-användare. En Marketo Engage-administratör kan begränsa åtkomsten genom att uppdatera behörigheterna för rollen _Standardanvändare_ eller genom att flytta användaren till en annan Marketo Engage-användarroll med mer restriktiva behörigheter.
+När du lägger till en användare i Marketo Engage produktprofil läggs de sedan till i rollen _Standardanvändare_ i standardarbetsytan för Marketo Engage-prenumerationen. Den här rollen ger dem alla standardbehörigheter för Marketo Engage på den arbetsytan. För närvarande måste alla användare av Journey Optimizer B2B edition vara Marketo Engage-användare. En Marketo Engage-administratör kan begränsa åtkomsten genom att uppdatera behörigheterna för rollen _Standardanvändare_ eller genom att flytta användaren till en annan Marketo Engage-användarroll med mer restriktiva behörigheter.
 
-Mer information om hur du hanterar de här behörigheterna i Marketo Engage finns i [Hantera användarroller och behörigheter](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} i Marketo Engage-dokumentationen.
+Mer information om hur du hanterar de här behörigheterna i Marketo Engage finns i [Hantera användarroller och behörigheter](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} i Marketo Engage-dokumentationen.
 
 >[!ENDSHADEBOX]
 
@@ -82,13 +82,13 @@ Mer information om hur du hanterar de här behörigheterna i Marketo Engage finn
 
 ## Lägg till en användargrupp för profilen {#add-user-group}
 
-En användargrupp är en samling användare som tilldelas en delad uppsättning behörigheter. Du kan lägga till eller ta bort användare i din användargrupp. Gruppbehörigheterna förblir desamma medan användarna i gruppen ändras.
+En användargrupp är en samling användare som har tilldelats en delad uppsättning behörigheter. Du kan lägga till eller ta bort användare i din användargrupp. Gruppbehörigheterna förblir desamma medan användarna i gruppen ändras.
 
 >[!TIP]
 >
 >Om du migrerar till den förenklade arkitekturen och vill lägga till dina befintliga Journey Optimizer B2B edition-användare i Marketo Engage, kan du hoppa över stegen för att skapa användargrupper och helt enkelt öppna den befintliga användargruppen och lägga till Marketo Engage produktprofil.
 
-Mer information om hur användargrupper används för att hantera behörigheter finns i [Hantera användargrupper](https://helpx.adobe.com/se/enterprise/using/user-groups.html){target="_blank"} i Admin Console-dokumentationen.
+Mer information om hur användargrupper används för att hantera behörigheter finns i [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html){target="_blank"} i Admin Console-dokumentationen.
 
 ![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör kan utföra följande steg.
 
@@ -117,9 +117,9 @@ Mer information om hur användargrupper används för att hantera behörigheter 
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Lägga till användare i en ny grupp
+## Lägga till användare i en ny grupp {#add-users}
 
-Mer information om användarhantering finns i [Admin Console-användare](https://helpx.adobe.com/se/enterprise/using/user-groups.html) i Admin Console-dokumentationen.
+Mer information om användarhantering finns i [_Adobe Admin Console-användare_](https://helpx.adobe.com/enterprise/using/users.html){target="_blank"} i Admin Console-dokumentationen.
 
 ![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller produktadministratör kan utföra följande steg. En produktadministratör kan bara lägga till användare som redan finns i organisationen.
 
@@ -131,7 +131,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
    * Ange användarens e-postadress, förnamn och efternamn.
 
-     ![Experience Platform - lägg till profiler för den nya rollen](./assets/admin-console-add-users.png){width="600" zoomable="yes"}
+     ![Experience Platform - lägg till användarprofil för den nya rollen](./assets/admin-console-add-users.png){width="600" zoomable="yes"}
 
    * För **[!UICONTROL User groups]** klickar du på **+**.
 
@@ -147,9 +147,9 @@ Behörigheter är enhetsbehörigheter som gör att du kan definiera de behörigh
 
 Under _Behörigheter_ i Adobe Experience Platform kan administratörer definiera användarroller och åtkomstprinciper för att hantera åtkomstbehörigheter för funktioner och objekt i ett produktprogram. I det här programmet kan du skapa och hantera roller samt tilldela önskade resursbehörigheter för rollerna. Med behörigheter kan du också hantera sandlådor och användare som är associerade med en viss roll.
 
-Mer information om rollbehörigheter i Experience Platform finns i [Hantera behörigheter för en roll](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} i Experience Platform-dokumentationen.
+Mer information om rollbehörigheter i Experience Platform finns i [Hantera behörigheter för en roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} i Experience Platform-dokumentationen.
 
-### B2B-produktbehörigheter
+### B2B-produktbehörigheter {#b2b-product-permissions}
 
 Följande behörigheter styr åtkomsten till funktionerna i Journey Optimizer B2B edition:
 
@@ -161,7 +161,8 @@ Följande behörigheter styr åtkomsten till funktionerna i Journey Optimizer B2
 | B2B Buying Groups | Konfigurera, hantera och visa behörigheter för B2B-inköpsgrupper. Dessa behörigheter omfattar lösningsintressen, rollmallar och status för inköpsgrupper. | <li>Hantera B2B-inköpsgrupper |
 | B2B-kanalkonfigurationer | Konfigurera, hantera och visa behörigheter för B2B-kanalskonfigurationer. Dessa behörigheter omfattar inställningar för kommunikationsbegränsningar, API-autentiseringsuppgifter och säkerhetsinställningar. | <li>Hantera B2B-kanalskonfigurationer |
 | B2B-instrumentpaneler | Konfigurera och visa behörigheter för B2B-instrumentpaneler. Dessa behörigheter omfattar kontointeraktion, inköpsgruppfaser, surging-konton och kontakttäckning. | <li>Hantera B2B-instrumentpaneler |
-| B2B-resor | Konfigurera hanterings-, vy- och publiceringsbehörigheter för B2B-resor. Dessa behörigheter omfattar konto- och personåtgärder, händelseavlyssnare och delade sökvägar | <li>Hantera B2B-resor |
+| B2B-resor | Konfigurera, hantera, visa och publicera behörigheter för B2B-resor. Dessa behörigheter omfattar konto- och personåtgärder, händelseavlyssnare och delade sökvägar. | <li>Hantera B2B-resor |
+| Journey Optimizer Rules | Få tillgång till och konfigurera frekvensregler (kommunikationsgränser). Dessa behörigheter bör begränsas till produktadministratörer. | <li>Visa frekvensregler <li>Hantera frekvensregler |
 
 ### Inbyggda B2B-roller
 
@@ -192,7 +193,7 @@ _Ändra behörigheter för en roll :_
 
    >[!NOTE]
    >
-   >Om du inte ser _[!UICONTROL Permissions]_&#x200B;kan du behöva klicka på&#x200B;**[!UICONTROL View all]**&#x200B;och välja det bland de tillgängliga programmen.
+   >Om du inte ser _[!UICONTROL Permissions]_kan du behöva klicka på&#x200B;**[!UICONTROL View all]**och välja det bland de tillgängliga programmen.
 
    ![Experience Platform - åtkomstbehörigheter](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
@@ -204,7 +205,7 @@ _Ändra behörigheter för en roll :_
 
    ![Experience Platform - redigera rollen](./assets/aep-permissions-role-edit.png){width="700" zoomable="yes"}
 
-   I rollredigeraren visar menyn _[!UICONTROL Resources]_&#x200B;en lista över de resurser som gäller för Experience Cloud - plattformsbaserade programprodukter.
+   I rollredigeraren visar menyn _[!UICONTROL Resources]_en lista över de resurser som gäller för Experience Cloud - plattformsbaserade programprodukter.
 
    Du kan ange _B2B_ i sökverktyget för att filtrera listan över B2B-produktbehörigheter.
 
@@ -232,7 +233,7 @@ _Ändra behörigheter för en roll :_
 
    ![Experience Platform - lägg till användare i rollen](./assets/aep-permissions-role-add-users.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Add users]_&#x200B;letar du reda på och väljer de användare som du vill lägga till i rollen.
+1. I dialogrutan _[!UICONTROL Add users]_letar du reda på och väljer de användare som du vill lägga till i rollen.
 
    * Du kan använda sökverktyget för att filtrera listan med användare.
 
@@ -244,7 +245,7 @@ _Ändra behörigheter för en roll :_
 
 ### Lägga till användargrupper i en roll
 
-Mer information om användarhantering finns i [Admin Console-användare](https://helpx.adobe.com/se/enterprise/using/user-groups.html) i Admin Console-dokumentationen.
+Mer information om användarhantering finns i [_Adobe Admin Console-användare_](https://helpx.adobe.com/enterprise/using/users.html){target="_blank"} i Admin Console-dokumentationen.
 
 ![Administratörsrollkrav](../../assets/do-not-localize/icon-admin-user.svg){width="30"} En systemadministratör eller AEP produktadministratör kan utföra följande steg.
 
@@ -254,9 +255,9 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
 1. Klicka på **[!UICONTROL Add Groups]**.
 
-   ![Experience Platform - lägg till användare i rollen](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
+   ![Experience Platform - lägg till grupper i rollen](./assets/aep-permissions-role-add-groups.png){width="700" zoomable="yes"}
 
-1. I dialogrutan _[!UICONTROL Add groups]_&#x200B;letar du reda på och markerar de grupper som du vill lägga till i rollen.
+1. I dialogrutan _[!UICONTROL Add groups]_letar du reda på och markerar de grupper som du vill lägga till i rollen.
 
    * Du kan använda sökverktyget för att filtrera listan med användargrupper.
 
@@ -264,7 +265,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
    ![Experience Platform - Dialogrutan Lägg till grupper](./assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL Save]** när du har markerat alla användare som du vill lägga till.
+1. Klicka på **[!UICONTROL Save]** när du har markerat alla grupper som du vill lägga till.
 
 ## Skapa en anpassad roll
 
@@ -272,7 +273,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
 1. Välj **[!UICONTROL Roles]** i den vänstra navigeringen och välj **[!UICONTROL Create role]**.
 
-1. I dialogrutan _[!UICONTROL Create new role]_&#x200B;anger du ett namn för rollen, till exempel_ B2B-marknadsförare _, och en beskrivning (valfritt).
+1. I dialogrutan _[!UICONTROL Create new role]_anger du ett namn för rollen, till exempel_ B2B-marknadsförare _, och en beskrivning (valfritt).
 
 1. Klicka på **[!UICONTROL Confirm]**.
 
@@ -282,7 +283,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
 1. Lägg till profilbehörigheter:
 
-   * Leta reda på objektet **[!UICONTROL Profile Management]** i listan _[!UICONTROL Resources]_&#x200B;till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till attributet.
+   * Leta reda på objektet **[!UICONTROL Profile Management]** i listan _[!UICONTROL Resources]_till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till attributet.
 
    * Lägg till följande behörigheter för attributet:
       * [!UICONTROL View segments]
@@ -298,7 +299,7 @@ Mer information om användarhantering finns i [Admin Console-användare](https:/
 
    Se listan över [B2B-produktbehörigheter](#b2b-product-permissions) för att ta reda på vilka produktfunktioner du vill använda för rollen.
 
-   Leta reda på **[!UICONTROL B2B]**-objekten i listan _[!UICONTROL Resources]_&#x200B;till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till varje attribut som du vill aktivera för rollen.
+   Leta reda på **[!UICONTROL B2B]**-objekten i listan _[!UICONTROL Resources]_till vänster och klicka på ikonen_ Lägg till _(**+**) för att lägga till varje attribut som du vill aktivera för rollen.
 
    Du kan ange _B2B_ i sökverktyget för att filtrera listan över B2B-produktbehörigheter.
 

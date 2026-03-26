@@ -4,10 +4,10 @@ description: Installera Journey Optimizer B2B edition på den förenklade arkite
 feature: Setup, Administration
 role: Admin, Data Engineer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 38d1794ed30a34dbb34dfaec2d3088bc3a4680ac
+source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Använd checklistan för att slutföra installationen av Journey Optimizer B2B e
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
 <td>Samla in Experience Platform API-uppgifter och obligatoriska rubriker.</td>
-<td><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/landing/platform-apis/api-guide">Läs mer</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-guide">Läs mer</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
@@ -273,7 +273,7 @@ Konfigurera ytterligare kanaler för att ge marknadsförarna stöd för att inkl
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
 <td>Konfigurera din företagswebbplats så att den stöder Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/sv/docs/experience-platform/collection/js/js-overview">Läs mer</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Läs mer</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
@@ -336,12 +336,12 @@ När etableringen är klar är sandlådor bundna och initiala konfigurationsåtg
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
 <td>Skapa en Marketo Engage-produktprofil i Adobe Admin Console (endast ny Marketo Engage-instans)</td>
-<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">Läs mer</a></td>
+<td><a href="./admin/user-management.md#marketo-engage-profile">Läs mer</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
 <td>Lägg till en användargrupp för profilen</td>
-<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">Läs mer</a></td>
+<td><a href="./admin/user-management.md#add-user-group">Läs mer</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kryssruta"/></td>
