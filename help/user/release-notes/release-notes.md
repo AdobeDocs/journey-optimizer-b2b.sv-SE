@@ -3,9 +3,9 @@ title: Versionsinformation om Journey Optimizer B2B edition
 description: Upptäck de senaste funktionerna, förbättringarna och felkorrigeringarna i Adobe Journey Optimizer B2B edition. Håll dig uppdaterad med nya funktioner och produktförbättringar.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 9673756b592538cdb50524ced3716fed5f2362bb
+source-git-commit: 5b9cb6554a3d31527a362407b04548ec2961f7ae
 workflow-type: tm+mt
-source-wordcount: '4809'
+source-wordcount: '4845'
 ht-degree: 4%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 Adobe Journey Optimizer B2B edition ger kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar.
 
-Journey Optimizer B2B edition är inbyggt i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/sv/docs/experience-platform/release-notes/latest){target="_blank"}.
+Journey Optimizer B2B edition är inbyggt i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Granska [produktbeskrivningen](https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om du vill ha information om berättiganden, prestandaskydd och begränsningar.
+Granska [produktbeskrivningen](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om du vill ha information om berättiganden, prestandaskydd och begränsningar.
 
 ## Versionsinformation 2026.3
 
@@ -30,6 +30,7 @@ Granska [produktbeskrivningen](https://helpx.adobe.com/se/legal/product-descript
 | Funktion | Stöd för [!DNL Firefly] och anpassade generativa AI-modeller | Marknadsföringsteamen kan nu aktivera integrering av standardmodeller och anpassade [!DNL Firefly]-modeller, tillsammans med godkända tredjepartsmodeller (till exempel [!DNL NanoBanana]). E-postdesigners kan välja den bästa modellen för varje användningsfall: standard [!DNL Firefly] för allmänna behov, anpassad [!DNL Firefly] för varumärkesgenerering eller godkända tredjepartsmodeller för specialiserade eller experimentella scenarier. |
 | Funktion | Anpassade externa åtgärder för resor | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} Utvecklare kan nu använda API:er för att skapa integreringar med sina egna system. Med dessa anpassade integreringar kan marknadsförare lägga till noder för _extern åtgärd_ och _extern delad sökväg_ för att göra utgående begäranden till externa tjänster under kontoresan. |
 | Funktion | Varumärken | (Beta) Marknadsföringsteamen kan upprätthålla ett enhetligt varumärke i sitt e-postinnehåll genom att lagra och hantera varumärkesprofiler. Genom att lägga till resurser som färger, teckensnitt, logotyper, teman, visuellt innehåll och riktlinjer för efterlevnad kan de använda varumärkesprofilen för att skapa generativt AI-innehåll. De kan också mäta varumärkesjusteringen för att säkerställa regelefterlevnaden. |
+| Förbättring | Skicka e-post - optimering vid sändning | För _Skicka e-post_-åtgärdsnoder på personliga resor kan du använda alternativen för _optimering vid sändning_ för att anpassa tidsåtgången för e-postleverans genom att förutsäga när det är mest troligt att varje profil interagerar. |
 | Förbättring | Verktyg för e-postdesign - expertläge | Med _expertläge_ i e-postdesignområdet kan användare göra mindre HTML/CSS-redigeringar och lägga till script-taggar i ett e-postmeddelande för att lösa återgivningsproblem. |
 | Förbättring | Personanpassade objekt - köpa grupprollmallar | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} När administratörer konfigurerar anpassade objekt som är relaterade till en företagsprofil kan marknadsförare nu definiera inköpsgrupproller med dessa anpassade objekt. |
 | Förbättring | Posta e-postinnehåll - validering av innehållskvalitet | Förutom varumärkesanpassning kan ni utvärdera den övergripande innehållskvaliteten för att identifiera potentiella problem med läsbarhet, enhetlighet och effektivitet (oberoende av varumärkesriktlinjerna). Dessa automatiska kontroller hjälper till att identifiera otydliga meddelanden, inkonsekventa toner och strukturella luckor. |
@@ -66,7 +67,7 @@ Granska [produktbeskrivningen](https://helpx.adobe.com/se/legal/product-descript
 | Funktion | Varumärkessatser | (Beta) Definiera ett varumärke i Journey Optimizer B2B edition för att ge den kreativa teamet den källa som de vill använda när de skapar visuellt eller skrivet innehåll. När dessa riktlinjer sammanställs och varumärkesresurserna delas kan alla teammedlemmar eller medarbetare skapa varumärkesinnehåll för din produkt. [Läs mer](../content/brands-overview.md) |
 | Funktion | Varumärken för generering av e-postinnehåll | Ni kan definiera riktlinjer för ert varumärke och använda den här informationen för att generera e-postinnehåll. Med den här funktionen justeras e-postinnehåll efter varumärkesspecifika riktlinjer, format och ton för copywriting. [Läs mer](../content/ai-assistant-emails.md) |
 | Förbättring | Resa _Vänta_-nod - avancerade inställningar | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} För en _Wait_-nod på en resa kan marknadsförarna nu ange slutdagar och sluttider och välja tidszoner. Den här förbättringen ger bättre kontroll över resesamordning och kampanjtiming. [Läs mer](../journeys/wait-nodes.md#advanced-wait-settings) |
-| Förbättring | Medlem i filtret Buying Group - har tagits bort | För en _delad sökväg av personer_-nod innehåller filtret _[!UICONTROL Member of Buying Group]_&#x200B;nu begränsningen_ Är borttagen _. När du väljer det kan filtret inkludera den borttagna inköpsgruppmedlemmen eller exkludera dem. Den stöds också i Marketo Engage smarta listor, där du kan använda den nya begränsningen i filtret&#x200B;_[!UICONTROL Member of Buying Group]_. |
+| Förbättring | Medlem i filtret Buying Group - har tagits bort | För en _delad sökväg av personer_-nod innehåller filtret _[!UICONTROL Member of Buying Group]_nu begränsningen_ Är borttagen _. När du väljer det kan filtret inkludera den borttagna inköpsgruppmedlemmen eller exkludera dem. Den stöds också i Marketo Engage smarta listor, där du kan använda den nya begränsningen i filtret_[!UICONTROL Member of Buying Group]_. |
 | Förbättring | E-postdesign - punkter på flera nivåer | Verktygen för design av e-postinnehåll har nu stöd för underpunkter (punktnivåer). |
 
 >[!NOTE]
@@ -185,7 +186,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Funktion | Anpassat CSS-stöd för innehållsdesign | Nu kan du lägga till egen anpassad CSS när du skapar e-post- och landningssidinnehåll i designområdet. [Läs mer](../content/design-custom-css.md) |
 | Funktion | Konfiguration av återgivningsnyckelordsmappning | Om du vill aktivera och hantera återgivningsidentifieringsmodellen kan administratörer nu överföra ett kalkylblad för att definiera en kategori för avsiktsdatamappning. [Läs mer](../admin/intent-data.md) |
 | Förbättring | Simulera innehåll från e-postsammanfattning | Nu kan du komma åt verktygen _Simulera innehåll_ från e-postsammanfattningen (information och egenskaper) när du öppnar ett e-postmeddelande från e-postlistan. Den här åtkomsten är utöver e-postdesignområdet. [Läs mer](../content/email-simulate-content.md#display-the-email-preview) |
-| Förbättring | Visa totalt antal för rollmallslista | Listsidan _[!UICONTROL Roles templates]_&#x200B;har förbättrats med en visning av det totala antalet bredvid sökfältet. |
+| Förbättring | Visa totalt antal för rollmallslista | Listsidan _[!UICONTROL Roles templates]_har förbättrats med en visning av det totala antalet bredvid sökfältet. |
 
 ## Versionsinformation 2025.5
 
@@ -198,7 +199,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Funktion | E-posttestning med Litmus | Med ett [Litmus Enterprise-konto](https://www.litmus.com/email-testing){target="_blank"} kan du nu förhandsgranska din e-poståtergivning i vanliga e-postklienter från Journey Optimizer B2B edition. Tack vare den här integreringen kan du se till att e-postinnehållet ser bra ut och fungerar som det är avsett i varje e-postinkorg. [Läs mer](../content/email-test-rendering.md) |
 | Förbättring | Duplicera e-post | När du lägger till ett e-postmeddelande för en kundtjänstnod kan du nu duplicera ett befintligt e-postmeddelande. Ändra inställningen eller innehållet för det duplicerade e-postmeddelandet, eller lämna det intakt.  [Läs mer](../content/add-email.md#add-an-email-to-your-journey) |
 | Förbättring | Hanteringsfältstokenformat för e-post | Personalization-tokens för e-postinnehåll använder nu ett uppdaterat format som är helt kompatibelt med Handlebar-skript. Det här formatet använder _kamelskiftläge_ eller understreck, vilket eliminerar mellanslag. [Läs mer](../content/email-authoring.md#content-authoring---personalization) |
-| Förbättring | Visa totalt antal för listor | Listsidorna _[!UICONTROL Solution Interests]_&#x200B;och&#x200B;_[!UICONTROL Account Journeys]_ har förbättrats med visningen av det totala antalet bredvid sökfältet. |
+| Förbättring | Visa totalt antal för listor | Listsidorna _[!UICONTROL Solution Interests]_och_[!UICONTROL Account Journeys]_ har förbättrats med visningen av det totala antalet bredvid sökfältet. |
 
 ## Versionsinformation 2025.4
 
@@ -226,7 +227,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Funktion | Duplicera kontoresor | En dubblettåtgärd finns nu tillgänglig för kontoresor. Du kan duplicera informationen för kontoresan eller bara ett enkelt skelett i flödes- och sökvägsstrukturen. <a href="../journeys/journeys-overview.md#duplicate-journey">Läs mer</a> |
 | Funktion | Mina token för kontoresor | Nu kan du definiera en uppsättning anpassade tokens med värden som är specifika för kontoresan. Den här uppsättningen anpassade tokens kallas _Mina token_ och någon av dessa anpassade tokens är till för personalisering när du redigerar e-postmeddelanden om resan. <a href="../content/personalization-my-tokens.md">Läs mer</a> |
 | Funktion | Ta bort inköpsgruppsfaser | Du kan ta bort inköpsgruppens fasmodell när den är i ett utkast eller publicerat tillstånd. Om den publiceras (live) kan du bara ta bort den när den inte är kopplad till ett lösningsintresse. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Läs mer</a> |
-| Förbättring | Antal resantnoder | Ökad synlighet i antalet publicerade resemedlemskap på nodnivå. I _resekartan_ visas _[!UICONTROL Total accounts entered]_&#x200B;noder. När en marknadsförare väljer en åtgärdsnod inkluderar informationen till höger även&#x200B;_[!UICONTROL Accounts not yet actioned on]_. Och information om _Lyssna efter en händelse_-nod innehåller _[!UICONTROL Accounts at this step]_. Den här informationen är användbar när du vill validera kontostatus på resor som görs live, klart och avbrutet. |
+| Förbättring | Antal resantnoder | Ökad synlighet i antalet publicerade resemedlemskap på nodnivå. I _resekartan_ visas _[!UICONTROL Total accounts entered]_noder. När en marknadsförare väljer en åtgärdsnod inkluderar informationen till höger även_[!UICONTROL Accounts not yet actioned on]_. Och information om _Lyssna efter en händelse_-nod innehåller _[!UICONTROL Accounts at this step]_. Den här informationen är användbar när du vill validera kontostatus på resor som görs live, klart och avbrutet. |
 
 ## Versionsinformation 2025.2
 
@@ -280,7 +281,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Funktion | Köpgruppsfaser | När du definierar och publicerar en anpassad testmodell för inköpsgrupper kan du följa upp köpgruppsutvecklingen genom inköpsgruppens livscykelfaser. Använd de här faserna för att identifiera nästa bästa åtgärd för medlemmar i inköpsgrupper. Du konfigurerar övergångsreglerna och resenoderna som bestämmer scenens förlopp och utlöser åtgärder baserat på ändringar. <a href="../buying-groups/buying-group-stages.md">Läs mer</a> |
 | Förbättring | Nya färdiga e-postmallar | Exempelmallsbiblioteket innehåller nu ytterligare e-postmallar som utformats för B2B-marknadsförare. Använd de här exempelmallarna som utgångspunkt och lägg till egna varumärken och meddelanden. <a href="../content/email-templates.md#select-a-design-template">Läs mer</a> |
 | Förbättring | Anpassade fält som personattribut | Om du har definierat anpassade personfält i kontots målgruppsschema i Experience Platform är dessa fält även tillgängliga som personattribut under villkor. Använd dessa anpassade attribut i: <li>Rollmallar <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Läs mer</a></li><li>Dela banor efter personresenoder <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Läs mer</a></li> |
-| Förbättring | Inställningar för e-postkanal | E-postinställningarna visas nu i Journey Optimizer B2B edition-gränssnittet. Du kan snabbt granska aktuella konfigurationer och administratörer kan klicka på _[!UICONTROL Edit settings]_&#x200B;för att gå direkt till inställningarna i Marketo Engage och uppdatera dem enligt organisationens krav. <a href="../admin/configure-channels-emails.md">Läs mer</a> |
+| Förbättring | Inställningar för e-postkanal | E-postinställningarna visas nu i Journey Optimizer B2B edition-gränssnittet. Du kan snabbt granska aktuella konfigurationer och administratörer kan klicka på _[!UICONTROL Edit settings]_för att gå direkt till inställningarna i Marketo Engage och uppdatera dem enligt organisationens krav. <a href="../admin/configure-channels-emails.md">Läs mer</a> |
 
 +++
 
