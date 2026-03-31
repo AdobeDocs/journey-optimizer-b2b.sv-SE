@@ -41,7 +41,7 @@ Det finns många **_framtida förbättringar_** planerade för STO:
 
 ## Konfiguration
 
-Du kan konfigurera optimering för sändningstid när du [lägger till en _[!UICONTROL Take an action]_nod ](../journeys/action-nodes.md) på en personresa.
+Du kan konfigurera optimering för sändningstid när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod &#x200B;](../journeys/action-nodes.md) på en personresa.
 
 1. Välj **[!UICONTROL Send email]** för _[!UICONTROL Select action]_.
 
