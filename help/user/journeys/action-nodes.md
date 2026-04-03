@@ -4,9 +4,9 @@ description: Konfigurera åtgärdsnoder för konto- och personåtgärder - skick
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 8113b0a7e081a95b45e46060502fe24263e63364
+source-git-commit: 1a764cd8d2187b58ce02fefeeab78b0cd79de037
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1836'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Använd en kontoåtgärd när du vill tillämpa en ändring på alla personer so
 
 >[!NOTE]
 >
->Åtgärden _[!UICONTROL Account Change Data Value]_&#x200B;har tagits bort för version 2025.10._[!UICONTROL Update account profile]_ ersätter den här åtgärden för den [förenklade arkitekturen](../simplified-architecture.md).<br/>
+>Åtgärden _[!UICONTROL Account Change Data Value]_har tagits bort för version 2025.10._[!UICONTROL Update account profile]_ ersätter den här åtgärden för den [förenklade arkitekturen](../simplified-architecture.md).<br/>
 >
 >En administratör kan konfigurera tillgängliga attribut för XDM Business Account genom att uppdatera fälten i _[!UICONTROL XDM Classes]_>_[!UICONTROL Standard classes]_. Mer information finns i [Standardklasser](../admin/xdm-field-management.md#standard-classes).
 
@@ -102,6 +102,7 @@ Använd en åtgärd för personer på ett konto eller en personresa när du vill
 | | [!UICONTROL Remove from Buying Group] | <li>Kontoresa | <li>Välj lösningsintresse |
 | | [!UICONTROL Send email] | <li>Kontoresa <li>Personresa | <li>Skapa e-post <li>Optimering vid sändning (valfritt, endast för personresa) |
 | | [!UICONTROL Send SMS] | <li>Kontoresa | <li>Skapa SMS |
+| | [!UICONTROL Send WhatsApp] | <li>Kontoresa | <li>Skapa whatsApp-meddelande |
 | | [!UICONTROL Update person profile] | <li>Kontoresa <li>Personresa | <li>Välj personattribut <li>Ange nytt värde |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Add to Marketo request campaign] | <li>Kontoresa <li>Personresa | <li>Välj Marketo Engage arbetsyta <li>Välj kampanj för begäran |
 | | [!UICONTROL Add to Marketo list] | <li>Kontoresa <li>Personresa | <li>Namn på extern Marketo-anslutning <li>Listnamn |
@@ -109,9 +110,9 @@ Använd en åtgärd för personer på ett konto eller en personresa när du vill
 
 >[!NOTE]
 >
->Åtgärderna _[!UICONTROL Change People Partition in Marketo Engage]_&#x200B;och&#x200B;_[!UICONTROL Change Score]_ har tagits bort för version 2025.10 och är inte tillgängliga för den [förenklade arkitekturen](../simplified-architecture.md) för Journey Optimizer B2B edition.<br/>
+>Åtgärderna _[!UICONTROL Change People Partition in Marketo Engage]_och_[!UICONTROL Change Score]_ har tagits bort för version 2025.10 och är inte tillgängliga för den [förenklade arkitekturen](../simplified-architecture.md) för Journey Optimizer B2B edition.<br/>
 >
->Åtgärden _[!UICONTROL Change Data Value]_&#x200B;har tagits bort för version 2025.10. Den ersätts med&#x200B;_[!UICONTROL Update person profile]_ på den förenklade arkitekturen.
+>Åtgärden _[!UICONTROL Change Data Value]_har tagits bort för version 2025.10. Den ersätts med_[!UICONTROL Update person profile]_ på den förenklade arkitekturen.
 
 ### Lägga till en personbaserad åtgärd
 
@@ -142,7 +143,7 @@ Använd den här åtgärden för att skicka människor till en extern publik som
 När du väljer den här personbaserade åtgärden kan du skapa en ny extern målgrupp eller välja från listan med befintliga externa målgrupper.
 
 * För befintliga målgrupper kan du välja bland externa kundmålgrupper som bara skapades i [!DNL Journey Optimizer B2B Edition].
-* När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i [!DNL Experience Platform]-dokumentationen.
+* När du skapar en målgrupp och använder den för den här reseåtgärden måste du koppla målgruppen. Mer information finns i [Skapa en ny målanslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} och [Aktiveringsöversikt](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} i [!DNL Experience Platform]-dokumentationen.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Titta på en videoöversikt för betald mediasamordning](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -188,7 +189,7 @@ Använd den här åtgärden om du vill lägga till personprofiler i en [inköpsg
 
 +++[!UICONTROL Change Score]
 
-Använd den här åtgärden om du vill ändra personpoängen i Marketo Engage. [Läs mer](https://experienceleague.adobe.com/sv/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Använd den här åtgärden om du vill ändra personpoängen i Marketo Engage. [Läs mer](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Vidta en åtgärd - Ändra poäng](./assets/node-action-change-score.png){width="300"}
 
@@ -220,7 +221,7 @@ Använd den här åtgärden om du vill ta bort personprofiler från en [inköpsg
 
 +++[!UICONTROL Send email]
 
-Använd den här åtgärden om du vill skicka ett e-postmeddelande. När du har [skapat e-postmeddelandet](../content/add-email.md#add-an-email-to-your-journey) för noden kan du utforma, anpassa och förhandsgranska e-postmeddelanden i e-postdesignområdet (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan i Marketo Engage och välj sedan det e-postmeddelande som du vill skicka.
+Använd den här åtgärden om du vill skicka ett e-postmeddelande. När du har [skapat e-postmeddelandet](../content/add-email.md#add-an-email-to-your-journey) för noden kan du utforma, anpassa och förhandsgranska e-postmeddelanden i e-postdesignområdet (se [Skapa e-post](../content/email-authoring.md)). Du kan också skicka ett [e-postmeddelande från Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Markera arbetsytan i Marketo Engage och välj sedan det e-postmeddelande som du vill skicka.
 
 ![Vidta en åtgärd - Skicka e-post](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -240,6 +241,14 @@ Använd den här åtgärden om du vill skicka ett SMS-meddelande. Du kan skapa, 
 
 +++
 
++++[!UICONTROL Send WhatsApp]
+
+Använd den här åtgärden om du vill skicka ett WhatsApp-meddelande. Du kan skapa, anpassa och förhandsgranska whatsApp-meddelanden i den visuella designrymden (se [WhatApp authoring](../content/whatsapp-authoring.md)).
+
+![Vidta en åtgärd - Skicka whatsApp](./assets/node-action-send-whatsapp.png){width="300"}
+
++++
+
 +++[!UICONTROL Update person profile]
 
 Använd den här åtgärden om du vill ändra värdet för ett [personprofilattribut](../admin/field-mapping.md#xdm-business-person-attributes). Markera attributet och ange sedan det nya värdet.
@@ -248,7 +257,7 @@ Använd den här åtgärden om du vill ändra värdet för ett [personprofilattr
 
 >[!NOTE]
 >
->_[!UICONTROL Update person profile]_&#x200B;ersätter åtgärden&#x200B;_[!UICONTROL Change Data Value]_ i den [förenklade arkitekturen](../simplified-architecture.md).<br/>
+>_[!UICONTROL Update person profile]_ersätter åtgärden_[!UICONTROL Change Data Value]_ i den [förenklade arkitekturen](../simplified-architecture.md).<br/>
 >
 >En administratör kan konfigurera tillgängliga attribut för den enskilda XDM-profilen genom att uppdatera fälten i _[!UICONTROL XDM Classes]_> [!UICONTROL Standard classes]. Mer information finns i [Standardklasser](../admin/xdm-field-management.md#standard-classes).
 
@@ -266,7 +275,7 @@ Du kanske vill inaktivera kampanjer i Marketo Engage för personer som är en de
 
 +++[!UICONTROL Add to Marketo request campaign]
 
-Använd den här åtgärden om du vill lägga till personprofiler i en [begärankampanj](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} i en ansluten Marketo Engage-instans.
+Använd den här åtgärden om du vill lägga till personprofiler i en [begärankampanj](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} i en ansluten Marketo Engage-instans.
 
 Välj först en ansluten Marketo Engage-instans. Välj sedan kampanjnamnet för begäran.
 
@@ -276,7 +285,7 @@ Välj först en ansluten Marketo Engage-instans. Välj sedan kampanjnamnet för 
 
 +++[!UICONTROL Add to Marketo list]
 
-Använd den här åtgärden om du vill lägga till personer i en [statisk lista](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i en ansluten Marketo Engage-instans.
+Använd den här åtgärden om du vill lägga till personer i en [statisk lista](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i en ansluten Marketo Engage-instans.
 
 Välj först en ansluten Marketo Engage-instans. Välj sedan listnamnet.
 
@@ -286,7 +295,7 @@ Välj först en ansluten Marketo Engage-instans. Välj sedan listnamnet.
 
 +++[!UICONTROL Remove from Marketo list]
 
-Använd den här åtgärden om du vill ta bort personer från en [statisk lista](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage.
+Använd den här åtgärden om du vill ta bort personer från en [statisk lista](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} i Marketo Engage.
 
 Välj först en ansluten Marketo Engage-instans. Välj sedan listnamnet.
 
@@ -296,4 +305,4 @@ Välj först en ansluten Marketo Engage-instans. Välj sedan listnamnet.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3443249/?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

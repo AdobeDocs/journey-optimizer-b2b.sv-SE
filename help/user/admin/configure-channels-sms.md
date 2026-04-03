@@ -4,9 +4,9 @@ description: Koppla upp SMS-leverantörer som Sinch, Twilio och Infobip med API-
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: ee6000d8527222a246f715de033ee99ea49f47fd
+source-git-commit: 1a764cd8d2187b58ce02fefeeab78b0cd79de037
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Innan du konfigurerar en SMS-kanal i Adobe Journey Optimizer B2B edition måste 
 >
 >De beskrivna inställningarna är bara tillgängliga för användare med SMS-administratörsbehörighet.
 
-1. Utöka avsnittet **[!UICONTROL Administrator]** till vänster och klicka på **[!UICONTROL Channels]**.
+1. Utöka avsnittet **[!UICONTROL Administration]** till vänster och klicka på **[!UICONTROL Channels]**.
 
    ![Åtkomst till konfigurationen av SMS API-autentiseringsuppgifter](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
@@ -115,4 +115,4 @@ _Konfigurera Infobip som din SMS-leverantör med Adobe Journey Optimizer B2B edi
 
 >[!ENDTABS]
 
-När du klickar på _[!UICONTROL Submit]_&#x200B;valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för&#x200B;_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.
+När du klickar på _[!UICONTROL Submit]_valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.

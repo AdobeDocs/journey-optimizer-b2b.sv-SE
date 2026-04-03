@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B edition Documentation
 user-guide-description: Läs om Adobe Journey Optimizer B2B edition och hur du kan använda det för att skapa konto och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 8113b0a7e081a95b45e46060502fe24263e63364
+source-git-commit: 74bfcc9cc2edae97133e54f076e43329c1399e5c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 98%
+source-wordcount: '429'
+ht-degree: 97%
 
 ---
 
@@ -52,6 +52,7 @@ ht-degree: 98%
    + [Resedetaljer](./journeys/journey-details.md)
 + Reseinnehåll {#journey-content}
    + [SMS-kanal](./content/sms-authoring.md)
+   + [WhatsApp-kanal](./content/whatsapp-authoring.md)
    + E-postkanal {#email-channel}
       + [Lägg till ett e-postmeddelande](./content/add-email.md)
       + [Optimering vid sändning](./content/email-send-time-optimization.md)
@@ -155,6 +156,7 @@ ht-degree: 98%
    + Kanaler {#channels}
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
+      + [WhatsApp-konfigurationer](./admin/configure-channels-whatsapp.md)
       + [Konfigurationer av webbkanaler (Beta)](./admin/configure-channels-web.md)
       + [Inställningar för landningssida (Beta)](./admin/landing-page-settings.md)
       + [Konfigurera datastreams för händelsesamling](./data/aep-event-collection.md)
