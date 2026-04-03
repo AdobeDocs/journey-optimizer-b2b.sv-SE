@@ -64,7 +64,7 @@ När ert varumärke är väldefinierat och publicerat kan ni bedöma ert varumä
 
    Du kan klicka på ikonen _Helskärm_ ( ![Helskärmsikon](../assets/do-not-localize/icon-full-screen.svg) ) längst upp på panelen om du vill visa varumärkesjusteringsverktygen i helskärmsläge.
 
-1. Om det behövs klickar du på **[!UICONTROL Brand]**-menypilen ( ![ nedpil ](../assets/do-not-localize/icon-down-menu.svg) ) för att välja ett annat publicerat varumärke.
+1. Om det behövs klickar du på **[!UICONTROL Brand]**-menypilen ( ![&#x200B; nedpil &#x200B;](../assets/do-not-localize/icon-down-menu.svg) ) för att välja ett annat publicerat varumärke.
 
 1. Klicka på **[!UICONTROL Evaluate score]** om du vill få innehållets justering med det valda varumärket.
 
