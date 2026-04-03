@@ -4,10 +4,10 @@ description: Skapa rollmallar med villkorlig automatisk tilldelning för att ide
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
+source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 0%
+source-wordcount: '1329'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 1. Klicka på **[!UICONTROL Buying groups]** i den vänstra navigeringen.
 
-1. Välj fliken _[!UICONTROL Buying groups]_&#x200B;på sidan **[!UICONTROL Roles Templates]**.
+1. Välj fliken **[!UICONTROL Roles Templates]** på sidan _[!UICONTROL Buying groups]_.
 
    ![fliken Rollmallar](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ På en B2B-marknad är det oftast flera individer som fattar inköpsbeslut. Dess
 
 ## Skapa en rollmall
 
-1. Klicka på _[!UICONTROL Roles Templates]_&#x200B;i det övre högra hörnet på fliken **[!UICONTROL Create template]**.
+1. Klicka på **[!UICONTROL Create template]** i det övre högra hörnet på fliken _[!UICONTROL Roles Templates]_.
 
 1. Ange ett unikt **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för mallen i dialogrutan.
 
@@ -62,9 +62,10 @@ Varje roll som du definierar för mallen använder en uppsättning filter, eller
 
 | Typ | Villkor |
 | ---- | --------- |
-| Personattribut | <li>E-postadress <li>Ogiltig e-postadress <li>E-postmeddelandet har pausats <li>Faxnummer <li>Förnamn <li>Ingångsregion <li>Befattning <li>Efternamn <li>Mellannamn <li>Mobiltelefonnummer <li>Personengagemangspoäng <li>Telefonnummer <li>Postnummer <li>Stat <li>Avprenumererad <li>Orsak till avbeställning |
-| Specialfilter | <li>Listmedlem <li>Medlem i program |
-| Återgivningsdata | <li>Kategoriåtergivning <li>Produktåtergivning <li>Nyckelordsmetod<br/>[Läs om återgivningsdata](../admin/intent-data.md) |
+| [!UICONTROL Person attributes] | Attribut från [personprofilen](../admin/field-mapping.md#xdm-business-person-attributes), inklusive: <li>Ort <li>Land <li>E-postadress <li>Ogiltig e-postadress <li>E-postmeddelandet har pausats <li>Förnamn <li>Ingångsregion <li>Befattning <li>Efternamn <li>Mobiltelefonnummer <li>Personengagemangspoäng <li>Telefonnummer <li>Postnummer <li>Stat |
+| [!UICONTROL Custom Objects] > Har `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Funktionen Beta"} Kontot har eller saknar relationsschemaposter. Den kan också utvärderas mot något av de valda anpassade objektvillkoren, enligt konfigurationen i [XDM-relationsscheman](../admin/xdm-field-management.md#relational-schemas). |
+| Specialfilter | <li>Listmedlem (utgått) <li>Medlem i program (utgått) |
+| Återgivningsdata | <li>Kategoriåtergivning <li>Produktåtergivning <li>Nyckelordsmetod <br/> (se [_Återgivningsdata_](../admin/intent-data.md)) |
 
 1. Ange rollegenskaperna för det första rollkortet.
 
@@ -86,21 +87,25 @@ Varje roll som du definierar för mallen använder en uppsättning filter, eller
 
 1. Klicka på **[!UICONTROL Add Condition]** och definiera den villkorliga regeln för rollen.
 
-   * Expandera listan med _[!UICONTROL Condition]_&#x200B;i dialogrutan **[!UICONTROL Person attributes]**&#x200B;och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
+   * Expandera listan med **[!UICONTROL Person attributes]** i dialogrutan _[!UICONTROL Condition]_och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
 
      ![Rollmallen lägger till attributet Dra villkor](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
      >[!NOTE]
      >
-     >Om du har definierat anpassade personfält i kontots målgruppsschema i Experience Platform är dessa fält även tillgängliga som personattribut under villkor.
+     >Om du har definierat anpassade personfält i företagsschema i Experience Platform är dessa fält även tillgängliga som personattribut i villkoren.
 
-   * Använd attributet för att skapa ett matchande filter med ett eller flera värden.
+     Använd attributet för att skapa ett matchande filter med ett eller flera värden.
 
      I följande exempel används attributet Job title för att identifiera en matchning för Decision Maker. Alla värden för rubrik som börjar med `Director` eller `Sr Director` utvärderas som sanna för villkoret.
 
      ![Exempel på villkor för rollmall med jobbtitel](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * Om det behövs lägger du till ett annat attribut och villkor som ytterligare förfinar villkoren för en matchning till rollen.
+   * Om det finns konfigurerade anpassade objekt som är relaterade till personer [definierade i XDM-relationsscheman](../admin/xdm-field-management.md#relational-schemas) expanderar du listan med **[!UICONTROL Custom Objects]** så att de kan användas i rollvillkoret.
+
+     ![Rollmallen lägger till ett anpassat objektvillkor](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
+
+   * Om det behövs lägger du till ett annat attribut/objekt och villkor som ytterligare förfinar villkoren för en matchning till rollen.
 
    * Klicka på **[!UICONTROL Done]**.
 
@@ -108,13 +113,15 @@ Varje roll som du definierar för mallen använder en uppsättning filter, eller
 
    ![Rollmall med flera definierade roller](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
+   Dina ändringar sparas automatiskt i statusen _Utkast_. Om du inte är redo att publicera rollmallen klickar du på den vänstra (bakåtriktade) pilen längst upp på sidan och återgår till listan _[!UICONTROL Roles templates]_.
+
 >[!BEGINSHADEBOX &quot;Marketo Engage listmedlemskap&quot;]
 
 I Marketo Engage kontrollerar _smarta kampanjer_ medlemskap i program för att se till att leads inte får dubbla e-postmeddelanden och inte är medlemmar i flera e-postströmmar samtidigt. I Journey Optimizer B2B kan du kontrollera om Marketo Engage listmedlemskap är ett villkor för din rollmall för att undvika dubbelarbete vid köp av gruppmedlemskap och reseaktiviteter.
 
 Om du vill använda listmedlemskap som rollvillkor expanderar du **[!UICONTROL Special Filters]** och drar villkoret **[!UICONTROL Member of List]** till filterområdet. Fyll sedan i filterdefinitionen för att utvärdera medlemskapet i en eller flera Marketo Engage-listor.
 
-![Villkor för rollmall för Marketo Engage listmedlemskap](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+![Rollmallvillkor för Marketo Engage listmedlemskap](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
 
 >[!NOTE]
@@ -124,8 +131,6 @@ Om du vill använda listmedlemskap som rollvillkor expanderar du **[!UICONTROL S
 >Med den [förenklade arkitekturen](../simplified-architecture.md) för Journey Optimizer B2B edition stöds inte filtrering baserat på lista- eller programmedlemskap i en Marketo Engage-instans.
 
 >[!ENDSHADEBOX]
-
-Dina ändringar sparas automatiskt i statusen _Utkast_. Om du inte är redo att publicera rollmallen klickar du på den vänstra (bakåtriktade) pilen längst upp på sidan och återgår till listan _[!UICONTROL Roles templates]_.
 
 ### Ändra inställningar för slutförandepoäng
 
@@ -141,7 +146,7 @@ Se [Resultat för fullständighet](./completeness-scores.md) för detaljerad inf
 
 1. I dialogrutan ändrar du värdet **[!UICONTROL Members required]** för varje definierad roll efter behov.
 
-   Du kan ange värdet eller klicka på **&plus;** eller **-** för att öka eller minska värdet.
+   Du kan ange värdet eller klicka på **&amp;plus;** eller **-** för att öka eller minska värdet.
 
    ![Rollmall - inställningsknapp för slutförandepoäng](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -163,7 +168,7 @@ När en rollmall är i läget _Utkast_ kan du fortsätta redigera de definierade
 
 ### Ändra villkoren för en roll
 
-Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_&#x200B;där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
+Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
 
 ### Ta bort ett rollkort
 
@@ -189,4 +194,4 @@ Du kan ta bort en rollmall om den har statusen _Utkast_.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3453305/?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
