@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 5824f311da00468b3e85c4e212f81c5d9657c5f7
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 0%
+source-wordcount: '462'
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ Tack vare utvärderingen och poängen för varumärkesjustering kan du skapa, gr
 
 >[!AVAILABILITY]
 >
->Den här funktionen är för närvarande tillgänglig som en privat betaversion, med progressiv tillgänglighet planerad för alla kunder i framtida releaser.
+>Den här funktionen är för närvarande tillgänglig som en betaversion.
 >
 >Ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} krävs innan du kan använda AI-baserade funktioner i Adobe Journey Optimizer B2B edition. Kontakta Adobe om du vill ha mer information.
 >
@@ -64,7 +64,7 @@ När ert varumärke är väldefinierat och publicerat kan ni bedöma ert varumä
 
    Du kan klicka på ikonen _Helskärm_ ( ![Helskärmsikon](../assets/do-not-localize/icon-full-screen.svg) ) längst upp på panelen om du vill visa varumärkesjusteringsverktygen i helskärmsläge.
 
-1. Om det behövs klickar du på **[!UICONTROL Brand]**-menypilen ( ![&#x200B; nedpil &#x200B;](../assets/do-not-localize/icon-down-menu.svg) ) för att välja ett annat publicerat varumärke.
+1. Om det behövs klickar du på **[!UICONTROL Brand]**-menypilen ( ![ nedpil ](../assets/do-not-localize/icon-down-menu.svg) ) för att välja ett annat publicerat varumärke.
 
 1. Klicka på **[!UICONTROL Evaluate score]** om du vill få innehållets justering med det valda varumärket.
 

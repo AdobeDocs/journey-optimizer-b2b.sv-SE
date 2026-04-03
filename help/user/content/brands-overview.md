@@ -3,15 +3,13 @@ title: Använd varumärken för generering och enhetlighet
 description: Definiera varumärkesriktlinjer för enhetlig framtagning av innehåll - bibehåll visuell identitet, anpassning av meddelanden och autentisk röst i Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 0%
+source-wordcount: '842'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +45,7 @@ Organisationen kan få ett betydande värde genom att använda ett varumärke n�
 
 >[!AVAILABILITY]
 >
->Den här funktionen är för närvarande tillgänglig som en privat betaversion, med progressiv tillgänglighet planerad för alla kunder i framtida releaser.
+>Den här funktionen är för närvarande tillgänglig som en betaversion.
 >
 >Ett [användaravtal](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} krävs innan du kan använda AI-baserade funktioner i Adobe Journey Optimizer B2B edition. Kontakta Adobe om du vill ha mer information.
 
@@ -75,7 +73,7 @@ Ett definierat varumärke ger _källan till sanning_ som ditt kreativa team kan 
 
 Produktadministratörer kan aktivera åtkomst till varumärkeshanteringsfunktioner och varumärkesjusteringsfunktioner genom att tilldela **[!UICONTROL Manage brand kit]**- eller **[!UICONTROL Enable AI assistant]**-resursbehörigheter via användargränssnittet för _Behörigheter_ i Adobe Experience Cloud.
 
-1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klicka på **[!UICONTROL Edit]** om du vill ändra behörigheterna.
 
@@ -95,7 +93,7 @@ Produktadministratörer kan aktivera åtkomst till varumärkeshanteringsfunktion
 
    * Ange användarnamn och e-postadress eller välj en befintlig användare i listan.
 
-     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klicka på **[!UICONTROL Save]** för att tillämpa ändringarna.
 
