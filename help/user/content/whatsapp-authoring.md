@@ -47,7 +47,7 @@ Följande call-to-action-alternativ är tillgängliga för dina WhatsApp-meddela
 
 ## Lägg till en WhatsApp-åtgärd i en kontoresa
 
-Du kan konfigurera WHatsApp-meddelandeleveranser i en kontoresa när du [lägger till en _[!UICONTROL Take an action]_nod](../journeys/action-nodes.md) och gör följande:
+Du kan konfigurera WHatsApp-meddelandeleveranser i en kontoresa när du [lägger till en _[!UICONTROL Take an action]_&#x200B;nod](../journeys/action-nodes.md) och gör följande:
 
 1. Välj **[!UICONTROL People]** för målet _[!UICONTROL Action on]_.
 
@@ -107,7 +107,7 @@ Om mallen innehåller några bilder använder du fältet **[!UICONTROL Image URL
 
 Godkända whatsApp-mallar kan innehålla variabelplatshållare som du definierar med hjälp av profildata eller dynamiska värden.
 
-För varje variabelfält som visas i mallen klickar du på ikonen _Anpassa_ ( ![Anpassa ikon ](../assets/do-not-localize/icon-personalize.svg) ) bredvid fältet.
+För varje variabelfält som visas i mallen klickar du på ikonen _Anpassa_ ( ![Anpassa ikon &#x200B;](../assets/do-not-localize/icon-personalize.svg) ) bredvid fältet.
 
 ![Variabler i whatsApp-mallen](./assets/whatsapp-create-variables.png){width="700" zoomable="yes"}
 
