@@ -36,7 +36,7 @@ Från en central plats kan du visa alla tillgängliga modeller, filtrera och sö
 
 ### Filtrera och söka i listan
 
-Klicka på ikonen _Filter_ ![Filter ](../../assets/do-not-localize/icon-react-filter.svg) för att öppna filtermenyn. Filtrera modeller efter **[!UICONTROL Type]** eller **[!UICONTROL Status]**.
+Klicka på ikonen _Filter_ ![Filter &#x200B;](../../assets/do-not-localize/icon-react-filter.svg) för att öppna filtermenyn. Filtrera modeller efter **[!UICONTROL Type]** eller **[!UICONTROL Status]**.
 
 ![Filtrera listan med generativa modeller](./assets/brands-gen-models-filter.png){width="700" zoomable="yes"}
 
