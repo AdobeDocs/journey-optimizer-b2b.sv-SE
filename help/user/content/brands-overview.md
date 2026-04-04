@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '849'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 >title="Välj ditt varumärke"
 >abstract="Välj ert varumärke för att säkerställa att allt AI-genererat innehåll är anpassat efter era varumärkesspecifikationer och riktlinjer."
 
-Varumärken hjälper dig att definiera din _varumärkesidentitet_ och spelar en viktig roll när det gäller att skapa enhetligt och effektivt innehåll som korrekt representerar varumärkets identitet, värden och meddelanden. Genom att följa väldefinierade varumärkesstilar kan organisationer upprätthålla en sammanhängande och identifierbar varumärkesnärvaro i alla kanaler och vid alla kontaktytor, och stärka sitt varumärkesidentifiering, sitt förtroende och sin lojalitet bland målgrupperna.
+Varumärken hjälper till att definiera en _varumärkesidentitet_ och spelar en viktig roll när det gäller att skapa enhetligt och effektivt innehåll som korrekt representerar varumärkets identitet, värden och meddelanden. Genom att följa väldefinierade varumärkesstilar kan organisationer upprätthålla en sammanhängande och identifierbar varumärkesnärvaro i alla kanaler och vid alla kontaktytor, och stärka sitt varumärkesidentifiering, sitt förtroende och sin lojalitet bland målgrupperna.
 
 +++Fördelar med varumärken
 
@@ -64,8 +64,8 @@ Ett definierat varumärke ger _källan till sanning_ som ditt kreativa team kan 
 1. [Publicera varumärket](./brands-manage-create.md#publish-the-brand) när det är klart att användas.
 
 1. Använd varumärket för [justering av e-postinnehåll](./brand-alignment.md).
-<!-- 
-1. Use the brand to generate content. -->
+
+1. Använd varumärket för att [generera e-postinnehåll](./ai-assistant-emails.md).
 
 >[!BEGINSHADEBOX]
 
@@ -73,7 +73,7 @@ Ett definierat varumärke ger _källan till sanning_ som ditt kreativa team kan 
 
 Produktadministratörer kan aktivera åtkomst till varumärkeshanteringsfunktioner och varumärkesjusteringsfunktioner genom att tilldela **[!UICONTROL Manage brand kit]**- eller **[!UICONTROL Enable AI assistant]**-resursbehörigheter via användargränssnittet för _Behörigheter_ i Adobe Experience Cloud.
 
-1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
+1. Gå till fliken **[!UICONTROL Roles]** i appen Behörigheter och välj önskad [roll](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"}.
 
 1. Klicka på **[!UICONTROL Edit]** om du vill ändra behörigheterna.
 
@@ -93,7 +93,7 @@ Produktadministratörer kan aktivera åtkomst till varumärkeshanteringsfunktion
 
    * Ange användarnamn och e-postadress eller välj en befintlig användare i listan.
 
-     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
+     Om användaren inte har skapats än läser du [Experience Platform-dokumentationen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/users){target="_blank"}.
 
    * Klicka på **[!UICONTROL Save]** för att tillämpa ändringarna.
 
