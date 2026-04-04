@@ -20,7 +20,7 @@ Utöka era funktioner för att skapa AI-bilder med inbyggda modeller, anpassade 
 - **[!UICONTROL Partner model]**, som drivs av Gemini 2.5 Flash, erbjuder specialfunktioner för specifika användningsområden.
 - **[!UICONTROL Custom models]** är varumärkesspecifika modeller som har utbildats på dina egna resurser och lagts till av din organisation.
 
-Läs om anpassade modeller i [Adobe Firefly-dokumentationen](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+Läs om anpassade modeller i [Adobe Firefly-dokumentationen](https://helpx.adobe.com/se/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 Marknadsförarna kan välja någon av de aktiverade generativa modellerna när de genererar bilder för e-post- eller landningssidans innehåll.
 
@@ -70,7 +70,7 @@ Skapa egna Firefly-modeller eller anslut tredjepartsleverantörer av bildgenerat
 
 1. Ange **[!UICONTROL Model ID]**.
 
-   Du hittar ditt modell-ID på Firefly webbplats och navigerar till dina utbildade modeller. Den unika identifieraren är tillgänglig i modellens hanteringsavsnitt efter att den har publicerats. Mer information finns i [dokumentationen för anpassade Firefly-modeller](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+   Du hittar ditt modell-ID på Firefly webbplats och navigerar till dina utbildade modeller. Den unika identifieraren är tillgänglig i modellens hanteringsavsnitt efter att den har publicerats. Mer information finns i [dokumentationen för anpassade Firefly-modeller](https://helpx.adobe.com/se/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 1. Du kan också ange en **[!UICONTROL Description]** för att hjälpa till att identifiera modellen och dess avsedda användning.
 
