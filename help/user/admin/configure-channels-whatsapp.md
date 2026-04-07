@@ -72,7 +72,7 @@ Utför följande uppgifter:
    * **[!UICONTROL API Token]** - Ange din API-token. Mer information finns i [Meta-dokumentationen](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Business Account ID]** - Ange det unika nummer som hör till din företagsportfölj. Mer information finns i [Meta-dokumentationen](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![API-autentiseringsuppgifter för whatsApp-inställningar ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![API-autentiseringsuppgifter för whatsApp-inställningar &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Continue]**.
 
@@ -95,7 +95,7 @@ Utför följande uppgifter:
 
 1. Klicka på **[!UICONTROL Submit]** när du är klar med konfigurationen av dina API-autentiseringsuppgifter.
 
-När du klickar på _[!UICONTROL Submit]_valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för_[!UICONTROL API credentials]_.
+När du klickar på _[!UICONTROL Submit]_&#x200B;valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för&#x200B;_[!UICONTROL API credentials]_.
 
 Om de skickade autentiseringsuppgifterna är ogiltiga visas ett HTTP 500-felmeddelande. I så fall kan du välja att avbryta konfigurationen eller uppdatera den och skicka den igen.
 
@@ -186,7 +186,7 @@ När inloggningsuppgifterna för WhatsApp API har skapats kan du konfigurera web
 
 När webbkroken har skickats kan du hämta token- och URL-värdena och sedan registrera den i Meta.
 
-1. I listan **[!UICONTROL WhatsApp Webhooks]** klickar du på ikonen Redigera ( ![ikonen Redigera ](../assets/do-not-localize/icon-edit.svg) ) för den webkrok du skapade.
+1. I listan **[!UICONTROL WhatsApp Webhooks]** klickar du på ikonen Redigera ( ![ikonen Redigera &#x200B;](../assets/do-not-localize/icon-edit.svg) ) för den webkrok du skapade.
 
 1. Kopiera värdena **[!UICONTROL Verify Token]** och **[!UICONTROL Webhook URL]**.
 
@@ -198,7 +198,7 @@ När webbkroken har skickats kan du hämta token- och URL-värdena och sedan reg
 
 En kanalkonfiguration definierar leveransinställningarna som används när WhatsApp-meddelanden skickas från en reseåtgärdsnod.
 
-1. Välj **[!UICONTROL Channel configurations]** under _[!UICONTROL General settings]_på navigeringspanelen.
+1. Välj **[!UICONTROL Channel configurations]** under _[!UICONTROL General settings]_&#x200B;på navigeringspanelen.
 
    ![Kanalkonfigurationslista](./assets/config-whatsapp-channels-general.png){width="600" zoomable="yes"}
 
@@ -218,7 +218,7 @@ En kanalkonfiguration definierar leveransinställningarna som används när What
 
    <!-- All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 
-1. Under _[!UICONTROL WhatsApp Settings]_väljer du **[!UICONTROL WhatsApp configuration]**(API-autentiseringsuppgifter) som du skapade i föregående uppgift.
+1. Under _[!UICONTROL WhatsApp Settings]_&#x200B;väljer du **[!UICONTROL WhatsApp configuration]**(API-autentiseringsuppgifter) som du skapade i föregående uppgift.
 
 1. Ange **[!UICONTROL Sender phone number]** som ska användas för meddelandeleverans.
 
