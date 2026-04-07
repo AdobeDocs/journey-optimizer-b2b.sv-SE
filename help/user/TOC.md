@@ -1,7 +1,7 @@
 ---
 user-guide-title: Journey Optimizer B2B edition Documentation
 user-guide-description: Läs om Adobe Journey Optimizer B2B edition och hur du kan använda det för att skapa konto och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: dc98267c16fa0818f4b4a751696441c3b51c5fd3
+source-git-commit: c0770348a39a9041d3c96ed2b6f379865f3908f0
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 96%
@@ -137,9 +137,9 @@ ht-degree: 96%
    + Varumärken (Beta) {#brands}
       + [Översikt](./content/brands-overview.md)
       + [Hantera och skapa](./content/brands-manage-create.md)
-      + [Märkesjustering](./content/brand-alignment.md)
       + [Generativa AI-modeller](./content/generative-ai-models.md)
    + [Varumärkesteman](./content/brand-themes.md)
+   + [Innehållsutvärdering](./content/content-evaluation.md)
    + [Villkorligt innehåll](./content/conditional-content.md)
    + Personalisering {#personalization}
       + [Översikt](./content/personalization.md)
