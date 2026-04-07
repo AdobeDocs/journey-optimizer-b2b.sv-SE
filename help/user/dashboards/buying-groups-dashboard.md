@@ -4,9 +4,9 @@ description: Spåra köpgruppsutvecklingen med färdiga poäng, interaktionsstat
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Denna visualisering illustrerar fördelningen av inköpsgrupper baserat på dera
 
 Om du vill visa mer detaljerad information klickar du på menyikonen **..** längst upp till höger.
 
-![Köpa visualisering av gruppengagemang](./assets/buying-group-completion-score-chart.png){width="500"}
+![Köpa visualisering av gruppengagemang](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## Köpa grupper efter lösningsintresse
 
@@ -74,7 +74,7 @@ Välj så många värden för varje attribut som du vill använda för att filtr
 
 ## Engagera med data
 
-Använd menyn _Mer_ (**..**) längst upp till höger i varje diagram för att interagera med data.
+Använd _Mer_ (**..**) om du vill interagera med data längst upp till höger i varje diagram.
 
 ### [!UICONTROL Drill through]
 
@@ -84,7 +84,7 @@ Välj **[!UICONTROL Drill through]** om du vill ha en ingående analys av enskil
 
 De globala filter som används på kontrollpanelen överförs. Klicka på ikonen _Filter_ ( ![Filterikon](../assets/do-not-localize/icon-filter.svg) ) längst upp till vänster för att [ändra attributfiltren](#filter-the-data) för den detaljerade vyn.
 
-Du kan klicka på menyn _Mer_ (**..**) längst upp till höger och välja **[!UICONTROL View more]** för att [visa utökade data](#view-more).
+Du kan klicka på _Mer_ (**..**) överst till höger och välj **[!UICONTROL View more]** för att [visa utökade data](#view-more).
 
 ### [!UICONTROL View more]
 

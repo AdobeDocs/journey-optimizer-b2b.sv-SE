@@ -3,10 +3,11 @@ title: Personamappning
 description: Lär dig hur du skapar personmappning för B2B-marknadsföring. Mappa personattribut i Journey Optimizer B2B edition för att skapa rollmallar och optimera målinriktningen för inköpsgrupper.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
+exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 0%
+source-wordcount: '886'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +30,7 @@ Persondefinitioner och användningsbegränsningar:
 
 Många marknadsförings- och säljteam använder befattningar som ett sätt att identifiera olika personer inom ett konto. Men titlar för kontakter kan vara inkonsekventa och använda flera varianter för liknande roller. När du skapar mallar för inköpsgrupproller kan det krävas att du definierar alla möjliga relaterade befattningar för en viss roll. Ni kan förenkla dessa definitioner och ta med personer med liknande befattningar under en viss person, som ni sedan kan använda i olika rollmallar för att köpa grupper.
 
-Du kan till exempel konfigurera en person med namnet _Product Management_ och definiera den med jobstitelattributet för värdena för _Product Manager_, _Sr. Product Manager_, _Senior Product Manager_, _PM_, _Sr. PM_, _Principal PM_ och _Principal Product Manager_. Använd sedan den här personen i en rollmall där villkoret matchar för _Persona är Produkthantering_. När du använder den konfigurerade rollen blir det smidigare att skapa varje rollmall och det behövs inget komplicerat villkor som kan matcha mot alla möjliga befattningar.
+Du kan till exempel konfigurera en profil med namnet _Product Management_ och definiera den med jobbtitelattributet för värdena för _Product Manager_, _Sr. Product Manager_, _Senior Product Manager_, _PM_, _Sr. PM_, _Principal PM_ och _Principal Product Manager_. Använd sedan den här personen i en rollmall där villkoret matchar för _Persona är Produkthantering_. När du använder den konfigurerade rollen blir det smidigare att skapa varje rollmall och det behövs inget komplicerat villkor som kan matcha mot alla möjliga befattningar.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +46,7 @@ Du kan till exempel konfigurera en person med namnet _Product Management_ och de
 
    Personmappningslistan är ordnad som en tabell och visar de senast uppdaterade personerna högst upp (sorterade efter _[!UICONTROL Last update]_). Du kan anpassa den visade tabellen genom att klicka på ikonen_ Kolumninställningar _( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
 
-![Kolumner att visa i personmappningslistan](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![Kolumner att visa i personmappningslistan](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Klicka på namnet om du vill komma åt informationen för en person.
 
@@ -116,8 +117,8 @@ Du kan ändra namnet eller beskrivningen, lägga till attribut eller uppdatera a
 
 Om du tar bort en profil tas den bort från listan _Personmappning_ och kan inte längre användas i rollmallar.
 
-1. På sidan _[!UICONTROL Persona mapping]_&#x200B;letar du reda på den profil du vill ta bort.
+1. På sidan _[!UICONTROL Persona mapping]_letar du reda på den profil du vill ta bort.
 
-1. Klicka på ellipsikonen (**..**) bredvid namnet för och välj **[!UICONTROL Delete]**.
+1. Klicka på ellipserna bredvid namnet (**..**) och välj **[!UICONTROL Delete]**.
 
 1. Klicka på **[!UICONTROL Delete]** i bekräftelsedialogrutan.

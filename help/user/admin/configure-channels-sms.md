@@ -4,7 +4,7 @@ description: Koppla upp SMS-leverantörer som Sinch, Twilio och Infobip med API-
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 1a764cd8d2187b58ce02fefeeab78b0cd79de037
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -57,7 +57,7 @@ _Konfigurera Sinch som SMS-provider med Adobe Journey Optimizer B2B edition :_
 
 1. Konfigurera dina SMS API-autentiseringsuppgifter:
 
-   ![Konfigurera autentiseringsuppgifterna för SMS-API för SSI](./assets/config-sms-api-sinch.png){width="500"}
+   ![Konfigurera autentiseringsuppgifterna för SMS-API för SSI](./assets/config-sms-api-sinch.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL SMS vendor]** - Välj `Sinch` som SMS-provider.
 
@@ -79,7 +79,7 @@ _Konfigurera Twilio som SMS-leverantör med Adobe Journey Optimizer B2B edition 
 
 1. Konfigurera dina SMS API-autentiseringsuppgifter:
 
-   ![Konfigurera Twilio SMS API-autentiseringsuppgifter](./assets/config-sms-api-twilio.png){width="500"}
+   ![Konfigurera Twilio SMS API-autentiseringsuppgifter](./assets/config-sms-api-twilio.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL SMS vendor]** - Välj `Twilio` som SMS-provider.
 
@@ -101,7 +101,7 @@ _Konfigurera Infobip som din SMS-leverantör med Adobe Journey Optimizer B2B edi
 
 1. Konfigurera dina SMS API-autentiseringsuppgifter:
 
-   ![Konfigurera autentiseringsuppgifterna för SMS API för Infobip](./assets/config-sms-api-infobip.png){width="500"}
+   ![Konfigurera autentiseringsuppgifterna för SMS API för Infobip](./assets/config-sms-api-infobip.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL SMS vendor]** - Välj `Infobip` som SMS-provider.
 
@@ -115,4 +115,4 @@ _Konfigurera Infobip som din SMS-leverantör med Adobe Journey Optimizer B2B edi
 
 >[!ENDTABS]
 
-När du klickar på _[!UICONTROL Submit]_&#x200B;valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för&#x200B;_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.
+När du klickar på _[!UICONTROL Submit]_valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för_[!UICONTROL API credentials]_. Om de skickade inloggningsuppgifterna är ogiltiga visas ett felmeddelande på listsidan. I så fall kan du välja att avbryta konfigurationen eller att uppdatera den och skicka den igen.
