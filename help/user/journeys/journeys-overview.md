@@ -91,7 +91,7 @@ Sidan med reselistan innehåller följande kolumner:
 * [!UICONTROL Start date]
 * [!UICONTROL End date]
 
-Du kan sortera listan efter _[!UICONTROL Status]_,_[!UICONTROL Creation date]_ eller _[!UICONTROL Last update]_genom att klicka på kolumnrubriken.
+Du kan sortera listan efter _[!UICONTROL Status]_,_[!UICONTROL Creation date]_ eller _[!UICONTROL Last update]_&#x200B;genom att klicka på kolumnrubriken.
 
 Om du vill anpassa (visa/dölja) de kolumner som visas i tabellen klickar du på ikonen _Anpassa tabell_ ( ![Anpassa tabell](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet. Markera eller avmarkera kryssrutorna i dialogrutan och klicka på **[!UICONTROL Apply]**.
 
@@ -103,11 +103,11 @@ Status för en resa kan ändras beroende på vilka åtgärder du vidtar. Beroend
 
 | Status | Beskrivning | Tillgängliga åtgärder |
 | ------ | ----------- | ----------------- |
-| _**Utkast**_ | En opublicerad resa som är redigerbar. | <li>[Publicera](./create-publish-journey.md#publish-a-journey)<li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
-| _**Live**_ | Resans status ändras från _Utkast_ till _Live_ när en resa publiceras. I det här läget går det inte längre att redigera. | <li>[Duplicera](#duplicate-journey)<li>[Stäng till nya poster](#close-to-new-entries) <li>[Avbryt](#abort-journey) |
-| _**Stängda till nya poster**_ | Resursstatusen ändras från _Live_ till _Stängd till nya poster_ när du klickar på [!UICONTROL Close to new entries] i den övre navigeringen. | <li>[Duplicera](#duplicate-journey) <li>[Avbryt](#abort-journey) |
-| _**Avbruten**_ | Resans status ändras från _Live_ eller _Stängd till nya poster_ när du avbryter en resa. En avbruten resa kan inte startas om. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
-| _**Slutförd**_ | När alla konto- eller målgruppsmedlemmar på en resa slutför resan ändras statusen från _Live_ eller _Stängd till nya poster_ till _Slutförd_. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
+| _&#x200B;**Utkast**&#x200B;_ | En opublicerad resa som är redigerbar. | <li>[Publicera](./create-publish-journey.md#publish-a-journey)<li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
+| _&#x200B;**Live**&#x200B;_ | Resans status ändras från _Utkast_ till _Live_ när en resa publiceras. I det här läget går det inte längre att redigera. | <li>[Duplicera](#duplicate-journey)<li>[Stäng till nya poster](#close-to-new-entries) <li>[Avbryt](#abort-journey) |
+| _&#x200B;**Stängda till nya poster**&#x200B;_ | Resursstatusen ändras från _Live_ till _Stängd till nya poster_ när du klickar på [!UICONTROL Close to new entries] i den övre navigeringen. | <li>[Duplicera](#duplicate-journey) <li>[Avbryt](#abort-journey) |
+| _&#x200B;**Avbruten**&#x200B;_ | Resans status ändras från _Live_ eller _Stängd till nya poster_ när du avbryter en resa. En avbruten resa kan inte startas om. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
+| _&#x200B;**Slutförd**&#x200B;_ | När alla konto- eller målgruppsmedlemmar på en resa slutför resan ändras statusen från _Live_ eller _Stängd till nya poster_ till _Slutförd_. | <li>[Duplicera](#duplicate-journey) <li>[Ta bort](#delete-journey) |
 
 ## Resekartor
 
@@ -118,7 +118,7 @@ Klicka på namnet (visas som en länk) i reselistan för att granska detaljer, g
 Rubriken för varje färdplan omfattar:
 
 * Resensnamn
-* Redigera verktyg för resenamnet ( ikonen ![Redigera ](../assets/do-not-localize/icon-edit.svg) _Redigera_ )
+* Redigera verktyg för resenamnet ( ikonen ![Redigera &#x200B;](../assets/do-not-localize/icon-edit.svg) _Redigera_ )
 * [Status](#journey-status) för resan
 
 Från färdkartan kan du [lägga till noderna](./create-publish-journey.md#add-a-node) och [definiera reseflödet](./create-publish-journey.md#add-and-delete-a-path).
@@ -133,7 +133,7 @@ Om du avbryter (stoppar) en live eller planerad resa avbryter konton eller perso
 
 >[!IMPORTANT]
 >
->När resan används i en annan resa från en _Utför en åtgärd_-nod med åtgärden _[!UICONTROL Add Account to (other) Journey]_och avbryter den åtgärden i den resan.
+>När resan används i en annan resa från en _Utför en åtgärd_-nod med åtgärden _[!UICONTROL Add Account to (other) Journey]_&#x200B;och avbryter den åtgärden i den resan.
 
 1. Klicka på resenamnet för att öppna det.
 
@@ -149,7 +149,7 @@ Om du stänger en live-resa fortsätter konton som för närvarande befinner sig
 
 >[!IMPORTANT]
 >
->När resan används i en annan resa från en _Utför en åtgärd_-nod med åtgärden _[!UICONTROL Add Account to (other) Journey]_och stänger den till nya poster blockerar åtgärden från den resan.
+>När resan används i en annan resa från en _Utför en åtgärd_-nod med åtgärden _[!UICONTROL Add Account to (other) Journey]_&#x200B;och stänger den till nya poster blockerar åtgärden från den resan.
 
 1. Klicka på resenamnet för att öppna det.
 
