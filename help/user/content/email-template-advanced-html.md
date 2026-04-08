@@ -73,6 +73,6 @@ Det avancerade HTML-läget är tillgängligt från verktygsfältet längst upp i
 
    ![Varningsdialogrutan som sparas är inaktiverad i avancerat HTML-läge](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
 
-1. Klicka på ikonen _[!UICONTROL Desktop]_( ![Skrivbord-ikon ](../assets/do-not-localize/icon-desktop-spectrum-1.svg) ) i verktygsfältet för att växla från avancerat HTML-läge (HTML källvy) till den visuella arbetsytan.
+1. Klicka på ikonen _[!UICONTROL Desktop]_( ![Skrivbord-ikon &#x200B;](../assets/do-not-localize/icon-desktop-spectrum-1.svg) ) i verktygsfältet för att växla från avancerat HTML-läge (HTML källvy) till den visuella arbetsytan.
 
    Dina redigeringar bevaras när du byter vy.
