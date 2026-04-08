@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B edition Documentation
 description: Fullständig dokumentation för Journey Optimizer B2B edition - utforska de tillgängliga resurserna för introduktion, skapande av inköpsgrupper, framtagning av kontoresor och hantering av innehåll.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
+source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 0%
+source-wordcount: '917'
+ht-degree: 3%
 
 ---
 
@@ -23,11 +23,29 @@ Granska det här exemplet av de senaste tilläggen och förbättringarna i progr
 
 >[!TAB AI-agenter]
 
-Med [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/sv/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} kan AI Assistant-gränssnittet automatiskt anropa specialiserade agenter för att ge dig rätt svar och insikter. Agent Orchestrator kommer ihåg er konversationshistorik, vilket gör att ni kan bygga vidare på tidigare frågor på ett naturligt sätt utan att behöva upprepa sammanhanget, och kombinerar insikter från olika agenter för att ge er tydliga, enhetliga svar. I [!DNL Journey Optimizer B2B Edition]-kontexten finns det tre specialbyggda agenter för specifika B2B-aktiviteter och domäner:
+Med [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} kan AI Assistant-gränssnittet automatiskt anropa specialiserade agenter för att ge dig rätt svar och insikter. Agent Orchestrator kommer ihåg er konversationshistorik, vilket gör att ni kan bygga vidare på tidigare frågor på ett naturligt sätt utan att behöva upprepa sammanhanget, och kombinerar insikter från olika agenter för att ge er tydliga, enhetliga svar. I [!DNL Journey Optimizer B2B Edition]-kontexten finns det tre specialbyggda agenter för specifika B2B-aktiviteter och domäner:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
 * [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB WhatsApp-kanal]
+
+När utvecklare och produktadministratörer konfigurerar en integrering med ett Meta Business Manager-konto kan marknadsförarna inkludera whatsApp-meddelanden som en innehållskanal på kontoresor med Meta Cloud API. WhatApp förenar e-post och SMS som en tillgänglig kanal för att leverera reseinnehåll direkt till kontomedlemmar.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Läs mer om WhatsApp-kanalen"}
+
+>[!TAB Generativa AI-modeller]
+
+E-postdesigners kan nu välja bland [!DNL Firefly]-standardmodeller, anpassade [!DNL Firefly]-modeller som utbildats på varumärkesspecifika resurser och godkända tredjepartsbildmodeller när de genererar bilder för e-postinnehåll. Det här valet ger team kontroll över vilken modell som passar deras specifika designscenario, från allmänna innehållsbehov till varumärkesanpassade eller specialiserade användningsfall.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Läs mer om generativ markering av AI-modell"}
+
+>[!TAB Tidsoptimering vid sändning]
+
+För _Skicka åtgärdsnoder för e-post_ på personresor kan du nu använda optimering för e-postutskick för att anpassa leveranstider för e-post. Systemet förutser när varje person är mest benägen att engagera och schemalägger leveransen i enlighet med detta, i stället för att skicka till alla mottagare samtidigt.
+
+[!BADGE Läs mer]{type=Informative url="/help/user/content/email-send-time-optimization.md" tooltip="Läs om optimering vid sändning"}
 
 >[!TAB Reseåterinträde]
 
@@ -47,31 +65,13 @@ Marknadsförarna kan definiera detaljerade profiler, inklusive bakgrund, ansvars
 
 [!BADGE Läs mer]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Läs om personmappning"}
 
->[!TAB Försäljningsinsikter i CRM]
-
-Medlemmar i säljteam kan nu visa mognadslagrade inköpsgrupper och relaterade insikter inom en Salesforce- eller Dynamics-integrering för att identifiera nya möjligheter. Information om inköpsgrupper som stage, score och relaterade medlemmar ingår.
-
-[!BADGE Läs mer]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Läs mer om säljinsikter i CRM"}
-
->[!TAB Samarbete med e-postinnehåll]
-
-I e-postdesignområdet ingår samarbetsverktyg för feedback och lösningar så att marknadsföringsteamen smidigt kan granska, diskutera och färdigställa e-postresurser direkt i [!DNL Journey Optimizer B2B Edition]. I stället för att dela utkast över externa verktyg (som chatt, e-posttrådar eller kalkylblad) kan användare kommentera, föreslå redigeringar och åtgärda feedback inom e-postdesignområdet. Du kan tagga dina teammedlemmar så att de får ett e-postmeddelande eller ett pulsmeddelande med information om kommentaren.
-
-[!BADGE Läs mer]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Läs mer om verktyg för samarbete om e-postinnehåll"}
-
->[!TAB E-postdesign i mörkt läge]
-
-E-postdesignområdet innehåller nu _mörkt läge_, förhandsgranskning och inställningar. I mörkt läge kan en e-postklient eller app som stöder e-post visa e-postmeddelanden med mörkare bakgrunder och ljusare färger för text, knappar och andra visuella element. Förhandsgranska återgivning, anpassa inställningarna, kontrollera tillgänglighet och testa för alla e-postklienter.
-
-[!BADGE Läs mer]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Läs mer om e-postdesign i mörkt läge"}
-
 >[!ENDTABS]
 
 ## Börja utforska {#section-explore}
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=sv-SE)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Senaste versionsinformation
 
@@ -81,7 +81,7 @@ Håll dig uppdaterad med den senaste versionsinformationen, nya funktioner och f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=sv-SE)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Kom igång
 
@@ -91,7 +91,7 @@ Läs Journey Optimizer B2B edition introduktionsguide för administratörer och 
 :::
 
 :::
-![Konfigurera ikon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=sv-SE){width="25"}
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Konfigurera dina XDM-fält
 
@@ -101,18 +101,19 @@ Implementera systemkonfigurationerna för att aktivera XDM-scheman och -fält so
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=sv-SE)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Kommunikationskanaler
 
-Konfigurera och hantera e-post, SMS och andra kanaler för personaliserade kundinteraktioner.
+Konfigurera och hantera e-post, SMS, whatsApp och andra kanaler för personaliserade kundinteraktioner.
 
 [Konfigurera e-postkanal](./admin/configure-channels-emails.md)
-[Konfigurera SMS-kanal](./admin/configure-channels-sms.md)
+[ Konfigurera SMS-kanal](./admin/configure-channels-sms.md)
+[ Konfigurera whatsApp-kanal ](./admin/configure-channels-whatsapp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=sv-SE)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Skapa en kontoresa
 
@@ -122,7 +123,7 @@ Designa, samordna, hantera och optimera personaliserade kontoresor.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=sv-SE)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Förstå inköpsgrupper
 
@@ -135,11 +136,11 @@ Detaljerad vägledning om hur du skapar, hanterar och optimerar inköpsgrupper f
 
 <!-- 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=sv-SE)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
-Learn how to author and manage content for personalized customer experiences orchestarted through journeys.
+Learn how to author and manage content for personalized customer experiences orchestrated through journeys.
 
 [Explore Content Components](./content/content-components.md)
 ::: 
@@ -170,7 +171,7 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Kontoresor"><br/>
-      <strong>Kontoresor</strong><br/><a href="./journeys/journeys-overview.md">Reseöversikt</a><br/><a href="./journeys/journeys-overview.md#create-an-account-journey">Skapa en kontoresa</a><br/><a href="./journeys/journey-nodes.md">Resenoder</a>
+      <strong>Kontoresor</strong><br/><a href="./journeys/journeys-overview.md">Reseöversikt</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Skapa en kontoresa</a><br/><a href="./journeys/journey-nodes.md">Resenoder</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -192,17 +193,17 @@ Identifiera komponenterna i en inköpsgrupp och förstå grunderna för att skap
 
 ## Ytterligare resurser
 
-<table style="table-layout:fixed"><tr style="border: 0;">
+<table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank"> Videofilmer och självstudiekurser </a> - <a href="https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeskrivning</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=sv-SE" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videofilmer och självstudiekurser</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeskrivning</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/se/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Resurser för utvecklare</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/sv/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Självstudiekurser för utvecklare</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/sv/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/sv/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">Användardokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Utvecklardokumentation</a>
 </td>
 </tr></table>
 
