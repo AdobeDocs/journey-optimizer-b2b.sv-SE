@@ -5,10 +5,10 @@ feature: Account Journeys
 hide: true
 hidefromtoc: true
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: f5170767a6df14874fab5de203264a5a5e3e245a
+source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 0%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
@@ -28,3 +28,4 @@ Bygg din resa genom att kombinera de olika actionnoderna, eventen och orkestreri
 * [Dela banor](./split-merge-paths-nodes.md)
 * [Vänta](./wait-nodes.md)
 * [Sammanfoga banor](./split-merge-paths-nodes.md)
+* [Extern](./external-nodes.md)

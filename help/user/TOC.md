@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B edition Documentation
 user-guide-description: Läs om Adobe Journey Optimizer B2B edition och hur du kan använda det för att skapa konto och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
+source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 95%
+source-wordcount: '439'
+ht-degree: 94%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 95%
       + [Lyssna efter en händelse](./journeys/listen-for-event-nodes.md)
       + [Dela och sammanfoga banor](./journeys/split-merge-paths-nodes.md)
       + [Vänta](./journeys/wait-nodes.md)
+      + [Externa noder](./journeys/external-nodes.md)
    + [Resedetaljer](./journeys/journey-details.md)
 + Reseinnehåll {#journey-content}
    + [SMS-kanal](./content/sms-authoring.md)
@@ -155,6 +156,11 @@ ht-degree: 95%
 + Administration {#admin}
    + [Styrning](./admin/governance.md)
    + [Personmappning](./admin/persona-mapping.md)
+   + Konfigurationer {#configurations}
+      + [AEM Assets-databaser](./admin/configure-aem-repositories.md)
+      + [Återgivningsdata](./admin/intent-data.md)
+      + [Vägning av engagemangsmusik](./admin/engagement-score-weighting.md)
+      + [Extern åtgärd](./admin/configure-external-actions.md)
    + Kanaler {#channels}
       + [E-postkonfigurationer](./admin/configure-channels-emails.md)
       + [SMS-konfiguration](./admin/configure-channels-sms.md)
@@ -162,7 +168,3 @@ ht-degree: 95%
       + [Konfigurationer av webbkanaler (Beta)](./admin/configure-channels-web.md)
       + [Inställningar för landningssida (Beta)](./admin/landing-page-settings.md)
       + [Konfigurera datastreams för händelsesamling](./data/aep-event-collection.md)
-   + Konfigurationer {#configurations}
-      + [AEM Assets-databaser](./admin/configure-aem-repositories.md)
-      + [Återgivningsdata](./admin/intent-data.md)
-      + [Vägning av engagemangsmusik](./admin/engagement-score-weighting.md)
