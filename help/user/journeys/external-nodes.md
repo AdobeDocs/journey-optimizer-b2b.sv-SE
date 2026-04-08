@@ -50,7 +50,7 @@ Noden _Extern åtgärd_ anropar en extern tjänst och fortsätter längs en enda
 
 1. Fortsätt bygga resan från nodens utgående banor.
 
-   Sökvägen _[!UICONTROL Timeout or error]_skapas automatiskt. Om timeoutperioden (som konfigurerats i tjänsten) förfaller innan ett svar tas emot, förskjuts kontot eller personen den här sökvägen. Det är detsamma om ett felsvar tas emot. Du kan lägga till resenoder på den här vägen för att hantera dessa scenarier, eller så avslutas resan för målgruppsmedlemmen.
+   Sökvägen _[!UICONTROL Timeout or error]_&#x200B;skapas automatiskt. Om timeoutperioden (som konfigurerats i tjänsten) förfaller innan ett svar tas emot, förskjuts kontot eller personen den här sökvägen. Det är detsamma om ett felsvar tas emot. Du kan lägga till resenoder på den här vägen för att hantera dessa scenarier, eller så avslutas resan för målgruppsmedlemmen.
 
 ## Nod för externa delade sökvägar {#external-split-paths}
 
@@ -88,6 +88,6 @@ Noden Externa delade sökvägar anropar en extern tjänst och använder svaret f
 
 1. Fortsätt bygga resan från varje utgående sökväg i noden.
 
-   Sökvägen _[!UICONTROL Timeout or error]_skapas automatiskt. Om timeoutperioden (som konfigurerats i tjänsten) förfaller innan ett svar tas emot, förskjuts kontot eller personen den här sökvägen. Det är detsamma om ett felsvar tas emot. Du kan lägga till resenoder på den här vägen för att hantera dessa scenarier, eller så avslutas resan för målgruppsmedlemmen.
+   Sökvägen _[!UICONTROL Timeout or error]_&#x200B;skapas automatiskt. Om timeoutperioden (som konfigurerats i tjänsten) förfaller innan ett svar tas emot, förskjuts kontot eller personen den här sökvägen. Det är detsamma om ett felsvar tas emot. Du kan lägga till resenoder på den här vägen för att hantera dessa scenarier, eller så avslutas resan för målgruppsmedlemmen.
 
 1. För _Dela efter konto_ kan du lägga till en [sammanfogningssökvägsnod](./split-merge-paths-nodes.md#merge-paths) för att kombinera två eller flera sökvägar efter behov.

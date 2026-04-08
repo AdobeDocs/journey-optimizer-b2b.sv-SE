@@ -134,4 +134,4 @@ En åtgärd måste konfigureras och aktiveras innan marknadsförarna kan använd
 
 ## Lägg till en extern nod till en resa {#add-journey-node}
 
-När en åtgärd har aktiverats kan marknadsförarna lägga till en _[!UICONTROL External action]_- eller_[!UICONTROL External split path]_-nod till en kontoresa. Mer information om hur du lägger till och använder de här noderna i kontoresans arbetsyta finns i [Externa noder](../journeys/external-nodes.md).
+När en åtgärd har aktiverats kan marknadsförarna lägga till en _[!UICONTROL External action]_- eller&#x200B;_[!UICONTROL External split path]_-nod till en kontoresa. Mer information om hur du lägger till och använder de här noderna i kontoresans arbetsyta finns i [Externa noder](../journeys/external-nodes.md).
