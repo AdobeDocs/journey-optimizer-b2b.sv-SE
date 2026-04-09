@@ -1,9 +1,9 @@
 ---
 title: Skapa innehåll - komponenter
 description: Återanvänt avsnitt om att använda komponenter och innehållselement för innehållsutveckling
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 1. Om du vill starta innehållsdesignen drar du ett objekt från **[!UICONTROL Structures]** och släpper det på arbetsytan.
 
-   Lägg till så många objekt från _[!UICONTROL Structures]_&#x200B;som du behöver och redigera inställningarna för varje objekt i rutan till höger.
+   Lägg till så många objekt från _[!UICONTROL Structures]_som du behöver och redigera inställningarna för varje objekt i rutan till höger.
 
    >[!TIP]
    >
@@ -25,10 +25,12 @@ ht-degree: 0%
 1. Expandera avsnittet **[!UICONTROL Contents]** och lägg till så många innehållskomponenter du behöver i en eller flera strukturkomponenter.
 
    ![Dra ett innehållselement till arbetsytan och justera inställningarna](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
-   <!--
-   reference to the contents elements when we have a completed reference for each.--->
+&lt;!--
+referens till innehållselementen när vi har en slutförd referens för varje.
 
-1. Om det behövs kan du göra ytterligare anpassningar för varje komponent på flikarna _[!UICONTROL Settings]_&#x200B;eller&#x200B;_[!UICONTROL Style]_.
+   -->
+
+1. Om det behövs kan du göra ytterligare anpassningar för varje komponent på flikarna _[!UICONTROL Settings]_eller_[!UICONTROL Style]_.
 
    Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent.
 

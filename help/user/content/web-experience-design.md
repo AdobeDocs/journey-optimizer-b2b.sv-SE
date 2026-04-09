@@ -4,10 +4,11 @@ description: Designa webbupplevelser med visuella och icke-visuella redigeringsp
 feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
-source-git-commit: d01f4c14f72ebf78b10e4fc6691df42707bedb47
+exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '2234'
-ht-degree: 0%
+source-wordcount: '2258'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +24,7 @@ Innan du kan utforma webbupplevelser måste du kontrollera att följande krav up
 
 * En produktadministratör har konfigurerat en eller flera webbkanaler för att definiera de URL:er (sidor) som ska inkluderas för en webbupplevelse. Mer information finns i [Konfigurationer för webbkanaler](../admin/configure-channels-web.md).
 
-* På webbplatsen har [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/sv/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerats för besöksidentifiering och innehållsleverans. Adobe Experience Platform Web SDK version 2.16 eller senare krävs.
+* På webbplatsen har [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementerats för besöksidentifiering och innehållsleverans. Adobe Experience Platform Web SDK version 2.16 eller senare krävs.
 
 * Du har de [behörigheter](../admin/user-management.md#b2b-product-permissions) som krävs för att skapa och hantera webbupplevelser under en resa:
    * _[!UICONTROL Campaigns]_>_[!UICONTROL Manage Campaigns]_ - Krävs för att lägga till eller uppdatera en åtgärdsnod för webbanpassning.
@@ -43,7 +44,7 @@ Journey Optimizer B2B edition har två typer av redigerare för att utforma webb
 
 | Redigerare | Beskrivning | Bäst för |
 | ------ | ----------- | -------- |
-| [Visuell redigerare](#visual-editor) | En WYSIWYG-redigerare (_What You See Is What You Get_) som visar webbplatsen och gör att du kan markera och ändra element direkt. Det kräver [hjälptillägget &#x200B;](./web-experiences.md#install-the-visual-editing-helper-extension) för visuell redigering i Google Chrome eller Microsoft Edge webbläsare. | Göra visuella ändringar i synliga sidelement, t.ex. text, bilder, knappar och banners. |
+| [Visuell redigerare](#visual-editor) | En WYSIWYG-redigerare (_What You See Is What You Get_) som visar webbplatsen och gör att du kan markera och ändra element direkt. Det kräver [hjälptillägget ](./web-experiences.md#install-the-visual-editing-helper-extension) för visuell redigering i Google Chrome eller Microsoft Edge webbläsare. | Göra visuella ändringar i synliga sidelement, t.ex. text, bilder, knappar och banners. |
 | [Icke-visuell redigerare](#non-visual-editor) | En kodbaserad redigerare för att tillämpa ändringar som inte går att göra med den visuella redigeraren. | Ange målelement som är svåra att markera visuellt, använda avancerade CSS-ändringar eller göra ändringar i dolda element. |
 
 Använd alternativet **[!UICONTROL Visual editor]** i egenskaperna för webbupplevelsen för att fastställa typen av redigerare. Aktivera alternativet att använda den visuella redigeraren eller inaktivera det för att använda den icke-visuella redigeraren.
@@ -59,7 +60,7 @@ Använd alternativet **[!UICONTROL Visual editor]** i egenskaperna för webbuppl
 
 Den visuella redigeraren läser in webbsidorna i en iframe, där du kan markera element och använda ändringar direkt i förhandsgranskningen av sidan. Följ de här stegen för att använda den visuella redigeraren för att designa din webbupplevelse:
 
-1. Klicka på _[!UICONTROL Content]_&#x200B;i den högra panelen när fliken **[!UICONTROL Edit web experience]**&#x200B;visas på sidan med information om webbupplevelser.
+1. Klicka på **[!UICONTROL Edit web experience]** i den högra panelen när fliken _[!UICONTROL Content]_visas på sidan med information om webbupplevelser.
 
    Den visuella redigeraren läser in webbplatsen baserat på webbkanalskonfigurationen.
 
@@ -133,7 +134,7 @@ Mer information om alternativ för textformat för textkomponenter finns i [Inne
 
 1. Markera ett bildelement på sidan.
 
-1. Klicka på ikonen _[!UICONTROL Choose image]_&#x200B;i det sammanhangsberoende verktygsfältet eller den högra panelen.
+1. Klicka på ikonen _[!UICONTROL Choose image]_i det sammanhangsberoende verktygsfältet eller den högra panelen.
 
 1. Bläddra och välj en bild från ditt resursbibliotek.
 
@@ -187,7 +188,7 @@ Om du vill avmarkera en komponenttyp som ska infogas klickar du på **[!UICONTRO
 
 Använd den icke-visuella redigeraren när du behöver göra ändringar som inte är enkla att göra i den visuella redigeraren. Med den här kodbaserade metoden får ni exakt kontroll över målanpassning och ändring av element. Följ de här stegen för att använda den icke-visuella redigeraren för att designa din webbupplevelse:
 
-1. Klicka på _[!UICONTROL Content]_&#x200B;i den högra panelen när fliken **[!UICONTROL Add modification]**&#x200B;visas på sidan med information om webbupplevelser.
+1. Klicka på **[!UICONTROL Add modification]** i den högra panelen när fliken _[!UICONTROL Content]_visas på sidan med information om webbupplevelser.
 
    Den icke-visuella redigeraren läser in en sida baserat på webbkanalskonfigurationen.
 
@@ -220,16 +221,16 @@ Med CSS-väljarändringar kan du ange exakta målelement med hjälp av standards
 
 1. Ange väljaren i fältet **[!UICONTROL CSS Element Selector]**.
 
-<!-- This field helps you find and select the HTML elements (or nodes in the DOM tree). -->
+   <!-- This field helps you find and select the HTML elements (or nodes in the DOM tree). -->
 
-    **Exempelväljare:**
-    
-    | Väljare | Målgrupper |
-    | — | — |
-    | `#hero-banner` | Element med ID &quot;hero-banner&quot; |
-    | `.cta-button` | Alla element med klassen &quot;cta-button&quot; |
-    | &grave;1 | Länkar i navigeringen, inuti rubriken |
-    | `[data-offer=&quot;premium&quot;]` | Element med ett specifikt dataattribut |
+   **Exempelväljare:**
+
+   | Väljare | Målgrupper |
+   | -------- | ------- |
+   | `#hero-banner` | Element med ID `hero-banner` |
+   | `.cta-button` | Alla element med klassen `cta-button` |
+   | `header nav a` | Länkar i navigeringen, inuti rubriken |
+   | `[data-offer="premium"]` | Element med ett specifikt dataattribut |
 
 1. Välj en **[!UICONTROL Action Type]** och ange nödvändig information/nödvändigt innehåll.
 
@@ -282,7 +283,7 @@ Varje ändringspost innehåller:
 
 ### Redigera en ändring
 
-1. I listan _[!UICONTROL Modifications]_&#x200B;söker du efter den ändring du vill redigera.
+1. I listan _[!UICONTROL Modifications]_söker du efter den ändring du vill redigera.
 
 1. Klicka på ikonen _Mer meny_ ( **..** ) och välj **[!UICONTROL Edit]**.
 
@@ -292,17 +293,19 @@ Varje ändringspost innehåller:
 
 ### Ta bort en ändring
 
-1. I listan _[!UICONTROL Modifications]_&#x200B;söker du efter den ändring du vill ta bort.
+1. I listan _[!UICONTROL Modifications]_söker du efter den ändring du vill ta bort.
 
 1. Klicka på ikonen _Mer meny_ ( **..** ) och välj **[!UICONTROL Delete modification]**.
 
 1. Bekräfta borttagningen när du uppmanas till det.
 
-<!-- ### Reorder modifications
+<!--
+ ### Reorder modifications
 
 Modifications are applied in the order that they appear in the list. If you have multiple modifications that affect the same element, the order may impact the final result.
 
-Drag and drop modifications in the list to change the order. The preview updates to reflect the new modification order. -->
+Drag and drop modifications in the list to change the order. The preview updates to reflect the new modification order. 
+-->
 
 ## Förhandsgranska ändringarna
 
@@ -326,11 +329,11 @@ Spåra användarinteraktioner med element för att mäta engagemang och samla in
 
 När webbupplevelsen aktiveras (live) kan du även skapa rapporter med Adobe Customer Journey Analytics (som kräver en produktprenumeration). Om du vill förbättra övervakningen av webbupplevelsen kan du även spåra klick på ett visst element på webbplatsen. Med Spärra/knip kan du visa antalet klick för det elementet i webbrapporterna.
 
-Mer information om Customer Journey Analytics och hur du skapar webbrapporter finns i [Customer Journey Analytics-dokumentationen](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-landing).
+Mer information om Customer Journey Analytics och hur du skapar webbrapporter finns i [Customer Journey Analytics-dokumentationen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing).
 
 1. Välj ett element i webbredigeraren, till exempel en bild eller länk.
 
-1. Klicka på ikonen _[!UICONTROL Click track element]_&#x200B;i elementegenskaperna eller det sammanhangsberoende verktygsfältet.
+1. Klicka på ikonen _[!UICONTROL Click track element]_i elementegenskaperna eller det sammanhangsberoende verktygsfältet.
 
    ![Aktivera klickspårning för webbupplevelselement](./assets/web-experience-design-visual-editor-click-tracking-icons.png){width="600" zoomable="yes"}
 

@@ -3,13 +3,13 @@ title: Slutförandepoäng för inköpsgrupper
 description: Beräkna kundgruppernas fullständighetspoäng med rollbaserade trösklar, anpassningsbara medlemskrav och inställningar för fullständighet i Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
-source-git-commit: 1ebc27a709e1b82029c22950897505f3945a507f
+exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 2%
+source-wordcount: '895'
+ht-degree: 3%
 
 ---
-
 
 # Slutförandepoäng {#completeness-scores}
 
@@ -50,7 +50,8 @@ I ett stort företag kan du identifiera en person per roll. Den personen kanske 
 
 När du har analyserat den aktuella inköpsgruppens fullständighet kan du justera antalet kontakter som krävs för varje roll i rollmallen. Dessa justeringar gör att ni kan anpassa er strategi för inköpsgrupper utifrån verkliga mönster och försäljningsresultat.
 
-<!-- ## Analyze audiences for journey optimization
+<!--
+ ## Analyze audiences for journey optimization
 
 Marketers can view the starting buying group completeness score of target account audiences to find the best performance indicators for a solution. This visibility enables marketers to:
 
@@ -62,7 +63,8 @@ Marketers can view the starting buying group completeness score of target accoun
 
 The buying group completeness score is available to use for filtering in [journey split-path-by-account nodes](../journeys/split-merge-paths-nodes.md#account-path-filters) and for audience segmentation. Role completeness can be used to create personalized content that addresses specific gaps in buying group composition.
 
->[!ENDSHADEBOX] -->
+>[!ENDSHADEBOX] 
+-->
 
 ## Beräkning av rollfullständighet {#role-completeness-calculation}
 
@@ -98,18 +100,18 @@ I följande exempel visas beräkningar av rollernas fullständighet med olika tr
 
 | Roll | Obligatoriska medlemmar | Tilldelade medlemmar | Beräkning | Fullständighet för roll |
 |------|------------------|------------------|-------------|-------------------|
-| Beslutsfattare | 3 | 0 | Ingen | 0 % |
-|  |  | 1 | 1/3 × 100 | 33 % |
-|  |  | 2 | 2/3 × 100 | 66 % |
-|  |  | 3 | Vid tröskelvärde | 100 % |
-|  |  | 4 | Över tröskelvärdet | 100 % |
-| Påverkande | 5 | 0 | Ingen | 0 % |
+| Beslutsfattare | 3 | 0 | Ingen | 0% |
+|  |  | 1 | 1/3 × 100 | 33% |
+|  |  | 2 | 2/3 × 100 | 66% |
+|  |  | 3 | Vid tröskelvärde | 100% |
+|  |  | 4 | Över tröskelvärdet | 100% |
+| Påverkande | 5 | 0 | Ingen | 0% |
 |  |   | 1 | 1/5 × 100 | 20% |
-|  |   | 2 | 2/5 × 100 | 40 % |
-|  |   | 3 | 3/5 × 100 | 60 % |
+|  |   | 2 | 2/5 × 100 | 40% |
+|  |   | 3 | 3/5 × 100 | 60% |
 |  |   | 4 | 4/5 × 100 | 80% |
-|  |   | 5 | Vid tröskelvärde | 100 % |
-|  |   | 6 | Över tröskelvärdet | 100 % |
+|  |   | 5 | Vid tröskelvärde | 100% |
+|  |   | 6 | Över tröskelvärdet | 100% |
 
 ## Beräkning av slutförande av inköpsgrupp {#buying-group-completeness-calculation}
 
@@ -151,5 +153,4 @@ Set up journey events that trigger specific actions when buying groups reach com
 * Trigger an automated assessment when a buying group stalls at the same completeness level for an extended period.
 
 By leveraging completeness scores throughout the journey, you create more targeted, efficient campaigns that align with the actual composition and maturity of your buying groups.
-
 -->

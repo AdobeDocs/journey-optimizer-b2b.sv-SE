@@ -4,7 +4,7 @@ description: Designa e-post, landningssidor och fragment med innehållskomponent
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: ab9e6a1d8785ad4f36e1026a8c376abc9c526c9e
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '2940'
 ht-degree: 1%
@@ -239,7 +239,7 @@ Om du vill exkludera komponenten från skrivbordet eller mobila enheter ändrar 
 
 Använd en behållare för att tillämpa en viss formatering på en grupp innehållskomponenter. Lägg till en [!UICONTROL Container]-komponent och lägg sedan till andra innehållskomponenter i den. Den här komponenten liknar hur du kan använda ett `div`-element i HTML. Du kan använda ett distinkt format för behållaren som skiljer sig från det format som används för innehållskomponenterna som den innehåller.
 
-Lägg till exempel till en _[!UICONTROL Container]_-komponent och lägg sedan till en&#x200B;_[!UICONTROL Button]_-komponent i den behållaren. Du kan använda en särskild ytformatering för behållaren och formatera knappen och dess bakgrund efter behov.
+Lägg till exempel till en _[!UICONTROL Container]_-komponent och lägg sedan till en_[!UICONTROL Button]_-komponent i den behållaren. Du kan använda en särskild ytformatering för behållaren och formatera knappen och dess bakgrund efter behov.
 
 ![Komponentformat för behållarinnehåll](./assets/content-components-container.png){width="600" zoomable="yes"}
 
@@ -287,7 +287,7 @@ När du anger knappetikettexten och anger formateringen ändras knappens storlek
 
 #### Ange länkalternativ
 
-Använd alternativen för **[!UICONTROL Link]** på fliken _[!UICONTROL Settings]_&#x200B;för att definiera knapptexten, länkmålet och webbläsarbeteendet för att läsa in målsidan.
+Använd alternativen för **[!UICONTROL Link]** på fliken _[!UICONTROL Settings]_för att definiera knapptexten, länkmålet och webbläsarbeteendet för att läsa in målsidan.
 
 1. Ange **[!UICONTROL Type]** för länken:
 
@@ -435,7 +435,7 @@ Lägg till en _Divider_-komponent för att införliva en linjär delning mellan 
 
 +++Linje
 
-Expandera avsnittet **[!UICONTROL Line]** på den högra panelen med fliken _[!UICONTROL Styles]_&#x200B;markerad och ange alternativen för komponentens höjd och bredd:
+Expandera avsnittet **[!UICONTROL Line]** på den högra panelen med fliken _[!UICONTROL Styles]_markerad och ange alternativen för komponentens höjd och bredd:
 
 * **[!UICONTROL Color]** - Klicka på färgrutan för att välja en färg i väljaren. Du kan välja en färg genom att ange ett känt RGB-, NML-, NMI- eller hexadecimalt värde. Du kan också använda färgreglaget och färgfältet för att välja färgen.
 
@@ -567,7 +567,7 @@ Välj [resurskälltyp](./assets-overview.md) och välj en bildfil:
 
 * **[!UICONTROL Experience Manager Assets]** - Välj den här typen för att bläddra och välja en bildresurs i en [konfigurerad Experience Manager Assets-databas](../admin/configure-aem-repositories.md).
 
-  I dialogrutan _[!UICONTROL Select Assets]_&#x200B;väljer du en bild med de tillgängliga verktygen för att hitta resursen som du behöver och klickar på&#x200B;**[!UICONTROL Select]**:
+  I dialogrutan _[!UICONTROL Select Assets]_väljer du en bild med de tillgängliga verktygen för att hitta resursen som du behöver och klickar på&#x200B;**[!UICONTROL Select]**:
 
    * Ändra **[!UICONTROL Repository]** överst till höger.
 
@@ -589,9 +589,9 @@ Välj [resurskälltyp](./assets-overview.md) och välj en bildfil:
 
 * **[!UICONTROL Import media]** - Välj den här typen om du vill välja en fil från datorn och importera den till Journey Optimizer B2B edition resursbibliotek.
 
-  I dialogrutan _[!UICONTROL Upload image]_&#x200B;drar och släpper du en fil från systemet till filrutan. Den maximala filstorleken är 100 MB.
+  I dialogrutan _[!UICONTROL Upload image]_drar och släpper du en fil från systemet till filrutan. Den maximala filstorleken är 100 MB.
 
-  ![Importera en bildfil till &#x200B;](./assets/email-designer-image-upload.png){width="450"}
+  ![Importera en bildfil till ](./assets/email-designer-image-upload.png){width="450"}
 
   De markerade bildernas filnamn visas i dialogrutan. Resursfilnamn måste vara unika (i olika mappar), och om det redan finns en fil med det namnet visas ett meddelande. Namn kan innehålla högst 100 tecken och får inte innehålla specialtecken (som `;`, `:`, `\` och `|`).
 
@@ -603,7 +603,7 @@ Du kan lägga till en bildtitel och alternativ text för bilden på den högra p
 
 #### Ange länkalternativ
 
-Använd alternativen för **[!UICONTROL Link]** på fliken _[!UICONTROL Settings]_&#x200B;för att länka bilden till ett mål och webbläsarbeteendet för att läsa in målsidan.
+Använd alternativen för **[!UICONTROL Link]** på fliken _[!UICONTROL Settings]_för att länka bilden till ett mål och webbläsarbeteendet för att läsa in målsidan.
 
 1. Ange **[!UICONTROL Type]** för länken:
 

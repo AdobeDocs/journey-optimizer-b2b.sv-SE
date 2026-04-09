@@ -4,7 +4,7 @@ description: Lär dig hur du skapar personmappning för B2B-marknadsföring. Map
 feature: Setup, Buying Groups
 role: Admin
 exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 1%
@@ -15,9 +15,11 @@ ht-degree: 1%
 
 Personerna är en viktig aspekt av kontobaserad marknadsföring (ABM) eftersom de hjälper marknadsförarna att anpassa sina strategier till specifika behov, preferenser och utmaningar för individer inom målkonton. Marknadsförarna kan skapa detaljerade profiler för varje enskild person, inklusive bakgrund, ansvarsområden, smärtor och önskade kommunikationskanaler. Med dessa definitioner kan administratörer konfigurera profiler utifrån personattribut i Journey Optimizer B2B edition så att rollmallar kan använda effektiva och konsekventa rollvillkor som fångar dessa profiler.
 
-<!-- Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc. 
+<!--
+ Currently there is no insight into what persona goes into what role. With buying group agent, when asked questions about, what should be the size of the buying group, what persona should be in that buying group, what role do they play, etc, then agent will analyze all the data, (opportunity data, engagement data, sales conversation, etc) and informs the user that the buying group needs 7 persona, e.g.CMO, VP of marketing, marketing leader, Marketing ops, etc.
 
-Then based on what agent informed, users can create a template with those personas. -->
+Then based on what agent informed, users can create a template with those personas. 
+-->
 Persondefinitioner och användningsbegränsningar:
 
 * Du kan ha upp till 20 personer definierade i listan _[!UICONTROL Persona mapping]_.
@@ -117,7 +119,7 @@ Du kan ändra namnet eller beskrivningen, lägga till attribut eller uppdatera a
 
 Om du tar bort en profil tas den bort från listan _Personmappning_ och kan inte längre användas i rollmallar.
 
-1. På sidan _[!UICONTROL Persona mapping]_&#x200B;letar du reda på den profil du vill ta bort.
+1. På sidan _[!UICONTROL Persona mapping]_letar du reda på den profil du vill ta bort.
 
 1. Klicka på ellipserna bredvid namnet (**..**) och välj **[!UICONTROL Delete]**.
 

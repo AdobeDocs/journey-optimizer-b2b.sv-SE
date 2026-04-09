@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: mörkt läge, e-post, färg, design
-source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
+exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 0%
+source-wordcount: '1589'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +30,7 @@ _Mörkt läge_ gör att en e-postklient eller app som stöder det kan visa e-pos
 
 ![Konceptionsdiagram för ljust och mörkt läge med återgivning av innehåll i både ljusa och mörka teman](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
 
-När du [skapar ditt e-postinnehåll](./email-authoring.md) i den visuella designrymden [!DNL Journey Optimizer B2B Edition] kan du växla till _&#x200B;**[!UICONTROL Dark mode]**&#x200B;_-vyn. I den här vyn kan du även definiera specifika anpassade inställningar för stöd av e-postklienter när deras mörka läge är aktiverat.
+När du [skapar ditt e-postinnehåll](./email-authoring.md) i den visuella designrymden [!DNL Journey Optimizer B2B Edition] kan du växla till _**[!UICONTROL Dark mode]**_-vyn. I den här vyn kan du även definiera specifika anpassade inställningar för stöd av e-postklienter när deras mörka läge är aktiverat.
 
 ## Ta hänsyn till e-postklienter
 
@@ -91,10 +92,12 @@ När du formaterar ditt e-postinnehåll för mörkt läge i [!DNL Journey Optimi
 
 ### Förhandsvisa standardläget för mörk {#preview-dark-mode}
 
-<!-- Should work with templates and themes, NOT for LP and fragments - but TBC with eng. 
+<!--
+ Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
 >[!NOTE]
 >
->Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
+>Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).
+-->
 
 1. Öppna e-postinnehållet i e-postdesignområdet.
 
@@ -173,7 +176,7 @@ _Definiera anpassade mörkt läge :_
    >
    >Simuleringen simulerar noga hur e-post visas i mörkt läge, men den faktiska återgivningen kan variera beroende på variationer i e-postleverantörer eller inställningar på enhetsnivå.
 
-## Bästa praxis {#best-practices}
+## God praxis {#best-practices}
 
 Efterhand som användningen av mörkt läge ökar för alla större e-postklienter är det viktigt att tänka på hur dina e-postmeddelanden återges i både ljusa och mörka miljöer, oavsett om du använder [anpassat mörkt läge](#define-custom-dark-mode) eller inte.
 
@@ -186,10 +189,14 @@ Mörkt läge kan ändra färger, bakgrunder och bilder - ibland åsidosätta des
 | Skapa tillgängligt innehåll i mörkt läge | Checklista:<ul><li>Använd färgkombinationer som är enkla att skilja på för färgblinda. <li>Använd en mellantonspalett för att säkerställa kontrast mot både ljusa och mörka bakgrunder. <li>Använd tillgängliga färgkombinationer med hög kontrast för att förbättra läsbarheten och uppfylla [!DNL Web Content Accessibility Guidelines (WCAG)]-standarder. Använd verktyg som [!DNL WebAIM Contrast Checker] för att verifiera färgkontrast. <li>Undvik tunna teckensnitt eftersom det kan påverka läsbarheten. Om ert varumärke kräver ett tunt teckensnitt kan du fet stil i mörkt läge. <li>Hoppa över rent vitt på rent svart, vilket kan orsaka ögonproblem och kan inverteras automatiskt i vissa e-postklienter. <li>Ange hjälpmedelsanpassad grundformatering om mörkt läge inte stöds. |
 | Testa dina e-postmeddelanden i mörkt läge | Checklista:<ul><li>Använd [förhandsvisningen i mörkt läge](#preview-dark-mode) i e-postdesignområdet, där inverterade färgscheman används för att upptäcka problem tidigt. <li>Använd ett Litmus Enterprise-konto med alternativet [[!UICONTROL Render email]](./email-test-rendering.md) om du vill simulera dina designer för vanliga e-postklienter (som Apple Mail, Gmail och Outlook) och se hur färger och bilder fungerar i mörkt läge. |
 
-<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+<!--
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+-->
 
-<!--**Inline critical styles**
+<!--
+**Inline critical styles**
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.
+-->

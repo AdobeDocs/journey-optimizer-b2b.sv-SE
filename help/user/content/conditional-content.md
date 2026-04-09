@@ -4,10 +4,10 @@ description: Skapa varianter av dynamiskt innehåll med villkorliga regler baser
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -45,9 +45,9 @@ När du skapar ett fragment eller ett e-postmeddelande i den visuella designrymd
 
    ![Välj villkor för variant](./assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
-   Dialogrutan _[!UICONTROL Select condition]_&#x200B;öppnas och villkorsbiblioteket visas.
+   Dialogrutan _[!UICONTROL Select condition]_öppnas och villkorsbiblioteket visas.
 
-   Om du vill visa information om ett villkor för att se till att det är det du vill ha klickar du på ikonen _Mer meny_ (**..**) och väljer **[!UICONTROL View Info]**.
+   Om du vill visa information om ett villkor för att se till att det är det du vill ha klickar du på ikonen _Mer meny_ (**..**) och välj **[!UICONTROL View Info]**.
 
    ![Villkor för biblioteksåtkomstvillkor](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
@@ -55,7 +55,7 @@ När du skapar ett fragment eller ett e-postmeddelande i den visuella designrymd
 
 1. Markera den villkorliga regeln och klicka på **[!UICONTROL Select]** för att associera den med varianten.
 
-   Du kan granska det associerade villkoret genom att klicka på ikonen _Mer meny_ (**...**) för varianten och välja **[!UICONTROL View condition]**.
+   Du kan granska det associerade villkoret genom att klicka på ikonen _Mer meny_ (**..**) för varianten och väljer **[!UICONTROL View condition]**.
 
    ![Visa villkoret som är associerat med varianten](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
@@ -63,7 +63,7 @@ När du skapar ett fragment eller ett e-postmeddelande i den visuella designrymd
 
    ![Visa information om det associerade villkoret](./assets/conditions-info-popup.png){width="500"}
 
-1. För bättre läsbarhet byter du namn på varianten genom att klicka på ikonen _Mer meny_ (**..**) för varianten och sedan väljer du **[!UICONTROL Rename]**.
+1. Byt namn på varianten genom att klicka på ikonen _Mer meny_ (**...**) för att få bättre läsbarhet. för varianten och väljer **[!UICONTROL Rename]**.
 
    Ange ett beskrivande namn för varianten som hjälper dig att identifiera varianten och dess avsikt.
 
@@ -87,7 +87,7 @@ När du skapar ett fragment eller ett e-postmeddelande i den visuella designrymd
    >
    >Om inget av de definierade variantvillkoren utvärderas som true när du skickar e-postmeddelandet visas innehållskomponenten enligt **[!UICONTROL Default variant]**.
 
-1. Om du vill ta bort en variant klickar du på ikonen _Mer meny_ (**..**) för varianten och väljer **[!UICONTROL Delete]**.
+1. Om du vill ta bort en variant klickar du på ikonen _Mer meny_ (**..**) för varianten och välj **[!UICONTROL Delete]**.
 
    Klicka på **[!UICONTROL Delete]** i bekräftelsedialogrutan.
 
@@ -98,7 +98,8 @@ Reglerna lagras i villkorsbiblioteket, där de är tillgängliga för återanvä
 <!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.
+-->
 
 ### Villkorsfilter {#condition-filters}
 
@@ -119,7 +120,7 @@ Reglerna lagras i villkorsbiblioteket, där de är tillgängliga för återanvä
 
 Du kan komma åt villkorsstyrd regelbyggaren från e-postdesignområdet när du väljer ett villkor för en komponentvariant.
 
-1. Klicka på _[!UICONTROL Select condition]_&#x200B;i dialogrutan **[!UICONTROL Create new]**&#x200B;och välj villkorstyp:
+1. Klicka på **[!UICONTROL Create new]** i dialogrutan _[!UICONTROL Select condition]_och välj villkorstyp:
 
    * **[!UICONTROL Person condition]** - Välj den här typen om du vill skapa den villkorliga regeln med personattribut och sammanhangsberoende händelser.
    * **[!UICONTROL Account condition]** - Välj den här typen om du vill skapa villkorsregeln med kontoattribut.

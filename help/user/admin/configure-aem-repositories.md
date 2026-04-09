@@ -4,7 +4,7 @@ description: Koppla Experience Manager Assets-arkiv till Journey Optimizer B2B e
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 1%
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer B2B Edition] integreras med [!DNL Adobe Experience Manager Assets as a Cloud Service] och tillåter att resurser används i ditt e-postinnehåll. Det garanterar genomskinlighet genom att utbyta information med [!DNL Experience Manager Assets]. Konfigurera anslutningen till [!DNL Adobe Experience Assets] för att aktivera den här funktionen.
 
-Adobe Experience Manager Cloud Manager är indelat i program och varje program har flera miljöer och databaser ([Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). När du konfigurerar Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition skapar du anslutningar till alla databaser som du vill använda för att komma åt digitala resurser.
+Adobe Experience Manager Cloud Manager är indelat i program och varje program har flera miljöer och databaser ([Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). När du konfigurerar Adobe Experience Manager Assets i Adobe Journey Optimizer B2B edition skapar du anslutningar till alla databaser som du vill använda för att komma åt digitala resurser.
 
 {{aem-assets-licensing-note}}
 
 ## Förutsättningar
 
-* Generera autentiseringsuppgifter för tjänsten för den önskade miljön på AEM Headless Developer Console ([Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
+* Generera autentiseringsuppgifter för tjänsten för den önskade miljön på AEM Headless Developer Console ([Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"}).
 * Köp de certifikat som krävs för anslutningen. Som en god praxis bör du se till att certifikaten har minst sex månader kvar innan de upphör att gälla. Certifikaten upphör att gälla var 365:e dag.
 * Adobe Journey Optimizer B2B edition ger åtkomst till en digital resurshanteringskälla åt gången. Kontrollera att de nödvändiga resurserna är tillgängliga i Adobe Experience Manager innan du byter.
 
@@ -37,11 +37,10 @@ Adobe Experience Manager Cloud Manager är indelat i program och varje program h
 
    ![Åtkomst till Assets konfigurationsutrymme](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
-   <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
-    -->
+   <!-- The default digital asset management option is configured as `Adobe Marketo Engage`. -->
    Härifrån kan du konfigurera anslutningarna till varje AEM-miljödatabas en i taget.
 
-1. Klicka på pilen bredvid **[!UICONTROL Configure a repository]** i rutan _[!UICONTROL Adobe Experience Manager Assets]_&#x200B;och välj databasen.
+1. Klicka på pilen bredvid **[!UICONTROL Configure a repository]** i rutan _[!UICONTROL Adobe Experience Manager Assets]_och välj databasen.
 
    ![Välj en AEM Assets-databas](./assets/configure-assets-aem-choose-respository.png){width="500"}
 
@@ -115,7 +114,7 @@ Du kan visa JSON-certifikatfilen som är kopplad till databasanslutningen.
 
 När du tar bort en databas tas användaråtkomst till Experience Manager Assets-miljön bort i Journey Optimizer B2B edition.
 
-1. På sidan _[!UICONTROL Digital asset management]_&#x200B;letar du reda på listan med konfigurerade resursdatabaser.
+1. På sidan _[!UICONTROL Digital asset management]_letar du reda på listan med konfigurerade resursdatabaser.
 
 1. Klicka på det databasnamn du vill redigera anslutningen.
 

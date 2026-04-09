@@ -7,9 +7,9 @@ role: User, Developer
 level: Intermediate
 keywords: uttryck, redigerare, start, personalisering
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
+source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ I [!DNL Journey Optimizer B2B Edition] kan du skapa ditt dynamiska e-postinnehå
 
 >[!NOTE]
 >
->Läs mer om XDM-scheman i [dokumentationen för Adobe Experience Platform datamodell (XDM)](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/home){target="_blank"}.
+>Läs mer om XDM-scheman i [dokumentationen för Adobe Experience Platform datamodell (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Personalization editor
 
@@ -65,10 +65,12 @@ Klicka på ikonen _Mer meny_ ( **..** ) (bredvid ikonen _Lägg till_ ( **+** )) 
 
 ![Personalization-redigerare - menyn Mer om token](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
-<!-- >>[!NOTE]
+<!--
+>[!NOTE]
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
+
 Du kan också definiera en standardtextsträng som visas om ett profilattribut av strängtyp är tomt. Klicka på ikonen _Mer meny_ ( **..** ) för attributet och välj **[!UICONTROL Insert with fallback text]**. Ange den text som ska visas när attributets värde är tomt för en profil och klicka sedan på **[!UICONTROL Add]**.
 
 Det är en god vana att validera uttrycket innan du infogar det i innehållet. Klicka på **[!UICONTROL Validate]** längst ned i redigeraren för att kontrollera din syntax och se till att det inte finns några fel.
@@ -81,7 +83,7 @@ När uttrycket är klart och felfritt klickar du på **[!UICONTROL Save]**.
 
 [!BADGE Beta]{type=Informative tooltip="Funktionen Beta"}
 
-Du kan använda relationsscheman för e-postpersonalisering. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält &#x200B;](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. Dessa fält är tillgängliga i personaliseringsredigeraren. Endast anpassade objekt som har en 1:N-relation (1:M) till personer eller konto är tillgängliga.
+Du kan använda relationsscheman för e-postpersonalisering. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält ](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. Dessa fält är tillgängliga i personaliseringsredigeraren. Endast anpassade objekt som har en 1:N-relation (1:M) till personer eller konto är tillgängliga.
 
 >[!IMPORTANT]
 >

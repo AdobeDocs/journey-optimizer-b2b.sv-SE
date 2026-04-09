@@ -4,10 +4,10 @@ description: Koppla ditt WhatsApp Business-konto via Meta Cloud API för att akt
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 5%
+source-wordcount: '1413'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,7 @@ Utför följande uppgifter:
    * **[!UICONTROL API Token]** - Ange din API-token. Mer information finns i [Meta-dokumentationen](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Business Account ID]** - Ange det unika nummer som hör till din företagsportfölj. Mer information finns i [Meta-dokumentationen](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![API-autentiseringsuppgifter för whatsApp-inställningar &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![API-autentiseringsuppgifter för whatsApp-inställningar ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klicka på **[!UICONTROL Continue]**.
 
@@ -95,7 +95,7 @@ Utför följande uppgifter:
 
 1. Klicka på **[!UICONTROL Submit]** när du är klar med konfigurationen av dina API-autentiseringsuppgifter.
 
-När du klickar på _[!UICONTROL Submit]_&#x200B;valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för&#x200B;_[!UICONTROL API credentials]_.
+När du klickar på _[!UICONTROL Submit]_valideras och sparas inloggningsuppgifterna omedelbart, och du omdirigeras till listsidan för_[!UICONTROL API credentials]_.
 
 Om de skickade autentiseringsuppgifterna är ogiltiga visas ett HTTP 500-felmeddelande. I så fall kan du välja att avbryta konfigurationen eller uppdatera den och skicka den igen.
 
@@ -112,8 +112,10 @@ Om du får ett HTTP 500-fel när du konfigurerar API-autentiseringsuppgifter fö
 
 1. Testa autentiseringsuppgifterna externt - Verifiera dina autentiseringsuppgifter direkt med Meta API för att bekräfta om problemet gäller autentiseringsuppgifterna eller med hantering av autentiseringsuppgifter i Journey Optimizer B2B edition.
 
-<!-- 1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures. 
-do we have advanced logs? How are they enabled?-->
+<!--
+ 1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
+do we have advanced logs? How are they enabled?
+-->
 
 1. Kontakta Adobe - Om miljön och berättigandena har bekräftats vara giltiga men HTTP 500-felet kvarstår kontaktar du Adobe.
 
@@ -186,7 +188,7 @@ När inloggningsuppgifterna för WhatsApp API har skapats kan du konfigurera web
 
 När webbkroken har skickats kan du hämta token- och URL-värdena och sedan registrera den i Meta.
 
-1. I listan **[!UICONTROL WhatsApp Webhooks]** klickar du på ikonen Redigera ( ![ikonen Redigera &#x200B;](../assets/do-not-localize/icon-edit.svg) ) för den webkrok du skapade.
+1. I listan **[!UICONTROL WhatsApp Webhooks]** klickar du på ikonen Redigera ( ![ikonen Redigera ](../assets/do-not-localize/icon-edit.svg) ) för den webkrok du skapade.
 
 1. Kopiera värdena **[!UICONTROL Verify Token]** och **[!UICONTROL Webhook URL]**.
 
@@ -198,7 +200,7 @@ När webbkroken har skickats kan du hämta token- och URL-värdena och sedan reg
 
 En kanalkonfiguration definierar leveransinställningarna som används när WhatsApp-meddelanden skickas från en reseåtgärdsnod.
 
-1. Välj **[!UICONTROL Channel configurations]** under _[!UICONTROL General settings]_&#x200B;på navigeringspanelen.
+1. Välj **[!UICONTROL Channel configurations]** under _[!UICONTROL General settings]_på navigeringspanelen.
 
    ![Kanalkonfigurationslista](./assets/config-whatsapp-channels-general.png){width="600" zoomable="yes"}
 
@@ -216,9 +218,11 @@ En kanalkonfiguration definierar leveransinställningarna som används när What
 
    <!-- Make sure to include all applicable marketing actions to ensure compliance with customer preferences. -->
 
+   Alla policyer för samtycke som är kopplade till en vald marknadsföringsåtgärd utnyttjas automatiskt för att ta hänsyn till kundernas önskemål. Alla WhatsApp-meddelanden som använder den konfigurationen under en resa skickas till exempel bara till de profiler som har godkänt att ta emot WhatsApp-meddelanden från dig. Profiler som inte har samtyckt till att ta emot dessa meddelanden är exkluderade.
+
    <!-- All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 
-1. Under _[!UICONTROL WhatsApp Settings]_&#x200B;väljer du **[!UICONTROL WhatsApp configuration]**(API-autentiseringsuppgifter) som du skapade i föregående uppgift.
+1. Under _[!UICONTROL WhatsApp Settings]_väljer du **[!UICONTROL WhatsApp configuration]**(API-autentiseringsuppgifter) som du skapade i föregående uppgift.
 
 1. Ange **[!UICONTROL Sender phone number]** som ska användas för meddelandeleverans.
 

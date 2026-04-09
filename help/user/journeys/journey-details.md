@@ -4,16 +4,16 @@ description: Övervaka kundresan med hjälp av siffror för slutförande, engage
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Resedetaljer
 
-När du klickar på namnet för en aktiv kontoresa visas reseinformationen. Fliken _[!UICONTROL Overview]_&#x200B;innehåller användbar information om resan, inklusive generativa AI-sammanfattningar.
+När du klickar på namnet för en aktiv kontoresa visas reseinformationen. Fliken _[!UICONTROL Overview]_innehåller användbar information om resan, inklusive generativa AI-sammanfattningar.
 
 Den här instrumentpanelen ger en omfattande översikt över en vald kontoresa, med detaljerad information om kontostatus med hjälp av cirkel- och linjediagram som kategoriserar och kvantifierar slutföranden, pågående aktiviteter och avbryter över tid. Det hjälper marknadsförarna att utvärdera hur effektiva e-post- och SMS-kanalerna är med hjälp av nyckeltal för leverans och engagemang.
 
@@ -60,20 +60,22 @@ Prestandatabellerna ger en detaljerad bild av hur effektiva e-post- och SMS-kana
 * _[!UICONTROL Sent]_- antal skickade SMS-meddelanden
 * _[!UICONTROL Delivery rate]_- antalet levererade SMS-meddelanden delat med det skickade numret
 * _[!UICONTROL Click-through rate]_- antalet klickade SMS-meddelanden dividerat med antalet levererade
-<!-- 
-To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. -->
+<!--
+To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top right of the page. 
+-->
 
 ## Förbättrad interaktion
 
-Engagera dig ytterligare med data genom att använda åtgärdsikonen (**...**) i det övre högra hörnet i varje diagram eller tabell.
+Engagera dig ytterligare med data genom att använda åtgärdsikonen (**...**) i det övre högra hörnet av varje diagram eller tabell.
 
 ### Detaljgranskning
 
-För diagrammet _[!UICONTROL Journey status]_&#x200B;väljer du **[!UICONTROL Drill through]**&#x200B;för en ingående analys av enskilda kontostatusar.
+För diagrammet _[!UICONTROL Journey status]_väljer du **[!UICONTROL Drill through]**för en ingående analys av enskilda kontostatusar.
 
 ![Detaljnivån för diagramdata](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--
-The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.-->
+The applied global filters are carried over to the view and displayed at the top. Click the _Filter_ icon at the top left to filter the data display by journey.
+-->
 
 ### Visa mer
 
@@ -81,4 +83,4 @@ Välj **[!UICONTROL View more]** om du vill komma åt utökade data. Det visade 
 
 ![Visa utökade data](./assets/journey-completion-over-time-view-more.png){width="600" zoomable="yes"}
 
-Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** längst upp till höger i datatabellen. Klicka på _om du vill återgå till kontrollpanelen_&#x200B;Översikt **[!UICONTROL Close]**.
+Om du vill hämta data klickar du på **[!UICONTROL Download CSV]** längst upp till höger i datatabellen. Klicka på **[!UICONTROL Close]** om du vill återgå till kontrollpanelen _Översikt_.

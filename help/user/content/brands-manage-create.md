@@ -6,7 +6,7 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '1920'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Om inga varumärken har skapats ännu visas en bild med en knapp för att [skapa
 
 ### varumärkeshanteringsåtgärder
 
-För varje kort kan du klicka på ikonen _Mer meny_ ( ![Mer meny &#x200B;](../../assets/do-not-localize/icon-more-menu.svg) ) och välja en åtgärd för varumärket:
+För varje kort kan du klicka på ikonen _Mer meny_ ( ![Mer meny ](../../assets/do-not-localize/icon-more-menu.svg) ) och välja en åtgärd för varumärket:
 
 * **[!UICONTROL View brand]** - Öppna varumärkessidan och visa definitionerna.
 * **[!UICONTROL Mark as default brand]** (endast live) - [Markera varumärket som standard](#default-brand) för justering och generering av innehåll.
@@ -142,7 +142,7 @@ Om du vill skapa och definiera riktlinjer för varumärket kan du antingen ange 
 
    * **Ta bort stödlinje eller undantag**.
 
-     Klicka på stödlinjewidgeten i det avsnitt där du vill ta bort en stödlinje. I popup-dialogrutan klickar du på ikonen _Ta bort_ ( ![Ta bort &#x200B;](../assets/do-not-localize/icon-delete.svg) ) längst upp.
+     Klicka på stödlinjewidgeten i det avsnitt där du vill ta bort en stödlinje. I popup-dialogrutan klickar du på ikonen _Ta bort_ ( ![Ta bort ](../assets/do-not-localize/icon-delete.svg) ) längst upp.
 
    * **Lägg till eller revidera exempel på riktlinjer och undantag**.
 
@@ -206,7 +206,7 @@ Använd fliken **[!UICONTROL About the brand]** för att etablera varumärkets k
 
       * **[!UICONTROL Manifestations]** - Ge exempel på hur det här värdet uttrycks i varumärken.
 
-   * Om du vill ändra eller ta bort ett kärnvärde klickar du på ikonen _Redigera_ ( ![Redigera &#x200B;](../assets/do-not-localize/icon-edit.svg) ) för att uppdatera eller ta bort ett kärnvarumärke.
+   * Om du vill ändra eller ta bort ett kärnvärde klickar du på ikonen _Redigera_ ( ![Redigera ](../assets/do-not-localize/icon-edit.svg) ) för att uppdatera eller ta bort ett kärnvarumärke.
 
      ![Om varumärket - riktlinjer - redigera kärnvärde](./assets/brands-about-guiding-principles-edit-core-values.png){width="500" zoomable="yes"}
 
@@ -230,7 +230,7 @@ Du kan fortsätta att förfina [skrivstilen](#writing-style) eller [visuellt inn
 >title="Skriva justeringsmusik"
 >abstract="I avsnittet Skrivstil definieras standarder för språk, formatering och struktur för att säkerställa tydligt och enhetligt innehåll. Justeringspoängen, som har klassificerats från hög till låg, visar hur väl innehållet följer dessa riktlinjer och markerar områden som kan förbättras."
 
-Definitionerna för _[!UICONTROL Writing style]_&#x200B;innehåller en beskrivning av standarderna för att skriva innehåll och en beskrivning av hur språk, formatering och struktur ska användas för att bibehålla klarhet, konsekvens och konsekvens i alla material.
+Definitionerna för _[!UICONTROL Writing style]_innehåller en beskrivning av standarderna för att skriva innehåll och en beskrivning av hur språk, formatering och struktur ska användas för att bibehålla klarhet, konsekvens och konsekvens i alla material.
 
 Välj fliken **[!UICONTROL Writing Style]** och granska varje kategori.
 
@@ -251,7 +251,8 @@ Välj fliken **[!UICONTROL Writing Style]** och granska varje kategori.
 |                            | [!UICONTROL Copyright standards] | Inkludera copyrightmeddelanden i marknadsföringsmaterial. | Använd inte innehåll från tredje part utan tillstånd. |
 |                            | [!UICONTROL Disclaimer standards] | Visa ansvarsfriskrivningar på ett läsligt sätt om digitala resurser. | Dölj inte ansvarsfriskrivningar i områden som inte är synliga. |
 
-<!-- #### Preferred and avoided terms
+<!--
+ #### Preferred and avoided terms
 
 Supplement your work choice guidelines by adding preferred and avoided terms. 
 
@@ -273,7 +274,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >title="Poäng för visuell innehållsjustering"
 >abstract="Visuell innehållsanpassning visar hur väl innehållet matchar de konfigurerade varumärkesriktlinjerna. Om du väljer en justering från hög till låg blir det enklare att snabbt bedöma justeringen. Utforska de olika kategorierna för att identifiera områden som kan förbättras och hitta element som inte är varumärkesskyddade."
 
-Definitionerna för _[!UICONTROL Visual content]_&#x200B;beskriver standarderna för bilder och design och detaljerar de specifikationer som behövs för att upprätthålla en enhetlig och enhetlig varumärkeslook.
+Definitionerna för _[!UICONTROL Visual content]_beskriver standarderna för bilder och design och detaljerar de specifikationer som behövs för att upprätthålla en enhetlig och enhetlig varumärkeslook.
 
 Välj fliken **[!UICONTROL Visual content]** och granska varje kategori.
 
@@ -286,19 +287,19 @@ Välj fliken **[!UICONTROL Visual content]** och granska varje kategori.
 | [!UICONTROL Icon standards] | Använd ett enhetligt rutnätssystem med 24 pixlar. | Blanda inte ikondimensioner, använd inkonsekventa linjebredder eller avvika från stödrasterreglerna. |
 | [!UICONTROL Usage guidelines] | Välj livsstilsbilder som återspeglar verkliga kunder som använder produkten i professionella miljöer. | Använd inte bilder som står i strid med varumärkestonen eller som inte är i sitt sammanhang. |
 
-<!-- #### Styles
+<!--
+ #### Styles
 
 To define the overall style for the category, click **[!UICONTROL Add style]**. In the popup dialog, enter the style type and description. 
 
 ![Add style for visual content category](./assets/brands-visual-content-add-style.png){width="500" zoomable="yes"}
 
 #### Specifications
-
 -->
 
 #### Exempelbilder
 
-Om du vill lägga till en bild som visar korrekt eller felaktig användning väljer du **[!UICONTROL Example]** i popup-dialogrutan _[!UICONTROL Add guideline]_&#x200B;eller&#x200B;_[!UICONTROL Add exclusion]_. Klicka på **[!UICONTROL Select image]** om du vill välja en bildfil från datorn. Klicka på **[!UICONTROL Add]** för att överföra bilden och visa miniatyrbilden för området.
+Om du vill lägga till en bild som visar korrekt eller felaktig användning väljer du **[!UICONTROL Example]** i popup-dialogrutan _[!UICONTROL Add guideline]_eller_[!UICONTROL Add exclusion]_. Klicka på **[!UICONTROL Select image]** om du vill välja en bildfil från datorn. Klicka på **[!UICONTROL Add]** för att överföra bilden och visa miniatyrbilden för området.
 
 ![Lägg till exempelbild](./assets/brands-guidelines-example-image.png){width="500" zoomable="yes"}
 

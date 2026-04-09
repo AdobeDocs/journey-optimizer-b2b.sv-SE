@@ -4,9 +4,9 @@ description: Övervaka interaktionsstatistik i realtid för konton, köpgrupper 
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Du kan filtrera de data som visas efter datumintervall och attribut.
 
 ### Datumintervallfilter
 
-Använd _[!UICONTROL Date range filter]_&#x200B;längst upp till höger för att filtrera data efter datumintervallet.
+Använd _[!UICONTROL Date range filter]_längst upp till höger för att filtrera data efter datumintervallet.
 
 ![Filtrera visade data efter datumintervall](./assets/engagement-date-filter.png){width="380"}
 
@@ -90,7 +90,7 @@ Välj **[!UICONTROL View more]** om du vill ha utökade data och insikter.
 Beroende på diagrammet finns det utökade data för följande:
 
 | Engagemang per konto/inköpsgrupper/personer | Konton/inköpsgrupper/personer som har varit engagerade över tid |
-| ----------------------------------------------- | -------------------------------------------------- | 
+| ----------------------------------------------- | -------------------------------------------------- |
 | <li>Engagerad <li>Inte engagerad | <li>Datum <li>Konton / Köpgrupper / Personer (tal) <li>Engagerad/ej engagerad |
 
 Om du vill kopiera utökade data klickar du på **[!UICONTROL Download CSV]** överst till höger.

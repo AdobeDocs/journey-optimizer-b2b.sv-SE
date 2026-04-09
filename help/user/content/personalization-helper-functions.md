@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: uttryck, redigerare, syntax, personalisering
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '4849'
+source-wordcount: '4939'
 ht-degree: 0%
 
 ---
@@ -420,7 +420,9 @@ Följande åtgärd definierar personer vars favoritfärger innehåller minst en 
 
 +++
 
-<!-- ## Intersection{#intersection}
+<!--
+
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -450,7 +452,7 @@ Funktionen `bottomN` sorterar en array i stigande ordning baserat på det angivn
 ```
 
 | Argument | Beskrivning |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | Arrayen eller listan som ska sorteras. |
 | `{VALUE}` | Den egenskap som används för att sortera arrayen eller listan. |
 | `{AMOUNT}` | Antalet artiklar som ska returneras. |
@@ -2685,7 +2687,7 @@ Använd funktionen `replaceAll` om du vill ersätta alla delsträngar för en te
 
 >[!NOTE]
 >
-> När uttrycket som tagits som ett andra argument är ett särskilt regex-tecken använder du ett dubbelt omvänt snedstreck (`//`).  Specialregextecken är: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
+> När uttrycket som tagits som ett andra argument är ett särskilt regex-tecken använder du ett dubbelt omvänt snedstreck (`//`).  Specialtecken för regex är: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > Läs mer i [Oracle-dokumentation](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >

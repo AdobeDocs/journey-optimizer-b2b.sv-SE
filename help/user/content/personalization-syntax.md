@@ -6,10 +6,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: uttryck, redigerare, syntax, personalisering
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 0%
+source-wordcount: '361'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +35,7 @@ Var:
 
   >[!NOTE]
   >
-  >Attributstrukturen definieras i ett [Adobe Experience Platform XDM-schema](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/home){target="_blank"}.
+  >Attributstrukturen definieras i ett [Adobe Experience Platform XDM-schema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 * Identifierare kan vara vilket Unicode-tecken som helst förutom följande:
 
@@ -48,9 +49,11 @@ Var:
 
 * I Handlebars är värdena som returneras av {\{expression}\} _HTML-escape_. Om uttrycket innehåller `&` genereras returnerade HTML-escape-utdata som `&amp;`. Om du inte vill att Handlebars ska hoppa över ett värde använder du +trippelstash_.
 
-<!-- For example:
+<!--
+ For example:
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. 
+-->
 
 * För argument för literala funktioner stöder den mallande språkparsern inte enkel omvänt snedstreck (`\`). Det här tecknet måste föregås av ett ytterligare omvänt snedstreck (`\`). Till exempel:
 
@@ -68,9 +71,11 @@ En hjälpfunktion för handtag är en enkel identifierare som kan läggas till m
 {{/each }}
 ```
 
-<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+<!--
+ These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name.
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
+-->
 
 Mer information om de här funktionerna finns i [Hjälpfunktioner](./personalization-helper-functions.md).
 

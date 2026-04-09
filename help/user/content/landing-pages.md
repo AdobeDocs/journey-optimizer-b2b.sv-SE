@@ -5,10 +5,10 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2108'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,8 +27,9 @@ Om du vill dirigera dina kunder till en definierad webbsida när de klickar på 
 Du kan till exempel skapa och utforma landningssidor som dirigerar användarna till onlineinformation. Sidan kan innehålla ett formulär där de kan välja att inte ta emot dina meddelanden eller avanmäla sig. Eller så kan det vara en möjlighet att prenumerera på återkommande meddelanden, som nyhetsbrev.
 
 Du kan skapa, anpassa och förhandsgranska landningssidor i den visuella designrymden.
-<!-- 
-For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
+<!--
+For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. 
+-->
 
 ## Få åtkomst till och hantera landningssidor
 
@@ -86,7 +87,7 @@ Du kan lägga till en ny landningssida i Journey Optimizer B2B edition genom att
 
 1. Klicka på **[!UICONTROL Create]**.
 
-   Hemsidan _[!UICONTROL Create your primary landing page]_&#x200B;öppnas och innehåller flera alternativ för att skapa sidan:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_&#x200B;eller använda en sparad mall.
+   Hemsidan _[!UICONTROL Create your primary landing page]_öppnas och innehåller flera alternativ för att skapa sidan:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_eller använda en sparad mall.
 
    ![Välj hur du vill börja med landningssidans design](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
@@ -122,7 +123,7 @@ Du kan välja mellan:
 
 * **Sparade mallar**. Använd en sparad anpassad mall som har skapats av en medlem i organisationen med hjälp av _[!UICONTROL Templates]_-menyn <!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
 
-Använd avsnittet _[!UICONTROL Select design template]_&#x200B;för att börja skapa innehåll från en mall. Du kan använda en exempelmall eller en sparad anpassad landningssidmall från din Journey Optimizer B2B edition-instans.
+Använd avsnittet _[!UICONTROL Select design template]_för att börja skapa innehåll från en mall. Du kan använda en exempelmall eller en sparad anpassad landningssidmall från din Journey Optimizer B2B edition-instans.
 
 >[!BEGINTABS]
 
@@ -152,10 +153,11 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 >[!ENDTABS]
 
-<!-- 
+<!--
 >[!NOTE]
 >
-> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). -->
+> Saved templates may have governance (content locking) settings applied to one or more components. The visual designer provides guidelines about locked components when you [author an email from a governed template](./email-authoring-governance.md). 
+-->
 
 ## Redigera en landningssida
 
@@ -169,7 +171,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 >[!TAB Utkast]
 
-1. Klicka på landningssidans namn på listsidan _[!UICONTROL Landing pages]_&#x200B;för att öppna den.
+1. Klicka på landningssidans namn på listsidan _[!UICONTROL Landing pages]_för att öppna den.
 
    En förhandsgranskning av det visuella innehållet visas, med information om landningssidan till höger.
 
@@ -193,7 +195,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 >[!TAB Publicerad]
 
-1. Klicka på sidnamnet på listsidan _[!UICONTROL Landing page]_&#x200B;för att öppna den.
+1. Klicka på sidnamnet på listsidan _[!UICONTROL Landing page]_för att öppna den.
 
    En förhandsgranskning av det visuella innehållet visas, med information om landningssidan till höger.
 
@@ -225,7 +227,7 @@ Adobe Journey Optimizer B2B edition har ett urval av _färdiga_-landningssidmall
 
 När du öppnar landningssidan visas utkastet som standard. Med flikarna högst upp i förhandsvisningsområdet kan du växla visningen mellan publicerade versioner och utkastversioner. Utkaståtgärder och information visas till höger.
 
-![Förhandsgranskning och information för landningssidans utkast &#x200B;](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
+![Förhandsgranskning och information för landningssidans utkast ](./assets/landing-page-published-draft-details.png){width="700" zoomable="yes"}
 
 Så här uppdaterar du innehållet:
 

@@ -4,9 +4,9 @@ description: Optimera kontobaserad marknadsföring med inköpsgrupper - identifi
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,8 @@ För att undvika att en medlemsuppgift åsidosätts felaktigt i en inköpsgrupp 
 <!--
    * Acquire missing people
    * Send to LinkedIn Destination
-   * Enrich with Zoominfo -->
+   * Enrich with Zoominfo 
+-->
 
 1. Lägg till inköpsgruppåtgärder på dina kontoresor.
 
@@ -76,7 +77,7 @@ För att undvika att en medlemsuppgift åsidosätts felaktigt i en inköpsgrupp 
 
 Expandera **[!UICONTROL Accounts]** till vänster och klicka på **[!UICONTROL Buying groups]**.
 
-Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
+Sidan _[!UICONTROL Buying groups]_är ordnad som flikar:
 
 | Tabb | Beskrivning |
 | --- | ----------- |
@@ -88,7 +89,7 @@ Sidan _[!UICONTROL Buying groups]_&#x200B;är ordnad som flikar:
 
 ## Köpa gruppsökning och filter
 
-Använd fliken _[!UICONTROL Browse]_&#x200B;för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
+Använd fliken _[!UICONTROL Browse]_för att visa listan över inköpsgrupper. Du kan söka efter namn och filtrera listan efter lösningsintresse.
 
 ![Buying group browse page](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
@@ -116,4 +117,4 @@ Mer information om aktiviteter och beräkningar finns i [Resultat för engageman
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3452933/?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

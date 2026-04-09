@@ -4,10 +4,10 @@ description: Konfigurera leveransprotokoll för e-post - konfigurera DNS-, SPF-,
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2389'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -65,11 +65,11 @@ Till exempel:
 
 >[!NOTE]
 >
->Värdet `[MktoTrackingLink]` måste vara [varumärkningsdomänens &#x200B;](../admin/configure-channels-emails.md#branding-domains) standardvärde.
+>Värdet `[MktoTrackingLink]` måste vara [varumärkningsdomänens ](../admin/configure-channels-emails.md#branding-domains) standardvärde.
 
 ### Tillhandahåll SSL-certifikatet
 
-Kontakta [Adobe Support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support){target="_blank"} för att starta processen med att etablera ett SSL-certifikat.
+Kontakta [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} för att starta processen med att etablera ett SSL-certifikat.
 
 Denna process kan ta upp till tre arbetsdagar att slutföra.
 
@@ -102,7 +102,7 @@ Du kan använda samma DKIM-konfiguration för din produktion av Marketo Engage-i
 
    `[DKIMDomain2]`: Värdposten är `[HostRecord2]` och TXT-värdet är `[TXTValue2]`.
 
-   Kopiera `HostRecord` och `TXTValue` för varje DKIM-domän efter att ha följt [instruktionerna](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen. Du kan verifiera domänerna i Journey Optimizer B2B edition (se [SPF/DKIM](../admin/configure-channels-emails.md#spfdkim)).
+   Kopiera `HostRecord` och `TXTValue` för varje DKIM-domän efter att ha följt [instruktionerna](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen. Du kan verifiera domänerna i Journey Optimizer B2B edition (se [SPF/DKIM](../admin/configure-channels-emails.md#spfdkim)).
 
 ## Konfigurera DMARC
 
@@ -185,7 +185,7 @@ Det finns två typer av justering för DMARC:
 
   DKIM-justering validerar om avsändaren har behörighet att skicka e-post från domänen och verifierar att inget innehåll har ändrats under e-postöverföring. Så här implementerar du DKIM-anpassade DMARC:
 
-   * Konfigurera DKIM för e-postmeddelandets MAIL FROM-domän. Använd [instruktionerna](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen.
+   * Konfigurera DKIM för e-postmeddelandets MAIL FROM-domän. Använd [instruktionerna](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen.
 
    * Konfigurera DMARC för domänen DKIM MAIL FROM.
 
@@ -208,13 +208,13 @@ Det finns två typer av justering för DMARC:
 
 ### Dedikerade IP-adresser och delad pool
 
-Om du skickar e-post via Marketo Engage via en dedikerad IP-adress och inte har implementerat en profilerad retursökväg (eller om du inte vet om du har det), öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support){target="_blank"}.
+Om du skickar e-post via Marketo Engage via en dedikerad IP-adress och inte har implementerat en profilerad retursökväg (eller om du inte vet om du har det), öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}.
 
 >[!BEGINSHADEBOX]
 
 **Migrering till den förenklade arkitekturen**
 
-Om du har dedikerade IP-adresser måste du ha den nya Journey Optimizer B2B edition-instansen skapad i samma region som din befintliga Marketo Engage-instans. Om den nya instansen finns i en annan region går det inte att dela den befintliga IP-adressen. Om regionen matchar öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support){target="_blank"} för att begära att dina befintliga IP-adresser och bindningsgrupper delas med den nya instansen. Ange ditt Marketo Engage-prefix (Munchkin-ID) och ditt nya Journey Optimizer B2B edition-prefix (Munchkin-ID).
+Om du har dedikerade IP-adresser måste du ha den nya Journey Optimizer B2B edition-instansen skapad i samma region som din befintliga Marketo Engage-instans. Om den nya instansen finns i en annan region går det inte att dela den befintliga IP-adressen. Om regionen matchar öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} för att begära att dina befintliga IP-adresser och bindningsgrupper delas med den nya instansen. Ange ditt Marketo Engage-prefix (Munchkin-ID) och ditt nya Journey Optimizer B2B edition-prefix (Munchkin-ID).
 
 Med den här begäran replikerar Adobe samma IP-adresser, bindningsgrupper och konfigurerade Return-Path-domäner som din befintliga Marketo Engage-instans. När IP-adresser delas mellan din Marketo Engage-instans och Journey Optimizer B2B edition använder båda dem samtidigt (en sändning från Marketo Engage och en sändning från Journey Optimizer B2B edition använder samma IP-adresser).
 
@@ -238,13 +238,15 @@ Med en MX-post kan du ta emot e-post till domänen som du skickar e-post från f
 
 En utgående anslutning upprättas av Marketo Engage till en server på Internet åt dig. Din IT-organisation och vissa partners/leverantörer kan använda tillåtelselista för att begränsa åtkomsten till servrar. Om så är fallet måste du förse dem med utgående IP-adressblock från Marketo Engage som kan läggas till i deras tillåtelselista.
 
-<!-- ### Webhooks
+<!--
+ ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+-->
 
 ## Utgående IP-adressblock
 

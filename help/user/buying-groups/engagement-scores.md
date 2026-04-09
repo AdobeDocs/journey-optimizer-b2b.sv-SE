@@ -4,10 +4,10 @@ description: Beräkna poäng för köp av grupper och personal med hjälp av vik
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 5%
+source-wordcount: '1289'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ Det finns två typer av engagemangspoäng:
 
 * **Personengagemangspoäng** - Personinteraktionspoängen baseras på aktiviteter för en enskild inköpsgruppsmedlem.
 
-  Personinteraktionspoängen för varje köpgruppsmedlem visas på sidan med information om inköpsgrupper [_[!UICONTROL Members]_&#x200B;på fliken &#x200B;](./buying-group-details.md#buying-group-members). Dessa bakgrundsmusik visas även på sidor och på kontrollpaneler som innehåller information om toppengagerade medlemmar och överlappande kontakter.
+  Personinteraktionspoängen för varje köpgruppsmedlem visas på sidan med information om inköpsgrupper [_[!UICONTROL Members]_på fliken ](./buying-group-details.md#buying-group-members). Dessa bakgrundsmusik visas även på sidor och på kontrollpaneler som innehåller information om toppengagerade medlemmar och överlappande kontakter.
 
   ![De mest engagerade medlemmarna i inköpsgruppen](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -61,7 +61,8 @@ Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en
 | Sidvyer | En medlem visar en webbsida | Webb | 20 | 40 |
 | Registrera dig för event | En medlem registrerad för en händelse | Händelse | 20 | 60 |
 
-<!-- old list
+<!--
+ old list
 
 | Activity name | Description | Engagement type | Max daily frequency count | Activity weight |
 | --- | --- | --- | --- | --- |
@@ -99,11 +100,12 @@ Det finns ett dagligt frekvenstak på 20 för varje aktivitet. Om en medlem i en
 | [!UICONTROL Interacted with Document in Conversational Flow] | A member interacts with a document in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Engaged with an Agent in Conversational Flow] | A member engages with an Agent in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
-| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 | -->
+| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
+-->
 
 >[!NOTE]
 >
->Aktiviteter för engagemangsmusik registreras i Marketo Engage aktivitetslogg för en person. Du kommer åt den här loggen i den anslutna Marketo Engage-instansen. Mer information finns i [Leta reda på aktivitetsloggen för en person](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} i Marketo Engage-dokumentationen.
+>Aktiviteter för engagemangsmusik registreras i Marketo Engage aktivitetslogg för en person. Du kommer åt den här loggen i den anslutna Marketo Engage-instansen. Mer information finns i [Leta reda på aktivitetsloggen för en person](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} i Marketo Engage-dokumentationen.
 
 ## Viktning av rollmall {#engagement-score-weighting}
 
@@ -124,14 +126,14 @@ Varje viktningsnivå motsvarar ett värde som används för att beräkna engagem
 * [!UICONTROL Important] = 80
 * [!UICONTROL Vital] = 100
 
-En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_&#x200B;konverteras till följande viktade procentandelar:
+En rollmall med tre roller viktade som _[!UICONTROL Vital]_,_[!UICONTROL Important]_ och _[!UICONTROL Normal]_konverteras till följande viktade procentandelar:
 
 | Roll | Viktning | Systemvärde | Värdeberäkning | Procent |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
-| Beslutsfattare | Vital | 100 | 100/240 | 41,67 % |
-| Påverkande | Viktigt | 80 | 80/240 | 33,33 % |
-| Yrkesverksamma | Normal | 60 | 60/240 | 25 % |
+| Beslutsfattare | Vital | 100 | 100/240 | 41.67% |
+| Påverkande | Viktigt | 80 | 80/240 | 33.33% |
+| Yrkesverksamma | Normal | 60 | 60/240 | 25% |
 |               | Totalt | 240 |                   |           |
 
 ## Exempel på beräkning av poäng
@@ -165,9 +167,9 @@ Det slutliga poängtalet för engagemang beräknas genom att viktningen tillämp
 
 | Roll | Rolltotalpoäng | Rollvikt i % | Poäng X vikt % |
 |-------------- |---------------- |------------- |---------------- |
-| Beslutsfattare | 52 | 41,67 % | 21,67 |
-| Påverkande | 28 | 33,33 % | 9,33 |
-| Yrkesverksamma | 17 | 25 % | 4,25 |
+| Beslutsfattare | 52 | 41.67% | 21.67 |
+| Påverkande | 28 | 33.33% | 9.33 |
+| Yrkesverksamma | 17 | 25% | 4.25 |
 | **Slutgiltigt engagemangsmoment** |                |             | **35.25** |
 
 ## Poänglogik
