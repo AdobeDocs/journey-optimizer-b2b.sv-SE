@@ -24,7 +24,7 @@ Använd webbläsar- och e-postpluginerna för att få tillgång till affärsinfo
 
 I följande video visas en kort demonstration av Sales Qualifier och Account Qualification Agent.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476565?captions=swe)
 
 Säljkvalificerare ingår i [!UICONTROL Journey Optimizer B2B Edition], men det är en separat app i Experience Platform Experience Cloud.
 
