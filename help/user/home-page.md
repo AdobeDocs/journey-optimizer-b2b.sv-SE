@@ -28,14 +28,14 @@ När du loggar in på Adobe Experience Platform och väljer appen Adobe Journey 
 
 ![Journey Optimizer B2B edition - startsida](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B edition har två primära användarprofiler: en _**marknadsförare**_ och en _**administratör**_. Varje person har en specifik startsida för olika mognadsstadier (ny eller avancerad). Sidinnehållet baseras på vad varje enskild person behöver i fråga om information och nästa åtgärd som ska vidtas.
+Journey Optimizer B2B edition har två primära användarprofiler: en _&#x200B;**marknadsförare**&#x200B;_ och en _&#x200B;**administratör**&#x200B;_. Varje person har en specifik startsida för olika mognadsstadier (ny eller avancerad). Sidinnehållet baseras på vad varje enskild person behöver i fråga om information och nästa åtgärd som ska vidtas.
 
 * **Marketer - ny användare** - En ny användares _Marketer_-hemsida hjälper dem att vänja sig vid Journey Optimizer B2B och dess funktioner. Det innehåller en guidad genomgång för den nya marknadsföraren för att få en introduktionsgenomgång så att de kan förstå systemens nyanser och bli effektiva när det gäller att utveckla B2B-marknadsföringsstrategier och -initiativ.
 * **Marketer - avancerad användare** - Hemsidan _Marketer_ för en avancerad marknadsförare visar aktuella initieringsframsteg, rekommenderade nästa åtgärder och ger snabb åtkomst till relevanta avsnitt.
 * **Administratör - ny användare** - Hemsidan _Admin_ för en ny administratör hjälper dem att vänja sig vid Journey Optimizer B2B edition och dess funktioner. Det innehåller en guidad genomgång för den nya administratören för att få en stegvis introduktionsresa för att förstå systemens nyanser och bli effektiv när det gäller att utveckla B2B-marknadsföringsstrategier och -initiativ.
 * **Administratör - avancerad användare** - Hemsidan _Admin_ för en avancerad administratör visar den aktuella instansstatusen och de åtgärder som kan vidtas för att förbättra effektiviteten och effektiviteten för administratörer.
 
-Avsnittet _[!UICONTROL Recently accessed]_innehåller en lista med de senast använda resurserna för marknadsföraren eller administratören. Använd den här listan för att gå direkt till resursen som du nyligen arbetade med utan att navigera genom en serie resurssidor och söka.
+Avsnittet _[!UICONTROL Recently accessed]_&#x200B;innehåller en lista med de senast använda resurserna för marknadsföraren eller administratören. Använd den här listan för att gå direkt till resursen som du nyligen arbetade med utan att navigera genom en serie resurssidor och söka.
 
 Sidan innehåller även åtkomst till [AI Assistant](./ai-assistant/ai-assistant-overview.md), som hjälper användare att få snabb information om specifika frågor och ämnen som de behöver.<!-- and to obtain specific recommendations for their challenges or objectives-->
 

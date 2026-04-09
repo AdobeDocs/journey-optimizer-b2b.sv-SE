@@ -27,13 +27,13 @@ När du har använt det visuella designområdet för att [redigera struktur- och
 
 1. Markera rotkomponenten **[!UICONTROL Body]** i trädet.
 
-   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_som standard.
+   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_&#x200B;som standard.
 
 1. Aktivera alternativet **[!UICONTROL Governance]**.
 
    ![Aktivera styrning för en e-postmall](./assets/governance-template-enable.png){width="800" zoomable="yes"}
 
-   När det här alternativet är aktiverat är standardvärdet _[!UICONTROL Mode]_**[!UICONTROL Read only]**. När det här läget är inställt på rotnivån är alla element i mallen låsta. Trädstrukturen till vänster visar ikonen_ Skrivskyddad _( ![Skrivskyddad ikon](../assets/do-not-localize/icon-tree-lock.svg) ) bredvid roten och alla underordnade element.
+   När det här alternativet är aktiverat är standardvärdet _[!UICONTROL Mode]_&#x200B;**[!UICONTROL Read only]**. När det här läget är inställt på rotnivån är alla element i mallen låsta. Trädstrukturen till vänster visar ikonen_ Skrivskyddad _( ![Skrivskyddad ikon](../assets/do-not-localize/icon-tree-lock.svg) ) bredvid roten och alla underordnade element.
 
 1. Om du vill aktivera specifikt innehåll som låses i mallen ändrar du **[!UICONTROL Mode]** till **[!UICONTROL Content locking]**.
 
@@ -68,7 +68,7 @@ Om du använder en låstyp på strukturnivån får du en standardinställning f�
 
 1. Markera strukturen i trädet.
 
-   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_som standard.
+   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_&#x200B;som standard.
 
 1. Ange **[!UICONTROL Lock type]**:
 
@@ -82,7 +82,7 @@ Om du använder en låstyp på strukturnivån får du en standardinställning f�
 
 1. Markera komponenten i trädet.
 
-   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_som standard.
+   Egenskapspanelen till höger om arbetsytan visar fliken _[!UICONTROL Settings]_&#x200B;som standard.
 
 1. Aktivera alternativet **[!UICONTROL Use specific locking]**.
 

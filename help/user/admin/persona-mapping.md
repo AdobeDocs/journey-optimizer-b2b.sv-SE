@@ -119,7 +119,7 @@ Du kan ändra namnet eller beskrivningen, lägga till attribut eller uppdatera a
 
 Om du tar bort en profil tas den bort från listan _Personmappning_ och kan inte längre användas i rollmallar.
 
-1. På sidan _[!UICONTROL Persona mapping]_letar du reda på den profil du vill ta bort.
+1. På sidan _[!UICONTROL Persona mapping]_&#x200B;letar du reda på den profil du vill ta bort.
 
 1. Klicka på ellipserna bredvid namnet (**..**) och välj **[!UICONTROL Delete]**.
 

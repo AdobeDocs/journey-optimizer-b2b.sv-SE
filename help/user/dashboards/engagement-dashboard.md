@@ -39,7 +39,7 @@ Du kan filtrera de data som visas efter datumintervall och attribut.
 
 ### Datumintervallfilter
 
-Använd _[!UICONTROL Date range filter]_längst upp till höger för att filtrera data efter datumintervallet.
+Använd _[!UICONTROL Date range filter]_&#x200B;längst upp till höger för att filtrera data efter datumintervallet.
 
 ![Filtrera visade data efter datumintervall](./assets/engagement-date-filter.png){width="380"}
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Arbeta med Experience Manager resurser
 
-När [!DNL Adobe Experience Manager Assets as a Cloud Service] är integrerat med [!DNL Adobe Journey Optimizer B2B Edition] kan du enkelt identifiera och få tillgång till digitala resurser som du kan använda i ditt marknadsföringsinnehåll. När du redigerar ditt innehåll är resurserna tillgängliga från objektet _[!UICONTROL Experience Manager Assets]_i den vänstra navigeringen och när du redigerar e-postinnehåll för en kontoresa.
+När [!DNL Adobe Experience Manager Assets as a Cloud Service] är integrerat med [!DNL Adobe Journey Optimizer B2B Edition] kan du enkelt identifiera och få tillgång till digitala resurser som du kan använda i ditt marknadsföringsinnehåll. När du redigerar ditt innehåll är resurserna tillgängliga från objektet _[!UICONTROL Experience Manager Assets]_&#x200B;i den vänstra navigeringen och när du redigerar e-postinnehåll för en kontoresa.
 
 {{aem-assets-licensing-note}}
 
@@ -27,7 +27,7 @@ När miljön har en eller flera [Assets-databasanslutningar](../admin/configure-
 
 ## Öppna AEM Assets-bilder
 
-Klicka på ikonen _[!UICONTROL Experience Manager Assets]_( ![ Experience Manager Assets-ikon ](../../assets/do-not-localize/icon-assets-aem.svg) ) i det vänstra sidofältet i designområdet. Detta ändrar verktygspanelen till en lista med tillgängliga resurser i den valda databasen.
+Klicka på ikonen _[!UICONTROL Experience Manager Assets]_( ![&#x200B; Experience Manager Assets-ikon &#x200B;](../../assets/do-not-localize/icon-assets-aem.svg) ) i det vänstra sidofältet i designområdet. Detta ändrar verktygspanelen till en lista med tillgängliga resurser i den valda databasen.
 
 ![Klicka på Assets-väljarikonen för att komma åt bildresurserna](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 

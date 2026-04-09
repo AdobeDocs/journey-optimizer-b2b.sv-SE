@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. Om du vill starta innehållsdesignen drar du ett objekt från **[!UICONTROL Structures]** och släpper det på arbetsytan.
 
-   Lägg till så många objekt från _[!UICONTROL Structures]_som du behöver och redigera inställningarna för varje objekt i rutan till höger.
+   Lägg till så många objekt från _[!UICONTROL Structures]_&#x200B;som du behöver och redigera inställningarna för varje objekt i rutan till höger.
 
    >[!TIP]
    >
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## Skapa innehåll - komponenter - inställningssteg {#settings-step}
 
-1. Om det behövs kan du göra ytterligare anpassningar för varje komponent på flikarna _[!UICONTROL Settings]_eller_[!UICONTROL Style]_.
+1. Om det behövs kan du göra ytterligare anpassningar för varje komponent på flikarna _[!UICONTROL Settings]_&#x200B;eller&#x200B;_[!UICONTROL Style]_.
 
    Du kan till exempel ändra textstil, utfyllnad eller marginal för varje komponent.
 
@@ -109,7 +109,7 @@ Den vågräta justeringen översätts till ett standard `text-align`-CSS-format 
 
 ## Innehållskomponenter - bakgrundsformat {#styles-background}
 
-Med fliken _[!UICONTROL Styles]_markerad på den högra panelen använder du avsnittet **[!UICONTROL Background]**för att definiera komponentens bakgrundsfärg.
+Med fliken _[!UICONTROL Styles]_&#x200B;markerad på den högra panelen använder du avsnittet **[!UICONTROL Background]**&#x200B;för att definiera komponentens bakgrundsfärg.
 
 Markera kryssrutan och klicka på färgrutan för att välja en färg i väljaren. Du kan välja en färg genom att ange ett känt RGB-, NML-, NMI- eller hexadecimalt värde. Du kan också använda färgreglaget och färgfältet för att välja färgen.
 
@@ -117,7 +117,7 @@ Markera kryssrutan och klicka på färgrutan för att välja en färg i väljare
 
 ## Innehållskomponenter - kantlinjeformat {#styles-border}
 
-1. Expandera avsnittet **[!UICONTROL Border]** på den högra panelen med fliken _[!UICONTROL Styles]_markerad och ange alternativen för att visa en kantlinje för komponenten:
+1. Expandera avsnittet **[!UICONTROL Border]** på den högra panelen med fliken _[!UICONTROL Styles]_&#x200B;markerad och ange alternativen för att visa en kantlinje för komponenten:
 
 1. Flytta reglaget åt höger om du vill aktivera visningsalternativen för kantlinjerna och ange dem enligt dina designvillkor:
 
@@ -139,7 +139,7 @@ Markera kryssrutan och klicka på färgrutan för att välja en färg i väljare
 
 ## Innehållskomponenter - marginalformat {#styles-margin}
 
-Expandera avsnittet **[!UICONTROL Margin]** på den högra panelen med fliken _[!UICONTROL Styles]_markerad och ange alternativ för marginalavstånd i den strukturella komponenten. Det här formatet replikerar CSS-parametern `margin`, som styr till utrymmet utanför en komponentkant och separerar den från andra komponenter. Det skapar en lucka runt komponenten för att påverka dess placering och layouten för det omgivande innehållet.
+Expandera avsnittet **[!UICONTROL Margin]** på den högra panelen med fliken _[!UICONTROL Styles]_&#x200B;markerad och ange alternativ för marginalavstånd i den strukturella komponenten. Det här formatet replikerar CSS-parametern `margin`, som styr till utrymmet utanför en komponentkant och separerar den från andra komponenter. Det skapar en lucka runt komponenten för att påverka dess placering och layouten för det omgivande innehållet.
 
 Ange marginalvärdena i pixlar efter dina designbehov. Du kan ange marginalen för alla sidor, den översta, den vänstra eller högra sidan av komponenten oberoende av varandra:
 
@@ -159,7 +159,7 @@ Ange marginalvärdena i pixlar efter dina designbehov. Du kan ange marginalen f�
 
 ## Innehållskomponenter - utfyllnadsformat {#styles-padding}
 
-Expandera avsnittet **[!UICONTROL Padding]** på den högra panelen med fliken _[!UICONTROL Styles]_markerad och ange alternativ för utfyllnad i den strukturella komponenten. Det här formatet replikerar CSS-parametern `padding`, som är mellanrummet mellan innehållet i en komponent och dess kantlinje. Utfyllnaden ger internt avstånd som du kan använda för att styra avståndet mellan innehållet och komponentens kant.
+Expandera avsnittet **[!UICONTROL Padding]** på den högra panelen med fliken _[!UICONTROL Styles]_&#x200B;markerad och ange alternativ för utfyllnad i den strukturella komponenten. Det här formatet replikerar CSS-parametern `padding`, som är mellanrummet mellan innehållet i en komponent och dess kantlinje. Utfyllnaden ger internt avstånd som du kan använda för att styra avståndet mellan innehållet och komponentens kant.
 
 Ange utfyllnadsvärdena i pixlar enligt dina designbehov. Du kan ange utfyllnaden för alla sidor, den översta, den vänstra eller högra sidan av komponenten oberoende av varandra:
 
@@ -179,7 +179,7 @@ Ange utfyllnadsvärdena i pixlar enligt dina designbehov. Du kan ange utfyllnade
 
 ## Innehållskomponenter - storleksformat {#styles-size}
 
-Expandera avsnittet **[!UICONTROL Size]** på den högra panelen med fliken _[!UICONTROL Styles]_markerad och ange alternativen för komponentens höjd och bredd:
+Expandera avsnittet **[!UICONTROL Size]** på den högra panelen med fliken _[!UICONTROL Styles]_&#x200B;markerad och ange alternativen för komponentens höjd och bredd:
 
 * **[!UICONTROL Height]** - Klicka på upp- och nedpilarna för att öka eller minska antalet pixlar. Ett tomt värde (Auto) är standardvärdet och ändrar höjden på elementet efter dess innehåll.
 
@@ -195,7 +195,7 @@ Expandera avsnittet **[!UICONTROL Size]** på den högra panelen med fliken _[!U
 
 ## Innehållskomponenter - textformat {#styles-text}
 
-Expandera avsnittet **[!UICONTROL Text]** på den högra panelen med fliken _[!UICONTROL Styles]_markerad och ange alternativ för komponentens textformat:
+Expandera avsnittet **[!UICONTROL Text]** på den högra panelen med fliken _[!UICONTROL Styles]_&#x200B;markerad och ange alternativ för komponentens textformat:
 
 * **[!UICONTROL Font family]** - Klicka på nedpilen för att välja en teckensnittsfamilj för text i komponenten.
 
@@ -233,7 +233,7 @@ Det finns verktyg som hjälper dig att hitta den resurs du behöver:
 
 Välj den här typen om du vill bläddra och välja en bildresurs i en [konfigurerad Experience Manager Assets-databas](../user/admin/configure-aem-repositories.md).
 
-I dialogrutan _[!UICONTROL Select Assets]_väljer du en bild med de tillgängliga verktygen för att hitta resursen som du behöver och klickar på&#x200B;**[!UICONTROL Select]**:
+I dialogrutan _[!UICONTROL Select Assets]_&#x200B;väljer du en bild med de tillgängliga verktygen för att hitta resursen som du behöver och klickar på&#x200B;**[!UICONTROL Select]**:
 
 * Ändra **[!UICONTROL Repository]** överst till höger.
 
@@ -257,9 +257,9 @@ I dialogrutan _[!UICONTROL Select Assets]_väljer du en bild med de tillgänglig
 
 Välj den här typen om du vill välja en fil från datorn och importera den till Journey Optimizer B2B edition resursbibliotek.
 
-I dialogrutan _[!UICONTROL Upload image]_drar och släpper du en fil från systemet till filrutan. Den maximala filstorleken är 100 MB.
+I dialogrutan _[!UICONTROL Upload image]_&#x200B;drar och släpper du en fil från systemet till filrutan. Den maximala filstorleken är 100 MB.
 
-![Importera en bildfil till ](../user/content/assets/email-designer-image-upload.png){width="450"}
+![Importera en bildfil till &#x200B;](../user/content/assets/email-designer-image-upload.png){width="450"}
 
 De markerade bildernas filnamn visas i dialogrutan. Resursfilnamn måste vara unika (i olika mappar), och om det redan finns en fil med det namnet visas ett meddelande. Namn kan innehålla högst 100 tecken och får inte innehålla specialtecken (som `;`, `:`, `\` och `|`).
 
