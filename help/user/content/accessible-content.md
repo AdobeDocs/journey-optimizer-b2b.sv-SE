@@ -24,11 +24,12 @@ Med designverktygen i [!DNL Journey Optimizer B2B Edition] kan marknadsförare s
 
 I följande avsnitt beskrivs de bästa sätten att utforma hjälpmedelsanpassat innehåll med [!DNL Journey Optimizer B2B Edition]. Den här informationen fokuserar på att utforma innehåll som är tillgängligt för alla mottagare, så att personer med funktionshinder kan läsa, förstå och interagera med e-postmeddelanden och landningssidor.
  
+
 ## Säkra textläsbarhet {#text-readability}
 
 Utnyttja fliken **[!UICONTROL Styles]** i komponenten **[!UICONTROL Text]** för att säkerställa att texten är läsbar, till exempel genom att använda rätt färgkontrast och enkla teckensnitt. Mer information om textkomponentens format finns i [_Innehållskomponenter_](content-components.md#text)
 
-![Fliken Textkomponentformat med alternativ för teckensnitt, storlek och färg ](assets/accessible-text-styles.png){width="700" zoomable="yes"}
+![Fliken Textkomponentformat med alternativ för teckensnitt, storlek och färg &#x200B;](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 För teckensnitt och text följer du dessa riktlinjer:
 
@@ -112,7 +113,7 @@ För att innehållet ska vara läsbart måste det vara klart, välstrukturerat o
 * Använd aktiv röst för att förenkla meningsbyggnaden.
 * Undvik slang, jargon och regionala ord som vissa kanske inte känner till.
 
-Använd det populära testet [Läsövergång från färgen ](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} i Microsoft Word för att utvärdera läsbarheten för ditt innehåll. Det beräknar hur enkelt innehållet är att läsa på en skala från 0 till 100.
+Använd det populära testet [Läsövergång från färgen &#x200B;](https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} i Microsoft Word för att utvärdera läsbarheten för ditt innehåll. Det beräknar hur enkelt innehållet är att läsa på en skala från 0 till 100.
 
 ## Testa innehållet {#test}
 
