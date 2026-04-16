@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: uttryck, redigerare, syntax, personalisering
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4939'
+source-wordcount: '4926'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 # Hjälpfunktioner
 
 Använd Helper-funktionerna i personaliseringsredigeraren för att definiera personaliserade innehållsupplevelser med precision och effektivitet genom att hantera data, utföra beräkningar och formatera innehåll. Utforska och experimentera med dessa funktioner, operatorer och hjälpredor för att ta reda på hur de samarbetar för att hjälpa er att skapa skräddarsydda, datadrivna resor.
-
->[!AVAILABILITY]
->
->Hjälpfunktioner är tillgängliga för [!DNL Journey Optimizer B2B Edition]-miljöer som har etablerats på den [förenklade arkitekturen](../simplified-architecture.md).
 
 ## Sammanställningsfunktioner
 

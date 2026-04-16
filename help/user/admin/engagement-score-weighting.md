@@ -4,9 +4,9 @@ description: Skapa anpassade poängmodeller för engagemang med viktade aktivite
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: ff635309749cfb7c065522a34b1228e71b144a9f
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
 ## Få åtkomst till vägningsmodeller för engagemangsmusik
 
-Öppna listan _[!UICONTROL Engagement score weighting]_&#x200B;om du vill visa aktiva, utkast och arkiverade modeller:
+Öppna listan _[!UICONTROL Engagement score weighting]_om du vill visa aktiva, utkast och arkiverade modeller:
 
 1. Välj **[!UICONTROL Administration]** > **[!UICONTROL Configurations]** i den vänstra navigeringen.
 
@@ -33,7 +33,7 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
    ![Få åtkomst till definierade poängmodeller för engagemang](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   I listan visas de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och där finns möjlighet att söka efter&#x200B;_[!UICONTROL Name]_.
+   I listan visas de senast uppdaterade modellerna högst upp (sorterade efter _[!UICONTROL Last updated]_) och där finns möjlighet att söka efter_[!UICONTROL Name]_.
 
    Du kan anpassa den visade tabellen genom att klicka på ikonen _Kolumninställningar_ ( ![Kolumninställningar](../assets/do-not-localize/icon-column-settings.svg) ) i det övre högra hörnet och markera eller avmarkera kryssrutorna för kolumner.
 
@@ -43,15 +43,13 @@ Som administratör kan ni definiera flera poängmodeller för engagemang för or
 
 ### Standardpoängmodell
 
-Systemet skapar en inledande engagemangspoängmodell med namnet _Aktivitetsviktningsmodell_. Modellstatus och engagemangsaktiviteter är beroende av dataarkitekturen för din [!DNL Journey Optimizer B2B Edition]-miljö:
+Systemet skapar en inledande engagemangspoängmodell med namnet _Aktivitetsviktningsmodell_. Engagemangsaktiviteterna bygger på Experience Platform-event av standardtyp och anpassad typ. Vikten för alla aktiviteter är 0 som standard.
 
-* **Förenklad arkitektur** (Beta) - Om din miljö använder den [förenklade arkitekturen](../simplified-architecture.md) är engagemangsaktiviteterna baserade på Experience Platform-standardhändelser och anpassade händelser. Vikten för alla aktiviteter är 0 som standard.
+![Standardvägningsmodell för engagemangspoäng för Experience Platform-händelser](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-  ![Standardmodell för timingpoäng för engagemang för den förenklade arkitekturen](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
 
-* **Standardarkitektur** - Om miljön använder standardarkitekturen är den anslutna [!DNL Marketo Engage]-instansen källan för engagemangsaktivitetsdata. Standardmodellen är aktiv tills du skapar en anpassad version och aktiverar den.
-
-  ![Standardmodell för poängviktning för engagemang för standardarkitekturen](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
+<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 När du aktiverar en anpassad modell ändras den aktiva modellen till statusen _Arkiverad_. Om du återgår till standardmodellen för förlovningspoäng kan du duplicera den ursprungliga standardmodellen och sedan aktivera den eller använda den som utgångspunkt för en annan anpassad modell.
 
@@ -92,7 +90,7 @@ Viktinställningarna definierar de band som du kan tilldela varje aktivitet i mo
 1. För varje viktband justerar du namnet eller värdena efter behov:
 
    * Ändra namnet i fältet _[!UICONTROL Weighting band]_.
-   * Ange ett nytt värde. Du kan även klicka på **&plus;** eller **-** för att öka eller minska värdet.
+   * Ange ett nytt värde. Du kan även klicka på **&amp;plus;** eller **-** för att öka eller minska värdet.
 
    ![Inställningar för engagemangsvikt](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
@@ -110,9 +108,9 @@ Viktinställningarna definierar de band som du kan tilldela varje aktivitet i mo
 
 Varje poängmodell innehåller en fullständig lista över vilka aktiviteter som stöds.
 
-+++Verksamheter för förenklad arkitektur
++++Verksamheter för Experience Platform-event
 
-Standardmodellen för den förenklade arkitekturen inkluderar de Experience Platform spårade aktiviteterna. Varje aktivitet har en nollvikt (0) (används inte) tills du tilldelar den en vikt. Alla aktiviteter har också en maximal daglig frekvens på 20, vilket du inte kan ändra.
+Standardmodellen för Experience Platform-händelser innehåller Experience Platform spårade aktiviteter. Varje aktivitet har en nollvikt (0) (används inte) tills du tilldelar den en vikt. Alla aktiviteter har också en maximal daglig frekvens på 20, vilket du inte kan ändra.
 
 <table style="table-layout: fixed; width: 100%; border: 0;">
 <tbody>

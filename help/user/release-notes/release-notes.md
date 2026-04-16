@@ -3,10 +3,10 @@ title: Versionsinformation om Journey Optimizer B2B edition
 description: Upptäck de senaste funktionerna, förbättringarna och felkorrigeringarna i Adobe Journey Optimizer B2B edition. Håll dig uppdaterad med nya funktioner och produktförbättringar.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7eacf9d3951e4d5a393cb2636cee0c6b40ecc050
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4859'
-ht-degree: 1%
+source-wordcount: '4806'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Adobe Journey Optimizer B2B edition ger kontinuerligt nya funktioner, förbättringar av befintliga funktioner och felkorrigeringar.
 
-Journey Optimizer B2B edition är inbyggt i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/sv/docs/experience-platform/release-notes/latest){target="_blank"}.
+Journey Optimizer B2B edition är inbyggt i [!DNL Adobe Experience Platform] och ärver från de senaste innovationerna och förbättringarna. Läs mer om de här ändringarna i [Adobe Experience Platform versionsinformation](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target="_blank"}.
 
-Granska [produktbeskrivningen](https://helpx.adobe.com/se/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om du vill ha information om berättiganden, prestandaskydd och begränsningar.
+Granska [produktbeskrivningen](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} om du vill ha information om berättiganden, prestandaskydd och begränsningar.
 
 <!-- ## 2026.4 release notes {#rel-2026-4}
 
@@ -34,13 +34,13 @@ Granska [produktbeskrivningen](https://helpx.adobe.com/se/legal/product-descript
 
 | Typ | Objekt | Beskrivning |
 | ---- | ---- | ----------- |
-| Funktion | WhatsApp-kanal | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} Marknadsförarna kan nu skicka WhatsApp-meddelanden direkt från kontoresor till [!DNL Meta Cloud API]. Den här funktionen möjliggör smidig integrering av WhatsApp-meddelanden för att stödja kanaler för reseinnehåll. [Läs mer](../admin/configure-channels-whatsapp.md) |
+| Funktion | WhatsApp-kanal | Marknadsförarna kan nu skicka whatsApp-meddelanden direkt från kontoresor via [!DNL Meta Cloud API]. Den här funktionen möjliggör smidig integrering av WhatsApp-meddelanden för att stödja kanaler för reseinnehåll. [Läs mer](../admin/configure-channels-whatsapp.md) |
 | Funktion | Stöd för [!DNL Firefly] och anpassade generativa AI-modeller | Marknadsföringsteamen kan nu aktivera integrering av standardmodeller och anpassade [!DNL Firefly]-modeller, tillsammans med godkända tredjepartsmodeller (till exempel [!DNL NanoBanana]). E-postdesigners kan välja den bästa modellen för varje användningsfall: standard [!DNL Firefly] för allmänna behov, anpassad [!DNL Firefly] för varumärkesgenerering eller godkända tredjepartsmodeller för specialiserade eller experimentella scenarier. [Läs mer](../content/generative-ai-models.md) |
-| Funktion | Anpassade externa åtgärder för resor | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} Utvecklare kan nu använda API:er för att skapa integreringar med sina egna system. Med dessa anpassade integreringar kan marknadsförare lägga till noder för _extern åtgärd_ och _extern delad sökväg_ för att göra utgående begäranden till externa tjänster under kontoresan. [Läs mer](../admin/configure-external-actions.md) |
+| Funktion | Anpassade externa åtgärder för resor | Utvecklare kan nu använda API:er för att bygga integreringar med sina egna system. Med dessa anpassade integreringar kan marknadsförare lägga till noder för _extern åtgärd_ och _extern delad sökväg_ för att göra utgående begäranden till externa tjänster under kontoresan. [Läs mer](../admin/configure-external-actions.md) |
 | Funktion | Varumärken | (Beta) Marknadsföringsteamen kan upprätthålla ett enhetligt varumärke i sitt e-postinnehåll genom att lagra och hantera varumärkesprofiler. Genom att lägga till resurser som färger, teckensnitt, logotyper, teman, visuellt innehåll och riktlinjer för efterlevnad kan de använda varumärkesprofilen för att skapa generativt AI-innehåll. De kan också mäta varumärkesjusteringen för att säkerställa regelefterlevnaden. [Läs mer](../content/brands-overview.md) |
-| Förbättring | Skicka e-post - optimering vid sändning | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} För _Skicka åtgärdsnoder för e-post_ på personliga resor kan du använda alternativen _Tidsoptimering för sändning_ för att anpassa leveranstider för e-post genom att förutsäga när varje profil är mest trolig att engagera. [Läs mer](../content/email-send-time-optimization.md) |
+| Förbättring | Skicka e-post - optimering vid sändning | För _Skicka e-post_-åtgärdsnoder på personliga resor kan du använda alternativen för _optimering vid sändning_ för att anpassa tidsåtgången för e-postleverans genom att förutsäga när det är mest troligt att varje profil interagerar. [Läs mer](../content/email-send-time-optimization.md) |
 | Förbättring | Designverktyg för e-postmallar - avancerat HTML-läge | Med _avancerat HTML-läge_ i e-postmallens designutrymme kan användare göra mindre HTML/CSS-redigeringar och lägga till skripttaggar i en e-postmall för att lösa återgivningsproblem. [Läs mer](../content/email-template-advanced-html.md) |
-| Förbättring | Personanpassade objekt - köpa grupprollmallar | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} När administratörer konfigurerar anpassade objekt som är relaterade till en företagsprofil kan marknadsförare nu definiera inköpsgrupproller med dessa anpassade objekt. [Läs mer](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Förbättring | Personanpassade objekt - köpa grupprollmallar | När administratörer konfigurerar anpassade objekt som är relaterade till en företagspersonprofil kan marknadsförarna nu definiera inköpsgruppsroller med dessa anpassade objekt. [Läs mer](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Förbättring | Posta e-postinnehåll - validering av innehållskvalitet | Förutom varumärkesanpassning kan ni utvärdera den övergripande innehållskvaliteten för att identifiera potentiella problem med läsbarhet, enhetlighet och effektivitet (oberoende av varumärkesriktlinjerna). Dessa automatiska kontroller hjälper till att identifiera otydliga meddelanden, inkonsekventa toner och strukturella luckor. |
 | Förbättring | Posta e-postinnehåll - utvärdering av innehållskvalitet | Förutom varumärkesanpassning kan ni utvärdera den övergripande innehållskvaliteten för att identifiera potentiella problem med läsbarhet, enhetlighet och effektivitet (oberoende av varumärkesriktlinjerna). Dessa automatiska kontroller hjälper till att identifiera otydliga meddelanden, inkonsekventa toner och strukturella luckor. [Läs mer](../content/content-evaluation.md) |
 
@@ -51,7 +51,7 @@ Granska [produktbeskrivningen](https://helpx.adobe.com/se/legal/product-descript
 
 >[!NOTE]
 >
->Dessa ändringar börjar driftsättas den 27 mars 2026, med en stegvis utrullning av alla funktioner och förbättringar. Releasedatum för funktioner och förbättringar kan komma att ändras.
+>Dessa ändringar börjar driftsättas den 27 mars 2026, med en stegvis lansering av varje funktion och förbättring. Releasedatum för funktioner och förbättringar kan komma att ändras.
 
 
 ## Versionsinformation 2026.2 {#rel-2026-2}
@@ -60,10 +60,10 @@ Granska [produktbeskrivningen](https://helpx.adobe.com/se/legal/product-descript
 
 | Typ | Objekt | Beskrivning |
 | ---- | ---- | ----------- |
-| Funktion | XDM-fält/relationsscheman - stöd för anpassade personobjekt | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} (Beta) Administratörer kan nu välja anpassade objekt som är relaterade till en person som använder en personlig relation på en nivå med ett konto. Tack vare den här funktionen kan er marknadsföringsorganisation presentera en djupare bild av era verkliga affärsdata för att målinrikta, personalisera och rapportera om entiteter utanför person- eller kontonivån. [Läs mer](../admin/xdm-field-management.md#relational-schemas) |
-| Funktion | Reseåterinträde | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} Du kan nu skicka konton/personer via ett researbetsflöde flera gånger. Ett nytt tävlingsbidrag tar upp flera olika scenarier, t.ex. omprövningar av kvalifikationskriterier och återanvändbara arbetsflöden för vården. [Läs mer](../journeys/journey-re-entry.md) |
-| Förbättring | Konto- och personresor - stöd för anpassade objekt | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} (Beta) Utnyttja relationsdata som är länkade till konton för filtrering av personer på ett konto eller en personresa. [Läs mer](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
-| Förbättring | (Beta) Innehållspersonalisering - stöd för anpassade objekt | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} När marknadsförare definierar innehållspersonalisering med anpassade objekt kan de komma åt variabler för de modellbaserade anpassade objekten (relationsscheman). [Läs mer](../content/personalization.md#custom-datasets) |
+| Funktion | XDM-fält/relationsscheman - stöd för anpassade personobjekt | (Beta) Administratörer kan nu välja anpassade objekt som är relaterade till en person med hjälp av en personlig relation på en enda nivå med ett konto. Tack vare den här funktionen kan er marknadsföringsorganisation presentera en djupare bild av era verkliga affärsdata för att målinrikta, personalisera och rapportera om entiteter utanför person- eller kontonivån. [Läs mer](../admin/xdm-field-management.md#relational-schemas) |
+| Funktion | Reseåterinträde | Du kan nu skicka konton/personer via ett researbetsflöde flera gånger. Ett nytt tävlingsbidrag tar upp flera olika scenarier, t.ex. omprövningar av kvalifikationskriterier och återanvändbara arbetsflöden för vården. [Läs mer](../journeys/journey-re-entry.md) |
+| Förbättring | Konto- och personresor - stöd för anpassade objekt | (Beta) Utnyttja de relationsuppgifter som är länkade till konton för att filtrera personer på ett konto eller en personresa. [Läs mer](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| Förbättring | (Beta) Innehållspersonalisering - stöd för anpassade objekt | När marknadsförare definierar innehållspersonalisering med anpassade objekt kan de komma åt variabler för modellbaserade anpassade klassobjekt (relationsscheman). [Läs mer](../content/personalization.md#custom-datasets) |
 
 >[!NOTE]
 >
@@ -77,8 +77,8 @@ Granska [produktbeskrivningen](https://helpx.adobe.com/se/legal/product-descript
 | ---- | ---- | ----------- |
 | Funktion | Varumärkessatser | (Beta) Definiera ett varumärke i Journey Optimizer B2B edition för att ge den kreativa teamet den källa som de vill använda när de skapar visuellt eller skrivet innehåll. När dessa riktlinjer sammanställs och varumärkesresurserna delas kan alla teammedlemmar eller medarbetare skapa varumärkesinnehåll för din produkt. [Läs mer](../content/brands-overview.md) |
 | Funktion | Varumärken för generering av e-postinnehåll | Ni kan definiera riktlinjer för ert varumärke och använda den här informationen för att generera e-postinnehåll. Med den här funktionen justeras e-postinnehåll efter varumärkesspecifika riktlinjer, format och ton för copywriting. [Läs mer](../content/ai-assistant-emails.md) |
-| Förbättring | Resa _Vänta_-nod - avancerade inställningar | [!BADGE Förenklad arkitektur]{type=Informative tooltip="Finns med förenklad arkitektur"} För en _Wait_-nod på en resa kan marknadsförarna nu ange slutdagar och sluttider och välja tidszoner. Den här förbättringen ger bättre kontroll över resesamordning och kampanjtiming. [Läs mer](../journeys/wait-nodes.md#advanced-wait-settings) |
-| Förbättring | Medlem i filtret Buying Group - har tagits bort | För en _delad sökväg av personer_-nod innehåller filtret _[!UICONTROL Member of Buying Group]_&#x200B;nu begränsningen_ Är borttagen _. När du väljer det kan filtret inkludera den borttagna inköpsgruppmedlemmen eller exkludera dem. Den stöds också i Marketo Engage smarta listor, där du kan använda den nya begränsningen i filtret&#x200B;_[!UICONTROL Member of Buying Group]_. |
+| Förbättring | Resa _Vänta_-nod - avancerade inställningar | För en _Wait_-nod i en resa kan marknadsförarna nu ange avslutsdagar och -tider och välja tidszoner. Den här förbättringen ger bättre kontroll över resesamordning och kampanjtiming. [Läs mer](../journeys/wait-nodes.md#advanced-wait-settings) |
+| Förbättring | Medlem i filtret Buying Group - har tagits bort | För en _delad sökväg av personer_-nod innehåller filtret _[!UICONTROL Member of Buying Group]_nu begränsningen_ Är borttagen _. När du väljer det kan filtret inkludera den borttagna inköpsgruppmedlemmen eller exkludera dem. Den stöds också i Marketo Engage smarta listor, där du kan använda den nya begränsningen i filtret_[!UICONTROL Member of Buying Group]_. |
 | Förbättring | E-postdesign - punkter på flera nivåer | Verktygen för design av e-postinnehåll har nu stöd för underpunkter (punktnivåer). |
 
 >[!NOTE]
@@ -117,11 +117,15 @@ Följande agentiska AI-funktioner är nu tillgängliga för Journey Optimizer B2
 >
 >Dessa ändringar börjar driftsättas den 31 oktober 2025, med en stegvis lansering av varje funktion. Releasedatum för funktioner och förbättringar kan komma att ändras.
 
-### Förenklad arkitektur
+### Uppdaterad arkitektur
 
-Adobe Journey Optimizer B2B edition finns nu i en förenklad arkitektur. Med den här uppdaterade arkitekturen finns Journey Optimizer B2B edition och Marketo Engage inte längre i samma system och datalager. Journey Optimizer B2B edition tar endast emot data från Adobe Experience Platform. Men det fortsätter att förlita sig på Marketo Engage-berättiganden och vissa konfigurationsfunktioner för att etablera och konfigurera systemet.
+Med den uppdaterade arkitekturen finns Journey Optimizer B2B Edition och Marketo Engage inte i samma system och datalager. Journey Optimizer B2B Edition tar emot data från Adobe Experience Platform. Men det fortsätter att förlita sig på Marketo Engage-berättiganden och vissa konfigurationsfunktioner för att etablera och konfigurera systemet.
 
-Den uppdaterade arkitekturen ger flera fördelar:
+>[!NOTE]
+>
+>Tidigare versionsinformation refererade till den här distributionen som den *förenklade arkitekturen*. Den modellen är nu standard för Journey Optimizer B2B Edition-implementering.
+
+Den här implementeringen ger flera fördelar:
 
 * **Gör data enhetliga och skalbara**: Den uppdaterade plattformen har stöd för komplexa datamodeller, inklusive anpassade objekt, inköpsgrupper och kontohändelser.
 * **Anslut flera Adobe Marketo Engage-instanser**: Hantera och sammanfoga data från flera Adobe Marketo Engage-miljöer på ett och samma ställe.
@@ -130,9 +134,9 @@ Den uppdaterade arkitekturen ger flera fördelar:
 
 >[!NOTE]
 >
->Om miljön har etablerats på den här arkitekturen kan du läsa riktlinjerna för [konfiguration](../simplified-architecture.md).
+>Kontrollera [konfigurationschecklistan](../setup-ultimate.md) om du vill ha hjälp med konfigurationen.
 
-Med den förenklade arkitekturen finns följande nya funktioner och förbättringar i version 2010:
+Följande nya funktioner och förbättringar är tillgängliga i version 2025.10 med den uppdaterade arkitekturen:
 
 | Typ | Objekt | Beskrivning |
 | ---- | ---- | ----------- |
@@ -141,15 +145,6 @@ Med den förenklade arkitekturen finns följande nya funktioner och förbättrin
 | Funktion | Borttagning av trötthet i e-post | Nu kan du aktivera borttagning av dubbletter av e-post för att se till att samma e-post inte skickas flera gånger till samma adress under en resa. Duplicerade adresser blockeras tills den första posten med den e-postadressen slutför resan.  [Läs mer](../content/email-deduplication.md) |
 | Förbättring | Vägning av engagemangsmusik - AEP-event | Poängviktningen för engagemang kan nu omfatta alla standardhändelser eller anpassade Experience Platform-händelser och vägas efter dina behov. [Läs mer](../admin/engagement-score-weighting.md) |
 | Förbättring | Kommunikationsbegränsningar | Systemet respekterar nu de kombinerade kommunikationsgränserna för både Marketo Engage och Journey Optimizer B2B edition. [Läs mer](../admin/configure-channels-emails.md#communication-limits) |
-
-<!--
- There are additional functional changes with the simplified architecture:
-
-| Item | Description |
-| ---- | ----------- |
-| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | |
--->
 
 ## Versionsinformation 2025.9 {#rel-2025-9}
 
@@ -199,7 +194,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Funktion | Anpassat CSS-stöd för innehållsdesign | Nu kan du lägga till egen anpassad CSS när du skapar e-post- och landningssidinnehåll i designområdet. [Läs mer](../content/design-custom-css.md) |
 | Funktion | Konfiguration av återgivningsnyckelordsmappning | Om du vill aktivera och hantera återgivningsidentifieringsmodellen kan administratörer nu överföra ett kalkylblad för att definiera en kategori för avsiktsdatamappning. [Läs mer](../admin/intent-data.md) |
 | Förbättring | Simulera innehåll från e-postsammanfattning | Nu kan du komma åt verktygen _Simulera innehåll_ från e-postsammanfattningen (information och egenskaper) när du öppnar ett e-postmeddelande från e-postlistan. Den här åtkomsten är utöver e-postdesignområdet. [Läs mer](../content/email-simulate-content.md#display-the-email-preview) |
-| Förbättring | Visa totalt antal för rollmallslista | Listsidan _[!UICONTROL Roles templates]_&#x200B;har förbättrats med en visning av det totala antalet bredvid sökfältet. |
+| Förbättring | Visa totalt antal för rollmallslista | Listsidan _[!UICONTROL Roles templates]_har förbättrats med en visning av det totala antalet bredvid sökfältet. |
 
 ## Versionsinformation 2025.5 {#rel-2025-5}
 
@@ -212,7 +207,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Funktion | E-posttestning med Litmus | Med ett [Litmus Enterprise-konto](https://www.litmus.com/email-testing){target="_blank"} kan du nu förhandsgranska din e-poståtergivning i vanliga e-postklienter från Journey Optimizer B2B edition. Tack vare den här integreringen kan du se till att e-postinnehållet ser bra ut och fungerar som det är avsett i varje e-postinkorg. [Läs mer](../content/email-test-rendering.md) |
 | Förbättring | Duplicera e-post | När du lägger till ett e-postmeddelande för en kundtjänstnod kan du nu duplicera ett befintligt e-postmeddelande. Ändra inställningen eller innehållet för det duplicerade e-postmeddelandet, eller lämna det intakt.  [Läs mer](../content/add-email.md#add-an-email-to-your-journey) |
 | Förbättring | Hanteringsfältstokenformat för e-post | Personalization-tokens för e-postinnehåll använder nu ett uppdaterat format som är helt kompatibelt med Handlebar-skript. Det här formatet använder _kamelskiftläge_ eller understreck, vilket eliminerar mellanslag. [Läs mer](../content/email-authoring.md#content-authoring---personalization) |
-| Förbättring | Visa totalt antal för listor | Listsidorna _[!UICONTROL Solution Interests]_&#x200B;och&#x200B;_[!UICONTROL Account Journeys]_ har förbättrats med visningen av det totala antalet bredvid sökfältet. |
+| Förbättring | Visa totalt antal för listor | Listsidorna _[!UICONTROL Solution Interests]_och_[!UICONTROL Account Journeys]_ har förbättrats med visningen av det totala antalet bredvid sökfältet. |
 
 ## Versionsinformation 2025.4 {#rel-2025-4}
 
@@ -240,7 +235,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Funktion | Duplicera kontoresor | En dubblettåtgärd finns nu tillgänglig för kontoresor. Du kan duplicera informationen för kontoresan eller bara ett enkelt skelett i flödes- och sökvägsstrukturen. <a href="../journeys/journeys-overview.md#duplicate-journey">Läs mer</a> |
 | Funktion | Mina token för kontoresor | Nu kan du definiera en uppsättning anpassade tokens med värden som är specifika för kontoresan. Den här uppsättningen anpassade tokens kallas _Mina token_ och någon av dessa anpassade tokens är till för personalisering när du redigerar e-postmeddelanden om resan. <a href="../content/personalization-my-tokens.md">Läs mer</a> |
 | Funktion | Ta bort inköpsgruppsfaser | Du kan ta bort inköpsgruppens fasmodell när den är i ett utkast eller publicerat tillstånd. Om den publiceras (live) kan du bara ta bort den när den inte är kopplad till ett lösningsintresse. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Läs mer</a> |
-| Förbättring | Antal resantnoder | Ökad synlighet i antalet publicerade resemedlemskap på nodnivå. I _resekartan_ visas _[!UICONTROL Total accounts entered]_&#x200B;noder. När en marknadsförare väljer en åtgärdsnod inkluderar informationen till höger även&#x200B;_[!UICONTROL Accounts not yet actioned on]_. Och information om _Lyssna efter en händelse_-nod innehåller _[!UICONTROL Accounts at this step]_. Den här informationen är användbar när du vill validera kontostatus på resor som görs live, klart och avbrutet. |
+| Förbättring | Antal resantnoder | Ökad synlighet i antalet publicerade resemedlemskap på nodnivå. I _resekartan_ visas _[!UICONTROL Total accounts entered]_noder. När en marknadsförare väljer en åtgärdsnod inkluderar informationen till höger även_[!UICONTROL Accounts not yet actioned on]_. Och information om _Lyssna efter en händelse_-nod innehåller _[!UICONTROL Accounts at this step]_. Den här informationen är användbar när du vill validera kontostatus på resor som görs live, klart och avbrutet. |
 
 ## Versionsinformation 2025.2 {#rel-2025-2}
 
@@ -294,7 +289,7 @@ Den här versionen innehåller följande nya funktioner och förbättringar:
 | Funktion | Köpgruppsfaser | När du definierar och publicerar en anpassad testmodell för inköpsgrupper kan du följa upp köpgruppsutvecklingen genom inköpsgruppens livscykelfaser. Använd de här faserna för att identifiera nästa bästa åtgärd för medlemmar i inköpsgrupper. Du konfigurerar övergångsreglerna och resenoderna som bestämmer scenens förlopp och utlöser åtgärder baserat på ändringar. <a href="../buying-groups/buying-group-stages.md">Läs mer</a> |
 | Förbättring | Nya färdiga e-postmallar | Exempelmallsbiblioteket innehåller nu ytterligare e-postmallar som utformats för B2B-marknadsförare. Använd de här exempelmallarna som utgångspunkt och lägg till egna varumärken och meddelanden. <a href="../content/email-templates.md#select-a-design-template">Läs mer</a> |
 | Förbättring | Anpassade fält som personattribut | Om du har definierat anpassade personfält i kontots målgruppsschema i Experience Platform är dessa fält även tillgängliga som personattribut under villkor. Använd dessa anpassade attribut i: <li>Rollmallar <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Läs mer</a></li><li>Dela banor efter personresenoder <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Läs mer</a></li> |
-| Förbättring | Inställningar för e-postkanal | E-postinställningarna visas nu i Journey Optimizer B2B edition-gränssnittet. Du kan snabbt granska aktuella konfigurationer och administratörer kan klicka på _[!UICONTROL Edit settings]_&#x200B;för att gå direkt till inställningarna i Marketo Engage och uppdatera dem enligt organisationens krav. <a href="../admin/configure-channels-emails.md">Läs mer</a> |
+| Förbättring | Inställningar för e-postkanal | E-postinställningarna visas nu i Journey Optimizer B2B edition-gränssnittet. Du kan snabbt granska aktuella konfigurationer och administratörer kan klicka på _[!UICONTROL Edit settings]_för att gå direkt till inställningarna i Marketo Engage och uppdatera dem enligt organisationens krav. <a href="../admin/configure-channels-emails.md">Läs mer</a> |
 
 +++
 

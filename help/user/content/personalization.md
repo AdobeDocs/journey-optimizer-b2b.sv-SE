@@ -7,9 +7,9 @@ role: User, Developer
 level: Intermediate
 keywords: uttryck, redigerare, start, personalisering
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ I [!DNL Journey Optimizer B2B Edition] kan du skapa ditt dynamiska e-postinnehå
 
 >[!NOTE]
 >
->Läs mer om XDM-scheman i [dokumentationen för Adobe Experience Platform datamodell (XDM)](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/home){target="_blank"}.
+>Läs mer om XDM-scheman i [dokumentationen för Adobe Experience Platform datamodell (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}.
 
 ## Personalization editor
 
@@ -52,10 +52,6 @@ Anpassningsredigeraren är tillgänglig i alla sammanhang där du behöver defin
 Lägg till personalisering i alla fält- eller innehållskomponenter genom att klicka på ikonen _Lägg till personalisering_ ( ![Lägg till personaliseringsikon](../../assets/do-not-localize/icon-personalization-field.svg) ).
 
 ![Personalization-redigerare](./assets/personalization-editor.png){width="800" zoomable="yes"}
-
->[!NOTE]
->
->Följande information om anpassningsredigeraren återspeglar de ändringar som är tillgängliga för [!DNL Journey Optimizer B2B Edition]-miljöer som har etablerats i den [förenklade arkitekturen](../simplified-architecture.md).
 
 ### Tokens och hjälpfunktioner
 
@@ -83,7 +79,7 @@ När uttrycket är klart och felfritt klickar du på **[!UICONTROL Save]**.
 
 [!BADGE Beta]{type=Informative tooltip="Funktionen Beta"}
 
-Du kan använda relationsscheman för e-postpersonalisering. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält &#x200B;](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. Dessa fält är tillgängliga i personaliseringsredigeraren. Endast anpassade objekt som har en 1:N-relation (1:M) till personer eller konto är tillgängliga.
+Du kan använda relationsscheman för e-postpersonalisering. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält ](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. Dessa fält är tillgängliga i personaliseringsredigeraren. Endast anpassade objekt som har en 1:N-relation (1:M) till personer eller konto är tillgängliga.
 
 >[!IMPORTANT]
 >

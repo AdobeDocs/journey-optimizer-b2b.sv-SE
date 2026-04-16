@@ -4,9 +4,9 @@ description: Använd väntenoder för att pausa resans förlopp och kontrollera 
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -43,10 +43,6 @@ Med ett _avancerat väntesteg_ definierar du **_när_** personen eller kontot sk
 
 ![Resensnod - avancerat väntesteg](./assets/node-wait-advanced.png){width="500"}
 
->[!AVAILABILITY]
->
->Avancerade vänteinställningar är tillgängliga för [!DNL Journey Optimizer B2B Edition]-miljöer som har etablerats på den [förenklade arkitekturen](../simplified-architecture.md).
-
 ### Väntetyper
 
 | Väntetyp | Beskrivning | Konfiguration |
@@ -72,7 +68,7 @@ Följande scenarier visar hur du kan använda typiska scenarier för din vänten
 
 **Scenario:** Din målgrupp ändras dagligen när nya konton eller leads kvalificeras. Ni vill att alla leads ska få det första e-postmeddelandet samtidigt, oavsett när de är kvalificerade.
 
-**Lösning:** Ange att väntesteget ska avslutas vid en viss tidpunkt (till exempel 02:00). :00 Alla leads, oavsett om de kvalificerar sig vid midnatt eller tolv, avslutar väntesteget tillsammans klockan 10:00.
+**Lösning:** Ange att väntesteget ska avslutas vid en viss tidpunkt (till exempel 02:00). :00Alla leads, oavsett om de kvalificerar sig vid midnatt eller tolv, avslutar väntesteget tillsammans klockan 10:00.
 
 +++
 

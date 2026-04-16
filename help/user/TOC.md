@@ -1,10 +1,10 @@
 ---
 user-guide-title: Journey Optimizer B2B edition Documentation
 user-guide-description: Läs om Adobe Journey Optimizer B2B edition och hur du kan använda det för att skapa konto och köpa gruppresor med hjälp av inbyggd generativ AI och branschledande automatisering.
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 94%
 + [Versionsinformation](./release-notes/release-notes.md)
 + Kom igång {#get-started}
    + [Journey Optimizer B2B edition - översikt](about-journey-optimizer-b2b-edition.md)
-   + Förenklad arkitektur {#simplified-architecture}
-      + [Konfigurera checklista](./simplified-architecture.md)
+   + Miljöinställningar {#admin-setup}
+      + [Konfigurera checklista](./setup-ultimate.md)
       + [Namnutrymmen och scheman](./data/namespaces-schemas.md)
       + [Val av XDM-fält](./admin/xdm-field-management.md)
       + [Experience Events och fields](./admin/configure-aep-events.md)

@@ -1,10 +1,10 @@
 ---
 title: Mallar för inköpsgrupproll
-description: Skapa rollmallar med villkorlig automatisk tilldelning för att identifiera beslutsfattare och intressenter för att köpa grupper i Journey Optimizer B2B edition.
+description: Skapa rollmallar med villkorlig automatisk tilldelning för att identifiera beslutsfattare och intressenter för att köpa grupper i Journey Optimizer B2B Edition.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 1%
@@ -87,7 +87,7 @@ Varje roll som du definierar för mallen använder en uppsättning filter, eller
 
 1. Klicka på **[!UICONTROL Add Condition]** och definiera den villkorliga regeln för rollen.
 
-   * Expandera listan med **[!UICONTROL Person attributes]** i dialogrutan _[!UICONTROL Condition]_&#x200B;och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
+   * Expandera listan med **[!UICONTROL Person attributes]** i dialogrutan _[!UICONTROL Condition]_och leta upp ett attribut som du vill använda för att matcha rollen. Dra den åt höger och släpp den i filterområdet.
 
      ![Rollmallen lägger till attributet Dra villkor](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
@@ -128,7 +128,7 @@ Om du vill använda listmedlemskap som rollvillkor expanderar du **[!UICONTROL S
 >
 >**Borttagning av funktion**</br></br>
 >
->Med den [förenklade arkitekturen](../simplified-architecture.md) för Journey Optimizer B2B edition stöds inte filtrering baserat på lista- eller programmedlemskap i en Marketo Engage-instans.
+>I den aktuella Journey Optimizer B2B Edition-versionen stöds inte längre filtrering som baseras på list- eller programmedlemskap i en Marketo Engage-instans.
 
 >[!ENDSHADEBOX]
 
@@ -146,7 +146,7 @@ Se [Resultat för fullständighet](./completeness-scores.md) för detaljerad inf
 
 1. I dialogrutan ändrar du värdet **[!UICONTROL Members required]** för varje definierad roll efter behov.
 
-   Du kan ange värdet eller klicka på **&plus;** eller **-** för att öka eller minska värdet.
+   Du kan ange värdet eller klicka på **&amp;plus;** eller **-** för att öka eller minska värdet.
 
    ![Rollmall - inställningsknapp för slutförandepoäng](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -168,7 +168,7 @@ När en rollmall är i läget _Utkast_ kan du fortsätta redigera de definierade
 
 ### Ändra villkoren för en roll
 
-Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_&#x200B;där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
+Om du vill ändra villkor/filtreringslogik för någon av rollerna klickar du på ikonen _Redigera_ ( ![Redigera-ikon](../assets/do-not-localize/icon-edit.svg) ) längst upp till höger på rollkortet. Den här åtgärden öppnar arbetsytan _[!UICONTROL Conditions]_där du kan ändra ett befintligt filter, lägga till eller ta bort ett filter eller ändra filterlogiken.
 
 ### Ta bort ett rollkort
 
@@ -194,4 +194,4 @@ Du kan ta bort en rollmall om den har statusen _Utkast_.
 
 ## Videoöversikt
 
->[!VIDEO](https://video.tv.adobe.com/v/3453305/?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
