@@ -1,19 +1,19 @@
 ---
-title: Innehållsbedömning
+title: Utvärdering och bedömning av innehåll
 description: Utvärdera e-postinnehåll med bedömning av varumärkesjustering - validera färger, teckensnitt, logotyper och skriva stil mot varumärkesriktlinjer i Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 37e4a7976d716f24edf2c2e92cbfa4c149aa66ec
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 6%
 
 ---
 
-# Innehållsbedömning {#content-scoring}
+# Utvärdering och bedömning av innehåll {#content-scoring}
 
 Utvärderingen och poängsättningen av innehållet hjälper dig att skapa, granska och hantera innehåll som följer riktlinjerna [som definierats i det valda varumärket](./brands-manage-create.md#brand-definitions) och de allmänna kvalitetsstandarderna. Genom att köra en utvärdering säkerställs enhetlighet i fråga om ton, meddelanden och visuell identitet i alla e-postkampanjer, samtidigt som det fungerar som en kvalitetskontroll innan innehållet publiceras.
 
@@ -33,7 +33,7 @@ Utvärderingen och poängsättningen av innehållet hjälper dig att skapa, gran
 
    Du kan klicka på ikonen _Helskärm_ ( ![Helskärmsikon](../assets/do-not-localize/icon-full-screen.svg) ) längst upp på panelen om du vill visa varumärkesjusteringsverktygen i helskärmsläge.
 
-1. Om det behövs klickar du på **[!UICONTROL Brand]**-menypilen ( ![&#x200B; nedpil &#x200B;](../assets/do-not-localize/icon-down-menu.svg) ) för att välja ett annat publicerat varumärke.
+1. Om det behövs klickar du på **[!UICONTROL Brand]**-menypilen ( ![ nedpil ](../assets/do-not-localize/icon-down-menu.svg) ) för att välja ett annat publicerat varumärke.
 
 1. Klicka på **[!UICONTROL Evaluate score]** om du vill få innehållets justering med det valda varumärket.
 
@@ -41,7 +41,7 @@ Utvärderingen och poängsättningen av innehållet hjälper dig att skapa, gran
 
    ![Utvärderingsresultat i den högra panelen](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
-## Poäng för varumärkesjustering {#brand-score}
+## Poäng för varumärkesjustering {#brand-alignment-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -81,7 +81,7 @@ Poängen beräknas enligt identifierade fel i det utvärderade e-postinnehållet
 * 60-79 = Rättvis - vissa allvarliga överträdelser
 * Under 60 = Dålig - allvarliga överträdelser måste åtgärdas
 
-Du kan granska utvärderingsresultaten i detalj för att hjälpa dig att identifiera överträdelser och förbättra dina poängvärden för kategorijustering (_Hög_, _Medium_ och _Låg_) och granska informationen.
+Du kan granska utvärderingsresultaten i detalj för att hjälpa dig att identifiera överträdelser och förbättra poängen för kategorijustering (_Hög_, _Medium_ och _Låg_).
 
 För **[!UICONTROL Writing style]** eller **[!UICONTROL Visual content]** klickar du på pilen _Expandera_ ( ![Expandera pil](../assets/do-not-localize/icon-expand-right.svg) ) för att visa information för utvärderingen.
 
