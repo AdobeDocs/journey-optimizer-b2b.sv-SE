@@ -30,7 +30,7 @@ _(Endast kontoresor)_
 
 Sökvägar som delas efter konton kan innehålla både konto- och personåtgärder samt händelser. Dessa banor kan delas upp ytterligare.
 
-_**Så här fungerar en delad sökväg efter kontonod**_
+_&#x200B;**Så här fungerar en delad sökväg efter kontonod**&#x200B;_
 
 * Varje sökväg som du lägger till innehåller en slutnod med möjlighet att lägga till noder i varje kant.
 * Dela efter kontonoder kan kapslas (du kan dela upp sökvägen efter konton flera gånger).
@@ -51,7 +51,7 @@ _**Så här fungerar en delad sökväg efter kontonod**_
 
 >[!NOTE]
 >
->Filtret _[!UICONTROL Has Buying Group]_har markerats för framtida borttagning. Använd filtret_[!UICONTROL Account has matched buying group]_ för nya resor, som innehåller samma begränsningar.
+>Filtret _[!UICONTROL Has Buying Group]_&#x200B;har markerats för framtida borttagning. Använd filtret&#x200B;_[!UICONTROL Account has matched buying group]_ för nya resor, som innehåller samma begränsningar.
 
 ### Lägg till en delad sökväg efter kontonod
 
@@ -63,7 +63,7 @@ _**Så här fungerar en delad sökväg efter kontonod**_
 
 1. I nodegenskaperna till höger väljer du **[!UICONTROL Accounts]** för delningen.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
    ![Delad sökvägsnod - lägg till villkor](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
@@ -127,7 +127,7 @@ _(Konto- och personresor)_
 
 Delade efter personsökvägar kan endast innehålla personåtgärder. Dessa banor kan inte delas igen och kopplas automatiskt tillbaka.
 
-_**Så här fungerar en delad sökväg med personnod**_
+_&#x200B;**Så här fungerar en delad sökväg med personnod**&#x200B;_
 
 * Dela efter personnoder i en _grupperad nod_, delad sammanslagning. De delade banorna sammanfogas automatiskt så att alla kan gå vidare till nästa steg utan att kontextkontexten försvinner.
 * Delning efter personnoder kan inte kapslas (du kan inte lägga till en delad sökväg för personer på en sökväg som finns i den här grupperade noden).
@@ -177,7 +177,7 @@ _**Så här fungerar en delad sökväg med personnod**_
    * Välj **[!UICONTROL People attributes only]** om du vill använda villkor som är relaterade till personprofilen.
    * Välj **[!UICONTROL Account-person attributes only]** om du vill använda villkor som är relaterade till personens rollmedlemskap i ett konto.
 
-1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_klickar du på&#x200B;**[!UICONTROL Apply condition]**.
+1. Om du vill definiera ett villkor som gäller för _[!UICONTROL Path 1]_&#x200B;klickar du på&#x200B;**[!UICONTROL Apply condition]**.
 
 1. I villkorsredigeraren lägger du till ett eller flera filter för att definiera den delade banan.
 
@@ -223,7 +223,7 @@ För en delad bana som användarna delar kan du definiera en sökväg enligt per
 
 >[!BEGINSHADEBOX &quot;Inaktivitetsfiltrering&quot;]
 
-För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alternativet **[!UICONTROL Switch to inactivity filter]**. Med det här alternativet ändras filtret till en utvärdering för en frånvaro av den aktivitetstypen. Lägg till exempel till filtret_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_för att skapa en sökväg för personer som _**inte**_öppnade ett e-postmeddelande tidigare under resan. Aktivera alternativet för inaktivitet och ange e-postadressen. Det är en god vana att använda begränsningen_[!UICONTROL Date of activity]_ för att definiera en tidsperiod för inaktiviteten.
+För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alternativet **[!UICONTROL Switch to inactivity filter]**. Med det här alternativet ändras filtret till en utvärdering för en frånvaro av den aktivitetstypen. Lägg till exempel till filtret&#x200B;_[!UICONTROL Email]_ > _[!UICONTROL Opened email]_&#x200B;för att skapa en sökväg för personer som _&#x200B;**inte**&#x200B;_öppnade ett e-postmeddelande tidigare under resan. Aktivera alternativet för inaktivitet och ange e-postadressen. Det är en god vana att använda begränsningen&#x200B;_[!UICONTROL Date of activity]_ för att definiera en tidsperiod för inaktiviteten.
 
 ![Delad sökväg efter personer - villkor för att köpa gruppmedlemskap](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -231,9 +231,9 @@ För vart och ett av _[!UICONTROL Activity history]_-filtren kan du aktivera alt
 
 ### filtrering av medlemskap
 
-I avsnittet _[!UICONTROL Special Filters]_finns det flera filter som du kan använda för att utvärdera en persons medlemskap i en inköpsgrupp eller [!DNL Marketo Engage]-lista.
+I avsnittet _[!UICONTROL Special Filters]_&#x200B;finns det flera filter som du kan använda för att utvärdera en persons medlemskap i en inköpsgrupp eller [!DNL Marketo Engage]-lista.
 
-Om du till exempel vill skapa en sökväg för personer som är medlemmar i en inköpsgrupp och har tilldelats en viss roll, lägger du till filtret _[!UICONTROL Special filters]_>_[!UICONTROL Member of Buying group]_. För filtret anger du medlemskapet som _true_, väljer en _[!UICONTROL Solution interest]_som är associerad med en eller flera inköpsgrupper och anger den_[!UICONTROL Role]_ som du vill matcha.
+Om du till exempel vill skapa en sökväg för personer som är medlemmar i en inköpsgrupp och har tilldelats en viss roll, lägger du till filtret _[!UICONTROL Special filters]_>_[!UICONTROL Member of Buying group]_. För filtret anger du medlemskapet som _true_, väljer en _[!UICONTROL Solution interest]_&#x200B;som är associerad med en eller flera inköpsgrupper och anger den&#x200B;_[!UICONTROL Role]_ som du vill matcha.
 
 ![Delad sökväg efter personer - villkor för att köpa gruppmedlemskap](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
 
@@ -247,7 +247,7 @@ Du kan även inkludera ytterligare begränsningar för medlemskap i inköpsgrupp
 
 >[!TIP]
 >
->Om du vill exkludera medlemmar som har tagits bort från en inköpsgrupp använder du begränsningen _[!UICONTROL Is Removed]_som är inställd på `false`. Du kan även inkludera borttagna medlemmar explicit genom att ange den här begränsningen som `true`.
+>Om du vill exkludera medlemmar som har tagits bort från en inköpsgrupp använder du begränsningen _[!UICONTROL Is Removed]_&#x200B;som är inställd på `false`. Du kan även inkludera borttagna medlemmar explicit genom att ange den här begränsningen som `true`.
 
 >[!BEGINSHADEBOX &quot;Lista och programmedlemskap för Marketo Engage&quot;]
 
@@ -270,7 +270,7 @@ Om du vill använda listmedlemskap i ett delat villkor expanderar du **[!UICONTR
 
 [!BADGE Beta]{type=Informative tooltip="Funktionen Beta"}
 
-Du kan använda relationsscheman (modellbaserade klasser) för att dela banor efter konto eller personer. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält ](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. De markerade schemafälten är tillgängliga i villkorsredigeraren och kan användas i _delad sökväg efter konto_ och _delad sökväg av personer_-noder.
+Du kan använda relationsscheman (modellbaserade klasser) för att dela banor efter konto eller personer. De anpassade objekten definieras i _relationsscheman_, och en produktadministratör kan [konfigurera relationsschemafält &#x200B;](../admin/xdm-field-management.md#relational-schemas) i [!DNL Journey Optimizer B2B Edition]. De markerade schemafälten är tillgängliga i villkorsredigeraren och kan användas i _delad sökväg efter konto_ och _delad sökväg av personer_-noder.
 
 För ett **[!UICONTROL Split path by account]**-villkor använder du sökfältet för att filtrera listan efter det anpassade objektnamnet under _[!UICONTROL Account Attributes]_. Lägg till villkoret och ange värdet till `true` eller `false`.
 

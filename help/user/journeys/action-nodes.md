@@ -38,7 +38,7 @@ Använd en kontoåtgärd när du vill tillämpa en ändring på alla personer so
 
 >[!NOTE]
 >
->Åtgärden _[!UICONTROL Account Change Data Value]_har tagits bort för version 2025.10._[!UICONTROL Update account profile]_ ersätter den här åtgärden i Journey Optimizer B2B Edition.<br/>
+>Åtgärden _[!UICONTROL Account Change Data Value]_&#x200B;har tagits bort för version 2025.10._[!UICONTROL Update account profile]_ ersätter den här åtgärden i Journey Optimizer B2B Edition.<br/>
 >
 >En administratör kan konfigurera tillgängliga attribut för XDM Business Account genom att uppdatera fälten i _[!UICONTROL XDM Classes]_>_[!UICONTROL Standard classes]_. Mer information finns i [Standardklasser](../admin/xdm-field-management.md#standard-classes).
 
@@ -110,9 +110,9 @@ Använd en åtgärd för personer på ett konto eller en personresa när du vill
 
 >[!NOTE]
 >
->Åtgärderna _[!UICONTROL Change People Partition in Marketo Engage]_och_[!UICONTROL Change Score]_ har tagits bort för version 2025.10 och är inte längre tillgängliga i Journey Optimizer B2B Edition.<br/>
+>Åtgärderna _[!UICONTROL Change People Partition in Marketo Engage]_&#x200B;och&#x200B;_[!UICONTROL Change Score]_ har tagits bort för version 2025.10 och är inte längre tillgängliga i Journey Optimizer B2B Edition.<br/>
 >
->Åtgärden _[!UICONTROL Change Data Value]_har tagits bort för version 2025.10. Den har ersatts med_[!UICONTROL Update person profile]_ i den aktuella Journey Optimizer B2B Edition-versionen.
+>Åtgärden _[!UICONTROL Change Data Value]_&#x200B;har tagits bort för version 2025.10. Den har ersatts med&#x200B;_[!UICONTROL Update person profile]_ i den aktuella Journey Optimizer B2B Edition-versionen.
 
 ### Lägga till en personbaserad åtgärd
 
@@ -257,7 +257,7 @@ Använd den här åtgärden om du vill ändra värdet för ett [personprofilattr
 
 >[!NOTE]
 >
->_[!UICONTROL Update person profile]_ersätter åtgärden_[!UICONTROL Change Data Value]_ i den aktuella Journey Optimizer B2B Edition-versionen.<br/>
+>_[!UICONTROL Update person profile]_&#x200B;ersätter åtgärden&#x200B;_[!UICONTROL Change Data Value]_ i den aktuella Journey Optimizer B2B Edition-versionen.<br/>
 >
 >En administratör kan konfigurera tillgängliga attribut för den enskilda XDM-profilen genom att uppdatera fälten i _[!UICONTROL XDM Classes]_> [!UICONTROL Standard classes]. Mer information finns i [Standardklasser](../admin/xdm-field-management.md#standard-classes).
 
