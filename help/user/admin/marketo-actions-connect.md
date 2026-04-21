@@ -15,7 +15,7 @@ ht-degree: 80%
 
 Marketo Engage-åtgärder är _personbaserade_-åtgärder som gör att du kan koordinera din _kontobaserade_ marknadsföringssamordning mellan Journey Optimizer B2B edition och dina _lead-baserade_ marknadsföringssatsningar i Marketo Engage. Använd dessa åtgärder för att samordna statiskt listmedlemskap och för att placera personer i kampanjer.
 
-Om du vill använda Marketo Engage reseåtgärder skapar en administratör först en [anpassad tjänst](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} i Marketo Engage, som tillhandahåller de autentiseringsuppgifter som krävs för autentisering. Därefter använder en produktadministratör för Journey Optimizer B2B edition inloggningsuppgifterna för att skapa en anslutning till Marketo Engage. Journey Optimizer B2B Edition-användare kan sedan referera till anslutningen för att konfigurera Marketo Engage-åtgärder personligen och kontoresor:
+Om du vill använda Marketo Engage reseåtgärder skapar en administratör först en [anpassad tjänst](https://experienceleague.adobe.com/sv/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} i Marketo Engage, som tillhandahåller de autentiseringsuppgifter som krävs för autentisering. Därefter använder en produktadministratör för Journey Optimizer B2B edition inloggningsuppgifterna för att skapa en anslutning till Marketo Engage. Journey Optimizer B2B Edition-användare kan sedan referera till anslutningen för att konfigurera Marketo Engage-åtgärder personligen och kontoresor:
 
 * [!UICONTROL Add to Marketo List]
 * [!UICONTROL Remove from Marketo List]
@@ -32,14 +32,14 @@ Utför följande uppgifter för att konfigurera en extern Marketo Engage-instans
 
 ### Skapa Marketo Engage anpassade tjänst
 
-1. Logga in på Marketo Engage som administratör och [skapa en anpassad tjänst](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Logga in på Marketo Engage som administratör och [skapa en anpassad tjänst](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Kopiera följande värden som ska användas för Journey Optimizer B2B edition-anslutningen:
 
    * MUNCHKIN ID
    * Klient-ID
    * Klienthemlighet
 
-Rollbehörigheterna [&#x200B; som tilldelats i den anpassade tjänsten &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} styr synligheten för Marketo Engage-arbetsytan för resurser, till exempel listor och kampanjer. Marknadsförarna kan använda samma uppkoppling flera gånger under en resa och använda olika Marketo Engage-anslutningar under samma resa.
+Rollbehörigheterna [&#x200B; som tilldelats i den anpassade tjänsten &#x200B;](https://experienceleague.adobe.com/sv/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} styr synligheten för Marketo Engage-arbetsytan för resurser, till exempel listor och kampanjer. Marknadsförarna kan använda samma uppkoppling flera gånger under en resa och använda olika Marketo Engage-anslutningar under samma resa.
 
 ### Lägg till integreringen
 

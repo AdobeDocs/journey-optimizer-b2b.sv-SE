@@ -31,7 +31,7 @@ Du kan dela domänmärkning med retursökvägar mellan din Marketo Engage-instan
 
 >[!PREREQUISITES]
 >
->Innan du redigerar eller lägger till en domän i användargränssnittet måste du ha en [mappad CNAME till en Marketo Engage-domän som tillhandahålls av Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Innan du redigerar eller lägger till en domän i användargränssnittet måste du ha en [mappad CNAME till en Marketo Engage-domän som tillhandahålls av Adobe](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
 >När du lägger till en domän söker systemet efter befintliga SSL:er, som kan ha skapats manuellt tidigare. Om den här valideringen inträffar skapar du din domän utan att välja SSL-skapande och ansluter den sedan som en separat procedur.
 
@@ -93,7 +93,7 @@ _Lägga till domänen :_
 
    >[!NOTE]
    >
-   >**_Anpassade SSL:er_**: Om du behöver en anpassad SSL:er kan du skicka en [supportanmälan](https://experienceleague.adobe.com/en/support){target="_blank"}. Använd inte kryssrutan för SSL-skapande.
+   >**_Anpassade SSL:er_**: Om du behöver en anpassad SSL:er kan du skicka en [supportanmälan](https://experienceleague.adobe.com/sv/support){target="_blank"}. Använd inte kryssrutan för SSL-skapande.
 
 1. Om flera arbetsytor har definierats för din Marketo Engage-instans klickar du på **[!UICONTROL Next]**.
 

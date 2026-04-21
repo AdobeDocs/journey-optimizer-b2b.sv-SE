@@ -69,7 +69,7 @@ Till exempel:
 
 ### Tillhandahåll SSL-certifikatet
 
-Kontakta [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} för att starta processen med att etablera ett SSL-certifikat.
+Kontakta [Adobe Support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support){target="_blank"} för att starta processen med att etablera ett SSL-certifikat.
 
 Denna process kan ta upp till tre arbetsdagar att slutföra.
 
@@ -102,7 +102,7 @@ Du kan använda samma DKIM-konfiguration för din produktion av Marketo Engage-i
 
    `[DKIMDomain2]`: Värdposten är `[HostRecord2]` och TXT-värdet är `[TXTValue2]`.
 
-   Kopiera `HostRecord` och `TXTValue` för varje DKIM-domän efter att ha följt [instruktionerna](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen. Du kan verifiera domänerna i Journey Optimizer B2B edition (se [SPF/DKIM](../admin/configure-channels-emails.md#spfdkim)).
+   Kopiera `HostRecord` och `TXTValue` för varje DKIM-domän efter att ha följt [instruktionerna](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen. Du kan verifiera domänerna i Journey Optimizer B2B edition (se [SPF/DKIM](../admin/configure-channels-emails.md#spfdkim)).
 
 ## Konfigurera DMARC
 
@@ -185,7 +185,7 @@ Det finns två typer av justering för DMARC:
 
   DKIM-justering validerar om avsändaren har behörighet att skicka e-post från domänen och verifierar att inget innehåll har ändrats under e-postöverföring. Så här implementerar du DKIM-anpassade DMARC:
 
-   * Konfigurera DKIM för e-postmeddelandets MAIL FROM-domän. Använd [instruktionerna](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen.
+   * Konfigurera DKIM för e-postmeddelandets MAIL FROM-domän. Använd [instruktionerna](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"} i Marketo Engage-dokumentationen.
 
    * Konfigurera DMARC för domänen DKIM MAIL FROM.
 
@@ -208,13 +208,13 @@ Det finns två typer av justering för DMARC:
 
 ### Dedikerade IP-adresser och delad pool
 
-Om du skickar e-post via Marketo Engage via en dedikerad IP-adress och inte har implementerat en profilerad retursökväg (eller om du inte vet om du har det), öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"}.
+Om du skickar e-post via Marketo Engage via en dedikerad IP-adress och inte har implementerat en profilerad retursökväg (eller om du inte vet om du har det), öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support){target="_blank"}.
 
 >[!BEGINSHADEBOX]
 
 **Migrerar dedikerade IP-adresser till Journey Optimizer B2B Edition**
 
-Om du har dedikerade IP-adresser måste du ha den nya Journey Optimizer B2B edition-instansen skapad i samma region som din befintliga Marketo Engage-instans. Om den nya instansen finns i en annan region går det inte att dela den befintliga IP-adressen. Om regionen matchar öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=en&support-tab=home#support){target="_blank"} för att begära att dina befintliga IP-adresser och bindningsgrupper delas med den nya instansen. Ange ditt Marketo Engage-prefix (Munchkin-ID) och ditt nya Journey Optimizer B2B edition-prefix (Munchkin-ID).
+Om du har dedikerade IP-adresser måste du ha den nya Journey Optimizer B2B edition-instansen skapad i samma region som din befintliga Marketo Engage-instans. Om den nya instansen finns i en annan region går det inte att dela den befintliga IP-adressen. Om regionen matchar öppnar du en biljett med [Adobe Support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support){target="_blank"} för att begära att dina befintliga IP-adresser och bindningsgrupper delas med den nya instansen. Ange ditt Marketo Engage-prefix (Munchkin-ID) och ditt nya Journey Optimizer B2B edition-prefix (Munchkin-ID).
 
 Med den här begäran replikerar Adobe samma IP-adresser, bindningsgrupper och konfigurerade Return-Path-domäner som din befintliga Marketo Engage-instans. När IP-adresser delas mellan dina Marketo Engage- och Journey Optimizer B2B Edition-instanser använder de dem samtidigt.
 
@@ -237,11 +237,11 @@ Med en MX-post kan du ta emot e-post till domänen som du skickar e-post från f
 Marketo Engage skapar en utgående anslutning till en Internet-server åt dig. Din IT-organisation och vissa partners/leverantörer kan använda tillåtelselista för att begränsa åtkomsten till servrar. Om så är fallet måste du förse dem med utgående IP-adressblock från Marketo Engage som kan läggas till i tillåtelselista.
 
 <!--
-Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
 -->
 
 ## Utgående IP-adressblock
