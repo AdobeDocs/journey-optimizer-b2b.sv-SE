@@ -65,7 +65,7 @@ Till exempel:
 
 >[!NOTE]
 >
->Värdet `[MktoTrackingLink]` måste vara [varumärkningsdomänens ](../admin/configure-channels-emails.md#branding-domains) standardvärde.
+>Värdet `[MktoTrackingLink]` måste vara [varumärkningsdomänens &#x200B;](../admin/configure-channels-emails.md#branding-domains) standardvärde.
 
 ### Tillhandahåll SSL-certifikatet
 

@@ -39,7 +39,7 @@ Utför följande uppgifter för att konfigurera en extern Marketo Engage-instans
    * Klient-ID
    * Klienthemlighet
 
-Rollbehörigheterna [ som tilldelats i den anpassade tjänsten ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} styr synligheten för Marketo Engage-arbetsytan för resurser, till exempel listor och kampanjer. Marknadsförarna kan använda samma uppkoppling flera gånger under en resa och använda olika Marketo Engage-anslutningar under samma resa.
+Rollbehörigheterna [&#x200B; som tilldelats i den anpassade tjänsten &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"} styr synligheten för Marketo Engage-arbetsytan för resurser, till exempel listor och kampanjer. Marknadsförarna kan använda samma uppkoppling flera gånger under en resa och använda olika Marketo Engage-anslutningar under samma resa.
 
 ### Lägg till integreringen
 

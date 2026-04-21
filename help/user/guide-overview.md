@@ -109,8 +109,8 @@ Kommunikationskanaler
 Konfigurera och hantera e-post, SMS, whatsApp och andra kanaler för personaliserade kundinteraktioner.
 
 [Konfigurera e-postkanal](./admin/configure-channels-emails.md)
-[ Konfigurera SMS-kanal](./admin/configure-channels-sms.md)
-[ Konfigurera whatsApp-kanal ](./admin/configure-channels-whatsapp.md)
+[&#x200B; Konfigurera SMS-kanal](./admin/configure-channels-sms.md)
+[&#x200B; Konfigurera whatsApp-kanal &#x200B;](./admin/configure-channels-whatsapp.md)
 :::
 
 :::
