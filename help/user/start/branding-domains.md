@@ -3,10 +3,11 @@ title: Konfigurera profileringsdomäner
 description: Konfigurera era varumärkesdomäner så att alla varumärken har sina egna varumärkesspårningslänkar.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 0%
+source-wordcount: '979'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +23,7 @@ En varumärkesdomän i Marketo Engage är en anpassad underdomän (till exempel 
 
 **Unika CNAME:er för spårning av länkar**
 
-Spårningslänkar för e-post måste vara nya och unika för den bifogade Marketo Engage-instansen. Om du har befintliga CNAME-filer för spårning av länkar pekar på en befintlig (produktion) Marketo Engage-instans, kan de inte återanvändas _as-is_.
+Spårningslänkar för e-post måste vara nya och unika för den bifogade Marketo Engage-instansen. Om du har befintliga CNAME-filer för spårning av länkar som pekar på en befintlig (produktion) Marketo Engage-instans, kan de inte återanvändas utan ändringar.
 
 Du kan dela domänmärkning med retursökvägar mellan din Marketo Engage-instans och den bifogade instansen, men detta är en serverdelsändring. Öppna en supportanmälan och ange ditt Marketo Engage-prefix (Munchkin-ID) och ditt nya Journey Optimizer B2B edition-prefix (Munchkin-ID) för att begära delad domänmärkning med retursökvägar.
 
@@ -30,9 +31,9 @@ Du kan dela domänmärkning med retursökvägar mellan din Marketo Engage-instan
 
 >[!PREREQUISITES]
 >
->Innan du redigerar eller lägger till en domän i användargränssnittet måste du ha en [mappad CNAME till en Marketo Engage-domän som tillhandahålls av Adobe](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
+>Innan du redigerar eller lägger till en domän i användargränssnittet måste du ha en [mappad CNAME till en Marketo Engage-domän som tillhandahålls av Adobe](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"}.
 >
->När du lägger till en domän söker systemet efter befintliga SSL:er, som kan ha skapats manuellt tidigare. Om den här valideringen inträffar skapar du din domän utan att välja SSL-skapande och ansluter dem sedan som en separat procedur.
+>När du lägger till en domän söker systemet efter befintliga SSL:er, som kan ha skapats manuellt tidigare. Om den här valideringen inträffar skapar du din domän utan att välja SSL-skapande och ansluter den sedan som en separat procedur.
 
 ## Få åtkomst till varumärkesdomäner i Marketo Engage
 
@@ -52,11 +53,11 @@ Det första steget när du arbetar med varumärkesdomäner är att redigera stan
 >
 >Du kan inte definiera ytterligare en varumärkesdomän förrän du har redigerat den allmänna standarddomänen.
 
-1. Markera den generiska domänen på panelen _[!UICONTROL Branding Domains]_&#x200B;och klicka på&#x200B;**[!UICONTROL Edit]**&#x200B;överst.
+1. Markera den generiska domänen på panelen _[!UICONTROL Branding Domains]_och klicka på&#x200B;**[!UICONTROL Edit]**överst.
 
    ![Panelen Varumärkesdomäner med den generiska domänen markerad](./assets/me-admin-email-branding-domains-edit-default.png){width="500"}
 
-1. I dialogrutan _[!UICONTROL Edit Branding Domain]_&#x200B;anger du namnet på din standarddomän i fältet **[!UICONTROL Domain]**.
+1. I dialogrutan _[!UICONTROL Edit Branding Domain]_anger du namnet på din standarddomän i fältet **[!UICONTROL Domain]**.
 
    ![Dialogrutan Redigera profileringsdomän](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
@@ -70,11 +71,11 @@ Det första steget när du arbetar med varumärkesdomäner är att redigera stan
 
 ## Definiera ytterligare en domän
 
-När du har redigerat standarddomänen kan du lägga till en annan varumärkesdomän om du vill köra flera varumärken från din Journey Optimizer B2B edition-miljö där var och en har sina egna varumärkesspårningslänkar. När du lägger till en domän har du följande alternativ:
+När du har redigerat standarddomänen kan du lägga till en annan varumärkesdomän för att stödja flera varumärken i din Journey Optimizer B2B Edition-miljö, där var och en har sina egna varumärkesspårningslänkar. När du lägger till en domän har du följande alternativ:
 
 >* _Gör primär domän_: Gör detta till den primära domänen för arbetsytan. När du väljer det här alternativet anges alla befintliga e-postmeddelanden som inte skickats till den primära standarddomänen och alla nya e-postmeddelanden används automatiskt som standard för den här primära domänen. Marknadsförarna kan vid behov välja en alternativ varumärkesdomän.
 >
->* _Generera SSL-certifikat_: Skapa ett SSL-lager (Secure Sockets Layer) när du skapar domänen. Den första spårningsdomänen initierar en engångsinställning av infrastrukturen som kan ta några timmar. Systemet skickar ett meddelande när det är klart.
+>* _Generera SSL-certifikat_: Skapa ett SSL-lager (Secure Sockets Layer) när du skapar domänen. Den första spårningsdomänen initierar en engångsinstallation av infrastruktur som kan ta några timmar. Systemet skickar ett meddelande när det är klart.
 
 _Lägga till domänen :_
 
@@ -82,17 +83,17 @@ _Lägga till domänen :_
 
    ![Panelen Varumärkesdomäner med knappen Lägg till överst](assets/me-admin-email-branding-domains-add.png){width="500"}
 
-1. I dialogrutan _[!UICONTROL New Branding Domain]_&#x200B;anger du namnet på varumärkesdomänen i fältet **[!UICONTROL Domain]**.
+1. I dialogrutan _[!UICONTROL New Branding Domain]_anger du namnet på varumärkesdomänen i fältet **[!UICONTROL Domain]**.
 
 1. (Valfritt) Markera kryssrutan **[!UICONTROL Generate SSL Certificate]** om du vill generera en SSL automatiskt för domänen.
 
    ![Dialogrutan Ny profileringsdomän](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
-   Om det behövs och är tillgängligt kan du även markera kryssrutan _Gör primär domän_ .
+   Om det behövs och är tillgängligt kan du även markera kryssrutan _Skapa primär domän_ .
 
    >[!NOTE]
    >
-   >**_Anpassade SSL:er_**: Om du behöver en anpassad SSL:er kan du skicka en [supportanmälan](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Använd inte kryssrutan för SSL-skapande.
+   >**_Anpassade SSL:er_**: Om du behöver en anpassad SSL:er kan du skicka en [supportanmälan](https://experienceleague.adobe.com/en/support){target="_blank"}. Använd inte kryssrutan för SSL-skapande.
 
 1. Om flera arbetsytor har definierats för din Marketo Engage-instans klickar du på **[!UICONTROL Next]**.
 
@@ -108,7 +109,7 @@ Följ de här stegen för att aktivera SSL för dina befintliga domäner.
 
 1. Välj **[!UICONTROL Email]** i området _[!UICONTROL Admin]_.
 
-1. Markera domänraden på panelen _[!UICONTROL Branding Domains]_&#x200B;och klicka på&#x200B;**[!UICONTROL Add SSL]**.
+1. Markera domänraden på panelen _[!UICONTROL Branding Domains]_och klicka på&#x200B;**[!UICONTROL Add SSL]**.
 
    ![Panelen Varumärkesdomäner med Lägg till SSL överst](./assets/me-admin-email-branding-domain-add-ssl.png){width="500"}
 
@@ -135,4 +136,4 @@ Följ de här stegen för att aktivera SSL för dina befintliga domäner.
 >
 >SSL-certifikatet tas inte bort när domänen **_tas bort._** Skyddsplanen förhindrar användarfel som gör att en webbplats saknar SSL-certifikat. Kontakta Adobe support om du vill ta bort SSL-certifikaten.
 
-Markera domänen på panelen _[!UICONTROL Branding Domains]_&#x200B;och klicka på&#x200B;**[!UICONTROL Delete]**&#x200B;överst.
+Markera domänen på panelen _[!UICONTROL Branding Domains]_och klicka på&#x200B;**[!UICONTROL Delete]**överst.

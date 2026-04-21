@@ -4,10 +4,10 @@ description: Använd XDM-fälthantering för att styra vilka data som är tillg�
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 95%
+source-wordcount: '1131'
+ht-degree: 89%
 
 ---
 
@@ -40,12 +40,12 @@ Administratörer som förstår XDM och samarbetar med datatekniker eller intress
 Använd följande riktlinje för att göra fältmarkeringar:
 
 * Du kan bara lägga till nya fält efter att ett schema aktivt används under en resa.
-* Om du tar bort, byter namn på eller ändrar fälttyper kan det medföra problem med resefunktionen. Var försiktig när du manipulerar scheman.
+* Om du tar bort, byter namn på eller ändrar fälttyper kan det medföra problem med resefunktionen. Var försiktig när du ändrar scheman.
 * Byt inte namn på eller ta bort scheman och ändra inte nycklar i relationsscheman.
 
 ### Standardklasser
 
-På fliken _[!UICONTROL Standard]_&#x200B;kan du redigera_ hanterade fält _och_ uppdateringsbara fält _för standardklasserna:
+På fliken _[!UICONTROL Standard]_kan du redigera_ hanterade fält _och_ uppdateringsbara fält _för standardklasserna:
 
 * Hanterade fält visas på resor, i inköpsgrupper och i personaliseringsfunktioner.
 * Uppdateringsbara fält fungerar som begränsningar för noderna _Uppdatera kontoprofil_ och _Uppdatera personprofil_.
@@ -63,7 +63,7 @@ Den klassinformation som visas omfattar:
 * Antal uppdateringsbara fält
 * Senaste uppdateringstid
 
-Om du vill välja fält från unionsschemat för standard-XDM-klasser klickar du på klassnamnet för att öppna dialogrutan _Hanterade fält_ eller klickar på ikonen _Mer meny_ ( **...** ) för att välja mellan _[!UICONTROL Managed fields]_&#x200B;och&#x200B;_[!UICONTROL Updatable fields]_.
+Om du vill välja fält från unionsschemat klickar du på klassnamnet för att öppna dialogrutan för val av hanterade fält. Eller klicka på menyn _Mer_ (**..**) och välja mellan Hanterade och Uppdateringsbara fält.
 
 ![Klicka på ikonen Mer för att välja mellan hanterade fält och uppdateringsbara fält](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
 
@@ -77,7 +77,7 @@ När du väljer **[!UICONTROL Managed fields]** visas alla konfigurerbara fält 
 
 1. Välj upp till 100 fält för varje XDM-klass.
 
-   Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
+   Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
 
    ![Dialogrutan för val av hanterade fält för standard-XDM-klasser som visar alternativ för konfigurerbara fält](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
@@ -87,7 +87,7 @@ När du väljer **[!UICONTROL Managed fields]** visas alla konfigurerbara fält 
 
 Ställ in de uppdateringsbara fälten för att välja vilka fält som kan ändras via **[!UICONTROL Update Account Profile]** eller **[!UICONTROL Update Person Profile]** reseåtgärder.
 
-Innan du konfigurerar uppdateringsbara fält måste de finnas i en anpassad datamängd. En genomgång av arbetsflödet för anpassade datauppsättningar finns i [Skapa datauppsättningar och importera data](https://experienceleague.adobe.com/sv/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} och använd alternativet **[!UICONTROL Create dataset from schema]**. Den här datauppsättningen används för att isolera uppdateringsbara fält. Alla uppdateringsbara fält måste finnas i den här datauppsättningen.
+Innan du konfigurerar uppdateringsbara fält måste de finnas i en anpassad datamängd. En genomgång av arbetsflödet för anpassade datauppsättningar finns i [Skapa datauppsättningar och importera data](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} och använd alternativet **[!UICONTROL Create dataset from schema]**. Den här datauppsättningen används för att isolera uppdateringsbara fält. Alla uppdateringsbara fält måste finnas i den här datauppsättningen.
 
 >[!IMPORTANT]
 >
@@ -108,7 +108,7 @@ Skapa en datauppsättning för Individual Profile och en annan för Business Acc
 
 ### Relationsscheman
 
-Med Relationsscheman kan du skapa anpassade dataklasser. Med tillgång till flera datauppsättningar kan du skapa klasser som är särskilt anpassade efter dina databehov. Använd relationsscheman för affärsenheter som inköp, licenser och händelseregistreringar i resebeslut och e-postpersonalisering. Du kan välja upp till 20 scheman och upp till 50 fält per schema.
+Med Relationsscheman kan du skapa anpassade dataklasser. Med tillgång till flera datauppsättningar kan du skapa klasser som är särskilt anpassade efter dina databehov. Använd relationsscheman för affärsenheter, som inköp, licenser och händelseregistreringar, vid resebeslut och e-postpersonalisering. Du kan välja upp till 20 scheman och upp till 50 fält per schema.
 
 Det finns flera funktioner som stöder användning av konfigurerade relationsscheman och fält:
 
@@ -118,7 +118,7 @@ Det finns flera funktioner som stöder användning av konfigurerade relationssch
 
 >[!AVAILABILITY]
 >
->[Relationsscheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad tillgänglighetsversion. Data Mirror och relationsscheman är tillgängliga för [!DNL Journey Optimizer Orchestrated Campaigns] licensinnehavare. Relationsscheman är också tillgängliga som en begränsad version för [!DNL Customer Journey Analytics]-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
+>[Relationsscheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) är tillgängliga för [!DNL Journey Optimizer B2B Edition] som en begränsad tillgänglighetsversion. Data Mirror och relationsscheman är tillgängliga för [!DNL Journey Optimizer Orchestrated Campaigns] licensinnehavare. Relationsscheman är också tillgängliga som en begränsad version för [!DNL Customer Journey Analytics]-användare, beroende på din licens och aktivering av funktioner. Kontakta din Adobe-representant för att få åtkomst.
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ När du skapar ett schema för användning med [!DNL Journey Optimizer B2B Editi
 * Beteende: Post
 * Segmentering: Aktiverad
 * Relationstyp: många-till-ett
-* Referensschema: [B2B-konto](https://experienceleague.adobe.com/sv/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+* Referensschema: [B2B-konto](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
 * Obligatoriska fält: Primär nyckel, sekundärnyckel och versionsbeskrivning
 * Associerad datauppsättning: Definierad och mappad till schemat
 
@@ -175,7 +175,7 @@ Så här väljer du relationsschemafält som ska användas i [!DNL Journey Optim
    * Primär nyckel
    * Versionsbeskrivare
 
-   Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
+   Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
 
    ![Välj fält för relationsschemat i dialogrutan](./assets/xdm-classes-relational-select-schema-fields.png){width="500" zoomable="yes"}
 
