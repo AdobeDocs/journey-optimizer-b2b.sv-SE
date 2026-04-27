@@ -45,7 +45,7 @@ Använd följande riktlinje för att göra fältmarkeringar:
 
 ### Standardklasser
 
-På fliken _[!UICONTROL Standard]_kan du redigera_ hanterade fält _och_ uppdateringsbara fält _för standardklasserna:
+På fliken _[!UICONTROL Standard]_&#x200B;kan du redigera_ hanterade fält _och_ uppdateringsbara fält _för standardklasserna:
 
 * Hanterade fält visas på resor, i inköpsgrupper och i personaliseringsfunktioner.
 * Uppdateringsbara fält fungerar som begränsningar för noderna _Uppdatera kontoprofil_ och _Uppdatera personprofil_.
@@ -77,7 +77,7 @@ När du väljer **[!UICONTROL Managed fields]** visas alla konfigurerbara fält 
 
 1. Välj upp till 100 fält för varje XDM-klass.
 
-   Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
+   Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
 
    ![Dialogrutan för val av hanterade fält för standard-XDM-klasser som visar alternativ för konfigurerbara fält](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
@@ -175,7 +175,7 @@ Så här väljer du relationsschemafält som ska användas i [!DNL Journey Optim
    * Primär nyckel
    * Versionsbeskrivare
 
-   Använd fältet _[!UICONTROL Search]_för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**för att granska de aktuella markeringarna.
+   Använd fältet _[!UICONTROL Search]_&#x200B;för att filtrera den visade listan efter namn. Använd skjutreglaget **[!UICONTROL Only show selected fields]**&#x200B;för att granska de aktuella markeringarna.
 
    ![Välj fält för relationsschemat i dialogrutan](./assets/xdm-classes-relational-select-schema-fields.png){width="500" zoomable="yes"}
 
