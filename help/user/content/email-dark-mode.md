@@ -1,13 +1,13 @@
 ---
 title: Mörkt läge för e-postinnehåll
-description: Lär dig mer om e-postdesign i mörkläge i Journey Optimizer B2B edition. Förhandsgranska återgivning, anpassa inställningarna, kontrollera tillgänglighet och testa för alla e-postklienter.
+description: Lär dig mer om e-postdesign i mörkläge i Journey Optimizer B2B Edition. Förhandsgranska återgivning, anpassa inställningarna, kontrollera tillgänglighet och testa för alla e-postklienter.
 feature: Email Authoring
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: mörkt läge, e-post, färg, design
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 781a1043d2da8fb8e2eb14936dea209bd2ff0f2e
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 2%
@@ -28,9 +28,9 @@ ht-degree: 2%
 
 _Mörkt läge_ gör att en e-postklient eller app som stöder det kan visa e-postmeddelanden med mörkare bakgrund och ljusare färger för text, knappar och andra visuella element. Den här typen av bildskärm kan minska ögonbelastningen, spara batteritid och förbättra läsbarheten i miljöer med svag belysning för en mer bekväm visningsupplevelse. Som en allt större trend för större operativsystem och appar är det nu en viktig faktor i den moderna e-postdesignen för att säkerställa att innehållet förblir läsbart och visuellt tilltalande för alla användare.
 
-![Konceptionsdiagram för ljust och mörkt läge med återgivning av innehåll i både ljusa och mörka teman](../assets/do-not-localize/light-dark-mode.svg){width="50%"}
+![Konceptionsdiagram för ljust och mörkt läge med återgivning av innehåll i både ljusa och mörka teman](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-När du [skapar ditt e-postinnehåll](./email-authoring.md) i den visuella designrymden [!DNL Journey Optimizer B2B Edition] kan du växla till _&#x200B;**[!UICONTROL Dark mode]**&#x200B;_-vyn. I den här vyn kan du även definiera specifika anpassade inställningar för stöd av e-postklienter när deras mörka läge är aktiverat.
+När du [skapar ditt e-postinnehåll](./email-authoring.md) i den visuella designrymden [!DNL Journey Optimizer B2B Edition] kan du växla till _**[!UICONTROL Dark mode]**_-vyn. I den här vyn kan du även definiera specifika anpassade inställningar för stöd av e-postklienter när deras mörka läge är aktiverat.
 
 ## Ta hänsyn till e-postklienter {#email-client-considerations}
 
