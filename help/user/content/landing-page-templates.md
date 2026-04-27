@@ -1,16 +1,16 @@
 ---
 title: Mallar för landningssidor
-description: Skapa, hantera och återanvänd mallar för landningssidor - designa från grunden, importera HTML, duplicera, ta bort och spåra användningen för marknadsföringsteam i Journey Optimizer B2B edition.
+description: Skapa, hantera och återanvänd mallar för landningssidor - designa från grunden, importera HTML, duplicera, ta bort och spåra användningen för marknadsföringsteam i Journey Optimizer B2B Edition.
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Den här funktionen är för närvarande i en begränsad betaversion"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 0%
+source-wordcount: '1223'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ För en snabbare och förbättrad designprocess kan du skapa fristående mallar 
 
 ## Få åtkomst till och hantera mallar för landningssidor
 
-Gå till **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om du vill komma åt landningssidmallar i Adobe Journey Optimizer B2B edition. Välj _[!UICONTROL WEB]_&#x200B;under **[!UICONTROL Landing page templates]**&#x200B;i navigeringspanelen.
+Gå till **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om du vill komma åt landningssidmallar i Adobe Journey Optimizer B2B Edition. Välj **[!UICONTROL Landing page templates]** under _[!UICONTROL WEB]_i navigeringspanelen.
 
 Den listsida som visas innehåller alla landningssidmallar som skapats i den instans som anges i tabellformat. Tabellen sorteras som standard efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade mallarna överst. Klicka på kolumnrubriken om du vill ändra mellan stigande och fallande.
 
@@ -44,7 +44,7 @@ Du kan skapa en landningssidmall från landningssidans mallsida genom att klicka
 
 1. Klicka på **[!UICONTROL Create]**.
 
-Sidan _[!UICONTROL Create your primary landing page]_&#x200B;öppnas och innehåller alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_&#x200B;eller välj något av&#x200B;_[!UICONTROL Saved templates]_.
+Sidan _[!UICONTROL Create your primary landing page]_öppnas och innehåller alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_eller välj något av_[!UICONTROL Saved templates]_.
 
 ![Välj hur du vill börja med layouten för landningssidans mall](./assets/landing-page-templates-create-design.png){width="800" zoomable="yes"}
 
@@ -58,13 +58,13 @@ Använd det visuella designutrymmet för att definiera strukturen för innehåll
 >
 >De tillgängliga designverktygen motsvarar de verktyg som används för att utforma landningssidor. Skillnaden är att det här innehållet sparas som en mall som kan återanvändas på flera landningssidor.
 
-1. Välj alternativet _[!UICONTROL Design your template]_&#x200B;på startsidan för **[!UICONTROL Design from scratch]**.
+1. Välj alternativet **[!UICONTROL Design from scratch]** på startsidan för _[!UICONTROL Design your template]_.
 
 1. [Lägg till struktur och innehåll](./landing-page-design.md#add-structure-and-content) i mallen.
 
 ### Importera HTML
 
-Med Adobe Journey Optimizer B2B edition kan du importera befintligt HTML-innehåll för att utforma landningssidmallar.
+Med Adobe Journey Optimizer B2B Edition kan du importera befintligt HTML-innehåll för att utforma dina landningssidmallar.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -123,7 +123,7 @@ Du kan duplicera en landningssidmall på något av följande sätt:
 
   ![Klicka på Mer för att komma åt åtgärderna Ta bort och Duplicera](./assets/template-details-more-menu.png){width="400"}
 
-* Klicka på ellipsen (..) bredvid mallen på listsidan för _[!UICONTROL Landing page templates]_&#x200B;och välj **[!UICONTROL Duplicate]**.
+* Klicka på ellipsen på listsidan _[!UICONTROL Landing page templates]_(..) bredvid mallen och välj **[!UICONTROL Duplicate]**.
 
 Ange ett användbart namn (unikt) och en beskrivning i dialogrutan. Klicka på **[!UICONTROL Duplicate]** för att slutföra åtgärden.
 
@@ -134,7 +134,7 @@ Den duplicerade (nya) landningssidmallen visas sedan i listan _Landningssidmalla
 Det går inte att ångra borttagning av en landningssidmall, så kontrollera innan du startar en borttagningsåtgärd. Du kan ta bort en landningssidmall på något av följande sätt:
 
 * Expandera **[!UICONTROL More]** från mallinformationen till höger och klicka på **[!UICONTROL Delete]**.
-* Klicka på ellipsen (..) bredvid mallen på listsidan _Landing page templates_ och välj **[!UICONTROL Delete]**.
+* Klicka på ellipsen på listsidan _Mallar för landningssida_ (..) bredvid mallen och välj **[!UICONTROL Delete]**.
 
   ![Klicka på ... för att komma åt åtgärderna Duplicera och Ta bort](./assets/templates-list-more-menu.png){width="500"}
 
@@ -144,19 +144,19 @@ Det går inte att ångra borttagning av en landningssidmall, så kontrollera inn
 
 På listsidan för landningssidmallar väljer du flera mallar åt gången genom att markera kryssrutorna till vänster. En banderoll visas längst ned när du väljer flera mallar.
 
-![En banderoll visar antalet valda mallar och ikonen Ta bort &#x200B;](./assets/templates-multi-select-banner.png){width="600"}
+![En banderoll visar antalet valda mallar och ikonen Ta bort ](./assets/templates-multi-select-banner.png){width="600"}
 
 **[!UICONTROL Delete]** - Du kan ta bort upp till 20 mallar samtidigt. I en bekräftelsedialogruta kan du avbryta åtgärden eller bekräfta borttagningen av mallarna.
 
 ## Skapa en landningssida från en sparad mall
 
-Använd avsnittet _[!UICONTROL Create your landing page]_&#x200B;Välj designmall_ från sidan _för att börja skapa innehåll från en mall.
+Använd avsnittet _Välj designmall_ från sidan _[!UICONTROL Create your landing page]_för att börja skapa innehåll från en mall.
 
 Gör så här för att börja bygga innehåll med en av startsidmallarna:
 
 1. Få åtkomst till det visuella designområdet från sidan _Redigera innehåll_.
 
-   Fliken _[!UICONTROL Create your landing page]_&#x200B;Exempelmallar_ är markerad som standard på sidan _.
+   Fliken _Exempelmallar_ är markerad som standard på sidan _[!UICONTROL Create your landing page]_.
 
 1. Om du vill använda en anpassad landningssidmall väljer du fliken **[!UICONTROL Saved templates]**.
 

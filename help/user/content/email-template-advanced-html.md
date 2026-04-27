@@ -1,10 +1,11 @@
 ---
 title: Avancerat HTML-läge för design av e-postmallar
-description: Använd avancerat HTML-läge för att direkt visa och redigera HTML-råkällan för e-postmallsinnehållet i e-postdesignområdet i Journey Optimizer B2B edition.
+description: Använd avancerat HTML-läge för att direkt visa och redigera HTML-råkällan för e-postmallsinnehållet i e-postdesignområdet i Journey Optimizer B2B Edition.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
-source-git-commit: 95dba963e08125370f998cf3960d51ede94c2fb9
+exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -15,10 +16,12 @@ ht-degree: 0%
 
 _Avancerat HTML-läge_ ger en vy där erfarna användare kan visa och redigera råkällkoden för e-postmallens innehåll direkt. Det här läget är idealiskt när du vill infoga avancerade uttryck, t.ex. villkorslogik, direkt i källan. Det är också användbart om du vill göra strukturjusteringar som går utöver vad de visuella designverktygen visar.
 
-<!-- We don't have the code editor at this point 
+<!-- 
+We don't have the code editor at this point 
 >[!NOTE]
 >
->_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. -->
+>_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. 
+-->
 
 >[!AVAILABILITY]
 >
@@ -73,6 +76,6 @@ Det avancerade HTML-läget är tillgängligt från verktygsfältet längst upp i
 
    ![Varningsdialogrutan som sparas är inaktiverad i avancerat HTML-läge](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
 
-1. Klicka på ikonen _[!UICONTROL Desktop]_( ![Skrivbord-ikon &#x200B;](../assets/do-not-localize/icon-desktop-spectrum-1.svg) ) i verktygsfältet för att växla från avancerat HTML-läge (HTML källvy) till den visuella arbetsytan.
+1. Klicka på ikonen _[!UICONTROL Desktop]_( ![Skrivbord-ikon ](../assets/do-not-localize/icon-desktop-spectrum-1.svg) ) i verktygsfältet för att växla från avancerat HTML-läge (HTML källvy) till den visuella arbetsytan.
 
    Dina redigeringar bevaras när du byter vy.
