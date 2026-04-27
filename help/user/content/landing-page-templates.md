@@ -20,7 +20,7 @@ För en snabbare och förbättrad designprocess kan du skapa fristående mallar 
 
 ## Få åtkomst till och hantera mallar för landningssidor
 
-Gå till **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om du vill komma åt landningssidmallar i Adobe Journey Optimizer B2B Edition. Välj **[!UICONTROL Landing page templates]** under _[!UICONTROL WEB]_i navigeringspanelen.
+Gå till **[!UICONTROL Content Management]** > **[!UICONTROL Templates]** om du vill komma åt landningssidmallar i Adobe Journey Optimizer B2B Edition. Välj **[!UICONTROL Landing page templates]** under _[!UICONTROL WEB]_&#x200B;i navigeringspanelen.
 
 Den listsida som visas innehåller alla landningssidmallar som skapats i den instans som anges i tabellformat. Tabellen sorteras som standard efter kolumnen _[!UICONTROL Modified]_, med de senast uppdaterade mallarna överst. Klicka på kolumnrubriken om du vill ändra mellan stigande och fallande.
 
@@ -44,7 +44,7 @@ Du kan skapa en landningssidmall från landningssidans mallsida genom att klicka
 
 1. Klicka på **[!UICONTROL Create]**.
 
-Sidan _[!UICONTROL Create your primary landing page]_öppnas och innehåller alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_eller välj något av_[!UICONTROL Saved templates]_.
+Sidan _[!UICONTROL Create your primary landing page]_&#x200B;öppnas och innehåller alternativ för att skapa mallen:_[!UICONTROL Design from scratch]_, _[!UICONTROL Import HTML]_&#x200B;eller välj något av&#x200B;_[!UICONTROL Saved templates]_.
 
 ![Välj hur du vill börja med layouten för landningssidans mall](./assets/landing-page-templates-create-design.png){width="800" zoomable="yes"}
 
@@ -144,13 +144,13 @@ Det går inte att ångra borttagning av en landningssidmall, så kontrollera inn
 
 På listsidan för landningssidmallar väljer du flera mallar åt gången genom att markera kryssrutorna till vänster. En banderoll visas längst ned när du väljer flera mallar.
 
-![En banderoll visar antalet valda mallar och ikonen Ta bort ](./assets/templates-multi-select-banner.png){width="600"}
+![En banderoll visar antalet valda mallar och ikonen Ta bort &#x200B;](./assets/templates-multi-select-banner.png){width="600"}
 
 **[!UICONTROL Delete]** - Du kan ta bort upp till 20 mallar samtidigt. I en bekräftelsedialogruta kan du avbryta åtgärden eller bekräfta borttagningen av mallarna.
 
 ## Skapa en landningssida från en sparad mall
 
-Använd avsnittet _Välj designmall_ från sidan _[!UICONTROL Create your landing page]_för att börja skapa innehåll från en mall.
+Använd avsnittet _Välj designmall_ från sidan _[!UICONTROL Create your landing page]_&#x200B;för att börja skapa innehåll från en mall.
 
 Gör så här för att börja bygga innehåll med en av startsidmallarna:
 
