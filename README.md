@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARKIVERAD
 
-Den här rapporten har migrerats till <https://github.com/Adobe-Enterprise-Docs/journey-optimizer-b2b.en>.
+Den här rapporten har migrerats till <https://github.com/Adobe-Enterprise-Docs/journey-optimizer-b2b.sv-SE>.
